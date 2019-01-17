@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="sidebar">
+        {% include navigation.html %}
+      </section>
+      <section class="content">
+        <article>
+          <header>
+            <h1>
+              {{ page.title }}
+              <small>{{ page.subheading }}</small>
+            </h1>
+          </header>
+          {{content}}
+        </article>
+      </section>
+    </div>
+  </body>
+</html>

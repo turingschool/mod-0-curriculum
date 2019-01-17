@@ -1,0 +1,35 @@
+title: "Module 0 Curriculum Site - Turing School of Software and Design"
+description: "Open source curriculum for the Turing School of Software and Design's Module 0."
+# url: "http://mod0.turing.io/"
+
+baseurl: ''
+permalink: /:title
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude: [
+  'Gemfile',
+  'Gemfile.lock',
+  'README.md',
+  'LICENSE',
+  'CNAME'
+]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+assets:
+  root_url: '/assets'
+
+images:
+  root_url: '/assets/images'
+
+gems:
+  - jemoji
