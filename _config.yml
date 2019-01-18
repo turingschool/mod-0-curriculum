@@ -1,6 +1,6 @@
 title: "Module 0 Curriculum Site - Turing School of Software and Design"
 description: "Open source curriculum for the Turing School of Software and Design's Module 0."
-# url: "http://mod0.turing.io/"
+url: "//turingschool.github.io/mod-0-curriculum/"
 
 baseurl: ''
 permalink: /:title
