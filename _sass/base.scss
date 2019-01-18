@@ -112,3 +112,21 @@ header {
 .underline {
   text-decoration: underline;
 }
+
+.goals-agenda {
+  background-color: lighten(#9b0428, 55);
+  border: 1px solid #9b0428;
+  padding: 1em;
+}
+
+.goals-agenda div {
+  display: inline-block;
+  width: 45%;
+  margin-left: 1em;
+  vertical-align: top;
+}
+
+.goals-agenda div h3 {
+  text-align: center;
+}
+

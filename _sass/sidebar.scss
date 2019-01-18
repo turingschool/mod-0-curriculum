@@ -21,13 +21,17 @@ $sidebar-color: rgb(245, 245, 245);
   }
 }
 
+h1 {
+  color: #036575;
+}
+
 .sidebar {
   min-width: $sidebar-width;
   max-width: $sidebar-width;
 
   background-color: $sidebar-color;
   color: invert($sidebar-color);
-  border-right: 1px solid darken($sidebar-color, 20);
+  border-right: 1px solid #f9ae06;
   box-shadow: 1px 1px 2px #eee;
 
   @media (max-width: $tablet-width) {
@@ -82,11 +86,11 @@ $sidebar-color: rgb(245, 245, 245);
     color: invert($sidebar-color);
 
     &:hover {
-      background-color: darken($sidebar-color, 10);
+      background-color: #f9ae06;
     }
 
     &:active {
-      background-color: $teal;
+      background-color: #f9ae06;
       box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     }
   }
@@ -112,4 +116,8 @@ $sidebar-color: rgb(245, 245, 245);
 
 .active-link {
   background-color: lighten(#98a1a2, 20);
+}
+
+.active {
+  background-color: red;
 }
