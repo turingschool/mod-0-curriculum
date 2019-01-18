@@ -23,7 +23,7 @@ subheading: Data Types, Iteration, Documentation, Googling
 #### Shortcuts
 
 * Why Shortcuts? 
-* Intro to environment shortcuts
+* Intro to environment and Chrome shortcuts
 
 <div class="try-it">
   <h2>Try it: Shortcuts</h2>
