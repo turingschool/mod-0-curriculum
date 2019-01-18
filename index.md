@@ -5,23 +5,23 @@ title: Mod 0 Curriculum
 
 ## Tech Setup
 
-Complete the following steps in order to get the tools you'll need on your machine. 
+Complete the following steps before Session 2 in order to get the tools you'll need on your machine. 
 
-### New to Mac? 
+### 1) New to Mac? 
 
 If this is your first time using a Mac instead of a PC or Linux, then watch [this video](https://www.youtube.com/watch?v=MN0FD8KW2V4) about the basics of using a Mac.
 
-### Install a Text Editor
+### 2) Install a Text Editor
 
 If you will be a *front-end student*, install [Sublime](https://www.sublimetext.com/). Sublime Text is a program where we edit code - it is a free text editor with many great features that makes editing code more enjoyable compared to a simple text editor. Sublime Text is commonly used in the software development industry, and you will use it throughout your time at Turing. It is a free program, but it will ask you periodically to make a donation - you can just decline and keep using Sublime Text for free.
 
 If you will be a *back-end student*, install [Atom](https://atom.io/). Atom is a program where we edit code - it is a text editor with many great features that makes editing code more enjoyable compared to a simple text editor. Atom is commonly used in the software development industry, and we use it throughout your time at Turing.
 
-### Install Xcode
+### 3) Install Xcode
 
 Download and install Xcode from the Apple App Store on your computer. This will probably take a little while to finish. Xcode is a huge suite of development tools published by Apple. If we wanted to develop software for the Apple Ecosystem (iPhone apps, macOS apps, etc), we would use Xcode as our editor. But even if we aren’t working in this ecosystem, Xcode provides some system dependencies that we’ll want to have available.
 
-### Install Homebrew
+### 4) Install Homebrew
 
 Homebrew is a package management system that makes it easy to install hundreds of open source projects and compile them from source for maximum performance on your machine.
 
@@ -50,7 +50,7 @@ source ~/.bash_profile
 Now run brew doctor again and the warning should be gone.
 ```
 
-### Install Git
+### 5) Install Git
 
 Git is a Version Control System (VCS). It allows you to save work on your project, and reference previous states of a project if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and ANY previous version. Git’s philosophy: never lose anything.
 
@@ -60,7 +60,7 @@ To install Git, we will use Homebrew. In your Terminal, type this:
 brew install git
 ```
 
-### Configure Git
+### 6) Configure Git
 
 We'll want to configure git with some basic information about us.
 
