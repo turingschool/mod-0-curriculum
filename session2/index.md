@@ -9,7 +9,7 @@ subheading: Data Types, Iteration, Documentation, Googling
 * SW define basic data types: strings, arrays, booleans, integers, floats, objects/hashes and identify use cases for each of them
 * SW demonstrate iteration in real-world and programming sitauations
 * SW use documentation to [finish]
-* SW write Google-able questions 
+* SW write Google-able questions
 * SW quickly and easily find answers to programming questions using Google, documentation, blog posts, and stack overflow
 
 
@@ -52,27 +52,27 @@ subheading: Data Types, Iteration, Documentation, Googling
   <p>Practice a few shortcuts in Chrome. Start by opening Chrome with the shortcut you learned above.</p>
   <ul>
     <li>
-      <strong>Open program:</strong>
+      <strong>Open Program:</strong>
       <pre>command + spacebar</pre>
     </li>
     <li>
-      <strong>Bookmark page:</strong>
+      <strong>Bookmark Page:</strong>
       <pre>command + D</pre>
     </li>
     <li>
-      <strong>Open new Tab:</strong>
+      <strong>Open New Tab:</strong>
       <pre>command + T</pre>
     </li>
     <li>
-      <strong>Open new Window:</strong>
+      <strong>Open New Window:</strong>
       <pre>command + N</pre>
     </li>
     <li>
-      <strong>Open new Incognito Window:</strong>
+      <strong>Open New Incognito Window:</strong>
       <pre>command + shift + N</pre>
     </li>
     <li>
-      <strong>Highlight current URL:</strong>
+      <strong>Highlight Current URL:</strong>
       <pre>command + L</pre>
     </li>
     <li>
@@ -80,7 +80,7 @@ subheading: Data Types, Iteration, Documentation, Googling
       <pre>command + K</pre>
     </li>
     <li>
-      <strong>Cycle through tabs:</strong>
+      <strong>Cycle Through Tabs:</strong>
       <pre>Right: control + tab</pre>
       <pre>Left: control + shift + tab</pre>
     </li>
@@ -92,7 +92,11 @@ subheading: Data Types, Iteration, Documentation, Googling
     <li>
       <strong>Close Tab:</strong>
       <pre>command + W</pre>
-    </li>    
+    </li>
+    <li>
+      <strong>Close Program:</strong>
+      <pre>command + Q</pre>
+    </li>   
   </ul>
 </div>
 
