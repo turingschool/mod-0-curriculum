@@ -10,6 +10,11 @@ $sidebar-color: rgb(245, 245, 245);
   }
 }
 
+.sidebar-navigation {
+  position: sticky; 
+  top: 0;
+}
+
 .turing-logo {
   margin: 0;
   max-width: 97%;

@@ -109,6 +109,8 @@ header {
   .content: 100%;
 }
 
+
+
 .underline {
   text-decoration: underline;
 }
@@ -117,16 +119,47 @@ header {
   background-color: lighten(#9b0428, 55);
   border: 1px solid #9b0428;
   padding: 1em;
+  display: flex;
+  margin-bottom: 3em;
+
+  @media (max-width: $tablet-width - 50px) {
+    flex-direction: column;
+  }
+
 }
 
 .goals-agenda div {
-  display: inline-block;
-  width: 45%;
+  flex-grow: 1;
+  flex-basis: 0;
   margin-left: 1em;
   vertical-align: top;
+}
+
+.goals-agenda div ul li {
+  font-size: 0.8em;
 }
 
 .goals-agenda div h3 {
   text-align: center;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $tablet-width - 50px) {
+    flex-direction: column;
+  }
+
+}
+
+.vocab {
+  color: #9b0428;
+  font-weight: bold;
+  background-color: lighten(#9b0428, 65);
+}
+
+.flex-container div {
+  flex-grow: 1;
+  flex-basis: 0;
+}
