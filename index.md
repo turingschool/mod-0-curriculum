@@ -5,7 +5,7 @@ title: Mod 0 Curriculum
 
 ## Tech Setup
 
-Complete the following steps before Session 2 in order to get the tools you'll need on your machine. 
+Complete the following steps before Mod 0 in order to get the tools you'll need on your machine. 
 
 ### 1) New to Mac? 
 
@@ -21,11 +21,18 @@ If you will be a *back-end student*, install [Atom](https://atom.io/). Atom is a
 
 Download and install Xcode from the Apple App Store on your computer. This will probably take a little while to finish. Xcode is a huge suite of development tools published by Apple. If we wanted to develop software for the Apple Ecosystem (iPhone apps, macOS apps, etc), we would use Xcode as our editor. But even if we aren’t working in this ecosystem, Xcode provides some system dependencies that we’ll want to have available.
 
+Once the download is complete, open Xcode and agree to the SLA terms. Then, open the Terminal application, You can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search. Once Terminal is open, type the following into the application: 
+
+```
+xcode-select --install
+```
+When prompted, enter your password. 
+
 ### 4) Install Homebrew
 
 Homebrew is a package management system that makes it easy to install hundreds of open source projects and compile them from source for maximum performance on your machine.
 
-To install homebrew, open the application called Terminal. You can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search. 
+To install homebrew, open Terminal. Again, you can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search. 
 
 Once you have Terminal open, paste this line and hit enter:
 
@@ -72,3 +79,6 @@ Open Terminal with Spotlight search (press the `Command + Space` keys like we di
 git config --global user.name "Alan Turing"
 git config --global user.email alanturing@example.com
 ```
+
+### You're Done!
+
