@@ -600,5 +600,6 @@ git status
 * Typing.io
 * Make a mod 0 directory, then add folders inside for session 1, session 2, session 3, session 4, session 5, and session 6
 * Customize command prompt
-* Read https://chris.beams.io/posts/git-commit/
+* Read: <a href="https://chris.beams.io/posts/git-commit/">Git Commit Article</a>
 * Quickly recognizing misspellings, missing characters, etc.
+* More command line lerning: <a href="https://www.learnenough.com/command-line-tutorial/basics">Command Line Tutorial</a>
