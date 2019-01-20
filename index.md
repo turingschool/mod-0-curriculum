@@ -80,5 +80,9 @@ git config --global user.name "Alan Turing"
 git config --global user.email alanturing@example.com
 ```
 
+### 7) Install Chrome
+
+If you're not already using Chrome, install it from [here](https://www.google.com/chrome/). Chrome includes a set of developer tools that will come in handy down the road. Additionally, it is always on the cutting edge of being able to support new web technologies. 
+
 ### You're Done!
 
