@@ -163,3 +163,19 @@ header {
   flex-grow: 1;
   flex-basis: 0;
 }
+
+.flex-container .uneven {
+  flex-grow: 2;
+}
+
+.things-to-note {
+  margin-top: 2em;
+  background-color: lighten(#f9ae06, 45);
+  border: 1px solid #f9ae06;
+  padding: 1em;
+  margin-bottom: 2em;
+  @media (max-width: $tablet-width - 50px) {
+    flex-direction: column;
+  }
+
+}
