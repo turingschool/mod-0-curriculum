@@ -10,3 +10,7 @@ function toggleMenuItems() {
     $(this).siblings().toggle()
   })
 }
+
+$('.toggle-show').on('click', function(){
+  this.children[0].classList.toggle('hidden');
+});
