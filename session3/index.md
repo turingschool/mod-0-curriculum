@@ -73,7 +73,8 @@ In this diagram, we would say that there's a directory called `essays` that cont
       <li>Use lower case letters when naming directories and files</li>
       <li>Use underscores (_) instead of spaces when naming directories and files</li>
     </ul>
-    <li>Folders do not have extensions (like .docx or .txt or .csv, etc.) but file names do have extensions</li>
+    <li>Folders do not have extensions (like <strong>.docx</strong> or <strong>.txt</strong> or <strong>.csv</strong>, etc.) but file names do have extensions.</li>
+    <li>File extensions matter. A <strong>.md</strong> file will behave differently than a <strong>.docx</strong> file, which will also behave differently than a <strong>.txt</strong> file. </li>
   </ol>
 </div>
 <hr>
@@ -117,6 +118,7 @@ Your terminal will look something like this:
 
 <img src="images/terminal.png" alt="">
 
+<a name="profiledetour"></a>
 The text `rwarbelow~$` is called the command prompt, and the `$` indicates that it's ready to accept input. Yours might look slightly different. Let's make the command prompt slightly more helpful by [taking a little detour](https://gist.github.com/rwarbelow/84200c0f2a6d256cf2c3b20150b64fbf). 
 
 In this section on command prompts, we'll learn (or review) these comamnds: 
@@ -348,6 +350,40 @@ Now when I type `ls`, I will no longer see `book_projects` listed.
       <textarea rows="4" name="" style="width:100%;"></textarea>
     </div>
   </div>
+</div>
+
+<div class="things-to-note">
+  <h4>Things to Note: Terminal</h4>
+  <ol>
+    <li>You can press the <strong>up-arrow</strong> at the bottom right of your keyboard just below the shift button to populate the prompt with your previous command. You can then keep pressing the <strong>up-arrow</strong> to cycle through your recent commands.</li>
+    <li>You can type <strong>history</strong> in your command prompt to see a list of your recent commands. Remember to press <strong>return</strong> to run the history command.</li>
+    <li>By default, your mac has hidden directories that can only be accessed by your terminal, so they are not seen in your Finder view. How to change this and why you would access these files is beyond the scope of today's lesson. But, this is something to be aware of. We accessed one of these hidden files at this point in the lesson: <a href="#profiledetour" title="">Detour</a></li>
+    <li>A way to enable <strong>Tab Complete</strong> and an example.</li>
+  </ol>
+  <h4>Terminal Shortcuts:</h4>
+  <ul>
+    <li>
+      <strong>Clear Command Line</strong>
+      <pre>control + u</pre>
+    </li>
+    <li>
+      <strong>Clear Terminal Window</strong>
+      <pre>command + k</pre>
+    </li>
+    <li>
+      <strong>Goto Beginning of Line</strong>
+      <pre>control + a</pre>
+    </li>
+    <li>
+      <strong>Goto End of Line</strong>
+      <pre>control + e</pre>
+    </li>
+    <li>
+      <strong>Fast Moving Cursor Through Command Line Text</strong>
+      <pre>Right: option + right-arrow</pre>
+      <pre>Left: option + left-arrow</pre>
+    </li>
+  </ul>
 </div>
 
 <a name="git"></a>
