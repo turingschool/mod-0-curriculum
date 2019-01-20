@@ -101,14 +101,13 @@ header {
   }
 }
 
-// .content {
-//   width: 80%;
-// }
+.content {
+  width: 80%;
+}
 
 @media (max-width: $tablet-width) {
   .content: 100%;
 }
-
 
 
 .underline {
@@ -168,6 +167,10 @@ header {
   flex-grow: 2;
 }
 
+.tips div:nth-child(2) {
+  margin-left: 2em;
+}
+
 .things-to-note {
   margin-top: 2em;
   background-color: lighten(#f9ae06, 45);
@@ -178,4 +181,16 @@ header {
     flex-direction: column;
   }
 
+}
+
+.toggle-show {
+  color: #f9ae06;
+  margin-bottom: 2em;
+}
+
+.toggle-show div {
+  color: black;
+}
+.hidden {
+  opacity: 0;
 }
