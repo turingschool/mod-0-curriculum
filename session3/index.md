@@ -21,11 +21,12 @@ subheading: Terminal, File/folder Structure, Git Basics
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>10 min:</strong> Homework Review and Goals</li>
-      <li><strong>10 min:</strong><a href="#filesdirectories">Files, Directories, and Paths</a></li>
-      <li><strong>40 min:</strong><a href="#terminalcommandline">Terminal and Command Line</a></li>
-      <li><strong>40 min:</strong><a href="#git">Git Basics</a></li>
-      <li><strong>5 min:</strong><a href="#homework">Homework Preview</a></li>
+      <li><strong>10 min: </strong> Homework Review and Goals</li>
+      <li><strong>15 min: </strong><a href="#filesdirectories">Files, Directories, and Paths</a></li>
+      <li><strong>40 min: </strong><a href="#terminalcommandline">Terminal and Command Line</a></li>
+      <li><strong>5 min: </strong>Break</li>
+      <li><strong>40 min: </strong><a href="#git">Git Basics</a></li>
+      <li><strong>5 min: </strong><a href="#homework">Homework Preview</a></li>
     </ul>
   </div>
   <div>
