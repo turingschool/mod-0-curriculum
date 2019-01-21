@@ -533,7 +533,7 @@ ___
     </div>
   </div>
   <div class="hidden be-iteration">
-    <p>The code that you see below is written using JavaScript. This syntax is something that you'll see all over the place, so it's important to get used to it. You don't need to memorize every little symbol for now, but knowing how to explain the big pieces is important.</p>
+    <p>The code that you see below is written using Ruby. This syntax is something that you'll see all over the place, so it's important to get used to it. You don't need to memorize every little symbol for now, but knowing how to explain the big pieces is important.</p>
     <h4>Example #1: Grading papers for five students</h4>
     <pre>students = ["Megan", "Jose", "Xavier", "Ali", "Miriam"]
 
