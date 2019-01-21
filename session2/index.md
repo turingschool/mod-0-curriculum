@@ -290,6 +290,7 @@ Use your Googling skills to figure out <strong>what an array is used for in prog
   Done? Click here to reveal.
   <div class="hidden">
     <p>An array is a data structure that contains a group of elements. Typically these elements are all of the same data type, such as an integer or string. Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched. For example, a search engine may use an array to store Web pages found in a search performed by the user. When displaying the results, the program will output one element of the array at a time. This may be done for a specified number of values or until all the values stored in the array have been output. While the program could create a new variable for each result found, storing the results in an array is much more efficient way to manage memory.</p>
+    <p>An example of an array of <strong>integers: </strong><code>[76, 3, 45958, 329, 40, 3002]</code></p>
   </div>
 </div>
 
