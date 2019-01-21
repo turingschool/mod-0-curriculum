@@ -183,6 +183,7 @@ Once you formulate a good Google search and receive your results, there are a fe
   <li><strong>Example Code:</strong> The best resources generally include example code snippets that you can use to compare to your own code.</li>
   <li><strong>Description/Text:</strong> Along with code snippets, the best results are those that also include a simple description of what the code is doing.</li>
   <li><strong>Publisher:</strong> There are a lot of sites out there that are reputable and some where you'll need to use your best judgement. 
+    <small>
     <ul>
       <li><strong><a href="http://ruby-doc.org" title="">ruby-doc.org</a></strong>: While the Ruby Docs are trusted, they can be somewhat difficult for beginners to navigate and understand</li>
       <li><strong><a href="http://developer.mozilla.org" title="">developer.mozilla.org</a></strong>: Considered some of the best information for HTML, CSS, JavaScript</li>
@@ -193,6 +194,7 @@ Once you formulate a good Google search and receive your results, there are a fe
       <li><strong>Blog Posts</strong>: As a beginner (and even now!), I found a lot of answers through blog posts and tutorials. Again, watch the <strong>date</strong> on these posts and understand that these posts may or may not reflect best practices. </li>
       <li><strong>Videos</strong>: Video walk-throughs and tutorials are usually pretty great, but they can be time consuming if you're looing for a quick answer. Again, check the date of the post.</li>
     </ul>
+    </small>
   </li>
   <li><strong>Question vs. Answer</strong>: If you're on a posting site, be sure that you read through the question, but look at <strong>code from the answer</strong>. Generally code from questions is incorrect.</li> 
 </ol>
