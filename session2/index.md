@@ -220,8 +220,8 @@ Use your Googling skills to figure out <strong>what strings are used for in prog
 
 <div class="toggle-show">
   Done? Click here to reveal.
-  <div class="hidden">
-    Strings definition
+  <div class="hidden">  
+    <p> A string is a data type used in programming, such as an integer and floating point unit, but is used to represent text rather than numbers. It is comprised of a set of characters that can also contain spaces and numbers. For example, the word "hamburger" and the phrase "I ate 3 hamburgers" are both strings. Even "12345" could be considered a string, if specified correctly. Typically, programmers must enclose strings in quotation marks for the data to recognized as a string and not a number or variable name.</p>
   </div>
 </div>
 
@@ -243,7 +243,8 @@ Use your Googling skills to figure out <strong>what integers and floats are used
 <div class="toggle-show">
   Done? Click here to reveal.
   <div class="hidden">
-    Integers and Floats definition
+    <p><strong>Integer:</strong> An integer is a whole number (not a fraction) that can be positive, negative, or zero. Therefore, the numbers 10, 0, -25, and 5,148 are all integers. Unlike floating point numbers, integers cannot have decimal places.</p>
+    <p><strong>Float:</strong> As the name implies, floating point numbers are numbers that contain floating decimal points. For example, the numbers 5.5, 0.001, and -2,345.6789 are floating point numbers. Numbers that do not have decimal places are called integers.</p>
   </div>
 </div>
 
@@ -262,7 +263,13 @@ Use your Googling skills to figure out <strong>what a boolean is used for in pro
 <div class="toggle-show">
   Done? Click here to reveal.
   <div class="hidden">
-    Boolean definition
+    <p>Boolean, or boolean logic, is a subset of algebra used for creating true/false statements. Boolean expressions use the operators AND, OR, and NOT to compare values and return a true or false result. These boolean operators are described in the following four examples:
+    </p>
+    <ul>
+      <li>x AND y - returns True if both x and y are true; returns False if either x or y are false.</li>
+      <li>x OR y - returns True if either x or y, or both x and y are true; returns False only if x and y are both false.</li>
+      <li>NOT x - returns True if x is false (or null); returns False if x is true.</li>
+    </ul>
   </div>
 </div>
 
@@ -282,7 +289,8 @@ Use your Googling skills to figure out <strong>what an array is used for in prog
 <div class="toggle-show">
   Done? Click here to reveal.
   <div class="hidden">
-    Array definition
+    <p>An array is a data structure that contains a group of elements. Typically these elements are all of the same data type, such as an integer or string. Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched. For example, a search engine may use an array to store Web pages found in a search performed by the user. When displaying the results, the program will output one element of the array at a time. This may be done for a specified number of values or until all the values stored in the array have been output. While the program could create a new variable for each result found, storing the results in an array is much more efficient way to manage memory.</p>
+    <p>An example of an array of <strong>integers: </strong><code>[76, 3, 45958, 329, 40, 3002]</code></p>
   </div>
 </div>
 
@@ -302,7 +310,9 @@ If you're in the front end program, we're going to call the next data type an "o
 <div class="toggle-show">
   Done? Click here to reveal.
   <div class="hidden">
-    Hash/Object definition
+    <p>A <strong>Hash</strong> or <strong>Object</strong> is a collection of key-value pairs. It is similar to an Array, except that indexing is done via arbitrary keys of any object type, not an integer index.</p>
+    <p>Example with <strong>strings</strong> as both the key and value:<code>{ "key": "value" }</code></p>
+    <p>Example with <strong>string</strong> as key and <strong>integer</strong> as value: <code>{ "student_count": 22 }</code></p>
   </div>
 </div>
 
