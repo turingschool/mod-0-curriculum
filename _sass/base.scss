@@ -24,10 +24,6 @@ img {
   max-width: 100%;
 }
 
-.hidden{
-  display: none;
-}
-
 a {
   border-bottom: 3px solid lighten($medium-gray, 20);
   color: darken($teal, 30);
@@ -152,6 +148,8 @@ header {
 
 }
 
+button:focus {outline:0;}
+
 .vocab {
   color: #9b0428;
   font-weight: bold;
@@ -180,7 +178,16 @@ header {
   @media (max-width: $tablet-width - 50px) {
     flex-direction: column;
   }
+}
 
+.try-it .left {
+  margin-right: 1em;
+}
+
+textarea {
+  width: 100%;
+  padding: 1em;
+  font-size: 0.8em;
 }
 
 .toggle-show {
@@ -192,5 +199,10 @@ header {
   color: black;
 }
 .hidden {
-  opacity: 0;
+  display: none;
+}
+
+table {
+  margin-bottom: 2em;
+  width: 100%;
 }
