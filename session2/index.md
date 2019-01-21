@@ -584,35 +584,3 @@ ____
 ## Homework
 
 [WIP]
-
-<!-- 
-* Probably combine with below. Discussion around required vs recommended with EM and RW.
-* Your Mac has hidden directories only accessible through terminal. Lets talk about this. Google how to access them?
-
-### Alumni Recommend
-* Read this Medium post by Turing alumnus Sara Simon: <a href="https://medium.com/@sarambsimon/learning-fluency-672988a7ae52">Learning Fluency</a>
-* Think about a subject you are comfortable researching. Apply that mindset to `Googling` for programming answers.
-* Faster fingers. Create an account and get started with: <a href="https://typing.io/">Typing for Programmers</a>
-* Stop using a mouse. Try to complete your tasks using only the keyboard.
-* Do not copy and paste anything. Type everything out so it sticks and you get better.
-* Read <a href="https://realworldcoding.io/how-to-google-programming-problems-effectively-90f2a43ef982" title="">How to Google Programming Problems Effectively</a>
-* Read <a href="https://codeahoy.com/2016/04/30/do-experienced-programmers-use-google-frequently/" title="">Do Experienced Programmers Use Google Frequently?</a>
-* Read <a href="https://www.forbes.com/sites/quora/2017/02/03/twenty-seven-things-i-wish-id-known-when-i-started-programming/#58d7dab56395" title="">27 Things I Wish I'd Known When I Started Programming</a>
-* Up your Google game:
-
-<div class="try-it">
-  <h2>Try It: General Google Tips</h2>
-  <p>Skim <a target="_blank" href="https://www.lifehack.org/articles/technology/20-tips-use-google-search-efficiently.html" title="">this article from Lifehack</a>, focusing on the following tips:</p>
-  <ul>
-    <li>2. Use quotes</li>
-    <li>3. Use a hyphen to exclude words</li>
-    <li>4. Use a colon to search specific sites</li>
-    <li>9. Search for multiple words at once</li>
-    <li>13. Use words that websites would use</li>
-    <li>14. Use important words only</li>
-    <li>17. Use descriptive words</li>
-  </ul>
-  <p>Test out the strategies as you go through them.</p>
-</div>
-
- -->
