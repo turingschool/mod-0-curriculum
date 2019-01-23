@@ -57,14 +57,23 @@ Mod 0 is less about code or solving difficult problems and more about developing
 
 Here are some things to keep in mind as we're going through Mod 0:
 
-- Attendance: be on time; stay the whole time; give notice in advance if there's a reason you cannot attend
-- Zoom: turn video on, turn mic off unless speaking
-- Work to Develop: managing time to get assignments done; effective notetaking; full engagement into material; full participation in sessions
-- Notetaking: hand-write while instructor speaks, type exercises into screen, then set aside 15 minutes after the session to digest notes into 
-- Sharing: combination of cold-calls, volunteer (use raise hand button), voice share, screen share
-- Focus: close or minimize anything else on your computer that might be distracting; put phone on airplane mode (if you are able to)
-- Problems or individual questions? Message the non-presenting host (either Rachel or Tim)
-- **NOTE**: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes. 
+- <strong>Attendance</strong>: be on time; stay the whole time; give notice in advance if there's a reason you cannot attend
+- <strong>Zoom</strong>: turn video on, turn mic off unless speaking
+- <strong>Work to Develop</strong>: managing time to get assignments done; effective notetaking; full engagement into material; full participation in sessions
+- <strong>Notetaking</strong>: hand-write while instructor speaks, type exercises into screen, then set aside 15 minutes after the session to digest notes into 
+- <strong>Sharing</strong>: combination of cold-calls, volunteer (use raise hand button), voice share, screen share
+- <strong>Focus</strong>: close or minimize anything else on your computer that might be distracting; put phone on airplane mode (if you are able to)
+- <strong>Pop Quizzes</strong>: be ready for short quizzes at the beginning of the sessions that check your understanding of past work
+- <strong>Homework</strong>: your homework will consist of `practice tasks`, `readings and responses`, and `daily habits`. If you find yourself with extra time, it is *strongly* recommended that you practice and re-practice exercises from each Zoom session. 
+- <strong>Problems or individual questions during the Zoom session?</strong> Message the non-presenting host (either Rachel or Tim)
+- <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes. 
+
+#### What does it mean to "pass" Mod 0? 
+
+At the end of Session 5, you'll take a technical assessment that will showcase a subset skills you learn during Mod 0. The assessment will be performance-based rather than multiple choice. The assessment instructions will include a checklist of what we're looking for to know that you've mastered and practiced the material. 
+
+In addition to the technical assessment
+
 
 <a name="shortcuts"></a>
 ## Why Use Shortcuts?
@@ -647,7 +656,7 @@ ____
 
 ## The End!
 
-Take 15 minutes on your own to digest the content from this lesson, including the notes you wrote in the text boxes. 
+After this Zoom call is over, take 15 minutes on your own to digest the content from this lesson, including the notes you wrote in the text boxes. 
 
 In your notebook, jot down your thoughts: 
 
