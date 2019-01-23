@@ -66,8 +66,9 @@ In addition to the technical assessment, we're also looking for you to demonstra
 - <strong>Homework</strong>: homework is to be completed by the start of the next session and will consist of `practice tasks`, `readings and responses`, and `daily habits`.
 
 <div class="try-it">
-  <h2>Try It: Planning your Growth</h2>
-  <p>Out of the list above, which 2-3 skills will be your focus for the next week, and how will you improve them? For example, if I want to work on notetaking and participation, I might write:</p>
+  <h2>Try It: Planning your Growth (Break out rooms)</h2>
+  <p>First, introduce yourself (name, pronouns, most unbelievable fact about yourself).</p>
+  <p>Out of the list above, which 2-3 skills will be your focus for the next week, and how will you improve them? For example, if I want to work on notetaking and participation, I might share:</p>
   <p>I will label my notes with headings to categorize concepts/topics. After the session, I will take a 10 minute break then come back to the computer and synthesize big ideas from the curriculum into my notebook. I will type questions into the chat box when I don't understand something.</p>
 </div>
 
