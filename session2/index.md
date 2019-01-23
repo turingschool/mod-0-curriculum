@@ -55,25 +55,23 @@ subheading: Data Types, Iteration, Documentation, Googling
 
 Mod 0 is less about code or solving difficult problems and more about developing and learning tools, procedures, systems, and  learning behaviors/processes. For some of you, the technical content will be brand new. For others, it will be review. 
 
-Here are some things to keep in mind as we're going through Mod 0:
-
-- <strong>Attendance</strong>: be on time; stay the whole time; give notice in advance if there's a reason you cannot attend
-- <strong>Zoom</strong>: turn video on, turn mic off unless speaking
-- <strong>Work to Develop</strong>: managing time to get assignments done; effective notetaking; full engagement into material; full participation in sessions
-- <strong>Notetaking</strong>: hand-write while instructor speaks, type exercises into screen, then set aside 15 minutes after the session to digest notes into 
-- <strong>Sharing</strong>: combination of cold-calls, volunteer (use raise hand button), voice share, screen share
-- <strong>Focus</strong>: close or minimize anything else on your computer that might be distracting; put phone on airplane mode (if you are able to)
-- <strong>Pop Quizzes</strong>: be ready for short quizzes at the beginning of the sessions that check your understanding of past work
-- <strong>Homework</strong>: your homework will consist of `practice tasks`, `readings and responses`, and `daily habits`. If you find yourself with extra time, it is *strongly* recommended that you practice and re-practice exercises from each Zoom session. 
-- <strong>Problems or individual questions during the Zoom session?</strong> Message the non-presenting host (either Rachel or Tim)
-- <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes. 
-
-#### What does it mean to "pass" Mod 0? 
-
 At the end of Session 5, you'll take a technical assessment that will showcase a subset skills you learn during Mod 0. The assessment will be performance-based rather than multiple choice. The assessment instructions will include a checklist of what we're looking for to know that you've mastered and practiced the material. 
 
-In addition to the technical assessment
+In addition to the technical assessment, we're also looking for you to demonstrate mastery and/or growth of the things that make students successful at Turing. These include: 
 
+- <strong>Attendance</strong>: be on time; stay the whole time; give notice in advance if there's a reason you cannot attend
+- <strong>Learning Behaviors</strong>: manage time to get assignments done; notetake effectively in a way that leads to content mastery; full engagement in material; full participation in sessions
+- <strong>Notetaking</strong>: hand-write notes during "lecture" portions, type exercises into textboxes, then set aside 15 minutes after the session to digest notes into 
+- <strong>Participating and Sharing</strong>: be ready for cold-calls, volunteer to share answers/ideas using voice, screen, and video
+- <strong>Homework</strong>: homework is to be completed by the start of the next session and will consist of `practice tasks`, `readings and responses`, and `daily habits`.
+
+Other things to note as we go through Mod 0:
+
+- <strong>Zoom</strong>: turn video on, turn mic off unless speaking
+- <strong>Focus</strong>: close or minimize anything else on your computer that might be distracting; put phone on airplane mode (if you are able to)
+- <strong>Pop Quizzes</strong>: be ready for short quizzes at the beginning of the sessions that check your understanding of past work
+- <strong>Problems or individual questions during the Zoom session?</strong> Message the non-presenting host (either Rachel or Tim)
+- <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes. 
 
 <a name="shortcuts"></a>
 ## Why Use Shortcuts?
