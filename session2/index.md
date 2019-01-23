@@ -10,16 +10,15 @@ subheading: Data Types, Iteration, Documentation, Googling
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
       <li>use keyboard shortcuts to navigate your computer and Chrome</li>
+      <li>find answers to programming questions online</li>
       <li>define and identify use cases for basic data types</li>
       <li>demonstrate iteration in real-world and programming sitauations</li>
-      <li>use documentation to find explanations and examples</li>
-      <li>find answers to programming questions online</li>
     </ul>
   </div>
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>10 min: </strong>Intros and Housekeeping</li>
+      <li><strong>10 min: </strong><a href="#intro">Housekeeping, Intros, and Expectations</a></li>
       <li><strong>10 min: </strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
       <li><strong>30 min: </strong><a href="#findinganswers">Googling</a></li>
       <li><strong>5 min: </strong>Break</li>
@@ -31,20 +30,41 @@ subheading: Data Types, Iteration, Documentation, Googling
   <div>
     <h3>Materials</h3>
     <ul>
+      <li>Quiet Space</li>
       <li>Notebook</li>
       <li>Writing instrument</li>
       <li>Laptop</li>
       <li>Headphones & mic</li>
     </ul>
   </div>
-
 </div>
 
-## Intro/Housekeeping 
+<a name="intro"></a>
+## Housekeeping 
+
+* Post your name in the chat if you can see and hear host
+* Change display name to first name, last initial, pronouns; ie - Rachel W. (she/her)
+* Session will be recorded
+
+## Intro
 
 * Intros: Rachel and Tim
-* Review goals for session
-* Text on this page will not save, so don't refresh or close this window
+* Goals for session (see above)
+
+## Mod 0 Expecations
+
+Mod 0 is less about code or solving difficult problems and more about developing and learning tools, procedures, systems, and  learning behaviors/processes. For some of you, the technical content will be brand new. For others, it will be review. 
+
+Here are some things to keep in mind as we're going through Mod 0:
+
+- Attendance: be on time; stay the whole time; give notice in advance if there's a reason you cannot attend
+- Zoom: turn video on, turn mic off unless speaking
+- Work to Develop: managing time to get assignments done; effective notetaking; full engagement into material; full participation in sessions
+- Notetaking: hand-write while instructor speaks, type exercises into screen, then set aside 15 minutes after the session to digest notes into 
+- Sharing: combination of cold-calls, volunteer (use raise hand button), voice share, screen share
+- Focus: close or minimize anything else on your computer that might be distracting; put phone on airplane mode (if you are able to)
+- Problems or individual questions? Message the non-presenting host (either Rachel or Tim)
+- **NOTE**: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes. 
 
 <a name="shortcuts"></a>
 ## Why Use Shortcuts?
@@ -143,35 +163,59 @@ When I Google programming questions, I _usually_ include three things:
 For example, if I wanted to add a thick green border to a heading on my webpage and I'm using plain CSS for styling, I might google this:
 
 ```
-how to add border to heading CSS
+how to add border to heading css
 ```
+
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
   <ol>
     <li>If the question is generic to programming, replace the name of the langauge with "programming"</li>
     <li>If the thing you need to search is a definition (as opposed to how to do something), replace "how to" with "what is"</li>
+    <li>While capitalization doesn't matter, word order does. Google will look for results where words are ordered or grouped the same way you had them in your search and prioritize those. For example, you get different results when you search "cheese pizza" compared to "pizza cheese"</li>
+    <li><strong>SUPER IMPORTANT:</strong> You might not get the results you're looking for on the first go-around. </li>
   </ol>
 </div>
 
 <div class="try-it">
   <h2>Try It: Writing Google-able Phrases</h2>
-  <p>Write out a Google-able search phrase for each of the following scenarios. <strong>Do not get hung up on being unfamiliar with the terminology for each scenario.</strong> We just want phrases to put into Google.</p>
+  <p>Write out <strong>TWO</strong> Google-able search phrases for each of the following scenarios. Do not get hung up on being unfamiliar with the terminology for each scenario. We just want phrases to put into Google.</p>
   <p>I'm making a webpage using HTML and CSS, and my image is pressed right up to the edge of the window. I want some more space on the left side of the image so that it's not touching the browser window.</p>
-  <textarea rows="1"></textarea>
+  <textarea rows="2">
+Phrase 1: 
+Phrase 2: 
+  </textarea>
   <p>In my JavaScript program, I need to capitalize the first letter of each word in a sentence.</p>
-  <textarea rows="1"></textarea>
+  <textarea rows="2">
+Phrase 1: 
+Phrase 2: 
+  </textarea>
   <p>I'm building a game using Ruby and I have an array of six elements. I need to figure out how to get rid of the last three elements in the array.</p>
-  <textarea rows="1"></textarea>
+  <textarea rows="2">
+Phrase 1: 
+Phrase 2: 
+  </textarea>
   <p>I am using Git for version control and made a typo in a commit message. I need to change it before I push my changes to GitHub.</p>
-  <textarea rows="1"></textarea>
+  <textarea rows="2">
+Phrase 1: 
+Phrase 2: 
+  </textarea>
   <p>I got this error message when I ran my Ruby program and I don't know what it means or how to fix it: <em>"unterminated string meets end of file"</em></p>
-  <textarea rows="1"></textarea>
+  <textarea rows="2">
+Phrase 1: 
+Phrase 2: 
+  </textarea>
   <p>I want to turn on the autosave feature in my text editor so that I don't have to remember to save each time I run my code.</p>
-  <textarea rows="1"></textarea>
+  <textarea rows="2">
+Phrase 1: 
+Phrase 2: 
+  </textarea>
   <p>None of my JavaScript works in the browser even though I know my code is right. </p>
   <small>(This one doesn't really follow our pattern for Googling, but what might you search?)</small>
-  <textarea rows="1"></textarea>
+  <textarea rows="2">
+Phrase 1: 
+Phrase 2: 
+  </textarea>
 </div>
 
 #### Sifting Through Results
@@ -207,6 +251,10 @@ Once you formulate a good Google search and receive your results, there are a fe
   <textarea rows="5"></textarea>
 </div>
 
+## BREAK
+
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
+
 <a name="datatypes"></a>
 ## Basic Data Types 
 
@@ -214,14 +262,14 @@ In most programming languages, you'll find the same basic <span class="vocab">da
 
 #### Strings
 
-Use your Googling skills to figure out <strong>what strings are used for in programming</strong> and jot down your notes in the box below.
+Use your Googling skills to figure out <strong>what <span class="vocab">strings</span> are used for in programming</strong> and jot down your notes in the box below.
 
 <textarea rows="4"></textarea>
 
 <div class="toggle-show">
   Done? Click here to reveal.
   <div class="hidden">  
-    <p> A string is a data type used in programming, such as an integer and floating point unit, but is used to represent text rather than numbers. It is comprised of a set of characters that can also contain spaces and numbers. For example, the word "hamburger" and the phrase "I ate 3 hamburgers" are both strings. Even "12345" could be considered a string, if specified correctly. Typically, programmers must enclose strings in quotation marks for the data to recognized as a string and not a number or variable name.</p>
+    <p> A <span class="vocab">string</span> is a data type used in programming, such as an integer and floating point unit, but is used to represent text rather than numbers. It is comprised of a set of characters that can also contain spaces and numbers. For example, the word "hamburger" and the phrase "I ate 3 hamburgers" are both strings. Even "12345" could be considered a string, if specified correctly. Typically, programmers must enclose strings in quotation marks for the data to recognized as a string and not a number or variable name.</p>
   </div>
 </div>
 
@@ -235,7 +283,7 @@ Use your Googling skills to figure out <strong>what strings are used for in prog
 
 #### Integers and Floats
 
-Use your Googling skills to figure out <strong>what integers and floats are used for in programming</strong> and jot down your notes in the box below.
+Use your Googling skills to figure out <strong>what <span class="vocab">integers</span> and <span class="vocab">floats</span> are used for in programming</strong> and jot down your notes in the box below.
 
 <textarea rows="2">Integers: </textarea>
 <textarea rows="2">Floats: </textarea>
@@ -243,8 +291,8 @@ Use your Googling skills to figure out <strong>what integers and floats are used
 <div class="toggle-show">
   Done? Click here to reveal.
   <div class="hidden">
-    <p><strong>Integer:</strong> An integer is a whole number (not a fraction) that can be positive, negative, or zero. Therefore, the numbers 10, 0, -25, and 5,148 are all integers. Unlike floating point numbers, integers cannot have decimal places.</p>
-    <p><strong>Float:</strong> As the name implies, floating point numbers are numbers that contain floating decimal points. For example, the numbers 5.5, 0.001, and -2,345.6789 are floating point numbers. Numbers that do not have decimal places are called integers.</p>
+    <p><strong><span class="vocab">Integer</span>:</strong> An integer is a whole number (not a fraction) that can be positive, negative, or zero. Therefore, the numbers 10, 0, -25, and 5,148 are all integers. Unlike floating point numbers, integers cannot have decimal places.</p>
+    <p><strong><span class="vocab">Float</span>:</strong> As the name implies, floating point numbers are numbers that contain floating decimal points. For example, the numbers 5.5, 0.001, and -2,345.6789 are floating point numbers. Numbers that do not have decimal places are called integers.</p>
   </div>
 </div>
 
@@ -256,7 +304,7 @@ Use your Googling skills to figure out <strong>what integers and floats are used
 
 #### Booleans
 
-Use your Googling skills to figure out <strong>what a boolean is used for in programming</strong> and jot down your notes in the box below.
+Use your Googling skills to figure out <strong>what a <span class="vocab">boolean</span> value is used for in programming</strong> and jot down your notes in the box below.
 
 <textarea rows="4"></textarea>
 
@@ -282,14 +330,16 @@ Use your Googling skills to figure out <strong>what a boolean is used for in pro
 
 #### Arrays
 
-Use your Googling skills to figure out <strong>what an array is used for in programming</strong> and jot down your notes in the box below.
+Use your Googling skills to figure out <strong>what an <span class="vocab">array</span> is used for in programming</strong> and jot down your notes in the box below.
 
 <textarea rows="4"></textarea>
 
 <div class="toggle-show">
   Done? Click here to reveal.
   <div class="hidden">
-    <p>An array is a data structure that contains a group of elements. Typically these elements are all of the same data type, such as an integer or string. Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched. For example, a search engine may use an array to store Web pages found in a search performed by the user. When displaying the results, the program will output one element of the array at a time. This may be done for a specified number of values or until all the values stored in the array have been output. While the program could create a new variable for each result found, storing the results in an array is much more efficient way to manage memory.</p>
+    <p>An <span class="vocab">array</span> is a data structure that contains a group of elements.</p> 
+    <p>You can think of an array as a box or container. Instead of saying "I have a box full of shirts," you could say "I have an array of shirts." The phrase "a container of pencils" would become "an array of pencils."</p>
+    <p>Typically, elements in an array are all of the same data type, such as an integer or string. Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched. For example, a search engine may use an array to store Web pages found in a search performed by the user. When displaying the results, the program will output one element of the array at a time. This may be done for a specified number of values or until all the values stored in the array have been output. While the program could create a new variable for each result found, storing the results in an array is much more efficient way to manage memory.</p>
     <p>An example of an array of <strong>integers: </strong><code>[76, 3, 45958, 329, 40, 3002]</code></p>
   </div>
 </div>
@@ -303,14 +353,14 @@ Use your Googling skills to figure out <strong>what an array is used for in prog
 
 #### Hashes or Objects
 
-If you're in the front end program, we're going to call the next data type an "object". If you're in the back end program, we're going to call it a "hash". Use your Googling skills to search for <strong>what it is used for in programming</strong> and jot down your notes in the box below.
+If you're in the front end program, we're going to call the next data type an <span class="vocab">object</span>. If you're in the back end program, we're going to call it a <span class="vocab">hash</span>. Use your Googling skills to search for <strong>what it is used for in programming</strong> and jot down your notes in the box below.
 
 <textarea rows="4"></textarea>
 
 <div class="toggle-show">
   Done? Click here to reveal.
   <div class="hidden">
-    <p>A <strong>Hash</strong> or <strong>Object</strong> is a collection of key-value pairs. It is similar to an Array, except that indexing is done via arbitrary keys of any object type, not an integer index.</p>
+    <p>A <span class="vocab">hash</span> or <span class="vocab">object</span> is a collection of key-value pairs. It is similar to an Array, except that indexing is done via arbitrary keys of any object type, not an integer index.</p>
     <p>Example with <strong>strings</strong> as both the key and value:<code>{ "key": "value" }</code></p>
     <p>Example with <strong>string</strong> as key and <strong>integer</strong> as value: <code>{ "student_count": 22 }</code></p>
   </div>
@@ -325,7 +375,7 @@ If you're in the front end program, we're going to call the next data type an "o
 
 #### Syntax for Data Types
 
-We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby and JavaScript. We will give you two examples of the syntax (one random example and one based on the grocery store examples) for each data type.
+We will give you two examples of the syntax (one random example and one based on the grocery store examples) for each data type. Luckily for us, the syntax for these basic data typs is almost identical in Ruby and JavaScript. 
 
 <div class="try-it">
   <h2>Try It: Syntax for Data Types</h2>
@@ -350,7 +400,6 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
     </div>
   </div>
 </div> 
-
 
 
 <a name="iteration"></a>
@@ -525,20 +574,28 @@ for (i = 0; i < numbers.length; i++) {
     <div class="try-it">
       <h2>Try It: Iteration Syntax</h2>
       <p>Fill in the missing pieces of the iteration example below:</p>
-      <textarea rows="6">
+      <textarea rows="5">
 var birthdayPeople = ['Bonnie', 'Justin', 'Daniel', 'Alejandra', 'Michael', 'Giselle'];
 
 for (i = 0; i < _______; i++) {
    console.log('Happy Birthday, ' + ______);
 };
       </textarea>
+      <p>Use this box to describe what is happening:</p>
+      <textarea rows="3">
+
+      </textarea>
       <p>Fill in the missing pieces of the iteration example below:</p>
-      <textarea rows="6">
+      <textarea rows="5">
 var numbers = [2, 4, 6, 8, 10, 12, 14, 16];
 
 for (_____; ______; _____) {
    console.log('The number minus one is ' + ______);
 ___
+      </textarea>
+      <p>Use this box to describe what is happening:</p>
+      <textarea rows="3">
+
       </textarea>
     </div>
   </div>
@@ -561,26 +618,46 @@ end
     <div class="try-it">
       <h2>Try It: Iteration Syntax</h2>
       <p>Fill in the missing pieces of the iteration example below:</p>
-      <textarea rows="6">
+      <textarea rows="5">
 birthday_people = ["Bonnie", "Justin", "Daniel", "Alejandra", "Michael", "Giselle"]
 
 birthday_people._____ do |_____|
     puts "Happy birthday, #{_______}!"
 end
       </textarea>
+      <p>Use this box to describe what is happening:</p>
+      <textarea rows="3">
+
+      </textarea>
       <p>Fill in the missing pieces of the iteration example below:</p>
-      <textarea rows="6">
+      <textarea rows="5">
 numbers = [2, 4, 6, 8, 10, 12, 14, 16]
 
 ______.each ___ |number|
     puts "The number minus one is #{_____}"
 ____
       </textarea>
+      <p>Use this box to describe what is happening:</p>
+      <textarea rows="3">
+
+      </textarea>
     </div>
   </div>
 </div>
 
+## The End!
+
+Take 15 minutes on your own to digest the content from this lesson, including the notes you wrote in the text boxes. 
+
+In your notebook, jot down your thoughts: 
+
+- What do I understand from today?
+- When will I need what I just learned? 
+- What questions do I still have? 
+- What processes/behaviors did I exercise today? 
+
 <a name="homework"></a>
 ## Homework
 
-[WIP]
+Find the homework in your Mod 0 Project Board. Contact Rachel or Tim if you're stuck.
+
