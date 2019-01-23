@@ -61,9 +61,15 @@ In addition to the technical assessment, we're also looking for you to demonstra
 
 - <strong>Attendance</strong>: be on time; stay the whole time; give notice in advance if there's a reason you cannot attend
 - <strong>Learning Behaviors</strong>: manage time to get assignments done; notetake effectively in a way that leads to content mastery; full engagement in material; full participation in sessions
-- <strong>Notetaking</strong>: hand-write notes during "lecture" portions, type exercises into textboxes, then set aside 15 minutes after the session to digest notes into 
-- <strong>Participating and Sharing</strong>: be ready for cold-calls, volunteer to share answers/ideas using voice, screen, and video
+- <strong>Notetaking</strong>: hand-write notes during "lecture" portions, type exercises into textboxes, then set aside 15 minutes after the session to pick out key concepts from exercises and transfer to notebook
+- <strong>Participating and Sharing</strong>: be ready for cold-calls; volunteer to share answers/ideas using voice, screen, and video; ask questions when you don't understand
 - <strong>Homework</strong>: homework is to be completed by the start of the next session and will consist of `practice tasks`, `readings and responses`, and `daily habits`.
+
+<div class="try-it">
+  <h2>Try It: Planning your Growth</h2>
+  <p>Out of the list above, which 2-3 skills will be your focus for the next week, and how will you improve them? For example, if I want to work on notetaking and participation, I might write:</p>
+  <p>I will label my notes with headings to categorize concepts/topics. After the session, I will take a 10 minute break then come back to the computer and synthesize big ideas from the curriculum into my notebook. I will type questions into the chat box when I don't understand something.</p>
+</div>
 
 Other things to note as we go through Mod 0:
 
