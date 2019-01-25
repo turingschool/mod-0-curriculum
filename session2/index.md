@@ -65,6 +65,7 @@ In addition to the technical assessment, we're also looking for you to demonstra
 - <strong>Learning Behaviors</strong>: manage time to get assignments done; notetake effectively in a way that leads to content mastery; full engagement in material; full participation in sessions
 - <strong>Notetaking</strong>: hand-write notes during "lecture" portions, type exercises into textboxes, then set aside 15 minutes after the session to pick out key concepts from exercises and transfer to notebook
 - <strong>Participating and Sharing</strong>: be ready for cold-calls; volunteer to share answers/ideas using voice, screen, and video; ask questions when you don't understand
+- <strong>Collaboration</strong>: much of what you'll do at Turing will happen in pairs or groups. Challenge yourself to speak up in groups, articulate your ideas to peers, and encourage others to share out as well.
 - <strong>Homework</strong>: homework is to be completed by the start of the next session and will consist of `practice tasks`, `readings and responses`, and `daily habits`.
 
 <div class="try-it">
@@ -465,7 +466,7 @@ Iteration (or looping for a specified number of times) is a process of repeating
 
 <div class="try-it">
   <h3>Try It: Iteration in Real Life</h3>
-  <p>Brainstorm a real life scenarion that uses iteration. Fill out the table below and be ready to share.</p>
+  <p>Brainstorm a real life scenario that uses iteration. Fill out the table below and be ready to share.</p>
   <table>
     <thead>
       <tr>
@@ -608,9 +609,9 @@ ___
      <h4>Example #1: Grading papers for five students</h4>
      <pre>students = ["Megan", "Jose", "Xavier", "Ali", "Miriam"]
 
-     students.each do |student|
-     puts "Grading paper for #{student}"
-     end
+students.each do |student|
+  puts "Grading paper for #{student}"
+end
    </pre>
    <h4>Example #2: Multiplying By Six</h4>
    <pre>numbers = [7, 18, 23, 38, 41, 57, 65]
