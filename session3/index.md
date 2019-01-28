@@ -78,7 +78,7 @@ In this diagram, we would say that there's a directory called `essays` that cont
     <li>For now, we will follow two convention rules: </li>
     <ul>
       <li>Use lower case letters when naming directories and files</li>
-      <li>Use underscores (_) instead of spaces when naming directories and files</li>
+      <li>Use underscores (_) or hyphens (-) instead of spaces when naming directories and files. However, keep in mind that different languages and frameworks have different conventions. Rather than arguing over which approach is "correct" (you'll find a lot of this on q&a sites), it is more important to pick an approach and be consistent. For today's lesson, we'll use the underscore (_) approach.</li>
     </ul>
     <li>Folders do not have extensions (like <strong>.docx</strong> or <strong>.txt</strong> or <strong>.csv</strong>, etc.) but file names do have extensions.</li>
     <li>File extensions matter. A <strong>.md</strong> file will behave differently than a <strong>.docx</strong> file, which will also behave differently than a <strong>.txt</strong> file. </li>
