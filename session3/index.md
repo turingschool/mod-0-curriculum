@@ -40,6 +40,12 @@ subheading: Terminal, File/folder Structure, Git Basics
   </div>
 </div>
 
+## Intros, Housekeeping, and Goals
+
+- You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now. 
+
+- Goals for today (see above)
+
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3>
   <p>1. Introduce yourself: name, pronouns</p>
@@ -448,6 +454,17 @@ Git is similar to the way that Google Docs tracks changes across time:
   </div>
 </div>
 
+#### Why Use Git?
+
+There are numerous reasons to use git. Among them:
+
+- The ability to "go back in time" to previous versions of your code if you break something
+- The ability to "go back in time" to previous versions of your code if you change your mind about a feature
+- The ability to chunk parts of your work so that you can choose from chunks to keep at a later time
+- The ability to work collaboratively on the same project (even the same files!)
+- The ability to use branches to separate features of a program
+- The ability to track who made specific changes to specific files
+
 In this section on git, we'll learn (or review) these git comamnds: 
 
 <ol>
@@ -681,6 +698,8 @@ git status
 At this point, we'll split into breakout rooms. The person whose name is first alphabetically will start by sharing their screen. We will call this person the "driver". Everyone else in the room will be "navigators". 
 
 The driver will be the person typing the commands, but the navigators should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss **why** you are doing each step, or **what** exactly is taking place in each step. 
+
+If you are already comfortable with git, your challenge during the breakout is to focus on your explanations and communication. 
 
 <div class="try-it">
   <h3>Try It: Git All Together</h3>
