@@ -125,12 +125,6 @@ In the diagram below, we would say that there's a directory called `essays` that
   </div>
 </div>
 
-<div class="try-it">
-  <h3>Try It: Files and Directories</h3>
-  <p>In your notebook, draw a diagram that includes at least three directories (organized in any fashion) and at least four files. Write out the paths for all four files.</p>
-  <p>Next, we'll split into breakout rooms to share our diagrams and file paths.</p>
-</div>
-
 <hr>
 <a name="terminalcommandline"></a>
 ## Terminal and Command Line
@@ -510,9 +504,13 @@ Now when I type `ls`, I will no longer see `books` listed.
 
 ### Terminal Shortcuts
 
-<p>Last week, we briefly talked about keyboard shortcuts in the Mac environment and in Chrome. You should also learn and practice the Terminal shortcuts listed below:</p>
-<ul>
-  <li>
+<p>Last week, we briefly talked about keyboard shortcuts in the Mac environment and in Chrome. You should also learn and practice these terminal shortcuts.</p>
+
+<div class="try-it">
+  <h3>Try it: Practicing Terminal Shortcuts</h3>
+  <div class="flex-container tips">
+    <div>
+      <li>
     <strong>Cycle through past commands</strong>
     <pre>up arrow</pre>
   </li>
@@ -528,6 +526,8 @@ Now when I type `ls`, I will no longer see `books` listed.
     <strong>Clear Terminal Window</strong>
     <pre>command + k</pre>
   </li>
+    </div>
+    <div>
   <li>
     <strong>Goto Beginning of Line</strong>
     <pre>control + a</pre>
@@ -541,17 +541,14 @@ Now when I type `ls`, I will no longer see `books` listed.
     <pre>Right: option + right-arrow</pre>
     <pre>Left: option + left-arrow</pre>
   </li>
-</ul>
-
-<div class="try-it">
-  <h3>Try It: Terminal Shortcuts</h3>
-  <p>Try out the shortcuts listed above. As you press the keys for each one, say to yourself what it is doing.</p>
+    </div>
+  </div>
 </div>
 
 ## BREAK
 
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
-
+<hr>
 <a name="git"></a>
 ## Git
 
@@ -577,7 +574,6 @@ In this section on git, we'll learn (or review) these git comamnds:
   <li><a href="#status" title="">git status</a></li>
   <li><a href="#add" title="">git add</a></li>
   <li><a href="#commit" title="">git commit</a></li>
-  <li><a href="#log" title="">git log</a></li>
 </ol>
 
 ### Getting Set Up
@@ -777,38 +773,6 @@ rwarbelow~/notes$ git commit -m 'Add two life lessons'
  1 file changed, 1 insertion(+)
 
 ```
-
-<a name="log"></a>
-### 6. Check the History of Commits (git log)
-
-During the next session, we'll learn about GitHub which provides a nice interface to look at previous versions. However, from the command line, we can at least see when commits were made using `git log`:
-
-```
-rwarbelow~/notes$ git log
-commit 053f53c9a5f51b7353bc100ad8212387a2287658
-Author: Rachel Warbelow <rachelwarbelow@gmail.com>
-Date:   Tue Jan 29 10:41:38 2019 -0800
-
-    Add two life lessons
-
-commit 47e89878f2425807bbf2859ebe7061d90689473c
-Author: Rachel Warbelow <rachelwarbelow@gmail.com>
-Date:   Tue Jan 29 10:38:23 2019 -0800
-
-    Initial commit
-```
-
-Four lines is a lot to display just one commit. You can also use `git log --oneline` if you want a smaller output:
-
-```
-053f53c (HEAD -> master) Add two life lessons
-47e8987 Initial commit
-```
-
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  Like "git status", you can type <code>git log</code> or <code>git log --oneline</code> as many times as you want, whenever, wherever. It it a safe command that will not change anything about your tracking.
-</div>
 
 ### Putting it All Together
 
