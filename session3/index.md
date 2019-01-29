@@ -42,12 +42,20 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ## Intros, Housekeeping, and Goals
 
-- You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now. 
+- Do you have experience initializing, adding, and committing with git? 
+
+- In the chat, post a keyboard shortcut that you practiced and now feel comfortable using. 
+
+- You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
+
+- Follow up from homework assignments: reading + diagrams
+
+- Questions during the session? Click "raise hand" for whole-group question, or message the non-presenting host for an individual question.
 
 - Goals for today (see above)
 
 <div class="try-it">
-  <h3>Intros, Review, and Icebreaker</h3>
+  <h3>Intros, Review, and Icebreaker (5 minutes)</h3>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. What was the highlight of your weekend?</p>
   <p>3. Accountability review: what were the skills/processes that you decided to focus on last week, and how are you progressing toward mastery of those skills?</p>
@@ -58,7 +66,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 On your computer, you probably have many <span class="vocab">files</span> and <span class="vocab">directories</span>. Files are things like text documents, images, videos, PDFs, etc. Directories (or folders) are the structures we use to organize these files. 
 
-In this diagram, we would say that there's a directory called `essays` that contains three files: `life_lessons.docx`, `book_report.docx`, and `literary_analysis.docx`: 
+In the diagram below, we would say that there's a directory called `essays` that contains three files: `life_lessons.docx`, `book_report.docx`, and `literary_analysis.docx`: 
 
 <hr>
 <h4>Example #1</h4>
@@ -69,7 +77,7 @@ In this diagram, we would say that there's a directory called `essays` that cont
   <div>
     A <span class="vocab">file path</span> is a way to notate where a file "lives" on your computer. This is the structure:
     <pre>directory_name/file_name.extension</pre>
-    Using the diagram above, here are the paths for each of the files above:
+    The file path for the first file in the diagram would be:
     <pre>essays/life_lessons.docx</pre>
     <p>What is the path for book_report.docx?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
@@ -84,10 +92,10 @@ In this diagram, we would say that there's a directory called `essays` that cont
     <li>For now, we will follow two convention rules: </li>
     <ul>
       <li>Use lower case letters when naming directories and files</li>
-      <li>Use underscores (_) or hyphens (-) instead of spaces when naming directories and files. However, keep in mind that different languages and frameworks have different conventions. Rather than arguing over which approach is "correct" (you'll find a lot of this on q&a sites), it is more important to pick an approach and be consistent. For today's lesson, we'll use the underscore (_) approach.</li>
+      <li>Use underscores (_) or hyphens (-) instead of spaces when naming directories and files. However, keep in mind that different languages and frameworks have different conventions. Rather than arguing over which approach is "correct" (you'll find a lot of this on the internet), it is more important to pick an approach and be consistent. For today's lesson, we'll use the underscore (_) approach.</li>
     </ul>
     <li>Folders do not have extensions (like <strong>.docx</strong> or <strong>.txt</strong> or <strong>.csv</strong>, etc.) but file names do have extensions.</li>
-    <li>File extensions matter. A <strong>.md</strong> file will behave differently than a <strong>.docx</strong> file, which will also behave differently than a <strong>.txt</strong> file. </li>
+    <li>File extensions matter. A <strong>.md</strong> file will behave differently than a <strong>.docx</strong> file, which will also behave differently than a <strong>.txt</strong> file because the extensions help the operating system figure out which application can open the file. </li>
   </ol>
 </div>
 <hr>
@@ -99,13 +107,14 @@ In this diagram, we would say that there's a directory called `essays` that cont
   <div>
     <p>The path for the grading.txt file is</p>
     <pre>to_do/work/grading.txt</pre>
+
+    <p>What is the path for cleaning.txt?</p>
+    <textarea rows="1" name="" style="width:100%;"></textarea>
+
     <p>What is the path for random.txt?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
 
     <p>What is the path for recurring.txt?</p>
-    <textarea rows="1" name="" style="width:100%;"></textarea>
-
-    <p>What is the path for cleaning.txt?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
 
     <p>What is the path for bills.txt?</p>
@@ -118,7 +127,8 @@ In this diagram, we would say that there's a directory called `essays` that cont
 
 <div class="try-it">
   <h3>Try It: Files and Directories</h3>
-  <p>In your notebook, draw a diagram that includes at least three directories and at least four files. Write out the paths for all four files. Be ready to share and explain!</p>
+  <p>In your notebook, draw a diagram that includes at least three directories (organized in any fashion) and at least four files. Write out the paths for all four files.</p>
+  <p>Next, we'll split into breakout rooms to share our diagrams and file paths.</p>
 </div>
 
 <hr>
@@ -132,7 +142,78 @@ Your terminal will look something like this:
 <img src="images/terminal.png" alt="">
 
 <a name="profiledetour"></a>
-The text `rwarbelow~$` is called the command prompt, and the `$` indicates that it's ready to accept input. Yours might look slightly different. Let's make the command prompt slightly more helpful by [taking a little detour](https://gist.github.com/rwarbelow/84200c0f2a6d256cf2c3b20150b64fbf). 
+The text `rwarbelow~$` is called the command prompt, and the `$` indicates that it's ready to accept input. Yours might look slightly different. 
+
+### Changing the Command Prompt
+
+Let's make the command prompt slightly more helpful. These next steps might look a little confusing, and at this point, it's not necessary to feel 100% comfortable doing this on your own. We'll walk through the steps together. 
+
+1) Make sure you're at the home directory by typing cd.
+
+2) Type `nano .bash_profile`  
+
+3) Copy (`command + c`) and paste (`command + v`) this into the window:
+
+<div class="smallcode">
+<pre>
+# get current branch in git repo
+function parse_git_branch() {
+  BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
+  if [ ! "${BRANCH}" == "" ]
+  then
+    STAT=`parse_git_dirty`
+    echo "[${BRANCH}${STAT}]"
+  else
+    echo ""
+  fi
+}
+
+# get current status of git repo
+function parse_git_dirty {
+  status=`git status 2>&1 | tee`
+  dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
+  untracked=`echo -n "${status}" 2> /dev/null | grep "Untracked files" &> /dev/null; echo "$?"`
+  ahead=`echo -n "${status}" 2> /dev/null | grep "Your branch is ahead of" &> /dev/null; echo "$?"`
+  newfile=`echo -n "${status}" 2> /dev/null | grep "new file:" &> /dev/null; echo "$?"`
+  renamed=`echo -n "${status}" 2> /dev/null | grep "renamed:" &> /dev/null; echo "$?"`
+  deleted=`echo -n "${status}" 2> /dev/null | grep "deleted:" &> /dev/null; echo "$?"`
+  bits=''
+  if [ "${renamed}" == "0" ]; then
+    bits=">${bits}"
+  fi
+  if [ "${ahead}" == "0" ]; then
+    bits="*${bits}"
+  fi
+  if [ "${newfile}" == "0" ]; then
+    bits="+${bits}"
+  fi
+  if [ "${untracked}" == "0" ]; then
+    bits="?${bits}"
+  fi
+  if [ "${deleted}" == "0" ]; then
+    bits="x${bits}"
+  fi
+  if [ "${dirty}" == "0" ]; then
+    bits="!${bits}"
+  fi
+  if [ ! "${bits}" == "" ]; then
+    echo " ${bits}"
+  else
+    echo ""
+  fi
+}
+
+export PS1="\u\w\`parse_git_branch\` "
+</pre>
+</div>
+
+4) Type `control + x` to quit. It will ask you if you want to save. Type `y`.
+
+Now quit and reopen your Terminal, and you'll have a nicer command prompt which includes your username, the path to your current working directory, and your git status.
+
+If you want to further customize your command prompt, check out the [EZPrompt Generator](http://ezprompt.net/).
+
+### Commands
 
 In this section on command prompts, we'll learn (or review) these comamnds: 
 
@@ -167,6 +248,10 @@ You'll see the path from the root of your computer to your current directory.
 <a name="mkdir"></a>
 ### 2. Make a Directory (mkdir)
 
+To make a folder using the visual interface of Finder, this is what you might do:
+
+![making a folder using finder](images/mkdir.gif)
+
 We can make new directories with the `mkdir` command. Unlike `pwd` where we didn't need to type anything else, we'll need to add a name for the directory. 
 
 For example, if I wanted to make a directory called `work_spreadsheets`, I would type this:
@@ -192,11 +277,13 @@ You won't get any confirmation that your directory was created -- you'll just se
 
 <div class="try-it">
   <h3>Try It: mkdir</h3>
-  <p>Make 10 directory called "terminal_practice_1", "terminal_practice_2", and so on. Each time you type it, say outloud "make directory".</p>
+  <p>Make 6 directories called "terminal_practice_1", "terminal_practice_2", and so on. Each time you type it, say outloud "make directory".</p>
 </div>
 
 <a name="ls"></a>
 ### 3. Listing Contents of a Directory (ls)
+
+With a visual interface (as shown in the gif above), you can easily see the contents of a directory. On the command line, it's a little different.
 
 To check what's inside of a directory, we use the `ls` command which stands for list (although I like to think to myself: "list stuff). As an example, let's assume that I have the directories and files from this diagram on my computer: 
 
@@ -217,29 +304,35 @@ To check what's inside of a directory, we use the `ls` command which stands for 
 <div class="try-it">
   <h3>Try It: ls</h3>
   <p>Type ls into your command prompt 10 times. Each time you type it, say outloud "list" (or list stuff).</p>
-  <p>You should see all 10 of the "terminal_practice" directories you created earlier. Paste the output into the chat.</p>
+  <p>You should see all 6 of the "terminal_practice" directories you created earlier, in addition to other directories and files that are already on your computer. Paste the output into the chat.</p>
 </div>
 
 <a name="cd"></a>
 ### 4. Go Into a Directory (cd)
 
-You can move into a directory using the cd (or change directory) command, then giving it the name of the directory you want to go into.
+You can move into a directory using the `cd` command, which stands for "change directory". After `cd`, type the name of the directory you want to go into.
 
-For example, if I was in the essays directory and wanted to move into the book_projects directory to see my documents, I would type this: 
-
-```
+<div class="flex-container">
+  <div>
+    <img src="images/files_directories_2.png" alt="files and directories 2">
+  </div>
+  <div>
+    For example, if I was in the <code>essays</code> directory and wanted to move into the <code>book_projects</code> directory to see my documents, I would type this: 
+<pre>
 rwarbelow~/essays$ cd book_projects
 rwarbelow~/essays/book_projects$ 
-```
+</pre>
 
 We see that the second command prompt now lists the path of new directory that we're in.
 
-From there, if I used the `ls` command, I would be able to see the contents of my folder:
+From there, if I used the <code>ls</code> command, I would be able to see the contents of my folder:
 
-```
+<pre>
 rwarbelow~/essays/book_projects$ ls
 literary_analysis.docx    book_report.docx
-```
+</pre>
+  </div>
+</div>
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
@@ -250,8 +343,8 @@ literary_analysis.docx    book_report.docx
 
 <div class="try-it">
   <h3>Try It: cd</h3>
-  <p>Use the cd command to move into the terminal_practice_1 directory that you created earlier. In the chat box, paste your command prompt which shows your current path.</p>
-  <p>Bonus: If you were to type ls right now, what would you see, and why?</p>
+  <p>Use the cd command to move into the <code>terminal_practice_1</code> directory that you created earlier. In the chat box, paste your command prompt which shows your current path.</p>
+  <p>Bonus: If you were to type <code>ls</code> right now, what would you see, and why?</p>
 </div>
 
 <a name="cddot"></a>
@@ -270,21 +363,21 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
 
 <div class="try-it">
   <h3>Try It: cd and cd ..</h3>
-  <p>To try cd and cd .., we won't type anything into our terminal. Instead, we'll try answering the following scenarios: </p>
+  <p>To try <code>cd</code> and <code>cd ..</code>, we won't type anything into our terminal. Instead, we'll try answering the following scenarios: </p>
   <div class="flex-container">
     <div>
       <img src="images/files_directories_3.png" alt="files and directories 2">
     </div>
     <div>
-      <p>If I'm in the work directory, what do I need to type to get to to_do? As you type cd, say outoud "change directory".</p>
+      <p>If I'm in the <code>work</code> directory, what do I need to type to get to <code>to_do</code>? As you type <code>cd</code>, say outloud "change directory".</p>
       <textarea name="" style="width:100%;"></textarea>
-      <p>If I'm in the projects_to_delegate directory, what <strong>two commands</strong> do I need to type to get to to_do? As you type cd, say outoud "change directory".</p>
+      <p>If I'm in the <code>projects_to_delegate</code> directory, what <strong>two commands</strong> do I need to type to get to <code>to_do</code>? As you type <code>cd</code>, say outloud "change directory".</p>
       <p><small>(We'll learn how to combine these momentarily)</small></p>
       <textarea name="" style="width:100%;"></textarea>
-      <p>I'm in the home directory. What <strong>three commands</strong> do I need to type to get to projects_to_delegate? As you type cd, say outoud "change directory".</p>
+      <p>I'm in the <code>home</code> directory. What <strong>three commands</strong> do I need to type to get to <code>projects_to_delegate</code>? As you type <code>cd</code>, say outloud "change directory".</p>
       <p><small>(We'll learn how to combine these momentarily)</small></p>
       <textarea rows="3" name="" style="width:100%;"></textarea>
-      <p>I'm in the projects_to_delegate directory. What <strong>three commands</strong> do I need to type to get to home? As you type cd, say outoud "change directory".</p>
+      <p>I'm in the <code>projects_to_delegate</code> directory. What <strong>three commands</strong> do I need to type to get to <code>home</code>? As you type <code>cd</code>, say outloud "change directory".</p>
       <p><small>(We'll learn how to combine these momentarily)</small></p>
       <textarea rows="3" name="" style="width:100%;"></textarea>
     </div>
@@ -297,60 +390,74 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
 We know how to make directories (or folders) using the `mkdir` command. In order to make files inside of those directories, we use `touch`:
 
 ```
-rwarbelow~/essays$ touch chapter_1.txt
-rwarbelow~/essays$
+rwarbelow~/latest_projects$ touch chapter_1.txt
+rwarbelow~/latest_projects$
 ```
 
 We don't see any confirmation that the file was created, but we can use `ls` to see what's inside the directory:
 
 ```
-rwarbelow~/essays$ ls
+rwarbelow~/latest_projects$ ls
 chapter_1.txt
 ```
 
 If we were to create a chapter 2 document, this is what you'd do and see:
 
 ```
-rwarbelow~/essays$ touch chapter_2.txt
-rwarbelow~/essays$
+rwarbelow~/latest_projects$ touch chapter_2.txt
+rwarbelow~/latest_projects$
 ```
 No confirmation, but let's check what's in this folder with `ls`:
 
 ```
-rwarbelow~/essays$ ls
+rwarbelow~/latest_projects$ ls
 chapter_1.txt    chapter_2.txt
 ```
 
 <div class="try-it">
   <h3>Try It: touch</h3>
-  <p>Double check that you are inside the terminal_practice_1 folder that you created earlier. Make ten files (names are your choice). Each time you type touch, say outloud "make file".</p>
+  <p>Double check that you are inside the <code>terminal_practice_1</code> directory that you created earlier. In this directory, make 6 files with the <code>.txt</code> extension (file names are your choice). Each time you type touch, say outloud "make new file".</p>
   <p>When you're done making the files, type "ls" and paste the output into the chat.</p>
+</div>
+
+<div class="things-to-note">
+  <h4>Things to Note</h4>
+  If you <code>touch</code> a file that already exists, nothing will happen. 
 </div>
 
 <a name="rm"></a>
 ### 7. Remove a File (rm)
 
-In the past, you've probably gotten rid of files by dragging them to the trash and then emptying it. We can remove files from the command line using the `rm` command, like this:
+In the past, you've probably gotten rid of files by dragging them to the trash and then emptying it, like this:
+
+![file to trash](images/filetotrash.gif)
+
+We can remove files from the command line using the `rm` command, like this:
 
 
 ```
-rwarbelow~/essays$ rm chapter_1.txt
+rwarbelow~/latest_projects$ rm chapter_1.txt
 ```
 
 Again, we don't get a confirmation, but if I were to `ls` right now, nothing would appear since the directory is now empty. 
 
+```
+rwarbelow~/latest_projects$ ls
+chapter_2.txt
+```
+
 <div class="things-to-note">
   <h4>Things to Note</h4>
   <ul>
-    <li>A file removed using the rm command <strong>does not</strong> go into your trash can where you could restore it later.</li> 
-    <li>Although it may be possible to recover files deleted with rm, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the rm command is gone for good.</li>
+    <li>A file removed using the <code>rm</code> command <strong>does not</strong> go into your trash can where you could restore it later.</li> 
+    <li>Although it may be possible to recover files deleted with <code>rm</code>, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the <code>rm</code> command is gone for good.</li>
   </ul>
 </div>
 
 <div class="try-it">
   <h3>Try It: rm</h3>
-  <p>Remove five of the 10 files you created earlier using the "rm" command, one at a time. Between each removal, type "ls" to make sure that it's gone.</p>
-  <p>When you remove the fifth file, type "ls" and paste your results into the chat box.</p>
+  <p>Remove 3 of the 6 files you created earlier using the <code>rm</code> command, one at a time. Between each removal, type <code>ls</code> to make sure that it's gone.</p>
+  <p>When you remove the third file, type <code>ls</code> and paste your results into the chat box.</p>
 </div>
 
 <a name="rmrecursive"></a>
@@ -358,14 +465,14 @@ Again, we don't get a confirmation, but if I were to `ls` right now, nothing wou
 
 We can use `rm` to remove a file, but we use a different command when we're removing a directory. Since a directory could potentially contain other files and directories inside of it, we use `rm -r` which stands for remove recursively, or go inside this directory and remove everything inside of it as well. 
 
-In order to remove a directory, you must be OUTSIDE of that directory. For example, if I'm inside the `book_projects` directory and I want to remove it, I first need to get out of it using `cd ..`, then use the `rm -r book_projects`:
+In order to remove a directory, you must be OUTSIDE of that directory. For example, if I'm inside a `books` directory and I want to remove it, I first need to get out of it using `cd ..`, then use the `rm -r books`:
 
 ```
-rwarbelow~/essays/book_projects$ cd ..
-rwarbelow~/essays$ rm -r book_projects
+rwarbelow~/latest_projects/books$ cd ..
+rwarbelow~/latest_projects$ rm -r books
 ```
 
-Now when I type `ls`, I will no longer see `book_projects` listed.
+Now when I type `ls`, I will no longer see `books` listed.
 
 <div class="try-it">
   <h3>Try It: Removing files (rm) and directories (rm -r)</h3>
@@ -438,21 +545,7 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 
 <span class="vocab">Git</span> is a Version Control System (VCS). It allows you to save work on your project, and reference previous states of a project if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and ANY previous version. Git’s philosophy: never lose anything.
 
-Git is similar to the way that Google Docs tracks changes across time:
-
-
-<div class="flex-container">
-  <div class="uneven">
-    <img src="images/google_docs_1.png" alt="" style="border: 1px solid black">
-    <p>When you click on "All Changes Saved In Drive" (or sometimes it will say the name and date of the last change), it will show you who made what change and when that change was made.</p>
-
-    <p>You can also choose to revert to a previous version of a document by finding the version in history that you want and clicking on "Restore This Version".</p>
-    <img src="images/google_docs_3.png" alt="" style="border: 1px solid black;">
-  </div>
-  <div>
-    <img src="images/google_docs_2.png" alt="" style="border: 1px solid black; width: 50%; margin-left: 2em;">
-  </div>
-</div>
+Git works similarly to the way that Google Docs tracks changes across time. Let's take a brief detour to [this Google doc](https://docs.google.com/document/d/1GY5lg6kVY7JzD9qr0kcn_Ct7St-USf72JxTFQ6hu7KQ/edit?usp=sharing). 
 
 #### Why Use Git?
 
@@ -475,10 +568,14 @@ In this section on git, we'll learn (or review) these git comamnds:
   <li><a href="#log" title="">git log</a></li>
 </ol>
 
-Before we start, let's make a directory called `notes` with a file inside called `things_to_remember.txt`.
+### Getting Set Up
+
+Before we start, let's get back to our home directory by typing `cd`. Then, we'll make a directory called `notes` with a file inside called `things_to_remember.txt`.
+
+In the next six steps, we will "code-along", which means that I will demonstrate the commands, then you will repeat those same commands on your terminal. 
 
 <a name="init"></a>
-### 1. Start Tracking a Directory With Git (git init)
+### 1. Start Tracking a Directory With Git (<span class="vocab">git init</span>)
 
 By default, your changes will not be tracked. In order to tell git that we want to start tracking something, we need to initialize git in a directory. 
 
@@ -487,7 +584,9 @@ rwarbelow~/notes$ git init
 Initialized empty Git repository in /Users/rwarbelow/notes/.git/
 ```
 
-This means git will now be available to use to track changes in the `notes` directory.
+This means git will now be available to use to track changes in the `notes` directory. This does **not** mean that git is tracking anything yet. 
+
+If you're not seeing this message, that means you have not set up git on your computer. For now, follow along and take notes. 
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
@@ -497,26 +596,22 @@ This means git will now be available to use to track changes in the `notes` dire
     </div>
     <div>
       <p>1. You only need to initialize a directory once in order to track everything else inside of it. </p>
-      <p>For example, if I typed this while in the notes directory:</p>
-      <pre>rwarbelow~/notes$ git init</pre>
-      <p>Then every file inside that directory would be tracked by git.</p>
+      <p>For example, if I typed this while in the essays directory:</p>
+      <pre>rwarbelow~/essays$ git init</pre>
+      <p>Then every file inside that directory, regardless of how deeply nested, would be available for git tracking.</p>
       <p>2. Empty directories are <strong>not</strong> tracked by git. Therefore, if you create a directory but there's nothing inside of it, git will ignore it. Git will only track it when there is a file inside of the directory.</p>
     </div>
   </div>
-</div>
-
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  <p>What happens if you accidentally initialize git in a directory where you didn't intend?</p>
+  <br>
+  <p>3. What happens if you accidentally initialize git in a directory where you didn't intend?</p>
   <p>When you type <code>git init</code>, a directory called <code>.git</code> is created inside of that folder. You can't see this folder using the ls command since it's a hidden folder. Everything that starts with "." is hidden. Instead, you can type <code>ls -a</code> which will display all hidden and visible files and directories.</p>
   <p>In an git initialized directory, you'll see a <code>.git</code> directory. To remove git tracking, you would type:</p>
   <pre>rm -r .git</pre>
   <p>This removes the git directory, and you are no longer using git to track your project.</p>
 </div>
 
-
 <a name="status"></a>
-### 2. Check the Status (git status)
+### 2. Check the Status (<span class="vocab">git status</span>)
 
 When you want to see what git is tracking and the current status of files, you can use `git status`:
 
@@ -534,7 +629,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-`No commits yet` means that we haven't asked git to save a version yet. You can think of a <span class="vocab">commit</span> as a snapshot of your work at a certain point in time. So far, we have none.
+`No commits yet` means that we haven't asked git to save a version yet. You can think of a <span class="vocab">commit</span> as a snapshot of your work at a certain point in time. In the Google Doc, each save point was a commit. So far, we have no commits for our `notes` project.
 
 `Untracked files` refers to the fact that even though we initialized a git repository, we haven't started tracking anything yet. It lists the files that are available to track. (Also note "untracked files present" near the bottom).
 
@@ -550,9 +645,11 @@ Let's talk briefly about this diagram from the git documentation:
 <small><em>Source: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository</em></small>
 
 <a name="add"></a>
-### 3. Add a File to Track (git add &lt;filename&gt;)
+### 3. Add a File to Track (<span class="vocab">git add &lt;filename&gt;</span>)
 
-Let's add one of the files that we want to track.
+Let's add one of the files that we want to track to the <span class="vocab">staging area</span>. Google's dictionary defines "staging area" as "a stopping place or assembly point en route to a destination". If you've ever run a race, you know that the staging area is the place where all of the runners gather before the race begins. It's a place to make sure everything is good to go before continuing on. 
+
+We will add our file to the staging area. 
 
 ```
 rwarbelow~/notes$ git add things_to_remember.txt
@@ -570,50 +667,34 @@ Changes to be committed:
 
 Notice the "changes to be committed" section: It tells us that we have a new file, `things_to_remember.txt`, that is ready to be committed. We can say that the `things_to_remember.txt` file is in the <span class="vocab">git staging area</span>. That means no changes are tracked yet, but we're ready to take a snapshot of it (we'll do this next).
 
-<a name="commit"></a>
-### 4. Take a Snapshot in Time (git commit -m &lt;message&gt;)
+This may seem silly right now, given that we only have one file -- why not just commit the file? Why do we have to add it first? Let's take a [small detour]().
 
-Now that our file is in the staging area, let's tell git that we're ready to take a snapshot of this moment to save:
+
+<a name="commit"></a>
+### 4. Take a Snapshot in Time (<span class="vocab">git commit -m &lt;message&gt;</span>)
+
+Now that our file is in the staging area, let's tell git that we're ready to commit (take a snapshot of this moment to save). It's good practice to use "Initial Commit" for your very first commit in each repository. 
 
 ```
 rwarbelow~/notes$ git commit -m 'Initial commit'
 [master (root-commit) b7654a6] Initial commit
  1 file changed, 1 insertion(+)
  create mode 100644 things_to_remember.txt
+```
+
+Now if I look at my git status, this is what I see:
+
+```
 rwarbelow~/notes$ git status
 On branch master
 nothing to commit, working tree clean
 ```
 
-It's good practice to use "Initial Commit" for your very first commit in each repository. 
+Let's figure out on the diagram what we just did:
 
-<a name="log"></a>
-### 5. Check the History of Commits (git log)
+![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png)
 
-During the next session, we'll learn about GitHub which provides a nice interface to look at previous versions. However, from the command line, we can at least see when commits were made using `git log`:
-
-```
-rwarbelow~/notes$ git log
-commit 356aaea48c68c38ac9562c921343b2ea958d6789 (HEAD -> master)
-Author: Rachel Warbelow <rachelwarbelow@gmail.com>
-Date:   Sat Jan 19 16:44:29 2019 -0800
-
-    Initial commit
-```
-
-Four lines is a lot for one commit. You can also use `git log --oneline` if you want a smaller output:
-
-```
-rwarbelow~/notes$ git log --oneline
-356aaea (HEAD -> master) Initial commit
-```
-
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  Like "git status", you can type <code>git log</code> or <code>git log --oneline</code> as many times as you want, whenever, wherever. It it a safe command that will not change anything about your tracking.
-</div>
-
-### 6. Making File Changes and Adding New Commits
+### 5. Making File Changes and Adding New Commits
 
 Now that we have our initial commit (or snapshot in time), let's make a change to one of our files.
 
@@ -629,7 +710,7 @@ The `echo` command in combination wth the two `>>` symbols will append the text 
 If you want to check what is now in the file, you can use `cat`:
 
 ```
-rwarbelow~/notes[master ?]$ cat things_to_remember.txt 
+rwarbelow~/notes$ cat things_to_remember.txt 
 Be kind
 Work hard
 
@@ -637,21 +718,23 @@ Work hard
 
 Your working directory now has changes that differ from what our file looked like the last time we committed (or took a snapshot). 
 
-You can view those changes by using `git diff`:
+You can view those changes by using `git diff <filename>`:
 
 ```
+rwarbelow~/notes$ git diff things_to_remember.txt
 diff --git a/things_to_remember.txt b/things_to_remember.txt
-index e69de29..8abdfb7 100644
+index e69de29..9ffd068 100644
 --- a/things_to_remember.txt
 +++ b/things_to_remember.txt
-@@ -0,0 +1 @@
+@@ -0,0 +1,2 @@
 +Be kind
++Work hard
 ```
 
 If we type `git status`, then we're notified that we changes that are not yet staged for commit:
 
 ```
-rwarbelow~/notes[master !]$ git status
+rwarbelow~/notes$ git status
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -665,8 +748,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Let's add our new changes to the staging area:
 
 ```
-rwarbelow~/notes[master !]$ git add things_to_remember.txt
-rwarbelow~/notes[master !]$ git status
+rwarbelow~/notes$ git add things_to_remember.txt
+rwarbelow~/notes$ git status
 On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
@@ -677,36 +760,67 @@ Changes to be committed:
 Now, we can commit. Keep your commits in present tense, starting with a verb. Use a capital letter at the beginning and no punctuation at the end. 
 
 ```
-rwarbelow~/notes[master !]$ git commit -m 'Add two life lessons'
-[master d2c105a] Add first life lesson
+rwarbelow~/notes$ git commit -m 'Add two life lessons'
+[master 053f53c] Add first life lesson
  1 file changed, 1 insertion(+)
 
 ```
 
+<a name="log"></a>
+### 6. Check the History of Commits (git log)
+
+During the next session, we'll learn about GitHub which provides a nice interface to look at previous versions. However, from the command line, we can at least see when commits were made using `git log`:
+
+```
+rwarbelow~/notes$ git log
+commit 053f53c9a5f51b7353bc100ad8212387a2287658
+Author: Rachel Warbelow <rachelwarbelow@gmail.com>
+Date:   Tue Jan 29 10:41:38 2019 -0800
+
+    Add two life lessons
+
+commit 47e89878f2425807bbf2859ebe7061d90689473c
+Author: Rachel Warbelow <rachelwarbelow@gmail.com>
+Date:   Tue Jan 29 10:38:23 2019 -0800
+
+    Initial commit
+```
+
+Four lines is a lot to display just one commit. You can also use `git log --oneline` if you want a smaller output:
+
+```
+053f53c (HEAD -> master) Add two life lessons
+47e8987 Initial commit
+```
+
+<div class="things-to-note">
+  <h4>Things to Note</h4>
+  Like "git status", you can type <code>git log</code> or <code>git log --oneline</code> as many times as you want, whenever, wherever. It it a safe command that will not change anything about your tracking.
+</div>
+
 ### Putting it All Together
 
-The basic flow of commands that you would use as time goes on and you're making changes to your files is this:
+The basic git workflow is this:
 
-```
-// make changes
-git status
-git add <filename>
-git commit -m 'Message about your change'
-git status
-```
+1. Make file changes
+1. Check the `git status` to see what files are unstaged
+1. Check the `git diff <filename>` to see what changes have happened since the last commit
+1. `git add <whatever file you want to stage>`
+1. Check the `git status` to make sure the correct files are in the staging area
+1. `git commit -m 'Message about your changes'` to commit the changes
 
-At this point, we'll split into breakout rooms. The person whose name is first alphabetically will start by sharing their screen. We will call this person the "driver". Everyone else in the room will be "navigators". 
-
-The driver will be the person typing the commands, but the navigators should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss **why** you are doing each step, or **what** exactly is taking place in each step. 
-
-If you are already comfortable with git, your challenge during the breakout is to focus on your explanations and communication. 
 
 <div class="try-it">
   <h3>Try It: Git All Together</h3>
+  <p>At this point, we'll split into breakout rooms. The person whose name is first alphabetically will start by sharing their screen, <strong>unless</strong> this person already has significant git experience. Whoever is sharing their screen will be called the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
+
+  <p>The driver will be the person typing the commands, but the navigators should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss <strong>why</strong> you are doing each step, or <strong>what</strong> exactly is taking place in each step.</p>
+
+  <p>If you are already comfortable with git, your challenge during the breakout is somewhat more difficult: your goal is to focus on your explanations, communication, and ability to gauge whether or not another person understands you.</p>
   <ol>
-    <li>Before we do this, make sure you are **outside** of the `notes` directory we were working in. You will be starting a new directory from scratch.</li>
+    <li>Get back to your home directory by typing <code>cd</code></li>
     <li>Create a new directory called <code>to_do</code>. Inside of that directory, create a file called <code>tasks.txt</code>.</li>
-    <li>Tell git to start watching the <code>to_do</code> directory.</li>
+    <li></li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Add <code>tasks.txt</code> to the staging area.</li>
     <li>Make your first commit in this directory.</li>
@@ -720,11 +834,14 @@ If you are already comfortable with git, your challenge during the breakout is t
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Print out the git log in both formats (full and oneline).</li>
   </ol>
+  <p><strong>Done?</strong> Start thinking about which parts of this process are now more clear, and which parts you'll need to practice more. Be ready to share when we come back together.</p>
 </div>
 
 ## Close Out
 
 Understanding git and the workflow can be tricky at first; however, this pattern is one that you will come to memorize over time. As you are memorizing the steps, be sure that you know **what** each step does.
+
+Today (and during Mod 0), we'll just be moving forward in time using git. We won't learn how to go back in time, but it's important to understand and master making small commits before adding in new git functionality. 
 
 We do not expect you to have these steps and reasons memorized right now. You can always reference back to this tutorial (or other tutorials that you find online). The more you practice, the easier it will become. 
 
