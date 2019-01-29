@@ -807,7 +807,6 @@ The basic git workflow is this:
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Commit the changes using a properly formatted commit message.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
-    <li>Print out the git log in both formats (full and oneline).</li>
   </ol>
   <p><strong>Done?</strong> Start thinking about which parts of this process are now more clear, and which parts you'll need to practice more. Be ready to share when we come back together.</p>
 </div>
