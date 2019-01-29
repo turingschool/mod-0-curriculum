@@ -291,6 +291,18 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
   </div>
 </div>
 
+<div class="things-to-note">
+  <h4>Things to Note</h4>
+  <ul>
+    <li>You can combine commands to navigate multiple levels through your directory structure. </li>
+    <li>For the thrid example in the previous <strong>Try It</strong> section, one could navigate to the <code>projects_to_delegate</code> directory as long as one knows the path:</li>
+    <code>cd ../work/projects_to_delegate</code>
+    <li>For the fourth and final example above:</li>
+    <code>cd ../../home</code>   
+    <li>Each level in the path is spearated by a <code>/</code></li> 
+  </ul>
+</div>
+
 <a name="touch"></a>
 ### 6. Make a File (touch)
 
