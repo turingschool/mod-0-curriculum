@@ -796,6 +796,7 @@ The basic git workflow is this:
   <ol>
     <li>Get back to your home directory by typing <code>cd</code></li>
     <li>Create a new directory called <code>to_do</code>. Inside of that directory, create a file called <code>tasks.txt</code>.</li>
+    <li>Initialize git inside of the <code>to_do</code> directory so that we have git available to track changes.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Add <code>tasks.txt</code> to the staging area.</li>
     <li>Make your first commit in this directory.</li>
