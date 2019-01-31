@@ -260,12 +260,6 @@ Once you've forked a repo, you will **follow the exact same steps** that we saw 
 git clone <insert address here>
 ```
 
-If you want to clone but rename the project when you download it locally, type this
-
-```
-git clone <insert address here> <insert new name here>
-```
-
 If you fork, clone, make changes, and push to origin, it will work because it's pushing to **your forked origin** (which you own), not the original repository (which you don't own). To push those changes:
 
 ```
@@ -282,9 +276,15 @@ git push origin master
 
 <div class="try-it">
   <h3>Try It: Forking</h3>
-  <p>1. Back in your breakout room, choose someone's <code>git_practice</code> repository to fork.</p>
-  <p>2. Once you have forked the project, clone it using the renaming syntax (since you already have your own git_practice directory).</p>
-  <p>3. Remove the readme file, add, commit the changes, and push your changes to the origin (which is your fork).</p>
+  <ol>
+    <li>Fork the <a href="https://github.com/rwarbelow/best_animals" title="Best Animals Repo">Best Animals</a> repository.</li>
+    <li>Clone your fork using your terminal.</li>
+    <li>Open up the project in your text editor.</li>
+    <li>Add a few best animals to the mammals file.</li>
+    <li>Add and commit your changes.</li>
+    <li>Push your changes to the origin (which is your fork).</li>
+    <p>Done? Repeat steps 4-6 with another animal file.</p>
+  </ol>
 </div>
 
 <a name="gists"></a>
