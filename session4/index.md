@@ -197,6 +197,7 @@ git clone <paste web address>
 ```
 
 If you clone a repository that you own **OR** you are a collaborator, you will be able to push new changes to that repository, like so:
+
 ![pushed changes to a repository on GitHub](images/success.gif)
 
 If you do have access to push changes, you can do so with this command:
