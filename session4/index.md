@@ -20,13 +20,13 @@ subheading: More Git and Intro to GitHub
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>10 min: </strong>Intros, Housekeeping, and Goals</li>
+      <li><strong>10 min: </strong>Housekeeping and Goals</li>
       <li><strong>15 min: </strong><a href="#gitreview">Git Review</a></li>
-      <li><strong>40 min: </strong><a href="#github">GitHub</a></li>
+      <li><strong>40 min: </strong><a href="#github">GitHub and Repositories</a></li>
       <li><strong>5 min: </strong>Break</li>
-      <li><strong>20 min: </strong><a href="#forkclone">Forking and Cloning</a></li>
-      <li><strong>10 min: </strong><a href="#gists">Gists and Markdown</a></li>
-      <li><strong>5 min: </strong><a href="#homework">Homework Preview</a></li>
+      <li><strong>25 min: </strong><a href="#forkclone">Forking and Cloning</a></li>
+      <li><strong>15 min: </strong><a href="#gists">Gists and Markdown</a></li>
+      <li><strong>10 min: </strong><a href="#homework">Homework Preview</a></li>
     </ul>
   </div>
   <div>
@@ -40,6 +40,22 @@ subheading: More Git and Intro to GitHub
   </div>
 </div>
 
+## Housekeeping and Goals
+
+### Wins From Feedback
+
+- Understanding purpose of terminal, terminal commands, and file paths
+- Feeling comfortable with Zoom
+- Vocab and flashcards
+- Handwritting notes and building in time for review
+
+### Follow-Ups From Feedback
+
+- Git is confusing! (Yes. True story.)
+- Breakout rooms are awkward
+- Session 3 was too fast
+- It's hard watch Zoom and follow along at the same time
+
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3>
   <p>Person with the lightest color shirt speaks first.</p>
@@ -50,6 +66,10 @@ subheading: More Git and Intro to GitHub
 
 <a name="gitreview"></a>
 ## Git Review
+
+Let's talk once more about this Git diagram.
+
+![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png)
 
 We'll start by repeating the group git exercise from Tuesday's session. This may seem repetative, but each time you practice, you'll gain muscle memory and procedural understanding.
 
