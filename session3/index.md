@@ -209,7 +209,7 @@ If you want to further customize your command prompt, check out the [EZPrompt Ge
 
 ### Commands
 
-In this section on command prompts, we'll learn (or review) these comamnds: 
+In this section on command prompts, we'll learn (or review) these commands: 
 
 <ol>
   <li><a href="#pwd" title="">pwd</a></li>
