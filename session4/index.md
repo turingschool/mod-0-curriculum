@@ -266,6 +266,8 @@ git push origin master
 </div>
 
 <a name="homework"></a>
-## Homework
+## Homework and GitHub Projects
+
+Let's spend a few minutes looking at how to use GitHub Projects. 
 
 Find the homework in your Mod 0 Project Board. Contact Rachel or Tim if you're stuck.
