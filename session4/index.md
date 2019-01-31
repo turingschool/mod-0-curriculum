@@ -56,12 +56,19 @@ subheading: More Git and Intro to GitHub
 - Session 3 was too fast
 - It's hard watch Zoom and follow along at the same time
 
+### Other Notes
+
+- Survey looks a little different today
+- Homework feedback on gists
+- Reminder to Google when you don't know something
+
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3>
   <p>Person with the lightest color shirt speaks first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. If you could have an unlimited supply of one thing for the rest of your life, what would it be?</p>
   <p>3. Accountability review: how are you progressing toward mastery of your focus skills?</p>
+  <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
 
 <a name="gitreview"></a>
@@ -83,7 +90,7 @@ The driver will be the person typing the commands, but the navigators should be 
   <h3>Try It: Git Review</h3>
   <p>As you and your group walk through the git review below, it might be a good idea to have <a href="/session3#init" title="">Session 3's Git Notes</a> open.</p>
   <ol>
-    <li>Before we do this, make sure the driver is <strong>outside</strong> of any previous directories where they have practiced git.</li>
+    <li>Before we do this, make sure the driver is in the home directory by typing <code>cd</code></li>
     <li>Create a new directory called <code>session_4_git_practice</code>. Inside of that directory, create a file called <code>coding_languages.txt</code>.</li>
     <li>Tell git to start watching the <code>session_4_git_practice</code> directory.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
@@ -105,9 +112,11 @@ The driver will be the person typing the commands, but the navigators should be 
 <a name="github"></a>
 ## GitHub
 
-Git is not the same as GitHub. They work together, but they are separate tools. Git allows us to track versions of our work on our local computers. <span class="vocab">GitHub</span> is an online git repository hosting service. Other alternatives to GitHub include GitLab and BitBucket, among others.
+Git is not the same as GitHub. They work together, but they are separate tools. Git allows us to track versions of our work on our local computers. <span class="vocab">GitHub</span> is an online git repository hosting service. A <span class="vocab">repository</span> (or <span class="vocab">repo</span>) is, at it's core, a place where your work and commits are stored. 
 
-GitHub also makes it easy for teams that use git to collaborate on the same codebase. During Mod 0, we will not be exploring the collabortive functionality of GitHub. We're going to stick to learning the basic functionality of GitHub. 
+Other alternatives to GitHub include GitLab and BitBucket, among others. GitHub (and these other services) also makes it easy for teams that use git to collaborate on the same codebase. 
+
+During Mod 0, we will not be exploring the collabortive functionality of GitHub. We're going to stick to learning the basic functionality of GitHub. 
 
 Let's first discuss this diagram:
 
@@ -115,7 +124,7 @@ Let's first discuss this diagram:
 
 <small><em>Source: http://frontend.turing.io/assets/images/lessons/git/github-diagrams.002.jpeg</em></small>
 
-<span class="vocab">origin</span>: refers to where the code is hosted on GitHub. Each repository has its own origin.
+<span class="vocab">origin</span>: refers to the URL where the code is hosted on GitHub. Each repository has its own origin (own URL).
 
 <span class="vocab">git pull</span>: means download all of the changes on GitHub that I don't currently have on my local copy. You would use git pull after a teammate makes a change to the code, and you want to bring those changes into your own code.
 
@@ -127,8 +136,6 @@ And this one, which shows how GitHub can be used as a collaboration tool:
 
 <small><em>Source: https://www.quora.com/What-is-git-and-repository</em></small>
 
-A <span class="vocab">repository</span> (or <span class="vocab">repo</span>) is, at it's core, a place where your work is stored. On your local machine, that repo is the `.git` folder that we discussed last session.
-
 Let's take a look at an example of a repo on GitHub: <a href="https://github.com/freeCodeCamp/freeCodeCamp" title="">FreeCodeCamp</a>
 
 <div class="try-it">
@@ -137,11 +144,10 @@ Let's take a look at an example of a repo on GitHub: <a href="https://github.com
   <ol>
     <li>What is this project about?</li>
     <li>How many commits have been made in the repository?</li>
-    <li>When was the most recent commit made?</li>
-    <li>About how often are changes made to this repository? How do you know?</li>
+    <li>Approximately how often are changes made to this repository? How do you know?</li>
     <li>Who is the top contributor?</li>
     <li>How many people have contributed to the repository?</li>
-    <li>How many people are watching the repository?</li>
+    <li>How many people are watching the repository? What does this mean?</li>
     <li>How many issues are open? Can you decipher what problems any of the issues are reporting? Is there any discussion happening on the issues?</li>
     <li>How many open pull requests exist? What was the date of the most recent pull request?</li>
     <li>Is there active commenting on the pull requests? Can you decipher what people are discussing?</li>
@@ -166,7 +172,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
 1. Give your repository a name, but keep all other settings the same for now.
 1. Click "Create Repository"
 1. Scroll to `…or push an existing repository from the command line`
-1. Paste the lines listed, one at a time, in your terminal. 
+1. Paste the lines listed, one at a time, in your terminal. You will need to enter your GitHub username and password (unless you've already setup SSH keys). 
 1. Refresh Github. Tada! Your project is there. 
 
 <div class="try-it">
@@ -195,7 +201,7 @@ Watch and take notes while we walk through how to continue making changes and pu
     <li>Refresh the page to make sure the new changes appear.</li>
     <li>Repeat the above steps, but this time, remove one of the quotes from your <code>quotes.txt</code> document, then add, commit, and push your changes.</li>
   </ul>
-  <p>Done? Paste the link to your GitHub repo into the breakout room chat, then check the commits in each other's GitHub repos.</p>
+  <p>Done? Paste the link to your GitHub repo into the breakout room chat, then take a look at each repo to make sure the new commits show up.</p>
   <p>Done with that? Get to know your breakout room classmates better: What are they trying to get better at in life? What book would the recommend that everyone read at least once in life?</p>
 </div>
 <hr>
@@ -216,7 +222,7 @@ To clone a project, click the green "Clone or download" button and copy the web 
 git clone <paste web address>
 ```
 
-If you clone a repository that you own **OR** you are a collaborator, you will be able to push new changes to that repository, like so:
+If you clone a repository that you own **OR** one where you are a collaborator, you will be able to push new changes to that repository, like so:
 
 ![pushed changes to a repository on GitHub](images/success.gif)
 
@@ -254,6 +260,12 @@ Once you've forked a repo, you will **follow the exact same steps** that we saw 
 git clone <insert address here>
 ```
 
+If you want to clone but rename the project when you download it locally, type this
+
+```
+git clone <insert address here> <insert new name here>
+```
+
 If you fork, clone, make changes, and push to origin, it will work because it's pushing to **your forked origin** (which you own), not the original repository (which you don't own). To push those changes:
 
 ```
@@ -264,20 +276,33 @@ git push origin master
 
 #### When might you use forking?
 
-- You are working on a project and your instructor has already created a "starter kit". Your job is to finish building out the project and submit it.
+- You are working on a Turing project and your instructor has already created a "starter kit". Your job is to finish building out the project and submit it.
 - You find a typo in the code for an external library you are using. You want to fix it and submit your changes for the library maintainer to review.
 - You want to build off of an existing codebase. You do not intend to merge your changes back into the original codebase, but you do want to give credit to the original team.
 
 <div class="try-it">
   <h3>Try It: Forking</h3>
-  <p>1. Fork one of the repositories that you looked at in your breakout room.</p>
-  <p>2. Remove the readme file, add, commit the changes, and try pushing your changes to the origin.</p>
+  <p>1. Back in your breakout room, choose someone's <code>git_practice</code> repository to fork.</p>
+  <p>2. Once you have forked the project, clone it using the renaming syntax (since you already have your own git_practice directory).</p>
+  <p>3. Remove the readme file, add, commit the changes, and push your changes to the origin (which is your fork).</p>
 </div>
-
 
 <a name="gists"></a>
 ## Gists and Markdown
 
+Markdown is a syntax used to create formatted text elements (like headings, paragraphs, lists, etc.). Markdown is processed into HTML elements:
+
+```
+# My Heading
+```
+
+becomes:
+
+```
+<h1>My Heading</h1>
+```
+
+To learn Markdown, we're going to explore an already-created Markdown document.
 
 <div class="try-it">
   <h3>Try It: Markdown</h3>
