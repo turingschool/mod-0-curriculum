@@ -77,6 +77,7 @@ subheading: More Git and Intro to GitHub
 Let's talk once more about this Git diagram.
 
 ![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png)
+<small><em>Source: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository</em></small>
 
 We'll start by repeating the group git exercise from Tuesday's session. This may seem repetative, but each time you practice, you'll gain muscle memory and procedural understanding.
 
@@ -250,7 +251,7 @@ If you clone a repo that does not belong to you, and you are not listed as a col
 
 #### What is Forking?
 
-Forking is a type of cloning on GitHub, but it will keep a reference to the original, existing project. To fork an existing project, you just click the `fork` button, which will make a copy of all of the code and directory structure to your own GitHub account. 
+<span class="vocab">Forking</span> is a type of cloning on GitHub, but it will keep a reference to the original, existing project. To fork an existing project, you just click the `fork` button, which will make a copy of all of the code and directory structure to your own GitHub account. 
 
 You can tell if something is a fork because it will say "forked from [original repo name]" underneath the title.
 
@@ -290,7 +291,7 @@ git push origin master
 <a name="gists"></a>
 ## Gists and Markdown
 
-Markdown is a syntax used to create formatted text elements (like headings, paragraphs, lists, etc.). Markdown is processed into HTML elements:
+<span class="vocab">Markdown</span> is a syntax used to create formatted text elements (like headings, paragraphs, lists, etc.). Markdown is processed into HTML elements:
 
 ```
 # My Heading
