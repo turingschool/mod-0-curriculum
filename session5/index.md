@@ -39,17 +39,21 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 
 ### Wins From Feedback
 
+- Solid understanding of creating repository, pushing to repository, cloning repository, and forking repository (average mastery scores above 4)
 - More breakout rooms! :) 
 
 ### Follow-Ups From Feedback
 
-- More breakout rooms :( 
+- Time allotted for breakout rooms
+- Terminal vs. text editor?
+- Sessions move fast
+- Markdown average mastery score 3.6
+- Recordings don't record breakout rooms
 
 ### Other Notes
 
 - Initial commit
 - Commit message format
-
 
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3>
@@ -167,9 +171,52 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 
 <span class="vocab">Object oriented programming</span>, or OOP for short, is an approach to programming (or a [programmming paradigm](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)) where programs are organized as a series of objects. 
 
+OOP is very similar to how the world actually works. In my office right now, there are several <span class="vocab">objects</span> (bullet points) of various <span class="vocab">classes</span> (bold):
+
+<strong>Chairs</strong>
+- a navy blue chair
+- a silver chair
+- two black chairs
+
+<strong>Crates</strong>
+- a green crate 
+- an orange crate
+
+<strong>Teachers</strong>
+- myself  
+- two other teachers
+
+<strong>WaterBottles</strong>
+- a blue Nalgene  
+- a red Nalgene
+
+<strong>FileFolders</strong>
+- countless multi-colored file folders
+
+<strong>StickyNotePads</strong>
+- a pad of small blue sticky notes  
+- two pads of larger yellow sticky notes
+
+<strong>WritingInstruments</strong>
+- 10 wooden pencils
+- 3 mechanical pencils
+- 8 pens
+
+<strong>Laptops</strong>
+- a MacBook  
+- a ChromeBook
+
+We group these objects because they have similar attributes/states and behaviors/methods/abilities. 
+
+<div class="try-it">
+  <h3>Classes and Objects</h3>
+  <p>In the chat, post an example of a class and objects of that class where you are right now. Example:</p>
+  <code>Stapler: blue plastic Office Max stapler, One-Touch high capacity metal stapler</code>
+</div>
+
 #### Classes and Objects
 
-A <span class="vocab">class</span> can be anything that has state and behavior (usually). Think of a class as a blueprint that can be used for creating lots of different versions of itself. For example, here are a few classes that I've used in recent programs that I've written:
+Think of a <span class="vocab">class</span> as a blueprint that can be used for creating lots of different versions of itself. For example, here are a few classes that I've used in recent programs that I've written:
 
 ```
 Student
@@ -197,10 +244,14 @@ An <span class="vocab">object</span>, on the other hand, **is** a very specific 
     </tr>
     <tr>
       <td>Account</td>
-      <td>Brandon's school meal account, Emily's college tuition account, Student Council's fundraising account</td>
+      <td>Brandon's school meal account, scholarship account, Student Council's fundraising account</td>
     </tr>
   </tbody>
 </table>
+
+The objects are similar enough in attributes/states and behaviors/methods/abilities that they are part of the same class. 
+
+Sidenote: Let's imagine that the fundraising accounts and the school meal accounts were so different that they had different attributes. As an example, maybe only deposits can be made to the fundraising accounts, while a lunch account can have both deposits and withdraws. In addition, maybe a lunch account can only be accessed by one person, but the fundraising accounts can have multiple owners. In this case, we might actually create separate classes: MealAccount and FundraisingAccount. **This is up to you as the developer to figure out how similar or different your objects are.**
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
@@ -212,8 +263,8 @@ An <span class="vocab">object</span>, on the other hand, **is** a very specific 
 </div>
 
 <div class="try-it">
-  <h3>Breakout Rooms: Classes vs. Objects</h3>
-  <p>In your groups, categorize the following classes and objects.</p>
+  <h3>Classes vs. Objects</h3>
+  <p>On your own, categorize the following classes and objects.</p>
   <textarea name="">
 car, poodle, Ford Mustang, scrabble, tent, chess, game, Nissan Juke, rose, dog, daisy, shelter, chihuahua, orchid, apartment, bulldog, monopoly, flower, Honda Civic
   </textarea>
@@ -261,9 +312,9 @@ car, poodle, Ford Mustang, scrabble, tent, chess, game, Nissan Juke, rose, dog, 
 
 <span class="vocab">Attributes</span> contain information about the **state** of a specific object (or instance of a class). The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash). 
 
-> Attributes answer the question "What characteristics distinguish this specific object from another object of the same class?". 
+> Attributes answer the question "What characteristics might distinguish this specific object from another object of the same class?". 
 
-For example: "What characteristics distinguish this specific student from another student? 
+For example: "What characteristics might distinguish this specific student from another student? 
 
 
 As we're looking at the examples below, note that I am using capital letters and no spaces for the attribute names. This is not a rule; this is simply a convention I'm using for today's lesson:
@@ -321,7 +372,7 @@ ClosingHour (datetime)
 
 #### Methods
 
-<span class="vocab">Methods</span> define **behavior** and how an object reacts when asked to do something. Methods are generally verbs (action words or very short phrases). Methods generally answer the question "What things can objects of this specific class do?"
+<span class="vocab">Methods</span> define **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the question "What things can objects of this specific class do?"
 
 For example: "What things can students do?" or "What things can accounts do?"
 
@@ -405,17 +456,26 @@ Model, Reverse, Color, FillTank, GasTank, Beep, CurrentSpeed, StartEngine, Year,
         <li>Beach</li>
         <li>Concert</li>
     </ul>
-      <li>Brainstorm two classes of objects in your chosen system.</li>
+      <li>Brainstorm two classes in your chosen system.</li>
       <li>List the attributes for both classes.</li>
       <li>List the methods for both classes.</li>
   </ol>
   <p>Be ready to share with a partner and give/receive feedback.</p>
 </div>
 
+### Share and Feedback
+
+In just a minute, you'll be randomly paired with another student. The person with the longest last name will share first.
+
+1. What system did you choose? (Museum, Hotel, Beach, Concert)
+1. What two classes did you identify for that system? How do you know they are classes? (Partner: provide feedback to confirm or adjust)
+1. What are the **attributes** for your first class? How do you know they are attributes and NOT methods? (Partner: provide feedback to confirm or adjust)
+1. What are the **attributes** for your second class? How do you know they are attributes and NOT methods? (Partner: provide feedback to confirm or adjust)
+1. What are the **methods** for your first class? How do you know they are methods and NOT attributes? (Partner: provide feedback to confirm or adjust)
+1. What are the **methods** for your second class? How do you know they are methods and NOT attributes? (Partner: provide feedback to confirm or adjust)
+1. Switch roles and repeat with second person.
+
 <a name="homework"></a>
 ## Homework
 
-This is our final Mod 0 technical session. Your assignment between now and Thursday is to find 60 minutes to complete the Mod 0 Technical Assessment. 
-
-
-
+This is our final Mod 0 technical session. Your assignment between now and Thursday is to find 70 minutes to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com). 
