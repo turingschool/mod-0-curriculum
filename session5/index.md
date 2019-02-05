@@ -41,6 +41,7 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 
 - Solid understanding of creating repository, pushing to repository, cloning repository, and forking repository (average mastery scores above 4)
 - More breakout rooms! :) 
+- Nice work with pull requests on GitHub
 
 ### Follow-Ups From Feedback
 
@@ -52,9 +53,27 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 
 ### Other Notes
 
-- Initial commit
-- Commit message format
+- Initial commit for starting point (see commits from [mod0references](https://github.com/turingschool-examples/mod0resources/commits/master) repo as an example)
+- Good commit message format: 
+
+```
+Add list of mod 0 resources
+Remove reference to old blog post
+Change data type of age field
+Fix spelling mistake
+```
+
+- Not good commit message format: 
+
+```
+Rachel is adding her list of mod 0 resources
+old blog post
+changed data type for age field
+Oops, I need to fix my spelling mistake
+```
+
 - Instead of simply absorbing information, practice and apply
+- Today's Goals
 
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3>
@@ -351,7 +370,8 @@ Account
 Attributes:
 Type (string)
 Balance (float)
-UserID (integer)
+OwnerSSN (integer)
+Frozen (boolean)
 Transactions (array)
 ```
 
@@ -394,9 +414,10 @@ IntroduceSelf
 CompleteAssignment
 RaiseHand
 Enroll
+Withdraw
 ```
 
-Unlike attributes, methods do not necessarily differentiate one instance of the object from another. For example, the steps that Briana and Jose would take to raise their hands might be identical. The steps they take to enroll at school might also be identical. Often (but not always), a method will use or change an attribute. For example, the `IntroduceSelf` method would rely on the `FirstName` and `LastName` attributes. 
+Unlike attributes, methods do not necessarily differentiate one instance of the object from another. For example, the steps that Briana and Jose would take to raise their hands might be identical. The steps they take to enroll at school might also be identical. Often (but not always), a method will use or change an attribute. For example, the `IntroduceSelf` method would use the `FirstName` and `LastName` attributes. `Enroll` and `Withdraw` would change the `Enrolled` attribute.
 
 Here's another example:
 
@@ -406,7 +427,8 @@ Account
 Attributes:
 Type (string)
 Balance (float)
-UserID (integer)
+OwnerSSN (integer)
+Frozen (boolean)
 Transactions (array)
 
 Methods: 
@@ -418,7 +440,7 @@ In this case, both the `Withdraw` and `Deposit` methods would change the `Balanc
 
 <div class="try-it">
   <h3>Try It: Attributes vs. Methods</h3>
-  <p>By yourself, categorize the following as either attributes of a car or methods of a car.</p>
+  <p>By yourself, categorize the following as either <strong>attributes</strong> of a car or <strong>methods</strong> of a car.</p>
   <textarea name="">
 Model, Reverse, Color, FillTank, GasTank, Beep, CurrentSpeed, StartEngine, Year, ChangeOil, LastOilChange, TireSize, Turn, Stop
   </textarea>
@@ -442,7 +464,8 @@ Model, Reverse, Color, FillTank, GasTank, Beep, CurrentSpeed, StartEngine, Year,
 <div class="try-it">
   <h3>Breakout Rooms: Methods</h3>
   <p>Select two classes from your shopping app that lend themselves nicely to brainstorming methods. For example, <code>Product</code> might not have many easily brainstormed methods, but <code>Cashier</code> or <code>Customer</code> might.</p>
-  <p>Brainstorm methods for the two selected classes. Discuss whether these methods would use/change any attributes. Be ready to share.</p>
+  <p>Brainstorm methods for the two selected classes.</p> 
+  <p>Discuss whether your brainstormed methods would use/change any attributes. If so, which ones? Be ready to share.</p>
 </div>
 
 ### Individual Practice Round
