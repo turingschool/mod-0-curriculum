@@ -54,6 +54,7 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 
 - Initial commit
 - Commit message format
+- Instead of simply absorbing information, practice and apply
 
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3>
