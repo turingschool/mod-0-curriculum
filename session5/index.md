@@ -80,7 +80,7 @@ Oops, I need to fix my spelling mistake
   <p>Person with the shortest first name goes first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. What's something you're really good at? (Don't be humble!)</p>
-  <p>3. Accountability review: how are you progressing toward mastery of your focus skills?</p>
+  <p>3. Accountability review: what tangible progress have you made toward the focus skills you identified at the beginning of Mod 0?</p>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
 
