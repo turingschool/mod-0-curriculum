@@ -39,9 +39,16 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 
 ### Wins From Feedback
 
+- More breakout rooms! :) 
+
 ### Follow-Ups From Feedback
 
+- More breakout rooms :( 
+
 ### Other Notes
+
+- Initial commit
+- Commit message format
 
 
 <div class="try-it">
@@ -56,7 +63,12 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 <a name="topdowndesign"></a>
 ## Top Down Design
 
+> "Programing is hard because it requires us to solve ill-defined problems with unknown solutions. Our job is to invent the solutions. Coding is inherently creative." - [Danny Smith on Breaking Down Problems](https://medium.com/@dannysmith/breaking-down-problems-its-hard-when-you-re-learning-to-code-f10269f4ccd5)
+
 <span class="vocab">Top Down Design</span> (or step-wise design) is an approach to breaking down a problem or system. In this approach, the designer lays out the problem or system's high-level overview, then breaking down the overview into sub-systems (or sub-steps), then repeating that process until the system has been broken down into the smallest pieces. 
+
+**Why is this important?** A problem that is not broken down into its smallest components remains too complex and abstract to code. 
+
 
 As humans, we memorize and practice the steps that it takes in order to do even the most basic tasks. If you tell a human to tie their shoe, you (generally) don't need to specify any further instructions. However, if you were to build a shoe-tying machine, you would need to break down the process into the most basic steps. 
 
@@ -69,14 +81,16 @@ As humans, we memorize and practice the steps that it takes in order to do even 
 
 ### Whole-Group Share
 
-What are some key considerations when breaking down a problem using top down design? 
+1. What are some key considerations when breaking down a problem using top down design? 
+1. What are some questions related to top down design and the points brought up in the video? 
 
-What are some questions related to top down design and the points brought up in the video? 
+Even though we're not going to write the code for making a cup of tea, imagining the process of breaking down everyday tasks is great practice for getting your brain ready for top down design. 
 
 <div class="try-it">
   <h3>Top Down Design: Breakout Rooms</h3>
   <p>Open your text editor (either Atom or Sublime) and press <code>command + n</code> which will give you a blank file. There is no need to save this file right now.</p>
-  <p>In your groups, breakdown steps 6-10 and document your process in your text editor. You can find the full list at 2:00 in the video. Be ready to share.</p>
+  <p>Scroll to the full list of steps at 2:00 in the video.</p>
+  <p>In your groups, breakdown steps 6-10 and document your process in your text editor.</p>
 </div>
 
 ### Share
@@ -87,7 +101,25 @@ Be ready to share how your group broke down the remaining steps.
 
 The video only demonstrates one layer deep of breaking down a problem. What would it look like if we broke down the sub steps? 
 
-<textarea rows="15" name="">
+<div class="things-to-note">
+  <h4>Things to Note</h4>
+  <p>When breaking down subsequent layers of a problem, finish an entire layer before creating a new layer.</p>
+  <p>What does this look like?</p>
+  <div class="flex-container">
+    <div>
+  <textarea rows="12" name="">
+1.1 Get a cup
+      1.1.1 Open the cupboard
+      1.1.2 Select a mug
+      1.1.3 Put the mug on the counter
+1.2 Get tea bags
+1.3 Get sugar
+1.4 Get milk
+1.5 Get spoon/fork
+</textarea>
+</div>
+<div>
+  <textarea rows="12" name="">
 1.1 Get a cup
       1.1.1 Open the cupboard
               1.1.1.1 Decide which cupboard contains the mugs
@@ -96,12 +128,13 @@ The video only demonstrates one layer deep of breaking down a problem. What woul
       1.1.2 Select a mug
       1.1.3 Put the mug on the counter
 1.2 Get tea bags
-      1.2.1
-      1.2.2
 1.3 Get sugar
 1.4 Get milk
 1.5 Get spoon/fork
 </textarea>
+</div>
+</div>
+</div>
 
 <div class="try-it">
   <h3>Top Down Design: Breakout Rooms</h3>
@@ -113,19 +146,30 @@ The video only demonstrates one layer deep of breaking down a problem. What woul
 What did you come up with? 
 
 <div class="try-it">
-  <h3>Top Down Design: The Library</h3>
-  <p>Back in your breakout groups, the person whose birthday is next will share their screen. Happy birthday! Pull up your text editor. You can either delete what you already had from the last exercise, or you can start fresh underneath your previous work.</p>
-  <p>Break down the process of <strong>checking out a specific book (group choice) from the library</strong>.</p>
+  <h3>Top Down Design: Mailing a Package</h3>
+  <p>Back in your breakout groups, the person whose birthday is next will share their screen. Happy birthday!</p>
+  <p>Birthday person: Pull up your text editor. You can either delete what you already had from the last exercise, or you can just type underneath your previous work.</p>
+  <p>Break down the process of <strong>mailing a package at the post office</strong>.</p>
 </div>
+
+### Top Down Design and OOP
+
+Breaking down problems using top down design lends itself nicely to the object-oriented design principles of <span class="vocab">abstraction</span> (where an object performs a task without other objects being concerned about how it is done) and <span class="vocab">encapsulation</span> (where an object handles its own internal states and behind-the-scenes work). 
+
+<hr>
+## BREAK
+
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
+<hr>
 
 <a name="oop"></a>
 ## Object Oriented Programming
 
-<span class="vocab">Object oriented programming</span>, or OOP for short, is an approach to programming (or a [programmming paradigm](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)) where programs are organized as a series of objects. Each object has <span class="vocab">attributes</span> and <span class="vocab">methods</span>. 
+<span class="vocab">Object oriented programming</span>, or OOP for short, is an approach to programming (or a [programmming paradigm](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)) where programs are organized as a series of objects. 
 
-#### Objects
+#### Classes and Objects
 
-An object can be anything that has state and behavior (usually). For example, here are a few objects that I've used in recent programs that I've written:
+A <span class="vocab">class</span> can be anything that has state and behavior (usually). Think of a class as a blueprint that can be used for creating lots of different versions of itself. For example, here are a few classes that I've used in recent programs that I've written:
 
 ```
 Student
@@ -133,18 +177,96 @@ Course
 Account
 ```
 
-Notice that I didn't say something as specific as `Joey`, `Calculus`, or `Briana's school breakfast account`. 
+An <span class="vocab">object</span>, on the other hand, **is** a very specific instance of a class. An object is what is created from the blueprint. 
 
-Think of an object as a blueprint that could be used for many versions of itself, not a specific instance of something. 
+<table>
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Objects of that class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Student</td>
+      <td>Joey, Briana, Marisol</td>
+    </tr>
+    <tr>
+      <td>Course</td>
+      <td>5th period calculus, 2nd period English, 1st period theater, evening parenting course</td>
+    </tr>
+    <tr>
+      <td>Account</td>
+      <td>Brandon's school meal account, Emily's college tuition account, Student Council's fundraising account</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="things-to-note">
+  <h4>Things to Note</h4>
+  <p>One trick you can use when determining whether something is an object or a class is to say:</p>
+  <p><strong>[Object] is a type of [Class]</strong></p>
+  <p>- Joey is a type of Student</p>
+  <p>- 5th period calculus is a type of Course</p>
+  <p>- Emily's college tuition account is a type of Account</p>
+</div>
 
 <div class="try-it">
-  <h3>Breakout Rooms: Object Brainstorm</h3>
-  <p>Think back to your shopping app from session 2. Brainstorm as many objects as you can that might exist in a shopping app and jot your ideas down. Be ready to share.</p>
+  <h3>Breakout Rooms: Classes vs. Objects</h3>
+  <p>In your groups, categorize the following classes and objects.</p>
+  <textarea name="">
+car, poodle, Ford Mustang, scrabble, tent, chess, game, Nissan Juke, rose, dog, daisy, shelter, chihuahua, orchid, apartment, bulldog, monopoly, flower, Honda Civic
+  </textarea>
+  <br><br>
+  <table class="objectclass">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Objects of that class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><textarea name=""></textarea></td>
+      <td><textarea name=""></textarea></td>
+    </tr>
+    <tr>
+      <td><textarea name=""></textarea></td>
+      <td><textarea name=""></textarea></td>
+    </tr>
+    <tr>
+      <td><textarea name=""></textarea></td>
+      <td><textarea name=""></textarea></td>
+    </tr>
+    <tr>
+      <td><textarea name=""></textarea></td>
+      <td><textarea name=""></textarea></td>
+    </tr>
+    <tr>
+      <td><textarea name=""></textarea></td>
+      <td><textarea name=""></textarea></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="try-it">
+  <h3>Breakout Rooms: Class Brainstorm</h3>
+  <p>Open up a new file in your text editor.</p>
+  <p>Think back to your grocery shopping app from session 2. With your group, brainstorm as many classes as you can that might exist in a shopping app (keeping in mind that you're thinking <code>blueprint</code>, not specific items) and jot your ideas down. Be ready to share.</p>
+  <p>Need an example? <code>Store</code> would be a good example of a class.</p>
 </div>
 
 #### Attributes
 
-Attributes contain information about the **state** of an object. The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash). You can think of them as the things that differentiate one type of this object from another. These are NOT things that the object can do. Let's look at a few examples:
+Attributes contain information about the **state** of a specific object (or instance of a class). The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash). 
+
+> Attributes answer the question "What characteristics distinguish this specific object from another object of the same class?". 
+
+For example: "What characteristics distinguish this specific student from another student? 
+
+
+As we're looking at the examples below, note that I am using capital letters and no spaces for the attribute names. This is not a rule; this is simply a convention I'm using for today's lesson:
 
 ```
 Student
@@ -152,11 +274,11 @@ Student
 Attributes:
 FirstName (string)
 LastName (string)
-Birthdate (date) -- this is not one of the data types we discussed, but it's a valid type to use
+Birthdate (datetime) -- this is not one of the data types we discussed, but it's valid
 Enrolled (boolean)
 ```
 
-All of these things would differentiate one student from another, but none of these attributes are **behaviors**. For example, I didn't include `enroll_in_school` as an attribute because that's an action, not a state. Instead, these are traits that I can ask about but not things that a student can do. 
+All of these things would differentiate one student from another, but none of these attributes are **behaviors** or **actions**. For example, I didn't include `EnrollInSchool` as an attribute because that's an action, not a state. 
 
 ```
 Course
@@ -165,7 +287,7 @@ Attributes:
 Title (string)
 Period (integer)
 Category (string)
-Offered (boolean)
+CurrentlyOffered (boolean)
 Roster (array)
 ```
 
@@ -181,16 +303,29 @@ UserID (integer)
 Transactions (array)
 ```
 
-The same thing is true of this final attribute as well. The `Transactions` array could potentially contain `Transaction` objects. 
-
 <div class="try-it">
-  <h3>Breakout Rooms: Object Attributes</h3>
-  <p>Select four objects from your shopping app. Brainstorm and jot down (using the format above) attributes for the four selected objects. Be ready to share. </p>
+  <h3>Breakout Rooms: Attributes</h3>
+  <p>Select four classes from your shopping app brainstorm. For those classes, jot down (using the format above) attributes for the four selected objects. Be ready to share.</p>
+  <p>As an example, if I selected <code>Store</code> as one of my classes, I would write in my text editor:</p>
+  <pre>
+Store
+
+Attributes:
+Name (string)
+Location (string)
+SquareFeet (integer)
+OpeningHour (datetime)
+ClosingHour (datetime)
+  </pre>
 </div>
 
 #### Methods
 
-Methods encapsulate an object's **behavior** and how that object reacts when asked to do something. Methods are generally verbs (action words or very short phrases). Let's look at a few examples: 
+Methods define **behavior** and how an object reacts when asked to do something. Methods are generally verbs (action words or very short phrases). Methods generally answer the question "What things can objects of this specific class do?"
+
+For example: "What things can students do?" or "What things can accounts do?"
+
+Let's look at a few examples: 
 
 ```
 Student
@@ -230,15 +365,38 @@ Deposit
 In this case, both the `Withdraw` and `Deposit` methods would change the `Balance` attribute in addition to adding to the `Transactions` array. 
 
 <div class="try-it">
-  <h3>Breakout Rooms: Object Methods</h3>
-  <p>Select two objects from your shopping app that lend themselves nicely to brainstorming methods. For example, <code>Product</code> might not have many easily brainstormed methods, but <code>Cashier</code> or <code>Customer</code> might.</p>
-  <p>Brainstorm methods for the two selected objects. Discuss whether these methods would use/change any attributes of the object. Be ready to share.</p>
+  <h3>Breakout Rooms: Attributes vs. Methods</h3>
+  <p>In your groups, categorize the following as either attributes of a car or methods of a car.</p>
+  <textarea name="">
+Model, Reverse, Color, FillTank, GasTank, Beep, CurrentSpeed, StartEngine, Year, ChangeOil, LastOilChange, TireSize, Turn, Stop
+  </textarea>
+  <br><br>
+  <table class="objectclass">
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Methods</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><textarea name=""></textarea></td>
+      <td><textarea name=""></textarea></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="try-it">
+  <h3>Breakout Rooms: Methods</h3>
+  <p>Select two classes from your shopping app that lend themselves nicely to brainstorming methods. For example, <code>Product</code> might not have many easily brainstormed methods, but <code>Cashier</code> or <code>Customer</code> might.</p>
+  <p>Brainstorm methods for the two selected classes. Discuss whether these methods would use/change any attributes. Be ready to share.</p>
 </div>
 
 ### Individual Practice Round
 
 <div class="try-it">
-  <h3>Objects in a System</h3>
+  <h3>Classes in a System</h3>
   <ol>
       <li>Choose one of these systems:</li>
       <ul>
@@ -247,9 +405,9 @@ In this case, both the `Withdraw` and `Deposit` methods would change the `Balanc
         <li>Beach</li>
         <li>Concert</li>
     </ul>
-      <li>Brainstorm two objects in your chosen system.</li>
-      <li>List the attributes for both objects.</li>
-      <li>List the methods for both objects.</li>
+      <li>Brainstorm two classes of objects in your chosen system.</li>
+      <li>List the attributes for both classes.</li>
+      <li>List the methods for both classes.</li>
   </ol>
   <p>Be ready to share with a partner and give/receive feedback.</p>
 </div>
