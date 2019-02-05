@@ -100,26 +100,10 @@ As humans, we memorize and practice the steps that it takes in order to do even 
   <h3>Top Down Design: Independent</h3>
   <p>Watch <a href="https://www.youtube.com/watch?v=QsKkG9gWxF4" title="">Damian Gordon's Top Down Design video</a> where he talks through the process of breaking down the process of making a cup of tea.</p>
 
-  <p>In your notebooks, jot down key points to consider in the process of top down design. Be ready to share.</p>
+  <p>On your own, breakdown steps 8 and 9. Paste your answers in the chat box.</p>
 </div>
-
-### Whole-Group Share
-
-1. What are some key considerations when breaking down a problem using top down design? 
-1. What are some questions related to top down design and the points brought up in the video? 
 
 Even though we're not going to write the code for making a cup of tea, imagining the process of breaking down everyday tasks is great practice for getting your brain ready for top down design. 
-
-<div class="try-it">
-  <h3>Top Down Design: Breakout Rooms</h3>
-  <p>Open your text editor (either Atom or Sublime) and press <code>command + n</code> which will give you a blank file. There is no need to save this file right now.</p>
-  <p>Scroll to the full list of steps at 2:00 in the video.</p>
-  <p>In your groups, breakdown steps 6-10 and document your process in your text editor.</p>
-</div>
-
-### Share
-
-Be ready to share how your group broke down the remaining steps. 
 
 ### Further Break Down
 
@@ -129,7 +113,6 @@ The video only demonstrates one layer deep of breaking down a problem. What woul
   <h4>Things to Note</h4>
   <p>When breaking down subsequent layers of a problem, finish an entire layer before creating a new layer.</p>
   <p>What does this look like?</p>
-  <div class="flex-container">
     <div>
   <textarea rows="12" name="">
 1.1 Get a cup
@@ -141,39 +124,15 @@ The video only demonstrates one layer deep of breaking down a problem. What woul
 1.4 Get milk
 1.5 Get spoon/fork
 </textarea>
-</div>
-<div>
-  <textarea rows="12" name="">
-1.1 Get a cup
-      1.1.1 Open the cupboard
-              1.1.1.1 Decide which cupboard contains the mugs
-              1.1.1.2 Put fingers on handle of cupboard
-              1.1.1.3 Pull cupboard door open
-      1.1.2 Select a mug
-      1.1.3 Put the mug on the counter
-1.2 Get tea bags
-1.3 Get sugar
-1.4 Get milk
-1.5 Get spoon/fork
-</textarea>
+  
 </div>
 </div>
-</div>
-
-<div class="try-it">
-  <h3>Top Down Design: Breakout Rooms</h3>
-  <p>Back in your breakout rooms, see if you can identify any sub steps from making tea (6-10) that can be broken down into smaller parts. Be ready to share.</p>
-</div>
-
-### Share
-
-What did you come up with? 
 
 <div class="try-it">
   <h3>Top Down Design: Mailing a Package</h3>
-  <p>Back in your breakout groups, the person whose birthday is next will share their screen. Happy birthday!</p>
-  <p>Birthday person: Pull up your text editor. You can either delete what you already had from the last exercise, or you can just type underneath your previous work.</p>
-  <p>Break down the process of <strong>mailing a package at the post office</strong>.</p>
+  <p>Back in your breakout groups, the person whose birthday is next will share their screen and be the driver. Happy birthday! Everyone else in the room will be a navigator.</p>
+  <p>Birthday person: Pull up your text editor and open a new blank file (command + n). You do not need to save this file.</p>
+  <p>Break down the process of <strong>mailing a package at the post office</strong> into steps (and break down those steps as substeps, and so on as needed).</p>
 </div>
 
 ### Top Down Design and OOP
@@ -321,13 +280,6 @@ car, poodle, Ford Mustang, scrabble, tent, chess, game, Nissan Juke, rose, dog, 
 </table>
 </div>
 
-<div class="try-it">
-  <h3>Breakout Rooms: Class Brainstorm</h3>
-  <p>Open up a new file in your text editor.</p>
-  <p>Think back to your grocery shopping app from session 2. With your group, brainstorm as many classes as you can that might exist in a shopping app (keeping in mind that you're thinking <code>blueprint</code>, not specific items) and jot your ideas down. Be ready to share.</p>
-  <p>Need an example? <code>Store</code> would be a good example of a class.</p>
-</div>
-
 #### Attributes
 
 <span class="vocab">Attributes</span> contain information about the **state** of a specific object (or instance of a class). The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash). 
@@ -376,19 +328,8 @@ Transactions (array)
 ```
 
 <div class="try-it">
-  <h3>Breakout Rooms: Attributes</h3>
-  <p>Select four classes from your shopping app brainstorm. For those classes, jot down (using the format above) attributes for the four selected objects. Be ready to share.</p>
-  <p>As an example, if I selected <code>Store</code> as one of my classes, I would write in my text editor:</p>
-  <pre>
-Store
-
-Attributes:
-Name (string)
-Location (string)
-SquareFeet (integer)
-OpeningHour (datetime)
-ClosingHour (datetime)
-  </pre>
+  <h3>Try It: Attributes</h3> 
+  <p>In the chat, post the attributes (with data types) of a <code>Refrigerator</code> class.</p>
 </div>
 
 #### Methods
@@ -462,10 +403,24 @@ Model, Reverse, Color, FillTank, GasTank, Beep, CurrentSpeed, StartEngine, Year,
 </div>
 
 <div class="try-it">
-  <h3>Breakout Rooms: Methods</h3>
-  <p>Select two classes from your shopping app that lend themselves nicely to brainstorming methods. For example, <code>Product</code> might not have many easily brainstormed methods, but <code>Cashier</code> or <code>Customer</code> might.</p>
-  <p>Brainstorm methods for the two selected classes.</p> 
-  <p>Discuss whether your brainstormed methods would use/change any attributes. If so, which ones? Be ready to share.</p>
+  <h3>Breakout Rooms: Classes, Attributes, and Methods</h3>
+  <p>1. The new driver is the person whose birthday happened most recently. Everyone else will be a navigator.</p>
+  <p>2. Driver: Share your screen and open up a new blank file in your text editor (command + n). You do not need to save this file.</p>
+  <p>3. Think back to your grocery shopping app from session 2. With your group, brainstorm as many classes as you can that might exist in a shopping app (keeping in mind that you're thinking <code>blueprint</code>, not specific items) and jot your ideas down in your text editor. Need an example? <code>Store</code> would be a good example of a class.</p>
+  <p>4. Next, select four of the classes your team brainstormed. For those classes, jot down attributes for the four selected objects. As an example, if I selected <code>Store</code> as one of my classes, I would write in my text editor:</p>
+  <pre>
+Store
+
+Attributes:
+Name (string)
+Location (string)
+SquareFeet (integer)
+OpeningHour (datetime)
+ClosingHour (datetime)
+  </pre>
+  <p>5. Select two classes from your shopping app that lend themselves nicely to brainstorming methods. For example, <code>Product</code> might not have many easily brainstormed methods, but <code>Cashier</code> or <code>Customer</code> might.</p>
+  <p>6. Brainstorm methods for the two selected classes.</p> 
+  <p>7. Discuss whether your brainstormed methods would use/change any attributes. If so, which ones?</p>
 </div>
 
 ### Individual Practice Round
