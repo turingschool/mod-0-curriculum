@@ -259,7 +259,7 @@ car, poodle, Ford Mustang, scrabble, tent, chess, game, Nissan Juke, rose, dog, 
 
 #### Attributes
 
-Attributes contain information about the **state** of a specific object (or instance of a class). The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash). 
+<span class="vocab">Attributes</span> contain information about the **state** of a specific object (or instance of a class). The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash). 
 
 > Attributes answer the question "What characteristics distinguish this specific object from another object of the same class?". 
 
@@ -321,7 +321,7 @@ ClosingHour (datetime)
 
 #### Methods
 
-Methods define **behavior** and how an object reacts when asked to do something. Methods are generally verbs (action words or very short phrases). Methods generally answer the question "What things can objects of this specific class do?"
+<span class="vocab">Methods</span> define **behavior** and how an object reacts when asked to do something. Methods are generally verbs (action words or very short phrases). Methods generally answer the question "What things can objects of this specific class do?"
 
 For example: "What things can students do?" or "What things can accounts do?"
 
@@ -365,8 +365,8 @@ Deposit
 In this case, both the `Withdraw` and `Deposit` methods would change the `Balance` attribute in addition to adding to the `Transactions` array. 
 
 <div class="try-it">
-  <h3>Breakout Rooms: Attributes vs. Methods</h3>
-  <p>In your groups, categorize the following as either attributes of a car or methods of a car.</p>
+  <h3>Try It: Attributes vs. Methods</h3>
+  <p>By yourself, categorize the following as either attributes of a car or methods of a car.</p>
   <textarea name="">
 Model, Reverse, Color, FillTank, GasTank, Beep, CurrentSpeed, StartEngine, Year, ChangeOil, LastOilChange, TireSize, Turn, Stop
   </textarea>
