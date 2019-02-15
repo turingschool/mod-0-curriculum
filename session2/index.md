@@ -146,6 +146,32 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
           <pre>command + Q</pre>
         </li>  
       </ul>
+      <div>
+      <h3>Spectacle</h3>
+      <p>Start by making sure Spectacle is running with (command + spacebar) then type <strong>spectacle</strong> and then return. You should see a sunglasses icon at the top right of your menu bar. Click the icon to see a dropdown of your shortcuts. Click preferences to customize them.</p>
+      <ul>
+        <li>
+          <strong>Full Screen Current Window:</strong>
+          <pre>command + option + F</pre>
+        </li>
+        <li>
+          <strong>Left Half Current Window:</strong>
+          <pre>command + option + left-arrow</pre>
+        </li>
+        <li>
+          <strong>Right Half Current Window:</strong>
+          <pre>command + option + right-arrow</pre>
+        </li>
+        <li>
+          <strong>Top Half Current Window:</strong>
+          <pre>command + option + up-arrow</pre>
+        </li>
+        <li>
+          <strong>Bottom Half Current Window:</strong>
+          <pre>command + option + down-arrow</pre>
+        </li>
+      </ul>
+    </div>
     </div>
     <div>
       <h3>Chrome Browser</h3>
