@@ -571,7 +571,7 @@ Iteration (or looping for a specified number of times) is a process of repeating
           <li>subtract age from 220</li>
         </ol>
       </td>
-      <td>repeat with next raw point value</td>
+      <td>repeat with next year</td>
     </tr>
     <tr>
       <td>Formatting names</td>
