@@ -139,13 +139,39 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
         </li>
         <li>
           <strong>Switch between separate open windows of the same program:</strong>
-          <pre>command + ~</pre>
+          <pre>command + `</pre>
         </li>
         <li>
           <strong>Quit an Open Program:</strong>
           <pre>command + Q</pre>
         </li>  
       </ul>
+      <div>
+      <h3>Spectacle</h3>
+      <p>Start by making sure Spectacle is running with (command + spacebar) then type <strong>spectacle</strong> and then return. You should see a sunglasses icon at the top right of your menu bar. Click the icon to see a dropdown of your shortcuts. Click preferences to customize them.</p>
+      <ul>
+        <li>
+          <strong>Full Screen Current Window:</strong>
+          <pre>command + option + F</pre>
+        </li>
+        <li>
+          <strong>Left Half Current Window:</strong>
+          <pre>command + option + left-arrow</pre>
+        </li>
+        <li>
+          <strong>Right Half Current Window:</strong>
+          <pre>command + option + right-arrow</pre>
+        </li>
+        <li>
+          <strong>Top Half Current Window:</strong>
+          <pre>command + option + up-arrow</pre>
+        </li>
+        <li>
+          <strong>Bottom Half Current Window:</strong>
+          <pre>command + option + down-arrow</pre>
+        </li>
+      </ul>
+    </div>
     </div>
     <div>
       <h3>Chrome Browser</h3>
@@ -271,7 +297,7 @@ Once you formulate a good Google search and receive your results, there are a fe
         <li><strong>Stack Overflow</strong>: Stack Overflow is one of my personal favorite resources for getting unstuck; however, make sure to check that the question is actually the <strong>same question</strong> that you're asking, the answer is not <strong>outdated</strong>, and that the answer is <strong>upvoted</strong> multiple times. In addition, read the comments below the top answer to see if there is any new information or different scenarios that might fit your issue better.</li>
         <li><strong>W3 Schools</strong>: Generally good for very basic questions, but considered behind-the-time and sometimes shows bad practices</li>
         <li><strong>Blog Posts</strong>: As a beginner (and even now!), I found a lot of answers through blog posts and tutorials. Again, watch the <strong>date</strong> on these posts and understand that these posts may or may not reflect best practices. </li>
-        <li><strong>Videos</strong>: Video walk-throughs and tutorials are usually pretty great, but they can be time consuming if you're looing for a quick answer. Again, check the date of the post.</li>
+        <li><strong>Videos</strong>: Video walk-throughs and tutorials are usually pretty great, but they can be time consuming if you're looking for a quick answer. Again, check the date of the post.</li>
       </ul>
     </small>
   </li>
