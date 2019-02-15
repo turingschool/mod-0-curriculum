@@ -271,7 +271,7 @@ Once you formulate a good Google search and receive your results, there are a fe
         <li><strong>Stack Overflow</strong>: Stack Overflow is one of my personal favorite resources for getting unstuck; however, make sure to check that the question is actually the <strong>same question</strong> that you're asking, the answer is not <strong>outdated</strong>, and that the answer is <strong>upvoted</strong> multiple times. In addition, read the comments below the top answer to see if there is any new information or different scenarios that might fit your issue better.</li>
         <li><strong>W3 Schools</strong>: Generally good for very basic questions, but considered behind-the-time and sometimes shows bad practices</li>
         <li><strong>Blog Posts</strong>: As a beginner (and even now!), I found a lot of answers through blog posts and tutorials. Again, watch the <strong>date</strong> on these posts and understand that these posts may or may not reflect best practices. </li>
-        <li><strong>Videos</strong>: Video walk-throughs and tutorials are usually pretty great, but they can be time consuming if you're looing for a quick answer. Again, check the date of the post.</li>
+        <li><strong>Videos</strong>: Video walk-throughs and tutorials are usually pretty great, but they can be time consuming if you're looking for a quick answer. Again, check the date of the post.</li>
       </ul>
     </small>
   </li>
