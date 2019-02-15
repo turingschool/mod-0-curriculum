@@ -44,7 +44,7 @@ subheading: Data Types, Iteration, Documentation, Googling
 
 * Have you installed Spectacle? 
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
-* Session will be recorded
+* Session will be recorded and posted in Slack
 * Find a typo?
 
 ## Intro
@@ -59,14 +59,39 @@ Mod 0 is less about code or solving difficult problems and more about developing
 
 At the end of Session 5, you'll take a technical assessment that will showcase a subset skills you learn during Mod 0. The assessment will be performance-based rather than multiple choice. The assessment instructions will include a checklist of what we're looking for to know that you've practiced and mastered the material. 
 
-In addition to the technical assessment, we're also looking for you to demonstrate mastery and/or growth of the things that make students successful at Turing. These include: 
+In addition to the technical assessment, we're also looking for you to demonstrate mastery and/or growth of in the Core Value areas that make students successful at Turing. These include: 
 
-- <strong>Attendance</strong>: be on time; stay the whole time; give notice in advance if there's a reason you cannot attend
-- <strong>Learning Behaviors</strong>: manage time to get assignments done; notetake effectively in a way that leads to content mastery; full engagement in material; full participation in sessions
-- <strong>Notetaking</strong>: hand-write notes during "lecture" portions, type exercises into textboxes, then set aside 15 minutes after the session to pick out key concepts from exercises and transfer to notebook
-- <strong>Participating and Sharing</strong>: be ready for cold-calls; volunteer to share answers/ideas using voice, screen, and video; ask questions when you don't understand
-- <strong>Collaboration</strong>: much of what you'll do at Turing will happen in pairs or groups. Challenge yourself to speak up in groups, articulate your ideas to peers, and encourage others to share out as well.
-- <strong>Homework</strong>: homework is to be completed by the start of the next session and will consist of `practice tasks`, `readings and responses`, and `daily habits`.
+<div class="mod0values">
+  <div>
+    <h3>Be Here</h3>
+    <ul>
+      <li>Be on time</li>
+      <li>Stay the whole time</li>
+      <li>Have your materials ready</li>
+      <li>Give notice if an emergency comes up</li>
+      <li>Fully engage in session material</li>
+    </ul>
+  </div>
+  <div>
+    <h3>Be Focused</h3>
+    <ul>
+      <li>Close or minimize anything else on your computer that might be distracting</li>
+      <li>Put phones and other devices away throughout the session </li>
+      <li>Take notes during "lecture" portions, type exercises into textboxes, set aside time after session to pick out key concepts from exercises and transfer to notebook</li>
+      <li>Complete homework assignments by the start of the next session: practice tasks, readings and responses, and daily habits</li>
+      <li>Schedule and manage time to get assignments done</li>
+    </ul>
+  </div>
+  <div>
+    <h3>Be Collaborative</h3>
+    <ul>
+      <li>Volunteer to share answers/ideas using voice, screen, and video</li>
+      <li>Be ready for cold-calls</li>
+      <li>Ask questions when you don't understand to help yourself and others</li>
+      <li>Challenge yourself to speak up in groups, articulate your ideas to peers, and encourage others to share out as well</li>
+    </ul>
+  </div>
+</div>
 
 <div class="try-it">
   <h3>Try It: Planning your Growth (Break out rooms)</h3>
@@ -79,10 +104,11 @@ In addition to the technical assessment, we're also looking for you to demonstra
 Other things to note as we go through Mod 0:
 
 - <strong>Zoom</strong>: turn video on, turn mic off unless speaking
-- <strong>Focus</strong>: close or minimize anything else on your computer that might be distracting; put phones and other devices away throughout the session
-- <strong>Pop Quizzes</strong>: be ready for short quizzes at the beginning of the sessions that check your understanding of past work
+- <strong>Breakout Rooms</strong>: don't be afraid to speak! Breakout rooms will be randomized at the beginning of each session, but continue to rely on your accountabilabuddy groups from Session 1 between sessions
 - <strong>Problems or individual questions during the Zoom session?</strong> Message the non-presenting host (either Rachel or Tim)
 - <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes. 
+
+Successful completion of assignments, session engagement, and the Session 5 Technical Assessment will result in a rating of "Turing-Ready." At any point if you feel like you may not meet the expectations, or you need advice/guidance on meeting an expectation, please reach out via Slack to either Rachel, Tim, or Sarah. 
 
 Let's dive in! 
 
@@ -205,38 +231,22 @@ make border on heading element css
 <div class="try-it">
   <h3>Try It: Writing Google-able Phrases</h3>
   <p>Write out Google-able search phrases for each of the following scenarios. Do not get hung up on being unfamiliar with the terminology for each scenario. We just want phrases to put into Google.</p>
-  <p>Start with one phrase for each scenario. If you make it through all all seven, go back to the first scenario and write out an alternative search phrase.</p>
-  <p>I'm making a webpage using HTML and CSS, and my image is pressed right up to the edge of the window. I want some more space on the left side of the image so that it's not touching the browser window.</p>
+  <p>1. I'm building a game using JavaScript and I have an array of six elements. I need to figure out how to get rid of the last three elements in the array.</p>
   <textarea rows="2">
     Phrase 1: 
     Phrase 2: 
   </textarea>
-  <p>In my JavaScript program, I need to capitalize the first letter of each word in a sentence.</p>
+  <p>2. I am using Git for version control and made a typo in a commit message. I need to change it before I push my changes to GitHub.</p>
   <textarea rows="2">
     Phrase 1: 
     Phrase 2: 
   </textarea>
-  <p>I'm building a game using Ruby and I have an array of six elements. I need to figure out how to get rid of the last three elements in the array.</p>
+  <p>3. I got this error message when I ran my Ruby program and I don't know what it means or how to fix it: <em>"unterminated string meets end of file"</em></p>
   <textarea rows="2">
     Phrase 1: 
     Phrase 2: 
   </textarea>
-  <p>I am using Git for version control and made a typo in a commit message. I need to change it before I push my changes to GitHub.</p>
-  <textarea rows="2">
-    Phrase 1: 
-    Phrase 2: 
-  </textarea>
-  <p>I got this error message when I ran my Ruby program and I don't know what it means or how to fix it: <em>"unterminated string meets end of file"</em></p>
-  <textarea rows="2">
-    Phrase 1: 
-    Phrase 2: 
-  </textarea>
-  <p>I want to turn on the autosave feature in my text editor so that I don't have to remember to save each time I run my code.</p>
-  <textarea rows="2">
-    Phrase 1: 
-    Phrase 2: 
-  </textarea>
-  <p>None of my JavaScript works in the browser even though I know my code is right. </p>
+  <p>4. A Mod 0 homework assignment asks you to print out your git log in oneline format and Rachel definitely did not teach how to do this during class.</p>
   <textarea rows="2">
     Phrase 1: 
     Phrase 2: 
@@ -257,22 +267,21 @@ Once you formulate a good Google search and receive your results, there are a fe
         <li><strong><a href="http://ruby-doc.org" title="">ruby-doc.org</a></strong>: While the Ruby Docs are trusted, they can be somewhat difficult for beginners to navigate and understand</li>
         <li><strong><a href="http://developer.mozilla.org" title="">developer.mozilla.org</a></strong>: Considered some of the best information for HTML, CSS, JavaScript</li>
         <li><strong><a href="http://git-scm.com" title="">git-scm.com</a>, <a href="http://help.github.com" title="">help.github.com</a></strong>: Both Git and Github's official documentation</li>
-        <li><strong>Official site for a specific tool or language</strong>: Good place to start if you have a question related to a library or framework</li>
+        <li><strong>Official site for a specific tool or language</strong>: Good place to start if you have a question related to a library or framework; however, sometimes you can find a faster answer on a Q&A site.</li>
         <li><strong>Stack Overflow</strong>: Stack Overflow is one of my personal favorite resources for getting unstuck; however, make sure to check that the question is actually the <strong>same question</strong> that you're asking, the answer is not <strong>outdated</strong>, and that the answer is <strong>upvoted</strong> multiple times. In addition, read the comments below the top answer to see if there is any new information or different scenarios that might fit your issue better.</li>
-        <li><strong>W3 Schools</strong>: Generally considered behind-the-time and is unfortunately often the first result that appears when you search for front-end questions</li>
+        <li><strong>W3 Schools</strong>: Generally good for very basic questions, but considered behind-the-time and sometimes shows bad practices</li>
         <li><strong>Blog Posts</strong>: As a beginner (and even now!), I found a lot of answers through blog posts and tutorials. Again, watch the <strong>date</strong> on these posts and understand that these posts may or may not reflect best practices. </li>
         <li><strong>Videos</strong>: Video walk-throughs and tutorials are usually pretty great, but they can be time consuming if you're looing for a quick answer. Again, check the date of the post.</li>
       </ul>
     </small>
   </li>
-  <li><strong>Question vs. Answer</strong>: If you're on a posting site, be sure that you read through the question, but look at <strong>code from the answer</strong>. Generally code from questions is incorrect.</li> 
 </ol>
 
 <div class="try-it">
   <h3>Try It: Sifting Through Results</h3>
-  <p>I searched "how to center an image css" and got <a target="_blank" href="https://www.google.com/search?safe=active&ei=qN1EXNnoF-We0gKP2IOwAQ&q=how+to+center+an+image+css&oq=how+to+center+an+image+css&gs_l=psy-ab.3..0i7i30l10.11903.12880..12979...0.0..0.273.1042.3j2j2......0....1..gws-wiz.......0i71j0i13.eQptyPfOhmQ" title="">these Google results</a>.</p>
-
-  <p>Go down the results list and, in the box below, jot down which results you would consider using to solve this problem. Be sure to visit the page to make sure it has code examples and a description.</p>
+  <p>In your breakout rooms, the person with the darkest shirt will share their screen by clicking the green "Share Screen" button. This person will copy one of their search phrases from the last "Try It" section and paste it into Google.</p>
+  <p>As a group, review the results list discuss which results you would consider using to solve this problem using the general guidelines above.</p>
+  <p>Be ready to share how your group sifted through results.</p>
   <textarea rows="5"></textarea>
 </div>
 
@@ -287,40 +296,104 @@ In most programming languages, you'll find the same basic <span class="vocab">da
 
 <div class="try-it">
   <h3>Try It: Basic Data Type Definitions</h3>
-  <p>In your breakout groups, you'll use your Googling skills to figure out what each of the following data types are used for in programming.</p>
+  <p>In your breakout groups, discuss and/or use Google to figure out what each of the following data types are used for in programming. Use your notebook to jot down your answer (and examples, if applicable).</p>
 
-  <p><strong>What are <span class="vocab">strings</span> used for in programming?</strong> Jot down your notes in the box below.</p>
+  <p>1. <strong>What are <span class="vocab">strings</span> used for in programming?</strong></p>
+  <p>2. <strong>What are <span class="vocab">integers</span> and <span class="vocab">floats</span> are used for in programming</strong>?</p>
+  <p>3. <strong>What is a <span class="vocab">boolean</span> value used for in programming</strong>?</p>
+  <p>4. <strong>What is an <span class="vocab">array</span> used for in programming?</strong></p>
+  <p>5. If you're in the front end program, we're going to call the next data type an <span class="vocab">object</span>. If you're in the back end program, we're going to call it a <span class="vocab">hash</span>. <strong>What is this data type used for in programming?</strong></p>
+</div>
 
-  <textarea rows="4"></textarea>
 
+### Data Type Use Cases and Syntax
+
+Luckily for us, the <span class="vocab">syntax</span> (the way we write) for these basic data typs is almost identical in Ruby and JavaScript. 
+
+Imagine that we're making an application for grocery stores to use (intentionally vague description 😁). For each of the data types we researched, we'll brainstorm examples of how we might use that data type in a grocery store app.
+
+<div class="try-it">
+  <h3>Try It: Data Types in a Grocery Shopping App</h3>
+  <p>What sorts of data would you use strings for?</p>
   <div class="toggle-show">
-    Whole-group review (click here)
+    String Definition (click here)
     <div class="hidden">  
-      <p> A <span class="vocab">string</span> is a data type used in programming, such as an integer and floating point unit, but is used to represent text rather than numbers. It is comprised of a set of characters that can also contain spaces and numbers. For example, the word "hamburger" and the phrase "I ate 3 hamburgers" are both strings. Even "12345" could be considered a string, if specified correctly. Typically, programmers must enclose strings in quotation marks for the data to recognized as a string and not a number or variable name.</p>
+      <p>A <span class="vocab">string</span> is a data type used represent text. Strings can contain alphabet characters in addition to spaces, numbers, and special characters.</p>
+      <p>Examples:</p>
+      <li><code>"two roads diverged in a yellow wood"</code></li>
+      <li><code>"(303) 731-3117"</code></li>
+      <li><code>"Turing School of Software & Design"</code></li>
+    </div>
+  </div>
+  <div class="flex-container">
+    <div class="left">
+    <textarea rows="2">manager name</textarea>
+    </div>
+    <div class="left">
+    <textarea rows="2">store address</textarea>
+    </div>
+    <div>
+    <textarea rows="2">product description</textarea>
+    </div>
+  </div>
+  <div class="flex-container">
+    <div class="left">
+    <textarea rows="2"></textarea>
+    </div>
+    <div class="left">
+    <textarea rows="2"></textarea>
+    </div>
+    <div>
+    <textarea rows="2"></textarea>
     </div>
   </div>
 
-  Use your Googling skills to figure out <strong>what <span class="vocab">integers</span> and <span class="vocab">floats</span> are used for in programming</strong> and jot down your notes in the box below.
-
-  <textarea rows="2">Integers: </textarea>
-  <textarea rows="2">Floats: </textarea>
-
+  <p>What sorts of data in your shopping app would be integer data? What about float data?</p>
   <div class="toggle-show">
-    Whole-group review (click here)
+    Integers and Floats Definition (click here)
     <div class="hidden">
-      <p><strong><span class="vocab">Integer</span>:</strong> An integer is a whole number (not a fraction) that can be positive, negative, or zero. Therefore, the numbers 10, 0, -25, and 5,148 are all integers. Unlike floating point numbers, integers cannot have decimal places.</p>
-      <p><strong><span class="vocab">Float</span>:</strong> As the name implies, floating point numbers are numbers that contain floating decimal points. For example, the numbers 5.5, 0.001, and -2,345.6789 are floating point numbers. Numbers that do not have decimal places are called integers.</p>
+      <p><strong><span class="vocab">Integer</span>:</strong> An integer is a whole number (not a fraction) that can be positive, negative, or zero. Unlike floating point numbers, integers cannot have decimal places.</p>
+      <p>Examples:</p>
+      <li><code>10</code></li>
+      <li><code>0</code></li>
+      <li><code>-25</code></li>
+      <li><code>5148</code></li>
+      <p><strong><span class="vocab">Float</span>:</strong> As the name implies, floating point numbers are numbers that contain floating decimal points. They can be positive or negative.</p>
+      <p>Examples:</p>
+      <li><code>-5.5</code></li>
+      <li><code>0.0001</code></li>
+      <li><code>98.2</code></li>
+    </div>
+  </div>
+  <div class="flex-container">
+    <div class="left">
+    <textarea rows="2">number of items on shelf (int)</textarea>
+    </div>
+    <div class="left">
+    <textarea rows="2">weight of meat at deli counter (float)</textarea>
+    </div>
+    <div>
+    <textarea rows="2">number of employees clocked in (int)</textarea>
+    </div>
+  </div>
+  <div class="flex-container">
+    <div class="left">
+    <textarea rows="2"></textarea>
+    </div>
+    <div class="left">
+    <textarea rows="2"></textarea>
+    </div>
+    <div>
+    <textarea rows="2"></textarea>
     </div>
   </div>
 
-  Use your Googling skills to figure out <strong>what a <span class="vocab">boolean</span> value is used for in programming</strong> and jot down your notes in the box below.
-
-  <textarea rows="4"></textarea>
-
+  <p>Why might you use a boolean in a shopping application?</p>
   <div class="toggle-show">
-    Whole-group review (click here)
+    Boolean Definition (click here)
     <div class="hidden">
-      <p>A <span class="vocab">boolean</span> value is either true or false. Boolean values are used in boolean logic, which is a subset of algebra used for creating true/false statements. Boolean expressions use the operators AND, OR, and NOT to compare values and return a true or false result. An example of booleans in real life might be:
+      <p>A <span class="vocab">boolean</span> value is either true or false. Boolean values are used in boolean logic, which is a subset of algebra used for creating true/false statements.</p> 
+      <p>As a side note beyond the scope of today's lesson, boolean expressions use the operators AND, OR, and NOT to compare values and return a true or false result. An example of booleans in real life might be:
       </p>
       <p>If <span style="text-decoration: underline;">it's raining</span> and <span style="text-decoration: underline;">I have an appointment</span>, then grab the umbrella.</p>
       <p>This could translate to:</p>
@@ -330,87 +403,109 @@ In most programming languages, you'll find the same basic <span class="vocab">da
       <p>FALSE and FALSE = FALSE</p>
     </div>
   </div>
-
-  Use your Googling skills to figure out <strong>what an <span class="vocab">array</span> is used for in programming</strong> and jot down your notes in the box below.
-
-  <textarea rows="4"></textarea>
-
-  <div class="toggle-show">
-    Whole-group review (click here)
-    <div class="hidden">
-      <p>An <span class="vocab">array</span> is a data structure that contains a group of elements.</p> 
-      <p>You can think of an array as a collection, box, or container. Instead of saying "I have a collection of shirts," you could say "I have an array of shirts." The phrase "a container of pencils" would become "an array of pencils."</p>
-      <p>Typically, elements in an array are all of the same data type, such as an integer or string. Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched. For example, a search engine may use an array to store results found in a search performed by the user. When displaying each result, the program will output one element of the array at a time. This may be done for a specified number of values or until all the values stored in the array have been output. While the program could create a new variable for each result found, storing the results in an array is much more efficient way to manage memory and complexity.</p>
-      <p>An example of an array of <strong>integers: </strong><code>[76, 3, 45958, 329, 40, 3002]</code></p>
-    </div>
-  </div>
-
-  If you're in the front end program, we're going to call the next data type an <span class="vocab">object</span>. If you're in the back end program, we're going to call it a <span class="vocab">hash</span>. Use your Googling skills to search for <strong>what it is used for in programming</strong> and jot down your notes in the box below.
-
-  <textarea rows="4"></textarea>
-
-  <div class="toggle-show">
-    Whole-group review (click here)
-    <div class="hidden">
-      <p>A <span class="vocab">hash</span> or <span class="vocab">object</span> is a collection of key-value pairs. It is similar to an Array, except that indexing is done via arbitrary keys of any object type, not an integer index.</p>
-      <p>Example with <strong>strings</strong> as both the key and value:<code>{ "key": "value" }</code></p>
-      <p>Example with <strong>string</strong> as key and <strong>integer</strong> as value: <code>{ "student_count": 22 }</code></p>
-    </div>
-  </div>
-</div>
-### Data Type Use Cases
-
-<div class="try-it">
-  <h3>Try It: Strings in a Grocery Shopping App</h3>
-  <p>Imagine that you're making an application for grocery stores to use (intentionally vague description 😁). What sorts of data would you use strings for? <strong>Example:</strong> manager name</p>
-  <textarea rows="2"></textarea>
-
-  <p>What sorts of data in your shopping app would be integer data? What about float data? <strong>Example:</strong> number of employees (integer)</p>
-  <textarea rows="2"></textarea>
-
-  <p>Why might you use a boolean in a shopping application? <strong>Example:</strong> is the store open?</p>
-  <textarea rows="2"></textarea>
-
-  <p>What might you want to store in an array in your shopping app? <strong>Example:</strong> past purchases</p>
-  <textarea rows="2"></textarea>
-
-  <p>What might you want to store as a hash/object (data in key-value format) in your shopping app? <strong>Example:</strong> employee counts per department (use keys for the departments in the store, use the values for the number of employees in each department)</p>
-  <textarea rows="2"></textarea>
-</div>
-
-### Syntax for Data Types
-
-We will give you two examples of the syntax (one random example and one based on the grocery store examples) for each data type. Luckily for us, the syntax for these basic data typs is almost identical in Ruby and JavaScript. 
-
-<div class="try-it">
-  <h3>Try It: Syntax for Data Types</h3>
-  <p>Use the text boxes below to write your own examples of strings, integers & floats, booleans, arrays, and hashes or objects, based on what you brainstormed for your grocery list.</p>
-  
   <div class="flex-container">
     <div class="left">
-      <h4>Strings</h4>
-      <textarea rows="3"></textarea>
-      <h4>Floats</h4>
-      <textarea rows="3"></textarea>
-      <h4>Arrays</h4>
-      <textarea rows="3"></textarea>
+    <textarea rows="2">is an item on sale?</textarea>
+    </div>
+    <div class="left">
+    <textarea rows="2">is the employee clocked in?</textarea>
     </div>
     <div>
-      <h4>Integers</h4>
-      <textarea rows="3"></textarea>
-      <h4>Booleans</h4>
-      <textarea rows="3"></textarea>
-      <h4>Objects or Hashes</h4>
-      <textarea rows="3"></textarea>
+    <textarea rows="2">is the store open right now?</textarea>
     </div>
   </div>
-</div> 
+  <div class="flex-container">
+    <div class="left">
+    <textarea rows="2"></textarea>
+    </div>
+    <div class="left">
+    <textarea rows="2"></textarea>
+    </div>
+    <div>
+    <textarea rows="2"></textarea>
+    </div>
+  </div>
+
+  <p>What might you want to store in an array in your shopping app? Start all of your answers with "list of..." </p>
+  <div class="toggle-show">
+    Array Definition (click here)
+    <div class="hidden">
+      <p>An <span class="vocab">array</span> is a data structure that represents a group of things.</p> 
+      <p>You can think of an array as a collection, box, or container. Instead of saying "I have a collection of shirts," you could say "I have an array of shirts." The phrase "a container of pencils" would become "an array of pencils."</p>
+      <p>Typically, elements in an array are all of the same data type, such as an integer or string. Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched.</p>
+      <p>Examples:</p>
+      <li><code>[26, 24, 28, 25, 27, 27, 26, 27]</code></li>
+      <li><code>["Mod 0", "Mod 1", "Mod 2", "Mod 3", "Mod 4"]</code></li>
+      <li><code>[false, true, true, true, false, true, true]</code></li>
+    </div>
+  </div>
+  <div class="flex-container">
+    <div class="left">
+    <textarea rows="2">list of checkout counters open</textarea>
+    </div>
+    <div class="left">
+    <textarea rows="2">list of employee names</textarea>
+    </div>
+    <div>
+    <textarea rows="2">list of items that need to be restocked</textarea>
+    </div>
+  </div>
+  <div class="flex-container">
+    <div class="left">
+    <textarea rows="2"></textarea>
+    </div>
+    <div class="left">
+    <textarea rows="2"></textarea>
+    </div>
+    <div>
+    <textarea rows="2"></textarea>
+    </div>
+  </div>
+
+  <p>What might you want to store as a hash/object (data in key-value format) in your shopping app?</p>
+  <div class="toggle-show">
+    Hash/Object Whole Group Review (click here)
+    <div class="hidden">
+      <p>A <span class="vocab">hash</span> or <span class="vocab">object</span> is a collection of key-value pairs. It is similar to an array in that it is a collection of things, but in the case of hashes/objects, we are <strong>pairing</strong> data together.</p>
+      <p>Sometimes, this data type is referred to as a dictionary because of the pairing of word -> definition.</p>
+      <p>For example, you might have a hash/object where the keys are first names and the values are last names.</p>
+      <p>When I think about whether or not I need to use a hash, I ask myself "Is this a collection of data where the pairing of items matters?"</p>
+      <p>Examples:</p>
+      <li><code>{ "9th grade": 110, "10th grade": 125, "11th grade": 66, "12th grade": 70}</code></li>
+      <li><code>{ "Mod 0": "Tim and Rachel", "Mod 1": "Mike and Sal", "Mod 2": "Brittany and Robbie" }</code></li>
+    </div>
+  </div>
+  <div class="flex-container">
+    <div class="left">
+    <textarea rows="2">department (key) and employee count for that department (value)</textarea>
+    </div>
+    <div class="left">
+    <textarea rows="2">manager (key) and employees for that manager (value)</textarea>
+    </div>
+  </div>
+  <div class="flex-container">
+    <div class="left">
+    <textarea rows="2">item (key) and number of item on shelf (value)</textarea>
+    </div>
+    <div class="left">
+    <textarea rows="2"></textarea>
+    </div>
+  </div>
+  <div class="flex-container">
+    <div class="left">
+    <textarea rows="2"></textarea>
+    </div>
+    <div class="left">
+    <textarea rows="2"></textarea>
+    </div>
+  </div>
+</div>
 
 
 <a name="iteration"></a>
 ## Iteration
 
-Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. 
+Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we'll walk through using props to demonstrate the concept.
 
 ### Iteration in Real Life
 
@@ -435,37 +530,66 @@ Iteration (or looping for a specified number of times) is a process of repeating
           <li>mark the score on the top</li>
         </ol>
       </td>
-      <td>repeat with next object</td>
+      <td>repeat with next paper</td>
     </tr>
     <tr>
-      <td>Feeding shelter animals</td>
+      <td>Feeding animals</td>
       <td>animals</td>
       <td>animal</td>
       <td>
         <ol>
-          <li>open the cage</li>
-          <li>refill the food bowl</li>
-          <li>close the cage</li>
+          <li>bring the animal to the food bucket</li>
+          <li>allow the animal to eat</li>
+          <li>bring animal back to barn</li>
         </ol>
       </td>
-      <td>repeat with next object</td>
+      <td>repeat with next animal</td>
     </tr>
+  </tbody>
+</table>
+
+### Iteration in Programming
+
+<table>
+  <thead>
     <tr>
-      <td>Admitting patrons to a concert</td>
-      <td>patrons</td>
-      <td>patron</td>
+      <th>Scenario</th>
+      <th>Collection</th>
+      <th>For each...</th>
+      <th>Do this:</th>
+      <th>Then:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Calculating max heart rate</td>
+      <td>birth years</td>
+      <td>year</td>
       <td>
         <ol>
-          <li>scan the ticket</li>
+          <li>subtract birth year from 2019 to get age</li>
+          <li>subtract age from 220</li>
         </ol>
       </td>
-      <td>repeat with next object</td>
+      <td>repeat with next raw point value</td>
+    </tr>
+    <tr>
+      <td>Formatting names</td>
+      <td>names</td>
+      <td>name</td>
+      <td>
+        <ol>
+          <li>capitalize the first letter</li>
+          <li>lowercase all remaining letters <br><small><em>Note: this 2nd step, in itself, is iteration!</em></small></li>
+        </ol>
+      </td>
+      <td>repeat with next name</td>
     </tr>
   </tbody>
 </table>
 
 <div class="try-it">
-  <h3>Try It: Iteration in Real Life</h3>
+  <h3>Try It: Iteration in Real Life and Programming</h3>
   <p>Brainstorm a real life scenario that uses iteration. Fill out the table below and be ready to share.</p>
   <table>
     <thead>
@@ -487,52 +611,6 @@ Iteration (or looping for a specified number of times) is a process of repeating
       </tr>
     </tbody>
   </table>
-</div>
-
-### Iteration in Programming
-
-<table>
-  <thead>
-    <tr>
-      <th>Scenario</th>
-      <th>Collection</th>
-      <th>For each...</th>
-      <th>Do this:</th>
-      <th>Then:</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Sending a newsletter</td>
-      <td>emails</td>
-      <td>email address</td>
-      <td>
-        <ol>
-          <li>send the newsletter to that email address</li>
-        </ol>
-      </td>
-      <td>repeat with next object</td>
-    </tr>
-    <tr>
-      <td>Formatting addresses</td>
-      <td>addresses</td>
-      <td>address</td>
-      <td>
-        <ol>
-          <li>verify that it starts with a number</li>
-          <li>capitalize the first letter of each word in street address</li>
-          <li>capitalize the first letter of the city</li>
-          <li>capitalize the two letters for state abbreviation</li>
-          <li>check that zip code is 5 digits</li>
-        </ol>
-      </td>
-      <td>repeat with next object</td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="try-it">
-  <h3>Try It: Iteration in Programming</h3>
   <p>Think back to your grocery store app. What is something you said you'd keep inside of an array? Why might you need to iterate over that collection? Jot down your scenario below.</p>
   <table>
     <thead>

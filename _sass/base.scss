@@ -123,14 +123,27 @@ header {
 
 }
 
-.goals-agenda div {
+.mod0values {
+  background-color: lighten(#f9ae06, 45);
+  border: 1px solid #f9ae06;
+  padding: 1em;
+  display: flex;
+  margin-bottom: 3em;
+
+  @media (max-width: $tablet-width - 50px) {
+    flex-direction: column;
+  }
+
+}
+
+.goals-agenda, .mod0values div {
   flex-grow: 1;
   flex-basis: 0;
   margin-left: 1em;
   vertical-align: top;
 }
 
-.goals-agenda div ul li {
+.goals-agenda, .mod0values div ul li {
   font-size: 0.8em;
 }
 
