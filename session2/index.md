@@ -139,7 +139,7 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
         </li>
         <li>
           <strong>Switch between separate open windows of the same program:</strong>
-          <pre>command + ~</pre>
+          <pre>command + `</pre>
         </li>
         <li>
           <strong>Quit an Open Program:</strong>
