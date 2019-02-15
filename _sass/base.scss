@@ -136,14 +136,19 @@ header {
 
 }
 
-.goals-agenda, .mod0values div {
+.goals-agenda div {
   flex-grow: 1;
   flex-basis: 0;
   margin-left: 1em;
   vertical-align: top;
+  font-size: 0.8em;
 }
 
-.goals-agenda, .mod0values div ul li {
+.mod0values div {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin-left: 1em;
+  vertical-align: top;
   font-size: 0.8em;
 }
 
