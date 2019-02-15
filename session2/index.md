@@ -580,7 +580,7 @@ Iteration (or looping for a specified number of times) is a process of repeating
       <td>
         <ol>
           <li>capitalize the first letter</li>
-          <li>lowercase all remaining letters <br><small><em>Note: this 2nd step, in itself, is iteration!</em></small></li>
+          <li>lowercase all remaining letters</li>
         </ol>
       </td>
       <td>repeat with next name</td>
