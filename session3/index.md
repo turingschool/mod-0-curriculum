@@ -7,9 +7,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 <div class="goals-agenda">
   <div>
     <h3>Goals</h3>
-
     <strong>By the end of this session, you will be able to:</strong>
-
     <ul>
       <li>notate file paths from diagrams</li>
       <li>navigate through directories from the command line</li>
@@ -21,7 +19,7 @@ subheading: Terminal, File/folder Structure, Git Basics
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>10 min: </strong>Intros, Housekeeping, and Goals</li>
+      <li><strong>10 min: </strong>Housekeeping, Feedback, and Goals</li>
       <li><strong>15 min: </strong><a href="#filesdirectories">Files, Directories, and Paths</a></li>
       <li><strong>40 min: </strong><a href="#terminalcommandline">Terminal and Command Line</a></li>
       <li><strong>5 min: </strong>Break</li>
@@ -40,19 +38,21 @@ subheading: Terminal, File/folder Structure, Git Basics
   </div>
 </div>
 
-## Intros, Housekeeping, and Goals
-
-- Do you have experience initializing, adding, and committing with git? 
+## Housekeeping, Feedback, and Goals
 
 - In the chat, post a keyboard shortcut that you practiced and now feel comfortable using. 
-
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
-
-- Follow up from homework assignments: reading + diagrams
-
 - Questions during the session? Click "raise hand" for whole-group question, or message the non-presenting host for an individual question.
 
-- Goals for today (see above)
+### Wins From Feedback
+
+
+### Follow-Ups From Feedback
+
+
+### Today's Goals
+
+(See above)
 
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker (5 minutes)</h3>
@@ -107,19 +107,14 @@ In the diagram below, we would say that there's a directory called `essays` that
   <div>
     <p>The path for the grading.txt file is</p>
     <pre>to_do/work/grading.txt</pre>
-
     <p>What is the path for cleaning.txt?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
-
     <p>What is the path for random.txt?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
-
     <p>What is the path for recurring.txt?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
-
     <p>What is the path for bills.txt?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
-
     <p>What is the path for data_entry.csv?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
   </div>
@@ -136,74 +131,7 @@ Your terminal will look something like this:
 <img src="images/terminal.png" alt="">
 
 <a name="profiledetour"></a>
-The text `rwarbelow~$` is called the command prompt, and the `$` indicates that it's ready to accept input. Yours might look slightly different. 
-
-### Changing the Command Prompt
-
-Let's make the command prompt slightly more helpful. These next steps might look a little confusing, and at this point, it's not necessary to feel 100% comfortable doing this on your own. We'll walk through the steps together. 
-
-1) Make sure you're at the home directory by typing cd.
-
-2) Type `nano .bash_profile`  
-
-3) Copy (`command + c`) and paste (`command + v`) this into the window:
-
-<div class="smallcode">
-<pre>
-# get current branch in git repo
-function parse_git_branch() {
-  BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
-  if [ ! "${BRANCH}" == "" ]
-  then
-    STAT=`parse_git_dirty`
-    echo "[${BRANCH}${STAT}]"
-  else
-    echo ""
-  fi
-}
-
-# get current status of git repo
-function parse_git_dirty {
-  status=`git status 2>&1 | tee`
-  dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
-  untracked=`echo -n "${status}" 2> /dev/null | grep "Untracked files" &> /dev/null; echo "$?"`
-  ahead=`echo -n "${status}" 2> /dev/null | grep "Your branch is ahead of" &> /dev/null; echo "$?"`
-  newfile=`echo -n "${status}" 2> /dev/null | grep "new file:" &> /dev/null; echo "$?"`
-  renamed=`echo -n "${status}" 2> /dev/null | grep "renamed:" &> /dev/null; echo "$?"`
-  deleted=`echo -n "${status}" 2> /dev/null | grep "deleted:" &> /dev/null; echo "$?"`
-  bits=''
-  if [ "${renamed}" == "0" ]; then
-    bits=">${bits}"
-  fi
-  if [ "${ahead}" == "0" ]; then
-    bits="*${bits}"
-  fi
-  if [ "${newfile}" == "0" ]; then
-    bits="+${bits}"
-  fi
-  if [ "${untracked}" == "0" ]; then
-    bits="?${bits}"
-  fi
-  if [ "${deleted}" == "0" ]; then
-    bits="x${bits}"
-  fi
-  if [ "${dirty}" == "0" ]; then
-    bits="!${bits}"
-  fi
-  if [ ! "${bits}" == "" ]; then
-    echo " ${bits}"
-  else
-    echo ""
-  fi
-}
-
-export PS1="\u\w\`parse_git_branch\` "
-</pre>
-</div>
-
-4) Type `control + x` to quit. It will ask you if you want to save. Type `y`.
-
-Now quit and reopen your Terminal, and you'll have a nicer command prompt which includes your username, the path to your current working directory, and your git status.
+The text `rwarbelow~$` is called the command prompt, and the `$` indicates that it's ready to accept input. 
 
 If you want to further customize your command prompt, check out the [EZPrompt Generator](http://ezprompt.net/).
 
