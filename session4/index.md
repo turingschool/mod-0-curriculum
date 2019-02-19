@@ -40,6 +40,49 @@ subheading: More Git and Intro to GitHub
   </div>
 </div>
 
+### Warm Up
+
+<p>Last week, we briefly talked about keyboard shortcuts in the Mac environment and in Chrome. You should also learn and practice these terminal shortcuts.</p>
+
+<div class="try-it">
+  <h3>Try it: Practicing Terminal Shortcuts</h3>
+  <div class="flex-container tips">
+    <div>
+      <li>
+    <strong>Cycle through past commands</strong>
+    <pre>up arrow</pre>
+  </li>
+  <li>
+    <strong>See all commands previously typed</strong>
+    <pre>type "history" in the command prompt</pre>
+  </li>
+  <li>
+    <strong>Clear Command Line</strong>
+    <pre>control + u</pre>
+  </li>
+  <li>
+    <strong>Clear Terminal Window</strong>
+    <pre>command + k</pre>
+  </li>
+    </div>
+    <div>
+  <li>
+    <strong>Goto Beginning of Line</strong>
+    <pre>control + a</pre>
+  </li>
+  <li>
+    <strong>Goto End of Line</strong>
+    <pre>control + e</pre>
+  </li>
+  <li>
+    <strong>Fast Moving Cursor Through Command Line Text</strong>
+    <pre>Right: option + right-arrow</pre>
+    <pre>Left: option + left-arrow</pre>
+  </li>
+    </div>
+  </div>
+</div>
+
 ## Housekeeping and Goals
 
 ### Wins From Feedback
