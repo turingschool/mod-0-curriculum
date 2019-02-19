@@ -43,12 +43,23 @@ subheading: Terminal, File/folder Structure, Git Basics
 - In the chat, post a keyboard shortcut that you practiced and now feel comfortable using. 
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
 - Questions during the session? Click "raise hand" for whole-group question, or message the non-presenting host for an individual question.
+- Rachel will stay on the call for 15 min at the end of today's session for any Qs that are not addressed during the lesson
+- 1903: Continue working on Mod 0 Capstone
 
-### Wins From Feedback
+### Wins
 
+- Solid understanding of data types 
+- Solid understanding of Googling + filtering tips specific to programming 
+- Sharing iteration diagrams in channel (keep sharing!)
 
-### Follow-Ups From Feedback
+### Follow-Ups
 
+- Iteration is confusing: 
+    - What collection are you starting with?
+    - What are you doing to each item in the collection? 
+- Keyboard shortcuts: keep practicing :) 
+- Hashes and objects
+- LOTS of info covered; hard to keep up
 
 ### Today's Goals
 
@@ -137,7 +148,7 @@ If you want to further customize your command prompt, check out the [EZPrompt Ge
 
 ### Commands
 
-In this section on command prompts, we'll learn (or review) these commands: 
+In this section on command prompts, we'll learn (or review) the commands below. We'll look at all 10 together (take notes!), then you'll go into breakout rooms to practice them. 
 
 <ol>
   <li><a href="#pwd" title="">pwd</a></li>
@@ -146,6 +157,8 @@ In this section on command prompts, we'll learn (or review) these commands:
   <li><a href="#cd" title="">cd</a></li>
   <li><a href="#cddot" title="">cd ..</a></li>
   <li><a href="#touch" title="">touch</a></li>
+  <li><a href="#echo" title="">echo</a></li>
+  <li><a href="#cat" title="">cat</a></li>
   <li><a href="#rm" title="">rm</a></li>
   <li><a href="#rmrecursive" title="">rm -r</a></li>
 </ol>
@@ -157,50 +170,31 @@ When you open the terminal, you will be in your home directory. Being in various
 
 To figure out where you are in your computer's directories, type `pwd` after the command prompt. `pwd` stands for "print working directory"
 
-<img src="images/pwd.png" alt="">
+```
+rwarbelow~$ pwd
+/Users/rwarbelow
+```
 
 You'll see the path from the root of your computer to your current directory. 
-
-<div class="try-it">
-  <h3>Try It: pwd</h3>
-  <p>1. Type pwd into your command prompt 10 times. Each time you type it, say outloud "print working directory".</p>
-  <p>2. From your terminal output, copy the path of your current directory and paste it into the chat.</p>
-</div>
 
 <a name="mkdir"></a>
 ### 2. Make a Directory (mkdir)
 
 To make a folder using the visual interface of Finder, this is what you might do:
 
-![making a folder using finder](images/mkdir.gif)
 
-We can make new directories with the `mkdir` command. Unlike `pwd` where we didn't need to type anything else, we'll need to add a name for the directory. 
+<img src="images/mkdir.gif" alt="making a folder using finder" style="height: 250px">
 
-For example, if I wanted to make a directory called `work_spreadsheets`, I would type this:
+We can make new directories with the `mkdir` command. Unlike `pwd` where we didn't need to type anything else, we'll need to add a name for the directory. Keep your directories lowercase with no spaces. If you need to use a space, use the underscore (\_).
 
-```
-mkdir work_spreadsheets
-```
-
-If I wanted a directory called lastest_projects, I would type this:
+For example, the following two commands will create two directories called `work_spreadsheets` and `latest_projects`:
 
 ```
-mkdir latest_projects
+rwarbelow~$ mkdir work_spreadsheets
+rwarbelow~$ mkdir latest_projects
 ```
 
-You won't get any confirmation that your directory was created -- you'll just see a new command prompt ready for your next comamnd.
-
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  <ol>
-    <li>Keep your directories lowercase with no spaces. If you need to use a space, use the underscore (_).</li>
-  </ol>
-</div>
-
-<div class="try-it">
-  <h3>Try It: mkdir</h3>
-  <p>Make 6 directories called "terminal_practice_1", "terminal_practice_2", and so on. Each time you type it, say outloud "make directory".</p>
-</div>
+You won't get any confirmation that your directory was created -- you'll just see a new command prompt ready for your next comamnd. 
 
 <a name="ls"></a>
 ### 3. Listing Contents of a Directory (ls)
@@ -219,14 +213,14 @@ To check what's inside of a directory, we use the `ls` command which stands for 
     <pre>rwarbelow~/essays$ ls
     book_projects    life_lessons.docx    notes.docx</pre>
 
-    You will only see the directories and files that are directly inside of where you are. You will not see any directories or files that are nested down the path. This is why we do not see the contents of book_projects listed.
-  </div>
-</div>
+    <p>You will only see the directories and files that are directly inside of where you are. You will not see any directories or files that are nested down the path. This is why we do not see the contents of book_projects listed.</p>
 
-<div class="try-it">
-  <h3>Try It: ls</h3>
-  <p>Type ls into your command prompt 10 times. Each time you type it, say outloud "list" (or list stuff).</p>
-  <p>You should see all 6 of the "terminal_practice" directories you created earlier, in addition to other directories and files that are already on your computer. Paste the output into the chat.</p>
+    <p>Now assume we're in the book_projects directory. If I type ls, I'll see this:</p>
+
+    <pre>rwarbelow~/essays/book_projects$ ls
+    literary_analysis.docx    book_report.docx</pre>
+
+  </div>
 </div>
 
 <a name="cd"></a>
@@ -259,14 +253,8 @@ literary_analysis.docx    book_report.docx
 <div class="things-to-note">
   <h4>Things to Note</h4>
   <ol>
-    <li>You can't pick any random directory from your computer to give to the ls command. It has to be a directory inside wherever you currently are (or it has to be the path to get to that directory, which we won't talk about today).</li>
+    <li>You can't pick any random directory from your computer to give to the ls command. It has to be a directory inside wherever you currently are (or you need to use the full path to get to that directory, which we won't talk about today).</li>
   </ol>
-</div>
-
-<div class="try-it">
-  <h3>Try It: cd</h3>
-  <p>Use the cd command to move into the <code>terminal_practice_1</code> directory that you created earlier. In the chat box, paste your command prompt which shows your current path.</p>
-  <p>Bonus: If you were to type <code>ls</code> right now, what would you see, and why?</p>
 </div>
 
 <a name="cddot"></a>
@@ -285,21 +273,21 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
 
 <div class="try-it">
   <h3>Try It: cd and cd ..</h3>
-  <p>To try <code>cd</code> and <code>cd ..</code>, we won't type anything into our terminal. Instead, we'll try answering the following scenarios: </p>
+  <p>Let's try to figure out the following scenarios together.</p>
   <div class="flex-container">
     <div>
       <img src="images/files_directories_3.png" alt="files and directories 2">
     </div>
     <div>
-      <p>If I'm in the <code>work</code> directory, what do I need to type to get to <code>to_do</code>? As you type <code>cd</code>, say outloud "change directory".</p>
+      <p>If I'm in the <code>work</code> directory, what do I need to type to get to <code>to_do</code>?</p>
       <textarea name="" style="width:100%;"></textarea>
-      <p>If I'm in the <code>projects_to_delegate</code> directory, what <strong>two commands</strong> do I need to type to get to <code>to_do</code>? As you type <code>cd</code>, say outloud "change directory".</p>
+      <p>If I'm in the <code>projects_to_delegate</code> directory, what <strong>two commands</strong> do I need to type to get to <code>to_do</code>?</p>
       <p><small>(We'll learn how to combine these momentarily)</small></p>
       <textarea name="" style="width:100%;"></textarea>
-      <p>I'm in the <code>home</code> directory. What <strong>three commands</strong> do I need to type to get to <code>projects_to_delegate</code>? As you type <code>cd</code>, say outloud "change directory".</p>
+      <p>I'm in the <code>home</code> directory. What <strong>three commands</strong> do I need to type to get to <code>projects_to_delegate</code>?</p>
       <p><small>(We'll learn how to combine these momentarily)</small></p>
       <textarea rows="3" name="" style="width:100%;"></textarea>
-      <p>I'm in the <code>projects_to_delegate</code> directory. What <strong>three commands</strong> do I need to type to get to <code>home</code>? As you type <code>cd</code>, say outloud "change directory".</p>
+      <p>I'm in the <code>projects_to_delegate</code> directory. What <strong>three commands</strong> do I need to type to get to <code>home</code>?</p>
       <p><small>(We'll learn how to combine these momentarily)</small></p>
       <textarea rows="3" name="" style="width:100%;"></textarea>
     </div>
@@ -321,62 +309,58 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
 <a name="touch"></a>
 ### 6. Make a File (touch)
 
-We know how to make directories (or folders) using the `mkdir` command. In order to make files inside of those directories, we use `touch`:
+We know how to make directories (or folders) using the `mkdir` command. In order to make files inside of those directories, we use `touch`. The following two commands show how I would make two new files, `chapter_1.txt` and `chapter_2.txt`:
 
 ```
 rwarbelow~/latest_projects$ touch chapter_1.txt
-rwarbelow~/latest_projects$
+rwarbelow~/latest_projects$ touch chapter_2.txt
 ```
 
 We don't see any confirmation that the file was created, but we can use `ls` to see what's inside the directory:
 
 ```
-rwarbelow~/latest_projects$ ls
-chapter_1.txt
-```
-
-If we were to create a chapter 2 document, this is what you'd do and see:
-
-```
-rwarbelow~/latest_projects$ touch chapter_2.txt
-rwarbelow~/latest_projects$
-```
-No confirmation, but let's check what's in this folder with `ls`:
-
-```
-rwarbelow~/latest_projects$ ls
+rwarbelow~/latest_projects $ ls
 chapter_1.txt    chapter_2.txt
 ```
 
-<div class="try-it">
-  <h3>Try It: touch</h3>
-  <p>Double check that you are inside the <code>terminal_practice_1</code> directory that you created earlier. In this directory, make 6 files with the <code>.txt</code> extension (file names are your choice). Each time you type touch, say outloud "make new file".</p>
-  <p>When you're done making the files, type "ls" and paste the output into the chat.</p>
-</div>
+<a name="echo"></a>
+### 7. Add text to a file (echo)
 
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  If you <code>touch</code> a file that already exists, nothing will happen. 
-</div>
+Normally, we will use our text editor (Atom or Sublime) to add text content to a file. However, you can also add text content using the <code>echo</code> command. Note that you *must* use quotation marks to indicate what text you want to add to the file. 
+
+```
+rwarbelow~/latest_projects $ echo "Call me Ishmael" >> chapter_1.txt
+```
+
+You won't see any confirmation, but that text inside the quotation marks will now be inside of the `chapter_1.txt` file. 
+
+<a name="echo"></a>
+### 8. See the text in a file (cat)
+
+If we want to check what text is inside of a file, we can use <code>cat</code>:
+
+```
+rwarbelow~/latest_projects $ cat chapter_1.txt 
+It was the best of times, it was the worst of times
+```
 
 <a name="rm"></a>
-### 7. Remove a File (rm)
+### 9. Remove a File (rm)
 
 In the past, you've probably gotten rid of files by dragging them to the trash and then emptying it, like this:
 
-![file to trash](images/filetotrash.gif)
+<img src="images/filetotrash.gif" alt="file to trash" style="height: 250px;">
 
 We can remove files from the command line using the `rm` command, like this:
 
-
 ```
-rwarbelow~/latest_projects$ rm chapter_1.txt
+rwarbelow~/latest_projects $ rm chapter_1.txt
 ```
 
 Again, we don't get a confirmation, but if I were to `ls` right now, nothing would appear since the directory is now empty. 
 
 ```
-rwarbelow~/latest_projects$ ls
+rwarbelow~/latest_projects $ ls
 chapter_2.txt
 ```
 
@@ -388,34 +372,29 @@ chapter_2.txt
   </ul>
 </div>
 
-<div class="try-it">
-  <h3>Try It: rm</h3>
-  <p>Remove 3 of the 6 files you created earlier using the <code>rm</code> command, one at a time. Between each removal, type <code>ls</code> to make sure that it's gone.</p>
-  <p>When you remove the third file, type <code>ls</code> and paste your results into the chat box.</p>
-</div>
-
 <a name="rmrecursive"></a>
-### 8. Remove a Directory and Its Contents (rm -r)
+### 10. Remove a Directory and Its Contents (rm -rf)
 
-We can use `rm` to remove a file, but we use a different command when we're removing a directory. Since a directory could potentially contain other files and directories inside of it, we use `rm -r` which stands for remove recursively, or go inside this directory and remove everything inside of it as well. 
+We can use `rm` to remove a file, but we use a different command when we're removing a directory. Since a directory could potentially contain other files and directories inside of it, we use `rm -rf` which stands for remove recursively, or go inside this directory and remove everything inside of it as well. 
 
-In order to remove a directory, you must be OUTSIDE of that directory. For example, if I'm inside a `books` directory and I want to remove it, I first need to get out of it using `cd ..`, then use the `rm -r books`:
+In order to remove a directory, you must be OUTSIDE of that directory. For example, if I'm inside a `books` directory and I want to remove it, I first need to get out of it using `cd ..`, then use the `rm -rf books`:
 
 ```
 rwarbelow~/latest_projects/books$ cd ..
-rwarbelow~/latest_projects$ rm -r books
+rwarbelow~/latest_projects$ rm -rf books
 ```
 
 Now when I type `ls`, I will no longer see `books` listed.
 
 <div class="try-it">
-  <h3>Try It: Removing files (rm) and directories (rm -r)</h3>
+  <h3>Try It: Removing files (rm) and directories (rm -rf)</h3>
   <div class="flex-container">
     <div>
       <img src="images/files_directories_3.png" alt="files and directories 2">
     </div>
     <div>
-      <strong>For this exercise, assume that each question is independent of the rest, and that the starting point is always the diagram to the left.</strong>
+      <p>We'll work through these exercises together.</p>
+      <strong>For this scenario, assume that each question is independent of the rest, and that the starting point is always the diagram to the left.</strong>
       <p>I'm in <code>to_do</code>. What do I type to remove <code>random.txt</code>?</p>
       <textarea rows="1" name="" style="width:100%;"></textarea>
       <p>I'm in <code>to_do</code>. What do I type to remove the <code>home</code> directory?</p>
@@ -430,48 +409,64 @@ Now when I type `ls`, I will no longer see `books` listed.
   </div>
 </div>
 
-### Terminal Shortcuts
 
-<p>Last week, we briefly talked about keyboard shortcuts in the Mac environment and in Chrome. You should also learn and practice these terminal shortcuts.</p>
+### Putting it All Together
 
-<div class="try-it">
-  <h3>Try it: Practicing Terminal Shortcuts</h3>
-  <div class="flex-container tips">
-    <div>
-      <li>
-    <strong>Cycle through past commands</strong>
-    <pre>up arrow</pre>
-  </li>
-  <li>
-    <strong>See all commands previously typed</strong>
-    <pre>type "history" in the command prompt</pre>
-  </li>
-  <li>
-    <strong>Clear Command Line</strong>
-    <pre>control + u</pre>
-  </li>
-  <li>
-    <strong>Clear Terminal Window</strong>
-    <pre>command + k</pre>
-  </li>
-    </div>
-    <div>
-  <li>
-    <strong>Goto Beginning of Line</strong>
-    <pre>control + a</pre>
-  </li>
-  <li>
-    <strong>Goto End of Line</strong>
-    <pre>control + e</pre>
-  </li>
-  <li>
-    <strong>Fast Moving Cursor Through Command Line Text</strong>
-    <pre>Right: option + right-arrow</pre>
-    <pre>Left: option + left-arrow</pre>
-  </li>
-    </div>
-  </div>
-</div>
+<p>At this point, we'll split into breakout rooms. The person whose name first name starts with the letter closest to T will share their screen by clicking the green "Share Screen" button. We will call this person the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
+
+<p>The driver will be the person typing the commands, but the navigators should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss <strong>why</strong> you are doing each step, or <strong>what</strong> exactly is taking place in each step.</p>
+
+<p>If you are already comfortable with commands, your challenge during the breakout is somewhat more difficult: your goal is to focus on your explanations, communication, and ability to gauge whether or not another person understands you.</p>
+
+#### Challenge #1
+
+1. Type `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
+1. Make a new directory called `terminal_practice`
+1. Move into that directory
+1. Print your current directory
+1. Make a file called `favorite_foods.txt`
+1. List the contents of your directory (you should see just your `favorite_foods.txt` file appear)
+1. Use the echo command to add your #1 favorite food to the file
+1. Use the echo command again to add your #2 favorite food to the file
+1. Use the cat command to show what's in that file
+1. Delete the `favorite_foods.txt` file
+1. Get back out of the `terminal_practice` directory
+1. Remove the `terminal_practice` directory
+
+#### Challenge #2
+
+For this next challenge, the person whose name is next closest to the letter T will share their screen and become the driver. 
+
+1. Type `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
+1. Make a new directory called `my_first_projects`
+1. Make another new directory called `my_other_project`
+1. List the contents of your directory (you should see these two directories you just made in the list)
+1. Remove the `my_other_projects` directory
+1. Move into the `my_first_projects` directory
+1. Make a file called `ruby.txt`
+1. Make a file called `javascript.txt`
+1. Make a file called `python.txt`
+1. List the contents of your directory (you should see the three files you just created)
+1. Delete the `ruby.txt` file but leave the others
+1. Get back out of the `my_first_projects` directory
+1. List the contents of your directory (you should see `my_first_projects`)
+1. Remove the `my_first_projects` directory
+
+#### Challenge #3
+
+The person who has not yet been the driver will share their screen.
+
+1. Type `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
+1. Make a new directory called `session3_practice`
+1. Move into the `session3_practice` directory
+1. Print the path to your current directory
+1. Make a file called `terminal.txt`
+1. List the contents of your directory (you should see the `terminal.txt` file you just created)
+1. Add the text "The terminal is an interface to give commands to the computer" to the `terminal.txt` file
+1. Use the `cat` command to check that the text got added to the `terminal.txt` file
+1. Get back out of the `session3_practice` directory
+1. Remove the `session3_practice` directory
+
 
 ## BREAK
 
@@ -502,13 +497,20 @@ In this section on git, we'll learn (or review) these git comamnds:
   <li><a href="#status" title="">git status</a></li>
   <li><a href="#add" title="">git add</a></li>
   <li><a href="#commit" title="">git commit</a></li>
+  <li><a href="#diff" title="">git diff</a></li>
 </ol>
+
+<div class="things-to-note">
+  <h4>Things to Note</h4>
+  <p>Git has a steep learning curve, and it can be super confusing at the beginning. Tonight's lesson is not meant to make you a git master, but it will expose you to the basic git commands and workflow. Most likely, you will not have the commands or workflow memorized after tonight.</p>
+  <p>To get comfortable with git (just like with anything else), you will need to put in hours of practice. It's an excellent idea to go back over this lesson (either in print or recording) multiple times.</p>
+</div>
+
+Watch and take notes during the demonstration of the git workflow. After the demonstration, we'll move into breakout rooms where you'll get to try with your group. 
 
 ### Getting Set Up
 
-Before we start, let's get back to our home directory by typing `cd`. Then, we'll make a directory called `notes` with a file inside called `things_to_remember.txt`.
-
-In the next six steps, we will "code-along", which means that I will demonstrate the commands, then you will repeat those same commands on your terminal. 
+We'll start with a directory called `notes` with a file inside called `things_to_remember.txt`.
 
 <a name="init"></a>
 ### 1. Start Tracking a Directory With Git (<span class="vocab">git init</span>)
@@ -522,7 +524,7 @@ Initialized empty Git repository in /Users/rwarbelow/notes/.git/
 
 This means git will now be available to use to track changes in the `notes` directory. This does **not** mean that git is tracking anything yet. 
 
-If you're not seeing this message, that means you have not set up git on your computer. For now, follow along and take notes. 
+*NOTE*: If you don't see this message when you try `git init`, it means you have not set up git on your computer. 
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
@@ -542,7 +544,7 @@ If you're not seeing this message, that means you have not set up git on your co
   <p>3. What happens if you accidentally initialize git in a directory where you didn't intend?</p>
   <p>When you type <code>git init</code>, a directory called <code>.git</code> is created inside of that folder. You can't see this folder using the ls command since it's a hidden folder. Everything that starts with "." is hidden. Instead, you can type <code>ls -a</code> which will display all hidden and visible files and directories.</p>
   <p>In an git initialized directory, you'll see a <code>.git</code> directory. To remove git tracking, you would type:</p>
-  <pre>rm -r .git</pre>
+  <pre>rm -rf .git</pre>
   <p>This removes the git directory, and you are no longer using git to track your project.</p>
 </div>
 
@@ -574,7 +576,7 @@ nothing added to commit but untracked files present (use "git add" to track)
   You can type <code>git status</code> as many times as you want, whenever, wherever. It it a safe command that will not change anything about your tracking.
 </div>
 
-Let's talk briefly about this diagram from the git documentation:
+Let's talk briefly about this diagram from the git documentation. This diagram shows what you can do **after** you have initialized git: 
 
 ![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png)
 
@@ -641,8 +643,6 @@ echo "Be kind" >> things_to_remember.txt
 echo "Work hard" >> things_to_remember.txt
 ```
 
-The `echo` command in combination wth the two `>>` symbols will append the text in the quotes to the file `things_to_remember.txt`. 
-
 If you want to check what is now in the file, you can use `cat`:
 
 ```
@@ -654,6 +654,7 @@ Work hard
 
 Your working directory now has changes that differ from what our file looked like the last time we committed (or took a snapshot). 
 
+<a name="diff"></a>
 You can view those changes by using `git diff <filename>`:
 
 ```
@@ -704,7 +705,7 @@ rwarbelow~/notes$ git commit -m 'Add two life lessons'
 
 ### Putting it All Together
 
-The basic git workflow is this:
+Once you have initialized git (which you only do ONE TIME EVER in your project), the basic git workflow is this:
 
 1. Make file changes
 1. Check the `git status` to see what files are unstaged
@@ -737,7 +738,7 @@ The basic git workflow is this:
     <li>Commit the changes using a properly formatted commit message.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
   </ol>
-  <p><strong>Done?</strong> Start thinking about which parts of this process are now more clear, and which parts you'll need to practice more. Be ready to share when we come back together.</p>
+  <p><strong>Done?</strong> Switch drivers and try the process again!</p>
 </div>
 
 ## Close Out
@@ -752,4 +753,4 @@ We do not expect you to have these steps and reasons memorized right now. You ca
 
 ## Homework
 
-Find the homework in your Mod 0 Project Board. Contact Rachel or Tim if you're stuck.
+Find the homework in your Mod 0 Project Board. Post in the Mod 0 Slack channel if you're stuck (and don't be afraid to help each other out). 
