@@ -83,27 +83,21 @@ subheading: More Git and Intro to GitHub
   </div>
 </div>
 
-## Housekeeping and Goals
+## Housekeeping, Wins/Follow-Ups, and Goals
 
-### Wins From Feedback
+### Wins
 
-- Understanding purpose of terminal, terminal commands, and file paths
-- Feeling comfortable with Zoom
-- Vocab and flashcards
-- Handwritting notes and building in time for review
+- Strong understanding of terminal and commands
+- Most common answer to git question: "I can name the steps of the git workflow and can put them in practice (using a reference)."
 
-### Follow-Ups From Feedback
+### Follow-Ups
 
-- Git is confusing! (Yes. True story.)
-- Breakout rooms are awkward
-- Session 3 was too fast
-- It's hard watch Zoom and follow along at the same time
+- Why do we use git? (we'll look at this again)
+- Staging area in git (we'll look at this again)
 
-### Other Notes
+### Today's Goals
 
-- Survey looks a little different today
-- Homework feedback on gists
-- Reminder to Google when you don't know something
+(See above)
 
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3>
