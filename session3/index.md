@@ -634,80 +634,9 @@ Let's figure out on the diagram what we just did:
 
 ### 5. Making File Changes and Adding New Commits
 
-Now that we have our initial commit (or snapshot in time), let's make a change to one of our files.
-
-Type this from the command line:
-
-```
-echo "Be kind" >> things_to_remember.txt
-echo "Work hard" >> things_to_remember.txt
-```
-
-If you want to check what is now in the file, you can use `cat`:
-
-```
-rwarbelow~/notes$ cat things_to_remember.txt 
-Be kind
-Work hard
-
-```
-
-Your working directory now has changes that differ from what our file looked like the last time we committed (or took a snapshot). 
-
-<a name="diff"></a>
-You can view those changes by using `git diff <filename>`:
-
-```
-rwarbelow~/notes$ git diff things_to_remember.txt
-diff --git a/things_to_remember.txt b/things_to_remember.txt
-index e69de29..9ffd068 100644
---- a/things_to_remember.txt
-+++ b/things_to_remember.txt
-@@ -0,0 +1,2 @@
-+Be kind
-+Work hard
-```
-
-If we type `git status`, then we're notified that we changes that are not yet staged for commit:
-
-```
-rwarbelow~/notes$ git status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-  modified:   things_to_remember.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-```
-
-Let's add our new changes to the staging area:
-
-```
-rwarbelow~/notes$ git add things_to_remember.txt
-rwarbelow~/notes$ git status
-On branch master
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-  modified:   things_to_remember.txt
-```
-
-Now, we can commit. Keep your commits in present tense, starting with a verb. Use a capital letter at the beginning and no punctuation at the end. 
-
-```
-rwarbelow~/notes$ git commit -m 'Add two life lessons'
-[master 053f53c] Add first life lesson
- 1 file changed, 1 insertion(+)
-
-```
-
-### Putting it All Together
-
 Once you have initialized git (which you only do ONE TIME EVER in your project), the basic git workflow is this:
 
-1. Make file changes
+1. Make file changes (for today, do this using the `echo` command)
 1. Check the `git status` to see what files are unstaged
 1. Check the `git diff <filename>` to see what changes have happened since the last commit
 1. `git add <whatever file you want to stage>`
