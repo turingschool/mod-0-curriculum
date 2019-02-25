@@ -256,7 +256,7 @@ Sidenote: Let's imagine that the hosts had different permission levels so that t
 
 <div class="try-it">
   <h3>Classes vs. Objects</h3>
-  <p>Here we will try to categorize a few real-world examples that are not related to software. This is a chance to use what you've learned on something more abstract. On your own, categorize the following classes and objects.</p>
+  <p>Here you will categorize a few real-world examples that are not related to software. This is a chance to use what you've learned on something more abstract. On your own, categorize the following classes and objects.</p>
   <textarea name="">
 car, poodle, Ford Mustang, scrabble, tent, chess, game, Nissan Juke, rose, dog, daisy, shelter, chihuahua, orchid, apartment, bulldog, monopoly, flower, Honda Civic
   </textarea>
