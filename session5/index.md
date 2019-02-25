@@ -305,50 +305,53 @@ car, poodle, Ford Mustang, scrabble, tent, chess, game, Nissan Juke, rose, dog, 
 
 > Attributes answer the question "What characteristics might distinguish this specific object from another object of the same class?". 
 
-For example: "What characteristics might distinguish this specific student from another student? 
+For example: "What characteristics might distinguish this specific playlist from another playlist?
 
 
-As we're looking at the examples below, note that I am using capital letters and no spaces for the attribute names. This is not a rule; this is simply a convention I'm using for today's lesson:
+As we're looking at the examples below, note that I am using capital letters and an underscore for the attribute names. This is not a rule; this is simply a convention I'm using for today's lesson. Lets return to our Spotify example:
 
 ```
-Student
+Playlist
 
 Attributes:
-FirstName (string)
-LastName (string)
-Birthdate (datetime) -- this is not one of the data types we discussed, but it's valid
-Enrolled (boolean)
+Name (string)
+Number_Of_Songs (integer)
+Created_On (datetime) -- this is not one of the data types we discussed, but it's valid
+Recently_Played (boolean)
+Songs (array)
 ```
 
-All of these things would differentiate one student from another, but none of these attributes are **behaviors** or **actions**. For example, I didn't include `EnrollInSchool` as an attribute because that's an action, not a state. 
+All of these things would differentiate one playlist from another, but none of these attributes are **behaviors** or **actions**. For example, I didn't include `Add_Song_To_Playlist` as an attribute because that's an action, not a state.
 
 ```
-Course
-
-Attributes: 
-Title (string)
-Period (integer)
-Category (string)
-CurrentlyOffered (boolean)
-Roster (array)
-```
-
-Again, all of these attributes would differentiate one course from another. Notice that this last attribute, `Roster`, could be an array containing strings of student names, or an array of `Student` objects depending on how the program is set up. 
-
-```
-Account
+Artist
 
 Attributes:
-Type (string)
-Balance (float)
-OwnerSSN (integer)
-Frozen (boolean)
-Transactions (array)
+Name (string)
+Total_Song_Plays (integer)
+Songs (array)
+Genre (string)
+Active (boolean)
+Followed_By (array)
+Albums (array)
+```
+
+Again, all of these attributes would differentiate one Artist from another. Notice that this last attribute, `Albums`, could be an array containing strings of song names, or an array of `Song` objects depending on how the program is set up.
+
+```
+User
+
+Attributes:
+Username (string)
+Hours_Listened (float)
+Songs_Downloaded (integer)
+Active (boolean)
+Playlists (array)
 ```
 
 <div class="try-it">
   <h3>Try It: Attributes</h3> 
-  <p>In the chat, post the attributes (with data types) of a <code>Refrigerator</code> class.</p>
+  <p>In the chat, post the attributes (with data types) of a <code>Song</code> class.</p>
 </div>
 
 #### Methods
@@ -360,43 +363,50 @@ For example: "What things can students do?" or "What things can accounts do?"
 Let's look at a few examples: 
 
 ```
-Student
+Playlist
 
 Attributes:
-FirstName (string)
-LastName (string)
-Birthdate (date)
-Enrolled (boolean)
+Name (string)
+Number_Of_Songs (integer)
+Created_On (datetime)
+Songs (array)
 
 Methods:
-Greet
-IntroduceSelf
-CompleteAssignment
-RaiseHand
-Enroll
-Withdraw
+Add_Song
+Rename
+Delete_Song
+Play
+Shuffle
+Repeat
+Queue_Next_Song
+Share
 ```
 
-Unlike attributes, methods do not necessarily differentiate one instance of the object from another. For example, the steps that Briana and Jose would take to raise their hands might be identical. The steps they take to enroll at school might also be identical. Often (but not always), a method will use or change an attribute. For example, the `IntroduceSelf` method would use the `FirstName` and `LastName` attributes. `Enroll` and `Withdraw` would change the `Enrolled` attribute.
+Unlike attributes, methods do not necessarily differentiate one instance of the object from another. For example, the steps that two users would take to add songs might be identical. The steps they take to share their playlist with another user might also be identical. Often (but not always), a method will use or change an attribute. For example,`Rename` would change the `Name` attribute. The `Add_Song` and `Shuffle` methods would use the `Songs` attribute. `Add_Song` would also lead to the attribute `Number_Of_Songs` being changed indirectly, because we can infer that this attribute returns the length or count of the `Songs` array.
 
 Here's another example:
 
 ```
-Account
+Artist
 
-Attributes:
-Type (string)
-Balance (float)
-OwnerSSN (integer)
-Frozen (boolean)
-Transactions (array)
+Attributes: 
+Name (string)
+Total_Song_Plays (integer)
+Genre (string)
+Songs (array)
+Active (boolean)
+Followed_By (array)
+Following (array)
+Albums (array)
 
 Methods: 
-Withdraw
-Deposit
+Add_Album
+Add_Single
+Follow_Artist
+Create_Playlist
 ```
 
-In this case, both the `Withdraw` and `Deposit` methods would change the `Balance` attribute in addition to adding to the `Transactions` array. 
+In this case, the `Add_Album` method would change both the `Albums` array and the `Songs` array.
 
 <div class="try-it">
   <h3>Try It: Attributes vs. Methods</h3>
