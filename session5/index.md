@@ -145,7 +145,6 @@ Breaking down problems using top down design lends itself nicely to the object-o
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
 <hr>
 
-<a name="oop"></a>
 ## Object Oriented Programming
 
 <span class="vocab">Object oriented programming</span>, or OOP for short, is an approach to programming (or a [programmming paradigm](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)) where programs are organized as a series of objects. 
@@ -189,13 +188,6 @@ OOP is very similar to how the world actually works. Lets take an example of an 
 - Indie
 - Bluegrass
 - Hip Hop
-
-<strong>Platform_Instance</strong>
-- OS - Mac
-- OS - Windows
-- Web
-- Mobile - Iphone
-- Mobile - Android
 
 We group these objects because they have similar attributes/states and behaviors/methods/abilities. 
 
