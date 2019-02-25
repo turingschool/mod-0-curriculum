@@ -150,7 +150,7 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 
 <span class="vocab">Object oriented programming</span>, or OOP for short, is an approach to programming (or a [programmming paradigm](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)) where programs are organized as a series of objects. 
 
-OOP is very similar to how the world actually works. Lets take an example of an app you may or may not interact with every day. The app <strong>Spotify</strong> will serve as our real world example. We will break it down into <span class="vocab">objects</span> (bullet points) of various <span class="vocab">classes</span> (bold):
+OOP is very similar to how the world actually works. Lets take an example of an app that millions of people interact with every day. The app <strong>Spotify</strong> will serve as our real world example. We will break it down into <span class="vocab">objects</span> (bullet points) of various <span class="vocab">classes</span> (bold):
 
 <strong>Artists</strong>
 - Dr. Dre
