@@ -309,7 +309,6 @@ Playlist
 
 Attributes:
 Name (string)
-Number_Of_Songs (integer)
 Created_On (datetime) -- this is not one of the data types we discussed, but it's valid
 Recently_Played (boolean)
 Songs (array)
@@ -322,7 +321,6 @@ Artist
 
 Attributes:
 Name (string)
-Total_Song_Plays (integer)
 Songs (array)
 Genre (string)
 Active (boolean)
@@ -330,18 +328,20 @@ Followed_By (array)
 Albums (array)
 ```
 
-Again, all of these attributes would differentiate one Artist from another. Notice that this last attribute, `Albums`, could be an array containing strings of song names, or an array of `Song` objects depending on how the program is set up.
+Again, all of these attributes would differentiate one Artist from another. Notice that this last attribute, `Albums`, could be an array containing strings of song names, or an array of `Song` objects depending on how the program is set up. Again, none of these attributes are **behaviors** or **actions**. That's why I didn't include `Add_Album` or `Add_Song`.
 
 ```
 User
 
 Attributes:
 Username (string)
+Current_Song (Song)
 Hours_Listened (float)
-Songs_Downloaded (integer)
+Paid (boolean)
 Active (boolean)
 Playlists (array)
 ```
+Notice that the `Current_Song` attribute for a User is of type `Song`. Objects sometimes hold objects or instances of other classes as their attributes. Notice I didn't include `Follow_Artist` or `Follow_Playlist` because those are both **behaviors** or **actions**.
 
 <div class="try-it">
   <h3>Try It: Attributes</h3> 
@@ -352,7 +352,7 @@ Playlists (array)
 
 <span class="vocab">Methods</span> define **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the question "What things can objects of this specific class do?"
 
-For example: "What things can students do?" or "What things can accounts do?"
+For example: "What things can Playlists do?" or "What things can Artists do?"
 
 Let's look at a few examples: 
 
@@ -361,13 +361,15 @@ Playlist
 
 Attributes:
 Name (string)
-Number_Of_Songs (integer)
 Created_On (datetime)
 Songs (array)
+Created_By (string)
+Followers (array)
 
 Methods:
 Add_Song
 Rename
+Number_Of_Songs
 Delete_Song
 Play
 Shuffle
@@ -376,7 +378,7 @@ Queue_Next_Song
 Share
 ```
 
-Unlike attributes, methods do not necessarily differentiate one instance of the object from another. For example, the steps that two users would take to add songs might be identical. The steps they take to share their playlist with another user might also be identical. Often (but not always), a method will use or change an attribute. For example,`Rename` would change the `Name` attribute. The `Add_Song` and `Shuffle` methods would use the `Songs` attribute. `Add_Song` would also lead to the attribute `Number_Of_Songs` being changed indirectly, because we can infer that this attribute returns the length or count of the `Songs` array.
+Unlike attributes, methods do not necessarily differentiate one instance of the object from another. For example, the steps that two users would take to add songs might be identical. The steps they take to share their playlist with another user might also be identical. Often (but not always), a method will use or change an attribute. For example,`Rename` would change the `Name` attribute. The `Add_Song` and `Shuffle` methods would change and use the `Songs` attribute respectively. `Add_Song` would also lead to the method `Number_Of_Songs` returning a different result, because we can infer that this attribute returns the length or count of the `Songs` array.
 
 Here's another example:
 
@@ -385,7 +387,6 @@ Artist
 
 Attributes: 
 Name (string)
-Total_Song_Plays (integer)
 Genre (string)
 Songs (array)
 Active (boolean)
@@ -396,6 +397,7 @@ Albums (array)
 Methods: 
 Add_Album
 Add_Single
+Total_Song_Plays
 Follow_Artist
 Create_Playlist
 ```
