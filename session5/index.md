@@ -150,40 +150,52 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 
 <span class="vocab">Object oriented programming</span>, or OOP for short, is an approach to programming (or a [programmming paradigm](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)) where programs are organized as a series of objects. 
 
-OOP is very similar to how the world actually works. In my office right now, there are several <span class="vocab">objects</span> (bullet points) of various <span class="vocab">classes</span> (bold):
+OOP is very similar to how the world actually works. Lets take an example of an app you may or may not interact with every day. The app <strong>Spotify</strong> will serve as our real world example. We will break it down into <span class="vocab">objects</span> (bullet points) of various <span class="vocab">classes</span> (bold):
 
-<strong>Chairs</strong>
-- a navy blue chair
-- a silver chair
-- two black chairs
+<strong>Artists</strong>
+- Dr. Dre
+- Greensky Bluegrass
+- Grateful Dead
+- Odesza
+- Tom Petty
+- Fleetwood Mac
 
-<strong>Crates</strong>
-- a green crate 
-- an orange crate
+<strong>Songs</strong>
+- US Blues
+- The Next Episode
+- Thank You, Next
+- Living Over
+- Free Falling
+- Landslide
 
-<strong>Teachers</strong>
-- myself  
-- two other teachers
+<strong>Users</strong>
+- Tim Tyrrell
+- Rachel Warbelow
+- Katie Scruggs
+- Antonio Fry
+- Vinton Te'o
+- Taylor Jordan
 
-<strong>WaterBottles</strong>
-- a blue Nalgene  
-- a red Nalgene
+<strong>Playlists</strong>
+- Uplifting Sound
+- Good Love
+- Tycho Selects
+- Michelle Obama: Becoming Motown
+- This is Rainbow Kitten Surprise
+- Your Discover Weekly
 
-<strong>FileFolders</strong>
-- countless multi-colored file folders
+<strong>Genres</strong>
+- Dance
+- Indie
+- Bluegrass
+- Hip Hop
 
-<strong>StickyNotePads</strong>
-- a pad of small blue sticky notes  
-- two pads of larger yellow sticky notes
-
-<strong>WritingInstruments</strong>
-- 10 wooden pencils
-- 3 mechanical pencils
-- 8 pens
-
-<strong>Laptops</strong>
-- a MacBook  
-- a ChromeBook
+<strong>Platform_Instance</strong>
+- OS - Mac
+- OS - Windows
+- Web
+- Mobile - Iphone
+- Mobile - Android
 
 We group these objects because they have similar attributes/states and behaviors/methods/abilities. 
 
