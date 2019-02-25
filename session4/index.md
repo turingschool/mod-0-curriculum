@@ -40,27 +40,64 @@ subheading: More Git and Intro to GitHub
   </div>
 </div>
 
-## Housekeeping and Goals
+### Warm Up
 
-### Wins From Feedback
+<p>Last week, we briefly talked about keyboard shortcuts in the Mac environment and in Chrome. You should also learn and practice these terminal shortcuts.</p>
 
-- Understanding purpose of terminal, terminal commands, and file paths
-- Feeling comfortable with Zoom
-- Vocab and flashcards
-- Handwritting notes and building in time for review
+<div class="try-it">
+  <h3>Try it: Practicing Terminal Shortcuts</h3>
+  <div class="flex-container tips">
+    <div>
+      <li>
+    <strong>Cycle through past commands</strong>
+    <pre>up arrow</pre>
+  </li>
+  <li>
+    <strong>See all commands previously typed</strong>
+    <pre>type "history" in the command prompt</pre>
+  </li>
+  <li>
+    <strong>Clear Command Line</strong>
+    <pre>control + u</pre>
+  </li>
+  <li>
+    <strong>Clear Terminal Window</strong>
+    <pre>command + k</pre>
+  </li>
+    </div>
+    <div>
+  <li>
+    <strong>Goto Beginning of Line</strong>
+    <pre>control + a</pre>
+  </li>
+  <li>
+    <strong>Goto End of Line</strong>
+    <pre>control + e</pre>
+  </li>
+  <li>
+    <strong>Fast Moving Cursor Through Command Line Text</strong>
+    <pre>Right: option + right-arrow</pre>
+    <pre>Left: option + left-arrow</pre>
+  </li>
+    </div>
+  </div>
+</div>
 
-### Follow-Ups From Feedback
+## Housekeeping, Wins/Follow-Ups, and Goals
 
-- Git is confusing! (Yes. True story.)
-- Breakout rooms are awkward
-- Session 3 was too fast
-- It's hard watch Zoom and follow along at the same time
+### Wins
 
-### Other Notes
+- Strong understanding of terminal and commands
+- Most common answer to git question: "I can name the steps of the git workflow and can put them in practice (using a reference)."
 
-- Survey looks a little different today
-- Homework feedback on gists
-- Reminder to Google when you don't know something
+### Follow-Ups
+
+- Why do we use git? (we'll look at this again)
+- Staging area in git (we'll look at this again)
+
+### Today's Goals
+
+(See above)
 
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3>
