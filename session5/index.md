@@ -201,8 +201,10 @@ We group these objects because they have similar attributes/states and behaviors
 
 <div class="try-it">
   <h3>Classes and Objects</h3>
-  <p>In the chat, post an example of a class and objects of that class where you are right now. Example:</p>
-  <code>Stapler: blue plastic Office Max stapler, One-Touch high capacity metal stapler</code>
+  <p>In the chat, post an example of a class and objects of that class within an app that you interact with every day. Example:</p>
+  <strong>Venmo</strong><br>
+  <code>Transactions_Sent_Message: thanks for the pizza, mountain house, gas money</code><br>
+  <code>Transactions_Charged_Message: breakfast pancakes, concert ticket, gas station snacks</code>
 </div>
 
 #### Classes and Objects
