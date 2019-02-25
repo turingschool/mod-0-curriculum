@@ -256,7 +256,7 @@ Sidenote: Let's imagine that the hosts had different permission levels so that t
 
 <div class="try-it">
   <h3>Classes vs. Objects</h3>
-  <p>On your own, categorize the following classes and objects.</p>
+  <p>Here we will try to categorize a few real-world examples that are not related to software. This is a chance to use what you've learned on something more abstract. On your own, categorize the following classes and objects.</p>
   <textarea name="">
 car, poodle, Ford Mustang, scrabble, tent, chess, game, Nissan Juke, rose, dog, daisy, shelter, chihuahua, orchid, apartment, bulldog, monopoly, flower, Honda Civic
   </textarea>
@@ -404,7 +404,7 @@ In this case, the `Add_Album` method would change both the `Albums` array and th
 
 <div class="try-it">
   <h3>Try It: Attributes vs. Methods</h3>
-  <p>By yourself, categorize the following as either <strong>attributes</strong> of a car or <strong>methods</strong> of a car.</p>
+  <p>Lets switch gears and use what we've learned to organize an object that is not related to an app. By yourself, categorize the following as either <strong>attributes</strong> of a car or <strong>methods</strong> of a car.</p>
   <textarea name="">
 Model, Reverse, Color, Fill_Tank, Gas_Tank, Beep, Current_Speed, Start_Engine, Year, Change_Oil, Last_Oil_Change, Tire_Size, Turn, Stop
   </textarea>
