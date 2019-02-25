@@ -209,12 +209,13 @@ We group these objects because they have similar attributes/states and behaviors
 
 #### Classes and Objects
 
-Think of a <span class="vocab">class</span> as a blueprint that can be used for creating lots of different versions of itself. For example, here are a few classes that I've used in recent programs that I've written:
+Think of a <span class="vocab">class</span> as a blueprint that can be used for creating lots of different versions of itself. For example, here are a few classes that we can organize the Zoom software into:
 
 ```
-Student
-Course
-Account
+Participants
+Sessions
+Hosts
+Breakout Rooms
 ```
 
 An <span class="vocab">object</span>, on the other hand, **is** a very specific instance of a class. An object is what is created from the blueprint. 
@@ -228,16 +229,20 @@ An <span class="vocab">object</span>, on the other hand, **is** a very specific 
   </thead>
   <tbody>
     <tr>
-      <td>Student</td>
-      <td>Joey, Briana, Marisol</td>
+      <td>Participants</td>
+      <td>Kayla, Jev, Evan</td>
     </tr>
     <tr>
-      <td>Course</td>
-      <td>5th period calculus, 2nd period English, 1st period theater, evening parenting course</td>
+      <td>Sessions</td>
+      <td>Session 1, Session 2, Session 3, etc</td>
     </tr>
     <tr>
-      <td>Account</td>
-      <td>Brandon's school meal account, scholarship account, Student Council's fundraising account</td>
+      <td>Hosts</td>
+      <td>Katie, Tim, Rachel</td>
+    </tr>
+    <tr>
+      <td>Breakout Rooms</td>
+      <td>Frontend Room, Backend Room</td>
     </tr>
   </tbody>
 </table>
@@ -250,9 +255,9 @@ Sidenote: Let's imagine that the fundraising accounts and the school meal accoun
   <h4>Things to Note</h4>
   <p>One trick you can use when determining whether something is an object or a class is to say:</p>
   <p><strong>[Object] is a type of [Class]</strong></p>
-  <p>- Joey is a type of Student</p>
-  <p>- 5th period calculus is a type of Course</p>
-  <p>- Emily's college tuition account is a type of Account</p>
+  <p>- Tim is a type of Host</p>
+  <p>- Backend Room is a type of Breakout Room</p>
+  <p>- Emily is a type of Participant</p>
 </div>
 
 <div class="try-it">
