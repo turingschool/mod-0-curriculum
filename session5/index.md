@@ -412,7 +412,7 @@ In this case, the `Add_Album` method would change both the `Albums` array and th
   <h3>Try It: Attributes vs. Methods</h3>
   <p>By yourself, categorize the following as either <strong>attributes</strong> of a car or <strong>methods</strong> of a car.</p>
   <textarea name="">
-Model, Reverse, Color, FillTank, GasTank, Beep, CurrentSpeed, StartEngine, Year, ChangeOil, LastOilChange, TireSize, Turn, Stop
+Model, Reverse, Color, Fill_Tank, Gas_Tank, Beep, Current_Speed, Start_Engine, Year, Change_Oil, Last_Oil_Change, Tire_Size, Turn, Stop
   </textarea>
   <br><br>
   <table class="objectclass">
