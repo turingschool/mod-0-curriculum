@@ -241,7 +241,7 @@ An <span class="vocab">object</span>, on the other hand, **is** a very specific 
       <td>Katie, Tim, Rachel</td>
     </tr>
     <tr>
-      <td>Breakout Rooms</td>
+      <td>Breakout_Rooms</td>
       <td>Frontend Room, Backend Room</td>
     </tr>
   </tbody>
@@ -249,7 +249,9 @@ An <span class="vocab">object</span>, on the other hand, **is** a very specific 
 
 The objects are similar enough in attributes/states and behaviors/methods/abilities that they are part of the same class. 
 
-Sidenote: Let's imagine that the fundraising accounts and the school meal accounts were so different that they had different attributes. As an example, maybe only deposits can be made to the fundraising accounts, while a lunch account can have both deposits and withdraws. In addition, maybe a lunch account can only be accessed by one person, but the fundraising accounts can have multiple owners. In this case, we might actually create separate classes: MealAccount and FundraisingAccount. **This is up to you as the developer to figure out how similar or different your objects are.**
+Sidenote: Let's imagine that the hosts had different permission levels so that they had some different methods, but a few methods they all shared. As an example, maybe only Rachel can create breakout rooms or end the session. But, all hosts can mute participants and send a message to the chat. In addition, maybe certain levels of hosts are paid each time they participate in a zoom session, while other hosts only volunteer. Then you maid need to create completely separate classes: **Paid_Host** and **Volunteer_Host**.
+
+ **This is up to you as the developer to figure out how similar or different your objects are.**
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
