@@ -241,7 +241,7 @@ An <span class="vocab">object</span>, on the other hand, **is** a very specific 
 
 The objects are similar enough in attributes/states and behaviors/methods/abilities that they are part of the same class. 
 
-Sidenote: Let's imagine that the hosts had different permission levels so that they had some different methods, but a few methods they all shared. As an example, maybe only Rachel can create breakout rooms or end the session. But, all hosts can mute participants and send a message to the chat. In addition, maybe certain levels of hosts are paid each time they participate in a zoom session, while other hosts only volunteer. Then you maid need to create completely separate classes: **Paid_Host** and **Volunteer_Host**.
+Sidenote: Let's imagine that the hosts had different permission levels so that they had some different methods, but a few methods they all shared. As an example, maybe only Rachel can create breakout rooms or end the session. But, all hosts can mute participants and send a message to the chat. In addition, maybe certain levels of hosts are paid each time they participate in a zoom session, while other hosts only volunteer. Then you may need to create completely separate classes: **Paid_Host** and **Volunteer_Host**.
 
  **This is up to you as the developer to figure out how similar or different your objects are.**
 
