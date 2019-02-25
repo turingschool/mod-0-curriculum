@@ -451,16 +451,16 @@ ClosingHour (datetime)
 ### Individual Practice Round
 
 <div class="try-it">
-  <h3>Classes in a System</h3>
+  <h3>Classes in an App</h3>
   <ol>
-      <li>Choose one of these systems:</li>
+      <li>Choose one of these apps:</li>
       <ul>
-        <li>Museum</li>
-        <li>Hotel</li>
-        <li>Beach</li>
-        <li>Concert</li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Gmail</li>
+        <li>Google Maps</li>
     </ul>
-      <li>Brainstorm two classes in your chosen system.</li>
+      <li>Brainstorm two classes in your chosen app.</li>
       <li>List the attributes for both classes.</li>
       <li>List the methods for both classes.</li>
   </ol>
@@ -471,7 +471,7 @@ ClosingHour (datetime)
 
 In just a minute, you'll be randomly paired with another student. The person with the longest last name will share first.
 
-1. What system did you choose? (Museum, Hotel, Beach, Concert)
+1. What app did you choose? (Facebook, Instagram, Gmail, Google Maps)
 1. What two classes did you identify for that system? How do you know they are classes? (Partner: provide feedback to confirm or adjust)
 1. What are the **attributes** for your first class? How do you know they are attributes and NOT methods? (Partner: provide feedback to confirm or adjust)
 1. What are the **attributes** for your second class? How do you know they are attributes and NOT methods? (Partner: provide feedback to confirm or adjust)
