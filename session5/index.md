@@ -11,7 +11,7 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
     <ul>
       <li>define top-down design and object oriented programming</li>
       <li>break down real-world tasks using top-down design strategies</li>
-      <li>model real-world objects by breaking down their attributes and behaviors</li>
+      <li>model real-world objects and apps by breaking down their attributes and behaviors</li>
     </ul>
   </div>
   <div>
@@ -36,20 +36,18 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 </div>
 
 ## Housekeeping and Goals
-
 ### Wins From Feedback
 
 - Solid understanding of creating repository, pushing to repository, cloning repository, and forking repository (average mastery scores above 4)
-- More breakout rooms! :) 
-- Nice work with pull requests on GitHub
+- More breakout rooms!
 
 ### Follow-Ups From Feedback
 
 - Time allotted for breakout rooms
-- Terminal vs. text editor?
+- Reading over the lesson beforehand
 - Sessions move fast
-- Markdown average mastery score 3.6
-- Recordings don't record breakout rooms
+- Markdown average mastery score 3.85
+- Esc button will exit full screen in Zoom
 
 ### Other Notes
 
@@ -150,57 +148,65 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 
 <span class="vocab">Object oriented programming</span>, or OOP for short, is an approach to programming (or a [programmming paradigm](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)) where programs are organized as a series of objects. 
 
-OOP is very similar to how the world actually works. In my office right now, there are several <span class="vocab">objects</span> (bullet points) of various <span class="vocab">classes</span> (bold):
+OOP is very similar to how the world actually works. Lets take an example of an app that millions of people interact with every day. The app <strong>Spotify</strong> will serve as our real world example. We will break it down into <span class="vocab">objects</span> (bullet points) of various <span class="vocab">classes</span> (bold):
 
-<strong>Chairs</strong>
-- a navy blue chair
-- a silver chair
-- two black chairs
+<strong>Artists</strong>
+- Dr. Dre
+- Ariana Grande
+- Grateful Dead
+- Marvin Gaye
+- Tom Petty
+- Fleetwood Mac
 
-<strong>Crates</strong>
-- a green crate 
-- an orange crate
+<strong>Songs</strong>
+- US Blues
+- The Next Episode
+- Thank You, Next
+- Living Over
+- Free Falling
+- Landslide
 
-<strong>Teachers</strong>
-- myself  
-- two other teachers
+<strong>Users</strong>
+- Tim Tyrrell
+- Rachel Warbelow
+- Katie Scruggs
+- Antonio Fry
+- Vinton Te'o
+- Taylor Jordan
 
-<strong>WaterBottles</strong>
-- a blue Nalgene  
-- a red Nalgene
+<strong>Playlists</strong>
+- Uplifting Sound
+- Good Love
+- Tycho Selects
+- Michelle Obama: Becoming Motown
+- This is Rainbow Kitten Surprise
+- Your Discover Weekly
 
-<strong>FileFolders</strong>
-- countless multi-colored file folders
-
-<strong>StickyNotePads</strong>
-- a pad of small blue sticky notes  
-- two pads of larger yellow sticky notes
-
-<strong>WritingInstruments</strong>
-- 10 wooden pencils
-- 3 mechanical pencils
-- 8 pens
-
-<strong>Laptops</strong>
-- a MacBook  
-- a ChromeBook
+<strong>Genres</strong>
+- Dance
+- Indie
+- Bluegrass
+- Hip Hop
 
 We group these objects because they have similar attributes/states and behaviors/methods/abilities. 
 
 <div class="try-it">
   <h3>Classes and Objects</h3>
-  <p>In the chat, post an example of a class and objects of that class where you are right now. Example:</p>
-  <code>Stapler: blue plastic Office Max stapler, One-Touch high capacity metal stapler</code>
+  <p>In the chat, post an example of a class and objects of that class within an app that you interact with every day. Example:</p>
+  <strong>Weather Underground</strong><br>
+  <code>City: Denver, Vail, Steamboat</code><br>
+  <code>Forecast: Rain, Snow, Sunny</code>
 </div>
 
 #### Classes and Objects
 
-Think of a <span class="vocab">class</span> as a blueprint that can be used for creating lots of different versions of itself. For example, here are a few classes that I've used in recent programs that I've written:
+Think of a <span class="vocab">class</span> as a blueprint that can be used for creating lots of different versions of itself. For example, here are a few classes that we can organize the Zoom software into:
 
 ```
-Student
-Course
-Account
+Participants
+Sessions
+Hosts
+Breakout Rooms
 ```
 
 An <span class="vocab">object</span>, on the other hand, **is** a very specific instance of a class. An object is what is created from the blueprint. 
@@ -214,36 +220,42 @@ An <span class="vocab">object</span>, on the other hand, **is** a very specific 
   </thead>
   <tbody>
     <tr>
-      <td>Student</td>
-      <td>Joey, Briana, Marisol</td>
+      <td>Participants</td>
+      <td>Kayla, Jev, Evan</td>
     </tr>
     <tr>
-      <td>Course</td>
-      <td>5th period calculus, 2nd period English, 1st period theater, evening parenting course</td>
+      <td>Sessions</td>
+      <td>Session 1, Session 2, Session 3, etc</td>
     </tr>
     <tr>
-      <td>Account</td>
-      <td>Brandon's school meal account, scholarship account, Student Council's fundraising account</td>
+      <td>Hosts</td>
+      <td>Katie, Tim, Rachel</td>
+    </tr>
+    <tr>
+      <td>Breakout_Rooms</td>
+      <td>Frontend Room, Backend Room</td>
     </tr>
   </tbody>
 </table>
 
 The objects are similar enough in attributes/states and behaviors/methods/abilities that they are part of the same class. 
 
-Sidenote: Let's imagine that the fundraising accounts and the school meal accounts were so different that they had different attributes. As an example, maybe only deposits can be made to the fundraising accounts, while a lunch account can have both deposits and withdraws. In addition, maybe a lunch account can only be accessed by one person, but the fundraising accounts can have multiple owners. In this case, we might actually create separate classes: MealAccount and FundraisingAccount. **This is up to you as the developer to figure out how similar or different your objects are.**
+Sidenote: Let's imagine that the hosts had different permission levels so that they had some different methods, but a few methods they all shared. As an example, maybe only Rachel can create breakout rooms or end the session. But, all hosts can mute participants and send a message to the chat. In addition, maybe certain levels of hosts are paid each time they participate in a zoom session, while other hosts only volunteer. Then you may need to create completely separate classes: **Paid_Host** and **Volunteer_Host**.
+
+ **This is up to you as the developer to figure out how similar or different your objects are.**
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
   <p>One trick you can use when determining whether something is an object or a class is to say:</p>
   <p><strong>[Object] is a type of [Class]</strong></p>
-  <p>- Joey is a type of Student</p>
-  <p>- 5th period calculus is a type of Course</p>
-  <p>- Emily's college tuition account is a type of Account</p>
+  <p>- Tim is a type of Host</p>
+  <p>- Backend Room is a type of Breakout Room</p>
+  <p>- Emily is a type of Participant</p>
 </div>
 
 <div class="try-it">
   <h3>Classes vs. Objects</h3>
-  <p>On your own, categorize the following classes and objects.</p>
+  <p>Here you will categorize a few real-world examples that are not related to software. This is a chance to use what you've learned on something more abstract. On your own, categorize the following classes and objects.</p>
   <textarea name="">
 car, poodle, Ford Mustang, scrabble, tent, chess, game, Nissan Juke, rose, dog, daisy, shelter, chihuahua, orchid, apartment, bulldog, monopoly, flower, Honda Civic
   </textarea>
@@ -286,104 +298,116 @@ car, poodle, Ford Mustang, scrabble, tent, chess, game, Nissan Juke, rose, dog, 
 
 > Attributes answer the question "What characteristics might distinguish this specific object from another object of the same class?". 
 
-For example: "What characteristics might distinguish this specific student from another student? 
+For example: "What characteristics might distinguish this specific playlist from another playlist?
 
 
-As we're looking at the examples below, note that I am using capital letters and no spaces for the attribute names. This is not a rule; this is simply a convention I'm using for today's lesson:
+As we're looking at the examples below, note that I am using capital letters and an underscore for the attribute names. This is not a rule; this is simply a convention I'm using for today's lesson. Lets return to our Spotify example:
 
 ```
-Student
+Playlist
 
 Attributes:
-FirstName (string)
-LastName (string)
-Birthdate (datetime) -- this is not one of the data types we discussed, but it's valid
-Enrolled (boolean)
+Name (string)
+Created_On (datetime) -- this is not one of the data types we discussed, but it's valid
+Recently_Played (boolean)
+Songs (array)
 ```
 
-All of these things would differentiate one student from another, but none of these attributes are **behaviors** or **actions**. For example, I didn't include `EnrollInSchool` as an attribute because that's an action, not a state. 
+All of these things would differentiate one playlist from another, but none of these attributes are **behaviors** or **actions**. For example, I didn't include `Add_Song_To_Playlist` as an attribute because that's an action, not a state.
 
 ```
-Course
-
-Attributes: 
-Title (string)
-Period (integer)
-Category (string)
-CurrentlyOffered (boolean)
-Roster (array)
-```
-
-Again, all of these attributes would differentiate one course from another. Notice that this last attribute, `Roster`, could be an array containing strings of student names, or an array of `Student` objects depending on how the program is set up. 
-
-```
-Account
+Artist
 
 Attributes:
-Type (string)
-Balance (float)
-OwnerSSN (integer)
-Frozen (boolean)
-Transactions (array)
+Name (string)
+Songs (array)
+Genre (string)
+Active (boolean)
+Followed_By (array)
+Albums (array)
 ```
+
+Again, all of these attributes would differentiate one Artist from another. Notice that this last attribute, `Albums`, could be an array containing strings of song names, or an array of `Song` objects depending on how the program is set up. Again, none of these attributes are **behaviors** or **actions**. That's why I didn't include `Add_Album` or `Add_Song`.
+
+```
+User
+
+Attributes:
+Username (string)
+Current_Song (Song)
+Hours_Listened (float)
+Paid (boolean)
+Active (boolean)
+Playlists (array)
+```
+Notice that the `Current_Song` attribute for a User is of type `Song`. Objects sometimes hold objects or instances of other classes as their attributes. Notice I didn't include `Follow_Artist` or `Follow_Playlist` because those are both **behaviors** or **actions**.
 
 <div class="try-it">
   <h3>Try It: Attributes</h3> 
-  <p>In the chat, post the attributes (with data types) of a <code>Refrigerator</code> class.</p>
+  <p>In the chat, post the attributes (with data types) of a <code>Song</code> class.</p>
 </div>
 
 #### Methods
 
 <span class="vocab">Methods</span> define **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the question "What things can objects of this specific class do?"
 
-For example: "What things can students do?" or "What things can accounts do?"
+For example: "What things can Playlists do?" or "What things can Artists do?"
 
 Let's look at a few examples: 
 
 ```
-Student
+Playlist
 
 Attributes:
-FirstName (string)
-LastName (string)
-Birthdate (date)
-Enrolled (boolean)
+Name (string)
+Created_On (datetime)
+Songs (array)
+Created_By (string)
+Followers (array)
 
 Methods:
-Greet
-IntroduceSelf
-CompleteAssignment
-RaiseHand
-Enroll
-Withdraw
+Add_Song
+Rename
+Number_Of_Songs
+Delete_Song
+Play
+Shuffle
+Repeat
+Queue_Next_Song
+Share
 ```
 
-Unlike attributes, methods do not necessarily differentiate one instance of the object from another. For example, the steps that Briana and Jose would take to raise their hands might be identical. The steps they take to enroll at school might also be identical. Often (but not always), a method will use or change an attribute. For example, the `IntroduceSelf` method would use the `FirstName` and `LastName` attributes. `Enroll` and `Withdraw` would change the `Enrolled` attribute.
+Unlike attributes, methods do not necessarily differentiate one instance of the object from another. For example, the steps that two users would take to add songs might be identical. The steps they take to share their playlist with another user might also be identical. Often (but not always), a method will use or change an attribute. For example,`Rename` would change the `Name` attribute. The `Add_Song` and `Shuffle` methods would change and use the `Songs` attribute respectively. `Add_Song` would also lead to the method `Number_Of_Songs` returning a different result, because we can infer that this attribute returns the length or count of the `Songs` array.
 
 Here's another example:
 
 ```
-Account
+Artist
 
-Attributes:
-Type (string)
-Balance (float)
-OwnerSSN (integer)
-Frozen (boolean)
-Transactions (array)
+Attributes: 
+Name (string)
+Genre (string)
+Songs (array)
+Active (boolean)
+Followed_By (array)
+Following (array)
+Albums (array)
 
 Methods: 
-Withdraw
-Deposit
+Add_Album
+Add_Single
+Total_Song_Plays
+Follow_Artist
+Create_Playlist
 ```
 
-In this case, both the `Withdraw` and `Deposit` methods would change the `Balance` attribute in addition to adding to the `Transactions` array. 
+In this case, the `Add_Album` method would change both the `Albums` array and the `Songs` array.
 
 <div class="try-it">
   <h3>Try It: Attributes vs. Methods</h3>
-  <p>By yourself, categorize the following as either <strong>attributes</strong> of a car or <strong>methods</strong> of a car.</p>
+  <p>Lets switch gears and use what we've learned to organize an object that is not related to an app. By yourself, categorize the following as either <strong>attributes</strong> of a car or <strong>methods</strong> of a car.</p>
   <textarea name="">
-Model, Reverse, Color, FillTank, GasTank, Beep, CurrentSpeed, StartEngine, Year, ChangeOil, LastOilChange, TireSize, Turn, Stop
+Model, Reverse, Color, Fill_Tank, Gas_Tank, Beep, Current_Speed, Start_Engine, Year, Change_Oil, Last_Oil_Change, Tire_Size, Turn, Stop
   </textarea>
   <br><br>
   <table class="objectclass">
@@ -426,16 +450,16 @@ ClosingHour (datetime)
 ### Individual Practice Round
 
 <div class="try-it">
-  <h3>Classes in a System</h3>
+  <h3>Classes in an App</h3>
   <ol>
-      <li>Choose one of these systems:</li>
+      <li>Choose one of these apps:</li>
       <ul>
-        <li>Museum</li>
-        <li>Hotel</li>
-        <li>Beach</li>
-        <li>Concert</li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Gmail</li>
+        <li>Google Maps</li>
     </ul>
-      <li>Brainstorm two classes in your chosen system.</li>
+      <li>Brainstorm two classes in your chosen app.</li>
       <li>List the attributes for both classes.</li>
       <li>List the methods for both classes.</li>
   </ol>
@@ -446,7 +470,7 @@ ClosingHour (datetime)
 
 In just a minute, you'll be randomly paired with another student. The person with the longest last name will share first.
 
-1. What system did you choose? (Museum, Hotel, Beach, Concert)
+1. What app did you choose? (Facebook, Instagram, Gmail, Google Maps)
 1. What two classes did you identify for that system? How do you know they are classes? (Partner: provide feedback to confirm or adjust)
 1. What are the **attributes** for your first class? How do you know they are attributes and NOT methods? (Partner: provide feedback to confirm or adjust)
 1. What are the **attributes** for your second class? How do you know they are attributes and NOT methods? (Partner: provide feedback to confirm or adjust)
