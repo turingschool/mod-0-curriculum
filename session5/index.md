@@ -241,7 +241,7 @@ An <span class="vocab">object</span>, on the other hand, **is** a very specific 
 
 The objects are similar enough in attributes/states and behaviors/methods/abilities that they are part of the same class. 
 
-Sidenote: Let's imagine that the hosts had different permission levels so that they had some different methods, but a few methods they all shared. As an example, maybe only Rachel can create breakout rooms or end the session. But, all hosts can mute participants and send a message to the chat. In addition, maybe certain levels of hosts are paid each time they participate in a zoom session, while other hosts only volunteer. Then you may need to create completely separate classes: **Paid_Host** and **Volunteer_Host**.
+Sidenote: Let's imagine that the hosts had different permission levels so they shared some functionality, but not all functionality. As an example, all hosts can mute participants and send a message to the chat, but maybe only Rachel can create breakout rooms or end the session. How do we account for this within the same **Host** class? In addition, maybe certain levels of hosts are paid each time they participate in a zoom session, while other hosts only volunteer. Then you may need to create completely separate classes: **Paid_Host** and **Volunteer_Host**.
 
  **This is up to you as the developer to figure out how similar or different your objects are.**
 
@@ -256,7 +256,7 @@ Sidenote: Let's imagine that the hosts had different permission levels so that t
 
 <div class="try-it">
   <h3>Classes vs. Objects</h3>
-  <p>Here you will categorize a few real-world examples that are not related to software. This is a chance to use what you've learned on something more abstract. On your own, categorize the following classes and objects.</p>
+  <p>Switching gears - Here you will categorize a few real-world examples that are not related to software. This is a chance to use what you've learned on something more abstract. On your own, categorize the following classes and objects.</p>
   <textarea name="">
 car, poodle, Ford Mustang, scrabble, tent, chess, game, Nissan Juke, rose, dog, daisy, shelter, chihuahua, orchid, apartment, bulldog, monopoly, flower, Honda Civic
   </textarea>
@@ -378,7 +378,7 @@ Queue_Next_Song
 Share
 ```
 
-Unlike attributes, methods do not necessarily differentiate one instance of the object from another. For example, the steps that two users would take to add songs might be identical. The steps they take to share their playlist with another user might also be identical. Often (but not always), a method will use or change an attribute. For example,`Rename` would change the `Name` attribute. The `Add_Song` and `Shuffle` methods would change and use the `Songs` attribute respectively. `Add_Song` would also lead to the method `Number_Of_Songs` returning a different result, because we can infer that this attribute returns the length or count of the `Songs` array.
+Unlike attributes, methods do not necessarily differentiate one instance of the object from another. For example, the steps that two users would take to add songs might be identical. The steps they take to share their playlist with another user might also be identical. Often (but not always), a method will use or change an attribute. For example,`Rename` would change the `Name` attribute. The `Add_Song` method would change the `Songs` attribute by adding a `Song` instance to the array. And, the `Shuffle` method would access the `Songs` attribute and change the order. `Add_Song` would also lead to the method `Number_Of_Songs` returning a different result, because we can infer that this method returns the length or count of the `Songs` array.
 
 Here's another example:
 
