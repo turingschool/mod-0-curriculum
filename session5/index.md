@@ -151,7 +151,7 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 
 OOP is very similar to how the world actually works. Lets take an example of an app that millions of people interact with every day. The app <strong>Spotify</strong> will serve as our real world example. We will break it down into <span class="vocab">objects</span> (bullet points) of various <span class="vocab">classes</span> (bold):
 
-<strong>Artists</strong>
+<strong>Artist</strong>
 - Dr. Dre
 - Ariana Grande
 - Grateful Dead
@@ -159,7 +159,7 @@ OOP is very similar to how the world actually works. Lets take an example of an 
 - Tom Petty
 - Fleetwood Mac
 
-<strong>Songs</strong>
+<strong>Song</strong>
 - US Blues
 - The Next Episode
 - Thank You, Next
@@ -167,7 +167,7 @@ OOP is very similar to how the world actually works. Lets take an example of an 
 - Free Falling
 - Landslide
 
-<strong>Users</strong>
+<strong>User</strong>
 - Tim Tyrrell
 - Rachel Warbelow
 - Katie Scruggs
@@ -175,7 +175,7 @@ OOP is very similar to how the world actually works. Lets take an example of an 
 - Vinton Te'o
 - Taylor Jordan
 
-<strong>Playlists</strong>
+<strong>Playlist</strong>
 - Uplifting Sound
 - Good Love
 - Tycho Selects
@@ -183,7 +183,7 @@ OOP is very similar to how the world actually works. Lets take an example of an 
 - This is Rainbow Kitten Surprise
 - Your Discover Weekly
 
-<strong>Genres</strong>
+<strong>Genre</strong>
 - Dance
 - Indie
 - Bluegrass
@@ -204,10 +204,10 @@ We group these objects because they have similar attributes/states and behaviors
 Think of a <span class="vocab">class</span> as a blueprint that can be used for creating lots of different versions of itself. For example, here are a few classes that we can organize the Zoom software into:
 
 ```
-Participants
-Sessions
-Hosts
-Breakout Rooms
+Participant
+Session
+Host
+Breakout_Room
 ```
 
 An <span class="vocab">object</span>, on the other hand, **is** a very specific instance of a class. An object is what is created from the blueprint. 
