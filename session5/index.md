@@ -131,6 +131,7 @@ The video only demonstrates one layer deep of breaking down a problem. What woul
   <p>Back in your breakout groups, the person whose birthday is next will share their screen and be the driver. Happy birthday! Everyone else in the room will be a navigator.</p>
   <p>Birthday person: Pull up your text editor and open a new blank file (command + n). You do not need to save this file.</p>
   <p>Break down the process of <strong>mailing a package at the post office</strong> into steps (and break down those steps as substeps, and so on as needed).</p>
+  <p>Finished? Switch drivers and break down the steps of ordering shoes on Amazon</p>
 </div>
 
 ### Top Down Design and OOP
