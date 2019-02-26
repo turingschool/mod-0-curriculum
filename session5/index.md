@@ -18,9 +18,9 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong>Housekeeping and Goals</li>
-      <li><strong>45 min: </strong><a href="#topdowndesign">Top Down Design</a></li>
+      <li><strong>35 min: </strong><a href="#topdowndesign">Top Down Design</a></li>
       <li><strong>5 min: </strong>Break</li>
-      <li><strong>45 min: </strong><a href="#oop">Object Oriented Programming</a></li>
+      <li><strong>55 min: </strong><a href="#oop">Object Oriented Programming</a></li>
       <li><strong>10 min: </strong><a href="#homework">Assessment Preview</a></li>
     </ul>
   </div>
@@ -46,7 +46,6 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 - Time allotted for breakout rooms
 - Reading over the lesson beforehand
 - Sessions move fast
-- Markdown average mastery score 3.85
 - Esc button will exit full screen in Zoom
 
 ### Other Notes
