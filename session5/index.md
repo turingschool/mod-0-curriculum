@@ -112,15 +112,15 @@ The video only demonstrates one layer deep of breaking down a problem. What woul
   <p>What does this look like?</p>
     <div>
   <textarea rows="12" name="">
-1.1 Get a cup
-      1.1.1 Open the cupboard
-      1.1.2 Select a mug
-      1.1.3 Put the mug on the counter
-1.2 Get tea bags
+1 Get a cup
+      1.1 Open the cupboard
+      1.2 Select a mug
+      1.3 Put the mug on the counter
+2 Get tea bags
   -
-1.3 Get sugar
-1.4 Get milk
-1.5 Get spoon/fork
+3 Get sugar
+4 Get milk
+5 Get spoon/fork
 </textarea>
   
 </div>
