@@ -11,7 +11,7 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
     <ul>
       <li>define top-down design and object oriented programming</li>
       <li>break down real-world tasks using top-down design strategies</li>
-      <li>model real-world objects by breaking down their attributes and behaviors</li>
+      <li>model real-world objects and apps by breaking down their attributes and behaviors</li>
     </ul>
   </div>
   <div>
@@ -36,20 +36,18 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 </div>
 
 ## Housekeeping and Goals
-
 ### Wins From Feedback
 
 - Solid understanding of creating repository, pushing to repository, cloning repository, and forking repository (average mastery scores above 4)
-- More breakout rooms! :) 
-- Nice work with pull requests on GitHub
+- More breakout rooms!
 
 ### Follow-Ups From Feedback
 
 - Time allotted for breakout rooms
-- Terminal vs. text editor?
+- Reading over the lesson beforehand
 - Sessions move fast
-- Markdown average mastery score 3.6
-- Recordings don't record breakout rooms
+- Markdown average mastery score 3.85
+- Esc button will exit full screen in Zoom
 
 ### Other Notes
 
