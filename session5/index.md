@@ -221,19 +221,19 @@ An <span class="vocab">object</span>, on the other hand, **is** a very specific 
   </thead>
   <tbody>
     <tr>
-      <td>Participants</td>
+      <td>Participant</td>
       <td>Kayla, Jev, Evan</td>
     </tr>
     <tr>
-      <td>Sessions</td>
+      <td>Session</td>
       <td>Session 1, Session 2, Session 3, etc</td>
     </tr>
     <tr>
-      <td>Hosts</td>
+      <td>Host</td>
       <td>Katie, Tim, Rachel</td>
     </tr>
     <tr>
-      <td>Breakout_Rooms</td>
+      <td>Breakout_Room</td>
       <td>Frontend Room, Backend Room</td>
     </tr>
   </tbody>
