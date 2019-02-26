@@ -104,7 +104,7 @@ Even though we're not going to write the code for making a cup of tea, imagining
 
 ### Further Break Down
 
-The video only demonstrates one layer deep of breaking down a problem. What would it look like if we broke down the sub steps? 
+The video only demonstrates one layer deep of breaking down a problem. What would it look like if we broke down the sub-steps?
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
@@ -117,6 +117,7 @@ The video only demonstrates one layer deep of breaking down a problem. What woul
       1.1.2 Select a mug
       1.1.3 Put the mug on the counter
 1.2 Get tea bags
+  -
 1.3 Get sugar
 1.4 Get milk
 1.5 Get spoon/fork
