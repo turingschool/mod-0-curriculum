@@ -97,7 +97,7 @@ As humans, we memorize and practice the steps that it takes in order to do even 
   <h3>Top Down Design: Independent</h3>
   <p>Watch <a href="https://www.youtube.com/watch?v=QsKkG9gWxF4" title="">Damian Gordon's Top Down Design video</a> where he talks through the process of breaking down the process of making a cup of tea.</p>
 
-  <p>On your own, breakdown steps 8 and 9. Paste your answers in the chat box.</p>
+  <p>On your own, breakdown steps 6 and 7. Paste your answers in the chat box.</p>
 </div>
 
 Even though we're not going to write the code for making a cup of tea, imagining the process of breaking down everyday tasks is great practice for getting your brain ready for top down design. 
