@@ -53,10 +53,8 @@ The link below will take you to the Github page that contains all the Technical 
 
 ### Next Steps
 
-Before moving any further, complete all of the projects listed in Day 7 of the Module 0 Capstone Repository. If you have more time, get ahead of the curve by working through the following activities. They are listed in order of priority.
+Before moving any further, complete all of the projects listed in Day 7 of the Module 0 Capstone Repository.
 
-1. Get started on the [Ruby Exercises](https://github.com/turingschool/ruby-exercises). These exercises are used by Module 1 students to practice key skills. Follow the instructions in the README to get started.
-1. Complete the [Railsbridge Curriculum](http://curriculum.railsbridge.org/ruby/)
-1. Work on the [Credit Check Project](http://backend.turing.io/module1/projects/credit_check)
-1. Dive deeper into Ruby with [Launch School's Ruby Book](https://launchschool.com/books/ruby)
-1. Become a command line master by working through [Michael Hartl's command line book](https://www.learnenough.com/command-line-tutorial)
+If you have more time, review the [Back End Curriculum Site](http://backend.turing.io/) for additional resources.
+
+
