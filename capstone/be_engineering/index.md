@@ -38,7 +38,7 @@ We take these exercises seriously, and we ask that you do too. We expect at mini
   <h3>What do you plan to improve upon while at Turing?</h3>
   <p>Your response here</p>
 </div>
- No need to worry about color or boxes, but the above has the heading and response format that will help us read through these clearly and efficiently, while giving you some practice with ```.md``` files.
+ Don't worry about the color or the boxes within the formatting, but the above has the heading and response format that will help us read through these clearly and efficiently, while giving you some practice with ```.md``` files.
 
  Use these exercises to start telling your own unique story with your distinct experiences. This is something we will continue to practice during your time at Turing.
 
