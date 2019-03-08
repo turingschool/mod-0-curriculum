@@ -40,7 +40,7 @@ We take these exercises seriously, and we ask that you do too. We expect at mini
 </div>
  Don't worry about the color or the boxes within the formatting, but the above has the heading and response format that will help us read through these clearly and efficiently, while giving you some practice with ```.md``` files.
 
- Use these exercises to start telling your own unique story with your distinct experiences. This is something we will continue to practice during your time at Turing.
+ Use these exercises to start telling your unique story with your distinct experiences. This is something we will continue to practice during your time at Turing.
 
 #### [Professional Development Assignment](https://github.com/turingschool/career-development-curriculum/blob/master/module-0-capstone/pd_prework.md)
 
