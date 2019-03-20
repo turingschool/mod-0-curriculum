@@ -158,7 +158,7 @@ In this section on command prompts, we'll learn (or review) the commands below. 
   <li><a href="#echo" title="">echo</a></li>
   <li><a href="#cat" title="">cat</a></li>
   <li><a href="#rm" title="">rm</a></li>
-  <li><a href="#rmrecursive" title="">rm -r</a></li>
+  <li><a href="#rmrecursive" title="">rm -rf</a></li>
 </ol>
 
 <a name="pwd"></a>
