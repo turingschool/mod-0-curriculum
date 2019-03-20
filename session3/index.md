@@ -43,8 +43,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 - In the chat, post a keyboard shortcut that you practiced and now feel comfortable using. 
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
 - Questions during the session? Click "raise hand" for whole-group question, or message the non-presenting host for an individual question.
-- Rachel will stay on the call for 15 min at the end of today's session for any Qs that are not addressed during the lesson
-- 1903: Continue working on Mod 0 Capstone
+- We'll stay on the call for 15 min at the end of today's session for any Qs that are not addressed during the lesson
 
 ### Wins
 
@@ -58,8 +57,7 @@ subheading: Terminal, File/folder Structure, Git Basics
     - What collection are you starting with?
     - What are you doing to each item in the collection? 
 - Keyboard shortcuts: keep practicing :) 
-- Hashes and objects
-- LOTS of info covered; hard to keep up
+- Confused about data types? Capstone will help with that.
 
 ### Today's Goals
 
