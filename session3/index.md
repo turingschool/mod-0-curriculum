@@ -296,7 +296,7 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
   <h4>Things to Note</h4>
   <ul>
     <li>You can combine commands to navigate multiple levels through your directory structure. </li>
-    <li>For the thrid example in the previous <strong>Try It</strong> section, one could navigate to the <code>projects_to_delegate</code> directory as long as one knows the path:</li>
+    <li>For the third example in the previous <strong>Try It</strong> section, one could navigate to the <code>projects_to_delegate</code> directory as long as one knows the path:</li>
     <code>cd ../work/projects_to_delegate</code>
     <li>For the fourth and final example above:</li>
     <code>cd ../../home</code>   
