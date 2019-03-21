@@ -92,8 +92,15 @@ subheading: More Git and Intro to GitHub
 
 ### Follow-Ups
 
-- Why do we use git? (we'll look at this again)
+- Rachel's internet cut out
 - Staging area in git (we'll look at this again)
+- Why do we use git?
+  - The ability to "go back in time" to previous versions of your code if you break something
+  - The ability to "go back in time" to previous versions of your code if you change your mind about a feature
+  - The ability to chunk parts of your work so that you can choose from chunks to keep at a later time
+  - The ability to work collaboratively on the same project (even the same files!)
+  - The ability to use branches to separate features of a program
+  - The ability to track who made specific changes to specific files
 
 ### Today's Goals
 
