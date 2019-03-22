@@ -12,8 +12,7 @@ subheading: More Git and Intro to GitHub
       <li>navigate important parts of a GitHub repository</li>
       <li>create your own repository on GitHub</li>
       <li>push local changes to a remote</li>
-      <li>fork an existing repository</li>
-      <li>clone an existing repository</li>
+      <li>fork and clone an existing repository</li>
       <li>explore existing gists to discover markdown syntax</li>
     </ul>
   </div>
@@ -78,6 +77,11 @@ subheading: More Git and Intro to GitHub
     <strong>Fast Moving Cursor Through Command Line Text</strong>
     <pre>Right: option + right-arrow</pre>
     <pre>Left: option + left-arrow</pre>
+  </li>
+  <li>
+    <strong>Stop Any Terminal Process</strong>
+    <p>Stuck? Not sure what's going on with your Terminal? This is the command to use.</p>
+    <pre>control + c</pre>
   </li>
     </div>
   </div>
@@ -255,37 +259,7 @@ Watch and take notes while we walk through how to continue making changes and pu
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
 <hr>
 <a name="forkclone"></a>
-## Forking vs. Cloning
-
-#### What is Cloning?
-
-When you <span class="vocab">clone</span> a repository from GitHub, you are downloading the code that lives at that specific web address. You can clone a repo that belongs to you, or you can clone anyone else's public repository. For example, you could clone any of the repositories that you looked at in your breakout groups. 
-
-To clone a project, click the green "Clone or download" button and copy the web address. In your terminal, type:
-
-```
-git clone <paste web address>
-```
-
-If you clone a repository that you own **OR** one where you are a collaborator, you will be able to push new changes to that repository, like so:
-
-![pushed changes to a repository on GitHub](images/success.gif)
-
-If you do have access to push changes, you can do so with this command:
-
-```
-git push origin master
-```
-
-If you clone a repo that does not belong to you, and you are not listed as a collaborator, you will be blocked when you try to push changes to the default remote, as seen below: 
-
-![denied permission to push to remote repo](images/denied.gif)
-
-#### When might you use cloning?
-
-- You are working with a team and everyone is added as a collaborator on the project repository. Everyone will be pushing their code up to the same repository.
-- Your instructor has an example repo that they are using for a code-along lesson. You will not need to turn anything in. After the lesson, you will not need the codebase again, or if you do, you will only need to access your downloaded copy on your computer. 
-- Anytime you don't need an existing project to have a reference to the original project.
+## Forking
 
 #### What is Forking?
 
@@ -293,19 +267,25 @@ If you clone a repo that does not belong to you, and you are not listed as a col
 
 You can tell if something is a fork because it will say "forked from [original repo name]" underneath the title.
 
-Once you've forked a repo, you will **follow the exact same steps** that we saw above to get the repo on your local machine:
+Once you've forked a repo, click the green "Clone" button to get the URL to clone.
 
 ```
-git clone <insert address here>
+git clone <insert URL here>
 ```
 
 If you fork, clone, make changes, and push to origin, it will work because it's pushing to **your forked origin** (which you own), not the original repository (which you don't own). To push those changes:
 
 ```
+git push
+```
+
+OR
+
+```
 git push origin master
 ```
 
-![forking and cloning](images/forkpush.gif)
+(In our case today, both commands will do the same thing)
 
 #### When might you use forking?
 
