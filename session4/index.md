@@ -287,12 +287,6 @@ If you clone a repo that does not belong to you, and you are not listed as a col
 - Your instructor has an example repo that they are using for a code-along lesson. You will not need to turn anything in. After the lesson, you will not need the codebase again, or if you do, you will only need to access your downloaded copy on your computer. 
 - Anytime you don't need an existing project to have a reference to the original project.
 
-<div class="try-it">
-  <h3>Try It: Cloning</h3>
-  <p>1. Clone down one of the repositories that we looked at in breakout groups earlier.</p>
-  <p>2. Remove the readme file, add, commit the changes, and try pushing your changes to the origin.</p>
-</div>
-
 #### What is Forking?
 
 <span class="vocab">Forking</span> is a type of cloning on GitHub, but it will keep a reference to the original, existing project. To fork an existing project, you just click the `fork` button, which will make a copy of all of the code and directory structure to your own GitHub account. 
