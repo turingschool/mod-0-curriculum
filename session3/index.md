@@ -552,8 +552,8 @@ This means git will now be available to use to track changes in the `notes` dire
   <p>3. What happens if you accidentally initialize git in a directory where you didn't intend?</p>
   <p>When you type <code>git init</code>, a directory called <code>.git</code> is created inside of that folder. You can't see this folder using the ls command since it's a hidden folder. Everything that starts with "." is hidden. Instead, you can type <code>ls -a</code> which will display all hidden and visible files and directories.</p>
   <p>In an git initialized directory, you'll see a <code>.git</code> directory. To remove git tracking, you would type:</p>
-  <pre>rm -rf .git</pre>
-  <p>This removes the git directory, and you are no longer using git to track your project.</p>
+  <code>rm -rf .git</code>
+  <p>This removes the git directory, and you are no longer using git to track your project. If you accidentally run <code>git init</code> in your home directory, and start tracking most of the files and directories on your entire computer, then remember to run <code>rm -rf .git</code> from your home directory. One way to tell if you've accidentally initialize git in your home directory is to first go home by running:<code>cd ~</code> and then run: <code>git status</code>. If you see files being tracked but not staged for commit, then you need to remove the .git folder as layed out above.However, if your terminal returns:<code>fatal: Not a git repository (or any of the parent directories): .git</code>, then you are all good.</p>
 </div>
 
 <a name="status"></a>
