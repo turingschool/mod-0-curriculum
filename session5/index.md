@@ -110,20 +110,19 @@ The video only demonstrates one layer deep of breaking down a problem. What woul
   <h4>Things to Note</h4>
   <p>When breaking down subsequent layers of a problem, finish an entire layer before creating a new layer.</p>
   <p>What does this look like?</p>
-    <div>
-  <textarea rows="12" name="">
-1 Get a cup
-      1.1 Open the cupboard
-      1.2 Select a mug
-      1.3 Put the mug on the counter
-2 Get tea bags
-  -
-3 Get sugar
-4 Get milk
-5 Get spoon/fork
-</textarea>
-  
-</div>
+  <div>
+    <textarea rows="12" name="">
+    1 Get a cup
+          1.1 Open the cupboard
+          1.2 Select a mug
+          1.3 Put the mug on the counter
+    2 Get tea bags
+      -
+    3 Get sugar
+    4 Get milk
+    5 Get spoon/fork
+    </textarea>
+  </div>
 </div>
 
 <div class="try-it">

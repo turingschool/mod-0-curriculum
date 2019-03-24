@@ -293,6 +293,16 @@ git push origin master
 - You find a typo in the code for an external library you are using. You want to fix it and submit your changes for the library maintainer to review.
 - You want to build off of an existing codebase. You do not intend to merge your changes back into the original codebase, but you do want to give credit to the original team.
 
+<div class="things-to-note">
+  <h4>Things to Note: Cloning with Git</h4>
+  <ul>
+    <li><strong>Always</strong> pause and think about where you are located in your local directory structure before you <span class="vocab">clone</span> a remote repository to your local machine. </li>
+    <li><strong>Never</strong> clone a remote repository within a preexisting <span class="vocab">Git</span> repository. If you have Rachel's <code>.bash_profile</code> set up, then you will know you are within a Git repository if you see that you are on branch master as part of your terminal prompt. Navigate out of that directory and into a directory that has not been initialized by git before running <code>git clone https://github.com/SomeRemoteRepo.git</code>.</li>
+    <li><strong>Remember</strong> to <code>cd</code> down one level into the directory you just cloned to your machine before running commands. If you cannot remember what the directory is called then run<code>ls</code> after cloning to see the contents of your current directory.</li>
+    <li><strong>Never</strong> run <code>git init</code> within a repository that you cloned down to your local machine. Remote repositories that you clone to your local machine have already been initialized by git. You only ever need to run <code>git init</code> when you've created a repository locally from scratch.</li>
+  </ul>
+</div>
+
 <div class="try-it">
   <h3>Try It: Forking</h3>
   <ol>
