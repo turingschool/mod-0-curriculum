@@ -231,12 +231,6 @@ What would be wrong with...
   <p>Repeat the brainstorm process for attributes and methods for object #2. </p>
 </div>
 
-##### Feedback
-
-* Are all of the attributes nouns? Do they all represent a property or characteristic?
-* 
-* Suggest one way that your partner could break down a step further.
-
 ### Notating Classes, Objects, Attributes, and Methods for the Mod 0 Assessment
 
 On your Mod 0 Assessment, you will be asked to identify classes, objects, attributes, and methods. We'll demonstrate the format we want you to use, then we'll give you some time to try it out with the class from your breakout room. 
