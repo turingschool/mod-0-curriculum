@@ -216,7 +216,7 @@ What would be wrong with...
 
 <div class="try-it">
   <h3>Try It (Big Breakout Rooms)</h3> 
-  <p>Make a copy of <a href="https://docs.google.com/document/d/17NykxDAM3OrlAm4xwYLY7uh_YokLyPgP0ahmkJ1Rd5s/edit?usp=sharing" title="">this document</a> which your group will use to practice.</p>
+  <p>Make a copy of <a href="https://docs.google.com/document/d/17NykxDAM3OrlAm4xwYLY7uh_YokLyPgP0ahmkJ1Rd5s/edit?usp=sharing" title="" target="_blank">this document</a> which your group will use to practice.</p>
   <p>Person whose first name starts closest to Q will share their screen and choose one of the following classes:</p>
   <ul>
     <li>Vehicle</li>
