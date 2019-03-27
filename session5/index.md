@@ -41,6 +41,7 @@ subheading: Top-Down Design and Modeling OOP
 ### Wins
 
 - Nice work figuring out pull requests!
+- Really strong git and GitHub diagrams
 - All git and GitHub-related statements on the survey averaged 4 or higher
 
 ### Follow-Ups
