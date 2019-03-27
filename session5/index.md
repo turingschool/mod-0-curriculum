@@ -191,7 +191,7 @@ Methods generally answer the question "What can this thing do?" or "What can be 
 
 <div class="try-it">
   <h3>Try It Together: Bottle Class Methods</h3> 
-  <p>Follow along with your paper and pencil as we walk through defining a bottle class with three different bottle objects.</p>
+  <p>Follow along as we walk through defining a bottle class with three different bottle objects.</p>
 </div>
 
 #### Key Points
