@@ -181,7 +181,7 @@ CAUTION: Sometimes, methods will *feel* like they should be attributes. For exam
 
 <div class="try-it">
   <h3>Try It Together: Bottle Class Attributes</h3> 
-  <p>Follow along with your paper and pencil as we walk through defining a bottle class with three different bottle objects.</p>
+  <p>Follow along as we walk through defining a bottle class with three different bottle objects.</p>
   <b>NOTE</b>: For consistency in this lesson, we're going to stick to the naming convention of <code>snake_case</code>. This will look very Ruby-esque. However, in JavaScript land, you'll see <code>camelCase</code>. 
 </div>
 
