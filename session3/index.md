@@ -56,8 +56,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 - Iteration is confusing: 
     - What collection are you starting with?
     - What are you doing to each item in the collection? 
-- Keyboard shortcuts: keep practicing :) 
-- Confused about data types? Capstone will help with that.
+    - You don't need to memorize syntax of iteration at this point; you'll see more of it in the capstone and Mod 1
 
 ### Today's Goals
 

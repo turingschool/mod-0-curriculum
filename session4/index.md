@@ -291,9 +291,9 @@ git push origin master
 
 - You are working on a Turing project and your instructor has already created a "starter kit". Your job is to finish building out the project and submit it.
 - You find a typo in the code for an external library you are using. You want to fix it and submit your changes for the library maintainer to review.
-- You want to build off of an existing codebase. You do not intend to merge your changes back into the original codebase, but you do want to give credit to the original team.
+- You want to build off of an existing codebase. You do not intend to merge your changes back into the original codebase, but you do want to give credit to the original team by keeping the git history associated with the project.
 
-<div class="things-to-note">
+<div class="things-to-note">  
   <h4>Things to Note: Cloning with Git</h4>
   <ul>
     <li><strong>Always</strong> pause and think about where you are located in your local directory structure before you <span class="vocab">clone</span> a remote repository to your local machine. </li>
