@@ -447,7 +447,7 @@ For this next challenge, the person whose name is next closest to the letter T w
 
 1. Type `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
 1. Make a new directory called `my_first_projects`
-1. Make another new directory called `my_other_project`
+1. Make another new directory called `my_other_projects`
 1. List the contents of your directory (you should see these two directories you just made in the list)
 1. Remove the `my_other_projects` directory
 1. Move into the `my_first_projects` directory
