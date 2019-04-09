@@ -641,7 +641,34 @@ Let's figure out on the diagram what we just did:
 
 ### 5. Making File Changes and Adding New Commits
 
-Once you have initialized git (which you only do ONE TIME EVER in your project), the basic git workflow is this:
+Now that we have our initial commit (or snapshot in time), let's make a change to one of our files.
+
+Type this from the command line:
+
+```
+echo "Be kind" >> things_to_remember.txt
+echo "Work hard" >> things_to_remember.txt
+```
+
+Your working directory now has changes that differ from what our file looked like the last time we committed (or took a snapshot). 
+
+<a name="diff"></a>
+You can view those changes by using `git diff <filename>`:
+
+```
+rwarbelow~/notes$ git diff things_to_remember.txt
+diff --git a/things_to_remember.txt b/things_to_remember.txt
+index e69de29..9ffd068 100644
+--- a/things_to_remember.txt
++++ b/things_to_remember.txt
+@@ -0,0 +1,2 @@
++Be kind
++Work hard
+```
+
+Then add your changes and commit them using an imperative verb that starts with a capital letter and a short commit message explaining what you did. 
+
+The basic git workflow is this:
 
 1. Make file changes (for today, do this using the `echo` command)
 1. Check the `git status` to see what files are unstaged
