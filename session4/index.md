@@ -21,9 +21,9 @@ subheading: More Git and Intro to GitHub
     <ul>
       <li><strong>10 min: </strong>Housekeeping and Goals</li>
       <li><strong>15 min: </strong><a href="#gitreview">Git Review</a></li>
-      <li><strong>40 min: </strong><a href="#github">GitHub and Repositories</a></li>
+      <li><strong>50 min: </strong><a href="#github">GitHub and Repositories</a></li>
       <li><strong>5 min: </strong>Break</li>
-      <li><strong>25 min: </strong><a href="#forkclone">Forking and Cloning</a></li>
+      <li><strong>35 min: </strong><a href="#forkclone">Forking and Cloning</a></li>
       <li><strong>15 min: </strong><a href="#gists">Gists and Markdown</a></li>
       <li><strong>10 min: </strong><a href="#homework">Homework Preview</a></li>
     </ul>
@@ -38,6 +38,30 @@ subheading: More Git and Intro to GitHub
     </ul>
   </div>
 </div>
+
+## Housekeeping, Wins/Follow-Ups, and Goals
+
+### Wins
+
+- Strong understanding of terminal and commands - 4.5+ Average Score
+- Most common answer to git question: "I can name the steps of the git workflow and can put them in practice (using a reference)."
+- This is totally acceptable, and we use references as programmers on the job all the time. The best programmers google, reference, and implement more often and at a faster pace. 
+
+
+### Follow-Ups
+
+- Staging area in git - Grouping code that is related to be committed together
+- Why do we use git? - Average Score 3.5
+  - The ability to "go back in time" to previous versions of your code if you break something
+  - The ability to "go back in time" to previous versions of your code if you change your mind about a feature
+  - The ability to chunk parts of your work so that you can choose from chunks to keep at a later time
+  - The ability to work collaboratively on the same project (even the same files!) **At the same time**
+  - The ability to use branches to separate features of a program
+  - The ability to track who made specific changes to specific files
+
+### Today's Goals
+
+(See above)
 
 ### Warm Up
 
@@ -63,6 +87,14 @@ subheading: More Git and Intro to GitHub
     <strong>Clear Terminal Window</strong>
     <pre>command + k</pre>
   </li>
+  <li>
+    <strong>Open New Tab</strong>
+    <pre>command + t</pre>
+  </li>
+  <li>
+    <strong>Cycle Through Terminal Tabs</strong>
+    <pre>control + tab</pre>
+  </li>
     </div>
     <div>
   <li>
@@ -87,34 +119,11 @@ subheading: More Git and Intro to GitHub
   </div>
 </div>
 
-## Housekeeping, Wins/Follow-Ups, and Goals
-
-### Wins
-
-- Strong understanding of terminal and commands
-- Most common answer to git question: "I can name the steps of the git workflow and can put them in practice (using a reference)."
-
-### Follow-Ups
-
-- Rachel's internet cut out
-- Staging area in git (we'll look at this again)
-- Why do we use git?
-  - The ability to "go back in time" to previous versions of your code if you break something
-  - The ability to "go back in time" to previous versions of your code if you change your mind about a feature
-  - The ability to chunk parts of your work so that you can choose from chunks to keep at a later time
-  - The ability to work collaboratively on the same project (even the same files!)
-  - The ability to use branches to separate features of a program
-  - The ability to track who made specific changes to specific files
-
-### Today's Goals
-
-(See above)
-
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3>
   <p>Person with the lightest color shirt speaks first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. If you could have an unlimited supply of one thing for the rest of your life, what would it be?</p>
+  <p>2. In the spirit of winter coming on Sunday - Who is your favorite GOT character? Don't watch GOT? Who is your favorite superher0?</p>
   <p>3. Accountability review: how are you progressing toward mastery of your focus skills?</p>
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
@@ -129,9 +138,9 @@ Let's talk once more about this Git diagram.
 
 We'll start by repeating the group git exercise from Tuesday's session. This may seem repetative, but each time you practice, you'll gain muscle memory and procedural understanding.
 
-Today's <span class="vocab">driver</span> will be the person who was born closest to the state of Maine. Everyone else will be <span class="vocab">navigators</span>. **Driver**: remember not to type anything that has not yet been brought up by a navigator and discussed in the group. 
+Today's <span class="vocab">driver</span> will be the person who was born closest to the state of Florida. Everyone else will be <span class="vocab">navigators</span>. **Driver**: remember not to type anything that has not yet been brought up by a navigator and discussed in the group. 
 
-The driver will be the person typing the commands, but the navigators should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss **why** you are doing each step, or **what** exactly is taking place in each step.
+The <span class="vocab">driver</span> will be the person typing the commands, but the <span class="vocab">navigators</span> should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss **why** you are doing each step, or **what** exactly is taking place in each step.
 
 **Remember:** If you feel comfortable with git, your job is to hone your explanation and communication skills. Many companies in the industry that place far more weight on these professional skills than on being a technical superstar. 
 
@@ -175,11 +184,11 @@ Let's first discuss this diagram:
 
 <span class="vocab">origin</span>: refers to the URL where the code is hosted on GitHub. Each repository has its own origin (own URL).
 
-<span class="vocab">git pull</span>: means download all of the changes on GitHub that I don't currently have on my local copy. You would use git pull after a teammate makes a change to the code, and you want to bring those changes into your own code.
+<span class="vocab">git pull</span>: means download all of the changes and updates on the remote GitHub repo that I don't currently have on my local repo. You would use git pull after a teammate makes a change to the code, and you want to bring those changes into your own code.
 
-<span class="vocab">git push</span>: this is how you share the changes you made to your local repository on GitHub.
+<span class="vocab">git push</span>: this is how you share/upload the changes you made to your local repository on GitHub.
 
-And this one, which shows how GitHub can be used as a collaboration tool:
+This diagram shows  how GitHub can be used as a collaboration tool:
 
 ![Collaborative Github Diagram](https://qph.fs.quoracdn.net/main-qimg-a161bdd97e4e0de40d999ac222fe2008.webp)
 
@@ -217,9 +226,10 @@ Let's take a look at an example of a repo on GitHub: <a href="https://github.com
 
 Watch and take notes while we walk through how to add a remote to your local repository. 
 
-1. Click the plus button in the upper right-hand corner of GitHub and select "New Repository". 
-1. Give your repository a name, but keep all other settings the same for now.
-1. Click "Create Repository"
+1. Visit <code>github.com/your_username</code>
+1. Click the plus button in the upper-right corner of GitHub and select "New Repository" from the dropdown. 
+1. Give your repository a name, and dont worry about adjusting any of the othere settings for now.
+1. Scroll down and click "Create Repository"
 1. Scroll to `…or push an existing repository from the command line`
 1. Paste the lines listed, one at a time, in your terminal. You will need to enter your GitHub username and password (unless you've already setup SSH keys). 
 1. Refresh Github. Tada! Your project is there. 
@@ -227,9 +237,15 @@ Watch and take notes while we walk through how to add a remote to your local rep
 <div class="try-it">
   <h3>Try It: Adding a Remote</h3>
   <p>1. Create a new repository on GitHub called <code>git_homework</code>.</p>
-  <p>2. In your terminal, navigate to your <code>git_homework</code> directory from session 3's homework.</p>
+  <p>2. In your terminal, navigate to your <code>git_homework</code> directory from session 3's homework. If for some reson you don't have this directory then use the <code>mkdir</code> command to create <code>git_homework</code>. Then use <code>touch</code> to create a file called<code>sample_file.txt</code>. Then run <code>git init</code>. Only do this if you don't already have a <code>git_homework</code> repo.</p>
   <p>3. Add the remote to your local repository, then push your changes to GitHub.</p>
 </div>
+
+<hr>
+## BREAK
+
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
+<hr>
 
 ### Making Additional Changes and Pushing to GitHub
 
@@ -253,11 +269,7 @@ Watch and take notes while we walk through how to continue making changes and pu
   <p>Done? Paste the link to your GitHub repo into the breakout room chat, then take a look at each repo to make sure the new commits show up.</p>
   <p>Done with that? Get to know your breakout room classmates better: What are they trying to get better at in life? What book would the recommend that everyone read at least once in life?</p>
 </div>
-<hr>
-## BREAK
 
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
-<hr>
 <a name="forkclone"></a>
 ## Forking
 
@@ -306,13 +318,13 @@ git push origin master
 <div class="try-it">
   <h3>Try It: Forking</h3>
   <ol>
-    <li>Fork the <a href="https://github.com/rwarbelow/best_animals" title="Best Animals Repo">Best Animals</a> repository.</li>
+    <li>Fork the <a href="https://github.com/timomitchel/best_houses" title="Best Houses">Best Houses</a> repository.</li>
     <li>Clone your fork using your terminal.</li>
     <li>Open up the project in your text editor.</li>
-    <li>Add a few best animals to the mammals file.</li>
+    <li>Add a few characters to the Stark.txt file.</li>
     <li>Add and commit your changes.</li>
     <li>Push your changes to the origin (which is your fork).</li>
-    <p>Done? Repeat steps 4-6 with another animal file.</p>
+    <p>Done? Repeat steps 4-6 with another house file.</p>
   </ol>
 </div>
 
