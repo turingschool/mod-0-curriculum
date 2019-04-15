@@ -457,7 +457,7 @@ The person with the longest last name will share first.
 1. What are the **attributes** for your second class? How do you know they are attributes and NOT methods? (Group: provide feedback to confirm or adjust)
 1. What are the **methods** for your first class? How do you know they are methods and NOT attributes? (Group: provide feedback to confirm or adjust)
 1. What are the **methods** for your second class? How do you know they are methods and NOT attributes? (Group: provide feedback to confirm or adjust)
-1. Switch roles and repeat with second person.
+1. Switch roles and repeat.
 
 ### Notating Classes, Objects, Attributes, and Methods for the Mod 0 Assessment
 
