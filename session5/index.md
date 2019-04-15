@@ -415,7 +415,7 @@ Model, Reverse, Color, Fill_Tank, Gas_Tank, Beep, Current_Speed, Start_Engine, Y
   <p>1. The new driver is the person whose birthday happened most recently. Everyone else will be a navigator.</p>
   <p>2. Driver: Share your screen and open up a new blank file in your text editor (command + n). You do not need to save this file.</p>
   <p>3. Think back to your grocery shopping app from session 2. With your group, brainstorm at least thress classes that might exist in a shopping app (keeping in mind that you're thinking <code>blueprint</code>, not specific items) and jot your ideas down in your text editor. Need an example? <code>Store</code> would be a good example of a class.</p>
-  <p>4. Next, select four of the classes your team brainstormed. For those classes, jot down attributes for the four selected objects.<srtong>Explain why they are not methods. Do they rely on other data or a calculation? Then they are not attributes.</strong> As an example, if I selected <code>Store</code> as one of my classes, I would write in my text editor:</p>
+  <p>4. Next, select four of the classes your team brainstormed. For those classes, jot down attributes for the four selected objects.<strong>Explain why they are not methods. Do they rely on other data or a calculation? Then they are not attributes.</strong> As an example, if I selected <code>Store</code> as one of my classes, I would write in my text editor:</p>
   <pre>
     Store
 
