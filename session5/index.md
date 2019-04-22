@@ -473,9 +473,7 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
 
   <p>This work portion assessment should take you approximately 70 minutes, but we recommend taking an additional 10 minutes to throughly read over the expectations outlined in this document. The timed nature is meant to get you used to working under pressure.</p>
 
-  <p class="important"><strong>First,</strong> fork the assessment checklist. You will use this checklist to ensure that you have met the Mod 0 Technical Assessment expectations.</p>
-
-  [assessment checklist](https://gist.github.com/rwarbelow/31e3fbf7a2e35b6c357fbe180a7fb78e)
+  <p class="important"><strong>First,</strong> fork the assessment checklist. You will use this checklist to ensure that you have met the Mod 0 Technical Assessment expectations. (This checklist will be provided to you when you start the assessment).</p>
 
   <h4>Part I: Creating Directories and Files; Initializing Git and Pushing to GitHub (10 min)</h4>
 
