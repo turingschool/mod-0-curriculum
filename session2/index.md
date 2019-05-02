@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 2
-subheading: Data Types, Iteration, Documentation, Googling
+subheading: Googling, Classes, Data Types, Iteration
 ---
 
 <div class="goals-agenda">
