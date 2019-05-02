@@ -10,6 +10,7 @@ subheading: Data Types, Iteration, Documentation, Googling
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
       <li>use keyboard shortcuts to navigate your computer and Chrome</li>
+      <li>brainstorm classes for specific objects</li>
       <li>refine searching and filtering skills to Google programming questions</li>
       <li>define and identify use cases for basic data types</li>
       <li>demonstrate iteration in real-world and programming sitauations</li>
@@ -20,7 +21,8 @@ subheading: Data Types, Iteration, Documentation, Googling
     <ul>
       <li><strong>10 min: </strong><a href="#intro">Housekeeping, Intros, and Expectations</a></li>
       <li><strong>10 min: </strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
-      <li><strong>30 min: </strong><a href="#findinganswers">Googling</a></li>
+      <li><strong>10 min: </strong><a href="#classes">Classes</a></li>
+      <li><strong>15 min: </strong><a href="#findinganswers">Googling</a></li>
       <li><strong>5 min: </strong>Break</li>
       <li><strong>30 min: </strong><a href="#datatypes">Basic Data Types</a></li>
       <li><strong>30 min: </strong><a href="#iteration">Iteration</a></li>
@@ -40,12 +42,6 @@ subheading: Data Types, Iteration, Documentation, Googling
 </div>
 
 <a name="intro"></a>
-## Housekeeping 
-
-* Have you installed Spectacle? 
-* Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
-* Session will be recorded and posted in Slack
-* Find a typo?
 
 ## Intro
 
@@ -53,51 +49,26 @@ subheading: Data Types, Iteration, Documentation, Googling
 * Goals for session (see above)
 * Bookmark this page with the shortcut `command + d`
 
+## Housekeeping 
+
+* Did you install Spectacle? 
+* Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
+* Session will be recorded and posted in Slack
+* Find a typo?
+
 ## Mod 0 Expecations
 
 Mod 0 is less about code or solving difficult problems and more about developing and learning tools, procedures, systems, and  learning behaviors/processes. For some of you, the technical content will be brand new. For others, it will be review. 
 
 At the end of Session 5, you'll take a technical assessment that will showcase a subset skills you learn during Mod 0. The assessment will be performance-based rather than multiple choice. The assessment instructions will include a checklist of what we're looking for to know that you've practiced and mastered the material. 
 
-In addition to the technical assessment, we're also looking for you to demonstrate mastery and/or growth of in the Core Value areas that make students successful at Turing. These include: 
-
-<div class="mod0values">
-  <div>
-    <h3>Be Here</h3>
-    <ul>
-      <li>Be on time</li>
-      <li>Stay the whole time</li>
-      <li>Have your materials ready</li>
-      <li>Give notice if an emergency comes up</li>
-      <li>Fully engage in session material</li>
-    </ul>
-  </div>
-  <div>
-    <h3>Be Focused</h3>
-    <ul>
-      <li>Close or minimize anything else on your computer that might be distracting</li>
-      <li>Put phones and other devices away throughout the session </li>
-      <li>Take notes during "lecture" portions, type exercises into textboxes, set aside time after session to pick out key concepts from exercises and transfer to notebook</li>
-      <li>Complete homework assignments by the start of the next session: practice tasks, readings and responses, and daily habits</li>
-      <li>Schedule and manage time to get assignments done</li>
-    </ul>
-  </div>
-  <div>
-    <h3>Be Collaborative</h3>
-    <ul>
-      <li>Volunteer to share answers/ideas using voice, screen, and video</li>
-      <li>Be ready for cold-calls</li>
-      <li>Ask questions when you don't understand to help yourself and others</li>
-      <li>Challenge yourself to speak up in groups, articulate your ideas to peers, and encourage others to share out as well</li>
-    </ul>
-  </div>
-</div>
+Successful completion of assignments, session engagement, and the Session 5 Technical Assessment will result in a rating of "Turing-Ready." At any point if you feel like you may not meet the expectations, or you need advice/guidance on meeting an expectation, please reach out via Slack to either Rachel, Tim, or Sarah. 
 
 <div class="try-it">
   <h3>Try It: Planning your Growth (Break out rooms)</h3>
   <p>1. Introduce yourself (name, pronouns, most unbelievable fact about yourself).</p>
-  <p>2. Out of the list above, which 2-3 skills will be your focus for the next week, and how will you improve them? For example, if I want to work on <strong>notetaking</strong> and <strong>participation</strong>, I might share:</p>
-  <em>I will label my notes with headings to categorize concepts/topics. After the session, I will take a 10 minute break then come back to the computer and synthesize big ideas from the curriculum into my notebook. I will type questions into the chat box when I don't understand something.</em>
+  <p>2. Out of the list above, which 2-3 skills will be your focus for the next week, and how will you improve them? For example, if I want to work on <strong>participation</strong>, I might share:</p>
+  <em>I will type questions into the chat box when I don't understand something and I will volunteer to share my answers even if I'm not sure I'm right.</em>
   <p>3. How will you hold yourself accountable?</p>
 </div>
 
@@ -107,10 +78,6 @@ Other things to note as we go through Mod 0:
 - <strong>Breakout Rooms</strong>: don't be afraid to speak! Breakout rooms will be randomized at the beginning of each session, but continue to rely on your accountabilabuddy groups from Session 1 between sessions
 - <strong>Problems or individual questions during the Zoom session?</strong> Message the non-presenting host (either Rachel or Tim)
 - <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes. 
-
-Successful completion of assignments, session engagement, and the Session 5 Technical Assessment will result in a rating of "Turing-Ready." At any point if you feel like you may not meet the expectations, or you need advice/guidance on meeting an expectation, please reach out via Slack to either Rachel, Tim, or Sarah. 
-
-Let's dive in! 
 
 <a name="shortcuts"></a>
 ## Keyboard Shortcuts
@@ -215,6 +182,43 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
   </div>
 </div>
 
+<a name="classes"></a>
+## Classes
+
+### Defining and Identifying Classes
+
+**Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 5. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
+
+Think of a <span class="vocab">class</span> as a category of thing. For example, my sister's children Landon, Luca, and Arlo (instances) are all different versions of a **child** (class). 
+
+My Old Navy sweatshirt and my American Giant sweatshirt (instances) are different versions of a **sweatshirt** (class).
+
+_Great Expectations_ by Charles Dickens and _Becomming_ by Michelle Obama (instances) are different versions of a **book** (class). 
+
+Class names are always singular: **child** (instead of children), **sweatshirt** (instead of sweatshirts), and **book** instead of books. 
+
+<div class="try-it">
+  <h3>Try It: Classes</h3>
+  <p>Post two sentences in the chat using this structure:</p>
+  <p>______, ________, and _______ (instances) are different versions of a ________ (class).</p>
+</div>
+
+### Attributes of Classes
+
+An <span class="vocab">attribute</span> of a class is a characteristic that every instance of that class has.
+
+For example: 
+
+- Each **child** (class) has a first_name, last_name, and birthdate (attributes).
+- Each **sweatshirt** (class) has a color, size, brand, and price (attributes).
+- Each **book** (class) has a title, author, publisher, published_date, and total_pages (attributes). 
+
+<div class="try-it">
+  <h3>Try It: Attributes</h3>
+  <p>Post two sentences in the chat about your two classes using this structure:</p>
+  <p>Each _______ (class) has a _______, ________, and ________ (attributes).</p>
+</div>
+
 <a name="findinganswers"></a>
 ## Googling
 
@@ -243,36 +247,22 @@ or
 ```
 make border on heading element css
 ```
-
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  <ol>
-    <li>If the question is generic to programming, replace the name of the langauge with "programming"</li>
-    <li>If something is just not working, don't worry about coming up with a "how to" phrase. Instead, you can just google "----- not working". Similarly, use "what is/are" for terminology questions.</li>
-    <li>While capitalization doesn't matter, word order does matter. Google will look for results where words are ordered or grouped the same way you had them in your search and prioritize those. For example, you get different results when you search "cheese pizza" compared to "pizza cheese"</li>
-    <li><strong>SUPER IMPORTANT:</strong> You might not get the results you're looking for on the first go-around. </li>
-  </ol>
-</div>
+<strong>SUPER IMPORTANT:</strong> You might not get the results you're looking for on the first go-around.
 
 <div class="try-it">
   <h3>Try It: Writing Google-able Phrases</h3>
   <p>Write out Google-able search phrases for each of the following scenarios. Do not get hung up on being unfamiliar with the terminology for each scenario. We just want phrases to put into Google.</p>
-  <p>1. I'm building a game using JavaScript and I have an array of six elements. I need to figure out how to get rid of the last three elements in the array.</p>
+  <p>1. I am using Git for version control and made a typo in a commit message. I need to change it before I push my changes to GitHub.</p>
   <textarea rows="2">
     Phrase 1: 
     Phrase 2: 
   </textarea>
-  <p>2. I am using Git for version control and made a typo in a commit message. I need to change it before I push my changes to GitHub.</p>
+  <p>2. I got this error message when I ran my Ruby program and I don't know what it means or how to fix it: <em>"unterminated string meets end of file"</em></p>
   <textarea rows="2">
     Phrase 1: 
     Phrase 2: 
   </textarea>
-  <p>3. I got this error message when I ran my Ruby program and I don't know what it means or how to fix it: <em>"unterminated string meets end of file"</em></p>
-  <textarea rows="2">
-    Phrase 1: 
-    Phrase 2: 
-  </textarea>
-  <p>4. A Mod 0 homework assignment asks you to print out your git log in oneline format and Rachel definitely did not teach how to do this during class.</p>
+  <p>3. A Mod 0 homework assignment asks you to print out your git log in oneline format and Rachel definitely did not teach how to do this during class.</p>
   <textarea rows="2">
     Phrase 1: 
     Phrase 2: 
@@ -283,32 +273,9 @@ make border on heading element css
 
 Once you formulate a good Google search and receive your results, there are a few things you'll want to consider when determining which results to open. 
 
-<ol>
-  <li><strong>Posting Date:</strong> Programming languages and best practices change <strong>fast</strong>. Therefore, you want to make sure that you're getting the most up-to-date information. While there is no hard and fast rule for what is considered up-to-date, I generally avoid reading things that were posted more than two years ago. However, even things posted two years ago might be obsolete if you're working with a cutting-edge technology or langauge.</li>
-  <li><strong>Example Code:</strong> The best resources generally include example code snippets that you can use to compare to your own code.</li>
-  <li><strong>Description/Text:</strong> Along with code snippets, the best results are those that also include a simple description of what the code is doing.</li>
-  <li><strong>Publisher:</strong> There are a lot of sites out there that are reputable and some where you'll need to use your best judgement. 
-    <small>
-      <ul>
-        <li><strong><a href="http://ruby-doc.org" title="">ruby-doc.org</a></strong>: While the Ruby Docs are trusted, they can be somewhat difficult for beginners to navigate and understand</li>
-        <li><strong><a href="http://developer.mozilla.org" title="">developer.mozilla.org</a></strong>: Considered some of the best information for HTML, CSS, JavaScript</li>
-        <li><strong><a href="http://git-scm.com" title="">git-scm.com</a>, <a href="http://help.github.com" title="">help.github.com</a></strong>: Both Git and Github's official documentation</li>
-        <li><strong>Official site for a specific tool or language</strong>: Good place to start if you have a question related to a library or framework; however, sometimes you can find a faster answer on a Q&A site.</li>
-        <li><strong>Stack Overflow</strong>: Stack Overflow is one of my personal favorite resources for getting unstuck; however, make sure to check that the question is actually the <strong>same question</strong> that you're asking, the answer is not <strong>outdated</strong>, and that the answer is <strong>upvoted</strong> multiple times. In addition, read the comments below the top answer to see if there is any new information or different scenarios that might fit your issue better.</li>
-        <li><strong>W3 Schools</strong>: Generally good for very basic questions, but considered behind-the-time and sometimes shows bad practices</li>
-        <li><strong>Blog Posts</strong>: As a beginner (and even now!), I found a lot of answers through blog posts and tutorials. Again, watch the <strong>date</strong> on these posts and understand that these posts may or may not reflect best practices. </li>
-        <li><strong>Videos</strong>: Video walk-throughs and tutorials are usually pretty great, but they can be time consuming if you're looking for a quick answer. Again, check the date of the post.</li>
-      </ul>
-    </small>
-  </li>
-</ol>
-
 <div class="try-it">
-  <h3>Try It: Sifting Through Results</h3>
-  <p>In your breakout rooms, the person with the darkest shirt will share their screen by clicking the green "Share Screen" button. This person will copy one of their search phrases from the last "Try It" section and paste it into Google.</p>
-  <p>As a group, review the results list discuss which results you would consider using to solve this problem using the general guidelines above.</p>
-  <p>Be ready to share how your group sifted through results.</p>
-  <textarea rows="5"></textarea>
+  <h3>Demo: Google Results</h3>
+  <p>We'll look through some Google results for "change width of textarea in html". Be ready to jot down tips for sifting through results.</p>
 </div>
 
 ## BREAK
@@ -669,13 +636,7 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
 <div class="hidden fe-iteration">
   <p>The code that you see below is written using JavaScript. This syntax is something that you'll see all over the place, so it's important to get used to it. You don't need to memorize every little symbol for now, but knowing how to explain the big pieces is important.</p>
   <h4>Example #1: Grading papers for five students</h4>
-  <pre>
-    var students = ['Megan', 'Jose', 'Xavier', 'Ali', 'Miriam'];
-
-    for (i = 0; i < students.length; i++) {
-      console.log('Grading paper for: ' + students[i]);
-    };
-  </pre>
+  <iframe height="350px" width="100%" src="https://repl.it/@rwarbelow/mod0iterationJS1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   <div class="things-to-note">
     <h4>Things to Note: For Loop Vocabulary</h4>
     <ul>
@@ -698,83 +659,30 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
 </div>
 
   <h4>Example #2: Multiplying By Six</h4>
-  <pre>
-  var numbers = [7, 18, 23, 38, 41, 57, 65];
-
-  for (i = 0; i < numbers.length; i++) {
-    console.log('The answer is: ' + numbers[i] * 6);
-  };
-  </pre>
+  <iframe height="350px" width="100%" src="https://repl.it/@rwarbelow/mod0iterationJS2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   <div class="try-it">
     <h3>Try It: Iteration Syntax</h3>
     <p>Fill in the missing pieces of the iteration example below:</p>
-    <textarea rows="5">
-      var birthdayPeople = ['Bonnie', 'Justin', 'Daniel', 'Alejandra', 'Michael', 'Giselle'];
-      for (i = 0; i < _______; i++) {
-          console.log('Happy Birthday, ' + ______);
-      };
-    </textarea>
-    <p>Use this box to describe what is happening:</p>
-    <textarea rows="3">
-    </textarea>
+    <iframe height="350px" width="100%" src="https://repl.it/@rwarbelow/mod0iterationJS3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
     <p>Fill in the missing pieces of the iteration example below:</p>
-        <textarea rows="5">
-    var numbers = [2, 4, 6, 8, 10, 12, 14, 16];
-
-    for (_____; ______; _____) {
-        console.log('The number minus one is ' + ______);
-    ___
-    </textarea>
-    <p>Use this box to describe what is happening:</p>
-    <textarea rows="3">
-    </textarea>
+    <iframe height="350px" width="100%" src="https://repl.it/@rwarbelow/mod0iterationJS4?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   </div>
 </div>
-     <div class="hidden be-iteration">
-     <p>The code that you see below is written using Ruby. This syntax is something that you'll see all over the place, so it's important to get used to it. You don't need to memorize every little symbol for now, but knowing how to explain the big pieces is important.</p>
-     <h4>Example #1: Grading papers for five students</h4>
-     <pre>students = ["Megan", "Jose", "Xavier", "Ali", "Miriam"]
-
-students.each do |student|
-  puts "Grading paper for #{student}"
-end
-   </pre>
-   <h4>Example #2: Multiplying By Six</h4>
-   <pre>numbers = [7, 18, 23, 38, 41, 57, 65]
-
-numbers.each do |number|
-  puts "The answer is #{number * 6}"
-end
-  </pre>
+<div class="hidden be-iteration">
+  <p>The code that you see below is written using Ruby. This syntax is something that you'll see all over the place, so it's important to get used to it. You don't need to memorize every little symbol for now, but knowing how to explain the big pieces is important.</p>
+  <h4>Example #1: Grading papers for five students</h4>
+  <iframe height="350px" width="100%" src="https://repl.it/@rwarbelow/mod0iterationRuby1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  <h4>Example #2: Multiplying By Six</h4>
+  <iframe height="350px" width="100%" src="https://repl.it/@rwarbelow/mod0iterationRuby2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   <div class="try-it">
     <h3>Try It: Iteration Syntax</h3>
     <p>Fill in the missing pieces of the iteration example below:</p>
-    <textarea rows="5">
-birthday_people = ["Bonnie", "Justin", "Daniel", "Alejandra", "Michael", "Giselle"]
-
-birthday_people._____ do |_____|
-    puts "Happy birthday, #{_______}!"
-end
-      </textarea>
-      <p>Use this box to describe what is happening:</p>
-      <textarea rows="3">
-
-      </textarea>
-      <p>Fill in the missing pieces of the iteration example below:</p>
-      <textarea rows="5">
-numbers = [2, 4, 6, 8, 10, 12, 14, 16]
-
-______.each ___ |number|
-    puts "The number minus one is #{_____}"
-____
-      </textarea>
-      <p>Use this box to describe what is happening:</p>
-      <textarea rows="3">
-
-      </textarea>
-      </div>
+    <iframe height="350px" width="100%" src="https://repl.it/@rwarbelow/mod0iteration3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+    <p>Fill in the missing pieces of the iteration example below:</p>
+    <iframe height="350px" width="100%" src="https://repl.it/@rwarbelow/mod0iteration4?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
     </div>
   </div>
+</div>
 
 ## The End!
 
