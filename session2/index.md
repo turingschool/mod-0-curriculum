@@ -292,7 +292,7 @@ In most programming languages, you'll find the same basic <span class="vocab">da
   <p>In your breakout groups, discuss and/or use Google to figure out what each of the following data types are used for in programming. Use your notebook to jot down your answer (and examples, if applicable).</p>
 
   <p>1. <strong>What are <span class="vocab">strings</span> used for in programming?</strong></p>
-  <p>2. <strong>What are <span class="vocab">integers</span> and <span class="vocab">floats</span> are used for in programming</strong>?</p>
+  <p>2. <strong>What are <span class="vocab">integers</span> and <span class="vocab">floats</span> used for in programming</strong>?</p>
   <p>3. <strong>What is a <span class="vocab">boolean</span> value used for in programming</strong>?</p>
   <p>4. <strong>What is an <span class="vocab">array</span> used for in programming?</strong></p>
   <p>5. If you're in the front end program, we're going to call the next data type an <span class="vocab">object</span>. If you're in the back end program, we're going to call it a <span class="vocab">hash</span>. <strong>What is this data type used for in programming?</strong></p>
