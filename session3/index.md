@@ -12,6 +12,7 @@ subheading: Terminal, File/folder Structure, Git Basics
       <li>notate file paths from diagrams</li>
       <li>navigate through directories from the command line</li>
       <li>make and remove files and directories from the command line</li>
+      <li>define and identify methods for a class</li>
       <li>explain the purpose of git</li>
       <li>initialize, add, and commit changes in a local repository  </li>
     </ul>
@@ -20,8 +21,9 @@ subheading: Terminal, File/folder Structure, Git Basics
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong>Housekeeping, Feedback, and Goals</li>
+      <li><strong>10 min: </strong>Classes, Attributes and Methods</li>
       <li><strong>15 min: </strong><a href="#filesdirectories">Files, Directories, and Paths</a></li>
-      <li><strong>40 min: </strong><a href="#terminalcommandline">Terminal and Command Line</a></li>
+      <li><strong>35 min: </strong><a href="#terminalcommandline">Terminal and Command Line</a></li>
       <li><strong>5 min: </strong>Break</li>
       <li><strong>40 min: </strong><a href="#git">Git Basics</a></li>
       <li><strong>5 min: </strong><a href="#homework">Homework Preview</a></li>
@@ -69,6 +71,47 @@ subheading: Terminal, File/folder Structure, Git Basics
   <p>3. Accountability review: what were the skills/processes that you decided to focus on last week, and how are you progressing toward mastery of those skills?</p>
 </div>
 
+<a name="classes"></a>
+## Classes (Intro: Part II)
+
+**Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 5. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
+
+### Class and Attribute Review
+
+<div class="try-it">
+  <h3>Try It: Classes</h3>
+  <p>Post one sentence in the chat using this structure:</p>
+  <p>______, ________, and _______ (instances) are different versions of a ________ (class).</p>
+  <p>For example: My Old Navy sweatshirt and my American Giant sweatshirt (instances) are different versions of a sweatshirt (class).</p>
+</div>
+
+<div class="try-it">
+  <h3>Try It: Attributes</h3>
+  <p>Post one sentence in the chat about your class using this structure:</p>
+  <p>Each _______ (class) has a _______, ________, and ________ (attributes).</p>
+  <p>For example: Each Sweatshirt (class) has a color, brand, and size (attributes).</p>
+</div>
+
+### Methods of Classes
+
+A <span class="vocab">method</span> of a class define **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
+
+For example: 
+
+- Each **child** (class) can greet, run, and learn (methods). 
+- Each **sweatshirt** (class) can be purchased, be returned, be washed, and be repaired (methods).
+- Each **book** (class) can be read, have the price updated, and be highlighted (methods). 
+- Each **bank account** (class) can have money deposited, can have money withdrawn, can be opened, can be closed, and can change ownership (methods).
+
+<div class="try-it">
+  <h3>Try It: Methods</h3>
+  <p>Post two sentences in the chat about your two classes using this structure:</p>
+  <p>Each _______ (class) can ___________, __________, and ___________.</p>
+</div>
+
+<a name="filesdirectories"></a>
+## Files, Directories, and Paths
+
 <div class="things-to-note">
   <h4>Things to Note: Oh no, my terminal is broken!</h4>
   <ol>
@@ -78,9 +121,6 @@ subheading: Terminal, File/folder Structure, Git Basics
       <img src="images/vim_land.png" alt="">
   </ol>
 </div>
-
-<a name="filesdirectories"></a>
-## Files, Directories, and Paths
 
 On your computer, you probably have many <span class="vocab">files</span> and <span class="vocab">directories</span>. Files are things like text documents, images, videos, PDFs, etc. Directories (or folders) are the structures we use to organize these files. 
 
