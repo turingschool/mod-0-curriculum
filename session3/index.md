@@ -57,7 +57,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 - Iteration is confusing: 
     - What collection are you starting with?
-    - What are you doing to each item in the collection? 
+    - What are you doing to each item in the collection?
     - You don't need to memorize syntax of iteration at this point; you'll see more of it in the capstone and Mod 1
 
 ### Today's Goals
@@ -179,7 +179,7 @@ Your terminal will look something like this:
 <img src="images/terminal.png" alt="">
 
 <a name="profiledetour"></a>
-The text `rwarbelow~$` is called the command prompt, and the `$` indicates that it's ready to accept input.
+The text `timo@Tims-MacBook-Pro:~$` is called the command prompt, and the `$` indicates that it's ready to accept input.
 
 **Something to note:** When copying and pasting commands from the internet, do not include the `$`. It is meant to symbolize that a command is run from the terminal.
 
@@ -210,8 +210,8 @@ When you open the terminal, you will be in your home directory. Being in various
 To figure out where you are in your computer's directories, type `pwd` after the command prompt. `pwd` stands for "print working directory"
 
 ```
-rwarbelow~$ pwd
-/Users/rwarbelow
+timo@Tims-MacBook-Pro:~$ pwd
+/Users/timo@Tims-MacBook-Pro:
 ```
 
 You'll see the path from the root of your computer to your current directory. 
@@ -229,8 +229,8 @@ We can make new directories with the `mkdir` command. Unlike `pwd` where we didn
 For example, the following two commands will create two directories called `work_spreadsheets` and `latest_projects`:
 
 ```
-rwarbelow~$ mkdir work_spreadsheets
-rwarbelow~$ mkdir latest_projects
+timo@Tims-MacBook-Pro:~$ mkdir work_spreadsheets
+timo@Tims-MacBook-Pro:~$ mkdir latest_projects
 ```
 
 You won't get any confirmation that your directory was created -- you'll just see a new command prompt ready for your next comamnd. 
@@ -249,14 +249,14 @@ To check what's inside of a directory, we use the `ls` command which stands for 
   <div>
     If I was in the essays directory and I typed ls, this is what I'd see:
 
-    <pre>rwarbelow~/essays$ ls
+    <pre>timo@Tims-MacBook-Pro:~/essays$ ls
     book_projects    life_lessons.docx    notes.docx</pre>
 
     <p>You will only see the directories and files that are directly inside of where you are. You will not see any directories or files that are nested down the path. This is why we do not see the contents of book_projects listed.</p>
 
     <p>Now assume we're in the book_projects directory. If I type ls, I'll see this:</p>
 
-    <pre>rwarbelow~/essays/book_projects$ ls
+    <pre>timo@Tims-MacBook-Pro:~/essays/book_projects$ ls
     literary_analysis.docx    book_report.docx</pre>
 
   </div>
@@ -274,8 +274,8 @@ You can move into a directory using the `cd` command, which stands for "change d
   <div>
     For example, if I was in the <code>essays</code> directory and wanted to move into the <code>book_projects</code> directory to see my documents, I would type this: 
 <pre>
-rwarbelow~/essays$ cd book_projects
-rwarbelow~/essays/book_projects$ 
+timo@Tims-MacBook-Pro:~/essays$ cd book_projects
+timo@Tims-MacBook-Pro:~/essays/book_projects$ 
 </pre>
 
 We see that the second command prompt now lists the path of new directory that we're in.
@@ -283,7 +283,7 @@ We see that the second command prompt now lists the path of new directory that w
 From there, if I used the <code>ls</code> command, I would be able to see the contents of my folder:
 
 <pre>
-rwarbelow~/essays/book_projects$ ls
+timo@Tims-MacBook-Pro:~/essays/book_projects$ ls
 literary_analysis.docx    book_report.docx
 </pre>
   </div>
@@ -304,8 +304,8 @@ To get out of a directory you're in, we use `cd ..` (with a space between the d 
 If I'm in the `book_projects` directory and I want to get back to `essays`, this is what I'd type:
 
 ```
-rwarbelow~/essays/book_projects$ cd ..
-rwarbelow~/essays$
+timo@Tims-MacBook-Pro:~/essays/book_projects$ cd ..
+timo@Tims-MacBook-Pro:~/essays$
 ```
 
 Notice that my path no longer includes `book_projects` because I'm outside of that folder now. 
@@ -351,14 +351,14 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
 We know how to make directories (or folders) using the `mkdir` command. In order to make files inside of those directories, we use `touch`. The following two commands show how I would make two new files, `chapter_1.txt` and `chapter_2.txt`:
 
 ```
-rwarbelow~/latest_projects$ touch chapter_1.txt
-rwarbelow~/latest_projects$ touch chapter_2.txt
+timo@Tims-MacBook-Pro:~/latest_projects$ touch chapter_1.txt
+timo@Tims-MacBook-Pro:~/latest_projects$ touch chapter_2.txt
 ```
 
 We don't see any confirmation that the file was created, but we can use `ls` to see what's inside the directory:
 
 ```
-rwarbelow~/latest_projects $ ls
+timo@Tims-MacBook-Pro:~/latest_projects $ ls
 chapter_1.txt    chapter_2.txt
 ```
 
@@ -368,7 +368,7 @@ chapter_1.txt    chapter_2.txt
 Normally, we will use our text editor (Atom or Sublime) to add text content to a file. However, you can also add text content using the <code>echo</code> command. Note that you *must* use quotation marks to indicate what text you want to add to the file. 
 
 ```
-rwarbelow~/latest_projects $ echo "Call me Ishmael" >> chapter_1.txt
+timo@Tims-MacBook-Pro:~/latest_projects $ echo "Call me Ishmael" >> chapter_1.txt
 ```
 
 You won't see any confirmation, but that text inside the quotation marks will now be inside of the `chapter_1.txt` file. 
@@ -379,7 +379,7 @@ You won't see any confirmation, but that text inside the quotation marks will no
 If we want to check what text is inside of a file, we can use <code>cat</code>:
 
 ```
-rwarbelow~/latest_projects $ cat chapter_1.txt 
+timo@Tims-MacBook-Pro:~/latest_projects $ cat chapter_1.txt
 It was the best of times, it was the worst of times
 ```
 
@@ -393,13 +393,13 @@ In the past, you've probably gotten rid of files by dragging them to the trash a
 We can remove files from the command line using the `rm` command, like this:
 
 ```
-rwarbelow~/latest_projects $ rm chapter_1.txt
+timo@Tims-MacBook-Pro:~/latest_projects $ rm chapter_1.txt
 ```
 
 Again, we don't get a confirmation, but if I were to `ls` right now, nothing would appear since the directory is now empty. 
 
 ```
-rwarbelow~/latest_projects $ ls
+timo@Tims-MacBook-Pro:~/latest_projects $ ls
 chapter_2.txt
 ```
 
@@ -419,8 +419,8 @@ We can use `rm` to remove a file, but we use a different command when we're remo
 In order to remove a directory, you must be OUTSIDE of that directory. For example, if I'm inside a `books` directory and I want to remove it, I first need to get out of it using `cd ..`, then use the `rm -rf books`:
 
 ```
-rwarbelow~/latest_projects/books$ cd ..
-rwarbelow~/latest_projects$ rm -rf books
+timo@Tims-MacBook-Pro:~/latest_projects/books$ cd ..
+timo@Tims-MacBook-Pro:~/latest_projects$ rm -rf books
 ```
 
 Now when I type `ls`, I will no longer see `books` listed.
@@ -557,8 +557,8 @@ We'll start with a directory called `notes` with a file inside called `things_to
 By default, your changes will not be tracked. In order to tell git that we want to start tracking something, we need to initialize git in a directory. 
 
 ```
-rwarbelow~/notes$ git init
-Initialized empty Git repository in /Users/rwarbelow/notes/.git/
+timo@Tims-MacBook-Pro:~/notes$ git init
+Initialized empty Git repository in /Users/timo/notes/.git/
 ```
 
 This means git will now be available to use to track changes in the `notes` directory. This does **not** mean that git is tracking anything yet. 
@@ -574,7 +574,7 @@ This means git will now be available to use to track changes in the `notes` dire
     <div>
       <p>1. You only need to initialize a directory once in order to track everything else inside of it. </p>
       <p>For example, if I typed this while in the essays directory:</p>
-      <pre>rwarbelow~/essays$ git init</pre>
+      <pre>timo@Tims-MacBook-Pro:~/essays$ git init</pre>
       <p>Then every file inside that directory, regardless of how deeply nested, would be available for git tracking.</p>
       <p>2. Empty directories are <strong>not</strong> tracked by git. Therefore, if you create a directory but there's nothing inside of it, git will ignore it. Git will only track it when there is a file inside of the directory.</p>
     </div>
@@ -593,7 +593,7 @@ This means git will now be available to use to track changes in the `notes` dire
 When you want to see what git is tracking and the current status of files, you can use `git status`:
 
 ```
-rwarbelow~/notes$ git status
+timo@Tims-MacBook-Pro:~/notes$ git status
 On branch master
 
 No commits yet
@@ -629,8 +629,8 @@ Let's add one of the files that we want to track to the <span class="vocab">stag
 We will add our file to the staging area. 
 
 ```
-rwarbelow~/notes$ git add things_to_remember.txt
-rwarbelow~/notes$ git status
+timo@Tims-MacBook-Pro:~/notes$ git add things_to_remember.txt
+timo@Tims-MacBook-Pro:~/notes$ git status
 On branch master
 
 No commits yet
@@ -653,7 +653,7 @@ This may seem silly right now, given that we only have one file -- why not just 
 Now that our file is in the staging area, let's tell git that we're ready to commit (take a snapshot of this moment to save). It's good practice to use "Initial Commit" for your very first commit in each repository. 
 
 ```
-rwarbelow~/notes$ git commit -m 'Initial commit'
+timo@Tims-MacBook-Pro:~/notes$ git commit -m 'Initial commit'
 [master (root-commit) b7654a6] Initial commit
  1 file changed, 1 insertion(+)
  create mode 100644 things_to_remember.txt
@@ -662,7 +662,7 @@ rwarbelow~/notes$ git commit -m 'Initial commit'
 Now if I look at my git status, this is what I see:
 
 ```
-rwarbelow~/notes$ git status
+timo@Tims-MacBook-Pro:~/notes$ git status
 On branch master
 nothing to commit, working tree clean
 ```
@@ -688,7 +688,7 @@ Your working directory now has changes that differ from what our file looked lik
 You can view those changes by using `git diff <filename>`:
 
 ```
-rwarbelow~/notes$ git diff things_to_remember.txt
+timo@Tims-MacBook-Pro:~/notes$ git diff things_to_remember.txt
 diff --git a/things_to_remember.txt b/things_to_remember.txt
 index e69de29..9ffd068 100644
 --- a/things_to_remember.txt
