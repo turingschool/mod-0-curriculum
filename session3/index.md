@@ -179,7 +179,9 @@ Your terminal will look something like this:
 <img src="images/terminal.png" alt="">
 
 <a name="profiledetour"></a>
-The text `rwarbelow~$` is called the command prompt, and the `$` indicates that it's ready to accept input. 
+The text `rwarbelow~$` is called the command prompt, and the `$` indicates that it's ready to accept input.
+
+**Something to note:** When copying and pasting commands from the internet, do not include the `$`. It is meant to symbolize that a command is run from the terminal.
 
 If you want to further customize your command prompt, check out the [EZPrompt Generator](http://ezprompt.net/).
 
