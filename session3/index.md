@@ -211,7 +211,7 @@ To figure out where you are in your computer's directories, type `pwd` after the
 
 ```
 timo@Tims-MacBook-Pro:~$ pwd
-/Users/timo@Tims-MacBook-Pro:
+/Users/timo
 ```
 
 You'll see the path from the root of your computer to your current directory. 
@@ -240,7 +240,7 @@ You won't get any confirmation that your directory was created -- you'll just se
 
 With a visual interface (as shown in the gif above), you can easily see the contents of a directory. On the command line, it's a little different.
 
-To check what's inside of a directory, we use the `ls` command which stands for list (although I like to think to myself: "list stuff). As an example, let's assume that I have the directories and files from this diagram on my computer: 
+To check what's inside of a directory, we use the `ls` command which stands for list (although I like to think to myself: "list stuff"). As an example, let's assume that I have the directories and files from this diagram on my computer:
 
 <div class="flex-container">
   <div>
@@ -336,7 +336,7 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
 <div class="things-to-note">
   <h4>Things to Note</h4>
   <ul>
-    <li>You can combine commands to navigate multiple levels through your directory structure. </li>
+    <li>One can combine commands to navigate multiple levels through your directory structure. </li>
     <li>For the third example in the previous <strong>Try It</strong> section, one could navigate to the <code>projects_to_delegate</code> directory as long as one knows the path:</li>
     <code>cd ../work/projects_to_delegate</code>
     <li>For the fourth and final example above:</li>
@@ -561,7 +561,7 @@ timo@Tims-MacBook-Pro:~/notes$ git init
 Initialized empty Git repository in /Users/timo/notes/.git/
 ```
 
-This means git will now be available to use to track changes in the `notes` directory. This does **not** mean that git is tracking anything yet. 
+This means git will now be available to use to track changes in the `notes` directory. This does **not** mean that git is tracking anything yet. Git is now prepared to track activity in th `notes` directory
 
 *NOTE*: If you don't see this message when you try `git init`, it means you have not set up git on your computer. 
 
