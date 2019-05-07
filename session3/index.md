@@ -45,7 +45,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 - In the chat, post a keyboard shortcut that you practiced and now feel comfortable using. 
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
 - Questions during the session? Click "raise hand" for whole-group question, or message the non-presenting host for an individual question.
-- We'll stay on the call for 15 min at the end of today's session for any Qs that are not addressed during the lesson
+- We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
 
 ### Wins
 
