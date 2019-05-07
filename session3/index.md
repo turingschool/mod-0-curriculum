@@ -112,16 +112,6 @@ For example:
 <a name="filesdirectories"></a>
 ## Files, Directories, and Paths
 
-<div class="things-to-note">
-  <h4>Things to Note: Oh no, my terminal is broken!</h4>
-  <ol>
-    <li> It is highly likely you will make mistakes in the terminal. Do not fret, there are a few tools to save you when you inevitably receive unexpected feedback or behavior from the terminal.</li>
-    <li><code>control + C</code> shortcut will stop most terminal tasks and bring you back to your current directory with no harm done. Try this first when you encounter unexpected behavior.</li>
-    <li>At some point your terminal will look like it does in the photo below. This is Vim land. Vim is a text editor within your terminal that is beyond the scope of mod-0. When you find yourself here, you can type: <code>:q</code>, which stands for quit in Vim, and then hit enter to exit Vim. Sometimes, if you've already typed some characters, you need to use <code>control + C</code>in order to get to a point within Vim where <code>:q</code> or <code>:qa!</code>, which is the command to quit and abandon changes, will successfully exit Vim.</li>
-      <img src="images/vim_land.png" alt="">
-  </ol>
-</div>
-
 On your computer, you probably have many <span class="vocab">files</span> and <span class="vocab">directories</span>. Files are things like text documents, images, videos, PDFs, etc. Directories (or folders) are the structures we use to organize these files. 
 
 In the diagram below, we would say that there's a directory called `essays` that contains three files: `life_lessons.docx`, `book_report.docx`, and `literary_analysis.docx`: 
@@ -742,6 +732,16 @@ The basic git workflow is this:
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
   </ol>
   <p><strong>Done?</strong> Switch drivers and try the process again!</p>
+</div>
+
+<div class="things-to-note">
+  <h4>Things to Note: Oh no, my terminal is broken!</h4>
+  <ol>
+    <li> It is highly likely you will make mistakes in the terminal. Do not fret, there are a few tools to save you when you inevitably receive unexpected feedback or behavior from the terminal.</li>
+    <li><code>control + C</code> shortcut will stop most terminal tasks and bring you back to your current directory with no harm done. Try this first when you encounter unexpected behavior.</li>
+    <li>At some point your terminal will look like it does in the photo below. This is Vim land. Vim is a text editor within your terminal that is beyond the scope of mod-0. When you find yourself here, you can type: <code>:q</code>, which stands for quit in Vim, and then hit enter to exit Vim. Sometimes, if you've already typed some characters, you need to use <code>control + C</code>in order to get to a point within Vim where <code>:q</code> or <code>:qa!</code>, which is the command to quit and abandon changes, will successfully exit Vim.</li>
+      <img src="images/vim_land.png" alt="">
+  </ol>
 </div>
 
 ## Close Out
