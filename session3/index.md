@@ -59,6 +59,8 @@ subheading: Terminal, File/folder Structure, Git Basics
     - What collection are you starting with?
     - What are you doing to each item in the collection?
     - You don't need to memorize syntax of iteration at this point; you'll see more of it in the capstone and Mod 1
+- Sessions are designed to move fast
+- More breakout room time
 
 ### Today's Goals
 
