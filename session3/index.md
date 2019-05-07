@@ -531,13 +531,18 @@ There are numerous reasons to use git. Among them:
 
 In this section on git, we'll learn (or review) these git comamnds: 
 
-<ol>
+Action Commands
+<ul>
   <li><a href="#init" title="">git init</a></li>
-  <li><a href="#status" title="">git status</a></li>
   <li><a href="#add" title="">git add</a></li>
   <li><a href="#commit" title="">git commit</a></li>
+</ul>
+
+Safe Commands
+<ul>
+  <li><a href="#status" title="">git status</a></li>
   <li><a href="#diff" title="">git diff</a></li>
-</ol>
+</ul>
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
@@ -711,7 +716,7 @@ The basic git workflow is this:
 
 
 <div class="try-it">
-  <h3>Try It: Git All Together</h3>
+  <h3>Try It: Git Together</h3>
   <p>At this point, we'll split into breakout rooms. The person whose name is first alphabetically will start by sharing their screen, <strong>unless</strong> this person already has significant git experience. Whoever is sharing their screen will be called the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
 
   <p>The driver will be the person typing the commands, but the navigators should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss <strong>why</strong> you are doing each step, or <strong>what</strong> exactly is taking place in each step.</p>
