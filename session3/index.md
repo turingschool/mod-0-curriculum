@@ -674,10 +674,10 @@ nothing to commit, working tree clean
 
 Let's figure out on the diagram what we just did:
 
-![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png)
+![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png) 
 
-### 5. Making File Changes and Adding New Commits
-
+<a name="diff"></a>
+### 5. Making File Changes, Adding New Commits, and Viewing Those Changes By Using (<span class="vocab">git diff &lt;filename&gt;</span>)
 Now that we have our initial commit (or snapshot in time), let's make a change to one of our files.
 
 Type this from the command line:
@@ -687,10 +687,7 @@ echo "Be kind" >> things_to_remember.txt
 echo "Work hard" >> things_to_remember.txt
 ```
 
-Your working directory now has changes that differ from what our file looked like the last time we committed (or took a snapshot). 
-
-<a name="diff"></a>
-You can view those changes by using `git diff <filename>`:
+Your working directory now has changes that differ from what our file looked like the last time we committed (or took a snapshot).
 
 ```
 timo@Tims-MacBook-Pro:~/notes$ git diff things_to_remember.txt
