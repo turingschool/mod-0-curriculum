@@ -10,16 +10,18 @@ subheading: More Git and Intro to GitHub
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
       <li>navigate important parts of a GitHub repository</li>
+      <li>design methods that use/modify attributes</li>
       <li>create your own repository on GitHub</li>
       <li>push local changes to a remote</li>
       <li>fork and clone an existing repository</li>
-      <li>explore existing gists to discover markdown syntax</li>
+      <li>identify markdown syntax</li>
     </ul>
   </div>
   <div>
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong>Housekeeping and Goals</li>
+      <li><strong>10 min: </strong><a href="#classes">Classes and Methods</a></li>
       <li><strong>15 min: </strong><a href="#gitreview">Git Review</a></li>
       <li><strong>50 min: </strong><a href="#github">GitHub and Repositories</a></li>
       <li><strong>5 min: </strong>Break</li>
@@ -51,7 +53,9 @@ subheading: More Git and Intro to GitHub
 ### Follow-Ups
 
 - Staging area in git - Grouping code that is related to be committed together
-- Why do we use git? - Average Score 3.5
+- Most skill statements rated 4.5 or higher
+- I can add and commit file changes using git. - Average score 3.5
+- Why do we use git? - Average score 3.9
   - The ability to "go back in time" to previous versions of your code if you break something
   - The ability to "go back in time" to previous versions of your code if you change your mind about a feature
   - The ability to chunk parts of your work so that you can choose from chunks to keep at a later time
@@ -123,9 +127,67 @@ subheading: More Git and Intro to GitHub
   <h3>Intros, Review, and Icebreaker</h3>
   <p>Person with the lightest color shirt speaks first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. In the spirit of winter coming on Sunday - Who is your favorite GOT character? Don't watch GOT? Who is your favorite superher0?</p>
+  <p>2. Share: what is a current trend that you're either totally annoyed by or completely love?</p>
   <p>3. Accountability review: how are you progressing toward mastery of your focus skills?</p>
   <p>Have extra time? Share helpful resources you've come across.</p>
+</div>
+
+<a name="classes"></a>
+## Class and Method Review
+
+<div class="try-it">
+  <h3>Try It: Methods</h3>
+  <p>Post one sentence in the chat about a class using this structure:</p>
+  <p>Each _______ (class) can ___________, __________, and ___________.</p>
+  <p>Example: Each bank account (class) can have money deposited, can have money withdrawn, can be opened, can be closed, and can change ownership (methods).</p>
+</div>
+
+### Method and Attribute Interaction
+
+Like we talked about during session 3, a <span class="vocab">method</span> of a class define **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
+
+Most of the time, a method will either **use** or **change** an attribute of an object. For example, look at the attributes of the class `Bank Account` below:
+
+```
+Class: Bank Account
+
+Attributes (____ has a/an _____):
+owner_name
+balance
+overdraft_fee
+```
+
+Here are some Bank Account methods and the attributes that would be used/changed. Notice that these are all verbs or action phrases.
+
+```
+Methods:
+change_owner (modifies the owner_name attribute)
+deposit (modifies the balance attribute)
+withdraw (modifies the balance attribute AND uses the over_draft fee if the balance drops below $0)
+```
+
+### Example #2
+
+Look at the Car class and its attributes below:
+
+```
+Class: Car
+
+Attributes (____ has a/an _____):
+amount_of_gas (integer)
+paint_color (string)
+number_of_carseats (integer)
+engine_status (boolean)
+passengers (array)
+last_oil_change (datetime)
+```
+
+<div class="try-it">
+  <h3>Try It: Methods with Attributes</h3>
+  <p>Post two sentences in the chat about the Car class using this structure:</p>
+  <p>The ____________ method [modifies/uses] the _____________ attribute.</p>
+  <p>Example: The start_engine method modifies the engine_on attribute.</p>
+  <b>Make sure that your method names are verbs or action phrases.</b>
 </div>
 
 <a name="gitreview"></a>
@@ -311,46 +373,32 @@ git push origin master
     <li><strong>Always</strong> pause and think about where you are located in your local directory structure before you <span class="vocab">clone</span> a remote repository to your local machine. </li>
     <li><strong>Never</strong> clone a remote repository within a preexisting <span class="vocab">Git</span> repository. If you have Rachel's <code>.bash_profile</code> set up, then you will know you are within a Git repository if you see that you are on branch master as part of your terminal prompt. Navigate out of that directory and into a directory that has not been initialized by git before running <code>git clone https://github.com/SomeRemoteRepo.git</code>.</li>
     <li><strong>Remember</strong> to <code>cd</code> down one level into the directory you just cloned to your machine before running commands. If you cannot remember what the directory is called then run<code>ls</code> after cloning to see the contents of your current directory.</li>
-    <li><strong>Never</strong> run <code>git init</code> within a repository that you cloned down to your local machine. Remote repositories that you clone to your local machine have already been initialized by git. You only ever need to run <code>git init</code> when you've created a repository locally from scratch.</li>
+    <li><strong>Don't</strong> run <code>git init</code> within a repository that you cloned down to your local machine. Remote repositories that you clone to your local machine have already been initialized by git. You only ever need to run <code>git init</code> when you've created a repository locally from scratch.</li>
+    <li><strong>Don't</strong> use "Initial commit" as your commit message for a cloned repository. Whoever made the repository already did that.</li>
   </ul>
 </div>
 
 <div class="try-it">
   <h3>Try It: Forking</h3>
   <ol>
-    <li>Fork the <a href="https://github.com/timomitchel/best_houses" title="Best Houses">Best Houses</a> repository.</li>
+    <li>Fork the <a href="https://github.com/rwarbelow/best_animals" title="Best Animals">Best Animals</a> repository.</li>
     <li>Clone your fork using your terminal.</li>
     <li>Open up the project in your text editor.</li>
-    <li>Add a few characters to the Stark.txt file.</li>
+    <li>Add a few animals to the mammals.txt file.</li>
     <li>Add and commit your changes.</li>
     <li>Push your changes to the origin (which is your fork).</li>
-    <p>Done? Repeat steps 4-6 with another house file.</p>
+    <p>Done? Repeat steps 4-6 with another animal file.</p>
   </ol>
 </div>
 
 <a name="gists"></a>
 ## Gists and Markdown
 
-<span class="vocab">Markdown</span> is a syntax used to create formatted text elements (like headings, paragraphs, lists, etc.). Markdown is processed into HTML elements:
+<span class="vocab">Markdown</span> is a syntax used to create formatted text elements (like headings, paragraphs, lists, etc.). 
 
-```
-# My Heading
-```
+In preparation for your homework this weekend, let's take a quick glance at a the screenshot below of the Mod 0 Tech Setup Gist. This shows the markdown code on the right and the displayed version on the left. 
 
-becomes:
-
-```
-<h1>My Heading</h1>
-```
-
-To learn Markdown, we're going to explore an already-created Markdown document.
-
-<div class="try-it">
-  <h3>Try It: Markdown</h3>
-  <p>Fork the <a href="https://gist.github.com/rwarbelow/8d8a1492e87fc676905a4343fa5c43a6" title="">markdown practice</a> gist.</p>
-  <p>In your breakout rooms, work together to find the markdown syntax for each of the elements listed.</p> 
-  <p>Done? Use Google to find the syntax for embedding an image using markdown.</p>
-</div>
+<img style="border: 2px solid black; padding: 1%;" src="images/markdown_comparison.png" alt="markdown comparison">
 
 <a name="homework"></a>
 ## Homework and GitHub Projects

@@ -107,7 +107,7 @@ For example:
 
 <div class="try-it">
   <h3>Try It: Methods</h3>
-  <p>Post two sentences in the chat about your two classes using this structure:</p>
+  <p>Post one sentence in the chat about your class using this structure:</p>
   <p>Each _______ (class) can ___________, __________, and ___________.</p>
 </div>
 
