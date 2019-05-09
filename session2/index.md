@@ -262,7 +262,7 @@ make border on heading element css
     Phrase 1: 
     Phrase 2: 
   </textarea>
-  <p>3. A Mod 0 homework assignment asks you to print out your git log in oneline format and Rachel definitely did not teach how to do this during class.</p>
+  <p>3. A Mod 0 homework assignment asks you to print out your git log in oneline (yes, oneline, not a spelling error) format and Rachel definitely did not teach how to do this during class.</p>
   <textarea rows="2">
     Phrase 1: 
     Phrase 2: 
