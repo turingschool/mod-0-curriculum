@@ -164,6 +164,7 @@ Methods:
 change_owner (modifies the owner_name attribute)
 deposit (modifies the balance attribute)
 withdraw (modifies the balance attribute AND uses the over_draft fee if the balance drops below $0)
+display_account_info (uses the owner_name and balance attributes)
 ```
 
 ### Example #2
@@ -242,7 +243,7 @@ Let's first discuss this diagram:
 
 ![Github Diagram](http://frontend.turing.io/assets/images/lessons/git/github-diagrams.002.jpeg)
 
-<small><em>Source: http://frontend.turing.io/assets/images/lessons/git/github-diagrams.002.jpeg</em></small>
+<p><small><em>Source: http://frontend.turing.io/assets/images/lessons/git/github-diagrams.002.jpeg</em></small></p>
 
 <span class="vocab">origin</span>: refers to the URL where the code is hosted on GitHub. Each repository has its own origin (own URL).
 
@@ -311,7 +312,7 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 
 ### Making Additional Changes and Pushing to GitHub
 
-Open up either Sublime or Atom. Use the keyboard shortcut `command + o` to search for your `git_practice` project.
+Open up either Sublime or Atom. Use the keyboard shortcut `command + o` to search for your `git_homework` project.
 
 Watch and take notes while we walk through how to continue making changes and pushing those changes to GitHub.
 
