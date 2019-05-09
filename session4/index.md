@@ -338,7 +338,7 @@ Watch and take notes while we walk through how to continue making changes and pu
 
 #### What is Forking?
 
-<span class="vocab">Forking</span> is a type of cloning on GitHub, but it will keep a reference to the original, existing project. To fork an existing project, you just click the `fork` button, which will make a copy of all of the code and directory structure to your own GitHub account. 
+<span class="vocab">Forking</span> allows you to copy someone else's project while still keeping a reference to the original. To fork an existing project, you just click the `fork` button, which will make a copy of all of the code and directory structure to your own GitHub account. 
 
 You can tell if something is a fork because it will say "forked from [original repo name]" underneath the title.
 
@@ -348,7 +348,7 @@ Once you've forked a repo, click the green "Clone" button to get the URL to clon
 git clone <insert URL here>
 ```
 
-If you fork, clone, make changes, and push to origin, it will work because it's pushing to **your forked origin** (which you own), not the original repository (which you don't own). To push those changes:
+If you fork, clone, make changes, and push to origin, it will work because it's pushing to **your forked origin** (YOUR account), not the original repository (ORIGINAL CREATOR's account). To push those changes:
 
 ```
 git push
@@ -362,20 +362,13 @@ git push origin master
 
 (In our case today, both commands will do the same thing)
 
-#### When might you use forking?
-
-- You are working on a Turing project and your instructor has already created a "starter kit". Your job is to finish building out the project and submit it.
-- You find a typo in the code for an external library you are using. You want to fix it and submit your changes for the library maintainer to review.
-- You want to build off of an existing codebase. You do not intend to merge your changes back into the original codebase, but you do want to give credit to the original team by keeping the git history associated with the project.
-
 <div class="things-to-note">  
   <h4>Things to Note: Cloning with Git</h4>
   <ul>
-    <li><strong>Always</strong> pause and think about where you are located in your local directory structure before you <span class="vocab">clone</span> a remote repository to your local machine. </li>
-    <li><strong>Never</strong> clone a remote repository within a preexisting <span class="vocab">Git</span> repository. If you have Rachel's <code>.bash_profile</code> set up, then you will know you are within a Git repository if you see that you are on branch master as part of your terminal prompt. Navigate out of that directory and into a directory that has not been initialized by git before running <code>git clone https://github.com/SomeRemoteRepo.git</code>.</li>
-    <li><strong>Remember</strong> to <code>cd</code> down one level into the directory you just cloned to your machine before running commands. If you cannot remember what the directory is called then run<code>ls</code> after cloning to see the contents of your current directory.</li>
-    <li><strong>Don't</strong> run <code>git init</code> within a repository that you cloned down to your local machine. Remote repositories that you clone to your local machine have already been initialized by git. You only ever need to run <code>git init</code> when you've created a repository locally from scratch.</li>
-    <li><strong>Don't</strong> use "Initial commit" as your commit message for a cloned repository. Whoever made the repository already did that.</li>
+    <li><strong>Never</strong> clone a remote repository within a preexisting <span class="vocab">Git</span> repository. If you watched the video for modifying your <code>.bash_profile</code>, then you will see [master] if you're already in a git repository.</li>
+    <li>After cloning a repository, remember to <code>cd</code> into the directory you just cloned to your machine before running commands. If you cannot remember what the directory is called then run<code>ls</code> after cloning to see the contents of your current directory.</li>
+    <li>There is no need to run <code>git init</code> within a repository that you cloned down to your local machine. Remote repositories that you clone to your local machine have already been initialized by git. You only ever need to run <code>git init</code> when you've created a repository locally from scratch. If you mess this one up, it's not going to cause any problems; it's just unnecessary.</li>
+    <li><strong>Don't</strong> use "Initial commit" as your commit message for a cloned repository. Whoever made the repository already did that. You only need "Initial commit" when you make a new repository for yourself.</li>
   </ul>
 </div>
 
