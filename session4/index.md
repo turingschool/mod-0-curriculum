@@ -291,7 +291,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
 
 1. Visit <code>github.com/your_username</code>
 1. Click the plus button in the upper-right corner of GitHub and select "New Repository" from the dropdown. 
-1. Give your repository a name, and dont worry about adjusting any of the othere settings for now.
+1. Give your repository a name, and dont worry about adjusting any of the other settings for now.
 1. Scroll down and click "Create Repository"
 1. Scroll to `…or push an existing repository from the command line`
 1. Paste the lines listed, one at a time, in your terminal. You will need to enter your GitHub username and password (unless you've already setup SSH keys). 
