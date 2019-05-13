@@ -36,24 +36,24 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
   </div>
 </div>
 
-## Follow-Ups and Goals
-### Wins From Feedback
+## Housekeeping and Goals
+### Wins
 
-- Solid understanding of creating repository, pushing to repository, cloning repository, and forking repository (average mastery scores above 4)
-- More breakout rooms.
-- Lots of you are taking initiative to work through confusion on your own.
+- Nice work figuring out pull requests!
+- Really strong git and GitHub diagrams
+- All git and GitHub-related statements on the survey averaged 4 or higher
 
-### Follow-Ups From Feedback
+### Follow-Ups
 
-- We ran into a real bug! Let me explain my process a bit further...
-- The session ran long because of this
-- Part of the session was skipped over and did not make it to the recording - only the intro to Github but no core concepts.
-- Keep asking and answering within the channel.
-- Google for the extra help to solidify concepts
+- Markdown average score: 3.8
+- Combination of "just right" and "too fast" for session pace
+- Don't "Initial Commit" on an already-existing project (like the mod0resources repository)
+- Easy to get lost / sometimes the best way to learn is by making mistakes
+- Edit files using your text editor, not `echo`
 
 ### Other Notes
 
-- Initial commit for starting point (see commits from [mod0references](https://github.com/turingschool-examples/mod0resources/commits/master) repo as an example)
+- Initial commit ONLY for repo starting point (see commits from [mod0references](https://github.com/turingschool-examples/mod0resources/commits/master) repo as an example)
 - Good commit message format: 
 
 ```
@@ -72,8 +72,14 @@ changed data type for age field
 Oops, I need to fix my spelling mistake
 ```
 
-- Instead of simply absorbing information, practice and apply
+- Instead of simply trying to absorb information, practice and apply
 - Today's Goals
+
+## Capstone Preview
+
+We'll break into FE and BE groups to talk briefly about the Mod 0 Capstone and how to submit it (5 min). 
+
+## Intros, Review, and Icebreaker
 
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3>
@@ -91,30 +97,25 @@ Oops, I need to fix my spelling mistake
 
 <span class="vocab">Top Down Design</span> (or step-wise design) is an approach to breaking down a problem or system. In this approach, the designer lays out the problem or system's high-level overview, then breaking down the overview into sub-systems (or sub-steps), then repeating that process until the system has been broken down into the smallest pieces. 
 
-**Why is this important?** A problem that is not broken down into its smallest components remains too complex and abstract to code. 
+#### This is not top-down design:
+<img style="width: 40%" src="https://afinde-production.s3.amazonaws.com/uploads/8706a488-d0f4-41ba-bf76-7151762fd5d1.jpg" alt="draw an owl meme">
 
+<p><em><small>Credit: https://eurokeks.com/</small></em></p>
+
+#### This is the start of a top-down approach:
+<img style="width: 80%" src="images/draw_owl.png" alt="draw an owl top down design">
+
+
+**Why is this important?** A problem that is not broken down into its smallest components remains too complex and abstract to code. In addition, small components allow for reusable and replaceable units of code. 
 
 As humans, we memorize and practice the steps that it takes in order to do even the most basic tasks. If you tell a human to tie their shoe, you (generally) don't need to specify any further instructions. However, if you were to build a shoe-tying machine, you would need to break down the process into the most basic steps. 
 
 <div class="try-it">
-  <h3>Top Down Design: Independent</h3>
-  <p>Watch <a href="https://www.youtube.com/watch?v=QsKkG9gWxF4" title="">Damian Gordon's Top Down Design video</a> where he talks through the process of breaking down the process of making a cup of tea.</p>
-
-  <p>On your own, breakdown steps 6 and 7. Paste your answers in the chat box.</p>
+  <h3>Try It Together: Doing Laundry</h3> 
+  <p>Follow along with your paper and pencil as we walk through breaking down the process of doing laundry.</p>
 </div>
 
-Even though we're not going to write the code for making a cup of tea, imagining the process of breaking down everyday tasks is great practice for getting your brain ready for top down design. 
-
-### Further Break Down
-
-The video only demonstrates one layer deep of breaking down a problem. What would it look like if we broke down the sub-steps?
-
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  <p>When breaking down subsequent layers of a problem, finish an entire layer before creating a new layer.</p>
-  <p>What does this look like?</p>
-  <p>Follow along with Pen and paper as we break down my process of getting ready for bed</p>
-</div>
+Now, in groups! 
 
 <div class="try-it">
   <h3>Try It (Break Out Rooms): Top Down Design</h3> 
@@ -134,9 +135,22 @@ The video only demonstrates one layer deep of breaking down a problem. What woul
   <p>Be ready to share and explain.</p>
 </div>
 
-### Top Down Design and OOP
+##### Feedback
+
+* Are there any sub-steps that look out of place? 
+* Suggest one way that your partner could break down a step further.
+
+
+### Top Down Design in Programming
+
+<img width="70%" src="https://i.ytimg.com/vi/DXEns9nWdqs/maxresdefault.jpg" alt="encrypt and decrypt top down design">
+<p><small>Credit: Liam McQuay (IGCSE Computer Science Youtube Tutorial)</small></p>
 
 Breaking down problems using top down design lends itself nicely to the object-oriented design principles of <span class="vocab">abstraction</span> (where an object performs a task without other objects being concerned about how it is done) and <span class="vocab">encapsulation</span> (where an object handles its own internal states and behind-the-scenes work). 
+
+### Notating Top-Down Design for the Mod 0 Assessment
+
+On your Mod 0 Assessment, you will be asked to break down a scenario using Top Down Design. We'll demonstrate the laundry scenario in a Github Gist and give you a chance to practice with the scenario from your breakout room. 
 
 <hr>
 ## BREAK
@@ -144,320 +158,78 @@ Breaking down problems using top down design lends itself nicely to the object-o
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
 <hr>
 
-<a name="oop"></a>
+<a href="" name="oop"></a>
 ## Object Oriented Programming
 
 <span class="vocab">Object oriented programming</span>, or OOP for short, is an approach to programming (or a [programmming paradigm](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)) where programs are organized as a series of objects. 
 
-OOP is very similar to how the world actually works. Lets take an example of an app that millions of people interact with every day. The app <strong>Spotify</strong> will serve as our real world example. We will break it down into <span class="vocab">objects</span> (bullet points) of various <span class="vocab">classes</span> (bold):
+OOP is very similar to how the world actually works. Objects are created from templates that we call <span class="vocab">classes</span>. 
 
-<strong>Artist</strong>
-- Dr. Dre
-- Ariana Grande
-- Grateful Dead
-- Marvin Gaye
-- Tom Petty
-- Fleetwood Mac
+A class defines attributes (or properties) and methods (or actions). 
 
-<strong>Song</strong>
-- US Blues
-- The Next Episode
-- Thank You, Next
-- Living Over
-- Free Falling
-- Landslide
+<span class="vocab">Attributes</span> contain **data** about a specific object. The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash). 
 
-<strong>User</strong>
-- Tim Tyrrell
-- Rachel Warbelow
-- Katie Scruggs
-- Christopher Lane
-- Leiya Kenney
-- Sejin Kim
+The names of attributes are generally nouns. 
 
-<strong>Playlist</strong>
-- Uplifting Sound
-- Good Love
-- Tycho Selects
-- Michelle Obama: Becoming Motown
-- This is Rainbow Kitten Surprise
-- Your Discover Weekly
+Two good questions to ask when you're determining what should be classified as an attribute are: 
 
-<strong>Genre</strong>
-- Dance
-- Indie
-- Bluegrass
-- Hip Hop
+* "Is this piece of data something that could potentially stay the same over the course of an object's lifetime?" (you want the answer to be yes)
+* "Is there any other data that underlies this piece of data?" (you want the answer to be no)
 
-We group these objects because they have similar attributes/states and behaviors/methods/abilities. 
+CAUTION: Sometimes, methods will *feel* like they should be attributes. For example: `age`, `years_employed`, `percent_full`. 
 
 <div class="try-it">
-  <h3>Classes and Objects</h3>
-  <p>In the chat, post an example of a class and objects of that class within an app that you interact with every day. Example:</p>
-  <strong>Weather Underground</strong><br>
-  <code>City: Denver, Vail, Steamboat</code><br>
-  <code>Forecast: Rain, Snow, Sunny</code>
+  <h3>Try It Together: Bottle Class Attributes</h3> 
+  <p>Follow along as we walk through defining a bottle class with three different bottle objects.</p>
+  <b>NOTE</b>: For consistency in this lesson, we're going to stick to the naming convention of <code>snake_case</code>. This will look very Ruby-esque. However, in JavaScript land, you'll see <code>camelCase</code>. 
 </div>
 
-#### Classes and Objects
+<span class="vocab">Methods</span> define **behavior** of an object, **actions** that can be performed on that object, or **calculations** that generally use . Methods are generally verbs (action words or short action phrases). 
 
-Think of a <span class="vocab">class</span> as a blueprint that can be used for creating lots of different versions of itself. For example, here are a few classes that we can organize the Zoom software into:
-
-```
-Participant
-Session
-Host
-Breakout_Room
-```
-
-An <span class="vocab">object</span>, on the other hand, **is** a very specific instance of a class. An object is what is created from the blueprint. 
-
-<table>
-  <thead>
-    <tr>
-      <th>Class</th>
-      <th>Objects of that class</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Participant</td>
-      <td>Elyse, Djavan, Jessie</td>
-    </tr>
-    <tr>
-      <td>Session</td>
-      <td>Session 1, Session 2, Session 3, etc</td>
-    </tr>
-    <tr>
-      <td>Host</td>
-      <td>Katie, Tim, Rachel</td>
-    </tr>
-    <tr>
-      <td>Breakout_Room</td>
-      <td>Frontend Room, Backend Room</td>
-    </tr>
-  </tbody>
-</table>
-
-The objects are similar enough in attributes/states and behaviors/methods/abilities that they are part of the same class. 
-
-Sidenote: Let's imagine that the hosts had different permission levels so they shared some functionality, but not all functionality. As an example, all hosts can mute participants and send a message to the chat, but maybe only Katie can create breakout rooms or end the session. How do we account for this within the same **Host** class? In addition, maybe certain levels of hosts are paid each time they participate in a zoom session, while other hosts only volunteer. Then you may need to create completely separate classes: **Paid_Host** and **Volunteer_Host**.
-
- **This is up to you as the developer to figure out how similar or different your objects are.**
-
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  <p>One trick you can use when determining whether something is an object or a class is to say:</p>
-  <p><strong>[Object] is a type of [Class]</strong></p>
-  <p>- Tim is a type of Host</p>
-  <p>- Backend Room is a type of Breakout Room</p>
-  <p>- Ayla is a type of Participant</p>
-</div>
+Methods generally answer the question "What can this thing do?" or "What can be done to this thing?"
 
 <div class="try-it">
-  <h3>Classes vs. Objects</h3>
-  <p>Switching gears - Here you will categorize a few real-world examples that are not related to software. This is a chance to use what you've learned on something more abstract. On your own, categorize the following classes and objects.</p>
-  <textarea name="">
-car, poodle, Ford Mustang, scrabble, tent, chess, game, Nissan Juke, rose, dog, daisy, shelter, chihuahua, orchid, apartment, bulldog, monopoly, flower, Honda Civic
-  </textarea>
-  <br><br>
-  <table class="objectclass">
-  <thead>
-    <tr>
-      <th>Class</th>
-      <th>Objects of that class</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><textarea name=""></textarea></td>
-      <td><textarea name=""></textarea></td>
-    </tr>
-    <tr>
-      <td><textarea name=""></textarea></td>
-      <td><textarea name=""></textarea></td>
-    </tr>
-    <tr>
-      <td><textarea name=""></textarea></td>
-      <td><textarea name=""></textarea></td>
-    </tr>
-    <tr>
-      <td><textarea name=""></textarea></td>
-      <td><textarea name=""></textarea></td>
-    </tr>
-    <tr>
-      <td><textarea name=""></textarea></td>
-      <td><textarea name=""></textarea></td>
-    </tr>
-  </tbody>
-</table>
+  <h3>Try It Together: Bottle Class Methods</h3> 
+  <p>Follow along as we walk through defining a bottle class with three different bottle objects.</p>
 </div>
 
-#### Attributes and Methods
+#### Key Points
 
-<span class="vocab">Attributes</span> contain information about the **state** of a specific object (or instance of a class). The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash). 
+* A method performs some kind of work and will almost always **use** or **modify** an attribute
+* Anything that does work (calculations) should be a method, not an attribute
+* Attributes are generally nouns (99.9% of time)
+* Methods are generally verbs (90% of time -- can also be questions OR nouns that are the result of calculations)
+* One quick side note: accessor methods are outside the scope of today's lesson. 
 
-> Attributes answer the question "What characteristics might distinguish this specific object from another object of the same class?". 
+### Can You Spot the Problem? 
 
-For example: "What characteristics might distinguish this specific playlist from another playlist?
+What would be wrong with...
 
-
-As we're looking at the examples below, note that I am using capital letters and an underscore for the attribute names. This is not a rule; this is simply a convention I'm using for today's lesson. Lets return to our Spotify example:
-
-```
-Playlist
-
-Attributes:
-Name (string)
-Created_On (datetime) -- this is not one of the data types we discussed, but it's valid
-Recently_Played (boolean)
-Songs (array)
-```
-Post two more attributes in the chat. 
-
-
-All of these things would differentiate one playlist from another, but none of these attributes are **behaviors** or **actions**. For example, I didn't include `Add_Song_To_Playlist` as an attribute because that's an action, not a state.
-
-```
-Artist
-
-Attributes:
-Name (string)
-Active (boolean)
-Followed_By (array)
-Albums (array)
-```
-Post two more attributes in the chat. 
-
-Again, all of these attributes would differentiate one Artist from another. Notice that this last attribute, `Albums`, could be an array containing strings of song names, or an array of `Song` objects depending on how the program is set up. Again, none of these attributes are **behaviors** or **actions**. That's why I didn't include `Add_Album` or `Add_Song`.
-
-```
-User
-
-Attributes:
-Username (string)
-Paid (boolean)
-Active (boolean)
-Playlists (array)
-```
-Post two more attributes in the chat. 
-
- Notice I didn't include `Follow_Artist` or `Follow_Playlist` because those are both **behaviors** or **actions**.
-
-#### Methods
-
-<span class="vocab">Methods</span> define **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the question "What things can objects of this specific class do?"
-
-For example: "What things can Playlists do?" or "What things can Artists do?"
-
-Let's look at a few examples: 
-
-```
-Playlist
-
-Attributes:
-Name (string)
-Created_On (datetime)
-Songs (array)
-Created_By (string)
-Followers (array)
-
-Methods:
-Add_Song
-Rename
-```
-Post two more methods in the chat. 
-
-
-Unlike attributes, methods do not necessarily differentiate one instance of the object from another. For example, the steps that two users would take to add songs might be identical. The steps they take to share their playlist with another user might also be identical. Often (but not always), a method will use or change an attribute. For example,`Rename` would change the `Name` attribute. The `Add_Song` method would change the `Songs` attribute by adding a `Song` instance to the array. And, the `Shuffle` method would access the `Songs` attribute and change the order. `Add_Song` would also lead to the method `Number_Of_Songs` returning a different result, because we can infer that this method returns the length or count of the `Songs` array.
-
-Here's another example (intentionally vague):
-
-```
-Artist
-
-Attributes: 
-Name (string)
-Genre (string)
-
-
-Methods: 
-Add_Album
-```
-Post two methods and two attributes in the chat
-
+* a class called `Turing` 
+* an attribute called `current_time`
+* having attributes for a `Review` class called `one_star`, `two_stars`, `three_stars`, etc.
+* a class called `TacoBell`
+* having attributes on a `ShoppingCart` class called `item_one`, `item_two`, `item_three`, etc.
+* a method on `GroceryStore` called `clean_aisle_seven`
+* a `Bottle` class having an attribute called `water`
 
 <div class="try-it">
-  <h3>Try It: Attributes vs. Methods</h3>
-  <p>Lets switch gears and use what we've learned to organize an object that is not related to an app. By yourself, categorize the following as either <strong>attributes</strong> of a car or <strong>methods</strong> of a car.</p>
-  <textarea name="">
-Model, Reverse, Color, Fill_Tank, Gas_Tank, Beep, Current_Speed, Start_Engine, Year, Change_Oil, Last_Oil_Change, Tire_Size, Turn, Stop
-  </textarea>
-  <br><br>
-  <table class="objectclass">
-  <thead>
-    <tr>
-      <th>Attributes</th>
-      <th>Methods</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><textarea name=""></textarea></td>
-      <td><textarea name=""></textarea></td>
-    </tr>
-  </tbody>
-</table>
+  <h3>Try It (Big Breakout Rooms)</h3> 
+  <p>Make a copy of <a href="https://docs.google.com/document/d/17NykxDAM3OrlAm4xwYLY7uh_YokLyPgP0ahmkJ1Rd5s/edit?usp=sharing" title="" target="_blank">this document</a> which your group will use to practice.</p>
+  <p>Person whose first name starts closest to Q will share their screen and choose one of the following classes:</p>
+  <ul>
+    <li>Vehicle</li>
+    <li>Book</li>
+    <li>Playlist</li>
+    <li>GroceryStore</li>
+  </ul>
+  <p>As a team, brainstorm the attributes (and data types), methods (and descriptions) for your chosen class. Each person should be keeping their own copy up to date to use as a reference.</p>
+  <p>Person whose first name starts closest to the letter A will suggest an object that is an instance of the class. This is Object #1.</p>
+  <p>Brainstorm the values for each attribute of that object.</p>
+  <p>Brainstorm the results of each method called on that object.</p>
+  <p>Person whose first name starts closest to the letter E will suggest a second object that is an instance of the class. This is Object #2.</p>
+  <p>Repeat the brainstorm process for attributes and methods for object #2. </p>
 </div>
-
-<div class="try-it">
-  <h3>Big Breakout Rooms: Classes, Attributes, and Methods</h3>
-  <p>1. The new driver is the person whose birthday happened most recently. Everyone else will be a navigator.</p>
-  <p>2. Driver: Share your screen and open up a new blank file in your text editor (command + n). You do not need to save this file.</p>
-  <p>3. Think back to your grocery shopping app from session 2. With your group, brainstorm at least three classes that might exist in a shopping app (keeping in mind that you're thinking <code>blueprint</code>, not specific items) and jot your ideas down in your text editor. Need an example? <code>Store</code> would be a good example of a class.</p>
-  <p>4. Next, select three of the classes your team brainstormed. For those classes, jot down attributes for the four selected objects.<strong>Explain why they are not methods. Do they rely on other data or a calculation? Then they are not attributes.</strong> As an example, if I selected <code>Store</code> as one of my classes, I would write in my text editor:</p>
-  <pre>
-    Store
-
-    Attributes:
-    Name (string)
-    ClosingHour (datetime)
-  </pre>
-  <p>5. Select two classes from your shopping app that lend themselves nicely to brainstorming methods. For example, <code>Product</code> might not have many easily brainstormed methods, but <code>Cashier</code> or <code>Customer</code> might.</p>
-  <p>6. Brainstorm methods for the two selected classes. <strong>Explain why they are not attributes.</strong></p> 
-  <p>7. Discuss whether your brainstormed methods would use/change any attributes. If so, which ones?</p>
-</div>
-
-### Individual Practice Round
-
-<div class="try-it">
-  <h3>Classes in an App</h3>
-  <ol>
-      <li>Choose one of these apps:</li>
-      <ul>
-        <li>Facebook</li>
-        <li>Instagram</li>
-        <li>Gmail</li>
-        <li>Google Maps</li>
-    </ul>
-      <li>Brainstorm two classes in your chosen app.</li>
-      <li>List the attributes for both classes.</li>
-      <li>List the methods for both classes.</li>
-  </ol>
-  <p>Be ready to share with a group and give/receive feedback.</p>
-</div>
-
-### Share and Feedback
-
-The person with the longest last name will share first.
-
-1. What app did you choose? (Facebook, Instagram, Gmail, Google Maps)
-1. What two classes did you identify for that system? How do you know they are classes? (Group: provide feedback to confirm or adjust)
-1. What are the **attributes** for your first class? How do you know they are attributes and NOT methods? (Group: provide feedback to confirm or adjust)
-1. What are the **attributes** for your second class? How do you know they are attributes and NOT methods? (Group: provide feedback to confirm or adjust)
-1. What are the **methods** for your first class? How do you know they are methods and NOT attributes? (Group: provide feedback to confirm or adjust)
-1. What are the **methods** for your second class? How do you know they are methods and NOT attributes? (Group: provide feedback to confirm or adjust)
-1. Switch roles and repeat.
 
 ### Notating Classes, Objects, Attributes, and Methods for the Mod 0 Assessment
 
@@ -473,7 +245,7 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
 
   <p>This work portion assessment should take you approximately 70 minutes, but we recommend taking an additional 10 minutes to throughly read over the expectations outlined in this document. The timed nature is meant to get you used to working under pressure.</p>
 
-  <p class="important"><strong>First,</strong> fork the assessment checklist. You will use this checklist to ensure that you have met the Mod 0 Technical Assessment expectations. (This checklist will be provided to you when you start the assessment).</p>
+  <p class="important"><strong>First,</strong> fork the assessment checklist. You will use this checklist to ensure that you have met the Mod 0 Technical Assessment expectations.</p>
 
   <h4>Part I: Creating Directories and Files; Initializing Git and Pushing to GitHub (10 min)</h4>
 
