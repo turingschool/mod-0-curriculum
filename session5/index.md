@@ -291,5 +291,5 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
   </ol>
 
   <h4 class="important">Done?</h4>
-  <p>Check off all of the items on your forked checklist, then send the checklist to Tim and Rachel in a DM on Slack.</p>
+  <p>Check off all of the items on your forked checklist, then send the checklist to Tim, Rachel, Joanne, and Katie in a DM on Slack.</p>
 </div>
