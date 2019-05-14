@@ -40,15 +40,13 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 ### Wins
 
 - Nice work figuring out pull requests!
-- Really strong git and GitHub diagrams
-- All git and GitHub-related statements on the survey averaged 4 or higher
+- Creative, well-done git diagrams 
+- All git and GitHub-related statements on the survey averaged 4.5 or higher
 
 ### Follow-Ups
 
-- Markdown average score: 3.8
-- Combination of "just right" and "too fast" for session pace
-- Don't "Initial Commit" on an already-existing project (like the mod0resources repository)
-- Easy to get lost / sometimes the best way to learn is by making mistakes
+- Markdown average score: 3.4 (we forgot to take that question off of the survey!)
+- Don't "Initial Commit" on an already-existing project (like the mod0resources repository); remember to start with a present-tense verb with a capital letter (like Add, Change, Remove, Fix, Make, etc.)
 - Edit files using your text editor, not `echo`
 
 ### Other Notes
@@ -74,10 +72,6 @@ Oops, I need to fix my spelling mistake
 
 - Instead of simply trying to absorb information, practice and apply
 - Today's Goals
-
-## Capstone Preview
-
-We'll break into FE and BE groups to talk briefly about the Mod 0 Capstone and how to submit it (5 min). 
 
 ## Intros, Review, and Icebreaker
 
@@ -135,12 +129,6 @@ Now, in groups!
   <p>Be ready to share and explain.</p>
 </div>
 
-##### Feedback
-
-* Are there any sub-steps that look out of place? 
-* Suggest one way that your partner could break down a step further.
-
-
 ### Top Down Design in Programming
 
 <img width="70%" src="https://i.ytimg.com/vi/DXEns9nWdqs/maxresdefault.jpg" alt="encrypt and decrypt top down design">
@@ -150,7 +138,13 @@ Breaking down problems using top down design lends itself nicely to the object-o
 
 ### Notating Top-Down Design for the Mod 0 Assessment
 
-On your Mod 0 Assessment, you will be asked to break down a scenario using Top Down Design. We'll demonstrate the laundry scenario in a Github Gist and give you a chance to practice with the scenario from your breakout room. 
+On your Mod 0 Assessment, you will be asked to break down a scenario using Top Down Design. We'll demonstrate the laundry scenario in a Github Gist. 
+
+<div class="try-it">
+  <h3>Try It: Notating Top Down Design</h3> 
+  <p>Open a new gist and use decimal notation to write out your top down design appoach with the scenario you chose from your group.</p>
+  <p>Post your gist link in the chat.</p>
+</div>
 
 <hr>
 ## BREAK
@@ -223,7 +217,7 @@ What would be wrong with...
     <li>Playlist</li>
     <li>GroceryStore</li>
   </ul>
-  <p>As a team, brainstorm the attributes (and data types), methods (and descriptions) for your chosen class. Each person should be keeping their own copy up to date to use as a reference.</p>
+  <p>As a team, brainstorm at least five attributes (and data types) and five methods (and descriptions) for your chosen class. Each person should be keeping their own copy up to date to use as a reference.</p>
   <p>Person whose first name starts closest to the letter A will suggest an object that is an instance of the class. This is Object #1.</p>
   <p>Brainstorm the values for each attribute of that object.</p>
   <p>Brainstorm the results of each method called on that object.</p>
@@ -233,7 +227,13 @@ What would be wrong with...
 
 ### Notating Classes, Objects, Attributes, and Methods for the Mod 0 Assessment
 
-On your Mod 0 Assessment, you will be asked to identify classes, objects, attributes, and methods. We'll demonstrate the format we want you to use, then we'll give you some time to try it out with the class from your breakout room. 
+On your Mod 0 Assessment, you will be asked to identify classes, objects, attributes, and methods. We'll demonstrate the format we want you to use.
+
+<div class="try-it">
+  <h3>Try It: Notating Classes, Objects, Attributes, and Methods</h3> 
+  <p>Create two gists. In the first gist, use the notation we demonstrated to write out your class. In the second gist, use the notation we demonstrated to write out your first object.</p>
+  <p>Post the links to both of your gists in the chat.</p>
+</div>
 
 <a name="assessmentprev"></a>
 ## Mod 0 Technical Assessment
@@ -275,8 +275,8 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
     <li>Inside of <code>...</code>, create four files: <code>...</code>, <code>...</code>, <code>...</code>, and <code>...</code><em>(If you're comfortable trying markdown at this point, feel free to use .md instead of .txt).</em> </li>
     <li>Open up <code>...</code> in your text editor.</li>
     <li>Brainstorm one class that might exist in a <code>...</code> and put this at the top of the file.</li>
-    <li>List at least three attributes for that class. In parentheses, list the data type for that attribute (string, boolean, integer, float, hash/object, datetime).</li>
-    <li>List at least three methods for that class. In parentheses, explain what the method does, including the names of the attributes that it uses or modifies.</li>
+    <li>List at least four attributes for that class. In parentheses, list the data type for that attribute (string, boolean, integer, float, hash/object, datetime).</li>
+    <li>List at least four methods for that class. In parentheses, explain what the method does, including the names of the attributes that it uses or modifies.</li>
     <li>Save your file.</li>
     <li>Add and commit your changes for this class.</li>
     <li>Open up <code>...</code> in your text editor.</li>
