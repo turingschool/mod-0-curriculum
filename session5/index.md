@@ -235,6 +235,12 @@ On your Mod 0 Assessment, you will be asked to identify classes, objects, attrib
   <p>Post the links to both of your gists in the chat.</p>
 </div>
 
+### Example Files
+
+- <a href="https://gist.github.com/rwarbelow/aa554ea9091efe6ed1a8ae66e95430a0" title="">Class Example</a>
+- <a href="https://gist.github.com/rwarbelow/2639de952d5cc4e862662d04dfef2a64" title="">Object Example</a>
+
+
 <a name="assessmentprev"></a>
 ## Mod 0 Technical Assessment
 
