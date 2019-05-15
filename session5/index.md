@@ -124,7 +124,7 @@ Now, in groups!
     <li>Starting a campfire</li>
     <li>[Choose your own adventure]</li>
   </ul>
-  <p>As a group, use a Top-Down Design approach to break down the scenario. Everyone should have their own diagram to share when we pair up afterward.</p>
+  <p>As a group, use a Top-Down Design approach to break down the scenario. Everyone should have their own diagram.</p>
   <p>Done? Review, revise, and choose another scenario.</p>
   <p>Be ready to share and explain.</p>
 </div>
@@ -143,7 +143,7 @@ On your Mod 0 Assessment, you will be asked to break down a scenario using Top D
 <div class="try-it">
   <h3>Try It: Notating Top Down Design</h3> 
   <p>Open a new gist and use decimal notation to write out your top down design appoach with the scenario you chose from your group.</p>
-  <p>Post your gist link in the chat.</p>
+  <p>Post your gist link in the chat, and be ready to give feedback to the person you're paired up with (will be posted in the chat while you're working).</p>
 </div>
 
 <hr>
