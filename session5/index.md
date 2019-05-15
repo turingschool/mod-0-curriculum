@@ -157,9 +157,9 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 
 <span class="vocab">Object oriented programming</span>, or OOP for short, is an approach to programming (or a [programmming paradigm](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)) where programs are organized as a series of objects. 
 
-OOP is very similar to how the world actually works. Objects are created from templates that we call <span class="vocab">classes</span>. 
+OOP is very similar to how the world actually works. <span class="vocab">Objects</span> are created from templates that we call <span class="vocab">classes</span>. 
 
-A class defines attributes (or properties) and methods (or actions). 
+A class defines attributes (or properties) and methods (or actions). An object is a very specific instance of a class. For example, if the class were Car, two objects might be 2007 Blue Nissan Versa and 2014 Silver Nissan Juke.
 
 <span class="vocab">Attributes</span> contain **data** about a specific object. The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash). 
 
