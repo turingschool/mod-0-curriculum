@@ -12,6 +12,7 @@ subheading: Googling, Classes, Data Types, Iteration
       <li>use keyboard shortcuts to navigate your computer and Chrome</li>
       <li>brainstorm classes for specific objects</li>
       <li>refine searching and filtering skills to Google programming questions</li>
+      <li>recognize mistakes in code</li>
       <li>define and identify use cases for basic data types</li>
       <li>demonstrate iteration in real-world and programming sitauations</li>
     </ul>
@@ -24,6 +25,7 @@ subheading: Googling, Classes, Data Types, Iteration
       <li><strong>10 min: </strong><a href="#classes">Classes</a></li>
       <li><strong>15 min: </strong><a href="#findinganswers">Googling</a></li>
       <li><strong>5 min: </strong>Break</li>
+      <li><strong>10 min: </strong><a href="#mistakes">Recognizing Mistakes in Code</a></li>
       <li><strong>30 min: </strong><a href="#datatypes">Basic Data Types</a></li>
       <li><strong>30 min: </strong><a href="#iteration">Iteration</a></li>
       <li><strong>5 min: </strong><a href="#homework">Homework Preview</a></li>
@@ -281,6 +283,74 @@ Once you formulate a good Google search and receive your results, there are a fe
 ## BREAK
 
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
+
+<a name="mistakes"></a>
+## Recognizing Mistakes
+
+About 90% of the time (especially as a beginner), the reason your code won't work is because of a typo. For this reason, it's important to start training your eyes to recognize slight differences between correct and incorrect code. 
+
+Here's an example. Can you spot the mistake?
+
+<div>
+  <div class="flex-container">
+    <div class="">
+<pre>
+document.querySelector('.ghost').classList.toggle('x');
+</pre>
+    </div>
+    <div class="">
+<pre>
+document.querySelector('ghost').classList.toggle('x');
+</pre>
+    </div>
+  </div>
+</div>
+
+<div class="try-it">
+  <h3>Try It: Recognizing Mistakes</h3>
+  <p>Use the original column (left) and mistake column (right) to practice recognizing mistakes. How many can you spot?</p>
+  <table style="background: white; font-family: monospace; font-size: 1.2em;">
+  <thead>
+    <tr>
+      <th>Original</th>
+      <th>Mistakes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>git commit -m "Add new file"</td>
+      <td>git commit -m "Add new file'</td>
+    </tr>
+    <tr>
+      <td>function doThings() {<br>
+&nbsp;&nbsp;return false<br>
+}</td>
+<td>function doThings() { <br>
+&nbsp;&nbsp;returns false <br>
+}</td>
+    </tr>
+    <tr>
+      <td>#footer { <br>
+&nbsp;&nbsp;background: url("img_tree.gif");<br>
+&nbsp;&nbsp;border: 3px solid black; <br>
+}</td>
+      <td>#footer { <br>
+&nbsp;&nbsp;background: url("img_tree.gif");<br>
+&nbsp;&nbsp;border: 3 px solid black; <br>
+}</td>
+    </tr>
+    <tr>
+      <td>&lt;h1&gt;This is a REALLY large heading&lt;/h1&gt;</td>
+      <td>&lt;h1&gt;This is a REALLY large heading&lt;h1&gt;</td>
+    </tr>
+    <tr>
+      <td>"SELECT \"developers\".* FROM \"developers\""</td>
+      <td>"SELECT \"developers\"*. FROM \"developers\""</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
 <a name="datatypes"></a>
 ## Basic Data Types 
