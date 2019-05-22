@@ -349,7 +349,10 @@ document.querySelector('ghost').classList.toggle('x');
     </tr>
   </tbody>
 </table>
+<p>Be ready to share: What strategies are most effective for you personally when trying to spot mistakes?</p>
 </div>
+
+
 
 
 <a name="datatypes"></a>
