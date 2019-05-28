@@ -138,7 +138,7 @@ In the diagram below, we would say that there's a directory called `essays` that
 <div class="things-to-note">
   <h4>Things to Note</h4>
   <ol>
-    <li>A file cannot be inside of another file. This means that every part of the path *before* the actual file is a directory. </li>
+    <li>A file cannot be inside of another file. This means that every part of the path <strong>before</strong> the actual file is a directory. </li>
     <li>For now, we will follow two convention rules: </li>
     <ul>
       <li>Use lower case letters when naming directories and files</li>
