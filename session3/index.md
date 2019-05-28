@@ -731,7 +731,7 @@ The basic git workflow is this:
 
   <p>If you are already comfortable with git, your challenge during the breakout is somewhat more difficult: your goal is to focus on your explanations, communication, and ability to gauge whether or not another person understands you.</p>
   <ol>
-    <li>Get back to your home directory by typing <code>cd</code></li>
+    <li>Get back to your home directory</li>
     <li>Create a new directory called <code>to_do</code>. Inside of that directory, create a file called <code>tasks.txt</code>.</li>
     <li>Initialize git inside of the <code>to_do</code> directory so that we have git available to track changes.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
