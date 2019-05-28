@@ -549,7 +549,7 @@ Action Commands
   <li><a href="#commit" title="">git commit</a></li>
 </ul>
 
-Safe Commands
+Safe/Informative Commands
 <ul>
   <li><a href="#status" title="">git status</a></li>
   <li><a href="#diff" title="">git diff</a></li>
