@@ -426,7 +426,7 @@ chapter_2.txt
 <div class="things-to-note">
   <h4>Things to Note</h4>
   <ul>
-    <li>A file removed using the <code>rm</code> command <strong>does not</strong> go into your trash can where you could restore it later.</li> 
+    <li>A file removed using the <code>rm</code> command <strong>does not</strong> go into your trash where you could restore it later.</li> 
     <li>Although it may be possible to recover files deleted with <code>rm</code>, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the <code>rm</code> command is gone for good.</li>
   </ul>
 </div>
