@@ -26,7 +26,7 @@ subheading: Terminal, File/folder Structure, Git Basics
       <li><strong>35 min: </strong><a href="#terminalcommandline">Terminal and Command Line</a></li>
       <li><strong>5 min: </strong>Break</li>
       <li><strong>40 min: </strong><a href="#git">Git Basics</a></li>
-      <li><strong>5 min: </strong><a href="#homework">Homework Preview</a></li>
+      <li><strong>5 min: </strong><a href="#troubleshooting">Troubleshooting Demo</a></li>
     </ul>
   </div>
   <div>
@@ -760,6 +760,7 @@ The basic git workflow is this:
   <p><strong>Done?</strong> Switch drivers and try the process again!</p>
 </div>
 
+<a name="troubleshooting"></a>
 <div class="things-to-note">
   <h4>Things to Note: Oh no, my terminal is broken!</h4>
   <ol>
@@ -777,8 +778,6 @@ Understanding git and the workflow can be tricky at first; however, this pattern
 Today (and during Mod 0), we'll just be moving forward in time using git. We won't learn how to go back in time, but it's important to understand and master making small commits before adding in new git functionality. 
 
 We do not expect you to have these steps and reasons memorized right now. You can always reference back to this tutorial (or other tutorials that you find online). The more you practice, the easier it will become. 
-
-<a name="homework"></a>
 
 ## Homework
 
