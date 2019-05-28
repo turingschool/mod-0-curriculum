@@ -170,6 +170,15 @@ In the diagram below, we would say that there's a directory called `essays` that
   </div>
 </div>
 
+<div class="things-to-note">
+  <h4>Things to Note</h4>
+  <ol>
+    <li>
+       We commonly refer to directories with an analogy of <span class="vocab">parent</span> and <span class="vocab">child</span>. In the above example <code>to_do</code> is the <span class="vocab">parent</span> directory of the <code>home</code> and <code>work</code> directories. <code>projects_to_delectate</code> is a <span class="vocab">child</span> directory of the <code>work</code> directory.
+    </li>
+  </ol>
+</div>
+
 <hr>
 <a name="terminalcommandline"></a>
 ## Terminal and Command Line
@@ -577,7 +586,7 @@ timo@Tims-MacBook-Pro:~/notes$ git init
 Initialized empty Git repository in /Users/timo/notes/.git/
 ```
 
-This means git will now be available to use to track changes in the `notes` directory. This does **not** mean that git is tracking anything yet. Git is now prepared to track activity in th `notes` directory
+This means git now **HAS THE ABILITY** to track changes in the `notes` directory. This does **not** mean that git is tracking anything yet. Git is now prepared to track activity in th `notes` directory
 
 *NOTE*: If you don't see this message when you try `git init`, it means you have not set up git on your computer. 
 
@@ -588,10 +597,12 @@ This means git will now be available to use to track changes in the `notes` dire
       <img src="images/files_directories_2.png" alt="">
     </div>
     <div>
-      <p>1. You only need to initialize a directory once in order to track everything else inside of it. </p>
+      <p>1. You only need to initialize a directory <strong>once</strong> in order to track everything else inside of it. </p>
       <p>For example, if I typed this while in the essays directory:</p>
       <pre>timo@Tims-MacBook-Pro:~/essays$ git init</pre>
       <p>Then every file inside that directory, regardless of how deeply nested, would be available for git tracking.</p>
+      <p><strong>Do not run the git init command more than once in the same directory or in child directories of the directory you initially ran it from. It will never be the answer to the problem you are facing</strong></p>
+      <p><strong>Do not run the git init command more than once in the same directory or in child directories of the directory you initially ran it from. It will never be the answer to the problem you are facing</strong></p>
       <p>2. Empty directories are <strong>not</strong> tracked by git. Therefore, if you create a directory but there's nothing inside of it, git will ignore it. Git will only track it when there is a file inside of the directory.</p>
     </div>
   </div>
