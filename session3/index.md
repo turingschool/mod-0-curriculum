@@ -178,7 +178,7 @@ The <span class="vocab">terminal</span> is what we call a command line interface
 
 Your terminal will look something like this:
 
-<img src="images/terminal.png" alt="">
+<img src="images/tim_terminal.png" alt="">
 
 <a name="profiledetour"></a>
 The text `timo@Tims-MacBook-Pro:~$` is called the command prompt, and the `$` indicates that it's ready to accept input.
@@ -191,18 +191,27 @@ If you want to further customize your command prompt, check out the [EZPrompt Ge
 
 In this section on command prompts, we'll learn (or review) the commands below. We'll look at all 10 together (take notes!), then you'll go into breakout rooms to practice them. 
 
-<ol>
-  <li><a href="#pwd" title="">pwd</a></li>
+Action Commands
+<ul>
   <li><a href="#mkdir" title="">mkdir</a></li>
-  <li><a href="#ls" title="">ls</a></li>
   <li><a href="#cd" title="">cd</a></li>
   <li><a href="#cddot" title="">cd ..</a></li>
   <li><a href="#touch" title="">touch</a></li>
   <li><a href="#echo" title="">echo</a></li>
   <li><a href="#cat" title="">cat</a></li>
+</ul>
+
+Safe/Informative Commands
+<ul>
+  <li><a href="#pwd" title="">pwd</a></li>
+  <li><a href="#ls" title="">ls</a></li>
+</ul>
+
+Destructive Commands
+<ul>
   <li><a href="#rm" title="">rm</a></li>
   <li><a href="#rmrecursive" title="">rm -rf</a></li>
-</ol>
+</ul>
 
 <a name="pwd"></a>
 ### 1. Where am I? (pwd)
@@ -388,7 +397,7 @@ It was the best of times, it was the worst of times
 <a name="rm"></a>
 ### 9. Remove a File (rm)
 
-In the past, you've probably gotten rid of files by dragging them to the trash and then emptying it, like this:
+In the past, you've probably gotten rid of files by using the `Move to trash` command or dragging them into the trash, like this:
 
 <img src="images/filetotrash.gif" alt="file to trash" style="height: 250px;">
 
