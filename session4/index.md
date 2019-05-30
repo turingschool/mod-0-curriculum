@@ -212,12 +212,14 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
   <p>As you and your group walk through the git review below, it might be a good idea to have <a href="/session3#init" title="">Session 3's Git Notes</a> open.</p>
   <ol>
     <li>Before we do this, make sure the driver is in the home directory by typing <code>cd</code></li>
-    <li>Create a new directory called <code>session_4_git_practice</code>. Inside of that directory, create a file called <code>coding_languages.txt</code>.</li>
+    <li>Create a new directory called <code>session_4_git_practice</code>. Inside of that directory, create three files called <code>coding_languages.txt</code>,<code>programming_terms.txt</code>, and<code>git_terms.txt</code>.</li>
     <li>Tell git to start watching the <code>session_4_git_practice</code> directory.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Add <code>coding_languages.txt</code> to the staging area.</li>
-    <li>Make your first commit in this directory.</li>
+    <li>Make your first commit in this directory. What should the commit message here be?</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
+    <li>Add <code>programming_terms.txt</code> and<code>git_terms.txt</code> to the staging area.</li>
+    <li>Make your second commit in this directory. This commit should include both files from the previous step. What should the commit message here be? Why? What conventions have we talked about?</li>
     <li>Use the echo command to add the names of two separate coding languages to <code>coding_languages.txt</code>. You may Google "programming languages" if you can't think of any.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Before you check the difference between your last commit and what the file looks like now, predict what it will say. Then, check the diff.</li>
@@ -225,7 +227,8 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Commit the changes using a properly formatted commit message.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
-    <li>Repeat steps 8-14 again, adding the names of two new coding languages.</li>
+    <li>Repeat steps 10-16 again, adding the names of some programming terms and some git terms to the respective files.</li>
+    <li>Add and commit the changes to these two files <strong>together</strong> with a properly formatted commit message.</li>
   </ol>
   <p><strong>Finished before time is up? Repeat, but choose a different driver this time.</strong></p>
 </div>
