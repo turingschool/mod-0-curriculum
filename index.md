@@ -11,11 +11,9 @@ Complete the following steps before Mod 0 in order to get the tools you'll need 
 
 If this is your first time using a Mac instead of a PC or Linux, then watch [this video](https://www.youtube.com/watch?v=MN0FD8KW2V4) about the basics of using a Mac.
 
-### 2) Install a Text Editor
+### 2) Install Atom as your Text Editor
 
-If you will be a *front-end student*, install [Sublime](https://www.sublimetext.com/). Sublime Text is a program where we edit code - it is a free text editor with many great features that makes editing code more enjoyable compared to a simple text editor. Sublime Text is commonly used in the software development industry, and you will use it throughout your time at Turing. It is a free program, but it will ask you periodically to make a donation - you can just decline and keep using Sublime Text for free.
-
-If you will be a *back-end student*, install [Atom](https://atom.io/). Atom is a program where we edit code - it is a text editor with many great features that makes editing code more enjoyable compared to a simple text editor. Atom is commonly used in the software development industry, and we use it throughout your time at Turing.
+Install [Atom](https://atom.io/). Atom is a program where we edit code - it is a text editor with many great features that makes editing code more enjoyable compared to a simple text editor. Atom is commonly used in the software development industry, and we will use it throughout your time at Turing.
 
 ### 3) Install Xcode
 
