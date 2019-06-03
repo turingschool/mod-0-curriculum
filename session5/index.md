@@ -202,10 +202,13 @@ What would be wrong with...
 * a class called `Turing` 
 * an attribute called `current_time`
 * having attributes for a `Review` class called `one_star`, `two_stars`, `three_stars`, etc.
-* a class called `TacoBell`
+* a `Senator` class having an array attribute called `senator_names`
+* a class called `California`
 * having attributes on a `ShoppingCart` class called `item_one`, `item_two`, `item_three`, etc.
 * a method on `GroceryStore` called `clean_aisle_seven`
 * a `Bottle` class having an attribute called `water`
+* a `Chair` class having an attribute called `number_of_chairs`
+* a `MenuItem` class with a method called `CustomerSurvey`
 
 <div class="try-it">
   <h3>Try It (Big Breakout Rooms)</h3> 
