@@ -45,7 +45,6 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 
 ### Follow-Ups
 
-- Markdown average score: 3.4 (we forgot to take that question off of the survey!)
 - Don't "Initial Commit" on an already-existing project (like the mod0resources repository); remember to start with a present-tense verb with a capital letter (like Add, Change, Remove, Fix, Make, etc.)
 - Edit files using your text editor, not `echo`
 
@@ -70,7 +69,6 @@ changed data type for age field
 Oops, I need to fix my spelling mistake
 ```
 
-- Instead of simply trying to absorb information, practice and apply
 - Today's Goals
 
 ## Intros, Review, and Icebreaker
@@ -202,10 +200,13 @@ What would be wrong with...
 * a class called `Turing` 
 * an attribute called `current_time`
 * having attributes for a `Review` class called `one_star`, `two_stars`, `three_stars`, etc.
-* a class called `TacoBell`
+* a `Senator` class having an array attribute called `senator_names`
+* a class called `California`
 * having attributes on a `ShoppingCart` class called `item_one`, `item_two`, `item_three`, etc.
 * a method on `GroceryStore` called `clean_aisle_seven`
 * a `Bottle` class having an attribute called `water`
+* a `Chair` class having an attribute called `number_of_chairs`
+* a `MenuItem` class with a method called `CustomerSurvey`
 
 <div class="try-it">
   <h3>Try It (Big Breakout Rooms)</h3> 

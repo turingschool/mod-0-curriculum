@@ -102,7 +102,9 @@ header {
 }
 
 @media (max-width: $tablet-width) {
-  .content: 100%;
+  .content {
+    width: 100%;
+  }
 }
 
 

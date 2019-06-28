@@ -47,7 +47,7 @@ subheading: Googling, Classes, Data Types, Iteration
 
 ## Intro
 
-* Intros: Rachel and Tim
+* Intros: David and Tim
 * Goals for session (see above)
 * Bookmark this page with the shortcut `command + d`
 
@@ -64,7 +64,7 @@ Mod 0 is less about code or solving difficult problems and more about developing
 
 At the end of Session 5, you'll take a technical assessment that will showcase a subset skills you learn during Mod 0. The assessment will be performance-based rather than multiple choice. The assessment instructions will include a checklist of what we're looking for to know that you've practiced and mastered the material. 
 
-Successful completion of assignments, session engagement, and the Session 5 Technical Assessment will result in a rating of "Turing-Ready." At any point if you feel like you may not meet the expectations, or you need advice/guidance on meeting an expectation, please reach out via Slack to either Rachel, Tim, or Sarah. 
+Successful completion of assignments, session engagement, and the Session 5 Technical Assessment will result in a rating of "Turing-Ready." At any point if you feel like you may not meet the expectations, or you need advice/guidance on meeting an expectation, please reach out via Slack to either David, Tim, or Joanne. 
 
 <div class="try-it">
   <h3>Try It: Planning your Growth (Break out rooms)</h3>
@@ -78,7 +78,7 @@ Other things to note as we go through Mod 0:
 
 - <strong>Zoom</strong>: turn video on, turn mic off unless speaking
 - <strong>Breakout Rooms</strong>: don't be afraid to speak! Breakout rooms will be randomized at the beginning of each session, but continue to rely on your accountabilabuddy groups from Session 1 between sessions
-- <strong>Problems or individual questions during the Zoom session?</strong> Message the non-presenting host (either Rachel or Tim)
+- <strong>Problems or individual questions during the Zoom session?</strong> Message the non-presenting host (either David or Tim)
 - <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes. 
 
 <a name="shortcuts"></a>
@@ -191,13 +191,13 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
 
 **Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 5. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
 
-Think of a <span class="vocab">class</span> as a category of thing. For example, my sister's children Landon, Luca, and Arlo (instances) are all different versions of a **child** (class). 
+Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan (instances) are all different versions of a **pizza** (class). 
 
-My Old Navy sweatshirt and my American Giant sweatshirt (instances) are different versions of a **sweatshirt** (class).
+An Old Navy sweatshirt and an Eddie Bauer sweatshirt (instances) are different versions of a **sweatshirt** (class).
 
 _Great Expectations_ by Charles Dickens and _Becomming_ by Michelle Obama (instances) are different versions of a **book** (class). 
 
-Class names are always singular: **child** (instead of children), **sweatshirt** (instead of sweatshirts), and **book** instead of books. 
+Class names are always singular: **pizza** (instead of pizzas), **sweatshirt** (instead of sweatshirts), and **book** instead of books. 
 
 <div class="try-it">
   <h3>Try It: Classes</h3>
@@ -211,7 +211,7 @@ An <span class="vocab">attribute</span> of a class is a characteristic that ever
 
 For example: 
 
-- Each **child** (class) has a first_name, last_name, and birthdate (attributes).
+- Each **pizza** (class) has a crust, sauce, and toppings (attributes).
 - Each **sweatshirt** (class) has a color, size, brand, and price (attributes).
 - Each **book** (class) has a title, author, publisher, published_date, and total_pages (attributes). 
 
@@ -264,7 +264,7 @@ make border on heading element css
     Phrase 1: 
     Phrase 2: 
   </textarea>
-  <p>3. A Mod 0 homework assignment asks you to print out your git log in oneline (yes, oneline, not a spelling error) format and Rachel definitely did not teach how to do this during class.</p>
+  <p>3. A Mod 0 homework assignment asks you to print out your git log in oneline (yes, oneline, not a spelling error) format and David definitely did not teach how to do this during class.</p>
   <textarea rows="2">
     Phrase 1: 
     Phrase 2: 
@@ -374,7 +374,7 @@ In most programming languages, you'll find the same basic <span class="vocab">da
 
 ### Data Type Use Cases and Syntax
 
-Luckily for us, the <span class="vocab">syntax</span> (the way we write) for these basic data typs is almost identical in Ruby and JavaScript. 
+Luckily for us, the <span class="vocab">syntax</span> (the way we write) for these basic data types is almost identical in Ruby and JavaScript. 
 
 Imagine that we're making an application for grocery stores to use (intentionally vague description 😁). For each of the data types we researched, we'll brainstorm examples of how we might use that data type in a grocery store app.
 
@@ -538,7 +538,7 @@ Imagine that we're making an application for grocery stores to use (intentionall
       <p>When I think about whether or not I need to use a hash, I ask myself "Is this a collection of data where the pairing of items matters?"</p>
       <p>Examples:</p>
       <li><code>{ "9th grade": 110, "10th grade": 125, "11th grade": 66, "12th grade": 70}</code></li>
-      <li><code>{ "Mod 0": "Tim and Rachel", "Mod 1": "Mike and Sal", "Mod 2": "Brittany and Robbie" }</code></li>
+      <li><code>{ "Mod 0": "Tim and David", "Mod 1": "Mike and Sal", "Mod 2": "Brittany and Robbie" }</code></li>
     </div>
   </div>
   <div class="flex-container">
@@ -770,5 +770,5 @@ In addition, consider the following questions:
 <a name="homework"></a>
 ## Homework
 
-  Find the homework in your Mod 0 Project Board. Contact Rachel or Tim if you're stuck.
+  Find the homework in your Mod 0 Project Board. Contact David or Tim if you're stuck.
 
