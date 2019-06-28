@@ -191,13 +191,13 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
 
 **Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 5. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
 
-Think of a <span class="vocab">class</span> as a category of thing. For example, my sister's children Landon, Luca, and Arlo (instances) are all different versions of a **child** (class). 
+Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan (instances) are all different versions of a **pizza** (class). 
 
-My Old Navy sweatshirt and my American Giant sweatshirt (instances) are different versions of a **sweatshirt** (class).
+An Old Navy sweatshirt and an Eddie Bauer sweatshirt (instances) are different versions of a **sweatshirt** (class).
 
 _Great Expectations_ by Charles Dickens and _Becomming_ by Michelle Obama (instances) are different versions of a **book** (class). 
 
-Class names are always singular: **child** (instead of children), **sweatshirt** (instead of sweatshirts), and **book** instead of books. 
+Class names are always singular: **pizza** (instead of pizzas), **sweatshirt** (instead of sweatshirts), and **book** instead of books. 
 
 <div class="try-it">
   <h3>Try It: Classes</h3>
@@ -211,7 +211,7 @@ An <span class="vocab">attribute</span> of a class is a characteristic that ever
 
 For example: 
 
-- Each **child** (class) has a first_name, last_name, and birthdate (attributes).
+- Each **pizza** (class) has a crust, sauce, and toppings (attributes).
 - Each **sweatshirt** (class) has a color, size, brand, and price (attributes).
 - Each **book** (class) has a title, author, publisher, published_date, and total_pages (attributes). 
 
