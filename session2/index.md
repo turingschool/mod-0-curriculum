@@ -14,7 +14,7 @@ subheading: Googling, Classes, Data Types, Iteration
       <li>refine searching and filtering skills to Google programming questions</li>
       <li>recognize mistakes in code</li>
       <li>define and identify use cases for basic data types</li>
-      <li>demonstrate iteration in real-world and programming sitauations</li>
+      <li>demonstrate iteration in real-world and programming situations</li>
     </ul>
   </div>
   <div>
