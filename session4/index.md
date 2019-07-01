@@ -315,7 +315,7 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 
 ### Making Additional Changes and Pushing to GitHub
 
-Open up either Sublime or Atom. Use the keyboard shortcut `command + o` to search for your `git_homework` project.
+Open up Atom. Use the keyboard shortcut `command + o` to search for your `git_homework` project.
 
 Watch and take notes while we walk through how to continue making changes and pushing those changes to GitHub.
 

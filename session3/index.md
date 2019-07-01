@@ -385,7 +385,7 @@ chapter_1.txt    chapter_2.txt
 <a name="echo"></a>
 ### 7. Add text to a file (echo)
 
-Normally, we will use our text editor (Atom or Sublime) to add text content to a file. However, you can also add text content using the <code>echo</code> command. Note that you *must* use quotation marks to indicate what text you want to add to the file. 
+Normally, we will use our text editor (Atom) to add text content to a file. However, you can also add text content using the <code>echo</code> command. Note that you *must* use quotation marks to indicate what text you want to add to the file. 
 
 ```
 timo@Tims-MacBook-Pro:~/latest_projects $ echo "Call me Ishmael" >> chapter_1.txt
