@@ -5,7 +5,12 @@ title: Mod 0 Curriculum
 
 ## Tech Setup
 
-Complete the following steps before Mod 0 in order to get the tools you'll need on your machine. 
+Complete the following steps before Mod 0 in order to get the tools you'll need on your machine.
+
+If you'd like to watch a video overview, a Turing alum who is <strike>at least partially competent</strike> gainfully employed in the software development industry put this video together for you:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7TTt1a8UHic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
 
 ### 1) New to Mac? 
 
@@ -46,7 +51,9 @@ Options:
 .
 ```
 
-A note on convention - when you see the `$` before a line, it means "enter what follows the dollar sign as a terminal command". Lines that don't have a `$` might be what is printed out as a _result_ of the command, or, if the line begins with `//`, it means it's a comment. A few `.` on lines means "omitted text here". For example:
+#### A note on convention
+
+when you see the `$` before a line, it means "enter what follows the dollar sign as a terminal command". Lines that don't have a `$` might be what is printed out as a _result_ of the command, or, if the line begins with `//`, it means it's a comment. A few `.` on lines means "omitted text here". For example:
 
 ```
 $ xcode-select
@@ -158,3 +165,4 @@ If you're not already using Chrome, install it from [here](https://www.google.co
 
 ### You're Done!
 
+Give yourself a pat on the back. Of, click over to [session 1]({{ site.baseurl }}{% link session1/index.md %}) and start reading!
