@@ -41,16 +41,15 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 
 - Nice work figuring out pull requests!
 - Creative, well-done git diagrams 
-- All git and GitHub-related statements on the survey averaged 4.5 or higher
 
 ### Follow-Ups
 
+- Some confusion on how to hook up a local repository (on your computer) with a remote one (on github). Definitely go over the task 1 from the hw again if it's still fuzzy
 - Don't "Initial Commit" on an already-existing project (like the mod0resources repository); remember to start with a present-tense verb with a capital letter (like Add, Change, Remove, Fix, Make, etc.)
 - Edit files using your text editor, not `echo`
 
 ### Other Notes
 
-- Initial commit ONLY for repo starting point (see commits from [mod0references](https://github.com/turingschool-examples/mod0resources/commits/master) repo as an example)
 - Good commit message format: 
 
 ```
@@ -103,14 +102,14 @@ Oops, I need to fix my spelling mistake
 As humans, we memorize and practice the steps that it takes in order to do even the most basic tasks. If you tell a human to tie their shoe, you (generally) don't need to specify any further instructions. However, if you were to build a shoe-tying machine, you would need to break down the process into the most basic steps. 
 
 <div class="try-it">
-  <h3>Try It Together: Doing Laundry</h3> 
-  <p>Follow along with your paper and pencil as we walk through breaking down the process of doing laundry.</p>
+  <h3>Try It Together: Making Pizza</h3> 
+  <p>Follow along with your paper and pencil as we walk through breaking down the process of making pizza.</p>
 </div>
 
-Now, in groups! 
+Now, in groups!
 
 <div class="try-it">
-  <h3>Try It (Break Out Rooms): Top Down Design</h3> 
+  <h3>Try It (Break Out Rooms): Top Down Design (~12 minutes)</h3> 
   <p>The person whose first name starts closest to the letter F will pick a scenario below:</p>
   <ul>
     <li>Reheating a meal</li>
@@ -136,10 +135,10 @@ Breaking down problems using top down design lends itself nicely to the object-o
 
 ### Notating Top-Down Design for the Mod 0 Assessment
 
-On your Mod 0 Assessment, you will be asked to break down a scenario using Top Down Design. We'll demonstrate the laundry scenario in a Github Gist. 
+On your Mod 0 Assessment, you will be asked to break down a scenario using Top Down Design. We'll demonstrate the pizza scenario in a Github Gist. 
 
 <div class="try-it">
-  <h3>Try It: Notating Top Down Design</h3> 
+  <h3>Try It: Notating Top Down Design (~5 minutes)</h3> 
   <p>Open a new gist and use decimal notation to write out your top down design appoach with the scenario you chose from your group.</p>
   <p>Post your gist link in the chat, and be ready to give feedback to the person you're paired up with (will be posted in the chat while you're working).</p>
 </div>
@@ -209,7 +208,7 @@ What would be wrong with...
 * a `MenuItem` class with a method called `CustomerSurvey`
 
 <div class="try-it">
-  <h3>Try It (Big Breakout Rooms)</h3> 
+  <h3>Try It (Big Breakout Rooms) (~15 minutes)</h3> 
   <p>Make a copy of <a href="https://docs.google.com/document/d/17NykxDAM3OrlAm4xwYLY7uh_YokLyPgP0ahmkJ1Rd5s/edit?usp=sharing" title="" target="_blank">this document</a> which your group will use to practice.</p>
   <p>Person whose first name starts closest to Q will share their screen and choose one of the following classes:</p>
   <ul>
@@ -298,5 +297,5 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
   </ol>
 
   <h4 class="important">Done?</h4>
-  <p>Check off all of the items on your forked checklist, then send the checklist to Tim, Rachel, Joanne, and Katie in a DM on Slack.</p>
+  <p>Check off all of the items on your forked checklist, then send the checklist to Tim, David, and Joanne in a DM on Slack.</p>
 </div>
