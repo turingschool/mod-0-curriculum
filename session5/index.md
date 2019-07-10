@@ -44,7 +44,7 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 
 ### Follow-Ups
 
-- Some confusion on how to hook up a local repository (on your computer) with a remote one (on github). Definitely go over the task 1 from the hw again if it's still fuzzy
+- Some low survey scores on how to hook up a local repository (on your computer) with a remote one (on github). Definitely go over the task 1 from the hw again if it's still fuzzy
 - Don't "Initial Commit" on an already-existing project (like the mod0resources repository); remember to start with a present-tense verb with a capital letter (like Add, Change, Remove, Fix, Make, etc.)
 - Edit files using your text editor, not `echo`
 
