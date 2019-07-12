@@ -53,16 +53,14 @@ Options:
 
 #### A note on convention
 
-when you see the `$` before a line, it means "enter what follows the dollar sign as a terminal command". Lines that don't have a `$` might be what is printed out as a _result_ of the command, or, if the line begins with `//`, it means it's a comment. A few `.` on lines means "omitted text here". For example:
+When you see a `$` before a line, it means "enter what follows the dollar sign as a terminal command". 
+
+Lines that don't have a `$` are usually what is printed out as a _result_ of the command.
+
+A `.` on adjacent lines means "omitted text here". For example:
 
 ```
 $ xcode-select
-// run the above command in your terminal. This is a note from me, an author of 
-// this guide to you, the reader of this guide. Sometimes comments span several
-// lines, in which case we just begin all of them with these slashes. 
-
-// what follows is the text that will be printed to your terminal
-xcode-select: error: no command option given
 Usage: xcode-select [options]
 
 Print or change the path to the active developer directory. This directory
@@ -71,11 +69,11 @@ xcodebuild) as well as the BSD development commands (such as cc and make).
 
 Options:
   -h, --help                  print this help message and exit
-// these three dots below means there's more output that we've skipped.
 .
 .
 .
 ```
+
 ### 4) Install Homebrew
 
 [Homebrew](https://brew.sh/) is a package management system that makes it easy to install hundreds of open source projects and compile them from source for maximum performance on your machine.
@@ -165,4 +163,6 @@ If you're not already using Chrome, install it from [here](https://www.google.co
 
 ### You're Done!
 
-Give yourself a pat on the back. Of, click over to [session 1]({{ site.baseurl }}{% link session1/index.md %}) and start reading!
+Give yourself a pat on the back. 
+
+Or, click over to [session 1]({{ site.baseurl }}{% link session1/index.md %}) and start reading!
