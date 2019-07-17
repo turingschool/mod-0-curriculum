@@ -575,6 +575,8 @@ Iteration (or looping for a specified number of times) is a process of repeating
 
 ### Iteration in Real Life
 
+These are examples that would be programatically challenging because they would require a ton of steps, but are things that we do everyday.
+
 <table>
   <thead>
     <tr>
@@ -615,6 +617,8 @@ Iteration (or looping for a specified number of times) is a process of repeating
 </table>
 
 ### Iteration in Programming
+
+By "in programming", we mean things that could be done, with relative ease, by a computer. Like crunching numbers.
 
 <table>
   <thead>
