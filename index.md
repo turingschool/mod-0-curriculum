@@ -5,7 +5,12 @@ title: Mod 0 Curriculum
 
 ## Tech Setup
 
-Complete the following steps before Mod 0 in order to get the tools you'll need on your machine. 
+Complete the following steps before Mod 0 in order to get the tools you'll need on your machine.
+
+If you'd like to watch a video overview, a Turing alum who is <strike>at least partially competent</strike> gainfully employed in the software development industry put this video together for you:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7TTt1a8UHic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
 
 ### 1) New to Mac? 
 
@@ -17,25 +22,68 @@ Install [Atom](https://atom.io/). Atom is a program where we edit code - it is a
 
 ### 3) Install Xcode
 
-Download and install Xcode from the Apple App Store on your computer. This will probably take a little while to finish. Xcode is a huge suite of development tools published by Apple. If we wanted to develop software for the Apple Ecosystem (iPhone apps, macOS apps, etc), we would use Xcode as our editor. But even if we aren’t working in this ecosystem, Xcode provides some system dependencies that we’ll want to have available.
+[Xcode](https://developer.apple.com/xcode/) is a suite of development tools published by Apple. If we wanted to develop software for the Apple Ecosystem (iPhone apps, macOS apps, etc), we would use Xcode as our editor. But even though we're not building iPhone apps, Xcode provides some system dependencies that we need.
 
-Once the download is complete, open Xcode and agree to the SLA terms. Then, open the Terminal application, You can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search. Once Terminal is open, type the following into the application: 
+Rather than download Xcode via the Apple Store, we can get a much smaller selection of necessary tools via our terminal. 
+
+Open the Terminal by pressing the `Command + Space` keys at the same time, which opens Spotlight, and then type `Terminal` into the search. Press the enter key, and type the following into the application, but without the `$`: 
 
 ```
-xcode-select --install
+$ xcode-select --install
 ```
 When prompted, enter your password. 
 
+You can verify that the installation was successful by typing `xcode-select` in your terminal. You should see something like this:
+
+```
+$ xcode-select
+xcode-select: error: no command option given
+Usage: xcode-select [options]
+
+Print or change the path to the active developer directory. This directory
+controls which tools are used for the Xcode command line tools (for example,
+xcodebuild) as well as the BSD development commands (such as cc and make).
+
+Options:
+  -h, --help                  print this help message and exit
+.
+.
+.
+```
+
+#### A note on convention
+
+When you see a `$` before a line, it means "enter what follows the dollar sign as a terminal command". 
+
+Lines that don't have a `$` are usually what is printed out as a _result_ of the command.
+
+A `.` on adjacent lines means "omitted text here". For example:
+
+```
+$ xcode-select
+Usage: xcode-select [options]
+
+Print or change the path to the active developer directory. This directory
+controls which tools are used for the Xcode command line tools (for example,
+xcodebuild) as well as the BSD development commands (such as cc and make).
+
+Options:
+  -h, --help                  print this help message and exit
+.
+.
+.
+```
+
 ### 4) Install Homebrew
 
-Homebrew is a package management system that makes it easy to install hundreds of open source projects and compile them from source for maximum performance on your machine.
+[Homebrew](https://brew.sh/) is a package management system that makes it easy to install hundreds of open source projects and compile them from source for maximum performance on your machine.
 
 To install homebrew, open Terminal. Again, you can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search. 
 
-Once you have Terminal open, paste this line and hit enter:
+Once you have Terminal open, paste this line and hit enter. (remember, skip the `$`)
 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 It will ask you for your password. This is the password to log in to your account on the computer. It needs this because it installs its packages in a place that all users of this computer can access.
@@ -43,26 +91,46 @@ It will ask you for your password. This is the password to log in to your accoun
 When it has completed the installation run brew doctor and it should tell you that everything is fine:
 
 ```
-brew doctor
+$ brew doctor
 Your system is ready to brew.
 ```
 
 If you got a warning from Homebrew about your path, do the following:
 
 ```
-echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
-source ~/.bash_profile
-Now run brew doctor again and the warning should be gone.
+$ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+$ source ~/.bash_profile
+// Now run "brew doctor" again and the warning should be gone.
 ```
 
 ### 5) Install Git
 
-Git is a Version Control System (VCS). It allows you to save work on your project, and reference previous states of a project if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and ANY previous version. Git’s philosophy: never lose anything.
+[Git](https://git-scm.com/) is a Version Control System (VCS). It allows you to save work on your project, and reference previous states of a project if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and ANY previous version. Git’s philosophy: never lose anything.
 
 To install Git, we will use Homebrew. In your Terminal, type this:
 
 ```
-brew install git
+$ brew install git
+```
+
+You can do `git` in the terminal to verify that its working:
+
+```
+$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+.
+.
+.
 ```
 
 ### 6) Configure Git
@@ -78,9 +146,23 @@ git config --global user.name "Alan Turing"
 git config --global user.email alanturing@example.com
 ```
 
+You can verify that this is working:
+
+```
+$ git config --list
+credential.helper=osxkeychain
+user.name=Alan Turing
+user.email=alanturing@example.com
+```
+If you get "stuck" in the screen showing the output of `git config --list`, don't panic! Just type `q`, and you should get back to your regular terminal.
+
+
 ### 7) Install Chrome
 
 If you're not already using Chrome, install it from [here](https://www.google.com/chrome/). Chrome includes a set of developer tools that will come in handy down the road. Additionally, it is always on the cutting edge of being able to support new web technologies. 
 
 ### You're Done!
 
+Give yourself a pat on the back. 
+
+Or, click over to [session 1]({{ site.baseurl }}{% link session1/index.md %}) and start reading!

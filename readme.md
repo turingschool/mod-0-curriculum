@@ -2,6 +2,8 @@
 
 ## Site for the Module 0 Curriculum
 
+Mod0 curriculum lives at [http://mod0.turing.io/](http://mod0.turing.io/)
+
 This site is built with Jekyll. Find the docs [here](https://jekyllrb.com/docs/usage/)
 
 ### Contributing
