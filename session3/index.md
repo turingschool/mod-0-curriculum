@@ -96,7 +96,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ### Methods of Classes
 
-A <span class="vocab">method</span> of a class define **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
+A <span class="vocab">method</span> of a class defines **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
 
 For example: 
 
