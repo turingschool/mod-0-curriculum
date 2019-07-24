@@ -402,4 +402,4 @@ In preparation for your homework this weekend, let's take a quick glance at a th
 
 Let's spend a few minutes looking at how to use GitHub Projects. 
 
-Find the homework in your Mod 0 Project Board. Contact Rachel or Tim if you're stuck.
+Find the homework in your Mod 0 Project Board. Contact David or Tim if you're stuck.
