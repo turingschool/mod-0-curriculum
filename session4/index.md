@@ -52,16 +52,7 @@ subheading: More Git and Intro to GitHub
 
 ### Follow-Ups
 
-- Staging area in git - Grouping code that is related to be committed together
-- Most skill statements rated 4.5 or higher
-- I can add and commit file changes using git. - Average score 3.5
-- Why do we use git? - Average score 3.9
-  - The ability to "go back in time" to previous versions of your code if you break something
-  - The ability to "go back in time" to previous versions of your code if you change your mind about a feature
-  - The ability to chunk parts of your work so that you can choose from chunks to keep at a later time
-  - The ability to work collaboratively on the same project (even the same files!) **At the same time**
-  - The ability to use branches to separate features of a program
-  - The ability to track who made specific changes to specific files
+- Most skill statements rated 4.5 or higher, all rated over 4!
 
 ### Today's Goals
 
