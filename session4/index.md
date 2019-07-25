@@ -53,6 +53,7 @@ subheading: More Git and Intro to GitHub
 ### Follow-Ups
 
 - Most skill statements rated 4.5 or higher, all rated over 4!
+- Homework expectations
 
 ### Today's Goals
 
