@@ -13,19 +13,23 @@ To get the most out of Mod0, we'd like to explain why this website exists at all
 
 I'm sure you've picked up on a theme: Turing is _hard_. The program will consume most of your time and attention for the seven months between starting the first module, and finishing the last module. It could take a bit longer, if you find yourself repeating a module. 
 
-Not everyone who starts Turing, finishes Turing. 
-
 When someone has put their life on hold, quit their job, relocated to Denver, and put it all on the line for attending Turing - _everyone_ (that person, Turing staff, their classmates) wants to see them succeed. 
 
 For a variety of reasons, historically, not everyone who starts Turing has graduated the program, and this is a brutally difficult experience for that person. They do the work, they put in the effort and time, and... they don't finish the program. 
 
 We think anyone can learn software development. 
 
-What might explain this disconnect, between "anyone can learn software development" and "not every person who starts Turing finishes Turing"?
+What might explain this disconnect, between
+> anyone can learn software development
+
+and 
+
+> not every person who starts Turing graduates from Turing"?
 
 A theme among among those who have been successful at Turing touches on at least two elements:
-1. Technical: They've been able to poke around the internals of their laptop before they start, or they have a good "mental map" of how files and folders are organized on their computer, or they've had passing experience with git and a code editor and their command line.
-2. External support: They have friends and/or family rooting for their success, and are able to avoid some of the more difficult experiences we can experience, like: death of a loved one, illness (their own illness or that of someone they have to care for), etc.
+
+1. **A foundation of technical skills:** They've been able to poke around the internals of their laptop before they start, or they have a good "mental map" of how files and folders are organized on their computer, or they've had passing experience with git and a code editor and their command line.
+2. **Life doesn't clobber them too badly:** They have friends and/or family rooting for their success, and are able to avoid some of the more difficult experiences we can experience, like: death of a loved one, illness (their own illness or that of someone they have to care for), etc. Many aspects of this "theme" are obviously entirely outside of everyone's control. 
 
 When these two themes work together, Turing students have enough "margin" or "slack" to pour lots of effort into the program, and are usually successful.
 
@@ -35,11 +39,11 @@ Mod0 will speak to both of these themes, to prepare you as much as possible.
 
 ## Does Mod0 work?
 
-Mod0 exists to set _you_ up for success at Turing. We've been pleased with the results. Since we've started this program, we've had _dramatically_ fewer students repeat the first module. In the past, sometimes as many as 20-30% of the new students would repeat the first module.
+Mod0 exists to set you up for success at Turing. We've been pleased with the results. Since we've started this program, we've had _dramatically_ fewer students repeat the first module. In the past, sometimes as many as 20-30% of the new students would repeat the first module.
 
 After rolling out Mod0, some cohorts have _zero_ students repeating the first module.
 
-This confirms our assessment - anyone can learn to program, but it's _really important that they're set up for success, learn how to learn, and are prepared as well as we can prepare them._
+This confirms our assessment - anyone can learn to program, but it's  important that they're set up for success, learn how to learn, and are prepared as well as we can prepare them.
 
 Mod0 works. The Mod0 instructors are here to help you succeed, so please use all the resources available to you, to learn all you can. 
 
@@ -58,7 +62,7 @@ All of these lessons are linked in the sidebar, as well.
 - [Session 3: Using your Terminal, git and Github, and how to navigate files and folders _in_ your terminal]({{ site.baseurl }}{% link session3/index.md %})
 - [Session 4: We'll go deeper in Git and Github usage. Git is an amazing and powerful tool, but tricky, and this is time well spent]({{ site.baseurl }}{% link session4/index.md %})
 - [Session 5: Basic principles of software development, like object-oriented principles, top-down design of classes, and breaking a problem into small pieces]({{ site.baseurl }}{% link session5/index.md %})
-- [Session 6: Self-care, self-evaluation for progression through mod0, and how Turing prepares you for success in life skills, and job-hunting skills]({{ site.baseurl }}{% link session6/index.md %})
+- [Session 6: Synthesis, Professional Development, Mentoring, More Turing Resources]({{ site.baseurl }}{% link session6/index.md %})
 - The capstone! Depending on which program you're doing, we've got a capstone project for you. [Front-end capstone]({{ site.baseurl }}{% link capstone/fe_engineering/index.html %}) [back-end capstone]({{ site.baseurl }}{% link capstone/be_engineering/index.md %})
 
 ## Next steps
