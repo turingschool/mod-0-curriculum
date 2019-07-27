@@ -10,7 +10,7 @@ permalink:  setup-instructions
 
 Complete the following steps before Mod 0 in order to get the tools you'll need on your machine.
 
-If you'd like to watch a video overview, a Turing alum who is <strike>at least partially competent</strike> gainfully employed in the software development industry put this video together for you:
+If you'd like to watch a video overview, a Turing alum who is <strike>at least partially competent</strike> gainfully employed in the software development industry put this video together for you, which walks through most of this guide.:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7TTt1a8UHic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
@@ -210,7 +210,7 @@ Atom also offers a number of different options and packages that you can customi
 
 SSH keys are a more secure and convenient way of authenticating than typing in our password every time we want to interact with Github.
 
-This is getting fairly advanced, so if you want to stop the setup instructions here, and come back later once you're annoyed at entering your github password regularly, that's totally fine. 
+This is getting fairly advanced, so if you want to stop the setup instructions here, and come back later once you're annoyed at entering your Github password regularly, that's totally fine. 
 
 This can be a bit tricky to do, so here's another quick walk-through, of _just_ adding Github SSH keys:
 
