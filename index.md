@@ -26,7 +26,7 @@ and
 
 > not every person who starts Turing graduates from Turing"?
 
-A theme among among those who have been successful at Turing touches on at least two elements:
+A theme among among those who have been graduated from Turing touches on at least two elements:
 
 1. **A foundation of technical skills:** They've been able to poke around the internals of their laptop before they start, or they have a good "mental map" of how files and folders are organized on their computer, or they've had passing experience with git and a code editor and their command line.
 2. **Life doesn't clobber them too badly:** They have friends and/or family rooting for their success, and are able to avoid some of the more difficult experiences we can experience, like: death of a loved one, illness (their own illness or that of someone they have to care for), etc. Many aspects of this "theme" are obviously entirely outside of everyone's control. 
