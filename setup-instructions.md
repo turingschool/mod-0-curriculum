@@ -18,14 +18,15 @@ The above video has shortcuts to specific pieces of this guide. Click over to it
 
 Here's what we'll cover in this guide. Click a link to jump to that portion of the guide:
 
-- [New to Mac?](#new-to-mac)
-- [Install Atom as your Text Editor](#install-atom-as-your-text-editor)
-- [Install Xcode-select](#install-xcode-select)
-- [Install Homebrew](#install-homebrew)
-- [Install Git](#install-git)
-- [Install Chrome](#install-chrome)
-- [Set Up Terminal Access for Atom](#set-up-terminal-access-for-atom)
-- [Add GitHub SSH Keys](#add-github-ssh-keys)
+- [New to Mac?](#1-new-to-mac)
+- [Install Atom as your Text Editor](#2-install-atom-as-your-text-editor)
+- [Install Xcode-select](#3-install-xcode-select)
+- [Install Homebrew](#4-install-homebrew)
+- [Install Git](#5-install-git)
+- [Configure Git](#6-configure-git)
+- [Install Chrome](#7-install-chrome)
+- [Set Up Terminal Access for Atom](#8-set-up-terminal-access-for-atom)
+- [Add GitHub SSH Keys](#9-add-github-ssh-keys)
 
 Lets get started:
 
@@ -206,7 +207,7 @@ Try opening Atom from the command line again. If it's still not working, message
 
 Atom also offers a number of different options and packages that you can customize to your liking. [This](https://www.youtube.com/watch?v=WWwBQQOGllo&list=PLYzJdSdNWNqwNWlxz7bvu-lOYR0CFWQ4I) series of videos will walk you through many of them if you'd like to dive deeper.
 
-# Add GitHub SSH Keys
+## 9. Add GitHub SSH Keys
 
 SSH keys are a more secure and convenient way of authenticating than typing in our password every time we want to interact with Github.
 
