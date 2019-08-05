@@ -3,166 +3,68 @@ layout: main
 title: Mod 0 Curriculum
 ---
 
-## Tech Setup
+Hi there and welcome!
 
-Complete the following steps before Mod 0 in order to get the tools you'll need on your machine.
+Over the next few days and weeks, you'll be referring to the instructions and guides on this website as you get ready to begin your time at Turing. 
 
-If you'd like to watch a video overview, a Turing alum who is <strike>at least partially competent</strike> gainfully employed in the software development industry put this video together for you:
+To get the most out of Mod0, we'd like to explain why this website exists at all, and more importantly _why you have to finish Mod0 before beginning Turing_.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7TTt1a8UHic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
+## Why the Mod0 curriculum exists
 
-### 1) New to Mac? 
+I'm sure you've picked up on a theme: Turing is _hard_. The program will consume most of your time and attention for the seven months between starting the first module, and finishing the last module. It could take a bit longer, if you find yourself repeating a module. 
 
-If this is your first time using a Mac instead of a PC or Linux, then watch [this video](https://www.youtube.com/watch?v=MN0FD8KW2V4) about the basics of using a Mac.
+When someone has put their life on hold, quit their job, relocated to Denver, and put it all on the line for attending Turing - _everyone_ (that person, Turing staff, their classmates) wants to see them succeed. 
 
-### 2) Install Atom as your Text Editor
+For a variety of reasons, historically, not everyone who starts Turing has graduated the program, and this is a brutally difficult experience for that person. They do the work, they put in the effort and time, and... they don't finish the program. 
 
-Install [Atom](https://atom.io/). Atom is a program where we edit code - it is a text editor with many great features that makes editing code more enjoyable compared to a simple text editor. Atom is commonly used in the software development industry, and we will use it throughout your time at Turing.
+We think anyone can learn software development. 
 
-### 3) Install Xcode
+What might explain this disconnect, between
+> anyone can learn software development
 
-[Xcode](https://developer.apple.com/xcode/) is a suite of development tools published by Apple. If we wanted to develop software for the Apple Ecosystem (iPhone apps, macOS apps, etc), we would use Xcode as our editor. But even though we're not building iPhone apps, Xcode provides some system dependencies that we need.
+and 
 
-Rather than download Xcode via the Apple Store, we can get a much smaller selection of necessary tools via our terminal. 
+> not every person who starts Turing graduates from Turing"?
 
-Open the Terminal by pressing the `Command + Space` keys at the same time, which opens Spotlight, and then type `Terminal` into the search. Press the enter key, and type the following into the application, but without the `$`: 
+A theme among among those who have been graduated from Turing touches on at least two elements:
 
-```
-$ xcode-select --install
-```
-When prompted, enter your password. 
+1. **A foundation of technical skills:** They've been able to poke around the internals of their laptop before they start, or they have a good "mental map" of how files and folders are organized on their computer, or they've had passing experience with git and a code editor and their command line.
+2. **Life doesn't clobber them too badly:** They have friends and/or family rooting for their success, and are able to avoid some of the more difficult experiences we can experience, like: death of a loved one, illness (their own illness or that of someone they have to care for), etc. Many aspects of this "theme" are obviously entirely outside of everyone's control. 
 
-You can verify that the installation was successful by typing `xcode-select` in your terminal. You should see something like this:
+When these two themes work together, Turing students have enough "margin" or "slack" to pour lots of effort into the program, and are usually successful.
 
-```
-$ xcode-select
-xcode-select: error: no command option given
-Usage: xcode-select [options]
+When either (or both!) of these themes are missed, it becomes _dramatically_ harder for Turing students to have successful outcomes. It's not impossible, but it is much harder. 
 
-Print or change the path to the active developer directory. This directory
-controls which tools are used for the Xcode command line tools (for example,
-xcodebuild) as well as the BSD development commands (such as cc and make).
+Mod0 will speak to both of these themes, to prepare you as much as possible. 
 
-Options:
-  -h, --help                  print this help message and exit
-.
-.
-.
-```
+## Does Mod0 work?
 
-#### A note on convention
+Mod0 exists to set you up for success at Turing. We've been pleased with the results. Since we've started this program, we've had _dramatically_ fewer students repeat the first module. In the past, sometimes as many as 20-30% of the new students would repeat the first module.
 
-When you see a `$` before a line, it means "enter what follows the dollar sign as a terminal command". 
+After rolling out Mod0, some cohorts have _zero_ students repeating the first module.
 
-Lines that don't have a `$` are usually what is printed out as a _result_ of the command.
+This confirms our assessment - anyone can learn to program, but it's  important that they're set up for success, learn how to learn, and are prepared as well as we can prepare them.
 
-A `.` on adjacent lines means "omitted text here". For example:
+Mod0 works. The Mod0 instructors are here to help you succeed, so please use all the resources available to you, to learn all you can. 
 
-```
-$ xcode-select
-Usage: xcode-select [options]
-
-Print or change the path to the active developer directory. This directory
-controls which tools are used for the Xcode command line tools (for example,
-xcodebuild) as well as the BSD development commands (such as cc and make).
-
-Options:
-  -h, --help                  print this help message and exit
-.
-.
-.
-```
-
-### 4) Install Homebrew
-
-[Homebrew](https://brew.sh/) is a package management system that makes it easy to install hundreds of open source projects and compile them from source for maximum performance on your machine.
-
-To install homebrew, open Terminal. Again, you can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search. 
-
-Once you have Terminal open, paste this line and hit enter. (remember, skip the `$`)
-
-```
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-It will ask you for your password. This is the password to log in to your account on the computer. It needs this because it installs its packages in a place that all users of this computer can access.
-
-When it has completed the installation run brew doctor and it should tell you that everything is fine:
-
-```
-$ brew doctor
-Your system is ready to brew.
-```
-
-If you got a warning from Homebrew about your path, do the following:
-
-```
-$ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
-$ source ~/.bash_profile
-// Now run "brew doctor" again and the warning should be gone.
-```
-
-### 5) Install Git
-
-[Git](https://git-scm.com/) is a Version Control System (VCS). It allows you to save work on your project, and reference previous states of a project if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and ANY previous version. Git’s philosophy: never lose anything.
-
-To install Git, we will use Homebrew. In your Terminal, type this:
-
-```
-$ brew install git
-```
-
-You can do `git` in the terminal to verify that its working:
-
-```
-$ git
-usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
-
-These are common Git commands used in various situations:
-
-start a working area (see also: git help tutorial)
-   clone      Clone a repository into a new directory
-   init       Create an empty Git repository or reinitialize an existing one
-.
-.
-.
-```
-
-### 6) Configure Git
-
-We'll want to configure git with some basic information about us.
-
-We can tell git to configure itself using the git config command from our terminal. Additionally, we're setting "global" configurations for git, so we'll use the --global flag when we provide it with a new piece of configuration.
-
-Open Terminal with Spotlight search (press the `Command + Space` keys like we did previously). Type the following, substituting your own name and email: 
-
-```
-git config --global user.name "Alan Turing"
-git config --global user.email alanturing@example.com
-```
-
-You can verify that this is working:
-
-```
-$ git config --list
-credential.helper=osxkeychain
-user.name=Alan Turing
-user.email=alanturing@example.com
-```
-If you get "stuck" in the screen showing the output of `git config --list`, don't panic! Just type `q`, and you should get back to your regular terminal.
+Because we want to see your success in the program, we require you to successfully finish the Mod0 program before the first day of the in-person Turing program. 
 
 
-### 7) Install Chrome
+## What will we cover in Mod0?
 
-If you're not already using Chrome, install it from [here](https://www.google.com/chrome/). Chrome includes a set of developer tools that will come in handy down the road. Additionally, it is always on the cutting edge of being able to support new web technologies. 
+Over the next few weeks, you'll be learning a lot. Feel free to click through these lessons; some are written lessons that you'll work through with our instructors, others are slide shows that you'll review in real-time with our instructors. 
 
-### You're Done!
+All of these lessons are linked in the sidebar, as well.
 
-Give yourself a pat on the back. 
+- [First, you'll need to install some software on your laptop, and do some configuration around that]({{ site.baseurl }}{% link setup-instructions.md %})
+- [Session 1: Your first "live" session. You'll learn about what _does_ success at Turing mean, and what are strategies you can begin to employ to be successful]({{ site.baseurl }}{% link session1/index.md %})
+- [Session 2: Googling skills, keyboard shortcuts, and explore some basic principles of software development]({{ site.baseurl }}{% link session2/index.md %})
+- [Session 3: Using your Terminal, git and Github, and how to navigate files and folders _in_ your terminal]({{ site.baseurl }}{% link session3/index.md %})
+- [Session 4: We'll go deeper in Git and Github usage. Git is an amazing and powerful tool, but tricky, and this is time well spent]({{ site.baseurl }}{% link session4/index.md %})
+- [Session 5: Basic principles of software development, like object-oriented principles, top-down design of classes, and breaking a problem into small pieces]({{ site.baseurl }}{% link session5/index.md %})
+- [Session 6: Synthesis, Professional Development, Mentoring, More Turing Resources]({{ site.baseurl }}{% link session6/index.md %})
+- The capstone! Depending on which program you're doing, we've got a capstone project for you. [Front-end capstone]({{ site.baseurl }}{% link capstone/fe_engineering/index.html %}) [back-end capstone]({{ site.baseurl }}{% link capstone/be_engineering/index.md %})
 
-Or, click over to [session 1]({{ site.baseurl }}{% link session1/index.md %}) and start reading!
+## Next steps
+
+When you're ready to get started, click over to [environment setup instructions]({{ site.baseurl }}{% link setup-instructions.md %}) and start installing!
