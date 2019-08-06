@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 4
-subheading: More Git and Intro to GitHub
+subheading: Top-down design, Breaking down a problem, Modeling OOP
 ---
 
 <div class="goals-agenda">
@@ -9,25 +9,20 @@ subheading: More Git and Intro to GitHub
     <h3>Goals</h3>
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
-      <li>navigate important parts of a GitHub repository</li>
-      <li>design methods that use/modify attributes</li>
-      <li>create your own repository on GitHub</li>
-      <li>push local changes to a remote</li>
-      <li>fork and clone an existing repository</li>
-      <li>identify markdown syntax</li>
+      <li>understand assessment expectations</li>
+      <li>define top-down design and object oriented programming</li>
+      <li>break down real-world tasks using top-down design strategies</li>
+      <li>model real-world objects and apps by breaking down their attributes and behaviors</li>
     </ul>
   </div>
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>10 min: </strong>Housekeeping and Goals</li>
-      <li><strong>10 min: </strong><a href="#classes">Classes and Methods</a></li>
-      <li><strong>15 min: </strong><a href="#gitreview">Git Review</a></li>
-      <li><strong>50 min: </strong><a href="#github">GitHub and Repositories</a></li>
+      <li><strong>10 min: </strong>Follow-Ups and Goals</li>
+      <li><strong>40 min: </strong><a href="#topdowndesign">Top Down Design</a></li>
       <li><strong>5 min: </strong>Break</li>
-      <li><strong>35 min: </strong><a href="#forkclone">Forking and Cloning</a></li>
-      <li><strong>15 min: </strong><a href="#gists">Gists and Markdown</a></li>
-      <li><strong>10 min: </strong><a href="#homework">Homework Preview</a></li>
+      <li><strong>65 min: </strong><a href="#oop">Object Oriented Programming</a></li>
+      <li><strong>15 min: </strong><a href="#homework">Assessment Preview</a></li>
     </ul>
   </div>
   <div>
@@ -41,262 +36,111 @@ subheading: More Git and Intro to GitHub
   </div>
 </div>
 
-## Housekeeping, Wins/Follow-Ups, and Goals
-
+## Housekeeping and Goals
 ### Wins
 
-- Strong understanding of terminal and commands - 4.5+ Average Score
-- Most common answer to git question: "I can name the steps of the git workflow and can put them in practice (using a reference)."
-- This is totally acceptable, and we use references as programmers on the job all the time. The best programmers google, reference, and implement more often and at a faster pace. 
-
+- Nice work figuring out pull requests!
+- Creative, well-done git diagrams 
 
 ### Follow-Ups
 
-- Most skill statements rated 4.5 or higher, all rated over 4!
-- Homework expectations
+- Some low survey scores on how to hook up a local repository (on your computer) with a remote one (on github). Definitely go over the task 1 from the hw again if it's still fuzzy
+- Don't "Initial Commit" on an already-existing project (like the mod0resources repository); remember to start with a present-tense verb with a capital letter (like Add, Change, Remove, Fix, Make, etc.)
+- Edit files using your text editor, not `echo`
 
-### Today's Goals
+### Other Notes
 
-(See above)
+- Good commit message format: 
 
-### Warm Up
+```
+Add list of mod 0 resources
+Remove reference to old blog post
+Change data type of age field
+Fix spelling mistake
+```
 
-<p>Last week, we briefly talked about keyboard shortcuts in the Mac environment and in Chrome. You should also learn and practice these terminal shortcuts.</p>
+- Not good commit message format: 
 
-<div class="try-it">
-  <h3>Try it: Practicing Terminal Shortcuts</h3>
-  <div class="flex-container tips">
-    <div>
-      <li>
-    <strong>Cycle through past commands</strong>
-    <pre>up arrow</pre>
-  </li>
-  <li>
-    <strong>See all commands previously typed</strong>
-    <pre>type "history" in the command prompt</pre>
-  </li>
-  <li>
-    <strong>Clear Command Line</strong>
-    <pre>control + u</pre>
-  </li>
-  <li>
-    <strong>Clear Terminal Window</strong>
-    <pre>command + k</pre>
-  </li>
-  <li>
-    <strong>Open New Tab</strong>
-    <pre>command + t</pre>
-  </li>
-  <li>
-    <strong>Cycle Through Terminal Tabs</strong>
-    <pre>control + tab</pre>
-  </li>
-    </div>
-    <div>
-  <li>
-    <strong>Goto Beginning of Line</strong>
-    <pre>control + a</pre>
-  </li>
-  <li>
-    <strong>Goto End of Line</strong>
-    <pre>control + e</pre>
-  </li>
-  <li>
-    <strong>Fast Moving Cursor Through Command Line Text</strong>
-    <pre>Right: option + right-arrow</pre>
-    <pre>Left: option + left-arrow</pre>
-  </li>
-  <li>
-    <strong>Stop Any Terminal Process</strong>
-    <p>Stuck? Not sure what's going on with your Terminal? This is the command to use.</p>
-    <pre>control + c</pre>
-  </li>
-    </div>
-  </div>
-</div>
+```
+Rachel is adding her list of mod 0 resources
+old blog post
+changed data type for age field
+Oops, I need to fix my spelling mistake
+```
+
+- Today's Goals
+
+## Intros, Review, and Icebreaker
 
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3>
-  <p>Person with the lightest color shirt speaks first.</p>
+  <p>Person with the shortest first name goes first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. Share: what is a current trend that you're either totally annoyed by or completely love?</p>
-  <p>3. Accountability review: how are you progressing toward mastery of your focus skills?</p>
-  <p>Have extra time? Share helpful resources you've come across.</p>
+  <p>2. What's something you're really good at? (Don't be humble!)</p>
+  <p>3. Accountability review: what tangible progress have you made toward the focus skills you identified at the beginning of Mod 0?</p>
+  <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
 
-<a name="classes"></a>
-## Class and Method Review
+<a name="topdowndesign"></a>
+## Top Down Design
+
+> "Programing is hard because it requires us to solve ill-defined problems with unknown solutions. Our job is to invent the solutions. Coding is inherently creative." - [Danny Smith on Breaking Down Problems](https://medium.com/@dannysmith/breaking-down-problems-its-hard-when-you-re-learning-to-code-f10269f4ccd5)
+
+<span class="vocab">Top Down Design</span> (or step-wise design) is an approach to breaking down a problem or system. In this approach, the designer lays out the problem or system's high-level overview, then breaking down the overview into sub-systems (or sub-steps), then repeating that process until the system has been broken down into the smallest pieces. 
+
+#### This is not top-down design:
+<img style="width: 40%" src="https://afinde-production.s3.amazonaws.com/uploads/8706a488-d0f4-41ba-bf76-7151762fd5d1.jpg" alt="draw an owl meme">
+
+<p><em><small>Credit: https://eurokeks.com/</small></em></p>
+
+#### This is the start of a top-down approach:
+<img style="width: 80%" src="images/draw_owl.png" alt="draw an owl top down design">
+
+
+**Why is this important?** A problem that is not broken down into its smallest components remains too complex and abstract to code. In addition, small components allow for reusable and replaceable units of code. 
+
+As humans, we memorize and practice the steps that it takes in order to do even the most basic tasks. If you tell a human to tie their shoe, you (generally) don't need to specify any further instructions. However, if you were to build a shoe-tying machine, you would need to break down the process into the most basic steps. 
 
 <div class="try-it">
-  <h3>Try It: Methods</h3>
-  <p>Post one sentence in the chat about a class using this structure:</p>
-  <p>Each _______ (class) can ___________, __________, and ___________.</p>
-  <p>Example: Each bank account (class) can have money deposited, can have money withdrawn, can be opened, can be closed, and can change ownership (methods).</p>
+  <h3>Try It Together: Making Pizza</h3> 
+  <p>Follow along with your paper and pencil as we walk through breaking down the process of making pizza.</p>
 </div>
 
-### Method and Attribute Interaction
-
-Like we talked about during session 3, a <span class="vocab">method</span> of a class define **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
-
-Most of the time, a method will either **use** or **change** an attribute of an object. For example, look at the attributes of the class `Bank Account` below:
-
-```
-Class: Bank Account
-
-Attributes (____ has a/an _____):
-owner_name
-balance
-overdraft_fee
-```
-
-Here are some Bank Account methods and the attributes that would be used/changed. Notice that these are all verbs or action phrases.
-
-```
-Methods:
-change_owner (modifies the owner_name attribute)
-deposit (modifies the balance attribute)
-withdraw (modifies the balance attribute AND uses the over_draft fee if the balance drops below $0)
-display_account_info (uses the owner_name and balance attributes)
-```
-
-### Example #2
-
-Look at the Car class and its attributes below:
-
-```
-Class: Car
-
-Attributes (____ has a/an _____):
-amount_of_gas (integer)
-paint_color (string)
-number_of_carseats (integer)
-engine_status (boolean)
-passengers (array)
-last_oil_change (datetime)
-```
+Now, in groups!
 
 <div class="try-it">
-  <h3>Try It: Methods with Attributes</h3>
-  <p>Post two sentences in the chat about the Car class using this structure:</p>
-  <p>The ____________ method [modifies/uses] the _____________ attribute.</p>
-  <p>Example: The start_engine method modifies the engine_on attribute.</p>
-  <b>Make sure that your method names are verbs or action phrases.</b>
-</div>
-
-<a name="gitreview"></a>
-## Git Review
-
-Let's talk once more about this Git diagram.
-
-![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png)
-<small><em>Source: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository</em></small>
-
-We'll start by repeating the group git exercise from Tuesday's session. This may seem repetative, but each time you practice, you'll gain muscle memory and procedural understanding.
-
-Today's <span class="vocab">driver</span> will be the person who was born closest to the state of Florida. Everyone else will be <span class="vocab">navigators</span>. **Driver**: remember not to type anything that has not yet been brought up by a navigator and discussed in the group. 
-
-The <span class="vocab">driver</span> will be the person typing the commands, but the <span class="vocab">navigators</span> should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss **why** you are doing each step, or **what** exactly is taking place in each step.
-
-**Remember:** If you feel comfortable with git, your job is to hone your explanation and communication skills. Many companies in the industry that place far more weight on these professional skills than on being a technical superstar. 
-
-<div class="try-it">
-  <h3>Try It: Git Review</h3>
-  <p>As you and your group walk through the git review below, it might be a good idea to have <a href="/session3#init" title="">Session 3's Git Notes</a> open.</p>
-  <ol>
-    <li>Before we do this, make sure the driver is in the home directory by typing <code>cd</code></li>
-    <li>Create a new directory called <code>session_4_git_practice</code>. Inside of that directory, create three files called <code>coding_languages.txt</code>,<code>programming_terms.txt</code>, and<code>git_terms.txt</code>.</li>
-    <li>Tell git to start watching the <code>session_4_git_practice</code> directory.</li>
-    <li>Before you check the status, predict what it will say. Then, check the current status.</li>
-    <li>Add <code>coding_languages.txt</code> to the staging area.</li>
-    <li>Make your first commit in this directory. What should the commit message here be?</li>
-    <li>Before you check the status, predict what it will say. Then, check the current status.</li>
-    <li>Add <code>programming_terms.txt</code> and<code>git_terms.txt</code> to the staging area.</li>
-    <li>Make your second commit in this directory. This commit should include both files from the previous step. What should the commit message here be? Why? What conventions have we talked about?</li>
-    <li>Use the echo command to add the names of two separate coding languages to <code>coding_languages.txt</code>. You may Google "programming languages" if you can't think of any.</li>
-    <li>Before you check the status, predict what it will say. Then, check the current status.</li>
-    <li>Before you check the difference between your last commit and what the file looks like now, predict what it will say. Then, check the diff.</li>
-    <li>Add the changes to the staging area.</li>
-    <li>Before you check the status, predict what it will say. Then, check the current status.</li>
-    <li>Commit the changes using a properly formatted commit message.</li>
-    <li>Before you check the status, predict what it will say. Then, check the current status.</li>
-    <li>Repeat steps 10-16 again, adding the names of some programming terms and some git terms to the respective files.</li>
-    <li>Add and commit the changes to these two files <strong>together</strong> with a properly formatted commit message.</li>
-  </ol>
-  <p><strong>Finished before time is up? Repeat, but choose a different driver this time.</strong></p>
-</div>
-
-<a name="github"></a>
-## GitHub
-
-Git is not the same as GitHub. They work together, but they are separate tools. Git allows us to track versions of our work on our local computers. <span class="vocab">GitHub</span> is an online git repository hosting service. A <span class="vocab">repository</span> (or <span class="vocab">repo</span>) is, at it's core, a place where your work and commits are stored. 
-
-Other alternatives to GitHub include GitLab and BitBucket, among others. GitHub (and these other services) also makes it easy for teams that use git to collaborate on the same codebase. 
-
-During Mod 0, we will not be exploring the collabortive functionality of GitHub. We're going to stick to learning the basic functionality of GitHub. 
-
-Let's first discuss this diagram:
-
-![Github Diagram](http://frontend.turing.io/assets/images/lessons/git/github-diagrams.002.jpeg)
-
-<p><small><em>Source: http://frontend.turing.io/assets/images/lessons/git/github-diagrams.002.jpeg</em></small></p>
-
-<span class="vocab">origin</span>: refers to the URL where the code is hosted on GitHub. Each repository has its own origin (own URL).
-
-<span class="vocab">git pull</span>: means download all of the changes and updates on the remote GitHub repo that I don't currently have on my local repo. You would use git pull after a teammate makes a change to the code, and you want to bring those changes into your own code.
-
-<span class="vocab">git push</span>: this is how you share/upload the changes you made to your local repository on GitHub.
-
-This diagram shows  how GitHub can be used as a collaboration tool:
-
-![Collaborative Github Diagram](https://qph.fs.quoracdn.net/main-qimg-a161bdd97e4e0de40d999ac222fe2008.webp)
-
-<small><em>Source: https://www.quora.com/What-is-git-and-repository</em></small>
-
-Let's take a look at an example of a repo on GitHub: <a href="https://github.com/freeCodeCamp/freeCodeCamp" title="">FreeCodeCamp</a>
-
-<div class="try-it">
-  <h3>Try It: Exploring GitHub Repositories</h3>
-  <p>In your breakout group, choose one of the repositories listed at the bottom of this "Try It" section. Take a few minutes to explore the following questions and be ready to report back to your group:</p>
-  <ol>
-    <li>What is this project about?</li>
-    <li>How many commits have been made in the repository?</li>
-    <li>Approximately how often are changes made to this repository? How do you know?</li>
-    <li>Who is the top contributor?</li>
-    <li>How many people have contributed to the repository?</li>
-    <li>How many people are watching the repository? What does this mean?</li>
-    <li>How many issues are open? Can you decipher what problems any of the issues are reporting? Is there any discussion happening on the issues?</li>
-    <li>How many open pull requests exist? What was the date of the most recent pull request?</li>
-    <li>Is there active commenting on the pull requests? Can you decipher what people are discussing?</li>
-    <li>What other things do you see on the repository? Can you google these things to find out what they are?</li>
-    <li>Done before time is up? Pick a second repository to explore.</li>
-  </ol>
-  <p>Options:</p>
-  <ul>  
-    <li><a href="https://github.com/jwasham/coding-interview-university" title="">Coding Interview University</a></li>
-    <li><a href="https://github.com/kamranahmedse/developer-roadmap" title="">Developer Roadmap</a></li>
-    <li><a href="https://github.com/EbookFoundation/free-programming-books" title="">Free Programming Books</a></li>
-    <li><a href="https://github.com/toddmotto/public-apis" title="">Public APIs</a></li>
-    <li><a href="https://github.com/samaaron/sonic-pi" title="">Sonic Pi</a></li>
+  <h3>Try It (Break Out Rooms): Top Down Design (~12 minutes)</h3> 
+  <p>The person whose first name starts closest to the letter F will pick a scenario below:</p>
+  <ul>
+    <li>Reheating a meal</li>
+    <li>Mailing a package</li>
+    <li>Walking a dog</li>
+    <li>Putting children to bed</li>
+    <li>Applying for a job</li>
+    <li>Writing an essay</li>
+    <li>Starting a campfire</li>
+    <li>[Choose your own adventure]</li>
   </ul>
+  <p>As a group, use a Top-Down Design approach to break down the scenario. Everyone should have their own diagram.</p>
+  <p>Done? Review, revise, and choose another scenario.</p>
+  <p>Be ready to share and explain.</p>
 </div>
 
-### Creating a Remote Repo on GitHub
+### Top Down Design in Programming
 
-Watch and take notes while we walk through how to add a remote to your local repository. 
+<img width="70%" src="https://i.ytimg.com/vi/DXEns9nWdqs/maxresdefault.jpg" alt="encrypt and decrypt top down design">
+<p><small>Credit: Liam McQuay (IGCSE Computer Science Youtube Tutorial)</small></p>
 
-1. Visit <code>github.com/your_username</code>
-1. Click the plus button in the upper-right corner of GitHub and select "New Repository" from the dropdown. 
-1. Give your repository a name, and dont worry about adjusting any of the other settings for now.
-1. Scroll down and click "Create Repository"
-1. Scroll to `…or push an existing repository from the command line`
-1. Paste the lines listed, one at a time, in your terminal. You will need to enter your GitHub username and password (unless you've already setup SSH keys). 
-1. Refresh Github. Tada! Your project is there. 
+Breaking down problems using top down design lends itself nicely to the object-oriented design principles of <span class="vocab">abstraction</span> (where an object performs a task without other objects being concerned about how it is done) and <span class="vocab">encapsulation</span> (where an object handles its own internal states and behind-the-scenes work). 
+
+### Notating Top-Down Design for the Mod 0 Assessment
+
+On your Mod 0 Assessment, you will be asked to break down a scenario using Top Down Design. We'll demonstrate the pizza scenario in a Github Gist. 
 
 <div class="try-it">
-  <h3>Try It: Adding a Remote</h3>
-  <p>1. Create a new repository on GitHub called <code>git_homework</code>.</p>
-  <p>2. In your terminal, navigate to your <code>git_homework</code> directory from session 3's homework. If for some reson you don't have this directory then use the <code>mkdir</code> command to create <code>git_homework</code>. Then use <code>touch</code> to create a file called<code>sample_file.txt</code>. Then run <code>git init</code>. Only do this if you don't already have a <code>git_homework</code> repo.</p>
-  <p>3. Add the remote to your local repository, then push your changes to GitHub.</p>
+  <h3>Try It: Notating Top Down Design (~5 minutes)</h3> 
+  <p>Open a new gist and use decimal notation to write out your top down design appoach with the scenario you chose from your group.</p>
+  <p>Post your gist link in the chat, and be ready to give feedback to the person you're paired up with (will be posted in the chat while you're working).</p>
 </div>
 
 <hr>
@@ -305,93 +149,93 @@ Watch and take notes while we walk through how to add a remote to your local rep
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
 <hr>
 
-### Making Additional Changes and Pushing to GitHub
+<a href="" name="oop"></a>
+## Object Oriented Programming
 
-Open up Atom. Use the keyboard shortcut `command + o` to search for your `git_homework` project.
+<span class="vocab">Object oriented programming</span>, or OOP for short, is an approach to programming (or a [programmming paradigm](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)) where programs are organized as a series of objects. 
 
-Watch and take notes while we walk through how to continue making changes and pushing those changes to GitHub.
+OOP is very similar to how the world actually works. <span class="vocab">Objects</span> are created from templates that we call <span class="vocab">classes</span>. 
 
-<div class="try-it">
-  <h3>Try It: Full Git Workflow</h3>
-  <p>In your breakout rooms, <strong>everyone</strong> will complete the steps below synchronously, but on your own projects. Use each other as resources and sounding boards. Don't hesitate to click "share screen" if there's something you want your team to look at!</p>
-  <p>If you get really stuck, you can click "ask for help" and we'll pop into your room.</p>
-  <ul>
-    <li>Add a few new quotes to your <code>quotes.txt</code> file.</li>
-    <li>Save your file using the shortcut <code>command + s</code>.</li>
-    <li>Go back to your terminal.</li>
-    <li>Use commands to add and commit your new changes. Be sure to use <code>git status</code> to check your status, and make sure your commit message is properly formatted.</li>
-    <li>Push your new changes to GitHub.</li>
-    <li>Refresh the page to make sure the new changes appear.</li>
-    <li>Repeat the above steps, but this time, remove one of the quotes from your <code>quotes.txt</code> document, then add, commit, and push your changes.</li>
-  </ul>
-  <p>Done? Paste the link to your GitHub repo into the breakout room chat, then take a look at each repo to make sure the new commits show up.</p>
-  <p>Done with that? Get to know your breakout room classmates better: What are they trying to get better at in life? What book would the recommend that everyone read at least once in life?</p>
-</div>
+A class defines attributes (or properties) and methods (or actions). An object is a very specific instance of a class. For example, if the class were Car, two objects might be 2007 Blue Nissan Versa and 2014 Silver Nissan Juke.
 
-<a name="forkclone"></a>
-## Forking
+<span class="vocab">Attributes</span> contain **data** about a specific object. The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash). 
 
-#### What is Forking?
+The names of attributes are generally nouns. 
 
-<span class="vocab">Forking</span> allows you to copy someone else's project while still keeping a reference to the original. To fork an existing project, you just click the `fork` button, which will make a copy of all of the code and directory structure to your own GitHub account. 
+Two good questions to ask when you're determining what should be classified as an attribute are: 
 
-You can tell if something is a fork because it will say "forked from [original repo name]" underneath the title.
+* "Is this piece of data something that could potentially stay the same over the course of an object's lifetime?" (you want the answer to be yes)
+* "Is there any other data that underlies this piece of data?" (you want the answer to be no)
 
-Once you've forked a repo, click the green "Clone" button to get the URL to clone.
-
-```
-git clone <insert URL here>
-```
-
-If you fork, clone, make changes, and push to origin, it will work because it's pushing to **your forked origin** (YOUR account), not the original repository (ORIGINAL CREATOR's account). To push those changes:
-
-```
-git push
-```
-
-OR
-
-```
-git push origin master
-```
-
-(In our case today, both commands will do the same thing)
-
-<div class="things-to-note">  
-  <h4>Things to Note: Cloning with Git</h4>
-  <ul>
-    <li><strong>Never</strong> clone a remote repository within a preexisting <span class="vocab">Git</span> repository. If you watched the video for modifying your <code>.bash_profile</code>, then you will see [master] if you're already in a git repository.</li>
-    <li>After cloning a repository, remember to <code>cd</code> into the directory you just cloned to your machine before running commands. If you cannot remember what the directory is called then run<code>ls</code> after cloning to see the contents of your current directory.</li>
-    <li>There is no need to run <code>git init</code> within a repository that you cloned down to your local machine. Remote repositories that you clone to your local machine have already been initialized by git. You only ever need to run <code>git init</code> when you've created a repository locally from scratch. If you mess this one up, it's not going to cause any problems; it's just unnecessary.</li>
-    <li><strong>Don't</strong> use "Initial commit" as your commit message for a cloned repository. Whoever made the repository already did that. You only need "Initial commit" when you make a new repository for yourself.</li>
-  </ul>
-</div>
+CAUTION: Sometimes, methods will *feel* like they should be attributes. For example: `age`, `years_employed`, `percent_full`. 
 
 <div class="try-it">
-  <h3>Try It: Forking</h3>
-  <ol>
-    <li>Fork the <a href="https://github.com/rwarbelow/best_animals" title="Best Animals">Best Animals</a> repository.</li>
-    <li>Clone your fork using your terminal.</li>
-    <li>Open up the project in your text editor.</li>
-    <li>Add a few animals to the mammals.txt file.</li>
-    <li>Add and commit your changes.</li>
-    <li>Push your changes to the origin (which is your fork).</li>
-    <p>Done? Repeat steps 4-6 with another animal file.</p>
-  </ol>
+  <h3>Try It Together: Bottle Class Attributes</h3> 
+  <p>Follow along as we walk through defining a bottle class with three different bottle objects.</p>
+  <b>NOTE</b>: For consistency in this lesson, we're going to stick to the naming convention of <code>snake_case</code>. This will look very Ruby-esque. However, in JavaScript land, you'll see <code>camelCase</code>. 
 </div>
 
-<a name="gists"></a>
-## Gists and Markdown
+<span class="vocab">Methods</span> define **behavior** of an object, **actions** that can be performed on that object, or **calculations** that generally use . Methods are generally verbs (action words or short action phrases). 
 
-<span class="vocab">Markdown</span> is a syntax used to create formatted text elements (like headings, paragraphs, lists, etc.). 
+Methods generally answer the question "What can this thing do?" or "What can be done to this thing?"
 
-In preparation for your homework this weekend, let's take a quick glance at a the screenshot below of the Mod 0 Tech Setup Gist. This shows the markdown code on the right and the displayed version on the left. 
+<div class="try-it">
+  <h3>Try It Together: Bottle Class Methods</h3> 
+  <p>Follow along as we walk through defining a bottle class with three different bottle objects.</p>
+</div>
 
-<img style="border: 2px solid black; padding: 1%;" src="images/markdown_comparison.png" alt="markdown comparison">
+#### Key Points
 
-<a name="homework"></a>
-## Homework and GitHub Projects
+* A method performs some kind of work and will almost always **use** or **modify** an attribute
+* Anything that does work (calculations) should be a method, not an attribute
+* Attributes are generally nouns (99.9% of time)
+* Methods are generally verbs (90% of time -- can also be questions OR nouns that are the result of calculations)
+* One quick side note: accessor methods are outside the scope of today's lesson. 
 
-Let's spend a few minutes looking at how to use GitHub Projects. 
+### Can You Spot the Problem? 
 
-Find the homework in your Mod 0 Project Board. Contact David or Tim if you're stuck.
+What would be wrong with...
+
+* a class called `Turing` 
+* an attribute called `current_time`
+* having attributes for a `Review` class called `one_star`, `two_stars`, `three_stars`, etc.
+* a `Senator` class having an array attribute called `senator_names`
+* a class called `California`
+* having attributes on a `ShoppingCart` class called `item_one`, `item_two`, `item_three`, etc.
+* a method on `GroceryStore` called `clean_aisle_seven`
+* a `Bottle` class having an attribute called `water`
+* a `Chair` class having an attribute called `number_of_chairs`
+* a `MenuItem` class with a method called `CustomerSurvey`
+
+<div class="try-it">
+  <h3>Try It (Big Breakout Rooms) (~15 minutes)</h3> 
+  <p>Make a copy of <a href="https://docs.google.com/document/d/17NykxDAM3OrlAm4xwYLY7uh_YokLyPgP0ahmkJ1Rd5s/edit?usp=sharing" title="" target="_blank">this document</a> which your group will use to practice.</p>
+  <p>Person whose first name starts closest to Q will share their screen and choose one of the following classes:</p>
+  <ul>
+    <li>Vehicle</li>
+    <li>Book</li>
+    <li>Playlist</li>
+    <li>GroceryStore</li>
+  </ul>
+  <p>As a team, brainstorm at least five attributes (and data types) and five methods (and descriptions) for your chosen class. Each person should be keeping their own copy up to date to use as a reference.</p>
+  <p>Person whose first name starts closest to the letter A will suggest an object that is an instance of the class. This is Object #1.</p>
+  <p>Brainstorm the values for each attribute of that object.</p>
+  <p>Brainstorm the results of each method called on that object.</p>
+  <p>Person whose first name starts closest to the letter E will suggest a second object that is an instance of the class. This is Object #2.</p>
+  <p>Repeat the brainstorm process for attributes and methods for object #2. </p>
+</div>
+
+### Notating Classes, Objects, Attributes, and Methods for the Mod 0 Assessment
+
+On your Mod 0 Assessment, you will be asked to identify classes, objects, attributes, and methods. We'll demonstrate the format we want you to use.
+
+<div class="try-it">
+  <h3>Try It: Notating Classes, Objects, Attributes, and Methods</h3> 
+  <p>Create two gists. In the first gist, use the notation we demonstrated to write out your class. In the second gist, use the notation we demonstrated to write out your first object.</p>
+  <p>Post the links to both of your gists in the chat.</p>
+</div>
+
+### Example Files
+
+- <a href="https://gist.github.com/rwarbelow/aa554ea9091efe6ed1a8ae66e95430a0" title="">Class Example</a>
+- <a href="https://gist.github.com/rwarbelow/2639de952d5cc4e862662d04dfef2a64" title="">Object Example</a>

@@ -57,11 +57,11 @@ Over the next few weeks, you'll be learning a lot. Feel free to click through th
 All of these lessons are linked in the sidebar, as well.
 
 - [First, you'll need to install some software on your laptop, and do some configuration around that]({{ site.baseurl }}{% link setup-instructions.md %})
-- [Session 1: Your first "live" session. You'll learn about what _does_ success at Turing mean, and what are strategies you can begin to employ to be successful]({{ site.baseurl }}{% link session1/index.md %})
-- [Session 2: Googling skills, keyboard shortcuts, and explore some basic principles of software development]({{ site.baseurl }}{% link session2/index.md %})
-- [Session 3: Using your Terminal, git and Github, and how to navigate files and folders _in_ your terminal]({{ site.baseurl }}{% link session3/index.md %})
-- [Session 4: We'll go deeper in Git and Github usage. Git is an amazing and powerful tool, but tricky, and this is time well spent]({{ site.baseurl }}{% link session4/index.md %})
-- [Session 5: Basic principles of software development, like object-oriented principles, top-down design of classes, and breaking a problem into small pieces]({{ site.baseurl }}{% link session5/index.md %})
+- [Session 1: You'll learn about what _does_ success at Turing mean, what strategies you can begin to employ to be successful, keyboard shortcuts, and how to google]({{ site.baseurl }}{% link session1/index.md %})
+- [Session 2: Using your Terminal, git and Github, and how to navigate files and folders _in_ your terminal]({{ site.baseurl }}{% link session2/index.md %})
+- [Session 3: We'll go deeper in Git and Github usage. Git is an amazing and powerful tool, but tricky, and this is time well spent]({{ site.baseurl }}{% link session3/index.md %})
+- [Session 4: Basic principles of software development, like object-oriented principles, top-down design of classes, and breaking a problem into small pieces]({{ site.baseurl }}{% link session4/index.md %})
+- [Session 5: Currently a work in progress]({{ site.baseurl }}{% link session5/index.md %})
 - [Session 6: Synthesis, Professional Development, Mentoring, More Turing Resources]({{ site.baseurl }}{% link session6/index.md %})
 - The capstone! Depending on which program you're doing, we've got a capstone project for you. [Front-end capstone]({{ site.baseurl }}{% link capstone/fe_engineering/index.html %}) [back-end capstone]({{ site.baseurl }}{% link capstone/be_engineering/index.md %})
 
