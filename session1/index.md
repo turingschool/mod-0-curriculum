@@ -22,10 +22,10 @@ subheading: Expectations, Keyboard Shortcuts, Googling, Classes
       <li><strong>10 min: </strong><a href="#intro">Housekeeping, Intros</a></li>
       <li><strong>10 min: </strong><a href="#expectations">Turing/Mod 0 mission and expectations</a></li>
       <li><strong>30 min: </strong><a href="#studytips">Study Tips</a></li>
+      <li><strong>5 min: </strong>Break</li>
       <li><strong>10 min: </strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
       <li><strong>10 min: </strong><a href="#classes">Classes</a></li>
       <li><strong>15 min: </strong><a href="#findinganswers">Googling</a></li>
-      <li><strong>5 min: </strong>Break</li>
       <li><strong>5 min: </strong><a href="#homework">Homework Preview</a></li>
     </ul>
   </div>
