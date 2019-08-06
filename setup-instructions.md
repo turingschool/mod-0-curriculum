@@ -300,4 +300,3 @@ Great work! You've connected your terminal to your Github profile. You can now i
 
 Give yourself a pat on the back. 
 
-Or, click over to [session 1]({{ site.baseurl }}{% link session1/index.md %}) and start reading!
