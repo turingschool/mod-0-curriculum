@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Session 3 
+title: Session 2 
 subheading: Terminal, File/folder Structure, Git Basics
 ---
 

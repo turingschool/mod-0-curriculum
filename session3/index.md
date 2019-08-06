@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Session 4
+title: Session 3
 subheading: More Git and Intro to GitHub
 ---
 

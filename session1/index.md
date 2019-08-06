@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Session 2
-subheading: Googling, Classes, Data Types, Iteration
+title: Session 1
+subheading: Expectations, Googling, Classes, Data Types
 ---
 
 <div class="goals-agenda">
