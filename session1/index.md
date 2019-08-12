@@ -576,6 +576,9 @@ Imagine that we're making an application for grocery stores to use (intentionall
   </div>
 </div>
 
+### Program specific breakouts
+
+We'll go into breakout rooms to briefly discuss the how to check correct syntax for datatypes in Ruby and JavaScript. 
 
 ## The End!
 
