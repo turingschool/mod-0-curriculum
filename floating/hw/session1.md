@@ -1,4 +1,3 @@
-
 ### 2. Data Types (15 min)
 
 Imagine that you're taking your favorite board game and turning it into a computer-based game. 

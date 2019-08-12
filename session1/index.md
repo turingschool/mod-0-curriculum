@@ -46,7 +46,7 @@ subheading: Expectations, Keyboard Shortcuts, Googling, Classes
 
 * Intros: David and Tim
 * Goals for session (see above)
-* Bookmark this page with the shortcut `command + d`
+* Follow along by clicking the lesson plan in slack
 
 ## Housekeeping 
 
@@ -60,15 +60,17 @@ subheading: Expectations, Keyboard Shortcuts, Googling, Classes
 
 > “Our mission is to unlock human potential by training a diverse, inclusive student body to succeed in high-fulfillment technical careers.”
 
-### Growth Mindset
+### A different type of learning environment
 
-Turing is a very challenging experience for most people. In order to be successful I'd highly recommend that you embrace a **growth mindset**. This means that you believe that knowledge and intelligence can be improved through hard work and dedication, and that you may fail at something before you're successful at it.
+Turing is a very challenging experience for most people. In order to be successful I'd highly recommend that you embrace a **growth mindset**. This means that you believe that knowledge and intelligence can be improved through hard work and dedication, and that you may fail at something before you're successful at it. It's the difference between being good at something right off the bat, and working really hard to get good at something that sets people apart here.
+
+**There is no transcript** - Sure, you'll get a diploma upon graduation, but we don't have GPAs at Turing and grades are not the measurement of success. **We measure success in understanding.** Throughout your time at Turing you'll have projects and assessments that will allow us as instructors to guage your success. The main reason for this is because the ultimate goal here is for you to get a job in software development. And to do so, you need to show understanding during the interview process.
 
 ### Communication
 
 Make sure that you've added the [Mod 0 Calendar](https://calendar.google.com/calendar?cid=Y2FzaW1pcmNyZWF0aXZlLmNvbV8xMnA0NjkzaG1lcjFvcmNlcHA3NHZnNzdwZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your own calendar. This is where you will find all mod 0 related events, including sessions, capstone study sessions, and other community wide events.
 
-Joanne will also remind you when these events are via **[slack](https://turingschool.slack.com/)**, which is the primary mode of communication we use at Turing. Make sure that you're checking it once a day so that you can stay up to date.
+Joanne will also remind you when these events are via [slack](https://turingschool.slack.com/), which is the primary mode of communication we use at Turing. Make sure that you're checking it once a day so that you can stay up to date. It's also a great place to ask questions if you are running into issues, as people are likely experiencing the same issue that you are.
 
 ## Mod 0 Expecations
 
@@ -121,9 +123,9 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
 
 #### Pre-teaching
 * Preview: Up to 24 hours prior
-* Check out the lesson plan 
-* Peek at coding examples
-* Record new vocab in Turing Notebook
+  * Check out the lesson plan 
+  * Peek at coding examples
+  * Record new vocab in Turing Notebook
 
 #### Take great notes (during the lesson)
 * Turing Notebook: Start now with handwritten notes
@@ -133,9 +135,9 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
 
 #### Post-teaching
 * Review: At lesson’s close
-* What do I understand from today?
-* When will I need what I just learned?
-* What questions do I still have?
+  * What do I understand from today?
+  * When will I need what I just learned?
+  * What questions do I still have?
 * Do your own research!
 
 ### Study Habits (focus)
@@ -153,7 +155,7 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
   * Update priorities with each study/work session (get granular)
   * Use checklists and kanban tracking
 * Pomodoros:
-  * Use a TIMER and stick to it. (befocused timer - free on App Store)
+  * Use a TIMER and stick to it. ([befocused timer - free on App Store](https://apps.apple.com/us/app/be-focused-focus-timer/id973130201))
   * Plan for focus and recovery (you’ll get more done!)
 
 ## BREAK
@@ -372,5 +374,5 @@ In addition, consider the following questions:
 <a name="homework"></a>
 ## Homework
 
-  Find the homework in your Mod 0 Project Board. Contact David or Tim if you're stuck.
+Find the homework in your Mod 0 Project Board. Contact David and Tim if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
