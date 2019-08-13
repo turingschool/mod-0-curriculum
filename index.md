@@ -63,7 +63,7 @@ All of these lessons are linked in the sidebar, as well.
 - [Session 4: Basic principles of software development, like object-oriented principles, top-down design of classes, and breaking a problem into small pieces]({{ site.baseurl }}{% link session4/index.md %})
 - [Session 5: Currently a work in progress]({{ site.baseurl }}{% link session5/index.md %})
 - [Session 6: Synthesis, Professional Development, Mentoring, More Turing Resources]({{ site.baseurl }}{% link session6/index.md %})
-- The capstone! Depending on which program you're doing, we've got a capstone project for you. [Front-end capstone]({{ site.baseurl }}{% link capstone/fe_engineering/index.html %}) [back-end capstone]({{ site.baseurl }}{% link capstone/be_engineering/index.md %})
+- The capstone! Depending on which program you're doing, we've got a capstone project for you. [Front-end capstone]({{ site.baseurl }}{% link capstone/fe_engineering/index.md %}) [back-end capstone]({{ site.baseurl }}{% link capstone/be_engineering/index.md %})
 
 ## Next steps
 
