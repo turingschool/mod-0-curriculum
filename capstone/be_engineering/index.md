@@ -23,7 +23,7 @@ If you have more than 7 days to work on the capstone, you should break up the wo
 
 The link below will take you to the Github page that contains all the Technical work. Scroll through the page to find the instructions for getting your computer setup and getting started.
 
-#### [Click here to get started with the Technical Capstone](https://github.com/turingschool-examples/backend_prework)
+#### [Click here to get started with the Technical Capstone](https://github.com/turingschool-examples/backend_module_0_capstone)
 
 ### Next Steps
 
