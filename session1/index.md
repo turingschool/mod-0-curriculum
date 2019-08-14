@@ -116,7 +116,7 @@ This is a feature in zoom that we'll use throughout the mod 0 sessions. They all
 Other things to note as we go through Mod 0:
 
 - <strong>Zoom</strong>: turn video on, turn mic off unless speaking
-- <strong>Breakout Rooms</strong>: don't be afraid to speak! Breakout rooms will be randomized at the beginning of each session, but continue to rely on your accountabilabuddy groups from Session 1 between sessions
+- <strong>Breakout Rooms</strong>: don't be afraid to speak! Breakout rooms will be randomized at the beginning of each session
 - <strong>Problems or individual questions during the Zoom session?</strong> Message the non-presenting host (either David or Tim)
 
 <a name="studytips"></a>
