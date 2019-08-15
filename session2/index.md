@@ -202,7 +202,6 @@ Action Commands
   <li><a href="#cd" title="">cd</a></li>
   <li><a href="#cddot" title="">cd ..</a></li>
   <li><a href="#touch" title="">touch</a></li>
-  <li><a href="#echo" title="">echo</a></li>
   <li><a href="#cat" title="">cat</a></li>
 </ul>
 
@@ -377,20 +376,8 @@ We don't see any confirmation that the file was created, but we can use `ls` to 
 timo@Tims-MacBook-Pro:~/latest_projects $ ls
 chapter_1.txt    chapter_2.txt
 ```
-
-<a name="echo"></a>
-### 7. Add text to a file (echo)
-
-Normally, we will use our text editor (Atom) to add text content to a file. However, you can also add text content using the <code>echo</code> command. Note that you *must* use quotation marks to indicate what text you want to add to the file. 
-
-```
-timo@Tims-MacBook-Pro:~/latest_projects $ echo "Call me Ishmael" >> chapter_1.txt
-```
-
-You won't see any confirmation, but that text inside the quotation marks will now be inside of the `chapter_1.txt` file. 
-
-<a name="echo"></a>
-### 8. See the text in a file (cat)
+<a name="cat"></a>
+### 7. See the text in a file (cat)
 
 If we want to check what text is inside of a file, we can use <code>cat</code>:
 
@@ -400,7 +387,7 @@ It was the best of times, it was the worst of times
 ```
 
 <a name="rm"></a>
-### 9. Remove a File (rm)
+### 8. Remove a File (rm)
 
 In the past, you've probably gotten rid of files by using the `Move to trash` command or dragging them into the trash, like this:
 
@@ -428,7 +415,7 @@ chapter_2.txt
 </div>
 
 <a name="rmrecursive"></a>
-### 10. Remove a Directory and Its Contents (rm -rf)
+### 9. Remove a Directory and Its Contents (rm -rf)
 
 We can use `rm` to remove a file, but we use a different command when we're removing a directory. Since a directory could potentially contain other files and directories inside of it, we use `rm -rf` which stands for remove recursively, or go inside this directory and remove everything inside of it as well. 
 
@@ -481,8 +468,8 @@ Now when I type `ls`, I will no longer see `books` listed.
 1. Print your current directory
 1. Make a file called `favorite_foods.txt`
 1. List the contents of your directory (you should see just your `favorite_foods.txt` file appear)
-1. Use the echo command to add your #1 favorite food to the file
-1. Use the echo command again to add your #2 favorite food to the file
+1. Use Atom add your #1 favorite food to the file
+1. Add your #2 favorite food to the file
 1. Use the cat command to show what's in that file
 1. Delete the `favorite_foods.txt` file
 1. Get back out of the `terminal_practice` directory
@@ -702,12 +689,7 @@ Let's figure out on the diagram what we just did:
 ### 5. Making File Changes, Adding New Commits, and Viewing Those Changes By Using (<span class="vocab">git diff &lt;filename&gt;</span>)
 Now that we have our initial commit (or snapshot in time), let's make a change to one of our files.
 
-Type this from the command line:
-
-```
-echo "Be kind" >> things_to_remember.txt
-echo "Work hard" >> things_to_remember.txt
-```
+We'll open up Atom to make these changes - Do you have auto-save enabled?
 
 Your working directory now has changes that differ from what our file looked like the last time we committed (or took a snapshot).
 
@@ -726,7 +708,7 @@ Then add your changes and commit them using an imperative verb that starts with 
 
 The basic git workflow is this:
 
-1. Make file changes (for today, do this using the `echo` command)
+1. Make file changes - we'll do this in Atom
 1. Check the `git status` to see what files are unstaged
 1. Check the `git diff <filename>` to see what changes have happened since the last commit
 1. `git add <whatever file you want to stage>`
@@ -749,7 +731,7 @@ The basic git workflow is this:
     <li>Add <code>tasks.txt</code> to the staging area.</li>
     <li>Make your first commit in this directory.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
-    <li>Use the echo command to add three separate tasks to <code>tasks.txt</code>.</li>
+    <li>Use Atom to add three separate tasks to <code>tasks.txt</code>.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Before you check the difference between your last commit and what the file looks like now, predict what it will say. Then, check the diff.</li>
     <li>Add the changes to the staging area.</li>
