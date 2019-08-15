@@ -50,15 +50,11 @@ subheading: Terminal, File/folder Structure, Git Basics
 ### Wins
 
 - Solid understanding of data types 
-- Solid understanding of Googling + filtering tips specific to programming 
-- Sharing iteration diagrams in channel (keep sharing!)
+- Solid understanding of Googling + filtering tips specific to programming
+- Study habits and shortcuts
 
 ### Follow-Ups
-
-- Iteration is confusing: 
-    - What collection are you starting with?
-    - What are you doing to each item in the collection?
-    - You don't need to memorize syntax of iteration at this point; you'll see more of it in the capstone and Mod 1
+- Hands on examples
 - Sessions are designed to move fast
 - More breakout room time
 
@@ -526,6 +522,10 @@ The person who has not yet been the driver will share their screen.
 1. Get back out of the `session3_practice` directory
 1. Remove the `session3_practice` directory
 
+
+## Mistakes in the terminal DEMO
+
+Loom link will go here
 
 ## BREAK
 
