@@ -19,12 +19,12 @@ For a variety of reasons, historically, not everyone who starts Turing has gradu
 
 We think anyone can learn software development.
 
-What might explain this disconnect, between
+What might explain the disconnect, between
 > anyone can learn software development
 
 and
 
-> not every person who starts Turing graduates from Turing"?
+> not every person who starts Turing graduates from Turing?
 
 A theme among those who have graduated from Turing touches on at least two elements:
 
