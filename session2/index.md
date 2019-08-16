@@ -509,11 +509,6 @@ The person who has not yet been the driver will share their screen.
 1. Get back out of the `session3_practice` directory
 1. Remove the `session3_practice` directory
 
-
-## Mistakes in the terminal DEMO
-
-Loom link will go here
-
 ## BREAK
 
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
@@ -752,6 +747,10 @@ The basic git workflow is this:
       <img src="images/vim_land.png" alt="">
   </ol>
 </div>
+
+## Mistakes in the terminal DEMO
+
+<iframe width="560" height="315" src="https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Close Out
 
