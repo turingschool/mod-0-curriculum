@@ -748,7 +748,7 @@ The basic git workflow is this:
   </ol>
 </div>
 
-## Mistakes in the terminal DEMO
+## Mistakes in the terminal
 
 <a href="https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e">Terminal Mistakes Screencast</a>
 
