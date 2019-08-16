@@ -750,7 +750,7 @@ The basic git workflow is this:
 
 ## Mistakes in the terminal DEMO
 
-<iframe width="560" height="315" src="https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Terminal Mistakes](https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e)](https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e)
 
 ## Close Out
 
