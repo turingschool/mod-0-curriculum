@@ -750,7 +750,7 @@ The basic git workflow is this:
 
 ## Mistakes in the terminal DEMO
 
-[![Terminal Mistakes](https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e)](https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e)
+[![Terminal Mistakes](https://cdn.loom.com/sessions/thumbnails/f05362155f5f4e1c959e92c94776e98e-00001.jpg")](https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e)
 
 ## Close Out
 
