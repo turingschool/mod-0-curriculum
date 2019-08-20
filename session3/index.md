@@ -417,7 +417,7 @@ git push origin master
 
 <span class="vocab">Markdown</span> is a syntax used to create formatted text elements (like headings, paragraphs, lists, etc.).
 
-In preparation for your homework this weekend, let's take a quick glance at a the screenshot below of the Mod 0 Tech Setup Gist. This shows the markdown code on the right and the displayed version on the left.
+In preparation for your homework, let's take a quick glance at a the screenshot below of the Mod 0 Tech Setup Gist. This shows the markdown code on the right and the displayed version on the left.
 
 <img style="border: 2px solid black; padding: 1%;" src="images/markdown_comparison.png" alt="markdown comparison">
 
