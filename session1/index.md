@@ -50,13 +50,13 @@ subheading: Expectations, Keyboard Shortcuts, Googling, Classes
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
-## Housekeeping 
+## Housekeeping
 
 * Did you install Spectacle? Post in the chat!
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
 * Session will be recorded and posted in Slack
 * Find a typo?
-* <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes. 
+* <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes.
 
 <a name="expectations"></a>
 ## Turing Mission and Expectations
@@ -83,7 +83,7 @@ At the end of Session 5, you'll take a technical assessment that will showcase a
 
 ### Being Turing Ready
 
-By the Monday after your last Mod 0 session you’ll be rated as one of the following: 
+By the Monday after your last Mod 0 session you’ll be rated as one of the following:
 
 **Not Ready** based on any of these factors:
  * You’ve missed more than one session or did not meet engagement expectations
@@ -126,13 +126,13 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
 
 #### Pre-teaching
 * Preview: Up to 24 hours prior
-  * Check out the lesson plan 
+  * Check out the lesson plan
   * Peek at coding examples
   * Record new vocab in Turing Notebook
 
 #### Take great notes (during the lesson)
 * Turing Notebook: Start now with handwritten notes
-* Visual organization: Colors/markers/pens/stickies 
+* Visual organization: Colors/markers/pens/stickies
 * Diagrams: Draw out everything your instructors draw on board
 * KEY ideas: Focus on main concepts, write in your own words
 
@@ -154,7 +154,7 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
 
 ### Study Habits (goals)
 * Study/Worktime goal:
-  * Write a priority in your notebook. 
+  * Write a priority in your notebook.
   * Update priorities with each study/work session (get granular)
   * Use checklists and kanban tracking
 * Pomodoros:
@@ -163,14 +163,14 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
 
 ## BREAK
 
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 
 <a name="shortcuts"></a>
 ## Keyboard Shortcuts
 
-Most computer users rely heavily on the mouse to open applications, interact with programs, etc. You might think that you're quick with a mouse, but just wait until you get good at <span class="vocab">keyboard shortcuts</span>. 
+Most computer users rely heavily on the mouse to open applications, interact with programs, etc. You might think that you're quick with a mouse, but just wait until you get good at <span class="vocab">keyboard shortcuts</span>.
 
-Initially, your flow will be slower as you learn and memorize each of the shortcuts. However, if you force yourself to use these shortcuts, you'll become MUCH faster in the long run. 
+Initially, your flow will be slower as you learn and memorize each of the shortcuts. However, if you force yourself to use these shortcuts, you'll become MUCH faster in the long run.
 
 <div class="try-it">
   <h3>Try it: Shortcuts</h3>
@@ -182,7 +182,7 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
         <li>
           <strong>Open a program or search for a file:</strong>
           <pre>command + spacebar</pre>
-          <p>Then start typing the name of the program or file to search for such as 
+          <p>Then start typing the name of the program or file to search for such as
             <i>"Terminal"</i> Or <i>"Chrome"</i>,
           then press return to open that program or file</p>
         </li>
@@ -262,7 +262,7 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
         <li>
           <strong>Close Tab:</strong>
           <pre>command + W</pre>
-        </li> 
+        </li>
       </ul>
     </div>
   </div>
@@ -275,13 +275,13 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
 
 **Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 5. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
 
-Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan (instances) are all different versions of a **pizza** (class). 
+Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan (instances) are all different versions of a **pizza** (class).
 
 An Old Navy sweatshirt and an Eddie Bauer sweatshirt (instances) are different versions of a **sweatshirt** (class).
 
-_Great Expectations_ by Charles Dickens and _Becomming_ by Michelle Obama (instances) are different versions of a **book** (class). 
+_Great Expectations_ by Charles Dickens and _Becomming_ by Michelle Obama (instances) are different versions of a **book** (class).
 
-Class names are always singular: **pizza** (instead of pizzas), **sweatshirt** (instead of sweatshirts), and **book** instead of books. 
+Class names are always singular: **pizza** (instead of pizzas), **sweatshirt** (instead of sweatshirts), and **book** instead of books.
 
 <div class="try-it">
   <h3>Try It: Classes</h3>
@@ -293,11 +293,11 @@ Class names are always singular: **pizza** (instead of pizzas), **sweatshirt** (
 
 An <span class="vocab">attribute</span> of a class is a characteristic that every instance of that class has.
 
-For example: 
+For example:
 
 - Each **pizza** (class) has a crust, sauce, and toppings (attributes).
 - Each **sweatshirt** (class) has a color, size, brand, and price (attributes).
-- Each **book** (class) has a title, author, publisher, published_date, and total_pages (attributes). 
+- Each **book** (class) has a title, author, publisher, published_date, and total_pages (attributes).
 
 <div class="try-it">
   <h3>Try It: Attributes</h3>
@@ -308,13 +308,13 @@ For example:
 <a name="findinganswers"></a>
 ## Googling
 
-Believe it or not, a good chunk of your time as a programmer will be spent Googling to find answers to your questions. In fact, a somewhat experienced programmer will Google at a much higher rate than a beginning programmer. Therefore, it's really important to get good at Googling. 
+Believe it or not, a good chunk of your time as a programmer will be spent Googling to find answers to your questions. In fact, a somewhat experienced programmer will Google at a much higher rate than a beginning programmer. Therefore, it's really important to get good at Googling.
 
 For a frame of reference so that you know just how often we rely on Google (even the "easy" stuff), this is my most recent Chrome history as I've been building this curriculum 😂
 
 <img style="width: 50%" src="images/rachel_history.png" alt="Rachel's search history">
 
-When I Google programming questions, I _usually_ include three things (in varying orders): 
+When I Google programming questions, I _usually_ include three things (in varying orders):
 
 <ol>
   <li>What I want to do (verb)</li>
@@ -340,24 +340,24 @@ make border on heading element css
   <p>Write out Google-able search phrases for each of the following scenarios. Do not get hung up on being unfamiliar with the terminology for each scenario. We just want phrases to put into Google.</p>
   <p>1. I am using Git for version control and made a typo in a commit message. I need to change it before I push my changes to GitHub.</p>
   <textarea rows="2">
-    Phrase 1: 
-    Phrase 2: 
+    Phrase 1:
+    Phrase 2:
   </textarea>
   <p>2. I got this error message when I ran my Ruby program and I don't know what it means or how to fix it: <em>"unterminated string meets end of file"</em></p>
   <textarea rows="2">
-    Phrase 1: 
-    Phrase 2: 
+    Phrase 1:
+    Phrase 2:
   </textarea>
   <p>3. A Mod 0 homework assignment asks you to print out your git log in oneline (yes, oneline, not a spelling error) format and David definitely did not teach how to do this during class.</p>
   <textarea rows="2">
-    Phrase 1: 
-    Phrase 2: 
+    Phrase 1:
+    Phrase 2:
   </textarea>
 </div>
 
 ### Sifting Through Results
 
-Once you formulate a good Google search and receive your results, there are a few things you'll want to consider when determining which results to open. 
+Once you formulate a good Google search and receive your results, there are a few things you'll want to consider when determining which results to open.
 
 <div class="try-it">
   <h3>Demo: Google Results</h3>
@@ -365,9 +365,9 @@ Once you formulate a good Google search and receive your results, there are a fe
 </div>
 
 <a name="datatypes"></a>
-## Basic Data Types 
+## Basic Data Types
 
-In most programming languages, you'll find the same basic <span class="vocab">data types</span>. A data type represents the kind of data that you can use in the programming language. In this section, we'll discuss five different basic data types that are applicable to both the front end and back end. 
+In most programming languages, you'll find the same basic <span class="vocab">data types</span>. A data type represents the kind of data that you can use in the programming language. In this section, we'll discuss five different basic data types that are applicable to both the front end and back end.
 
 <div class="try-it">
   <h3>Try It: Basic Data Type Definitions</h3>
@@ -383,7 +383,7 @@ In most programming languages, you'll find the same basic <span class="vocab">da
 
 ### Data Type Use Cases and Syntax
 
-Luckily for us, the <span class="vocab">syntax</span> (the way we write) for these basic data types is almost identical in Ruby and JavaScript. 
+Luckily for us, the <span class="vocab">syntax</span> (the way we write) for these basic data types is almost identical in Ruby and JavaScript.
 
 Imagine that we're making an application for grocery stores to use (intentionally vague description 😁). For each of the data types we researched, we'll brainstorm examples of how we might use that data type in a grocery store app.
 
@@ -467,7 +467,7 @@ Imagine that we're making an application for grocery stores to use (intentionall
   <div class="toggle-show">
     Boolean Definition (click here)
     <div class="hidden">
-      <p>A <span class="vocab">boolean</span> value is either true or false. Boolean values are used in boolean logic, which is a subset of algebra used for creating true/false statements.</p> 
+      <p>A <span class="vocab">boolean</span> value is either true or false. Boolean values are used in boolean logic, which is a subset of algebra used for creating true/false statements.</p>
       <p>As a side note beyond the scope of today's lesson, boolean expressions use the operators AND, OR, and NOT to compare values and return a true or false result. An example of booleans in real life might be:
       </p>
       <p>If <span style="text-decoration: underline;">it's raining</span> and <span style="text-decoration: underline;">I have an appointment</span>, then grab the umbrella.</p>
@@ -505,7 +505,7 @@ Imagine that we're making an application for grocery stores to use (intentionall
   <div class="toggle-show">
     Array Definition (click here)
     <div class="hidden">
-      <p>An <span class="vocab">array</span> is a data structure that represents a group of things.</p> 
+      <p>An <span class="vocab">array</span> is a data structure that represents a group of things.</p>
       <p>You can think of an array as a collection, box, or container. Instead of saying "I have a collection of shirts," you could say "I have an array of shirts." The phrase "a container of pencils" would become "an array of pencils."</p>
       <p>Typically, elements in an array are all of the same data type, such as an integer or string. Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched.</p>
       <p>Examples:</p>
@@ -578,20 +578,19 @@ Imagine that we're making an application for grocery stores to use (intentionall
 
 ### Program specific breakouts
 
-We'll go into breakout rooms to briefly discuss the how to check correct syntax for datatypes in Ruby and JavaScript. 
+We'll go into breakout rooms to briefly discuss the how to check correct syntax for datatypes in Ruby and JavaScript.
 
 ## The End!
 
-After this Zoom call is over, take 15 minutes on your own to digest the content from this lesson, including the notes you wrote in the text boxes. 
+After this Zoom call is over, take 15 minutes on your own to digest the content from this lesson, including the notes you wrote in the text boxes.
 
 In addition, consider the following questions:
   - What do I understand from today?
-  - When will I need what I just learned? 
-  - What questions do I still have? 
-  - What learning processes/behaviors did I exercise today? 
+  - When will I need what I just learned?
+  - What questions do I still have?
+  - What learning processes/behaviors did I exercise today?
 
 <a name="homework"></a>
 ## Homework
 
 Find the homework in your Mod 0 Project Board. Contact David and Tim if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
-

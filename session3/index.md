@@ -47,7 +47,7 @@ subheading: More Git and Intro to GitHub
 
 - Strong understanding of terminal and commands - 4.5+ Average Score
 - Most common answer to git question: "I can name the steps of the git workflow and can put them in practice (using a reference)."
-- This is totally acceptable, and we use references as programmers on the job all the time. The best programmers google, reference, and implement more often and at a faster pace. 
+- This is totally acceptable, and we use references as programmers on the job all the time. The best programmers google, reference, and implement more often and at a faster pace.
 
 
 ### Follow-Ups
@@ -64,53 +64,85 @@ subheading: More Git and Intro to GitHub
 <p>Last week, we briefly talked about keyboard shortcuts in the Mac environment and in Chrome. You should also learn and practice these terminal shortcuts.</p>
 
 <div class="try-it">
-  <h3>Try it: Practicing Terminal Shortcuts</h3>
+  <h3>Try it: Practicing Shortcuts</h3>
   <div class="flex-container tips">
     <div>
+      <h3>Terminal</h3>
+      <p>Use these shortcuts to quickly move around within your terminal.</p>
       <li>
-    <strong>Cycle through past commands</strong>
-    <pre>up arrow</pre>
-  </li>
-  <li>
-    <strong>See all commands previously typed</strong>
-    <pre>type "history" in the command prompt</pre>
-  </li>
-  <li>
-    <strong>Clear Command Line</strong>
-    <pre>control + u</pre>
-  </li>
-  <li>
-    <strong>Clear Terminal Window</strong>
-    <pre>command + k</pre>
-  </li>
-  <li>
-    <strong>Open New Tab</strong>
-    <pre>command + t</pre>
-  </li>
-  <li>
-    <strong>Cycle Through Terminal Tabs</strong>
-    <pre>control + tab</pre>
-  </li>
+        <strong>Cycle through past commands</strong>
+        <pre>up arrow</pre>
+      </li>
+      <li>
+        <strong>See all commands previously typed</strong>
+        <pre>type "history" in the command prompt</pre>
+      </li>
+      <li>
+        <strong>Clear Command Line</strong>
+        <pre>control + u</pre>
+      </li>
+      <li>
+        <strong>Clear Terminal Window</strong>
+        <pre>command + k</pre>
+      </li>
+      <li>
+        <strong>Open New Tab</strong>
+        <pre>command + t</pre>
+      </li>
+      <li>
+        <strong>Cycle Through Terminal Tabs</strong>
+        <pre>control + tab</pre>
+      </li>
+      <li>
+        <strong>Goto Beginning of Line</strong>
+        <pre>control + a</pre>
+      </li>
+      <li>
+        <strong>Goto End of Line</strong>
+        <pre>control + e</pre>
+      </li>
+      <li>
+        <strong>Fast Moving Cursor Through Command Line Text</strong>
+        <pre>Right: option + right-arrow</pre>
+        <pre>Left: option + left-arrow</pre>
+      </li>
+      <li>
+        <strong>Stop Any Terminal Process</strong>
+        <p>Stuck? Not sure what's going on with your Terminal? This is the command to use.</p>
+        <pre>control + c</pre>
+      </li>
     </div>
     <div>
-  <li>
-    <strong>Goto Beginning of Line</strong>
-    <pre>control + a</pre>
-  </li>
-  <li>
-    <strong>Goto End of Line</strong>
-    <pre>control + e</pre>
-  </li>
-  <li>
-    <strong>Fast Moving Cursor Through Command Line Text</strong>
-    <pre>Right: option + right-arrow</pre>
-    <pre>Left: option + left-arrow</pre>
-  </li>
-  <li>
-    <strong>Stop Any Terminal Process</strong>
-    <p>Stuck? Not sure what's going on with your Terminal? This is the command to use.</p>
-    <pre>control + c</pre>
-  </li>
+      <h3>Atom</h3>
+      <p>Use these shortcuts to quickly move around within your text editor.</p>
+      <li>
+        <strong>File Finder</strong>
+        <pre>command + t or command + p</pre>
+      </li>
+      <li>
+        <strong>Toggle File Tree</strong>
+        <pre>command + \</pre>
+      </li>
+      <li>
+        <strong>Highlight Current Line(s)</strong>
+        <pre>command + l</pre>
+      </li>
+      <li>
+        <strong>Highlight Current Word</strong>
+        <pre>command + d</pre>
+      </li>      
+      <li>
+        <strong>Find in page</strong>
+        <pre>command + f</pre>
+      </li>
+      <li>
+        <strong>Find and replace in project (use with caution)</strong>
+        <pre>command + shift + f</pre>
+      </li>
+      <li>
+        <strong>Split panes</strong>
+        <pre>command + k + arrow(choose direction)</pre>
+      </li>
     </div>
   </div>
 </div>
@@ -193,11 +225,11 @@ Let's talk once more about this Git diagram.
 
 We'll start by repeating the group git exercise from Tuesday's session. This may seem repetative, but each time you practice, you'll gain muscle memory and procedural understanding.
 
-Today's <span class="vocab">driver</span> will be the person who was born closest to the state of Florida. Everyone else will be <span class="vocab">navigators</span>. **Driver**: remember not to type anything that has not yet been brought up by a navigator and discussed in the group. 
+Today's <span class="vocab">driver</span> will be the person who was born closest to the state of Florida. Everyone else will be <span class="vocab">navigators</span>. **Driver**: remember not to type anything that has not yet been brought up by a navigator and discussed in the group.
 
 The <span class="vocab">driver</span> will be the person typing the commands, but the <span class="vocab">navigators</span> should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss **why** you are doing each step, or **what** exactly is taking place in each step.
 
-**Remember:** If you feel comfortable with git, your job is to hone your explanation and communication skills. Many companies in the industry that place far more weight on these professional skills than on being a technical superstar. 
+**Remember:** If you feel comfortable with git, your job is to hone your explanation and communication skills. Many companies in the industry that place far more weight on these professional skills than on being a technical superstar.
 
 <div class="try-it">
   <h3>Try It: Git Review</h3>
@@ -228,11 +260,11 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
 <a name="github"></a>
 ## GitHub
 
-Git is not the same as GitHub. They work together, but they are separate tools. Git allows us to track versions of our work on our local computers. <span class="vocab">GitHub</span> is an online git repository hosting service. A <span class="vocab">repository</span> (or <span class="vocab">repo</span>) is, at it's core, a place where your work and commits are stored. 
+Git is not the same as GitHub. They work together, but they are separate tools. Git allows us to track versions of our work on our local computers. <span class="vocab">GitHub</span> is an online git repository hosting service. A <span class="vocab">repository</span> (or <span class="vocab">repo</span>) is, at it's core, a place where your work and commits are stored.
 
-Other alternatives to GitHub include GitLab and BitBucket, among others. GitHub (and these other services) also makes it easy for teams that use git to collaborate on the same codebase. 
+Other alternatives to GitHub include GitLab and BitBucket, among others. GitHub (and these other services) also makes it easy for teams that use git to collaborate on the same codebase.
 
-During Mod 0, we will not be exploring the collabortive functionality of GitHub. We're going to stick to learning the basic functionality of GitHub. 
+During Mod 0, we will not be exploring the collabortive functionality of GitHub. We're going to stick to learning the basic functionality of GitHub.
 
 Let's first discuss this diagram:
 
@@ -282,15 +314,15 @@ Let's take a look at an example of a repo on GitHub: <a href="https://github.com
 
 ### Creating a Remote Repo on GitHub
 
-Watch and take notes while we walk through how to add a remote to your local repository. 
+Watch and take notes while we walk through how to add a remote to your local repository.
 
 1. Visit <code>github.com/your_username</code>
-1. Click the plus button in the upper-right corner of GitHub and select "New Repository" from the dropdown. 
+1. Click the plus button in the upper-right corner of GitHub and select "New Repository" from the dropdown.
 1. Give your repository a name, and dont worry about adjusting any of the other settings for now.
 1. Scroll down and click "Create Repository"
 1. Scroll to `…or push an existing repository from the command line`
-1. Paste the lines listed, one at a time, in your terminal. You will need to enter your GitHub username and password (unless you've already setup SSH keys). 
-1. Refresh Github. Tada! Your project is there. 
+1. Paste the lines listed, one at a time, in your terminal. You will need to enter your GitHub username and password (unless you've already setup SSH keys).
+1. Refresh Github. Tada! Your project is there.
 
 <div class="try-it">
   <h3>Try It: Adding a Remote</h3>
@@ -302,7 +334,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
 <hr>
 ## BREAK
 
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 <hr>
 
 ### Making Additional Changes and Pushing to GitHub
@@ -333,7 +365,7 @@ Watch and take notes while we walk through how to continue making changes and pu
 
 #### What is Forking?
 
-<span class="vocab">Forking</span> allows you to copy someone else's project while still keeping a reference to the original. To fork an existing project, you just click the `fork` button, which will make a copy of all of the code and directory structure to your own GitHub account. 
+<span class="vocab">Forking</span> allows you to copy someone else's project while still keeping a reference to the original. To fork an existing project, you just click the `fork` button, which will make a copy of all of the code and directory structure to your own GitHub account.
 
 You can tell if something is a fork because it will say "forked from [original repo name]" underneath the title.
 
@@ -383,15 +415,15 @@ git push origin master
 <a name="gists"></a>
 ## Gists and Markdown
 
-<span class="vocab">Markdown</span> is a syntax used to create formatted text elements (like headings, paragraphs, lists, etc.). 
+<span class="vocab">Markdown</span> is a syntax used to create formatted text elements (like headings, paragraphs, lists, etc.).
 
-In preparation for your homework this weekend, let's take a quick glance at a the screenshot below of the Mod 0 Tech Setup Gist. This shows the markdown code on the right and the displayed version on the left. 
+In preparation for your homework this weekend, let's take a quick glance at a the screenshot below of the Mod 0 Tech Setup Gist. This shows the markdown code on the right and the displayed version on the left.
 
 <img style="border: 2px solid black; padding: 1%;" src="images/markdown_comparison.png" alt="markdown comparison">
 
 <a name="homework"></a>
 ## Homework and GitHub Projects
 
-Let's spend a few minutes looking at how to use GitHub Projects. 
+Let's spend a few minutes looking at how to use GitHub Projects.
 
 Find the homework in your Mod 0 Project Board. Contact David or Tim if you're stuck.
