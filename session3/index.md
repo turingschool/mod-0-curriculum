@@ -48,12 +48,13 @@ subheading: More Git and Intro to GitHub
 - Strong understanding of terminal and commands - 4.5+ Average Score
 - Most common answer to git question: "I can name the steps of the git workflow and can put them in practice (using a reference)."
 - This is totally acceptable, and we use references as programmers on the job all the time. The best programmers google, reference, and implement more often and at a faster pace.
+- Great job posting in the channel and finding typos
 
 
 ### Follow-Ups
 
-- Most skill statements rated 4.5 or higher, all rated over 4!
 - Homework expectations
+- Keep working on those capstones!
 
 ### Today's Goals
 
