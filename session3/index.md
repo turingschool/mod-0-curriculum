@@ -234,7 +234,7 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
 
 <div class="try-it">
   <h3>Try It: Git Review</h3>
-  <p>As you and your group walk through the git review below, it might be a good idea to have <a href="/session3#init" title="">Session 3's Git Notes</a> open.</p>
+  <p>As you and your group walk through the git review below, it might be a good idea to have <a href="/session3#init" title="">Session 2's Git Notes</a> open.</p>
   <ol>
     <li>Before we do this, make sure the driver is in the home directory by typing <code>cd</code></li>
     <li>Create a new directory called <code>session_4_git_practice</code>. Inside of that directory, create three files called <code>coding_languages.txt</code>,<code>programming_terms.txt</code>, and<code>git_terms.txt</code>.</li>
