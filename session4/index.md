@@ -9,7 +9,6 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
     <h3>Goals</h3>
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
-      <li>understand assessment expectations</li>
       <li>define top-down design and object oriented programming</li>
       <li>break down real-world tasks using top-down design strategies</li>
       <li>model real-world objects and apps by breaking down their attributes and behaviors</li>
@@ -21,7 +20,7 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
       <li><strong>10 min: </strong>Follow-Ups and Goals</li>
       <li><strong>40 min: </strong><a href="#topdowndesign">Top Down Design</a></li>
       <li><strong>5 min: </strong>Break</li>
-      <li><strong>65 min: </strong><a href="#oop">Object Oriented Programming</a></li>
+      <li><strong>55 min: </strong><a href="#oop">Object Oriented Programming</a></li>
       <li><strong>15 min: </strong><a href="#homework">Assessment Preview</a></li>
     </ul>
   </div>
@@ -40,7 +39,6 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 ### Wins
 
 - Nice work figuring out pull requests!
-- Creative, well-done git diagrams 
 
 ### Follow-Ups
 
@@ -67,8 +65,6 @@ old blog post
 changed data type for age field
 Oops, I need to fix my spelling mistake
 ```
-
-- Today's Goals
 
 ## Intros, Review, and Icebreaker
 
