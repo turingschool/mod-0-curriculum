@@ -245,7 +245,7 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Add <code>programming_terms.txt</code> and<code>git_terms.txt</code> to the staging area.</li>
     <li>Make your second commit in this directory. This commit should include both files from the previous step. What should the commit message here be? Why? What conventions have we talked about?</li>
-    <li>Use the echo command to add the names of two separate coding languages to <code>coding_languages.txt</code>. You may Google "programming languages" if you can't think of any.</li>
+    <li>Use the atom to add the names of two separate coding languages to <code>coding_languages.txt</code>. You may Google "programming languages" if you can't think of any.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Before you check the difference between your last commit and what the file looks like now, predict what it will say. Then, check the diff.</li>
     <li>Add the changes to the staging area.</li>
