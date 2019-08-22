@@ -241,6 +241,7 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
 <div class="try-it">
   <h3>Try It Together: Bottle Class Methods</h3> 
   <p>Follow along as we walk through defining some methods for our Bottle class.</p>
+  <p> What kind of methods can we add? What would their return value be?</p>
 </div>
 
 ```
