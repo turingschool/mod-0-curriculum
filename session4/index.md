@@ -100,6 +100,7 @@ As humans, we memorize and practice the steps that it takes in order to do even 
 <div class="try-it">
   <h3>Try It Together: Making Pizza</h3> 
   <p>Follow along with your paper and pencil as we walk through breaking down the process of making pizza.</p>
+  <p>Lets do this interactively where the class navigates and I drive</p>
 </div>
 
 Now, in groups!
@@ -203,7 +204,7 @@ CAUTION: Sometimes, methods will *feel* like they should be attributes. For exam
 <div class="try-it">
   <h3>Try It Together: Bottle Class Attributes</h3>
   <p>Follow along as we walk through defining a bottle class with three different bottle objects.</p>
-  <b>NOTE</b>: For consistency in this lesson, we're going to stick to the naming convention of <code>camelCase</code>. This will look very Javascript-esque. However, in Ruby land, you'll see <code>snake_case</code>. 
+  <b>NOTE</b>: For consistency in this lesson, we're going to stick to the naming convention of <code>camelCase</code>. This will look very Javascript-esque. However, in Ruby land, you'll see <code>snake_case</code>.
 </div>
 
 ```
@@ -216,6 +217,7 @@ totalCapacity (integer)
 stickers (array)
 currentCapacity (integer)
 recyclable (boolean)
+insulated (boolean)
 ```
 
 <span class="vocab">Methods</span> define **behavior** of an object, **actions** that can be performed on that object, or **calculations** that generally use . Methods are generally verbs (action words or short action phrases). 
