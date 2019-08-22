@@ -130,7 +130,8 @@ Now, in groups!
 
 Breaking down problems using top down design lends itself nicely to the object-oriented design principles of <span class="vocab">abstraction</span> (where an object performs a task without other objects being concerned about how it is done) and <span class="vocab">encapsulation</span> (where an object handles its own internal states and behind-the-scenes work). 
 
-### Notating Top-Down Design in Markdown
+<a name="notatetopdowndesign"></a>
+### Notating Top-Down Design in a .txt file
 
 On your Mod 0 Assessment, you will be asked to break down a scenario using Top Down Design. We'll demonstrate the pizza scenario in a text (.txt) file. 
 
@@ -172,25 +173,25 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 <a href="" name="oop"></a>
 ## Object Oriented Programming
 
-<span class="vocab">Object oriented programming</span>, or OOP for short, is an approach to programming (or a [programmming paradigm](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)) where programs are organized as a series of objects. 
+<span class="vocab">Object oriented programming</span>, or OOP for short, is an approach to programming (or a [programmming paradigm](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)) where programs are organized as a series of objects.
 
-OOP is very similar to how the world actually works. <span class="vocab">Objects</span> are created from templates that we call <span class="vocab">classes</span>. 
+OOP is very similar to how the world actually works. <span class="vocab">Objects</span> are created from templates that we call <span class="vocab">classes</span>.
 
 A class defines attributes (or properties) and methods (or actions). An object is a very specific instance of a class. For example, if the class were Car, two objects might be 2007 Blue Nissan Versa and 2014 Silver Nissan Juke.
 
-<span class="vocab">Attributes</span> contain **data** about a specific object. The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash). 
+<span class="vocab">Attributes</span> contain **data** about a specific object. The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash).
 
-The names of attributes are generally nouns. 
+The names of attributes are generally nouns.
 
-Two good questions to ask when you're determining what should be classified as an attribute are: 
+Two good questions to ask when you're determining what should be classified as an attribute are:
 
 * "Is this piece of data something that could potentially stay the same over the course of an object's lifetime?" (you want the answer to be yes)
 * "Is there any other data that underlies this piece of data?" (you want the answer to be no)
 
-CAUTION: Sometimes, methods will *feel* like they should be attributes. For example: `age`, `years_employed`, `percent_full`. 
+CAUTION: Sometimes, methods will *feel* like they should be attributes. For example: `age`, `years_employed`, `percent_full`.
 
 <div class="try-it">
-  <h3>Try It Together: Bottle Class Attributes</h3> 
+  <h3>Try It Together: Bottle Class Attributes</h3>
   <p>Follow along as we walk through defining a bottle class with three different bottle objects.</p>
   <b>NOTE</b>: For consistency in this lesson, we're going to stick to the naming convention of <code>snake_case</code>. This will look very Ruby-esque. However, in JavaScript land, you'll see <code>camelCase</code>. 
 </div>
@@ -229,6 +230,7 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
   <p>Follow along as we walk through defining some methods for our Bottle class.</p>
 </div>
 
+<a href="" name="notateoop"></a>
 ```
 Class: Bottle
 
