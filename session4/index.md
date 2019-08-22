@@ -246,6 +246,7 @@ Methods:
 calculatePercentFull (divides currentCapacity by totalCapacity)
 refill (subtracts currentCapacity from totalCapacity and then refills that amount)
 addSticker (append a sticker item into the stickers array)
+changeColor (changes the color attribute)
 ```
 
 <a href="" name="notateobjects"></a>
@@ -259,13 +260,14 @@ addSticker (append a sticker item into the stickers array)
 Object: Pink Nalgene
 
 Attributes:
-Color: "Pink"
-LidType: "Twist top"
+color: "Pink"
+lidType: "Twist top"
 ...
 
 
 Methods:
-CalculatePercentFull: 800 / 1000 = .8
+calculatePercentFull: 800 / 1000 = .8
+changeColor: color = "Blue"
 ...
 ```
 
