@@ -18,10 +18,10 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong>Follow-Ups and Goals</li>
-      <li><strong>40 min: </strong><a href="#topdowndesign">Top Down Design</a></li>
+      <li><strong>45 min: </strong><a href="#topdowndesign">Top Down Design</a></li>
       <li><strong>5 min: </strong>Break</li>
-      <li><strong>55 min: </strong><a href="#oop">Object Oriented Programming</a></li>
-      <li><strong>15 min: </strong><a href="#homework">Assessment Preview</a></li>
+      <li><strong>60 min: </strong><a href="#oop">Object Oriented Programming</a></li>
+      <li><strong>5 min: </strong><a href="#homework">Homework</a></li>
     </ul>
   </div>
   <div>
@@ -105,7 +105,7 @@ As humans, we memorize and practice the steps that it takes in order to do even 
 Now, in groups!
 
 <div class="try-it">
-  <h3>Try It (Break Out Rooms): Top Down Design (~12 minutes)</h3> 
+  <h3>Try It (Break Out Rooms): Top Down Design (~10 minutes)</h3> 
   <p>The person whose first name starts closest to the letter F will pick a scenario below:</p>
   <ul>
     <li>Reheating a meal</li>
@@ -118,6 +118,7 @@ Now, in groups!
     <li>[Choose your own adventure]</li>
   </ul>
   <p>As a group, use a Top-Down Design approach to break down the scenario. Everyone should have their own diagram.</p>
+  <p>Don't worry about conditional logic. Only focus on breaking down the problems as much as you can</p>
   <p>Done? Review, revise, and choose another scenario.</p>
   <p>Be ready to share and explain.</p>
 </div>
@@ -129,14 +130,37 @@ Now, in groups!
 
 Breaking down problems using top down design lends itself nicely to the object-oriented design principles of <span class="vocab">abstraction</span> (where an object performs a task without other objects being concerned about how it is done) and <span class="vocab">encapsulation</span> (where an object handles its own internal states and behind-the-scenes work). 
 
-### Notating Top-Down Design for the Mod 0 Assessment
+### Notating Top-Down Design in Markdown
 
-On your Mod 0 Assessment, you will be asked to break down a scenario using Top Down Design. We'll demonstrate the pizza scenario in a Github Gist. 
+On your Mod 0 Assessment, you will be asked to break down a scenario using Top Down Design. We'll demonstrate the pizza scenario in a text (.txt) file. 
+
+```
+1 Make dough
+  1.1 Add ingredients to bowl
+    1.1.1 Add water
+      1.1.1.1 get measuring cup
+      1.1.1.2 go to sink
+      1.1.1.3 fill up the measuring cup with 3 cups of water
+      1.1.1.3 pour contents from measuring cup into bowl
+    1.1.2 Add honey
+    1.1.3 Add yeast
+    1.1.4 Add flour
+  1.2 Mix Ingredients until combined
+  1.3 Knead dough
+  1.4 Let rest
+    1.4.1 set the timer for 30 minutes
+    1.4.2 wait
+2 Make sauce
+3 Make crust
+4 Add sauce and toppings
+```
+
 
 <div class="try-it">
-  <h3>Try It: Notating Top Down Design (~5 minutes)</h3> 
-  <p>Open a new gist and use decimal notation to write out your top down design appoach with the scenario you chose from your group.</p>
-  <p>Post your gist link in the chat, and be ready to give feedback to the person you're paired up with (will be posted in the chat while you're working).</p>
+  <h3>Try It (Break Out Rooms): Top Down Design (~10 minutes)</h3> 
+  <p>Open a new file (.txt format) and use decimal notation to write out your top down design appoach with the scenario you chose from your group.</p>
+  <p>Make sure to follow the same format that was demonstrated and shown above</p>
+  <p>Check one anothers files to make sure that the format is correctly notated and indented (although .txt code is unbreakable, it's important to have an eye for detail as most languages will break if syntax is incorrect. And indentation helps make our code more readable)</p>
 </div>
 
 <hr>
@@ -171,22 +195,76 @@ CAUTION: Sometimes, methods will *feel* like they should be attributes. For exam
   <b>NOTE</b>: For consistency in this lesson, we're going to stick to the naming convention of <code>snake_case</code>. This will look very Ruby-esque. However, in JavaScript land, you'll see <code>camelCase</code>. 
 </div>
 
+```
+Class: Bottle
+
+Attributes:
+color (string)
+lidType (string)
+totalCapacity (integer)
+stickers (array)
+currentCapacity (integer)
+recyclable (boolean)
+```
+
 <span class="vocab">Methods</span> define **behavior** of an object, **actions** that can be performed on that object, or **calculations** that generally use . Methods are generally verbs (action words or short action phrases). 
 
 Methods generally answer the question "What can this thing do?" or "What can be done to this thing?"
 
-<div class="try-it">
-  <h3>Try It Together: Bottle Class Methods</h3> 
-  <p>Follow along as we walk through defining a bottle class with three different bottle objects.</p>
-</div>
+A <span class="vocab">return value</span> is the result of a method that performs a calculation.
+For instance, a `calculatePercentFull` method could divide the value of a `currentCapacity` attribute from the value of `totalCapacity` attribute. The result of that calculation would be the **return value** for `calculatePercentFull` method.
 
 #### Key Points
 
 * A method performs some kind of work and will almost always **use** or **modify** an attribute
 * Anything that does work (calculations) should be a method, not an attribute
+  * the result of that work is called the **return value**
 * Attributes are generally nouns (99.9% of time)
 * Methods are generally verbs (90% of time -- can also be questions OR nouns that are the result of calculations)
+  * ie. `age`, `years_employed`, `percent_full` since they all require calculation
 * One quick side note: accessor methods are outside the scope of today's lesson. 
+
+<div class="try-it">
+  <h3>Try It Together: Bottle Class Methods</h3> 
+  <p>Follow along as we walk through defining some methods for our Bottle class.</p>
+</div>
+
+```
+Class: Bottle
+
+Attributes:
+color (string)
+lidType (string)
+totalCapacity (integer)
+stickers (array)
+currentCapacity (integer)
+recyclable (boolean)
+
+Methods:
+calculatePercentFull (divides currentCapacity by totalCapacity)
+refill (subtracts currentCapacity from totalCapacity and then refills that amount)
+addSticker (append a sticker item into the stickers array)
+```
+
+<div class="try-it">
+  <h3>Try It Together: Defining Bottle Class Instances</h3> 
+  <p>Follow along as we walk through defining a couple instances</p>
+  <p>Make sure that your syntax is correct for each data type: if it's a string, the value below should be wrapped in quotes. If it's an array, each item in the collection should be valid data as well, etc.</p>
+</div>
+
+```
+Object: Pink Nalgene
+
+Attributes:
+Color: "Pink"
+LidType: "Twist top"
+...
+
+
+Methods:
+CalculatePercentFull: 800 / 1000 = .8
+...
+```
 
 ### Can You Spot the Problem? 
 
@@ -205,7 +283,6 @@ What would be wrong with...
 
 <div class="try-it">
   <h3>Try It (Big Breakout Rooms) (~15 minutes)</h3> 
-  <p>Make a copy of <a href="https://docs.google.com/document/d/17NykxDAM3OrlAm4xwYLY7uh_YokLyPgP0ahmkJ1Rd5s/edit?usp=sharing" title="" target="_blank">this document</a> which your group will use to practice.</p>
   <p>Person whose first name starts closest to Q will share their screen and choose one of the following classes:</p>
   <ul>
     <li>Vehicle</li>
@@ -213,6 +290,7 @@ What would be wrong with...
     <li>Playlist</li>
     <li>GroceryStore</li>
   </ul>
+  <p>Everyone should create a .txt file to work off of following the conventions we used above for defining classes and instances</p>
   <p>As a team, brainstorm at least five attributes (and data types) and five methods (and descriptions) for your chosen class. Each person should be keeping their own copy up to date to use as a reference.</p>
   <p>Person whose first name starts closest to the letter A will suggest an object that is an instance of the class. This is Object #1.</p>
   <p>Brainstorm the values for each attribute of that object.</p>
@@ -221,17 +299,8 @@ What would be wrong with...
   <p>Repeat the brainstorm process for attributes and methods for object #2. </p>
 </div>
 
-### Notating Classes, Objects, Attributes, and Methods for the Mod 0 Assessment
+<a name="homework"></a>
+## Homework and GitHub Projects
 
-On your Mod 0 Assessment, you will be asked to identify classes, objects, attributes, and methods. We'll demonstrate the format we want you to use.
+Find the homework in your Mod 0 Project Board. Contact David or Tim if you're stuck.
 
-<div class="try-it">
-  <h3>Try It: Notating Classes, Objects, Attributes, and Methods</h3> 
-  <p>Create two gists. In the first gist, use the notation we demonstrated to write out your class. In the second gist, use the notation we demonstrated to write out your first object.</p>
-  <p>Post the links to both of your gists in the chat.</p>
-</div>
-
-### Example Files
-
-- <a href="https://gist.github.com/rwarbelow/aa554ea9091efe6ed1a8ae66e95430a0" title="">Class Example</a>
-- <a href="https://gist.github.com/rwarbelow/2639de952d5cc4e862662d04dfef2a64" title="">Object Example</a>
