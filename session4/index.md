@@ -72,7 +72,7 @@ Oops, I need to fix my spelling mistake
   <h3>Intros, Review, and Icebreaker</h3>
   <p>Person with the shortest first name goes first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. What's something you're really good at? (Don't be humble!)</p>
+  <p>2. What music are you listening to currently, and is there any music that you've found to be helpful when you're studying/programming? </p>
   <p>3. Accountability review: what tangible progress have you made toward the focus skills you identified at the beginning of Mod 0?</p>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
@@ -158,9 +158,19 @@ On your Mod 0 Assessment, you will be asked to break down a scenario using Top D
 
 
 <div class="try-it">
-  <h3>Try It (Break Out Rooms): Top Down Design (~10 minutes)</h3> 
-  <p>Open a new file (.txt format) and use decimal notation to write out your top down design appoach with the scenario you chose from your group.</p>
+  <h3>Try It (Break Out Rooms): Top Down Design (~15 minutes)</h3>
+  <p>IF at any point you run into problems with git - keep moving forward on the top down design part of this exercise. Come back to this and work through any issues with git/github after class. You will also get practice in your homework</p>
+  <p>These steps do not need to be done in perfect order. Practice the workflow and the order of stpes that you're comfortable with.</p>
+  <p>Create a new directory called top_down_design_practice</p>
+  <p>Open a new file (.txt format) in this directory and use decimal notation to write out your top down design appoach with the scenario you chose from your group.</p>
   <p>Make sure to follow the same format that was demonstrated and shown above</p>
+  <p>After you've made some entries, initialize your repository with git</p>
+  <p>Add your file and make an initial commit</p>
+  <p>Run <code>git push</code> at this point and see what the output is</p>
+  <p>Create a repository on github that you can connect to your local repository</p>
+  <p>Add more steps</p>
+  <p>Add and commit your progress</p>
+  <p>Push to github</p>
   <p>Check one anothers files to make sure that the format is correctly notated and indented (although .txt code is unbreakable, it's important to have an eye for detail as most languages will break if syntax is incorrect. And indentation helps make our code more readable)</p>
 </div>
 
@@ -257,7 +267,7 @@ changeColor (changes the color attribute)
 </div>
 
 ```
-Object: Pink Nalgene
+Object: Nalgene
 
 Attributes:
 color: "Pink"
