@@ -38,13 +38,13 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 ## Housekeeping and Goals
 ### Wins
 
-- Nice work figuring out pull requests!
+- Fairly high scores on hooking up a remote to your local repository! This is great! Keep pracitcing! And, definitely go over the task 1 from the hw again if it's still fuzzy.
+- Similar scores for navigating Github as well as forking and cloning
 
 ### Follow-Ups
 
-- Some low survey scores on how to hook up a local repository (on your computer) with a remote one (on github). Definitely go over the task 1 from the hw again if it's still fuzzy
 - Don't "Initial Commit" on an already-existing project (like the mod0resources repository); remember to start with a present-tense verb with a capital letter (like Add, Change, Remove, Fix, Make, etc.)
-- Edit files using your text editor, not `echo`
+- Remember to be aware of where you are in your directory structure of the terminal before you clone anything down or start running git commands. Make sure you've navigated to where you want to be
 
 ### Other Notes
 
