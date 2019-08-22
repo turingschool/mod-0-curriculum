@@ -225,12 +225,12 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
   * ie. `age`, `years_employed`, `percent_full` since they all require calculation
 * One quick side note: accessor methods are outside the scope of today's lesson. 
 
+<a href="" name="notateclasses"></a>
 <div class="try-it">
   <h3>Try It Together: Bottle Class Methods</h3> 
   <p>Follow along as we walk through defining some methods for our Bottle class.</p>
 </div>
 
-<a href="" name="notateoop"></a>
 ```
 Class: Bottle
 
@@ -248,6 +248,7 @@ refill (subtracts currentCapacity from totalCapacity and then refills that amoun
 addSticker (append a sticker item into the stickers array)
 ```
 
+<a href="" name="notateobjects"></a>
 <div class="try-it">
   <h3>Try It Together: Defining Bottle Class Instances</h3> 
   <p>Follow along as we walk through defining a couple instances</p>
