@@ -162,7 +162,7 @@ On your Mod 0 Assessment, you will be asked to break down a scenario using Top D
 <div class="try-it">
   <h3>Try It (Break Out Rooms): Top Down Design (~15 minutes)</h3>
   <p>IF at any point you run into problems with git - keep moving forward on the top down design part of this exercise. Come back to this and work through any issues with git/github after class. You will also get practice in your homework</p>
-  <p>These steps do not need to be done in perfect order. Practice the workflow and the order of stpes that you're comfortable with.</p>
+  <p>These steps do not need to be done in perfect order. Practice the workflow and the order of steps that you're comfortable with.</p>
   <p>Create a new directory called top_down_design_practice</p>
   <p>Open a new file (.txt format) in this directory and use decimal notation to write out your top down design appoach with the scenario you chose from your group.</p>
   <p>Make sure to follow the same format that was demonstrated and shown above</p>
