@@ -38,13 +38,14 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 ## Housekeeping and Goals
 ### Wins
 
-- Nice work figuring out pull requests!
+- Fairly high scores on hooking up a remote to your local repository! This is great! Keep pracitcing! And, definitely go over the task 1 from the hw again if it's still fuzzy.
+- Similar scores for navigating Github as well as forking and cloning
 
 ### Follow-Ups
 
-- Some low survey scores on how to hook up a local repository (on your computer) with a remote one (on github). Definitely go over the task 1 from the hw again if it's still fuzzy
+- Lets reload this page.
 - Don't "Initial Commit" on an already-existing project (like the mod0resources repository); remember to start with a present-tense verb with a capital letter (like Add, Change, Remove, Fix, Make, etc.)
-- Edit files using your text editor, not `echo`
+- Remember to be aware of where you are in your directory structure of the terminal before you clone anything down or start running git commands. Make sure you've navigated to where you want to be
 
 ### Other Notes
 
@@ -72,7 +73,7 @@ Oops, I need to fix my spelling mistake
   <h3>Intros, Review, and Icebreaker</h3>
   <p>Person with the shortest first name goes first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. What's something you're really good at? (Don't be humble!)</p>
+  <p>2. What music are you listening to currently, and is there any music that you've found to be helpful when you're studying/programming? </p>
   <p>3. Accountability review: what tangible progress have you made toward the focus skills you identified at the beginning of Mod 0?</p>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
@@ -100,6 +101,7 @@ As humans, we memorize and practice the steps that it takes in order to do even 
 <div class="try-it">
   <h3>Try It Together: Making Pizza</h3> 
   <p>Follow along with your paper and pencil as we walk through breaking down the process of making pizza.</p>
+  <p>Lets do this interactively where the class navigates and I drive</p>
 </div>
 
 Now, in groups!
@@ -158,9 +160,19 @@ On your Mod 0 Assessment, you will be asked to break down a scenario using Top D
 
 
 <div class="try-it">
-  <h3>Try It (Break Out Rooms): Top Down Design (~10 minutes)</h3> 
-  <p>Open a new file (.txt format) and use decimal notation to write out your top down design appoach with the scenario you chose from your group.</p>
+  <h3>Try It (Break Out Rooms): Top Down Design (~15 minutes)</h3>
+  <p>IF at any point you run into problems with git - keep moving forward on the top down design part of this exercise. Come back to this and work through any issues with git/github after class. You will also get practice in your homework</p>
+  <p>These steps do not need to be done in perfect order. Practice the workflow and the order of steps that you're comfortable with.</p>
+  <p>Create a new directory called top_down_design_practice</p>
+  <p>Open a new file (.txt format) in this directory and use decimal notation to write out your top down design appoach with the scenario you chose from your group.</p>
   <p>Make sure to follow the same format that was demonstrated and shown above</p>
+  <p>After you've made some entries, initialize your repository with git</p>
+  <p>Add your file and make an initial commit</p>
+  <p>Run <code>git push</code> at this point and see what the output is</p>
+  <p>Create a repository on github that you can connect to your local repository</p>
+  <p>Add more steps</p>
+  <p>Add and commit your progress</p>
+  <p>Push to github</p>
   <p>Check one anothers files to make sure that the format is correctly notated and indented (although .txt code is unbreakable, it's important to have an eye for detail as most languages will break if syntax is incorrect. And indentation helps make our code more readable)</p>
 </div>
 
@@ -193,7 +205,7 @@ CAUTION: Sometimes, methods will *feel* like they should be attributes. For exam
 <div class="try-it">
   <h3>Try It Together: Bottle Class Attributes</h3>
   <p>Follow along as we walk through defining a bottle class with three different bottle objects.</p>
-  <b>NOTE</b>: For consistency in this lesson, we're going to stick to the naming convention of <code>snake_case</code>. This will look very Ruby-esque. However, in JavaScript land, you'll see <code>camelCase</code>. 
+  <b>NOTE</b>: For consistency in this lesson, we're going to stick to the naming convention of <code>camelCase</code>. This will look very Javascript-esque. However, in Ruby land, you'll see <code>snake_case</code>.
 </div>
 
 ```
@@ -206,6 +218,7 @@ totalCapacity (integer)
 stickers (array)
 currentCapacity (integer)
 recyclable (boolean)
+insulated (boolean)
 ```
 
 <span class="vocab">Methods</span> define **behavior** of an object, **actions** that can be performed on that object, or **calculations** that generally use . Methods are generally verbs (action words or short action phrases). 
@@ -229,6 +242,7 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
 <div class="try-it">
   <h3>Try It Together: Bottle Class Methods</h3> 
   <p>Follow along as we walk through defining some methods for our Bottle class.</p>
+  <p> What kind of methods can we add? What would their return value be?</p>
 </div>
 
 ```
@@ -257,7 +271,7 @@ changeColor (changes the color attribute)
 </div>
 
 ```
-Object: Pink Nalgene
+Object: Nalgene
 
 Attributes:
 color: "Pink"
