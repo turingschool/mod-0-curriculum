@@ -9,7 +9,7 @@ Over the next few days and weeks, you'll be referring to the instructions and gu
 
 To get the most out of Mod0, we'd like to explain why this website exists at all, and more importantly _why you have to finish Mod0 before beginning Turing_.
 
-## Why the Mod0 curriculum exists
+## Why the Mod 0 curriculum exists
 
 I'm sure you've picked up on a theme: Turing is _hard_. The program will consume most of your time and attention for the seven months between starting the first module, and finishing the last module. It could take a bit longer, if you find yourself repeating a module.
 
