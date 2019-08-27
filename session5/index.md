@@ -50,10 +50,6 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
   - you'll be much better prepared on day 1 of mod 1 if coding becomes a daily habit
   - have you been practicing your keyboard shortcuts?
 
-### Other Notes
-
-- Today's Goals
-
 ## Intros, Review, and Icebreaker
 
 <div class="try-it">
@@ -78,9 +74,8 @@ The most common issues we run into that leave people pending on the assessment a
 <a name="breakingdownproblems"></a>
 ##  Top down design... continued
 
-### Adding conditional logic
-
 <span class="vocab">Conditional Logic</span> is something we use often when solving problems in programming. The same problem may require some additional steps given a certain input or context.
+It typically manifests itself in code with if statements checking against a boolean value.
 
 Let's go back to our pizza example from session 4. In that example we assumed that we had all of the necessary ingredients to make our delicious pie. But what if, we didn't?
 
@@ -89,11 +84,10 @@ Making Pizza
 
 1 Prepare Dough
   1.1 acquire dough
-    question: Is there dough in the fridge?
-      yes: 
+    If there's dough in the fridge?
       1.1.1 grab dough from the fridge
       1.1.2 walk dough to counter
-      no:
+    if there's not
       1.1.1 go to store
       1.1.2 find prepared pizza dough
       1.1.3 purchase prepared pizza dough
@@ -103,6 +97,8 @@ Making Pizza
 2 Add Sauce
 4 Add Toppings
 ```
+
+### Top down design in programming
 
 Thus far, we've only been applying these scenarios to problems we encounter in everyday life. Let's apply that same process to building software.
 
@@ -140,7 +136,6 @@ Some problem solving tips:
 
 <hr>
 
-#### Sub point
 <a name="iteration"></a>
 ## Iteration
 
