@@ -43,7 +43,6 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 
 ### Follow-Ups
 
-- Lets reload this page.
 - Don't "Initial Commit" on an already-existing project (like the mod0resources repository); remember to start with a present-tense verb with a capital letter (like Add, Change, Remove, Fix, Make, etc.)
 - Remember to be aware of where you are in your directory structure of the terminal before you clone anything down or start running git commands. Make sure you've navigated to where you want to be
 

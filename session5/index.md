@@ -10,15 +10,17 @@ subheading: Understanding assessment expectations
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
       <li>understand assessment expectations</li>
+      <li>understand how to break down programming problems using top down design</li>
+      <li>define iteration in programming</li>
       <li>demonstrate iteration in real-world and programming situations</li>
-
     </ul>
   </div>
   <div>
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong>Follow-Ups and Goals</li>
-      <li><strong>30 min: </strong>Assessment Expectations</li>
+      <li><strong>40 min: </strong><a href="#assessmentprev">Mock Assessment & Assessment</a></li>
+      <li><strong>40 min: </strong><a href="#breakingdownproblems">Control Flow</a></li>
       <li><strong>40 min: </strong><a href="#iteration">Iteration</a></li>
     </ul>
   </div>
@@ -37,7 +39,14 @@ subheading: Understanding assessment expectations
 
 ### Wins
 
+- Great work asking questions in the public channel!
+- Saw some really great mock assessments
+
 ### Follow-Ups
+
+- Make sure that you're working on your capstone
+  - try to get as far as you can
+  - you'll be much better prepared on day 1 of mod 1 if coding becomes a daily habit
 
 ### Other Notes
 
@@ -45,13 +54,28 @@ subheading: Understanding assessment expectations
 
 ## Intros, Review, and Icebreaker
 
-<a name="topdowndesign"></a>
-## Curriculum point
-
-#### Sub point
+<div class="try-it">
+  <h3>Intros, Review, and Icebreaker</h3>
+  <p>Person with the shortest first name goes first.</p>
+  <p>1. Introduce yourself: name, pronouns</p>
+  <p>2. What is a book, tv show, or movie that you've read/watched recently and really enjoyed? Why?</p>
+  <p>3. Accountability review: what tangible progress have you made toward the focus skills you identified at the beginning of Mod 0?</p>
+  <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
+</div>
 
 <a name="assessmentprev"></a>
 ## Mod 0 Technical Assessment
+
+### Mock Assessment Follow-up
+
+This is a great time to ask to get clarity on expectations or even some feedback on your responses. 
+
+The most common issues we run into that leave people pending on the assessment are as follows:
+  - method definitions are too broad and don't actually change an attribute or create a return value.
+  - values aren't filled in properly, using proper syntax for a particular data type
+  - format of the top down design portion is wildly off. Only use markdown if you're really comfortable
+
+### The Assessment
 
 This is our final Mod 0 technical session. Your assignment between now and Thursday is to find 80 minutes  to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com). 
 
@@ -106,9 +130,13 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
   </ol>
 
   <h4 class="important">Done?</h4>
-  <p>Check off all of the items on your forked checklist, then send the checklist to Tim, David, and Joanne in a DM on Slack.</p>
+  <p>Check off all of the items on your forked checklist, then send the checklist to Tim and David in a DM on Slack.</p>
 </div>
 
+<a name="breakingdownproblems"></a>
+## Control flow
+
+#### Sub point
 <a name="iteration"></a>
 ## Iteration
 
