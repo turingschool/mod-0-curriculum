@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 5
-subheading: Understanding assessment expectations
+subheading: Conditional Logic, Iteration, and Assessment Expectations
 ---
 
 <div class="goals-agenda">
@@ -9,19 +9,20 @@ subheading: Understanding assessment expectations
     <h3>Goals</h3>
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
-      <li>understand assessment expectations</li>
       <li>understand how to break down programming problems using top down design</li>
       <li>define iteration in programming</li>
       <li>demonstrate iteration in real-world and programming situations</li>
+      <li>understand assessment expectations</li>
     </ul>
   </div>
   <div>
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong>Follow-Ups and Goals</li>
-      <li><strong>40 min: </strong><a href="#assessmentprev">Mock Assessment & Assessment</a></li>
-      <li><strong>40 min: </strong><a href="#breakingdownproblems">Control Flow</a></li>
+      <li><strong>20 min: </strong><a href="#mockassessment">Mock Assessment Follow ups</a></li>
+      <li><strong>40 min: </strong><a href="#breakingdownproblems">Top down design... continued</a></li>
       <li><strong>40 min: </strong><a href="#iteration">Iteration</a></li>
+      <li><strong>20 min: </strong><a href="#assessmentprev">Assessment Preview</a></li>
     </ul>
   </div>
   <div>
@@ -47,6 +48,7 @@ subheading: Understanding assessment expectations
 - Make sure that you're working on your capstone
   - try to get as far as you can
   - you'll be much better prepared on day 1 of mod 1 if coding becomes a daily habit
+  - have you been practicing your keyboard shortcuts?
 
 ### Other Notes
 
@@ -63,10 +65,8 @@ subheading: Understanding assessment expectations
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
 
-<a name="assessmentprev"></a>
-## Mod 0 Technical Assessment
-
-### Mock Assessment Follow-up
+<a name="mockassessment"></a>
+## Mock Assessment Follow-up
 
 This is a great time to ask to get clarity on expectations or even some feedback on your responses. 
 
@@ -75,66 +75,70 @@ The most common issues we run into that leave people pending on the assessment a
   - values aren't filled in properly, using proper syntax for a particular data type
   - format of the top down design portion is wildly off. Only use markdown if you're really comfortable
 
-### The Assessment
+<a name="breakingdownproblems"></a>
+##  Top down design... continued
 
-This is our final Mod 0 technical session. Your assignment between now and Thursday is to find 80 minutes  to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com). 
+### Adding conditional logic
 
-<div class="instructions assessmentpreview">
-  <h1>SAMPLE INSTRUCTIONS</h1>
+<span class="vocab">Conditional Logic</span> is something we use often when solving problems in programming. The same problem may require some additional steps given a certain input or context.
 
-  <p>This work portion assessment should take you approximately 70 minutes, but we recommend taking an additional 10 minutes to throughly read over the expectations outlined in this document. The timed nature is meant to get you used to working under pressure.</p>
+Let's go back to our pizza example from session 4. In that example we assumed that we had all of the necessary ingredients to make our delicious pie. But what if, we didn't?
 
-  <p class="important"><strong>First,</strong> fork the assessment checklist. You will use this checklist to ensure that you have met the Mod 0 Technical Assessment expectations.</p>
+```
+Making Pizza
 
-  <h4>Part I: Creating Directories and Files; Initializing Git and Pushing to GitHub (10 min)</h4>
+1 Prepare Dough
+  1.1 acquire dough
+    question: Is there dough in the fridge?
+      yes: 
+      1.1.1 grab dough from the fridge
+      1.1.2 walk dough to counter
+      no:
+      1.1.1 go to store
+      1.1.2 find prepared pizza dough
+      1.1.3 purchase prepared pizza dough
+      1.1.4 return home
+      1.1.5 walk dough to counter
+  1.2 place dough on pizza stone
+2 Add Sauce
+4 Add Toppings
+```
 
-  <ol>
-    <li>Use your terminal to create a directory called <code>...</code></li>
-    <li>Inside of that directory, make an empty text file called <code>...</code></li>
-    <li>Initialize your directory as a git repository.</li>
-    <li>Add your file and commit using the message "Initial commit"</li>
-    <li>Create a public repo on Github with the same name.</li>
-    <li>Add the remote and push your local repository to Github.</li>
-  </ol>
+Thus far, we've only been applying these scenarios to problems we encounter in everyday life. Let's apply that same process to building software.
 
-  <h4>Part II: Top Down Design (25 min)</h4>
+Let's say for instance, that we are building a file uploader. The uploader will either let the user know that their file has been uploaded successfully or provide an error message to the user if it was not. The two constraints that prevent a successful download are that the file must be smaller than 1gb and a that it must be in either markdown or text format.
 
-  <ol>
-    <li>Open up your <code>...</code> file in your text editor.</li>
-    <li>Break down the process of <code>...</code> <small>(We will leave the situation intentionally vague so that you can choose what angle you feel most comfortable with. Although we are not looking for a specific "answer" for how you break this down, you should be as detailed as possible. It is better to break things down too much than to oversimplify a process. Use the same process and notation that we used during Session 5 with a dash mark and one indent for every new layer.)</small></li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes.</li>
-    <li>Push your changes to Github.</li>
-  </ol>
+Let's break it down:
 
-  <h4>Part III: Classes, Objects, Attributes, and Methods (35 min)</h4>
+```
+File uploader
 
-  <ol>
-    <li>Inside of <code>...</code>, create a new directory called <code>...</code></li>
-    <li>Inside of <code>...</code>, create four files: <code>...</code>, <code>...</code>, <code>...</code>, and <code>...</code><em>(If you're comfortable trying markdown at this point, feel free to use .md instead of .txt).</em> </li>
-    <li>Open up <code>...</code> in your text editor.</li>
-    <li>Brainstorm one class that might exist in a <code>...</code> and put this at the top of the file.</li>
-    <li>List at least four attributes for that class. In parentheses, list the data type for that attribute (string, boolean, integer, float, hash/object, datetime).</li>
-    <li>List at least four methods for that class. In parentheses, explain what the method does, including the names of the attributes that it uses or modifies.</li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes for this class.</li>
-    <li>Open up <code>...</code> in your text editor.</li>
-    <li>At the top, type the name of an object that is an instance of your class.</li>
-    <li>List the values for each attribute.</li>
-    <li>List the results of the method being called for this specific object.</li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes for this class.</li>
-    <li>Repeat steps 3-8 with <code>...</code></li>
-    <li>Repeat steps 9-14 with <code>...</code></li>
-    <li>Push your changes to GitHub.</li>
-  </ol>
+1 Recieve file 
+2 Perform validation checks
+3 Output message
+```
 
-  <h4 class="important">Done?</h4>
-  <p>Check off all of the items on your forked checklist, then send the checklist to Tim and David in a DM on Slack.</p>
+Some problem solving tips:
+
+1. **Always make sure that you understand the problem**
+  * Read through it a few times
+  * Can you explain it layman's terms?
+  * If not, ask for clarification. Applies at Turing, in interviews, on the job.
+
+2. **Start with a simple use case**
+  * See if you're able to get the simplest implementation at first
+  * Add complexity later
+  * Take the example above, what happens if we don't worry about the error cases to begin with?
+
+<div class="try-it">
+  <h3>Try It (Break Out Rooms): Top Down Design (~15 minutes)</h3>
+  <p>Using top down design, write out a login form for a website. The form has two inputs and a submit button. One input to enter their email, and another input to enter their password.</p>
+  <p>In order to submit the form, the email must be valid and their password must be longer than 8 characters.</p>
+  <p>The user should see an error message if they are unable to submit the form</p>
+  <p>check out <a href="https://www.airbnb.com">airbnb</a>'s email login for clarity</p>
 </div>
 
-<a name="breakingdownproblems"></a>
-## Control flow
+<hr>
 
 #### Sub point
 <a name="iteration"></a>
@@ -275,7 +279,7 @@ By "in programming", we mean things that could be done, with relative ease, by a
 
 ### Iteration Syntax
 
-We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby and JavaScript. 
+We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby and JavaScript.
 
 <div>
   Are you a <button class="iteration-toggle" id="fe-show">front end</button> or <button class="iteration-toggle" id="be-show">back end</button> student?
@@ -291,12 +295,12 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
       <li><code>i = 0;</code><br><span class="vocab">Declare</span> our <span class="vocab">variable</span> <code>i</code> and assign it to the <span class="vocab">integer</span> 0</li>
       <li><code>i < students.length;</code><br> We set up our <span class="vocab">conditional</span> statement that the <span class="vocab">for loop</span> will evaluate before entering the loop. On the first run through <code>i = 0</code>, so this statement evaluates to <code>0 < students.length;</code>, which can be broken down further to <code>0 < 5</code>, which evaluates to true. Think of <span class="vocab">conditionals</span> as questions that always evaluate to true or false.
       </li>
-      <li><code>i++</code><br>Our <span class="vocab">incrementer</span> that will add one to i each time we pass through the loop. Another way to think about it is each time <code>i < students.length</code> is true we will increment <code>i</code> by one for the next time we evaluate the <span class="vocab">conditional</span> <code>i < students.length</code> So, after we've run through the <span class="vocab">for loop</span> once, the <span class="vocab">for loop</span> looks like this: <code>(i = 1; i < students.length; i++)</code> the second time through. This can break down further to <code>(i = 1; 1 < 5; i++)</code></li> 
+      <li><code>i++</code><br>Our <span class="vocab">incrementer</span> that will add one to i each time we pass through the loop. Another way to think about it is each time <code>i < students.length</code> is true we will increment <code>i</code> by one for the next time we evaluate the <span class="vocab">conditional</span> <code>i < students.length</code> So, after we've run through the <span class="vocab">for loop</span> once, the <span class="vocab">for loop</span> looks like this: <code>(i = 1; i < students.length; i++)</code> the second time through. This can break down further to <code>(i = 1; 1 < 5; i++)</code></li>
       <li><strong>Curly Brackets or Curly Braces:</strong>
       <code><br>
         {
           Within these brackets is where we do some kind of programming/logic to each element of our collection within our loop
-        } 
+        }
       </code><br>
       <strong>Todo:</strong> Google <code>console.log</code> and other console methods that are available to you in a Javascript console.</li>
       <li><code>students[i]</code><br> Access the <span class="vocab">element</span> of the <code>students</code> <span class="vocab">array</span> at <span class="vocab">index position</span><code>i</code> which will change as <code>i</code> changes and we increment through the <span class="vocab">for loop</span>
@@ -329,3 +333,63 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
     </div>
   </div>
 </div>
+
+<a name="assessmentprev"></a>
+## Mod 0 Technical Assessment
+
+This is our final Mod 0 technical session. Your assignment between now and Thursday is to find 80 minutes  to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com). 
+
+<div class="instructions assessmentpreview">
+  <h1>SAMPLE INSTRUCTIONS</h1>
+
+  <p>This work portion assessment should take you approximately 70 minutes, but we recommend taking an additional 10 minutes to throughly read over the expectations outlined in this document. The timed nature is meant to get you used to working under pressure.</p>
+
+  <p class="important"><strong>First,</strong> fork the assessment checklist. You will use this checklist to ensure that you have met the Mod 0 Technical Assessment expectations.</p>
+
+  <h4>Part I: Creating Directories and Files; Initializing Git and Pushing to GitHub (10 min)</h4>
+
+  <ol>
+    <li>Use your terminal to create a directory called <code>...</code></li>
+    <li>Inside of that directory, make an empty text file called <code>...</code></li>
+    <li>Initialize your directory as a git repository.</li>
+    <li>Add your file and commit using the message "Initial commit"</li>
+    <li>Create a public repo on Github with the same name.</li>
+    <li>Add the remote and push your local repository to Github.</li>
+  </ol>
+
+  <h4>Part II: Top Down Design (25 min)</h4>
+
+  <ol>
+    <li>Open up your <code>...</code> file in your text editor.</li>
+    <li>Break down the process of <code>...</code> <small>(We will leave the situation intentionally vague so that you can choose what angle you feel most comfortable with. Although we are not looking for a specific "answer" for how you break this down, you should be as detailed as possible. It is better to break things down too much than to oversimplify a process. Use the same process and notation that we used during Session 5 with a dash mark and one indent for every new layer.)</small></li>
+    <li>Save your file.</li>
+    <li>Add and commit your changes.</li>
+    <li>Push your changes to Github.</li>
+  </ol>
+
+  <h4>Part III: Classes, Objects, Attributes, and Methods (35 min)</h4>
+
+  <ol>
+    <li>Inside of <code>...</code>, create a new directory called <code>...</code></li>
+    <li>Inside of <code>...</code>, create four files: <code>...</code>, <code>...</code>, <code>...</code>, and <code>...</code><em>(If you're comfortable trying markdown at this point, feel free to use .md instead of .txt).</em> </li>
+    <li>Open up <code>...</code> in your text editor.</li>
+    <li>Brainstorm one class that might exist in a <code>...</code> and put this at the top of the file.</li>
+    <li>List at least four attributes for that class. In parentheses, list the data type for that attribute (string, boolean, integer, float, hash/object, datetime).</li>
+    <li>List at least four methods for that class. In parentheses, explain what the method does, including the names of the attributes that it uses or modifies.</li>
+    <li>Save your file.</li>
+    <li>Add and commit your changes for this class.</li>
+    <li>Open up <code>...</code> in your text editor.</li>
+    <li>At the top, type the name of an object that is an instance of your class.</li>
+    <li>List the values for each attribute.</li>
+    <li>List the results of the method being called for this specific object.</li>
+    <li>Save your file.</li>
+    <li>Add and commit your changes for this class.</li>
+    <li>Repeat steps 3-8 with <code>...</code></li>
+    <li>Repeat steps 9-14 with <code>...</code></li>
+    <li>Push your changes to GitHub.</li>
+  </ol>
+
+  <h4 class="important">Done?</h4>
+  <p>Check off all of the items on your forked checklist, then send the checklist to Tim and David in a DM on Slack.</p>
+</div>
+
