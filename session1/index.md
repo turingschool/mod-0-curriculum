@@ -580,6 +580,15 @@ Imagine that we're making an application for grocery stores to use (intentionall
 
 We'll go into breakout rooms to briefly discuss the how to check correct syntax for datatypes in Ruby and JavaScript.
 
+In addition to practicing writing out our data types, we'll also touch briefly on what it looks like to <span class="vocab">assign a variable</span>. This allows us to reference a word in our computer's memory that returns the data we've stored.
+
+After watching a brief demo from an instructor, try out the following:
+* Assign a variable called `pizza` a value of 'the best food of all time'
+* Assign a variable called `is_hungry` a value of true
+* Assign a variable called `number` a value of 5
+* Reassign that `number` variable so that is has a value of 4
+* Assign a variable called `teachers` a value of an array with the names 'Amy', 'Tim', and 'David'
+
 ## The End!
 
 After this Zoom call is over, take 15 minutes on your own to digest the content from this lesson, including the notes you wrote in the text boxes.
