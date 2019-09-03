@@ -161,6 +161,12 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
   * Use a TIMER and stick to it. ([befocused timer - free on App Store](https://apps.apple.com/us/app/be-focused-focus-timer/id973130201))
   * Plan for focus and recovery (you’ll get more done!)
 
+### Calendar and posses
+* Turing can be a bit of a whirlwind
+  * Try to develop a schedule similar to your pre-turing life (ie. if you exercise before work, keep doing so before class)
+  * Joanne will drop scheduling tips in your slack channel
+  * Posses are groups of students and instructors with similar interests - check them out!
+
 ## BREAK
 
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
@@ -603,3 +609,5 @@ In addition, consider the following questions:
 ## Homework
 
 Find the homework in your Mod 0 Project Board. Contact David and Tim if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
+
+Also, reminder that it's not too early to start your capstone. Post any questions in your mod 0 channel.
