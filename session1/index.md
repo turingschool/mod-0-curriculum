@@ -46,7 +46,7 @@ subheading: Expectations, Keyboard Shortcuts, Googling, Classes
 <a name="intro"></a>
 ## Intro
 
-* Intros: David and Tim
+* Intros: David and Amy
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
