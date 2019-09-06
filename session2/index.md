@@ -65,14 +65,14 @@ subheading: Terminal, File/folder Structure, Git Basics
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker (5 minutes)</h3>
   <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. What was the highlight of your weekend?</p>
+  <p>2. What's the most boring fact about yourself?</p>
   <p>3. Accountability review: what were the skills/processes that you decided to focus on last week, and how are you progressing toward mastery of those skills?</p>
 </div>
 
 <a name="classes"></a>
 ## Classes (Intro: Part II)
 
-**Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 5. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
+**Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 4. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
 
 ### Class and Attribute Review
 
@@ -583,7 +583,6 @@ This means git now **HAS THE ABILITY** to track changes in the `notes` directory
       <p>For example, if I typed this while in the essays directory:</p>
       <pre>timo@Tims-MacBook-Pro:~/essays$ git init</pre>
       <p>Then every file inside that directory, regardless of how deeply nested, would be available for git tracking.</p>
-      <p><strong>Do not run the git init command more than once in the same directory or in child directories of the directory you initially ran it from. It will never be the answer to the problem you are facing</strong></p>
       <p><strong>Do not run the git init command more than once in the same directory or in child directories of the directory you initially ran it from. It will never be the answer to the problem you are facing</strong></p>
       <p>2. Empty directories are <strong>not</strong> tracked by git. Therefore, if you create a directory but there's nothing inside of it, git will ignore it. Git will only track it when there is a file inside of the directory.</p>
     </div>
