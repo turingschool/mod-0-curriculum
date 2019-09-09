@@ -52,8 +52,9 @@ subheading: More Git and Intro to GitHub
 
 
 ### Follow-Ups
-
-- Homework expectations
+- HW expectations
+- Reload this page
+- More Git (errors are a good thing right now)
 - Keep working on those capstones!
 
 ### Today's Goals
@@ -315,14 +316,14 @@ Let's take a look at an example of a repo on GitHub: <a href="https://github.com
 
 ### Creating a Remote Repo on GitHub
 
-Watch and take notes while we walk through how to add a remote to your local repository.
+Watch and take notes while we walk through how to add a remote to your local repository. This assumes we already have a repository initialized with git locally.
 
 1. Visit <code>github.com/your_username</code>
 1. Click the plus button in the upper-right corner of GitHub and select "New Repository" from the dropdown.
 1. Give your repository a name, and dont worry about adjusting any of the other settings for now.
 1. Scroll down and click "Create Repository"
 1. Scroll to `…or push an existing repository from the command line`
-1. Paste the lines listed, one at a time, in your terminal. You will need to enter your GitHub username and password (unless you've already setup SSH keys).
+1. Paste the lines listed, one at a time, in your terminal. <strong>Make sure to follow instructions for SSH</strong>
 1. Refresh Github. Tada! Your project is there.
 
 <div class="try-it">
@@ -404,8 +405,8 @@ git push origin master
   <h3>Try It: Forking</h3>
   <ol>
     <li>Fork the <a href="https://github.com/rwarbelow/best_animals" title="Best Animals">Best Animals</a> repository.</li>
-    <li>Clone your fork using your terminal.</li>
-    <li>Open up the project in your text editor.</li>
+    <li>Clone <strong>your</strong> fork using your terminal.</li>
+    <li>Open up the project in your text editor (atom).</li>
     <li>Add a few animals to the mammals.txt file.</li>
     <li>Add and commit your changes.</li>
     <li>Push your changes to the origin (which is your fork).</li>
