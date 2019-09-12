@@ -3,7 +3,7 @@ layout: page
 title: Session 4
 subheading: Top-down design, Breaking down a problem, Modeling OOP
 ---
-
+<!-- Adding some stuff for class example -->
 <div class="goals-agenda">
   <div>
     <h3>Goals</h3>
@@ -48,7 +48,7 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP
 
 ### Other Notes
 
-- Good commit message format: 
+- Good commit message format:
 
 ```
 Add list of mod 0 resources
@@ -57,7 +57,7 @@ Change data type of age field
 Fix spelling mistake
 ```
 
-- Not good commit message format: 
+- Not good commit message format:
 
 ```
 Rachel is adding her list of mod 0 resources
@@ -82,7 +82,7 @@ Oops, I need to fix my spelling mistake
 
 > "Programing is hard because it requires us to solve ill-defined problems with unknown solutions. Our job is to invent the solutions. Coding is inherently creative." - [Danny Smith on Breaking Down Problems](https://medium.com/@dannysmith/breaking-down-problems-its-hard-when-you-re-learning-to-code-f10269f4ccd5)
 
-<span class="vocab">Top Down Design</span> (or step-wise design) is an approach to breaking down a problem or system. In this approach, the designer lays out the problem or system's high-level overview, then breaking down the overview into sub-systems (or sub-steps), then repeating that process until the system has been broken down into the smallest pieces. 
+<span class="vocab">Top Down Design</span> (or step-wise design) is an approach to breaking down a problem or system. In this approach, the designer lays out the problem or system's high-level overview, then breaking down the overview into sub-systems (or sub-steps), then repeating that process until the system has been broken down into the smallest pieces.
 
 #### This is not top-down design:
 <img style="width: 40%" src="https://afinde-production.s3.amazonaws.com/uploads/8706a488-d0f4-41ba-bf76-7151762fd5d1.jpg" alt="draw an owl meme">
@@ -93,12 +93,12 @@ Oops, I need to fix my spelling mistake
 <img style="width: 80%" src="images/draw_owl.png" alt="draw an owl top down design">
 
 
-**Why is this important?** A problem that is not broken down into its smallest components remains too complex and abstract to code. In addition, small components allow for reusable and replaceable units of code. 
+**Why is this important?** A problem that is not broken down into its smallest components remains too complex and abstract to code. In addition, small components allow for reusable and replaceable units of code.
 
-As humans, we memorize and practice the steps that it takes in order to do even the most basic tasks. If you tell a human to tie their shoe, you (generally) don't need to specify any further instructions. However, if you were to build a shoe-tying machine, you would need to break down the process into the most basic steps. 
+As humans, we memorize and practice the steps that it takes in order to do even the most basic tasks. If you tell a human to tie their shoe, you (generally) don't need to specify any further instructions. However, if you were to build a shoe-tying machine, you would need to break down the process into the most basic steps.
 
 <div class="try-it">
-  <h3>Try It Together: Making Pizza</h3> 
+  <h3>Try It Together: Making Pizza</h3>
   <p>Follow along with your paper and pencil as we walk through breaking down the process of making pizza.</p>
   <p>Lets do this interactively where the class navigates and I drive</p>
 </div>
@@ -106,7 +106,7 @@ As humans, we memorize and practice the steps that it takes in order to do even 
 Now, in groups!
 
 <div class="try-it">
-  <h3>Try It (Break Out Rooms): Top Down Design (~10 minutes)</h3> 
+  <h3>Try It (Break Out Rooms): Top Down Design (~10 minutes)</h3>
   <p>The person whose first name starts closest to the letter F will pick a scenario below:</p>
   <ul>
     <li>Reheating a meal</li>
@@ -129,12 +129,12 @@ Now, in groups!
 <img width="70%" src="https://i.ytimg.com/vi/DXEns9nWdqs/maxresdefault.jpg" alt="encrypt and decrypt top down design">
 <p><small>Credit: Liam McQuay (IGCSE Computer Science Youtube Tutorial)</small></p>
 
-Breaking down problems using top down design lends itself nicely to the object-oriented design principles of <span class="vocab">abstraction</span> (where an object performs a task without other objects being concerned about how it is done) and <span class="vocab">encapsulation</span> (where an object handles its own internal states and behind-the-scenes work). 
+Breaking down problems using top down design lends itself nicely to the object-oriented design principles of <span class="vocab">abstraction</span> (where an object performs a task without other objects being concerned about how it is done) and <span class="vocab">encapsulation</span> (where an object handles its own internal states and behind-the-scenes work).
 
 <a name="notatetopdowndesign"></a>
 ### Notating Top-Down Design in a .txt file
 
-On your Mod 0 Assessment, you will be asked to break down a scenario using Top Down Design. We'll demonstrate the pizza scenario in a text (.txt) file. 
+On your Mod 0 Assessment, you will be asked to break down a scenario using Top Down Design. We'll demonstrate the pizza scenario in a text (.txt) file.
 
 ```
 1 Make dough
@@ -178,7 +178,7 @@ On your Mod 0 Assessment, you will be asked to break down a scenario using Top D
 <hr>
 ## BREAK
 
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 <hr>
 
 <a href="" name="oop"></a>
@@ -220,7 +220,7 @@ recyclable (boolean)
 insulated (boolean)
 ```
 
-<span class="vocab">Methods</span> define **behavior** of an object, **actions** that can be performed on that object, or **calculations** that generally use . Methods are generally verbs (action words or short action phrases). 
+<span class="vocab">Methods</span> define **behavior** of an object, **actions** that can be performed on that object, or **calculations** that generally use . Methods are generally verbs (action words or short action phrases).
 
 Methods generally answer the question "What can this thing do?" or "What can be done to this thing?"
 
@@ -235,11 +235,11 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
 * Attributes are generally nouns (99.9% of time)
 * Methods are generally verbs (90% of time -- can also be questions OR nouns that are the result of calculations)
   * ie. `age`, `years_employed`, `percent_full` since they all require calculation
-* One quick side note: accessor methods are outside the scope of today's lesson. 
+* One quick side note: accessor methods are outside the scope of today's lesson.
 
 <a href="" name="notateclasses"></a>
 <div class="try-it">
-  <h3>Try It Together: Bottle Class Methods</h3> 
+  <h3>Try It Together: Bottle Class Methods</h3>
   <p>Follow along as we walk through defining some methods for our Bottle class.</p>
   <p> What kind of methods can we add? What would their return value be?</p>
 </div>
@@ -264,7 +264,7 @@ changeColor (changes the color attribute)
 
 <a href="" name="notateobjects"></a>
 <div class="try-it">
-  <h3>Try It Together: Defining Bottle Class Instances</h3> 
+  <h3>Try It Together: Defining Bottle Class Instances</h3>
   <p>Follow along as we walk through defining a couple instances</p>
   <p>Make sure that your syntax is correct for each data type: if it's a string, the value below should be wrapped in quotes. If it's an array, each item in the collection should be valid data as well, etc.</p>
 </div>
@@ -284,11 +284,11 @@ changeColor: color = "Blue"
 ...
 ```
 
-### Can You Spot the Problem? 
+### Can You Spot the Problem?
 
 What would be wrong with...
 
-* a class called `Turing` 
+* a class called `Turing`
 * an attribute called `current_time`
 * having attributes for a `Review` class called `one_star`, `two_stars`, `three_stars`, etc.
 * a `Senator` class having an array attribute called `senator_names`
@@ -300,7 +300,7 @@ What would be wrong with...
 * a `MenuItem` class with a method called `CustomerSurvey`
 
 <div class="try-it">
-  <h3>Try It (Big Breakout Rooms) (~15 minutes)</h3> 
+  <h3>Try It (Big Breakout Rooms) (~15 minutes)</h3>
   <p>Person whose first name starts closest to Q will share their screen and choose one of the following classes:</p>
   <ul>
     <li>Vehicle</li>
@@ -321,4 +321,3 @@ What would be wrong with...
 ## Homework and GitHub Projects
 
 Find the homework in your Mod 0 Project Board. Contact David or Tim if you're stuck.
-
