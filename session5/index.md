@@ -318,7 +318,7 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
   <h4>Example #1: Grading papers for five students</h4>
   <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationRuby1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   <h4>Example #2: Multiplying By Six</h4>
-  <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationRuby2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  <iframe height="350px" width="100%" src="//repl.it/@TimTyrrell1/RubyExampleNumberIteration?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   <div class="try-it">
     <h3>Try It: Iteration Syntax</h3>
     <p>Fill in the missing pieces of the iteration example below:</p>
