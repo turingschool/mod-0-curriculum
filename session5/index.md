@@ -38,10 +38,11 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
 
 ## Housekeeping and Goals
 
+
 ### Wins
 
 - Great work asking questions in the public channel!
-- Saw some really great mock assessments
+- Answering questions in the public channel is the best way to solidify your learning and practice communicating technically 
 
 ### Follow-Ups
 
@@ -49,6 +50,9 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
   - try to get as far as you can
   - you'll be much better prepared on day 1 of mod 1 if coding becomes a daily habit
   - have you been practicing your keyboard shortcuts?
+
+- We will add answers to the section from last session that asks you to tell us what's wrong with 'x'. That's a great suggestion.  
+- Reload this page
 
 ## Intros, Review, and Icebreaker
 
