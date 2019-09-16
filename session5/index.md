@@ -319,13 +319,6 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
   <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationRuby1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   <h4>Example #2: Multiplying By Two</h4>
   <iframe height="350px" width="100%" src="//repl.it/@TimTyrrell1/RubyExampleNumberIteration?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  <div class="try-it">
-    <h3>Try It: Iteration Syntax</h3>
-    <p>Fill in the missing pieces of the iteration example below:</p>
-    <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iteration3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-    <p>Fill in the missing pieces of the iteration example below:</p>
-    <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iteration4?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-    </div>
   </div>
 </div>
 
