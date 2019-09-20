@@ -234,7 +234,7 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
     </div>
     <div>
       <h3>Chrome Browser</h3>
-      <p>Start by opening Chrome with the shortcut (comamnd + space) you already learned.</p>
+      <p>Start by opening Chrome with the shortcut (command + space) you already learned.</p>
       <ul>
         <li>
           <strong>Bookmark Page:</strong>
