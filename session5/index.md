@@ -38,10 +38,11 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
 
 ## Housekeeping and Goals
 
+
 ### Wins
 
 - Great work asking questions in the public channel!
-- Saw some really great mock assessments
+- Answering questions in the public channel is the best way to solidify your learning and practice communicating technically 
 
 ### Follow-Ups
 
@@ -49,6 +50,9 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
   - try to get as far as you can
   - you'll be much better prepared on day 1 of mod 1 if coding becomes a daily habit
   - have you been practicing your keyboard shortcuts?
+
+- We will add answers to the section from last session that asks you to tell us what's wrong with 'x'. That's a great suggestion.  
+- Reload this page
 
 ## Intros, Review, and Icebreaker
 
@@ -317,15 +321,8 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
   <p>The code that you see below is written using Ruby. This syntax is something that you'll see all over the place, so it's important to get used to it. You don't need to memorize every little symbol for now, but knowing how to explain the big pieces is important.</p>
   <h4>Example #1: Grading papers for five students</h4>
   <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationRuby1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  <h4>Example #2: Multiplying By Six</h4>
-  <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationRuby2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  <div class="try-it">
-    <h3>Try It: Iteration Syntax</h3>
-    <p>Fill in the missing pieces of the iteration example below:</p>
-    <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iteration3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-    <p>Fill in the missing pieces of the iteration example below:</p>
-    <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iteration4?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-    </div>
+  <h4>Example #2: Multiplying By Two</h4>
+  <iframe height="350px" width="100%" src="//repl.it/@TimTyrrell1/RubyExampleNumberIteration?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   </div>
 </div>
 
