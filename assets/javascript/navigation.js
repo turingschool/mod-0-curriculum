@@ -12,7 +12,7 @@ function toggleMenuItems() {
 }
 
 $('.toggle-show').on('click', function(){
-  this.children[0].classList.toggle('hidden');
+  this.nextElementSibling.classList.toggle('hidden');
 });
 
 $('#fe-show').on('click', function(){

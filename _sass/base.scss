@@ -212,15 +212,19 @@ textarea {
 
 .toggle-show {
   color: #f9ae06;
-  margin-bottom: 2em;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
-.toggle-show div {
+.toggle-content {
   color: black;
   border: 1px solid #f9ae06;
   padding: 1em;
   background: white;
+  margin-bottom: 2em;
 }
+
 .hidden {
   display: none;
 }

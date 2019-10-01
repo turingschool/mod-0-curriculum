@@ -46,16 +46,17 @@ subheading: Expectations, Keyboard Shortcuts, Googling, Classes
 <a name="intro"></a>
 ## Intro
 
-* Intros: David and Amy
+* Intros: David and Tim
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
 ## Housekeeping
 
-* Did you install Spectacle? Post in the chat!
+* Did you get through your session 1 pre-work? Post in the chat!
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
+* Make sure your video is on and your mic is off!
 * Session will be recorded and posted in Slack
-* Find a typo?
+* Find a typo? - let us know!
 * <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes.
 
 <a name="expectations"></a>
@@ -67,13 +68,19 @@ subheading: Expectations, Keyboard Shortcuts, Googling, Classes
 
 Turing is a very challenging experience for most people. In order to be successful I'd highly recommend that you embrace a **growth mindset**. This means that you believe that knowledge and intelligence can be improved through hard work and dedication, and that you may fail at something before you're successful at it. It's the difference between being good at something right off the bat, and working really hard to get good at something that sets people apart here.
 
+**This is not traditional education**
+* You will not be given all of the answers
+* We expect you to do your own research
+* Technology is constantly changing
+* Learning how to learn
+
 **There is no transcript** - Sure, you'll get a diploma upon graduation, but we don't have GPAs at Turing and grades are not the measurement of success. **We measure success in understanding.** Throughout your time at Turing you'll have projects and assessments that will allow us as instructors to guage your success. The main reason for this is because the ultimate goal here is for you to get a job in software development. And to do so, you need to show understanding during the interview process.
 
 ### Communication
 
-Make sure that you've added the [Mod 0 Calendar](https://calendar.google.com/calendar?cid=Y2FzaW1pcmNyZWF0aXZlLmNvbV8xMnA0NjkzaG1lcjFvcmNlcHA3NHZnNzdwZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your own calendar. This is where you will find all mod 0 related events, including sessions, capstone study sessions, and other community wide events.
+Make sure that you've added the **[Mod 0 Calendar](https://calendar.google.com/calendar?cid=Y2FzaW1pcmNyZWF0aXZlLmNvbV8xMnA0NjkzaG1lcjFvcmNlcHA3NHZnNzdwZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)** to your own calendar. This is where you will find all mod 0 related events, including sessions, capstone study sessions, and other community wide events.
 
-Joanne will also remind you when these events are via [slack](https://turingschool.slack.com/), which is the primary mode of communication we use at Turing. Make sure that you're checking it once a day so that you can stay up to date. It's also a great place to ask questions if you are running into issues, as people are likely experiencing the same issue that you are.
+We will also remind you when these events are via **[slack](https://turingschool.slack.com/)**, which is the *primary mode of communication* we use at Turing. Make sure that you're checking it once a day so that you can stay up to date. It's also a great place to ask questions if you are running into issues, as people are likely experiencing the same issue that you are.
 
 ## Mod 0 Expecations
 
@@ -107,7 +114,7 @@ This is a feature in zoom that we'll use throughout the mod 0 sessions. They all
 
 <div class="try-it">
   <h3>Try It: Break out rooms</h3>
-  <p>1. Introduce yourself (name, pronouns, program).</p>
+  <p>1. Introduce yourself (name, pronouns, program)</p>
   <p>2. Where do you call home</p>
   <p>3. What is one reason you chose to come to Turing?</p>
   <p>4. What is your biggest concern about coming to Turing?</p>
@@ -161,11 +168,30 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
   * Use a TIMER and stick to it. ([befocused timer - free on App Store](https://apps.apple.com/us/app/be-focused-focus-timer/id973130201))
   * Plan for focus and recovery (you’ll get more done!)
 
-### Calendar and posses
+### Organization
 * Turing can be a bit of a whirlwind
   * Try to develop a schedule similar to your pre-turing life (ie. if you exercise before work, keep doing so before class)
-  * Joanne will drop scheduling tips in your slack channel
-  * Posses are groups of students and instructors with similar interests - check them out!
+  * Procrastination does not work at Turing
+  * Get a planner to help prioritize work
+  * We'll drop scheduling tips in your slack channel
+
+### Community
+  * You're joining a community of really wonderful people - take advantage!
+  * I'd encourage y'all to poke around slack and join any channels that interest you
+    * Yoga (#yoga-posse)
+    * Jennifer Pahlka - civic tech (#pahlka-posse)
+    * 3D Printing (#3d_printing)
+    * Climbing (#climbing)
+    * Veterans (#turing-veterans)
+    * Parents (#parenturing)
+    * Moms (#turingmoms)
+    * Running (#runtime)
+    * Mindfulness (#mindfulness)
+    * QueerQoders (#queerqoders)
+    * Shades of Turing (#shades-of-turing)
+    * Anime (#anime)
+    * Teachers  (#teachers-union)
+    * Motorcycle Enthusiasts (#turing-moto-club)
 
 ## BREAK
 
@@ -396,9 +422,11 @@ Imagine that we're making an application for grocery stores to use (intentionall
 <div class="try-it">
   <h3>Try It: Data Types in a Grocery Shopping App</h3>
   <p>What sorts of data would you use strings for?</p>
-  <div class="toggle-show">
-    String Definition (click here)
-    <div class="hidden">  
+  <div>
+    <p class="toggle-show">
+      String Definition (click here)
+    </p>
+    <div class="toggle-content hidden">  
       <p>A <span class="vocab">string</span> is a data type used represent text. Strings can contain alphabet characters in addition to spaces, numbers, and special characters.</p>
       <p>Examples:</p>
       <li><code>"two roads diverged in a yellow wood"</code></li>
@@ -430,9 +458,11 @@ Imagine that we're making an application for grocery stores to use (intentionall
   </div>
 
   <p>What sorts of data in your shopping app would be integer data? What about float data?</p>
-  <div class="toggle-show">
-    Integers and Floats Definition (click here)
-    <div class="hidden">
+  <div>
+    <p class="toggle-show">
+      Integers and Floats Definition (click here)
+    </p>
+    <div class="toggle-content hidden">
       <p><strong><span class="vocab">Integer</span>:</strong> An integer is a whole number (not a fraction) that can be positive, negative, or zero. Unlike floating point numbers, integers cannot have decimal places.</p>
       <p>Examples:</p>
       <li><code>10</code></li>
@@ -470,9 +500,11 @@ Imagine that we're making an application for grocery stores to use (intentionall
   </div>
 
   <p>Why might you use a boolean in a shopping application?</p>
-  <div class="toggle-show">
-    Boolean Definition (click here)
-    <div class="hidden">
+  <div>
+    <p class="toggle-show">
+      Boolean Definition (click here)
+    </p>
+    <div class="toggle-content hidden">
       <p>A <span class="vocab">boolean</span> value is either true or false. Boolean values are used in boolean logic, which is a subset of algebra used for creating true/false statements.</p>
       <p>As a side note beyond the scope of today's lesson, boolean expressions use the operators AND, OR, and NOT to compare values and return a true or false result. An example of booleans in real life might be:
       </p>
@@ -508,9 +540,11 @@ Imagine that we're making an application for grocery stores to use (intentionall
   </div>
 
   <p>What might you want to store in an array in your shopping app? Start all of your answers with "list of..." </p>
-  <div class="toggle-show">
-    Array Definition (click here)
-    <div class="hidden">
+  <div>
+    <p class="toggle-show">
+      Array Definition (click here)
+    </p>
+    <div class="toggle-content hidden">
       <p>An <span class="vocab">array</span> is a data structure that represents a group of things.</p>
       <p>You can think of an array as a collection, box, or container. Instead of saying "I have a collection of shirts," you could say "I have an array of shirts." The phrase "a container of pencils" would become "an array of pencils."</p>
       <p>Typically, elements in an array are all of the same data type, such as an integer or string. Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched.</p>
@@ -544,9 +578,11 @@ Imagine that we're making an application for grocery stores to use (intentionall
   </div>
 
   <p>What might you want to store as a hash/object (data in key-value format) in your shopping app?</p>
-  <div class="toggle-show">
-    Hash/Object Whole Group Review (click here)
-    <div class="hidden">
+  <div>
+    <p class="toggle-show">
+      <strong>EXTENSION</strong> Hash/Object Definition (click here)
+    </p>
+    <div class="toggle-content hidden">
       <p>A <span class="vocab">hash</span> or <span class="vocab">object</span> is a collection of key-value pairs. It is similar to an array in that it is a collection of things, but in the case of hashes/objects, we are <strong>pairing</strong> data together.</p>
       <p>Sometimes, this data type is referred to as a dictionary because of the pairing of word -> definition.</p>
       <p>For example, you might have a hash/object where the keys are first names and the values are last names.</p>
@@ -593,7 +629,7 @@ After watching a brief demo from an instructor, try out the following:
 * Assign a variable called `is_hungry` a value of true
 * Assign a variable called `number` a value of 5
 * Reassign that `number` variable so that is has a value of 4
-* Assign a variable called `teachers` a value of an array with the names 'Amy', 'Tim', and 'David'
+* Assign a variable called `teachers` a value of an array with the names 'Rachel', 'Tim', and 'David'
 
 ## The End!
 
