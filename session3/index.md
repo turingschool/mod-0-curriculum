@@ -311,6 +311,12 @@ Let's take a look at an example of a repo on GitHub: <a href="https://github.com
   </ul>
 </div>
 
+<hr>
+## BREAK
+
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
+<hr>
+
 ### Creating a Remote Repo on GitHub
 
 Watch and take notes while we walk through how to add a remote to your local repository. This assumes we already have a repository initialized with git locally.
@@ -329,12 +335,6 @@ Watch and take notes while we walk through how to add a remote to your local rep
   <p>2. In your terminal, navigate to your <code>git_homework</code> directory from session 2's homework. If for some reason you don't have this directory then use the <code>mkdir</code> command to create <code>git_homework</code>. Then use <code>touch</code> to create a file called<code>sample_file.txt</code>. Then run <code>git init</code>. Only do this if you don't already have a <code>git_homework</code> repo.</p>
   <p>3. Add the remote to your local repository, then push your changes to GitHub.</p>
 </div>
-
-<hr>
-## BREAK
-
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
-<hr>
 
 ### Making Additional Changes and Pushing to GitHub
 
