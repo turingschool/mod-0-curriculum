@@ -26,7 +26,6 @@ subheading: More Git and Intro to GitHub
       <li><strong>50 min: </strong><a href="#github">GitHub and Repositories</a></li>
       <li><strong>5 min: </strong>Break</li>
       <li><strong>35 min: </strong><a href="#forkclone">Forking and Cloning</a></li>
-      <li><strong>15 min: </strong><a href="#gists">Gists and Markdown</a></li>
       <li><strong>10 min: </strong><a href="#homework">Homework Preview</a></li>
     </ul>
   </div>
@@ -53,9 +52,7 @@ subheading: More Git and Intro to GitHub
 
 ### Follow-Ups
 - HW expectations
-- Reload this page
-- More Git (errors are a good thing right now)
-- Keep working on those capstones!
+- Capstone due date change
 
 ### Today's Goals
 
@@ -170,7 +167,7 @@ subheading: More Git and Intro to GitHub
 
 ### Method and Attribute Interaction
 
-Like we talked about during session 3, a <span class="vocab">method</span> of a class define **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
+Like we talked about during session 2, a <span class="vocab">method</span> of a class define **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
 
 Most of the time, a method will either **use** or **change** an attribute of an object. For example, look at the attributes of the class `Bank Account` below:
 
@@ -227,7 +224,7 @@ Let's talk once more about this Git diagram.
 
 We'll start by repeating the group git exercise from Tuesday's session. This may seem repetative, but each time you practice, you'll gain muscle memory and procedural understanding.
 
-Today's <span class="vocab">driver</span> will be the person who was born closest to the state of Florida. Everyone else will be <span class="vocab">navigators</span>. **Driver**: remember not to type anything that has not yet been brought up by a navigator and discussed in the group.
+Today's <span class="vocab">driver</span> will be the person who was born closest to the state of Indiana. Everyone else will be <span class="vocab">navigators</span>. **Driver**: remember not to type anything that has not yet been brought up by a navigator and discussed in the group.
 
 The <span class="vocab">driver</span> will be the person typing the commands, but the <span class="vocab">navigators</span> should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss **why** you are doing each step, or **what** exactly is taking place in each step.
 
@@ -238,8 +235,8 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
   <p>As you and your group walk through the git review below, it might be a good idea to have <a href="/session3#init" title="">Session 2's Git Notes</a> open.</p>
   <ol>
     <li>Before we do this, make sure the driver is in the home directory by typing <code>cd</code></li>
-    <li>Create a new directory called <code>session_4_git_practice</code>. Inside of that directory, create three files called <code>coding_languages.txt</code>,<code>programming_terms.txt</code>, and<code>git_terms.txt</code>.</li>
-    <li>Tell git to start watching the <code>session_4_git_practice</code> directory.</li>
+    <li>Create a new directory called <code>session_3_git_practice</code>. Inside of that directory, create three files called <code>coding_languages.txt</code>,<code>programming_terms.txt</code>, and<code>git_terms.txt</code>.</li>
+    <li>Tell git to start watching the <code>session_3_git_practice</code> directory.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Add <code>coding_languages.txt</code> to the staging area.</li>
     <li>Make your first commit in this directory. What should the commit message here be?</li>
@@ -329,7 +326,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
 <div class="try-it">
   <h3>Try It: Adding a Remote</h3>
   <p>1. Create a new repository on GitHub called <code>git_homework</code>.</p>
-  <p>2. In your terminal, navigate to your <code>git_homework</code> directory from session 3's homework. If for some reson you don't have this directory then use the <code>mkdir</code> command to create <code>git_homework</code>. Then use <code>touch</code> to create a file called<code>sample_file.txt</code>. Then run <code>git init</code>. Only do this if you don't already have a <code>git_homework</code> repo.</p>
+  <p>2. In your terminal, navigate to your <code>git_homework</code> directory from session 2's homework. If for some reason you don't have this directory then use the <code>mkdir</code> command to create <code>git_homework</code>. Then use <code>touch</code> to create a file called<code>sample_file.txt</code>. Then run <code>git init</code>. Only do this if you don't already have a <code>git_homework</code> repo.</p>
   <p>3. Add the remote to your local repository, then push your changes to GitHub.</p>
 </div>
 
@@ -414,18 +411,7 @@ git push origin master
   </ol>
 </div>
 
-<a name="gists"></a>
-## Gists and Markdown
-
-<span class="vocab">Markdown</span> is a syntax used to create formatted text elements (like headings, paragraphs, lists, etc.).
-
-In preparation for your homework, let's take a quick glance at a the screenshot below of the Mod 0 Tech Setup Gist. This shows the markdown code on the right and the displayed version on the left.
-
-<img style="border: 2px solid black; padding: 1%;" src="images/markdown_comparison.png" alt="markdown comparison">
-
 <a name="homework"></a>
 ## Homework and GitHub Projects
-
-Let's spend a few minutes looking at how to use GitHub Projects.
 
 Find the homework in your Mod 0 Project Board. Contact David or Tim if you're stuck.
