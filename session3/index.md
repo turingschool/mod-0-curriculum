@@ -14,7 +14,6 @@ subheading: More Git and Intro to GitHub
       <li>create your own repository on GitHub</li>
       <li>push local changes to a remote</li>
       <li>fork and clone an existing repository</li>
-      <li>identify markdown syntax</li>
     </ul>
   </div>
   <div>
