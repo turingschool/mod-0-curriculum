@@ -59,7 +59,7 @@ subheading: More Git and Intro to GitHub
 
 ### Warm Up
 
-<p>Last week, we briefly talked about keyboard shortcuts in the Mac environment and in Chrome. You should also learn and practice these terminal shortcuts.</p>
+<p>Last week, we briefly talked about keyboard shortcuts in the Mac environment and in Chrome. You should also learn and practice these terminal and atom shortcuts.</p>
 
 <div class="try-it">
   <h3>Try it: Practicing Shortcuts</h3>
