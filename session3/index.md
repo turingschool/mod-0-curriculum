@@ -354,8 +354,7 @@ Watch and take notes while we walk through how to continue making changes and pu
     <li>Refresh the page to make sure the new changes appear.</li>
     <li>Repeat the above steps, but this time, remove one of the quotes from your <code>quotes.txt</code> document, then add, commit, and push your changes.</li>
   </ul>
-  <p>Done? Paste the link to your GitHub repo into the breakout room chat, then take a look at each repo to make sure the new commits show up.</p>
-  <p>Done with that? Get to know your breakout room classmates better: What are they trying to get better at in life? What book would the recommend that everyone read at least once in life?</p>
+  <p>Finished? Get to know your breakout room classmates better: What are they trying to get better at in life? What book would the recommend that everyone read at least once in life?</p>
 </div>
 
 <a name="forkclone"></a>
