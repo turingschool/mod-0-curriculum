@@ -19,10 +19,11 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong>Follow-Ups and Goals</li>
-      <li><strong>20 min: </strong><a href="#mockassessment">Mock Assessment Follow ups</a></li>
-      <li><strong>40 min: </strong><a href="#breakingdownproblems">Top down design... continued</a></li>
-      <li><strong>40 min: </strong><a href="#iteration">Iteration</a></li>
-      <li><strong>20 min: </strong><a href="#assessmentprev">Assessment Preview</a></li>
+      <li><strong>25 min: </strong><a href="#mockassessment">Mock Assessment Follow ups</a></li>
+      <li><strong>35 min: </strong><a href="#breakingdownproblems">Top down design... continued</a></li>
+      <li><strong>5 min: </strong>Break</li>
+      <li><strong>35 min: </strong><a href="#iteration">Iteration</a></li>
+      <li><strong>15 min: </strong><a href="#assessmentprev">Assessment Preview</a></li>
     </ul>
   </div>
   <div>
@@ -38,21 +39,18 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
 
 ## Housekeeping and Goals
 
-
 ### Wins
 
 - Great work asking questions in the public channel!
-- Answering questions in the public channel is the best way to solidify your learning and practice communicating technically 
+- Answering questions in the public channel is the best way to solidify your learning and practice communicating technically
 
 ### Follow-Ups
 
-- Make sure that you're working on your capstone
-  - try to get as far as you can
-  - you'll be much better prepared on day 1 of mod 1 if coding becomes a daily habit
-  - have you been practicing your keyboard shortcuts?
+- Make sure that you continue to on your capstone. If you finish it, submit it and keep working on the extensions
 
-- We will add answers to the section from last session that asks you to tell us what's wrong with 'x'. That's a great suggestion.  
-- Reload this page
+### Today's Goals
+
+(See above)
 
 ## Intros, Review, and Icebreaker
 
@@ -61,19 +59,27 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
   <p>Person with the shortest first name goes first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. What is a book, tv show, or movie that you've read/watched recently and really enjoyed? Why?</p>
-  <p>3. Accountability review: what tangible progress have you made toward the focus skills you identified at the beginning of Mod 0?</p>
+  <p>3. Accountability review: what tangible progress have you made toward the skills you've learned in Mod 0?</p>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
 
 <a name="mockassessment"></a>
 ## Mock Assessment Follow-up
 
-This is a great time to ask to get clarity on expectations or even some feedback on your responses. 
+This is a great time to ask for clarity on expectations or even some feedback on your responses.
 
 The most common issues we run into that leave people pending on the assessment are as follows:
   - method definitions are too broad and don't actually change an attribute or create a return value.
   - values aren't filled in properly, using proper syntax for a particular data type
   - format of the top down design portion is wildly off. Only use markdown if you're really comfortable
+
+<div class="try-it">
+  <h3>Try It: Peer Review (~10 minutes)</h3>
+  <p>The person who was born closest to the state of Florida should share their mock assessment</p>
+  <p>As a group, review their classes.txt and instances.txt files (focus on one class and one instance)</p>
+  <p>Do they meet all of the requirements above? Why or why not?</p>
+  <p>Finish that class? Move on to someone else's</p>
+</div>
 
 <a name="breakingdownproblems"></a>
 ##  Top down design... continued
@@ -91,7 +97,7 @@ Making Pizza
     If there's dough in the fridge?
       1.1.1 grab dough from the fridge
       1.1.2 walk dough to counter
-    if there's not
+    If there's not
       1.1.1 go to store
       1.1.2 find prepared pizza dough
       1.1.3 purchase prepared pizza dough
@@ -106,14 +112,14 @@ Making Pizza
 
 Thus far, we've only been applying these scenarios to problems we encounter in everyday life. Let's apply that same process to building software.
 
-Let's say for instance, that we are building a file uploader. The uploader will either let the user know that their file has been uploaded successfully or provide an error message to the user if it was not. The two constraints that prevent a successful download are that the file must be smaller than 1gb and a that it must be in either markdown or text format.
+Let's say for instance, that we are building a file uploader. The uploader will either let the user know that their file has been uploaded successfully or provide an error message to the user if it was not. The two constraints that prevent a successful download are that the file must be smaller than 1gb and that it must be in either markdown or text format.
 
 Let's break it down:
 
 ```
 File uploader
 
-1 Recieve file 
+1 Recieve file
 2 Perform validation checks
 3 Output message
 ```
@@ -138,6 +144,10 @@ Some problem solving tips:
   <p>check out <a href="https://www.airbnb.com">airbnb</a>'s email login for clarity</p>
 </div>
 
+<hr>
+## BREAK
+
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 <hr>
 
 <a name="iteration"></a>
@@ -329,7 +339,7 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
 <a name="assessmentprev"></a>
 ## Mod 0 Technical Assessment
 
-This is our final Mod 0 technical session. Your assignment between now and Thursday is to find 80 minutes  to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com). 
+This is our final Mod 0 technical session. Your assignment between now and Thursday is to find 80 minutes  to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com).
 
 <div class="instructions assessmentpreview">
   <h1>SAMPLE INSTRUCTIONS</h1>
@@ -384,4 +394,3 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
   <h4 class="important">Done?</h4>
   <p>Check off all of the items on your forked checklist, then send the checklist to Tim and David in a DM on Slack.</p>
 </div>
-
