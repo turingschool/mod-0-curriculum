@@ -43,9 +43,11 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
 
 - Great work asking questions in the public channel!
 - Answering questions in the public channel is the best way to solidify your learning and practice communicating technically
+- Many Git diagrams were posted early. Way to stay on top of things!
 
 ### Follow-Ups
 
+- How long did the capstone gear up and professional development assignments take?
 - Make sure that you continue to on your capstone. If you finish it, submit it and keep working on the extensions
 
 ### Today's Goals
