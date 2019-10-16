@@ -69,7 +69,7 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
 This is a great time to ask for clarity on expectations or even some feedback on your responses.
 
 The most common issues we run into that leave people pending on the assessment are as follows:
-  - method definitions are too broad and don't actually change an attribute or create a return value.
+  - method definitions are too broad and don't actually change an attribute or create a return value
   - values aren't filled in properly, using proper syntax for a particular data type
   - format of the top down design portion is wildly off. Only use markdown if you're really comfortable
 
@@ -394,3 +394,15 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
   <h4 class="important">Done?</h4>
   <p>Check off all of the items on your forked checklist, then send the checklist to Tim and David in a DM on Slack.</p>
 </div>
+
+### Other Reminders
+
+* This is your last technical session, next session will be with Joanne, where she'll talk more about life in person at Turing
+* When you start working on Mythical Creatures in Mod 1, think back to OOP, classes and methods in mod 0
+* Moving forward:
+  * Keep up the hard work
+  * Keep asking questions in your cohort channels
+  * Tim and I are still around if you need us
+  * Capstone is due in Two weeks - check your calendar
+
+> Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 0 prework are the ones that usually struggle for at least the first half of the mod."
