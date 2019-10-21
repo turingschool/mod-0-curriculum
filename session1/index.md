@@ -22,13 +22,13 @@ subheading: Expectations, Keyboard Shortcuts, Googling, Classes
     <ul>
       <li><strong>10 min: </strong><a href="#intro">Housekeeping, Intros</a></li>
       <li><strong>20 min: </strong><a href="#expectations">Turing/Mod 0 mission and expectations</a></li>
-      <li><strong>25 min: </strong><a href="#studytips">Study Tips</a></li>
+      <li><strong>20 min: </strong><a href="#studytips">Study Tips</a></li>
       <li><strong>5 min: </strong>Break</li>
       <li><strong>10 min: </strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
       <li><strong>10 min: </strong><a href="#classes">Classes</a></li>
       <li><strong>15 min: </strong><a href="#findinganswers">Googling</a></li>
-      <li><strong>30 min: </strong><a href="#datatypes">Data Types</a></li>
-      <li><strong>5 min: </strong><a href="#homework">Homework Preview</a></li>
+      <li><strong>25 min: </strong><a href="#datatypes">Data Types</a></li>
+      <li><strong>10 min: </strong><a href="#homework">Homework Preview</a></li>
     </ul>
   </div>
   <div>
@@ -58,6 +58,23 @@ subheading: Expectations, Keyboard Shortcuts, Googling, Classes
 * Session will be recorded and posted in Slack
 * Find a typo? - let us know!
 * <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes.
+
+### Breakout Rooms
+
+This is a feature in zoom that we'll use throughout the mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 60 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 60 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise. They can be a bit awkward at first, but try to embrace them and have fun!
+
+<div class="try-it">
+  <h3>Try It: Break out rooms</h3>
+  <p>1. Introduce yourself (name, pronouns, program)</p>
+  <p>2. Where do you call home</p>
+  <p>3. What is your favorite snack of all time?</p>
+</div>
+
+Other things to note as we go through Mod 0:
+
+- <strong>Zoom</strong>: turn video on, turn mic off unless speaking
+- <strong>Breakout Rooms</strong>: don't be afraid to speak! Breakout rooms will be randomized at the beginning of each session
+- <strong>Problems or individual questions during the Zoom session?</strong> Message the non-presenting host (either David or Tim)
 
 <a name="expectations"></a>
 ## Turing Mission and Expectations
@@ -108,24 +125,6 @@ By the Monday after your last Mod 0 session you’ll be rated as one of the foll
  * Your work and assessment demonstrate that you’re ready to be successful in Mod 1
    * *Next step:* Submit your Program-Specific Mod 0 Capstone
 
-### Breakout Rooms
-
-This is a feature in zoom that we'll use throughout the mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 60 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 60 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise. They can be a bit awkward at first, but try to embrace them and have fun!
-
-<div class="try-it">
-  <h3>Try It: Break out rooms</h3>
-  <p>1. Introduce yourself (name, pronouns, program)</p>
-  <p>2. Where do you call home</p>
-  <p>3. What is one reason you chose to come to Turing?</p>
-  <p>4. What is your biggest concern about coming to Turing?</p>
-</div>
-
-Other things to note as we go through Mod 0:
-
-- <strong>Zoom</strong>: turn video on, turn mic off unless speaking
-- <strong>Breakout Rooms</strong>: don't be afraid to speak! Breakout rooms will be randomized at the beginning of each session
-- <strong>Problems or individual questions during the Zoom session?</strong> Message the non-presenting host (either David or Tim)
-
 <a name="studytips"></a>
 ### Study Habits
 
@@ -174,6 +173,14 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
   * Procrastination does not work at Turing
   * Get a planner to help prioritize work
   * We'll drop scheduling tips in your slack channel
+
+<div class="try-it">
+  <h3>Break out rooms</h3>
+  <p>1. What is one reason you chose to come to Turing?</p>
+  <p>2. What is your biggest concern about coming to Turing?</p>
+  <p>3. What is a skill or focus area that you want to be held accountable on during mod 0?</p>
+  <p>ie. Asking questions during sessions, sticking to a calendar, pre-teaching/post-teaching</p>
+</div>
 
 ### Community
   * You're joining a community of really wonderful people - take advantage!
@@ -409,7 +416,7 @@ In most programming languages, you'll find the same basic <span class="vocab">da
   <p>2. <strong>What are <span class="vocab">integers</span> and <span class="vocab">floats</span> used for in programming</strong>?</p>
   <p>3. <strong>What is a <span class="vocab">boolean</span> value used for in programming</strong>?</p>
   <p>4. <strong>What is an <span class="vocab">array</span> used for in programming?</strong></p>
-  <p>5. If you're in the front end program, we're going to call the next data type an <span class="vocab">object</span>. If you're in the back end program, we're going to call it a <span class="vocab">hash</span>. <strong>What is this data type used for in programming?</strong></p>
+  <p>EXTENSION: If you're in the front end program, we're going to call the next data type an <span class="vocab">object</span>. If you're in the back end program, we're going to call it a <span class="vocab">hash</span>. <strong>What is this data type used for in programming?</strong></p>
 </div>
 
 
