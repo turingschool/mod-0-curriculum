@@ -92,14 +92,14 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ### Methods of Classes
 
-A <span class="vocab">method</span> of a class defines **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
+A <span class="vocab">method</span> of a class defines **behavior/actions**. Methods are verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
 
 For example: 
 
 - Each **child** (class) can greet, run, and learn (methods). 
-- Each **sweatshirt** (class) can be purchased, be returned, be washed, and be repaired (methods).
-- Each **book** (class) can be read, have the price updated, and be highlighted (methods). 
-- Each **bank account** (class) can have money deposited, can have money withdrawn, can be opened, can be closed, and can change ownership (methods).
+- Each **school** (class) can accept_student, lower_tuition, count_enrollment, and calculate_acceptance_rate (methods).
+- Each **book** (class) can turn_page, update_price, and highlight_section (methods).
+- Each **bank account** (class) can deposit, withdraw, open, close, check_balance, and change_ownership (methods).
 
 <div class="try-it">
   <h3>Try It: Methods</h3>
