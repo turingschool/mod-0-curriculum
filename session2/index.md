@@ -192,7 +192,8 @@ The text `timo@Tims-MacBook-Pro:~$` is called the command prompt, and the `$` in
 
 If you want to further customize your command prompt, check out the [EZPrompt Generator](http://ezprompt.net/).
 
-**Apple recently changed its default profile to .zsh We are still using .bash in Mod-0 and beyond. These shells mostly behave the same. We do not recommend you attempt to switch from .bash to .zsh right now. This will cause a lot of unnecessary pain at this point. Wait until you have some experience under your belt (Probably somewhere towards the end of Mod-1) before attempting a switch.**
+**Apple recently changed its default profile to .zsh.**
+We are still using .bash in Mod-0 and beyond. These shells mostly behave the same. We do not recommend you attempt to switch from .bash to .zsh right now. This will cause a lot of unnecessary pain at this point. Wait until you have some experience under your belt (Probably somewhere towards the end of Mod-1) before attempting a switch.
 
 Some follow up reading that is **Not Required**: [Apple Switches from .bash to .zsh - who cares and what does that even mean?](https://scriptingosx.com/2019/06/moving-to-zsh/)
 
