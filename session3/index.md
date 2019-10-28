@@ -50,8 +50,11 @@ subheading: More Git and Intro to GitHub
 
 
 ### Follow-Ups
-- HW expectations
-- Capstone due date change
+- Asking questions is a skill
+  - shout out to Quinn and Ryan for asking really good questions in slack
+  - also thanks to all of y'all answering questions!
+  - how to post code/command snippets in slack
+- Capstone progress
 
 ### Today's Goals
 
