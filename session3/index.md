@@ -54,7 +54,8 @@ subheading: More Git and Intro to GitHub
   - shout out to Quinn and Ryan for asking really good questions in slack
   - also thanks to all of y'all answering questions!
   - how to post code/command snippets in slack
-- Capstone progress
+  - pinned items
+- Capstone progress (should be on day 4/5 by now)
 
 ### Today's Goals
 
@@ -152,7 +153,8 @@ subheading: More Git and Intro to GitHub
   <h3>Intros, Review, and Icebreaker</h3>
   <p>Person with the lightest color shirt speaks first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. Share: what is a current trend that you're either totally annoyed by or completely love?</p>
+  <!-- <p>2. Share: what is a current trend that you're either totally annoyed by or completely love?</p> -->
+  <p>2. Share: Do you dress up for halloween? What is your favorite costume you've worn?</p>
   <p>3. Accountability review: how are you progressing toward mastery of your focus skills?</p>
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
