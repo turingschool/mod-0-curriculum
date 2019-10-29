@@ -154,7 +154,7 @@ subheading: More Git and Intro to GitHub
   <p>Person with the lightest color shirt speaks first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
   <!-- <p>2. Share: what is a current trend that you're either totally annoyed by or completely love?</p> -->
-  <p>2. Share: Do you dress up for halloween? What is your favorite costume you've worn?</p>
+  <p>2. Share: Do you dress up for halloween? What is your favorite costume you've worn or seen?</p>
   <p>3. Accountability review: how are you progressing toward mastery of your focus skills?</p>
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
