@@ -78,7 +78,7 @@ The most common issues we run into that leave people pending on the assessment a
 
 <div class="try-it">
   <h3>Try It: Assessment Review (~10 minutes)</h3>
-  <p>Clone down this repo: https://github.com/damwhit/m0-mock-assessment?</p>
+  <p>Clone down <a href="https://github.com/damwhit/m0-mock-assessment">this repo:</a></p>
   <p>With the rules above in mind, what is wrong with class 2 and the class 2 example object?</p>
   <p>Fix everything? Create a new example object</p>
 </div>
