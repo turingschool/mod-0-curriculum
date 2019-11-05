@@ -48,7 +48,7 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
 ### Follow-Ups
 
 - How long did the capstone gear up and professional development assignments take?
-- Make sure that you continue to on your capstone. If you finish it, submit it and keep working on the extensions
+- Capstone crunch time! Y'all got this!
 
 ### Today's Goals
 
@@ -61,7 +61,8 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
   <p>Person with the shortest first name goes first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. What is a book, tv show, or movie that you've read/watched recently and really enjoyed? Why?</p>
-  <p>3. Accountability review: what tangible progress have you made toward the skills you've learned in Mod 0?</p>
+  <p>3. Accountability review: what tangible progress have you made toward your mod 0 focus skills?</p>
+  <p>4. Determine who will bring your breakout group questions back to the whole group</p>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
 
@@ -76,11 +77,10 @@ The most common issues we run into that leave people pending on the assessment a
   - format of the top down design portion is wildly off. Only use markdown if you're really comfortable
 
 <div class="try-it">
-  <h3>Try It: Peer Review (~10 minutes)</h3>
-  <p>The person who was born closest to the state of Florida should share their mock assessment</p>
-  <p>As a group, review their classes.txt and instances.txt files (focus on one class and one instance)</p>
-  <p>Do they meet all of the requirements above? Why or why not?</p>
-  <p>Finish that class? Move on to someone else's</p>
+  <h3>Try It: Assessment Review (~10 minutes)</h3>
+  <p>Clone down this repo: https://github.com/damwhit/m0-mock-assessment?</p>
+  <p>With the rules above in mind, what is wrong with class 2 and the class 2 example object?</p>
+  <p>Fix everything? Create a new example object</p>
 </div>
 
 <a name="breakingdownproblems"></a>
@@ -121,7 +121,7 @@ Let's break it down:
 ```
 File uploader
 
-1 Recieve file
+1 Receive file
 2 Perform validation checks
 3 Output message
 ```
@@ -394,7 +394,7 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
   </ol>
 
   <h4 class="important">Done?</h4>
-  <p>Check off all of the items on your forked checklist, then send the checklist to Tim and David in a DM on Slack.</p>
+  <p>There is a link to a google form where you'll submit your mod 0 assessment repo at the end of your checklist</p>
 </div>
 
 ### Other Reminders
