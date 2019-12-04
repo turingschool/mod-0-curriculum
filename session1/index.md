@@ -46,7 +46,7 @@ subheading: Expectations, Keyboard Shortcuts, Googling, Classes
 <a name="intro"></a>
 ## Intro
 
-* Intros: David and Tim
+* Instructor intros: David and Tim
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
@@ -98,6 +98,8 @@ Turing is a very challenging experience for most people. In order to be successf
 Make sure that you've added the **[Mod 0 Calendar](https://calendar.google.com/calendar?cid=Y2FzaW1pcmNyZWF0aXZlLmNvbV8xMnA0NjkzaG1lcjFvcmNlcHA3NHZnNzdwZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)** to your own calendar. This is where you will find all mod 0 related events, including sessions, capstone study sessions, and other community wide events.
 
 We will also remind you when these events are via **[slack](https://turingschool.slack.com/)**, which is the *primary mode of communication* we use at Turing. Make sure that you're checking it once a day so that you can stay up to date. It's also a great place to ask questions if you are running into issues, as people are likely experiencing the same issue that you are.
+
+Let's practice a couple of slack features right now! Watch as we show you how to make and write in threads.
 
 ## Mod 0 Expecations
 
@@ -318,7 +320,7 @@ Think of a <span class="vocab">class</span> as a category of thing. For example,
 
 An Old Navy sweatshirt and an Eddie Bauer sweatshirt (instances) are different versions of a **sweatshirt** (class).
 
-_Great Expectations_ by Charles Dickens and _Becomming_ by Michelle Obama (instances) are different versions of a **book** (class).
+_Great Expectations_ by Charles Dickens and _Becoming_ by Michelle Obama (instances) are different versions of a **book** (class).
 
 Class names are always singular: **pizza** (instead of pizzas), **sweatshirt** (instead of sweatshirts), and **book** instead of books.
 
