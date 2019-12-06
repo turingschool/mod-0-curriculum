@@ -770,4 +770,4 @@ Find the homework in your Mod 0 Project Board. Post in the Mod 0 Slack channel i
 
 ### Asking questions
 
-Now that we're working on some more technical subjects, be sure to provide as much context as possible in your slack questions. They'll help you get an answer faster and that answer will be more appropriate.
+Now that we're working on some more technical subjects, be sure to provide as much context as possible in your slack questions. They'll help you get an answer faster and that answer will be more accurate.
