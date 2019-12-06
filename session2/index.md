@@ -46,6 +46,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
 - Questions during the session? Click "raise hand" for whole-group question, or message the non-presenting host for an individual question.
 - We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
+- If you have to miss a session, you can message Tim and I in a combined DM.
 
 ### Wins
 
@@ -54,7 +55,6 @@ subheading: Terminal, File/folder Structure, Git Basics
 - Study habits and shortcuts
 
 ### Follow-Ups
-- Hands on examples
 - Sessions are designed to move fast
 - More breakout room time
 
@@ -170,7 +170,7 @@ In the diagram below, we would say that there's a directory called `essays` that
   <h4>Things to Note</h4>
   <ol>
     <li>
-       We commonly refer to directories with an analogy of <span class="vocab">parent</span> and <span class="vocab">child</span>. In the above example <code>to_do</code> is the <span class="vocab">parent</span> directory of the <code>home</code> and <code>work</code> directories. <code>projects_to_delectate</code> is a <span class="vocab">child</span> directory of the <code>work</code> directory.
+       We commonly refer to directories with an analogy of <span class="vocab">parent</span> and <span class="vocab">child</span>. In the above example <code>to_do</code> is the <span class="vocab">parent</span> directory of the <code>home</code> and <code>work</code> directories. <code>projects_to_delegate</code> is a <span class="vocab">child</span> directory of the <code>work</code> directory.
     </li>
   </ol>
 </div>
@@ -312,7 +312,7 @@ literary_analysis.docx    book_report.docx
 <div class="things-to-note">
   <h4>Things to Note</h4>
   <ol>
-    <li>You can't pick any random directory from your computer to give to the ls command. It has to be a directory inside wherever you currently are (or you need to use the full path to get to that directory, which we won't talk about today).</li>
+    <li>You can't pick any random directory from your computer to give to the cd command. It has to be a directory inside wherever you currently are (or you need to use the full path to get to that directory, which we won't talk about today).</li>
   </ol>
 </div>
 
@@ -573,7 +573,7 @@ timo@Tims-MacBook-Pro:~/notes$ git init
 Initialized empty Git repository in /Users/timo/notes/.git/
 ```
 
-This means git now **HAS THE ABILITY** to track changes in the `notes` directory. This does **not** mean that git is tracking anything yet. Git is now prepared to track activity in th `notes` directory
+This means git now **HAS THE ABILITY** to track changes in the `notes` directory. This does **not** mean that git is tracking anything yet. Git is now prepared to track activity in the `notes` directory
 
 *NOTE*: If you don't see this message when you try `git init`, it means you have not set up git on your computer. 
 
@@ -767,3 +767,7 @@ We do not expect you to have these steps and reasons memorized right now. You ca
 ## Homework
 
 Find the homework in your Mod 0 Project Board. Post in the Mod 0 Slack channel if you're stuck (and don't be afraid to help each other out). 
+
+### Asking questions
+
+Now that we're working on some more technical subjects, be sure to provide as much context as possible in your slack questions. They'll help you get an answer faster and that answer will be more appropriate.
