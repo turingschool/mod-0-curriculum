@@ -45,8 +45,8 @@ subheading: Terminal, File/folder Structure, Git Basics
 - In the chat, post a keyboard shortcut that you practiced and now feel comfortable using. 
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
 - Questions during the session? Click "raise hand" for whole-group question, or message the non-presenting host for an individual question.
-- We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
 - If you have to miss a session, you can message Tim and I in a combined DM.
+- you will get feedback on your hw directly through gh gist comments. We'll dm you if we see big issues
 
 ### Wins
 
@@ -57,6 +57,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 ### Follow-Ups
 - Sessions are designed to move fast
 - More breakout room time
+- We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
 
 ### Today's Goals
 
