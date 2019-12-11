@@ -45,17 +45,16 @@ subheading: More Git and Intro to GitHub
 
 - Strong understanding of terminal and commands - 4.5+ Average Score
 - Most common answer to git question: "I can name the steps of the git workflow and can put them in practice (using a reference)."
-- This is totally acceptable, and we use references as programmers on the job all the time. The best programmers google, reference, and implement more often and at a faster pace.
+- This is totally acceptable, and we use references as programmers on the job all the time
 - Great job posting in the channel and finding typos
 
 
 ### Follow-Ups
-- Asking questions is a skill
-  - shout out to Quinn and Ryan for asking really good questions in slack
-  - also thanks to all of y'all answering questions!
-  - how to post code/command snippets in slack
-  - pinned items
-- Capstone progress (should be on day 4/5 by now)
+
+- Make sure that you're asking questions using the formula we provided in slack
+- pinned items
+- capstone study session tomorrow! Please emoji rsvp if you're going
+- Ellen and Robert are joining the session today, they may pop into a breakout group to observe how y'all are doing
 
 ### Today's Goals
 
@@ -247,7 +246,7 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Add <code>programming_terms.txt</code> and<code>git_terms.txt</code> to the staging area.</li>
     <li>Make your second commit in this directory. This commit should include both files from the previous step. What should the commit message here be? Why? What conventions have we talked about?</li>
-    <li>Use the atom to add the names of two separate coding languages to <code>coding_languages.txt</code>. You may Google "programming languages" if you can't think of any.</li>
+    <li>Use atom to add the names of two separate coding languages to <code>coding_languages.txt</code>. You may Google "programming languages" if you can't think of any.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Before you check the difference between your last commit and what the file looks like now, predict what it will say. Then, check the diff.</li>
     <li>Add the changes to the staging area.</li>
@@ -341,8 +340,6 @@ Watch and take notes while we walk through how to add a remote to your local rep
 </div>
 
 ### Making Additional Changes and Pushing to GitHub
-
-Open up Atom. Use the keyboard shortcut `command + o` to search for your `git_homework` project.
 
 Watch and take notes while we walk through how to continue making changes and pushing those changes to GitHub.
 
