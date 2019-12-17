@@ -47,8 +47,8 @@ subheading: Attention to Detail, Iteration, and Assessment Expectations
 
 ### Follow-Ups
 
-- How long did the capstone gear up and professional development assignments take?
-- Capstone crunch time! Y'all got this!
+- Look through some of your classmate's git diagrams after class. Maybe they described things in a way you never thought of.
+- Ellen and Bob are going to be sitting in on the lesson and managing the chat today!
 
 ### Today's Goals
 
@@ -79,7 +79,8 @@ The most common issues we run into that leave people pending on the assessment a
 <div class="try-it">
   <h3>Try It: Assessment Review (~10 minutes)</h3>
   <p>Clone down <a href="https://github.com/damwhit/m0-mock-assessment">this repo:</a></p>
-  <p>With the rules above in mind, what is wrong with class 2 and the class 2 example object?</p>
+  <p>With the rules above in mind, what is wrong with class 1 and the class 1 example object?</p>
+  <p>What about class 2 and the class 2 example object?</p>
   <p>Fix everything? Create a new example object</p>
 </div>
 
