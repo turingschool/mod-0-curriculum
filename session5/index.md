@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 5
-subheading: Conditional Logic, Iteration, and Assessment Expectations
+subheading: Attention to Detail, Iteration, and Assessment Expectations
 ---
 
 <div class="goals-agenda">
@@ -9,7 +9,7 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
     <h3>Goals</h3>
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
-      <li>understand how to break down programming problems using top down design</li>
+      <li>apply strategies to identify issues in syntax and style</li>
       <li>define iteration in programming</li>
       <li>demonstrate iteration in real-world and programming situations</li>
       <li>understand assessment expectations</li>
@@ -20,7 +20,7 @@ subheading: Conditional Logic, Iteration, and Assessment Expectations
     <ul>
       <li><strong>10 min: </strong>Follow-Ups and Goals</li>
       <li><strong>25 min: </strong><a href="#mockassessment">Mock Assessment Follow ups</a></li>
-      <li><strong>35 min: </strong><a href="#breakingdownproblems">Top down design... continued</a></li>
+      <li><strong>35 min: </strong><a href="#attention-to-detail">Attention to Detail</a></li>
       <li><strong>5 min: </strong>Break</li>
       <li><strong>35 min: </strong><a href="#iteration">Iteration</a></li>
       <li><strong>15 min: </strong><a href="#assessmentprev">Assessment Preview</a></li>
@@ -83,70 +83,100 @@ The most common issues we run into that leave people pending on the assessment a
   <p>Fix everything? Create a new example object</p>
 </div>
 
-<a name="breakingdownproblems"></a>
-##  Top down design... continued
+<a name="attention-to-detail"></a>
+## Attention to Detail
 
-<span class="vocab">Conditional Logic</span> is something we use often when solving problems in programming. The same problem may require some additional steps given a certain input or context.
-It typically manifests itself in code with if statements checking against a boolean value.
+After reflecting on and trying to find patterns for the people who are struggling in mod 1, we've identified that attention to detail is one of the main themes we've seen.
 
-Let's go back to our pizza example from session 4. In that example we assumed that we had all of the necessary ingredients to make our delicious pie. But what if, we didn't?
+Attention to detail is something that constantly comes up when coding
+* A missing or misplaced character can make your code behave in an entirely different way
+* Documentation is super dense, you'll likely need to read it at least couple of times before you're able to understand and apply it
+* Tutorials and directions for implementation are common place. If you miss one step, you won't get the same result
 
-```
-Making Pizza
+### Identifying Mistakes
 
-1 Prepare Dough
-  1.1 acquire dough
-    If there's dough in the fridge?
-      1.1.1 grab dough from the fridge
-      1.1.2 walk dough to counter
-    If there's not
-      1.1.1 go to store
-      1.1.2 find prepared pizza dough
-      1.1.3 purchase prepared pizza dough
-      1.1.4 return home
-      1.1.5 walk dough to counter
-  1.2 place dough on pizza stone
-2 Add Sauce
-4 Add Toppings
-```
+#### Breakout Groups (10 minutes)
+Go through the following examples, and determine whether or not each piece of code is syntactically correct. Even if the line of code is syntactically correct, are there any other mistakes in it?
 
-### Top down design in programming
-
-Thus far, we've only been applying these scenarios to problems we encounter in everyday life. Let's apply that same process to building software.
-
-Let's say for instance, that we are building a file uploader. The uploader will either let the user know that their file has been uploaded successfully or provide an error message to the user if it was not. The two constraints that prevent a successful download are that the file must be smaller than 1gb and that it must be in either markdown or text format.
-
-Let's break it down:
+As a group, either in your text editors, or in a notebook, write down your answers for each number below. Be sure to deliberate as a group and try your best to explain why you expect something to work or not.
 
 ```
-File uploader
+1. bestFoodOfAllTime = 'burritos'
 
-1 Receive file
-2 Perform validation checks
-3 Output message
+2. isIt = true
+
+3. secondBestFood = 'ramen'
+
+4. sandwich = "taco?'
+
+5. phoneNumber = '123-456-7890'
+
+6. bestFoodOfAllTime
+
+7. isLying = False
+
+8. animals = ['donkey', 'giraffe', 'elephant', 'chimpanzee']
+
+9. secondBestfood
+
+10. sandwiches = ['philly cheese', 'po' boy', 'reuben']
+
+11. '2' * 2
+
+12. 4 / 2
+
+13. (6 * 2) + (6 / 3) / 6)
+
+14. grads = { "9th grade": 110, "10th grade": 125, "11th grad": 66 }
+
+15.
+instructors = {
+  "Mod 0": "Tim and David",
+  "Mod 1": 'Mike and Sal",
+  "Mod 2": "Brittany and Robbie"
+}
 ```
 
-Some problem solving tips:
+What were your strategies when trying to figure out if a piece of code is syntactically correct or not?
 
-1. **Always make sure that you understand the problem**
-  * Read through it a few times
-  * Can you explain it layman's terms?
-  * If not, ask for clarification. Applies at Turing, in interviews, on the job.
+Did you do any experimentation? Did you reference any documentation?
 
-2. **Start with a simple use case**
-  * See if you're able to get the simplest implementation at first
-  * Add complexity later
-  * Take the example above, what happens if we don't worry about the error cases to begin with?
+Key things to think about when looking for syntax errors:
+* parentheses, quotes, brackets, and braces are all like shoes, useless without their mate
+* consistency is key. If you're looking through code that has inconsistent, indentation, casing, quote types some mental overhead is being used where it doesn't need to be
 
-<div class="try-it">
-  <h3>Try It (Break Out Rooms): Top Down Design (~15 minutes)</h3>
-  <p>Using top down design, write out a login form for a website. The form has two inputs and a submit button. One input to enter their email, and another input to enter their password.</p>
-  <p>In order to submit the form, the email must be valid and their password must be longer than 8 characters.</p>
-  <p>The user should see an error message if they are unable to submit the form</p>
-  <p>check out <a href="https://www.airbnb.com">airbnb</a>'s email login for clarity</p>
-</div>
+### Syntax and Style
 
-<hr>
+<span class="vocab">Syntax</span> and <span class="vocab">Style</span> are both essential when it comes to writing code.
+
+<span class="vocab">Syntax</span> refers to the structure of statements in a computer language. Are quotes surrounding both sides of a string? No, then the language will throw an error. If your code isn't working because of a placement of a character, it's a syntax issue.
+
+<span class="vocab">Style</span> doesn't determine if a piece of code runs or not. Its purpose is to make code more readable. Ideally, when you're working on a team, you and your teammates are following similar patterns (conventions) when it comes to things like whitespace (including indentation) or double vs single quotes. What is one of those conventions you've already been using?
+
+Let's take a look at what these two things might look like in action:
+
+Difference in syntax
+
+```
+one doesn't work
+
+animals = ['donkey', 'giraffe', 'elephant', 'chimpanzee']
+
+animals = ['donkey', 'giraffe', 'elephant' 'chimpanzee']
+```
+
+Difference in style
+
+```
+both work below, but which reads better?
+
+animals = ['donkey', 'giraffe', 'elephant', 'chimpanzee']
+
+animals=["donkey",'giraffe','elephant',"chimpanzee"]
+```
+
+If you want to find code that is both syntactically correct and using good style the best place to look is going to be the docs (mdn for JavaScript and ruby-doc for Ruby). The code examples are a great place to look to see if you are writing your code in a similar way. Also, keep in mind that things like casing of variables is another good way to stay consistent and maintain good style.
+
 ## BREAK
 
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
@@ -399,7 +429,7 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
 
 ### Other Reminders
 
-* This is your last technical session, next session will be with Joanne, where she'll talk more about life in person at Turing
+* This is your last technical session, next session will be with Emma, where she'll talk more about life in person at Turing
 * When you start working on Mythical Creatures in Mod 1, think back to OOP, classes and methods in mod 0
 * Moving forward:
   * Keep up the hard work
