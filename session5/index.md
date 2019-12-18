@@ -49,6 +49,7 @@ subheading: Attention to Detail, Iteration, and Assessment Expectations
 
 - Look through some of your classmate's git diagrams after class. Maybe they described things in a way you never thought of.
 - Ellen and Bob are going to be sitting in on the lesson and managing the chat today!
+- Capstone study session tomorrow. Be sure to emoji rsvp!
 
 ### Today's Goals
 
@@ -99,7 +100,9 @@ Attention to detail is something that constantly comes up when coding
 #### Breakout Groups (10 minutes)
 Go through the following examples, and determine whether or not each piece of code is syntactically correct. Even if the line of code is syntactically correct, are there any other mistakes in it?
 
-As a group, either in your text editors, or in a notebook, write down your answers for each number below. Be sure to deliberate as a group and try your best to explain why you expect something to work or not.
+Be sure to pay attention to how your capstone is formatted. If people have poorly formatted gists and repos for their capstone, it is a bit of a red flag on our end for this reason.
+
+As a group, either in your text editors, or in a notebook, write down your answers for each number below. Be sure to deliberate as a group and try your best to explain **why** you expect something to work or not.
 
 ```
 1. bestFoodOfAllTime = 'burritos'
@@ -120,9 +123,9 @@ As a group, either in your text editors, or in a notebook, write down your answe
 
 9. secondBestfood
 
-10. sandwiches = ['philly cheese', 'po' boy', 'reuben']
+10. sandwiches = ['cheesesteak', 'po' boy', 'reuben']
 
-11. '2' * 2
+11. ,2 * 2
 
 12. 4 / 2
 
