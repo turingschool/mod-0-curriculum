@@ -125,15 +125,17 @@ As a group, either in your text editors, or in a notebook, write down your answe
 
 10. sandwiches = ['cheesesteak', 'po' boy', 'reuben']
 
-11. ,2 * 2
+11. drinkSize = 12 oz
 
-12. 4 / 2
+12. ,2 * 2
 
-13. (6 * 2) + (6 / 3) / 6)
+13. 4 / 2
 
-14. grads = { "9th grade": 110, "10th grade": 125, "11th grad": 66 }
+14. (6 * 2) + (6 / 3) / 6)
 
-15.
+15. grads = { "9th grade": 110, "10th grade": 125, "11th grad": 66 }
+
+16.
 instructors = {
   "Mod 0": "Tim and David",
   "Mod 1": 'Mike and Sal",
@@ -438,7 +440,7 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
 * Moving forward:
   * Keep up the hard work
   * Keep asking questions in your cohort channels
-  * Tim and I are still around if you need us
-  * Capstone is due in Two weeks - check your calendar
+  * Tim, Ellen, Bob and I are still around if you need us
+  * Capstone is due in Three weeks - check your calendar, and don't forget to rsvp for the study session tomorrow!
 
 > Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 0 prework are the ones that usually struggle for at least the first half of the mod."
