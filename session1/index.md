@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 1
-subheading: Expectations, Keyboard Shortcuts, Googling, Classes
+subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 ---
 
 <div class="goals-agenda">
@@ -46,7 +46,7 @@ subheading: Expectations, Keyboard Shortcuts, Googling, Classes
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: David and Tim
+* Instructor intros: David, Ellen and Robert
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
@@ -57,6 +57,7 @@ subheading: Expectations, Keyboard Shortcuts, Googling, Classes
 * Make sure your video is on and your mic is off!
 * Session will be recorded and posted in Slack
 * Find a typo? - let us know!
+* If you haven't already, start your capstone! It's due in a week and a half!
 * <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes.
 
 ### Breakout Rooms
@@ -74,16 +75,18 @@ Other things to note as we go through Mod 0:
 
 - <strong>Zoom</strong>: turn video on, turn mic off unless speaking
 - <strong>You can raise your hand using zoom</strong>: go ahead and try it now!
-- <strong>Problems or individual questions during the Zoom session?</strong> Message the non-presenting host (either David or Tim)
+- <strong>Problems or individual questions during the Zoom session?</strong> Send a message in the chat!
 
 <a name="expectations"></a>
 ## Turing Mission and Expectations
 
 > “Our mission is to unlock human potential by training a diverse, inclusive student body to succeed in high-fulfillment technical careers.”
 
+The tech industry has historically been very homogenous. It's our goal to get people from different cultures, places, ages, and industries so that better conversations can be had, better ideas can be conceived, and ultimately better software made.
+
 ### A different type of learning environment
 
-Turing is a very challenging experience for most people. In order to be successful I'd highly recommend that you embrace a **growth mindset**. This means that you believe that knowledge and intelligence can be improved through hard work and dedication, and that you may fail at something before you're successful at it. It's the difference between being good at something right off the bat, and working really hard to get good at something that sets people apart here.
+Turing is a very challenging experience for most people. To be successful here, I'd highly recommend that you embrace a **growth mindset**. This means that you believe that knowledge and intelligence can be improved through hard work and dedication and that you may fail at something before you're successful at it. It's the difference between being good at something right off the bat, and working hard to get good at something that sets people apart here.
 
 **This is not traditional education**
 * You will not be given all of the answers
@@ -91,21 +94,22 @@ Turing is a very challenging experience for most people. In order to be successf
 * Technology is constantly changing
 * Learning how to learn
 
-**There is no transcript** - Sure, you'll get a diploma upon graduation, but we don't have GPAs at Turing and grades are not the measurement of success. **We measure success in understanding.** Throughout your time at Turing you'll have projects and assessments that will allow us as instructors to guage your success. The main reason for this is because the ultimate goal here is for you to get a job in software development. And to do so, you need to show understanding during the interview process.
+**There is no transcript** - Sure, you'll get a diploma upon graduation, but we don't have GPAs at Turing and grades are not the measurement of success. **We measure success in understanding.** Throughout your time at Turing, you'll have projects and assessments that will allow us as instructors to gauge your success. This is because the ultimate goal here is for you to get a job in software development. And to do so, you need to show understanding during the interview process.
 
 ### Communication
 
 Make sure that you've added the **[Mod 0 Calendar](https://calendar.google.com/calendar?cid=Y2FzaW1pcmNyZWF0aXZlLmNvbV8xMnA0NjkzaG1lcjFvcmNlcHA3NHZnNzdwZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)** to your own calendar. This is where you will find all mod 0 related events, including sessions, capstone study sessions, and other community wide events.
 
-We will also remind you when these events are via **[slack](https://turingschool.slack.com/)**, which is the *primary mode of communication* we use at Turing. Make sure that you're checking it once a day so that you can stay up to date. It's also a great place to ask questions if you are running into issues, as people are likely experiencing the same issue that you are.
+We will also remind you when these events are via **[slack](https://turingschool.slack.com/)**, which is the **primary mode of communication** we use at Turing. Make sure that you're checking it once a day so that you can stay up to date. It's also a great place to ask questions if you are running into issues, as people are likely experiencing the same issue that you are.
 
-Let's practice a couple of slack features right now! Watch as we show you how to make and write in threads.
+* Let's practice a couple of slack features right now! Watch as we show you how to make and write in threads.
+  * Thread: What is your favorite food?
 
 ## Mod 0 Expecations
 
 Mod 0 is less about code or solving difficult problems and more about developing and learning tools, procedures, systems, and  learning behaviors/processes. For some of you, the technical content will be brand new. For others, it will be review.
 
-At the end of Session 5, you'll take a technical assessment that will showcase a subset skills you learn during Mod 0. The assessment will be performance-based rather than multiple choice. The assessment instructions will include a checklist of what we're looking for to know that you've practiced and mastered the material.
+At the end of Session 4, you'll take a technical assessment that will showcase a subset skills you learn during Mod 0. The assessment will be performance-based rather than multiple choice. The assessment instructions will include a checklist of what we're looking for to know that you've practiced and mastered the material.
 
 ### Being Turing Ready
 
@@ -150,6 +154,7 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
   * When will I need what I just learned?
   * What questions do I still have?
 * Do your own research!
+* Experiment!
 
 ### Study Habits (focus)
 * Limit distractions. Turn off:
@@ -515,14 +520,11 @@ Imagine that we're making an application for grocery stores to use (intentionall
     </p>
     <div class="toggle-content hidden">
       <p>A <span class="vocab">boolean</span> value is either true or false. Boolean values are used in boolean logic, which is a subset of algebra used for creating true/false statements.</p>
-      <p>As a side note beyond the scope of today's lesson, boolean expressions use the operators AND, OR, and NOT to compare values and return a true or false result. An example of booleans in real life might be:
-      </p>
-      <p>If <span style="text-decoration: underline;">it's raining</span> and <span style="text-decoration: underline;">I have an appointment</span>, then grab the umbrella.</p>
-      <p>This could translate to:</p>
-      <p>TRUE and TRUE = TRUE</p>
-      <p>TRUE and FALSE = FALSE</p>
-      <p>FALSE and TRUE = FALSE</p>
-      <p>FALSE and FALSE = FALSE</p>
+      <p>Examples:</p>
+      <li><code>true</code></li>
+      <li><code>false</code></li>
+      <li>Side note for later, can be used to check combinations: ie. if a password is over 8 characters and has both a letter and a number</li>
+      <li><code>&& || ==</code> are all operators to help with boolean logic</li>
     </div>
   </div>
   <div class="flex-container">
@@ -653,6 +655,6 @@ In addition, consider the following questions:
 <a name="homework"></a>
 ## Homework
 
-Find the homework in your Mod 0 Project Board. Contact David and Tim if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
+Find the homework in your Mod 0 Project Board. Contact David, Ellen, and Robert if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
-Also, reminder that it's not too early to start your capstone. Post any questions in your mod 0 channel.
+Lastly, another reminder, if you haven't started your capstone yet, you should. It's due in a week and a half.
