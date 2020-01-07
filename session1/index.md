@@ -57,7 +57,8 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 * Make sure your video is on and your mic is off!
 * Session will be recorded and posted in Slack
 * Find a typo? - let us know!
-* If you haven't already, start your capstone! It's due in a week and a half!
+* If you haven't already, 2001ers - start your capstone! It's due in a week and a half!
+* Friends and family even this Wednesday at 5:30. Link in slack to rsvp
 * <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes.
 
 ### Breakout Rooms
