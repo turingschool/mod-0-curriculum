@@ -68,7 +68,7 @@ subheading: Terminal, File/folder Structure, Git Basics
   <h3>Intros, Review, and Icebreaker (5 minutes)</h3>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. What's the most boring fact about yourself?</p>
-  <p>3. Accountability review: what were the skills/processes that you decided to focus on last week, and how are you progressing toward mastery of those skills?</p>
+  <p>3. Accountability review: what were the skills/processes that you decided to focus on last session, and how are you progressing toward mastery of those skills?</p>
 </div>
 
 <a name="classes"></a>
