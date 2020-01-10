@@ -43,18 +43,15 @@ subheading: More Git and Intro to GitHub
 
 ### Wins
 
-- Strong understanding of terminal and commands - 4.5+ Average Score
 - Most common answer to git question: "I can name the steps of the git workflow and can put them in practice (using a reference)."
-- This is totally acceptable, and we use references as programmers on the job all the time
-- Great job posting in the channel and finding typos
-
+- This is expected, and we use references as programmers on the job all the time, at some point it'll be muscle memory
+- Great job asking and answering eachothers questions in the public channel
 
 ### Follow-Ups
 
 - Make sure that you're asking questions using the formula we provided in slack
-- pinned items
-- capstone study session tomorrow! Please emoji rsvp if you're going
-- Ellen and Robert are joining the session today, they may pop into a breakout group to observe how y'all are doing
+- The homework this weekend is minimal - try to get to at least day 5 of your capstone by the end of the weekend
+- Remote capstone study session on Monday - see the calendar for details
 
 ### Today's Goals
 
@@ -142,7 +139,7 @@ subheading: More Git and Intro to GitHub
       </li>
       <li>
         <strong>Split panes</strong>
-        <pre>command + k + arrow(choose direction)</pre>
+        <pre>command + k ..unpress keys.. + arrow key(choose direction)</pre>
       </li>
     </div>
   </div>
@@ -152,8 +149,7 @@ subheading: More Git and Intro to GitHub
   <h3>Intros, Review, and Icebreaker</h3>
   <p>Person with the lightest color shirt speaks first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
-  <!-- <p>2. Share: what is a current trend that you're either totally annoyed by or completely love?</p> -->
-  <p>2. Share: Do you dress up for halloween? What is your favorite costume you've worn or seen?</p>
+  <p>2. Share: What would be your deathrow meal? You get 1 app, 1 entree, and 1 dessert</p>
   <p>3. Accountability review: how are you progressing toward mastery of your focus skills?</p>
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
@@ -170,7 +166,7 @@ subheading: More Git and Intro to GitHub
 
 ### Method and Attribute Interaction
 
-Like we talked about during session 2, a <span class="vocab">method</span> of a class define **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
+Like we talked about during session 2, a <span class="vocab">method</span> of a class defines **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
 
 Most of the time, a method will either **use** or **change** an attribute of an object. For example, look at the attributes of the class `Bank Account` below:
 
