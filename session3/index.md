@@ -50,6 +50,7 @@ subheading: More Git and Intro to GitHub
 ### Follow-Ups
 
 - Make sure that you're asking questions using the formula we provided in slack
+- Capstone update - where are y'all? Post in the chat!
 - The homework this weekend is minimal - try to get to at least day 5 of your capstone by the end of the weekend
 - Remote capstone study session on Monday - see the calendar for details
 
