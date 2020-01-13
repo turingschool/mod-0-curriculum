@@ -39,12 +39,11 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP, Assessment E
 ## Housekeeping and Goals
 ### Wins
 
-- Fairly high scores on hooking up a remote to your local repository! This is great! Keep practicing! And, definitely go over the task 1 from the hw again if it's still fuzzy.
-- Similar scores for navigating Github as well as forking and cloning
+- Good survey scores regarding git and github.
 
 ### Follow-Ups
 
-- Leaving feedback directly on homework gists. Make sure you're checking them. We'll reach out in slack if things are missing or super off.
+- Leaving feedback directly on homework gists. Make sure you're checking them. We'll reach out in slack if we have major concerns.
 - Remember to be aware of where you are in your directory structure of the terminal before you clone anything down or start running git commands. Always run ls after cloning
 
 ### Other Notes
@@ -376,3 +375,7 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
   <h4 class="important">Done?</h4>
   <p>There is a link to a google form where you'll submit your mod 0 assessment repo at the end of your checklist</p>
 </div>
+
+### Session 4 hw
+
+* Please fill out the survey, but ignore everything else in the session 4 hw column!
