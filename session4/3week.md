@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 4
-subheading: Top-down design, Breaking down a problem, Modeling OOP, Assessment Expectations
+subheading: Top-down design, Breaking down a problem, Modeling OOP
 ---
 
 <div class="goals-agenda">
@@ -12,7 +12,6 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP, Assessment E
       <li>define top-down design and object oriented programming</li>
       <li>break down real-world tasks using top-down design strategies</li>
       <li>model real-world objects and apps by breaking down their attributes and behaviors</li>
-      <li>understand assessment expecations</li>
     </ul>
   </div>
   <div>
@@ -21,8 +20,8 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP, Assessment E
       <li><strong>10 min: </strong>Follow-Ups and Goals</li>
       <li><strong>45 min: </strong><a href="#topdowndesign">Top Down Design</a></li>
       <li><strong>5 min: </strong>Break</li>
-      <li><strong>45 min: </strong><a href="#oop">Object Oriented Programming</a></li>
-      <li><strong>15 min: </strong><a href="#assessmentprev">Assessment Expectations</a></li>
+      <li><strong>60 min: </strong><a href="#oop">Object Oriented Programming</a></li>
+      <li><strong>5 min: </strong><a href="#homework">Homework</a></li>
     </ul>
   </div>
   <div>
@@ -318,61 +317,7 @@ What would be wrong with...
 * a `Chair` class having an attribute called `number_of_chairs`
 * a `MenuItem` class with a method called `CustomerSurvey`
 
-<a name="assessmentprev"></a>
-## Mod 0 Technical Assessment
+<a name="homework"></a>
+## Homework and GitHub Projects
 
-This is our final Mod 0 technical session. Your assignment between now and Thursday is to find 80 minutes  to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com).
-
-<div class="instructions assessmentpreview">
-  <h1>SAMPLE INSTRUCTIONS</h1>
-
-  <p>This work portion assessment should take you approximately 70 minutes, but we recommend taking an additional 10 minutes to throughly read over the expectations outlined in this document. The timed nature is meant to get you used to working under pressure.</p>
-
-  <p class="important"><strong>First,</strong> fork the assessment checklist. You will use this checklist to ensure that you have met the Mod 0 Technical Assessment expectations.</p>
-
-  <h4>Part I: Creating Directories and Files; Initializing Git and Pushing to GitHub (10 min)</h4>
-
-  <ol>
-    <li>Use your terminal to create a directory called <code>...</code></li>
-    <li>Inside of that directory, make an empty text file called <code>...</code></li>
-    <li>Initialize your directory as a git repository.</li>
-    <li>Add your file and commit using the message "Initial commit"</li>
-    <li>Create a public repo on Github with the same name.</li>
-    <li>Add the remote and push your local repository to Github.</li>
-  </ol>
-
-  <h4>Part II: Top Down Design (25 min)</h4>
-
-  <ol>
-    <li>Open up your <code>...</code> file in your text editor.</li>
-    <li>Break down the process of <code>...</code> <small>(We will leave the situation intentionally vague so that you can choose what angle you feel most comfortable with. Although we are not looking for a specific "answer" for how you break this down, you should be as detailed as possible. It is better to break things down too much than to oversimplify a process. Use the same process and notation that we used during Session 5 with a dash mark and one indent for every new layer.)</small></li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes.</li>
-    <li>Push your changes to Github.</li>
-  </ol>
-
-  <h4>Part III: Classes, Objects, Attributes, and Methods (35 min)</h4>
-
-  <ol>
-    <li>Inside of <code>...</code>, create a new directory called <code>...</code></li>
-    <li>Inside of <code>...</code>, create four files: <code>...</code>, <code>...</code>, <code>...</code>, and <code>...</code><em>(If you're comfortable trying markdown at this point, feel free to use .md instead of .txt).</em> </li>
-    <li>Open up <code>...</code> in your text editor.</li>
-    <li>Brainstorm one class that might exist in a <code>...</code> and put this at the top of the file.</li>
-    <li>List at least four attributes for that class. In parentheses, list the data type for that attribute (string, boolean, integer, float, hash/object, datetime).</li>
-    <li>List at least four methods for that class. In parentheses, explain what the method does, including the names of the attributes that it uses or modifies.</li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes for this class.</li>
-    <li>Open up <code>...</code> in your text editor.</li>
-    <li>At the top, type the name of an object that is an instance of your class.</li>
-    <li>List the values for each attribute.</li>
-    <li>List the results of the method being called for this specific object.</li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes for this class.</li>
-    <li>Repeat steps 3-8 with <code>...</code></li>
-    <li>Repeat steps 9-14 with <code>...</code></li>
-    <li>Push your changes to GitHub.</li>
-  </ol>
-
-  <h4 class="important">Done?</h4>
-  <p>There is a link to a google form where you'll submit your mod 0 assessment repo at the end of your checklist</p>
-</div>
+Find the homework in your Mod 0 Project Board. Contact David or Tim if you're stuck.
