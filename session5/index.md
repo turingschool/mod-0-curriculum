@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 5
-subheading: Attention to Detail, Iteration, and Assessment Expectations
+subheading: Attention to Detail and Iteration
 ---
 
 <div class="goals-agenda">
