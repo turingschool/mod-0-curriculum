@@ -320,7 +320,7 @@ What would be wrong with...
 <a name="assessmentprev"></a>
 ## Mod 0 Technical Assessment
 
-This is our final Mod 0 technical session. Your assignment between now and Thursday is to find 80 minutes  to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com).
+This is our final Mod 0 technical session. Your assignment between now and Session 5 is to find 80 minutes  to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com).
 
 <div class="instructions assessmentpreview">
   <h1>SAMPLE INSTRUCTIONS</h1>
