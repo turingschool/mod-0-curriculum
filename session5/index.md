@@ -43,7 +43,7 @@ subheading: Attention to Detail, Iteration, and Assessment Expectations
 
 ### Follow-Ups
 
-- Finish those capstones strong! You should be finished or almost finished by now.
+- Finish those capstones strong! You should be finished or almost finished by now. They're due tomorrow at 6!
 
 ### Today's Goals
 
