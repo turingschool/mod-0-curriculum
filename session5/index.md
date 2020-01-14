@@ -12,18 +12,15 @@ subheading: Attention to Detail, Iteration, and Assessment Expectations
       <li>apply strategies to identify issues in syntax and style</li>
       <li>define iteration in programming</li>
       <li>demonstrate iteration in real-world and programming situations</li>
-      <li>understand assessment expectations</li>
     </ul>
   </div>
   <div>
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong>Follow-Ups and Goals</li>
-      <li><strong>25 min: </strong><a href="#mockassessment">Mock Assessment Follow ups</a></li>
       <li><strong>35 min: </strong><a href="#attention-to-detail">Attention to Detail</a></li>
       <li><strong>5 min: </strong>Break</li>
       <li><strong>35 min: </strong><a href="#iteration">Iteration</a></li>
-      <li><strong>15 min: </strong><a href="#assessmentprev">Assessment Preview</a></li>
     </ul>
   </div>
   <div>
@@ -43,13 +40,10 @@ subheading: Attention to Detail, Iteration, and Assessment Expectations
 
 - Great work asking questions in the public channel!
 - Answering questions in the public channel is the best way to solidify your learning and practice communicating technically
-- Many Git diagrams were posted early. Way to stay on top of things!
 
 ### Follow-Ups
 
-- Look through some of your classmate's git diagrams after class. Maybe they described things in a way you never thought of.
-- Ellen and Bob are going to be sitting in on the lesson and managing the chat today!
-- Capstone study session tomorrow. Be sure to emoji rsvp!
+- Finish those capstones strong! You should be finished or almost finished by now.
 
 ### Today's Goals
 
@@ -65,24 +59,6 @@ subheading: Attention to Detail, Iteration, and Assessment Expectations
   <p>3. Accountability review: what tangible progress have you made toward your mod 0 focus skills?</p>
   <p>4. Determine who will bring your breakout group questions back to the whole group</p>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
-</div>
-
-<a name="mockassessment"></a>
-## Mock Assessment Follow-up
-
-This is a great time to ask for clarity on expectations or even some feedback on your responses.
-
-The most common issues we run into that leave people pending on the assessment are as follows:
-  - method definitions are too broad and don't actually change an attribute or create a return value
-  - values aren't filled in properly, using proper syntax for a particular data type
-  - format of the top down design portion is wildly off. Only use markdown if you're really comfortable
-
-<div class="try-it">
-  <h3>Try It: Assessment Review (~10 minutes)</h3>
-  <p>Clone down <a href="https://github.com/damwhit/m0-mock-assessment">this repo:</a></p>
-  <p>With the rules above in mind, what is wrong with class 1 and the class 1 example object?</p>
-  <p>What about class 2 and the class 2 example object?</p>
-  <p>Fix everything? Create a new example object</p>
 </div>
 
 <a name="attention-to-detail"></a>
@@ -324,115 +300,6 @@ By "in programming", we mean things that could be done, with relative ease, by a
   </table>
 </div>
 
-### Iteration Syntax
-
-We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby and JavaScript.
-
-<div>
-  Are you a <button class="iteration-toggle" id="fe-show">front end</button> or <button class="iteration-toggle" id="be-show">back end</button> student?
-<div class="hidden fe-iteration">
-  <p>The code that you see below is written using JavaScript. This syntax is something that you'll see all over the place, so it's important to get used to it. You don't need to memorize every little symbol for now, but knowing how to explain the big pieces is important.</p>
-  <h4>Example #1: Grading papers for five students</h4>
-  <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationJS1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  <div class="things-to-note">
-    <h4>Things to Note: For Loop Vocabulary</h4>
-    <ul>
-      <li><code>var students = ['Megan', 'Jose', 'Xavier', 'Ali', 'Miriam'];</code><br> We use Javascript keyword <code>var</code> to <span class="vocab">declare</span> a <span class="vocab">variable</span> <code>students</code> and assign the <span class="vocab">array</span> of <span class="vocab">strings</span> to the <span class="vocab">variable</span> <code>students</code>.</li>
-      <li><code>for (i = 0; i < students.length; i++)</code><br> We use Javascript keyword <code>for</code> to begin setting up our <span class="vocab">for loop</span> which we will break down further.</li>
-      <li><code>i = 0;</code><br><span class="vocab">Declare</span> our <span class="vocab">variable</span> <code>i</code> and assign it to the <span class="vocab">integer</span> 0</li>
-      <li><code>i < students.length;</code><br> We set up our <span class="vocab">conditional</span> statement that the <span class="vocab">for loop</span> will evaluate before entering the loop. On the first run through <code>i = 0</code>, so this statement evaluates to <code>0 < students.length;</code>, which can be broken down further to <code>0 < 5</code>, which evaluates to true. Think of <span class="vocab">conditionals</span> as questions that always evaluate to true or false.
-      </li>
-      <li><code>i++</code><br>Our <span class="vocab">incrementer</span> that will add one to i each time we pass through the loop. Another way to think about it is each time <code>i < students.length</code> is true we will increment <code>i</code> by one for the next time we evaluate the <span class="vocab">conditional</span> <code>i < students.length</code> So, after we've run through the <span class="vocab">for loop</span> once, the <span class="vocab">for loop</span> looks like this: <code>(i = 1; i < students.length; i++)</code> the second time through. This can break down further to <code>(i = 1; 1 < 5; i++)</code></li>
-      <li><strong>Curly Brackets or Curly Braces:</strong>
-      <code><br>
-        {
-          Within these brackets is where we do some kind of programming/logic to each element of our collection within our loop
-        }
-      </code><br>
-      <strong>Todo:</strong> Google <code>console.log</code> and other console methods that are available to you in a Javascript console.</li>
-      <li><code>students[i]</code><br> Access the <span class="vocab">element</span> of the <code>students</code> <span class="vocab">array</span> at <span class="vocab">index position</span><code>i</code> which will change as <code>i</code> changes and we increment through the <span class="vocab">for loop</span>
-      As we move through the loop this breaks down to <code>students[0]</code>, next time through the loop: <code>students[1]</code>, next time through the loop: <code>students[2]</code> ...</li>
-  </ul>
-</div>
-
-  <h4>Example #2: Multiplying By Six</h4>
-  <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationJS2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  <div class="try-it">
-    <h3>Try It: Iteration Syntax</h3>
-    <p>Fill in the missing pieces of the iteration example below:</p>
-    <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationJS3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-    <p>Fill in the missing pieces of the iteration example below:</p>
-    <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationJS4?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  </div>
-</div>
-<div class="hidden be-iteration">
-  <p>The code that you see below is written using Ruby. This syntax is something that you'll see all over the place, so it's important to get used to it. You don't need to memorize every little symbol for now, but knowing how to explain the big pieces is important.</p>
-  <h4>Example #1: Grading papers for five students</h4>
-  <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationRuby1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  <h4>Example #2: Multiplying By Two</h4>
-  <iframe height="350px" width="100%" src="//repl.it/@TimTyrrell1/RubyExampleNumberIteration?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  </div>
-</div>
-
-<a name="assessmentprev"></a>
-## Mod 0 Technical Assessment
-
-This is our final Mod 0 technical session. Your assignment between now and Thursday is to find 80 minutes  to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com).
-
-<div class="instructions assessmentpreview">
-  <h1>SAMPLE INSTRUCTIONS</h1>
-
-  <p>This work portion assessment should take you approximately 70 minutes, but we recommend taking an additional 10 minutes to throughly read over the expectations outlined in this document. The timed nature is meant to get you used to working under pressure.</p>
-
-  <p class="important"><strong>First,</strong> fork the assessment checklist. You will use this checklist to ensure that you have met the Mod 0 Technical Assessment expectations.</p>
-
-  <h4>Part I: Creating Directories and Files; Initializing Git and Pushing to GitHub (10 min)</h4>
-
-  <ol>
-    <li>Use your terminal to create a directory called <code>...</code></li>
-    <li>Inside of that directory, make an empty text file called <code>...</code></li>
-    <li>Initialize your directory as a git repository.</li>
-    <li>Add your file and commit using the message "Initial commit"</li>
-    <li>Create a public repo on Github with the same name.</li>
-    <li>Add the remote and push your local repository to Github.</li>
-  </ol>
-
-  <h4>Part II: Top Down Design (25 min)</h4>
-
-  <ol>
-    <li>Open up your <code>...</code> file in your text editor.</li>
-    <li>Break down the process of <code>...</code> <small>(We will leave the situation intentionally vague so that you can choose what angle you feel most comfortable with. Although we are not looking for a specific "answer" for how you break this down, you should be as detailed as possible. It is better to break things down too much than to oversimplify a process. Use the same process and notation that we used during Session 5 with a dash mark and one indent for every new layer.)</small></li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes.</li>
-    <li>Push your changes to Github.</li>
-  </ol>
-
-  <h4>Part III: Classes, Objects, Attributes, and Methods (35 min)</h4>
-
-  <ol>
-    <li>Inside of <code>...</code>, create a new directory called <code>...</code></li>
-    <li>Inside of <code>...</code>, create four files: <code>...</code>, <code>...</code>, <code>...</code>, and <code>...</code><em>(If you're comfortable trying markdown at this point, feel free to use .md instead of .txt).</em> </li>
-    <li>Open up <code>...</code> in your text editor.</li>
-    <li>Brainstorm one class that might exist in a <code>...</code> and put this at the top of the file.</li>
-    <li>List at least four attributes for that class. In parentheses, list the data type for that attribute (string, boolean, integer, float, hash/object, datetime).</li>
-    <li>List at least four methods for that class. In parentheses, explain what the method does, including the names of the attributes that it uses or modifies.</li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes for this class.</li>
-    <li>Open up <code>...</code> in your text editor.</li>
-    <li>At the top, type the name of an object that is an instance of your class.</li>
-    <li>List the values for each attribute.</li>
-    <li>List the results of the method being called for this specific object.</li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes for this class.</li>
-    <li>Repeat steps 3-8 with <code>...</code></li>
-    <li>Repeat steps 9-14 with <code>...</code></li>
-    <li>Push your changes to GitHub.</li>
-  </ol>
-
-  <h4 class="important">Done?</h4>
-  <p>There is a link to a google form where you'll submit your mod 0 assessment repo at the end of your checklist</p>
-</div>
-
 ### Other Reminders
 
 * This is your last technical session, next session will be with Emma, where she'll talk more about life in person at Turing
@@ -441,6 +308,6 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
   * Keep up the hard work
   * Keep asking questions in your cohort channels
   * Tim, Ellen, Bob and I are still around if you need us
-  * Capstone is due in Three weeks - check your calendar, and don't forget to rsvp for the study session tomorrow!
+  * Capstone is due tomorrow at 6!
 
 > Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 0 prework are the ones that usually struggle for at least the first half of the mod."
