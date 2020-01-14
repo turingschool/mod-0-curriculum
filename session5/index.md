@@ -358,7 +358,7 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
 * Moving forward:
   * Keep up the hard work
   * Keep asking questions in your cohort channels
-  * Tim, Ellen, Bob and I are still around if you need us
+  * Ellen, Bob and I are still around if you need us
   * Capstone is due tomorrow at 6!
 
 > Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 0 prework are the ones that usually struggle for at least the first half of the mod."
