@@ -43,7 +43,10 @@ subheading: Attention to Detail and Iteration
 
 ### Follow-Ups
 
+- Be sure to use the formula pinned in the channel when asking technical questions
 - Finish those capstones strong! You should be finished or almost finished by now. They're due tomorrow at 6!
+
+#### git and github demo
 
 ### Today's Goals
 
@@ -125,7 +128,7 @@ Did you do any experimentation? Did you reference any documentation?
 
 Key things to think about when looking for syntax errors:
 * parentheses, quotes, brackets, and braces are all like shoes, useless without their mate
-* consistency is key. If you're looking through code that has inconsistent, indentation, casing, quote types some mental overhead is being used where it doesn't need to be
+* consistency is key. If you're looking through code that has inconsistent indentation, casing, quote types some mental overhead is being used where it doesn't need to be
 
 ### Syntax and Style
 
@@ -361,4 +364,4 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
   * Ellen, Bob and I are still around if you need us
   * Capstone is due tomorrow at 6!
 
-> Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 0 prework are the ones that usually struggle for at least the first half of the mod."
+> Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 0 capstone are the ones that usually struggle for at least the first half of the mod."
