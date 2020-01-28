@@ -46,7 +46,7 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: David, Ellen and Robert
+* Instructor intros: David and Robert
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
@@ -54,11 +54,7 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 
 * Did you get through your session 1 pre-work? Post in the chat!
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
-* Make sure your video is on and your mic is off!
 * Session will be recorded and posted in Slack
-* Find a typo? - let us know!
-* If you haven't already, 2001ers - start your capstone! It's due in a week and a half!
-* Friends and family even this Wednesday at 5:30. Link in slack to rsvp
 * <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes.
 
 ### Breakout Rooms
@@ -114,23 +110,29 @@ At the end of Session 4, you'll take a technical assessment that will showcase a
 
 ### Being Turing Ready
 
-By the Monday after your last Mod 0 session you’ll be rated as one of the following:
+At the end of mod 0 you'll, be ready as one of the following:
 
 **Not Ready** based on any of these factors:
  * You’ve missed more than one session or did not meet engagement expectations
  * You’ve missed assignments or delivered poor quality work
- * You were unable to pass the Session 5 Technical Assessment
+ * You were unable to pass the Technical Assessment
+ * You were unable to pass the Mod 0 Capstone
    * *Next step:* You have one chance to re-enroll in and successfully complete Mod 0
  * If you don’t pass on your second try you will be asked to reapply to Turing in 45 days.
 
-**Pending**
+**Technical Ready**
+ * Your work and assessment have met the expectations of mod 0
+ * *Next step:* Submit your Program-Specific Mod 0 Capstone
 
-  * Your submitted work exhibited minor problems or was submitted improperly, but you have demonstrated sufficient professionalism and expertise deserving of extra patience
-	  * *Next step:* Complete your assigned makeup steps within three days and move to Ready
+If your Mod 0 Capstone meets expectations, you'll be **Turing Ready**
 
-**Technical-Ready**
- * Your work and assessment demonstrate that you’re ready to be successful in Mod 1
-   * *Next step:* Submit your Program-Specific Mod 0 Capstone
+<div class="try-it">
+  <h3>Break out rooms</h3>
+  <p>1. What is one reason you chose to come to Turing?</p>
+  <p>2. What is your biggest concern about coming to Turing?</p>
+  <p>3. What is a skill or focus area that you want to be held accountable on during mod 0?</p>
+  <p>ie. Asking questions during sessions, sticking to a calendar, using a planner</p>
+</div>
 
 <a name="studytips"></a>
 ### Study Habits
@@ -144,7 +146,7 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
   * Record new vocab in Turing Notebook
 
 #### Take great notes (during the lesson)
-* Turing Notebook: Start now with handwritten notes
+* Notebook: Start now with handwritten notes
 * Visual organization: Colors/markers/pens/stickies
 * Diagrams: Draw out everything your instructors draw on board
 * KEY ideas: Focus on main concepts, write in your own words
@@ -168,27 +170,16 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
 
 ### Study Habits (goals)
 * Study/Worktime goal:
-  * Write a priority in your notebook.
-  * Update priorities with each study/work session (get granular)
+  * Write priorities in your notebook for each study/work session (get granular)
   * Use checklists and kanban tracking
 * Pomodoros:
   * Use a TIMER and stick to it. ([befocused timer - free on App Store](https://apps.apple.com/us/app/be-focused-focus-timer/id973130201))
   * Plan for focus and recovery (you’ll get more done!)
 
 ### Organization
-* Turing can be a bit of a whirlwind
-  * Try to develop a schedule similar to your pre-turing life (ie. if you exercise before work, keep doing so before class)
-  * Procrastination does not work at Turing
-  * Get a planner to help prioritize work
-  * We'll drop scheduling tips in your slack channel
-
-<div class="try-it">
-  <h3>Break out rooms</h3>
-  <p>1. What is one reason you chose to come to Turing?</p>
-  <p>2. What is your biggest concern about coming to Turing?</p>
-  <p>3. What is a skill or focus area that you want to be held accountable on during mod 0?</p>
-  <p>ie. Asking questions during sessions, sticking to a calendar, pre-teaching/post-teaching</p>
-</div>
+* Try to develop a schedule similar to your pre-turing life (ie. if you exercise before work, keep doing so before class)
+* Procrastination does not work at Turing
+* Get a planner to help prioritize work
 
 ### Community
   * You're joining a community of really wonderful people - take advantage!
