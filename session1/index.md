@@ -79,7 +79,8 @@ Other things to note as we go through Mod 0:
 
 > “Our mission is to unlock human potential by training a diverse, inclusive student body to succeed in high-fulfillment technical careers.”
 
-The tech industry has historically been very homogenous. It's our goal to get people from different cultures, places, ages, and industries so that better conversations can be had, better ideas can be conceived, and ultimately better software made.
+* We all have different backgrounds and experiences
+* Listen and learn from one another's perspectives
 
 ### A different type of learning environment
 
@@ -106,7 +107,7 @@ We will also remind you when these events are via **[slack](https://turingschool
 
 Mod 0 is less about code or solving difficult problems and more about developing and learning tools, procedures, systems, and  learning behaviors/processes. For some of you, the technical content will be brand new. For others, it will be review.
 
-At the end of Session 4, you'll take a technical assessment that will showcase a subset skills you learn during Mod 0. The assessment will be performance-based rather than multiple choice. The assessment instructions will include a checklist of what we're looking for to know that you've practiced and mastered the material.
+At the end of Session 4, you'll take a technical assessment that will showcase a subset skills you learned during Mod 0. The assessment will be performance-based rather than multiple choice. The assessment instructions will include a checklist of what we're looking for to know that you've practiced and mastered the material.
 
 ### Being Turing Ready
 
@@ -311,7 +312,7 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
 
 ### Defining and Identifying Classes
 
-**Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 5. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
+**Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 4. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
 
 Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan (instances) are all different versions of a **pizza** (class).
 
@@ -632,7 +633,7 @@ After watching a brief demo from an instructor, try out the following:
 * Assign a variable called `is_hungry` a value of true
 * Assign a variable called `number` a value of 5
 * Reassign that `number` variable so that is has a value of 4
-* Assign a variable called `teachers` a value of an array with the names 'Rachel', 'Tim', and 'David'
+* Assign a variable called `teachers` a value of an array with the names 'Ellen', 'Robert', and 'David'
 
 ## The End!
 
@@ -649,4 +650,4 @@ In addition, consider the following questions:
 
 Find the homework in your Mod 0 Project Board. Contact David, Ellen, and Robert if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
-Lastly, another reminder, if you haven't started your capstone yet, you should. It's due in a week and a half.
+Lastly, another reminder, if you haven't started your capstone yet, it's good to get a head start on it. You can find the due date on the mod 0 calendar.
