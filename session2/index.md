@@ -49,16 +49,14 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ### Wins
 
-- Solid understanding of data types 
-- Solid understanding of Googling + filtering tips specific to programming
-- Study habits and shortcuts
+- To those of you asking questions in the public channel. Keep it up!
+- Keep pre-teaching, as you preteach, the follow ups may be from last section
 
 ### Follow-Ups
 - Sessions are designed to move fast
 - More breakout room time
 - We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
-- How far are you on your capstone? Post in the chat!
-- Friends and family event tomorrow at Turing (details in slack)
+- string split method demo
 
 ### Today's Goals
 
