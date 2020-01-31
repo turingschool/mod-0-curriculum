@@ -46,6 +46,8 @@ subheading: Terminal, File/folder Structure, Git Basics
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
 - Questions during the session? Click "raise hand" for whole-group question, or message the non-presenting host for an individual question.
 - You will get feedback on your hw directly through gh gist comments. We'll dm you if we see any big issues
+- HW feedback before next session
+- Ellen intro
 
 ### Wins
 
