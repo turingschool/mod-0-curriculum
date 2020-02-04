@@ -665,7 +665,7 @@ This may seem silly right now, given that we only have one file -- why not just 
 <a name="commit"></a>
 ### 4. Take a Snapshot in Time (<span class="vocab">git commit -m &lt;message&gt;</span>)
 
-Now that our file is in the staging area, let's tell git that we're ready to commit (take a snapshot of this moment to save). It's good practice to use "Initial Commit" for your very first commit in each repository. 
+Now that our file is in the staging area, let's tell git that we're ready to commit (take a snapshot of this moment to save). It's good practice to use "Initial commit" for your very first commit in each repository. 
 
 ```
 timo@Tims-MacBook-Pro:~/notes$ git commit -m 'Initial commit'
