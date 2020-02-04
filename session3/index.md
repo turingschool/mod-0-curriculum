@@ -49,9 +49,10 @@ subheading: More Git and Intro to GitHub
 
 ### Follow-Ups
 
-- Make sure that you're asking questions using the formula we provided in slack
-- Trouble with the markdown extension on the markdown portion of the session 1 hw
+- We left feedback on everyones session 1 homeworks, be sure to check your gists!
+- Make sure that you're checking slack at least once a day
 - Be sure to stay at your home directory or below
+- Make sure that you're asking questions using the formula we provided in slack
 
 ### Today's Goals
 
