@@ -50,6 +50,7 @@ subheading: More Git and Intro to GitHub
 ### Follow-Ups
 
 - We left feedback on everyones session 1 homeworks, be sure to check your gists!
+  - Suggestions there are for your benefit
 - Make sure that you're checking slack at least once a day
 - Be sure to stay at your home directory or below
 - Make sure that you're asking questions using the formula we provided in slack
@@ -411,4 +412,6 @@ git push origin master
 <a name="homework"></a>
 ## Homework and GitHub Projects
 
-Find the homework in your Mod 0 Project Board. Contact David or Tim if you're stuck.
+Business as usual. Reach out on slack if you're stuck!
+
+Also, your capstone is due on the 25th. Be sure to get started if you haven't already!
