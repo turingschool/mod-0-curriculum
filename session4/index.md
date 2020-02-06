@@ -129,12 +129,12 @@ Now, in groups!
 <img width="70%" src="https://i.ytimg.com/vi/DXEns9nWdqs/maxresdefault.jpg" alt="encrypt and decrypt top down design">
 <p><small>Credit: Liam McQuay (IGCSE Computer Science Youtube Tutorial)</small></p>
 
-Breaking down problems using top down design lends itself nicely to the object-oriented design principles of <span class="vocab">abstraction</span> (where an object performs a task without other objects being concerned about how it is done) and <span class="vocab">encapsulation</span> (where an object handles its own internal states and behind-the-scenes work).
+Breaking down problems using top down design lends itself nicely to the object-oriented design principle of <span class="vocab">abstraction</span> (where an object performs a task without other objects being concerned about how it is done).
 
 <a name="notatetopdowndesign"></a>
 ### Notating Top-Down Design in a .txt file
 
-On your Mod 0 Assessment, you will be asked to break down a scenario using Top Down Design. We'll demonstrate the pizza scenario in a text (.txt) file.
+In programming, it's useful to break down problems into smaller sub problems so that we can more easily make progress towards the larger goal. This process is sometimes referred to as pseudo coding. We'll demonstrate the pizza scenario in a text (.txt) file.
 
 ```
 1 Make dough
@@ -190,7 +190,7 @@ OOP is very similar to how the world actually works. <span class="vocab">Objects
 
 A class defines attributes (or properties) and methods (or actions). An object is a very specific instance of a class. For example, if the class were Car, two objects might be 2007 Blue Nissan Versa and 2014 Silver Nissan Juke.
 
-<span class="vocab">Attributes</span> contain **data** about a specific object. The information format should be one of the basic data types from Session 2 (string, integer, float, boolean, array, hash).
+<span class="vocab">Attributes</span> contain **data** about a specific object. The information format should be one of the basic data types from Session 1 (string, integer, float, boolean, array, hash).
 
 The names of attributes are generally nouns.
 
@@ -340,17 +340,7 @@ This is our final Mod 0 technical session. Your assignment between now and Sessi
     <li>Add the remote and push your local repository to Github.</li>
   </ol>
 
-  <h4>Part II: Top Down Design (25 min)</h4>
-
-  <ol>
-    <li>Open up your <code>...</code> file in your text editor.</li>
-    <li>Break down the process of <code>...</code> <small>(We will leave the situation intentionally vague so that you can choose what angle you feel most comfortable with. Although we are not looking for a specific "answer" for how you break this down, you should be as detailed as possible. It is better to break things down too much than to oversimplify a process. Use the same process and notation that we used during Session 5 with a dash mark and one indent for every new layer.)</small></li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes.</li>
-    <li>Push your changes to Github.</li>
-  </ol>
-
-  <h4>Part III: Classes, Objects, Attributes, and Methods (35 min)</h4>
+  <h4>Part II: Classes, Objects, Attributes, and Methods (35 min)</h4>
 
   <ol>
     <li>Inside of <code>...</code>, create a new directory called <code>...</code></li>
@@ -372,10 +362,18 @@ This is our final Mod 0 technical session. Your assignment between now and Sessi
     <li>Push your changes to GitHub.</li>
   </ol>
 
+  <h4>Part III: Programs Specific Challenge (25 min)</h4>
+
+  <ol>
+    <li>Open up your <code>...</code> file in your text editor.</li>
+    <li>You'll be given directions for some exercises that are program specific. Looking for something to study? Check out session 1 on data types and variable assignment. The capstone is also a good resource.</li>
+    <li>Save your file.</li>
+    <li>Add and commit your changes.</li>
+    <li>Push your changes to Github.</li>
+  </ol>
+
   <h4 class="important">Done?</h4>
   <p>There is a link to a google form where you'll submit your mod 0 assessment repo at the end of your checklist</p>
 </div>
 
-### Session 4 hw
-
-* Please fill out the survey, but ignore everything else in the session 4 hw column!
+Be sure to fill out the survey from your project board!
