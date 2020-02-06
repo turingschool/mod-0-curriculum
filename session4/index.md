@@ -362,7 +362,7 @@ This is our final Mod 0 technical session. Your assignment between now and Sessi
     <li>Push your changes to GitHub.</li>
   </ol>
 
-  <h4>Part III: Programs Specific Challenge (25 min)</h4>
+  <h4>Part III: Program Specific Challenge (25 min)</h4>
 
   <ol>
     <li>Open up your <code>...</code> file in your text editor.</li>
