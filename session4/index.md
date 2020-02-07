@@ -194,12 +194,11 @@ A class defines attributes (or properties) and methods (or actions). An object i
 
 The names of attributes are generally nouns.
 
-Two good questions to ask when you're determining what should be classified as an attribute are:
+A good question to ask when you're determining what should be classified as an attribute is:
 
-* "Will this data undoubtedly change?" (you want the answer to be no)
 * "Is there any other data that underlies this piece of data?" (you want the answer to be no)
 
-CAUTION: Sometimes, methods will *feel* like they should be attributes. For example: `age`, `years_employed`, `percent_full`.
+CAUTION: Sometimes, methods will *feel* like they should be attributes. For example: `percent_full`.
 
 <div class="try-it">
   <h3>Try It Together: Bottle Class Attributes</h3>
@@ -234,8 +233,7 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
   * the result of that work is called the **return value**
 * Attributes are generally nouns (99.9% of time)
 * Methods are generally verbs (90% of time -- can also be questions OR nouns that are the result of calculations)
-  * ie. `age`, `years_employed`, `percent_full` since they all require calculation
-* One quick side note: accessor methods are outside the scope of today's lesson.
+  * ie. `percent_full` since it requires calculation
 
 <a href="" name="notateclasses"></a>
 <div class="try-it">
