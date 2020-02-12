@@ -38,13 +38,12 @@ subheading: Attention to Detail and Iteration
 
 ### Wins
 
-- Great work asking questions in the public channel!
-- Answering questions in the public channel is the best way to solidify your learning and practice communicating technically
+- You finished the assessment!
 
 ### Follow-Ups
 
+- We'll have scores back to y'all by the end of the weekend.
 - Be sure to use the formula pinned in the channel when asking technical questions
-- Finish those capstones strong! You should be finished or almost finished by now. They're due tomorrow at 6!
 
 #### git and github demo
 
@@ -362,6 +361,8 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
   * Keep up the hard work
   * Keep asking questions in your cohort channels
   * Ellen, Bob and I are still around if you need us
-  * Capstone is due tomorrow at 6!
+  * Capstone is due the 25th at 6pm (see your mod 0 calendar)
+
+* Learning to code is much more like exercise than epiphanies
 
 > Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 0 capstone are the ones that usually struggle for at least the first half of the mod."
