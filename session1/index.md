@@ -111,7 +111,7 @@ At the end of Session 4, you'll take a technical assessment that will showcase a
 
 ### Being Turing Ready
 
-At the end of mod 0 you'll, be ready as one of the following:
+At the end of mod 0, you'll be considered one of the following:
 
 **Not Ready** based on any of these factors:
  * You’ve missed more than one session or did not meet engagement expectations
@@ -408,18 +408,6 @@ Once you formulate a good Google search and receive your results, there are a fe
 
 In most programming languages, you'll find the same basic <span class="vocab">data types</span>. A data type represents the kind of data that you can use in the programming language. In this section, we'll discuss five different basic data types that are applicable to both the front end and back end.
 
-<div class="try-it">
-  <h3>Try It: Basic Data Type Definitions</h3>
-  <p>In your breakout groups, discuss and/or use Google to figure out what each of the following data types are used for in programming. Use your notebook to jot down your answer (and examples, if applicable).</p>
-
-  <p>1. <strong>What are <span class="vocab">strings</span> used for in programming?</strong></p>
-  <p>2. <strong>What are <span class="vocab">integers</span> and <span class="vocab">floats</span> used for in programming</strong>?</p>
-  <p>3. <strong>What is a <span class="vocab">boolean</span> value used for in programming</strong>?</p>
-  <p>4. <strong>What is an <span class="vocab">array</span> used for in programming?</strong></p>
-  <p>EXTENSION: If you're in the front end program, we're going to call the next data type an <span class="vocab">object</span>. If you're in the back end program, we're going to call it a <span class="vocab">hash</span>. <strong>What is this data type used for in programming?</strong></p>
-</div>
-
-
 ### Data Type Use Cases and Syntax
 
 Luckily for us, the <span class="vocab">syntax</span> (the way we write) for these basic data types is almost identical in Ruby and JavaScript.
@@ -634,6 +622,10 @@ After watching a brief demo from an instructor, try out the following:
 * Assign a variable called `number` a value of 5
 * Reassign that `number` variable so that is has a value of 4
 * Assign a variable called `teachers` a value of an array with the names 'Ellen', 'Robert', and 'David'
+* Try the following (these may take some googling):
+  * Create another string variable and add combine it with your pizza variable
+  * Create another integer variable and multiply it by your number variable
+  * Remove the last item from your teachers array
 
 ## The End!
 
@@ -651,3 +643,5 @@ In addition, consider the following questions:
 Find the homework in your Mod 0 Project Board. Contact David, Ellen, and Robert if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
 Lastly, another reminder, if you haven't started your capstone yet, it's good to get a head start on it. You can find the due date on the mod 0 calendar.
+
+Capstone study session tomorrow. Details in Slack. Definitely go if you can make it!
