@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Session 2 
+title: Session 2
 subheading: Terminal, File/folder Structure, Git Basics
 ---
 
@@ -42,23 +42,19 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ## Housekeeping, Feedback, and Goals
 
-- In the chat, post a keyboard shortcut that you practiced and now feel comfortable using. 
+- In the chat, post a keyboard shortcut that you practiced and now feel comfortable using.
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
 - Questions during the session? Click "raise hand" for whole-group question, or message the non-presenting host for an individual question.
 - You will get feedback on your hw directly through gh gist comments. We'll dm you if we see any big issues
-- HW feedback before next session
-- Ellen intro
 
 ### Wins
 
 - To those of you asking questions in the public channel. Keep it up!
-- Keep pre-teaching, as you preteach, the follow ups may be from last section
 
 ### Follow-Ups
 - Sessions are designed to move fast
 - More breakout room time
 - We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
-- string split method demo
 
 ### Today's Goals
 
@@ -96,9 +92,9 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 A <span class="vocab">method</span> of a class defines **behavior/actions**. Methods are verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
 
-For example: 
+For example:
 
-- Each **child** (class) can greet, run, and learn (methods). 
+- Each **child** (class) can greet, run, and learn (methods).
 - Each **school** (class) can accept_student, lower_tuition, count_enrollment, and calculate_acceptance_rate (methods).
 - Each **book** (class) can turn_page, update_price, and highlight_section (methods).
 - Each **bank account** (class) can deposit, withdraw, open, close, check_balance, and change_ownership (methods).
@@ -112,9 +108,9 @@ For example:
 <a name="filesdirectories"></a>
 ## Files, Directories, and Paths
 
-On your computer, you probably have many <span class="vocab">files</span> and <span class="vocab">directories</span>. Files are things like text documents, images, videos, PDFs, etc. Directories (or folders) are the structures we use to organize these files. 
+On your computer, you probably have many <span class="vocab">files</span> and <span class="vocab">directories</span>. Files are things like text documents, images, videos, PDFs, etc. Directories (or folders) are the structures we use to organize these files.
 
-In the diagram below, we would say that there's a directory called `essays` that contains three files: `life_lessons.docx`, `book_report.docx`, and `literary_analysis.docx`: 
+In the diagram below, we would say that there's a directory called `essays` that contains three files: `life_lessons.docx`, `book_report.docx`, and `literary_analysis.docx`:
 
 <hr>
 <h4>Example #1</h4>
@@ -181,7 +177,7 @@ In the diagram below, we would say that there's a directory called `essays` that
 <a name="terminalcommandline"></a>
 ## Terminal and Command Line
 
-The <span class="vocab">terminal</span> is what we call a command line interface. Basically, that's a fancy way of saying that it's the program we use to give commands to the computer. The <span class="vocab">command line</span> is a text-based way to make files, make directories, and run applications, among other things. 
+The <span class="vocab">terminal</span> is what we call a command line interface. Basically, that's a fancy way of saying that it's the program we use to give commands to the computer. The <span class="vocab">command line</span> is a text-based way to make files, make directories, and run applications, among other things.
 
 Your terminal will look something like this:
 
@@ -201,7 +197,7 @@ Some follow up reading that is **Not Required**: [Apple Switches from .bash to .
 
 ### Commands
 
-In this section on command prompts, we'll learn (or review) the commands below. We'll look at all 10 together (take notes!), then you'll go into breakout rooms to practice them. 
+In this section on command prompts, we'll learn (or review) the commands below. We'll look at all 10 together (take notes!), then you'll go into breakout rooms to practice them.
 
 Action Commands
 <ul>
@@ -227,7 +223,7 @@ Destructive Commands
 <a name="pwd"></a>
 ### 1. Where am I? (pwd)
 
-When you open the terminal, you will be in your home directory. Being in various directories will allow you to do different things, just like you can do different things at home vs. on vacation vs. at work. 
+When you open the terminal, you will be in your home directory. Being in various directories will allow you to do different things, just like you can do different things at home vs. on vacation vs. at work.
 
 To figure out where you are in your computer's directories, type `pwd` after the command prompt. `pwd` stands for "print working directory"
 
@@ -236,7 +232,7 @@ timo@Tims-MacBook-Pro:~$ pwd
 /Users/timo
 ```
 
-You'll see the path from the root of your computer to your current directory. 
+You'll see the path from the root of your computer to your current directory.
 
 <a name="mkdir"></a>
 ### 2. Make a Directory (mkdir)
@@ -255,7 +251,7 @@ timo@Tims-MacBook-Pro:~$ mkdir work_spreadsheets
 timo@Tims-MacBook-Pro:~$ mkdir latest_projects
 ```
 
-You won't get any confirmation that your directory was created -- you'll just see a new command prompt ready for your next comamnd. 
+You won't get any confirmation that your directory was created -- you'll just see a new command prompt ready for your next comamnd.
 
 <a name="ls"></a>
 ### 3. Listing Contents of a Directory (ls)
@@ -294,10 +290,10 @@ You can move into a directory using the `cd` command, which stands for "change d
     <img src="images/files_directories_2.png" alt="files and directories 2">
   </div>
   <div>
-    For example, if I was in the <code>essays</code> directory and wanted to move into the <code>book_projects</code> directory to see my documents, I would type this: 
+    For example, if I was in the <code>essays</code> directory and wanted to move into the <code>book_projects</code> directory to see my documents, I would type this:
 <pre>
 timo@Tims-MacBook-Pro:~/essays$ cd book_projects
-timo@Tims-MacBook-Pro:~/essays/book_projects$ 
+timo@Tims-MacBook-Pro:~/essays/book_projects$
 </pre>
 
 We see that the second command prompt now lists the path of new directory that we're in.
@@ -321,7 +317,7 @@ literary_analysis.docx    book_report.docx
 <a name="cddot"></a>
 ### 5. Get Out of a Directory (cd ..)
 
-To get out of a directory you're in, we use `cd ..` (with a space between the d and the first dot). This means "go back up one level." 
+To get out of a directory you're in, we use `cd ..` (with a space between the d and the first dot). This means "go back up one level."
 
 If I'm in the `book_projects` directory and I want to get back to `essays`, this is what I'd type:
 
@@ -330,7 +326,7 @@ timo@Tims-MacBook-Pro:~/essays/book_projects$ cd ..
 timo@Tims-MacBook-Pro:~/essays$
 ```
 
-Notice that my path no longer includes `book_projects` because I'm outside of that folder now. 
+Notice that my path no longer includes `book_projects` because I'm outside of that folder now.
 
 <div class="try-it">
   <h3>Try It: cd and cd ..</h3>
@@ -363,7 +359,7 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
     <code>cd ../work/projects_to_delegate</code>
     <li>For the fourth and final example above:</li>
     <code>cd ../../home</code>   
-    <li>Each level in the path is spearated by a <code>/</code></li> 
+    <li>Each level in the path is spearated by a <code>/</code></li>
   </ul>
 </div>
 
@@ -406,7 +402,7 @@ We can remove files from the command line using the `rm` command, like this:
 timo@Tims-MacBook-Pro:~/latest_projects $ rm chapter_1.txt
 ```
 
-Again, we don't get a confirmation, but if I were to `ls` right now, nothing would appear since the directory is now empty. 
+Again, we don't get a confirmation, but if I were to `ls` right now, nothing would appear since the directory is now empty.
 
 ```
 timo@Tims-MacBook-Pro:~/latest_projects $ ls
@@ -416,7 +412,7 @@ chapter_2.txt
 <div class="things-to-note">
   <h4>Things to Note</h4>
   <ul>
-    <li>A file removed using the <code>rm</code> command <strong>does not</strong> go into your trash where you could restore it later.</li> 
+    <li>A file removed using the <code>rm</code> command <strong>does not</strong> go into your trash where you could restore it later.</li>
     <li>Although it may be possible to recover files deleted with <code>rm</code>, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the <code>rm</code> command is gone for good.</li>
   </ul>
 </div>
@@ -424,7 +420,7 @@ chapter_2.txt
 <a name="rmrecursive"></a>
 ### 9. Remove a Directory and Its Contents (rm -rf)
 
-We can use `rm` to remove a file, but we use a different command when we're removing a directory. Since a directory could potentially contain other files and directories inside of it, we use `rm -rf` which stands for remove recursively, or go inside this directory and remove everything inside of it as well. 
+We can use `rm` to remove a file, but we use a different command when we're removing a directory. Since a directory could potentially contain other files and directories inside of it, we use `rm -rf` which stands for remove recursively, or go inside this directory and remove everything inside of it as well.
 
 In order to remove a directory, you must be OUTSIDE of that directory. For example, if I'm inside a `books` directory and I want to remove it, I first need to get out of it using `cd ..`, then use the `rm -rf books`:
 
@@ -484,7 +480,7 @@ Now when I type `ls`, I will no longer see `books` listed.
 
 #### Challenge #2
 
-For this next challenge, the person whose name is next closest to the letter T will share their screen and become the driver. 
+For this next challenge, the person whose name is next closest to the letter T will share their screen and become the driver.
 
 1. Type `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
 1. Make a new directory called `my_first_projects`
@@ -518,14 +514,14 @@ The person who has not yet been the driver will share their screen.
 
 ## BREAK
 
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body. 
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 <hr>
 <a name="git"></a>
 ## Git
 
 <span class="vocab">Git</span> is a Version Control System (VCS). It allows you to save work on your project, and reference previous states of a project if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and ANY previous version. Git’s philosophy: never lose anything.
 
-Git works similarly to the way that Google Docs tracks changes across time. Let's take a brief detour to [this Google doc](https://docs.google.com/document/d/1GY5lg6kVY7JzD9qr0kcn_Ct7St-USf72JxTFQ6hu7KQ/edit?usp=sharing). 
+Git works similarly to the way that Google Docs tracks changes across time. Let's take a brief detour to [this Google doc](https://docs.google.com/document/d/1GY5lg6kVY7JzD9qr0kcn_Ct7St-USf72JxTFQ6hu7KQ/edit?usp=sharing).
 
 #### Why Use Git?
 
@@ -538,7 +534,7 @@ There are numerous reasons to use git. Among them:
 - The ability to use branches to separate features of a program
 - The ability to track who made specific changes to specific files
 
-In this section on git, we'll learn (or review) these git comamnds: 
+In this section on git, we'll learn (or review) these git comamnds:
 
 Action Commands
 <ul>
@@ -559,7 +555,7 @@ Safe/Informative Commands
   <p>To get comfortable with git (just like with anything else), you will need to put in hours of practice. It's an excellent idea to go back over this lesson (either in print or recording) multiple times.</p>
 </div>
 
-Watch and take notes during the demonstration of the git workflow. After the demonstration, we'll move into breakout rooms where you'll get to try with your group. 
+Watch and take notes during the demonstration of the git workflow. After the demonstration, we'll move into breakout rooms where you'll get to try with your group.
 
 ### Getting Set Up
 
@@ -568,7 +564,7 @@ We'll start with a directory called `notes` with a file inside called `things_to
 <a name="init"></a>
 ### 1. Start Tracking a Directory With Git (<span class="vocab">git init</span>)
 
-By default, your changes will not be tracked. In order to tell git that we want to start tracking something, we need to initialize git in a directory. 
+By default, your changes will not be tracked. In order to tell git that we want to start tracking something, we need to initialize git in a directory.
 
 ```
 timo@Tims-MacBook-Pro:~/notes$ git init
@@ -577,7 +573,7 @@ Initialized empty Git repository in /Users/timo/notes/.git/
 
 This means git now **HAS THE ABILITY** to track changes in the `notes` directory. This does **not** mean that git is tracking anything yet. Git is now prepared to track activity in the `notes` directory
 
-*NOTE*: If you don't see this message when you try `git init`, it means you have not set up git on your computer. 
+*NOTE*: If you don't see this message when you try `git init`, it means you have not set up git on your computer.
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
@@ -630,7 +626,7 @@ nothing added to commit but untracked files present (use "git add" to track)
   You can type <code>git status</code> as many times as you want, whenever, wherever. It it a safe command that will not change anything about your tracking.
 </div>
 
-Let's talk briefly about this diagram from the git documentation. This diagram shows what you can do **after** you have initialized git: 
+Let's talk briefly about this diagram from the git documentation. This diagram shows what you can do **after** you have initialized git:
 
 ![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png)
 
@@ -639,9 +635,9 @@ Let's talk briefly about this diagram from the git documentation. This diagram s
 <a name="add"></a>
 ### 3. Add a File to Track (<span class="vocab">git add &lt;filename&gt;</span>)
 
-Let's add one of the files that we want to track to the <span class="vocab">staging area</span>. Google's dictionary defines "staging area" as "a stopping place or assembly point en route to a destination". If you've ever run a race, you know that the staging area is the place where all of the runners gather before the race begins. It's a place to make sure everything is good to go before continuing on. 
+Let's add one of the files that we want to track to the <span class="vocab">staging area</span>. Google's dictionary defines "staging area" as "a stopping place or assembly point en route to a destination". If you've ever run a race, you know that the staging area is the place where all of the runners gather before the race begins. It's a place to make sure everything is good to go before continuing on.
 
-We will add our file to the staging area. 
+We will add our file to the staging area.
 
 ```
 timo@Tims-MacBook-Pro:~/notes$ git add things_to_remember.txt
@@ -665,7 +661,7 @@ This may seem silly right now, given that we only have one file -- why not just 
 <a name="commit"></a>
 ### 4. Take a Snapshot in Time (<span class="vocab">git commit -m &lt;message&gt;</span>)
 
-Now that our file is in the staging area, let's tell git that we're ready to commit (take a snapshot of this moment to save). It's good practice to use "Initial commit" for your very first commit in each repository. 
+Now that our file is in the staging area, let's tell git that we're ready to commit (take a snapshot of this moment to save). It's good practice to use "Initial commit" for your very first commit in each repository.
 
 ```
 timo@Tims-MacBook-Pro:~/notes$ git commit -m 'Initial commit'
@@ -684,7 +680,7 @@ nothing to commit, working tree clean
 
 Let's figure out on the diagram what we just did:
 
-![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png) 
+![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png)
 
 <a name="diff"></a>
 ### 5. Making File Changes, Adding New Commits, and Viewing Those Changes By Using (<span class="vocab">git diff &lt;filename&gt;</span>)
@@ -705,7 +701,7 @@ index e69de29..9ffd068 100644
 +Work hard
 ```
 
-Then add your changes and commit them using an imperative verb that starts with a capital letter and a short commit message explaining what you did. 
+Then add your changes and commit them using an imperative verb that starts with a capital letter and a short commit message explaining what you did.
 
 The basic git workflow is this:
 
@@ -762,13 +758,13 @@ The basic git workflow is this:
 
 Understanding git and the workflow can be tricky at first; however, this pattern is one that you will come to memorize over time. As you are memorizing the steps, be sure that you know **what** each step does.
 
-Today (and during Mod 0), we'll just be moving forward in time using git. We won't learn how to go back in time, but it's important to understand and master making small commits before adding in new git functionality. 
+Today (and during Mod 0), we'll just be moving forward in time using git. We won't learn how to go back in time, but it's important to understand and master making small commits before adding in new git functionality.
 
-We do not expect you to have these steps and reasons memorized right now. You can always reference back to this tutorial (or other tutorials that you find online). The more you practice, the easier it will become. 
+We do not expect you to have these steps and reasons memorized right now. You can always reference back to this tutorial (or other tutorials that you find online). The more you practice, the easier it will become.
 
 ## Homework
 
-Find the homework in your Mod 0 Project Board. Post in the Mod 0 Slack channel if you're stuck (and don't be afraid to help each other out). 
+Find the homework in your Mod 0 Project Board. Post in the Mod 0 Slack channel if you're stuck (and don't be afraid to help each other out).
 
 ### Asking questions
 
