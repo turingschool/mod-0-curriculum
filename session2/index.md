@@ -328,6 +328,8 @@ timo@Tims-MacBook-Pro:~/essays$
 
 Notice that my path no longer includes `book_projects` because I'm outside of that folder now.
 
+**Note** You never want to cd into a directory above your home directory. This area requires admin permissions, and there is no practical use case for being there.
+
 <div class="try-it">
   <h3>Try It: cd and cd ..</h3>
   <p>Let's try to figure out the following scenarios together.</p>
