@@ -10,7 +10,6 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP, Assessment E
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
       <li>define top-down design and object oriented programming</li>
-      <li>break down real-world tasks using top-down design strategies</li>
       <li>model real-world objects and apps by breaking down their attributes and behaviors</li>
       <li>understand assessment expecations</li>
     </ul>
@@ -19,7 +18,7 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP, Assessment E
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong>Follow-Ups and Goals</li>
-      <li><strong>45 min: </strong><a href="#topdowndesign">Top Down Design</a></li>
+      <li><strong>35 min: </strong><a href="#scavengerhunt">Scavenger Hunt</a></li>
       <li><strong>5 min: </strong>Break</li>
       <li><strong>45 min: </strong><a href="#oop">Object Oriented Programming</a></li>
       <li><strong>15 min: </strong><a href="#assessmentprev">Assessment Expectations</a></li>
@@ -77,103 +76,46 @@ Oops, I need to fix my spelling mistake
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
 
-<a name="topdowndesign"></a>
-## Top Down Design
+<a name="scavengerhunt"></a>
+## Scavenger Hunt
 
-> "Programing is hard because it requires us to solve ill-defined problems with unknown solutions. Our job is to invent the solutions. Coding is inherently creative." - [Danny Smith on Breaking Down Problems](https://medium.com/@dannysmith/breaking-down-problems-its-hard-when-you-re-learning-to-code-f10269f4ccd5)
+In programming, we often need to follow tutorials in order to learn new things. If you miss even one step, you'll get a different end result.
+Your challenge here is to follow each step very diligently. There are going to be things that you've already done, and things that you will need help from your old pal google to figure out on your own (I mean, tutorials can't tell you how to do everything right). The end goal here is to create a pull request. Something you just did as homework for session 3. Can't be that bad right?? Good luck!
 
-<span class="vocab">Top Down Design</span> (or step-wise design) is an approach to breaking down a problem or system. In this approach, the designer lays out the problem or system's high-level overview, then breaking down the overview into sub-systems (or sub-steps), then repeating that process until the system has been broken down into the smallest pieces.
-
-#### This is not top-down design:
-<img style="width: 40%" src="https://afinde-production.s3.amazonaws.com/uploads/8706a488-d0f4-41ba-bf76-7151762fd5d1.jpg" alt="draw an owl meme">
-
-<p><em><small>Credit: https://eurokeks.com/</small></em></p>
-
-#### This is the start of a top-down approach:
-<img style="width: 80%" src="images/draw_owl.png" alt="draw an owl top down design">
-
-
-**Why is this important?** A problem that is not broken down into its smallest components remains too complex and abstract to code. In addition, small components allow for reusable and replaceable units of code.
-
-As humans, we memorize and practice the steps that it takes in order to do even the most basic tasks. If you tell a human to tie their shoe, you (generally) don't need to specify any further instructions. However, if you were to build a shoe-tying machine, you would need to break down the process into the most basic steps.
+We won't be available for help during this scavenger hunt, however write down the questions and issues you run into. We'll debrief as a group and answer any questions afterwards.
 
 <div class="try-it">
-  <h3>Try It Together: Making Pizza</h3>
-  <p>Follow along with your paper and pencil as we walk through breaking down the process of making pizza.</p>
-  <p>Lets do this interactively where the class navigates and I drive</p>
+  <h3>Try It: Don't fork it up!</h3>
+  <p>At this point, we'll split into breakout rooms. The person whose last name is last alphabetically will start by sharing their screen, <strong>unless</strong> this person already has significant git experience. Whoever is sharing their screen will be called the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
+
+  <p>If you are already comfortable with git, your challenge during the breakout is somewhat more difficult: your goal is to focus on your explanations, communication, and ability to gauge whether or not another person understands you.</p>
+  <ol>
+    <li>Clone down this repo: https://github.com/damwhit/best-foods (do not fork it first)</li>
+    <li>Create a new file within the repo called dumplings.txt</li>
+    <li>Add pot stickers in snake case to the first line of the file</li>
+    <li>Add and commit your changes (what should your message be?)</li>
+    <li>List the origin for your repo from the command line</li>
+    <li>Do you have access rights to push? why or why not?</li>
+    <li>Create a new repo in GitHub called very-best-foods</li>
+    <li>Change the origin of your local clone of best-foods to match the new very-best-foods repo you just created in GitHub</li>
+    <li>How can you confirm that you changed the origin successfully?</li>
+    <li>Push your changes from your local repo to your very-best-foods repo</li>
+    <li>Is your local repo in sync with the very-best-foods repo in GitHub? How can you tell?</li>
+    <li>In GitHub, change the first line of the readme to say very best foods in PascalCase (save and commit in GitHub)</li>
+    <li>In your local clone, add a file called noodles.txt</li>
+    <li>In that file, add fettucine alfredo in camel case to the first line</li>
+    <li>Save, commit, and push your changes to your very-best-foods remote repo</li>
+    <li>Can't push? Why not? ... follow the error message</li>
+    <li>Once you've pushed, create another file locally called best.txt</li>
+    <li>Add ramen to the 5th line of the file</li>
+    <li>Save, commit, and push your changes</li>
+    <li>Create a pull request to this directory: https://github.com/damwhit/very-best-foods</li>
+    <li>If you followed all of the directions above correctly, you should see no difference between the two repos in the pull request</li>
+  </ol>
+  <p><strong>Done?</strong> Switch drivers and try the process again!</p>
 </div>
 
-Now, in groups!
-
-<div class="try-it">
-  <h3>Try It (Break Out Rooms): Top Down Design (~10 minutes)</h3>
-  <p>The person whose first name starts closest to the letter F will pick a scenario below:</p>
-  <ul>
-    <li>Reheating a meal</li>
-    <li>Mailing a package</li>
-    <li>Walking a dog</li>
-    <li>Putting children to bed</li>
-    <li>Applying for a job</li>
-    <li>Writing an essay</li>
-    <li>Starting a campfire</li>
-    <li>[Choose your own adventure]</li>
-  </ul>
-  <p>As a group, use a Top-Down Design approach to break down the scenario. Everyone should have their own diagram.</p>
-  <p>Don't worry about conditional logic. Only focus on breaking down the problems as much as you can</p>
-  <p>Done? Review, revise, and choose another scenario.</p>
-  <p>Be ready to share and explain.</p>
-</div>
-
-### Top Down Design in Programming
-
-<img width="70%" src="https://i.ytimg.com/vi/DXEns9nWdqs/maxresdefault.jpg" alt="encrypt and decrypt top down design">
-<p><small>Credit: Liam McQuay (IGCSE Computer Science Youtube Tutorial)</small></p>
-
-Breaking down problems using top down design lends itself nicely to the object-oriented design principle of <span class="vocab">abstraction</span> (where an object performs a task without other objects being concerned about how it is done).
-
-<a name="notatetopdowndesign"></a>
-### Notating Top-Down Design in a .txt file
-
-In programming, it's useful to break down problems into smaller sub problems so that we can more easily make progress towards the larger goal. This process is sometimes referred to as pseudo coding. We'll demonstrate the pizza scenario in a text (.txt) file.
-
-```
-1 Make dough
-  1.1 Add ingredients to bowl
-    1.1.1 Add water
-      1.1.1.1 get measuring cup
-      1.1.1.2 go to sink
-      1.1.1.3 fill up the measuring cup with 3 cups of water
-      1.1.1.3 pour contents from measuring cup into bowl
-    1.1.2 Add honey
-    1.1.3 Add yeast
-    1.1.4 Add flour
-  1.2 Mix Ingredients until combined
-  1.3 Knead dough
-  1.4 Let rest
-    1.4.1 set the timer for 30 minutes
-    1.4.2 wait
-2 Make sauce
-3 Make crust
-4 Add sauce and toppings
-```
-
-
-<div class="try-it">
-  <h3>Try It (Break Out Rooms): Top Down Design (~15 minutes)</h3>
-  <p>If at any point you run into problems with git - keep moving forward on the top down design part of this exercise. Come back to this and work through any issues with git/github after class. You will also get practice in your homework</p>
-  <p>These steps do not need to be done in perfect order. Practice the workflow and the order of steps that you're comfortable with.</p>
-  <p>Create a new directory called top_down_design_practice</p>
-  <p>Open a new file (.txt format) in this directory and use decimal notation to write out your top down design appoach with the scenario you chose from your group.</p>
-  <p>Make sure to follow the same format that was demonstrated and shown above</p>
-  <p>After you've made some entries, initialize your repository with git</p>
-  <p>Add your file and make an initial commit</p>
-  <p>Run <code>git push</code> at this point and see what the output is</p>
-  <p>Create a repository on github that you can connect to your local repository</p>
-  <p>Add more steps</p>
-  <p>Add and commit your progress</p>
-  <p>Push to github</p>
-  <p>Check one anothers files to make sure that the format is correctly notated and indented (although .txt code is unbreakable, it's important to have an eye for detail as most languages will break if syntax is incorrect. And indentation helps make our code more readable)</p>
-</div>
+### Q and A time
 
 <hr>
 ## BREAK
