@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 4
-subheading: Top-down design, Breaking down a problem, Modeling OOP, Assessment Expectations
+subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 ---
 
 <div class="goals-agenda">
@@ -10,6 +10,7 @@ subheading: Top-down design, Breaking down a problem, Modeling OOP, Assessment E
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
       <li>define top-down design and object oriented programming</li>
+      <li>Understand how to utilize error messages from git</li>
       <li>model real-world objects and apps by breaking down their attributes and behaviors</li>
       <li>understand assessment expecations</li>
     </ul>
