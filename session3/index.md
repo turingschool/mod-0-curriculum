@@ -54,6 +54,7 @@ subheading: More Git and Intro to GitHub
 - Make sure that you're checking slack at least once a day
 - Be sure to stay at your home directory or below
 - Make sure that you're asking questions using the formula we provided in slack
+- Capstone is due next Tuesday. Ideally, you're at least on day 3. If not, you're behind.
 
 ### Today's Goals
 
@@ -414,4 +415,4 @@ git push origin master
 
 Business as usual. Reach out on slack if you're stuck!
 
-Also, your capstone is due on the 25th. Be sure to get started if you haven't already!
+Capstone is due next Tuesday. Ideally, you're at least on day 3. If not, you're behind.
