@@ -9,7 +9,7 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
     <h3>Goals</h3>
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
-      <li>define top-down design and object oriented programming</li>
+      <li>Define Object Oriented Programming</li>
       <li>Understand how to utilize error messages from git</li>
       <li>model real-world objects and apps by breaking down their attributes and behaviors</li>
       <li>understand assessment expecations</li>
@@ -80,10 +80,20 @@ Oops, I need to fix my spelling mistake
 <a name="scavengerhunt"></a>
 ## Scavenger Hunt
 
-In programming, we often need to follow tutorials in order to learn new things. If you miss even one step, you'll get a different end result.
-Your challenge here is to follow each step very diligently. There are going to be things that you've already done, and things that you will need help from your old pal google to figure out on your own (I mean, tutorials can't tell you how to do everything right). The end goal here is to create a pull request. Something you just did as homework for session 3. Can't be that bad right?? Good luck!
+This portion of class was added because mod 1 instructors have noticed some behaviors in struggling students:
+* Missing or not understanding directions
+  * What strategies can you use to avoid this?
+* Not reading error messages/using them to progress on a problem
+  * What strategies can you use to avoid this?
+
+In programming, we often need to follow tutorials in order to learn new things. *If you miss even one step,* **you'll get a different end result**.
+Your challenge here is to **follow each step very diligently**. There are going to be things that you've already done, and things that you will need help from your old pal google to figure out on your own (I mean, tutorials can't tell you how to do everything right?).
+
+The end goal here is to create a pull request. Something you just did as homework for session 3. Can't be that bad right?? Good luck!
 
 We won't be available for help during this scavenger hunt, however write down the questions and issues you run into. We'll debrief as a group and answer any questions afterwards.
+
+**Note:** The one exception to that rule is if you're asking for clarification on a given step. If you're unsure about what the directions are asking, please reach out in the slack thread.
 
 <div class="try-it">
   <h3>Try It: Don't fork it up!</h3>
@@ -131,7 +141,7 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 
 OOP is very similar to how the world actually works. <span class="vocab">Objects</span> are created from templates that we call <span class="vocab">classes</span>.
 
-A class defines attributes (or properties) and methods (or actions). An object is a very specific instance of a class. For example, if the class were Car, two objects might be 2007 Blue Nissan Versa and 2014 Silver Nissan Juke.
+A class defines attributes (or properties) and methods (or actions). An object is a very specific instance of a class. For example, if the class were Car, two objects might be David's 2007 Blue Nissan Versa and Grandma's 2014 Silver Nissan Juke. *There is only one of each of them*
 
 <span class="vocab">Attributes</span> contain **data** about a specific object. The information format should be one of the basic data types from Session 1 (string, integer, float, boolean, array, hash).
 
@@ -141,7 +151,7 @@ A good question to ask when you're determining what should be classified as an a
 
 * "Is there any other data that underlies this piece of data?" (you want the answer to be no)
 
-CAUTION: Sometimes, methods will *feel* like they should be attributes. For example: `percent_full`.
+CAUTION: Sometimes, methods will *feel* like they should be attributes. For example: `percent_full` or `volume`.
 
 <div class="try-it">
   <h3>Try It Together: Bottle Class Attributes</h3>
@@ -162,7 +172,7 @@ recyclable (boolean)
 insulated (boolean)
 ```
 
-<span class="vocab">Methods</span> define **behavior** of an object, **actions** that can be performed on that object, or **calculations** that generally use. Methods are generally verbs (action words or short action phrases).
+<span class="vocab">Methods</span> define the **behavior** of an object, **actions** that can be performed on that object, or **calculations** that use the object's attributes. Methods are generally verbs (action words or short action phrases).
 
 Methods generally answer the question "What can this thing do?" or "What can be done to this thing?"
 
@@ -176,7 +186,7 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
   * the result of that work is called the **return value**
 * Attributes are generally nouns (99.9% of time)
 * Methods are generally verbs (90% of time -- can also be questions OR nouns that are the result of calculations)
-  * ie. `percent_full` since it requires calculation
+  * ie. `percent_full` or `volume` since they require calculation
 
 <a href="" name="notateclasses"></a>
 <div class="try-it">
@@ -266,7 +276,7 @@ This is our final Mod 0 technical session. Your assignment between now and Sessi
 <div class="instructions assessmentpreview">
   <h1>SAMPLE INSTRUCTIONS</h1>
 
-  <p>This work portion assessment should take you approximately 70 minutes, but we recommend taking an additional 10 minutes to throughly read over the expectations outlined in this document. The timed nature is meant to get you used to working under pressure.</p>
+  <p>The work portion of the assessment should take you approximately 70 minutes, but we recommend taking an additional 10 minutes to throughly read over the expectations outlined in this document. The timed nature is meant to get you used to working under pressure.</p>
 
   <p class="important"><strong>First,</strong> fork the assessment checklist. You will use this checklist to ensure that you have met the Mod 0 Technical Assessment expectations.</p>
 
@@ -308,6 +318,7 @@ This is our final Mod 0 technical session. Your assignment between now and Sessi
   <ol>
     <li>Open up your <code>...</code> file in your text editor.</li>
     <li>You'll be given directions for some exercises that are program specific. Looking for something to study? Check out session 1 on data types and variable assignment. The capstone is also a good resource.</li>
+    <li>If you are really solid with data types and variable assignment, it shouldn't be too bad</li>
     <li>Save your file.</li>
     <li>Add and commit your changes.</li>
     <li>Push your changes to Github.</li>
@@ -316,5 +327,11 @@ This is our final Mod 0 technical session. Your assignment between now and Sessi
   <h4 class="important">Done?</h4>
   <p>There is a link to a google form where you'll submit your mod 0 assessment repo at the end of your checklist</p>
 </div>
+
+### Other faq's:
+* Can I update my work after I've committed a file?
+  * Yes, please do. Update and commit away!
+* I messed up my commit message. Should I fix it?
+  * No, mistakes happen. We don't want you wasting time on that. Just be more diligent on the next commit
 
 Be sure to fill out the survey from your project board!
