@@ -44,8 +44,7 @@ subheading: Attention to Detail and Iteration
 
 - We'll have scores back to y'all by the end of the weekend.
 - Be sure to use the formula pinned in the channel when asking technical questions
-
-#### git and github demo
+- Capstone is due tomorrow!
 
 ### Today's Goals
 
