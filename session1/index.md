@@ -46,7 +46,7 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: David and Robert
+* Instructor intros: David and Ellen
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
@@ -640,8 +640,8 @@ In addition, consider the following questions:
 <a name="homework"></a>
 ## Homework
 
-Find the homework in your Mod 0 Project Board. Contact David, Ellen, and Robert if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
+Find the homework in your Mod 0 Project Board. Contact David or Ellen if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
 Lastly, another reminder, if you haven't started your capstone yet, it's good to get a head start on it. You can find the due date on the mod 0 calendar.
 
-Capstone study session tomorrow. Details in Slack. Definitely go if you can make it!
+Capstones are due Wednesday, April 8th at 6pm. I'd get started right away!
