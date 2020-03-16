@@ -98,7 +98,7 @@ We won't be available for help during this scavenger hunt, however write down th
 
 <div class="try-it">
   <h3>Try It: Don't fork it up!</h3>
-  <p>At this point, we'll split into breakout rooms. The person whose last name is last alphabetically will start by sharing their screen, <strong>unless</strong> this person already has significant git experience. Whoever is sharing their screen will be called the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
+  <p>At this point, we'll split into breakout rooms. Everyone should do a fist to five to show their comfort with git. Whoever is the least comfortable with git will share their screen. Whoever is sharing their screen will be called the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
 
   <p>If you are already comfortable with git, your challenge during the breakout is somewhat more difficult: your goal is to focus on your explanations, communication, and ability to gauge whether or not another person understands you.</p>
   <ol>
