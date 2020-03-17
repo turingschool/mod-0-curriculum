@@ -119,7 +119,7 @@ At the end of mod 0, you'll be considered one of the following:
  * You were unable to pass the Technical Assessment
  * You were unable to pass the Mod 0 Capstone
    * *Next step:* You have one chance to re-enroll in and successfully complete Mod 0
- * If you don’t pass on your second try you will be asked to reapply to Turing in 45 days.
+ * If you don’t pass on your second try you will be asked to reapply to Turing in 6 months.
 
 **Technical Ready**
  * Your work and assessment have met the expectations of mod 0
