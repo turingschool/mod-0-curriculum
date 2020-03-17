@@ -49,11 +49,10 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ### Wins
 
-- To those of you asking questions in the public channel. Keep it up!
+- To those of you asking questions in the public Slack channel, keep it up! This is a *win-win-win* for everybody.
 
 ### Follow-Ups
-- Sessions are designed to move fast
-- More breakout room time
+- Did the homework turnaround feel fast? Turing will be faster.
 - We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
 
 ### Today's Goals
@@ -188,10 +187,8 @@ The text `timo@Tims-MacBook-Pro:~$` is called the command prompt, and the `$` in
 
 **Something to note:** When copying and pasting commands from the internet, do not include the `$`. It is meant to symbolize that a command is run from the terminal.
 
-If you want to further customize your command prompt, check out the [EZPrompt Generator](http://ezprompt.net/).
-
 **Apple recently changed its default profile to .zsh.**
-We are still using .bash in Mod-0 and beyond. These shells mostly behave the same. We do not recommend you attempt to switch from .bash to .zsh right now. This will cause a lot of unnecessary pain at this point. Wait until you have some experience under your belt (Probably somewhere towards the end of Mod-1) before attempting a switch.
+We will be using zsh in Mod-0 and beyond. Another shell you may hear about is called bash. These shells mostly behave the same. You will learn how to start customizing your zsh shell in the Session 2 homework.
 
 Some follow up reading that is **Not Required**: [Apple Switches from .bash to .zsh - who cares and what does that even mean?](https://scriptingosx.com/2019/06/moving-to-zsh/)
 
