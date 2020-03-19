@@ -263,7 +263,7 @@ Git is not the same as GitHub. They work together, but they are separate tools. 
 
 Other alternatives to GitHub include GitLab and BitBucket, among others. GitHub (and these other services) also makes it easy for teams that use git to collaborate on the same codebase.
 
-During Mod 0, we will not be exploring the collabortive functionality of GitHub. We're going to stick to learning the basic functionality of GitHub.
+During Mod 0, we will not be exploring the collaborative functionality of GitHub. We're going to stick to learning the basic functionality of GitHub.
 
 Let's first discuss this diagram:
 
@@ -294,11 +294,6 @@ Let's take a look at an example of a repo on GitHub: <a href="https://github.com
     <li>Approximately how often are changes made to this repository? How do you know?</li>
     <li>Who is the top contributor?</li>
     <li>How many people have contributed to the repository?</li>
-    <li>How many people are watching the repository? What does this mean?</li>
-    <li>How many issues are open? Can you decipher what problems any of the issues are reporting? Is there any discussion happening on the issues?</li>
-    <li>How many open pull requests exist? What was the date of the most recent pull request?</li>
-    <li>Is there active commenting on the pull requests? Can you decipher what people are discussing?</li>
-    <li>What other things do you see on the repository? Can you google these things to find out what they are?</li>
     <li>Done before time is up? Pick a second repository to explore.</li>
   </ol>
   <p>Options:</p>
