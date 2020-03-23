@@ -45,7 +45,6 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 - Leaving feedback directly on homework gists. Make sure you're checking them. We'll reach out in slack if we have major concerns.
 - Remember to be aware of where you are in your directory structure of the terminal before you clone anything down or start running git commands. Always run ls after cloning
-- Capstone is due next Tuesday. Ideally, you're at least on day 4. If not, you're behind.
 
 ### Other Notes
 
