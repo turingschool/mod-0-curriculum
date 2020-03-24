@@ -45,6 +45,7 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 - Leaving feedback directly on homework gists. Make sure you're checking them. We'll reach out in slack if we have major concerns.
 - Remember to be aware of where you are in your directory structure of the terminal before you clone anything down or start running git commands. Always run ls after cloning
+- New FE capstone. If you've already started on yours, please delete your fork and restart.
 
 ### Other Notes
 
@@ -336,4 +337,4 @@ This is our final Mod 0 technical session. Your assignment between now and Sessi
 
 Be sure to fill out the survey from your project board!
 
-Also, capstone is due next Tuesday. Ideally, you're at least on day 4. If not, you're behind.
+Also, capstone is due in a couple of weeks. Frontenders, remember to delete your forks, and restart it. As it has changed a lot :)
