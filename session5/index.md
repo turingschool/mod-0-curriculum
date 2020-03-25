@@ -359,7 +359,7 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
 * Moving forward:
   * Keep up the hard work
   * Keep asking questions in your cohort channels
-  * Ellen, Bob and I are still around if you need us
+  * Ellen, Mason and I are still around if you need us
   * Capstone is due in a couple weeks! (see your mod 0 calendar)
 
 * Learning to code is much more like exercise than epiphanies
