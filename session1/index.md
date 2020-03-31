@@ -46,16 +46,17 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: David and Ellen
+* Instructor intros: David and Robert
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
-## Housekeeping
+## Housekeeping and Follow-ups
 
 * Did you get through your session 1 pre-work? Post in the chat!
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
 * Session will be recorded and posted in Slack
 * <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes.
+* No computer yet? No worries! Message me if your computer isn't expected to get here this week!
 
 ### Breakout Rooms
 
@@ -640,8 +641,8 @@ In addition, consider the following questions:
 <a name="homework"></a>
 ## Homework
 
-Find the homework in your Mod 0 Project Board. Contact David or Ellen if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
+Find the homework in your Mod 0 Project Board. Contact David, Robert, or Mason if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
-Lastly, another reminder, if you haven't started your capstone yet, it's good to get a head start on it. You can find the due date on the mod 0 calendar.
+Lastly, another reminder, if you haven't started your capstone yet, you should. You can find the due date on the mod 0 calendar.
 
-Capstones are due Wednesday, April 8th at 6pm. I'd get started right away!
+Capstones are due Wednesday, April 15th at 6pm. I'd get started right away!
