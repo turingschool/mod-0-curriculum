@@ -628,6 +628,10 @@ After watching a brief demo from an instructor, try out the following:
   * Create another integer variable and multiply it by your number variable
   * Remove the last item from your teachers array
 
+Answer Keys:
+* back-end: https://gist.github.com/damwhit/99e906bcfb3b39d34790e2a246029716
+* front-end: https://gist.github.com/damwhit/3656c48a09d5ab8bf85916b53fe6e760
+
 ## The End!
 
 After this Zoom call is over, take 15 minutes on your own to digest the content from this lesson, including the notes you wrote in the text boxes.
