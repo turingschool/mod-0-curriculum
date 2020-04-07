@@ -50,9 +50,10 @@ subheading: More Git and Intro to GitHub
 ### Follow-Ups
 
 - We left feedback on everyones session 1 homeworks, be sure to check your gists!
-  - Suggestions there are for your benefit
+  - Suggestions there are for your benefit and can change your grade :)
 - Make sure that you're checking slack at least once a day
 - Be sure to stay at your home directory or below
+- Capstone progress. Ideally you've started and are on at least day 2 by now
 
 ### Today's Goals
 
