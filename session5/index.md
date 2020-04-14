@@ -72,62 +72,6 @@ Attention to detail is something that constantly comes up when coding
 * Documentation is super dense, you'll likely need to read it at least couple of times before you're able to understand and apply it
 * Tutorials and directions for implementation are common place. If you miss one step, you won't get the same result
 
-### Identifying Mistakes
-
-#### Breakout Groups (10 minutes)
-Go through the following examples, and determine whether or not each piece of code is syntactically correct. Even if the line of code is syntactically correct, are there any other mistakes in it?
-
-Be sure to pay attention to how your capstone is formatted. If people have poorly formatted gists and repos for their capstone, it is a bit of a red flag on our end for this reason.
-
-As a group, either in your text editors, or in a notebook, write down your answers for each number below. Be sure to deliberate as a group and try your best to explain **why** you expect something to work or not.
-
-```
-1. bestFoodOfAllTime = 'burritos'
-
-2. isIt = true
-
-3. secondBestFood = 'ramen'
-
-4. sandwich = "taco?'
-
-5. phoneNumber = '123-456-7890'
-
-6. bestFoodOfAllTime
-
-7. isLying = False
-
-8. animals = ['donkey', 'giraffe', 'elephant', 'chimpanzee']
-
-9. secondBestfood
-
-10. sandwiches = ['cheesesteak', 'po' boy', 'reuben']
-
-11. drinkSize = 12 oz
-
-12. ,2 * 2
-
-13. 4 / 2
-
-14. (6 * 2) + (6 / 3) / 6)
-
-15. grads = { "9th grade": 110, "10th grade": 125, "11th grad": 66 }
-
-16.
-instructors = {
-  "Mod 0": "Tim and David",
-  "Mod 1": 'Mike and Sal",
-  "Mod 2": "Brittany and Robbie"
-}
-```
-
-What were your strategies when trying to figure out if a piece of code is syntactically correct or not?
-
-Did you do any experimentation? Did you reference any documentation?
-
-Key things to think about when looking for syntax errors:
-* parentheses, quotes, brackets, and braces are all like shoes, useless without their mate
-* consistency is key. If you're looking through code that has inconsistent indentation, casing, quote types some mental overhead is being used where it doesn't need to be
-
 ### Syntax and Style
 
 <span class="vocab">Syntax</span> and <span class="vocab">Style</span> are both essential when it comes to writing code.
@@ -159,6 +103,38 @@ animals=["donkey",'giraffe','elephant',"chimpanzee"]
 ```
 
 If you want to find code that is both syntactically correct and using good style the best place to look is going to be the docs (mdn for JavaScript and ruby-doc for Ruby). The code examples are a great place to look to see if you are writing your code in a similar way. Also, keep in mind that things like casing of variables is another good way to stay consistent and maintain good style.
+
+## Error Messages
+
+Error messages are a beautiful thing. Learning how to read errors is very important in programming because they can tell you <em>exactly</em> where you made a mistake.
+
+But error messages can be overwhelming because they may overload you with information or use terms you may not understand.
+
+What are some strategies that you have already been using to interpret error messages?
+
+### Program Specific Breakout Groups (20 minutes)
+
+After watching a brief demo from the instructor, complete the following exercise with program-specific breakout groups:
+
+<div class="try-it">
+  <h3>Mythical Creatures: A Primer</h3>
+  <p>Everyone should do a fist to five to show their comfort with error messages. Whoever is the least comfortable with errors will share their screen. Whoever is sharing their screen will be the driver. Every other person in the room will be a navigator.</p>
+    <ol>
+      <li>Clone and cd into the repo:</li>
+      <ul>
+        <li><a href="https://github.com/corneliusellen/mythical-creatures-primer-fe">Frontend version</a></li>
+        <li><a href="https://github.com/corneliusellen/mythical-creatures-primer">Backend version</a></li>
+      </ul>
+      <li>Run the file with the command <code>ruby yeti.rb</code> for BE or <code>node yeti.rb</code> for FE.</li>
+      <li>Discuss with your group what you think the error message means.</li>
+      <li>Fix the error.</li>
+      <li>Repeat step 2-4 until there are no more errors. You will know you are making progress if the error messages change.</li>
+    </ol>
+
+  <p>You've corrected all the errors when you see the single line <code>We'll have to outwit the Bumble with our superior intelligence</code> outputted to your terminal.</p>
+
+  <p><b>NOTE: To fix the errors, do not delete any <em>lines</em> of code. You may only update/add code.</b></p>
+</div>
 
 ## BREAK
 
