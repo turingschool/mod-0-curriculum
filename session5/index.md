@@ -112,9 +112,13 @@ But error messages can be overwhelming because they may overload you with inform
 
 What are some strategies that you have already been using to interpret error messages?
 
-### Program Specific Breakout Groups (20 minutes)
+### Instructor Breakout Groups (10 minutes)
 
-After watching a brief demo from the instructor, complete the following exercise with program-specific breakout groups:
+Watch a brief demo from the instructors who will give an introduction to the exercise below in program-specific groups.
+
+### Small Breakout Groups (10 minutes)
+
+Split into program-specific breakout groups and try the following exercise:
 
 <div class="try-it">
   <h3>Mythical Creatures: A Primer</h3>
@@ -135,6 +139,10 @@ After watching a brief demo from the instructor, complete the following exercise
 
   <p><b>NOTE: To fix the errors, do not delete any <em>lines</em> of code. You may only update/add code.</b></p>
 </div>
+
+### How did it go? (5 minutes)
+
+Q&A for the previous exercise.
 
 ## BREAK
 
