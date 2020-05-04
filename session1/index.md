@@ -46,7 +46,7 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: David and Robert
+* Instructor intros: David and Ellen
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
@@ -54,13 +54,20 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 
 * Did you get through your session 1 pre-work? Post in the chat!
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
+* We share pronouns to be inclusive to folks who are transgender or gender non-conforming
+  * If you're unfamiliar with those identities, the [gender-unicorn](https://transstudent.org/what-we-do/graphics/gender-unicorn/) is a great resource to learn about them
 * Session will be recorded and posted in Slack
 * <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes.
-* No computer yet? No worries! Message me if your computer isn't expected to get here this week!
 
 ### Breakout Rooms
 
-This is a feature in zoom that we'll use throughout the mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 60 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 60 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise. They can be a bit awkward at first, but try to embrace them and have fun!
+This is a feature in zoom that we'll use throughout the mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 60 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 60 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise. 
+
+Some norms before heading in:
+* Be aware and try not talk over others.
+* Leave space and time for everyone to share.
+
+Breakout groups can be a bit awkward at first, but try to embrace them and have fun!
 
 <div class="try-it">
   <h3>Try It: Break out rooms</h3>
@@ -103,6 +110,8 @@ We will also remind you when these events are via **[slack](https://turingschool
 
 * Let's practice a couple of slack features right now! Watch as we show you how to make and write in threads.
   * Thread: What is your favorite food?
+
+This [video](https://www.youtube.com/watch?v=tfq333EpWgM&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=2&t=110s) from Back-End instructor Tim Tyrrell is a great resource to get more comfortable with slack.
 
 ## Mod 0 Expecations
 
@@ -307,6 +316,8 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
     </div>
   </div>
 </div>
+
+This [video](https://www.youtube.com/watch?v=I3PBZBX-Fig&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=2) from Technical Programs Instructor Amy Holt gives some great screen management tips.
 
 <a name="classes"></a>
 ## Classes
@@ -632,6 +643,10 @@ Answer Keys:
 * back-end: https://gist.github.com/damwhit/99e906bcfb3b39d34790e2a246029716
 * front-end: https://gist.github.com/damwhit/3656c48a09d5ab8bf85916b53fe6e760
 
+Videos on variable assignment:
+* [Back-End](https://www.youtube.com/watch?v=S-IeM4xnCog&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=3)
+* [Front-End](https://www.youtube.com/watch?v=sIGNox7OGD0&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=4)
+
 ## The End!
 
 After this Zoom call is over, take 15 minutes on your own to digest the content from this lesson, including the notes you wrote in the text boxes.
@@ -647,6 +662,4 @@ In addition, consider the following questions:
 
 Find the homework in your Mod 0 Project Board. Contact David, Robert, or Mason if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
-Lastly, another reminder, if you haven't started your capstone yet, you should. You can find the due date on the mod 0 calendar.
-
-Capstones are due Wednesday, April 15th at 6pm. I'd get started right away!
+Capstones are another good thing to get a head start on. They can be found on the mod 0 website in the sidebar.
