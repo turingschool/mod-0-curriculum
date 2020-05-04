@@ -54,8 +54,8 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 
 * Did you get through your session 1 pre-work? Post in the chat!
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
-* We share pronouns to be inclusive to folks who are transgender or gender non-conforming
-  * If you're unfamiliar with those identities, the [gender-unicorn](https://transstudent.org/what-we-do/graphics/gender-unicorn/) is a great resource to learn about them
+* We share pronouns to be inclusive of folks who are transgender or gender non-conforming
+  * If you're unfamiliar with genders other than cisgender, the [gender-unicorn](https://transstudent.org/what-we-do/graphics/gender-unicorn/) is a great resource to learn about them
 * Session will be recorded and posted in Slack
 * <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes.
 
