@@ -52,7 +52,9 @@ subheading: Terminal, File/folder Structure, Git Basics
 - To those of you asking questions in the public Slack channel, keep it up! This is a *win-win-win* for everybody.
 
 ### Follow-Ups
+
 - We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
+- You'll receive feedback on homework from either Mason or David. Check your homework gists!
 
 ### Today's Goals
 
