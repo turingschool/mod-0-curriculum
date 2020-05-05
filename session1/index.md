@@ -73,7 +73,7 @@ Breakout groups can be a bit awkward at first, but try to embrace them and have 
   <h3>Try It: Break out rooms</h3>
   <p>1. Introduce yourself (name, pronouns, program)</p>
   <p>2. Where do you call home</p>
-  <p>3. What is your favorite snack of all time?</p>
+  <p>3. What is a tv show you've been getting into during quarantine?</p>
 </div>
 
 Other things to note as we go through Mod 0:
