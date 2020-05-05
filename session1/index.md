@@ -640,8 +640,8 @@ After watching a brief demo from an instructor, try out the following:
   * Remove the last item from your teachers array
 
 Answer Keys:
-* back-end: https://gist.github.com/damwhit/99e906bcfb3b39d34790e2a246029716
-* front-end: https://gist.github.com/damwhit/3656c48a09d5ab8bf85916b53fe6e760
+* [Back-End](https://gist.github.com/damwhit/99e906bcfb3b39d34790e2a246029716)
+* [Front-End](https://gist.github.com/damwhit/3656c48a09d5ab8bf85916b53fe6e760)
 
 Videos on variable assignment:
 * [Back-End](https://www.youtube.com/watch?v=S-IeM4xnCog&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=3)
@@ -660,6 +660,6 @@ In addition, consider the following questions:
 <a name="homework"></a>
 ## Homework
 
-Find the homework in your Mod 0 Project Board. Contact David, Robert, or Mason if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
+Find the homework in your Mod 0 Project Board. Contact David, Ellen, or Mason if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
 Capstones are another good thing to get a head start on. They can be found on the mod 0 website in the sidebar.
