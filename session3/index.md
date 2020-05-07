@@ -45,11 +45,11 @@ subheading: More Git and Intro to GitHub
 
 - Most common answer to git question: "I can name the steps of the git workflow and can put them in practice (using a reference)."
 - This is expected, and we use references as programmers on the job all the time, at some point it'll be muscle memory
-- Great job asking and answering eachothers questions in the public channel
+- Great job asking and answering eachothers questions in the public channel!
 
 ### Follow-Ups
 
-- We left feedback on everyones session 1 homeworks, be sure to check your gists!
+- We'll leave feedback on everyones session 1 homeworks by end of day tomorrow, be sure to check your gists!
   - Suggestions there are for your benefit and can change your grade :)
 - Make sure that you're checking slack at least once a day
 - Be sure to stay at your home directory or below
