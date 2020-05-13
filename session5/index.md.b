@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 5
-subheading: Attention to Detail, Iteration, and Assessment Expectations
+subheading: Attention to Detail and Iteration
 ---
 
 <div class="goals-agenda">
@@ -12,18 +12,15 @@ subheading: Attention to Detail, Iteration, and Assessment Expectations
       <li>apply strategies to identify issues in syntax and style</li>
       <li>define iteration in programming</li>
       <li>demonstrate iteration in real-world and programming situations</li>
-      <li>understand assessment expectations</li>
     </ul>
   </div>
   <div>
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong>Follow-Ups and Goals</li>
-      <li><strong>25 min: </strong><a href="#mockassessment">Mock Assessment Follow ups</a></li>
       <li><strong>35 min: </strong><a href="#attention-to-detail">Attention to Detail</a></li>
       <li><strong>5 min: </strong>Break</li>
       <li><strong>35 min: </strong><a href="#iteration">Iteration</a></li>
-      <li><strong>15 min: </strong><a href="#assessmentprev">Assessment Preview</a></li>
     </ul>
   </div>
   <div>
@@ -41,15 +38,13 @@ subheading: Attention to Detail, Iteration, and Assessment Expectations
 
 ### Wins
 
-- Great work asking questions in the public channel!
-- Answering questions in the public channel is the best way to solidify your learning and practice communicating technically
-- Many Git diagrams were posted early. Way to stay on top of things!
+- You finished the assessment!
 
 ### Follow-Ups
 
-- Look through some of your classmate's git diagrams after class. Maybe they described things in a way you never thought of.
-- Ellen and Bob are going to be sitting in on the lesson and managing the chat today!
-- Capstone study session tomorrow. Be sure to emoji rsvp!
+- We'll have scores back to y'all by the end of the weekend.
+- Be sure to use the formula pinned in the channel when asking technical questions
+- Capstone is due in a couple weeks! Get on it!
 
 ### Today's Goals
 
@@ -65,24 +60,6 @@ subheading: Attention to Detail, Iteration, and Assessment Expectations
   <p>3. Accountability review: what tangible progress have you made toward your mod 0 focus skills?</p>
   <p>4. Determine who will bring your breakout group questions back to the whole group</p>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
-</div>
-
-<a name="mockassessment"></a>
-## Mock Assessment Follow-up
-
-This is a great time to ask for clarity on expectations or even some feedback on your responses.
-
-The most common issues we run into that leave people pending on the assessment are as follows:
-  - method definitions are too broad and don't actually change an attribute or create a return value
-  - values aren't filled in properly, using proper syntax for a particular data type
-  - format of the top down design portion is wildly off. Only use markdown if you're really comfortable
-
-<div class="try-it">
-  <h3>Try It: Assessment Review (~10 minutes)</h3>
-  <p>Clone down <a href="https://github.com/damwhit/m0-mock-assessment">this repo:</a></p>
-  <p>With the rules above in mind, what is wrong with class 1 and the class 1 example object?</p>
-  <p>What about class 2 and the class 2 example object?</p>
-  <p>Fix everything? Create a new example object</p>
 </div>
 
 <a name="attention-to-detail"></a>
@@ -149,7 +126,7 @@ Did you do any experimentation? Did you reference any documentation?
 
 Key things to think about when looking for syntax errors:
 * parentheses, quotes, brackets, and braces are all like shoes, useless without their mate
-* consistency is key. If you're looking through code that has inconsistent, indentation, casing, quote types some mental overhead is being used where it doesn't need to be
+* consistency is key. If you're looking through code that has inconsistent indentation, casing, quote types some mental overhead is being used where it doesn't need to be
 
 ### Syntax and Style
 
@@ -374,64 +351,6 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
   </div>
 </div>
 
-<a name="assessmentprev"></a>
-## Mod 0 Technical Assessment
-
-This is our final Mod 0 technical session. Your assignment between now and Thursday is to find 80 minutes  to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com).
-
-<div class="instructions assessmentpreview">
-  <h1>SAMPLE INSTRUCTIONS</h1>
-
-  <p>This work portion assessment should take you approximately 70 minutes, but we recommend taking an additional 10 minutes to throughly read over the expectations outlined in this document. The timed nature is meant to get you used to working under pressure.</p>
-
-  <p class="important"><strong>First,</strong> fork the assessment checklist. You will use this checklist to ensure that you have met the Mod 0 Technical Assessment expectations.</p>
-
-  <h4>Part I: Creating Directories and Files; Initializing Git and Pushing to GitHub (10 min)</h4>
-
-  <ol>
-    <li>Use your terminal to create a directory called <code>...</code></li>
-    <li>Inside of that directory, make an empty text file called <code>...</code></li>
-    <li>Initialize your directory as a git repository.</li>
-    <li>Add your file and commit using the message "Initial commit"</li>
-    <li>Create a public repo on Github with the same name.</li>
-    <li>Add the remote and push your local repository to Github.</li>
-  </ol>
-
-  <h4>Part II: Top Down Design (25 min)</h4>
-
-  <ol>
-    <li>Open up your <code>...</code> file in your text editor.</li>
-    <li>Break down the process of <code>...</code> <small>(We will leave the situation intentionally vague so that you can choose what angle you feel most comfortable with. Although we are not looking for a specific "answer" for how you break this down, you should be as detailed as possible. It is better to break things down too much than to oversimplify a process. Use the same process and notation that we used during Session 5 with a dash mark and one indent for every new layer.)</small></li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes.</li>
-    <li>Push your changes to Github.</li>
-  </ol>
-
-  <h4>Part III: Classes, Objects, Attributes, and Methods (35 min)</h4>
-
-  <ol>
-    <li>Inside of <code>...</code>, create a new directory called <code>...</code></li>
-    <li>Inside of <code>...</code>, create four files: <code>...</code>, <code>...</code>, <code>...</code>, and <code>...</code><em>(If you're comfortable trying markdown at this point, feel free to use .md instead of .txt).</em> </li>
-    <li>Open up <code>...</code> in your text editor.</li>
-    <li>Brainstorm one class that might exist in a <code>...</code> and put this at the top of the file.</li>
-    <li>List at least four attributes for that class. In parentheses, list the data type for that attribute (string, boolean, integer, float, hash/object, datetime).</li>
-    <li>List at least four methods for that class. In parentheses, explain what the method does, including the names of the attributes that it uses or modifies.</li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes for this class.</li>
-    <li>Open up <code>...</code> in your text editor.</li>
-    <li>At the top, type the name of an object that is an instance of your class.</li>
-    <li>List the values for each attribute.</li>
-    <li>List the results of the method being called for this specific object.</li>
-    <li>Save your file.</li>
-    <li>Add and commit your changes for this class.</li>
-    <li>Repeat steps 3-8 with <code>...</code></li>
-    <li>Repeat steps 9-14 with <code>...</code></li>
-    <li>Push your changes to GitHub.</li>
-  </ol>
-
-  <h4 class="important">Done?</h4>
-  <p>There is a link to a google form where you'll submit your mod 0 assessment repo at the end of your checklist</p>
-</div>
 
 ### Other Reminders
 
@@ -440,7 +359,9 @@ This is our final Mod 0 technical session. Your assignment between now and Thurs
 * Moving forward:
   * Keep up the hard work
   * Keep asking questions in your cohort channels
-  * Tim, Ellen, Bob and I are still around if you need us
-  * Capstone is due in Three weeks - check your calendar, and don't forget to rsvp for the study session tomorrow!
+  * Ellen, Mason and I are still around if you need us
+  * Capstone is due in a couple weeks! (see your mod 0 calendar)
 
-> Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 0 prework are the ones that usually struggle for at least the first half of the mod."
+* Learning to code is much more like exercise than epiphanies
+
+> Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 0 capstone are the ones that usually struggle for at least the first half of the mod."

@@ -9,18 +9,18 @@ subheading: Attention to Detail and Iteration
     <h3>Goals</h3>
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
-      <li>apply strategies to identify issues in syntax and style</li>
       <li>define iteration in programming</li>
       <li>demonstrate iteration in real-world and programming situations</li>
+      <li>pseudocode out a problem</li>
     </ul>
   </div>
   <div>
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong>Follow-Ups and Goals</li>
-      <li><strong>35 min: </strong><a href="#attention-to-detail">Attention to Detail</a></li>
-      <li><strong>5 min: </strong>Break</li>
       <li><strong>35 min: </strong><a href="#iteration">Iteration</a></li>
+      <li><strong>5 min: </strong>Break</li>
+      <li><strong>35 min: </strong><a href="#pseudocoding">Pseudocoding</a></li>
     </ul>
   </div>
   <div>
@@ -42,9 +42,9 @@ subheading: Attention to Detail and Iteration
 
 ### Follow-Ups
 
-- We'll have scores back to y'all by the end of the weekend.
+- We'll have scores back to y'all by early next week!
 - Be sure to use the formula pinned in the channel when asking technical questions
-- Capstone is due in a couple weeks! Get on it!
+- Capstone is due in a few weeks! Get on it!
 
 ### Today's Goals
 
@@ -61,109 +61,6 @@ subheading: Attention to Detail and Iteration
   <p>4. Determine who will bring your breakout group questions back to the whole group</p>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
-
-<a name="attention-to-detail"></a>
-## Attention to Detail
-
-After reflecting on and trying to find patterns for the people who are struggling in mod 1, we've identified that attention to detail is one of the main themes we've seen.
-
-Attention to detail is something that constantly comes up when coding
-* A missing or misplaced character can make your code behave in an entirely different way
-* Documentation is super dense, you'll likely need to read it at least couple of times before you're able to understand and apply it
-* Tutorials and directions for implementation are common place. If you miss one step, you won't get the same result
-
-### Identifying Mistakes
-
-#### Breakout Groups (10 minutes)
-Go through the following examples, and determine whether or not each piece of code is syntactically correct. Even if the line of code is syntactically correct, are there any other mistakes in it?
-
-Be sure to pay attention to how your capstone is formatted. If people have poorly formatted gists and repos for their capstone, it is a bit of a red flag on our end for this reason.
-
-As a group, either in your text editors, or in a notebook, write down your answers for each number below. Be sure to deliberate as a group and try your best to explain **why** you expect something to work or not.
-
-```
-1. bestFoodOfAllTime = 'burritos'
-
-2. isIt = true
-
-3. secondBestFood = 'ramen'
-
-4. sandwich = "taco?'
-
-5. phoneNumber = '123-456-7890'
-
-6. bestFoodOfAllTime
-
-7. isLying = False
-
-8. animals = ['donkey', 'giraffe', 'elephant', 'chimpanzee']
-
-9. secondBestfood
-
-10. sandwiches = ['cheesesteak', 'po' boy', 'reuben']
-
-11. drinkSize = 12 oz
-
-12. ,2 * 2
-
-13. 4 / 2
-
-14. (6 * 2) + (6 / 3) / 6)
-
-15. grads = { "9th grade": 110, "10th grade": 125, "11th grad": 66 }
-
-16.
-instructors = {
-  "Mod 0": "Tim and David",
-  "Mod 1": 'Mike and Sal",
-  "Mod 2": "Brittany and Robbie"
-}
-```
-
-What were your strategies when trying to figure out if a piece of code is syntactically correct or not?
-
-Did you do any experimentation? Did you reference any documentation?
-
-Key things to think about when looking for syntax errors:
-* parentheses, quotes, brackets, and braces are all like shoes, useless without their mate
-* consistency is key. If you're looking through code that has inconsistent indentation, casing, quote types some mental overhead is being used where it doesn't need to be
-
-### Syntax and Style
-
-<span class="vocab">Syntax</span> and <span class="vocab">Style</span> are both essential when it comes to writing code.
-
-<span class="vocab">Syntax</span> refers to the structure of statements in a computer language. Are quotes surrounding both sides of a string? No, then the language will throw an error. If your code isn't working because of a placement of a character, it's a syntax issue.
-
-<span class="vocab">Style</span> doesn't determine if a piece of code runs or not. Its purpose is to make code more readable. Ideally, when you're working on a team, you and your teammates are following similar patterns (conventions) when it comes to things like whitespace (including indentation) or double vs single quotes. What is one of those conventions you've already been using?
-
-Let's take a look at what these two things might look like in action:
-
-Difference in syntax
-
-```
-one doesn't work
-
-animals = ['donkey', 'giraffe', 'elephant', 'chimpanzee']
-
-animals = ['donkey', 'giraffe', 'elephant' 'chimpanzee']
-```
-
-Difference in style
-
-```
-both work below, but which reads better?
-
-animals = ['donkey', 'giraffe', 'elephant', 'chimpanzee']
-
-animals=["donkey",'giraffe','elephant',"chimpanzee"]
-```
-
-If you want to find code that is both syntactically correct and using good style the best place to look is going to be the docs (mdn for JavaScript and ruby-doc for Ruby). The code examples are a great place to look to see if you are writing your code in a similar way. Also, keep in mind that things like casing of variables is another good way to stay consistent and maintain good style.
-
-## BREAK
-
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
-<hr>
 
 <a name="iteration"></a>
 ## Iteration
@@ -351,10 +248,72 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
   </div>
 </div>
 
+## BREAK
+
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
+<hr>
+
+<a name="pseudocoding"></a>
+## Breaking Apart A Problem - Pseudocode
+
+The ability to critically examine a problem and break it down into smaller pieces is an essential skill of a developer that can be improved with practice. Breaking large problems into several smaller problems can help you in every step of the development process:
+
+- *Planning:* Consider a situation where a not-as-technical boss asks the development team to make a new, large feature. Everyone will benefit from time spent laying out all the specific steps towards achieving the bigger end goal. Not only will your team be better able to communicate how much time completing the feature is expected to take, but individual tasks can be divided among your team in a way that is strategic and fair.
+
+- *Coding:* Breaking apart code challenges into steps is often referred to as `pseudocode`. A recommended approach is to write down short explanations of what specifically each line of code you will write will do. Pseudocode keeps your thoughts in order, especially helpful for when you might need to put a little research into HOW to accomplish all the steps involved. Further, pseudocode is an excellent approach to explaining code to your team because it is code-language agnostic, allowing non-technical teammates, or teammates who work with different technology, to pick up your ideas more easily. 
+
+We'll practice some of the coding and business applications of breaking problems apart below.
+
+## Turning data into a Display
+
+Imagine the following scenario for the next exercises: 
+
+You are a developer for a retail outlet. Your store has a customer rewards system, and tracks various data about its customers.
+
+### Task 1: Publish contest winners
+
+Your store has started a promotion where 3 customers are randomly selected to win a prize each month. The winners will be announced on your website, and you will receive the three customer IDs of the winners in a collection. You have also been told to build a form to verify the winner via customer ID and email address to send them a digital coupon.
+
+What specific steps must be taken to display the winners names on a website? What questions come up when you think about this process, and how might you incorporate those into your steps? While you might not know the specifics of HOW everything will work, try to think of every step that will need to occur along the way, and include when you might use specific methods, or patterns you've learned about.
+
+#### Finish brainstorming and writing down your steps before proceeding!
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Task 2: Data Normalization
+
+You were able to retrieve the names of the three customers! The data you receive back appears as follows:
+
+```
+[ "jokic_nikola", "murray_jamal", "harris_garry" ]
+```
+
+Write pseudocode explaining how you would go about transforming the names into what you'd want to display on your website. Please note that the format is currently `lastname_firstname` and the desired result would be `Firstname Lastname`.
+When possible, list ideas for specific methods you'd use. (Remember- Google is your friend)
+
+### Extension - Hash/Object
+
+Frequently, you will receive information from databases in the form of a hash (or 'object' in javascript). In the example below, we get back a hash per winner, stored in an array. Arrays of objects can be tricky to navigate, so putting some thought into this now is great prep work, even if this is a work in progress:
+
+```
+var customerNames = [
+{ firstName: "nikola", lastName: "jokic" },
+{ firstName: "william", lastName: "barton_iii" },
+{ firstName: "jamal", lastName: "murray" }
+];
+```
+
+Again, write pseudocode explaining how you would access this information and change it into a format to display.
+When possible, list ideas for specific methods or notation of obtaining data.
 
 ### Other Reminders
 
-* This is your last technical session, next session will be with Emma, where she'll talk more about life in person at Turing
+* This is your last mod 0 session
 * When you start working on Mythical Creatures in Mod 1, think back to OOP, classes and methods in mod 0
 * Moving forward:
   * Keep up the hard work
@@ -362,6 +321,6 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
   * Ellen, Mason and I are still around if you need us
   * Capstone is due in a couple weeks! (see your mod 0 calendar)
 
-* Learning to code is much more like exercise than epiphanies
+* Learning to code is much more like exercise than epiphanies - Think about MJ!
 
 > Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 0 capstone are the ones that usually struggle for at least the first half of the mod."
