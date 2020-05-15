@@ -26,7 +26,7 @@ We take these exercises seriously, and we ask that you do too. We expect at mini
 
  Use these exercises to start telling your unique story with your distinct experiences. This is something we will continue to practice during your time at Turing.
 
-#### [Professional Development Assignment](https://github.com/turingschool/career-development-curriculum/blob/master/module-0-capstone/pd_prework.md)
+#### [Professional Development Assignment](https://github.com/turingschool/career-development-curriculum-site/blob/master/module-0-capstone/career_development_capstone.md)
 
 #### [Gear Up Assignment](https://github.com/turingschool/gear-up/blob/master/pre-work/intro_with_empathy.markdown)
 
