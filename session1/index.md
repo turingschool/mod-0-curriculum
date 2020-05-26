@@ -53,15 +53,15 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 ## Housekeeping and Follow-ups
 
 * Did you get through your session 1 pre-work? Post in the chat!
+* No email from conveyorbelt? https://turingschool.slack.com/archives/G013R8PD2NA/p1589984057066100
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
 * We share pronouns to be inclusive of folks who are transgender or gender non-conforming
   * If you're unfamiliar with genders other than cisgender, the [gender-unicorn](https://transstudent.org/what-we-do/graphics/gender-unicorn/) is a great resource to learn about them
 * Session will be recorded and posted in Slack
-* <strong>NOTE</strong>: text typed into this page will not save, so don't refresh or close this window until you've reviewed your notes.
 
 ### Breakout Rooms
 
-This is a feature in zoom that we'll use throughout the mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 60 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 60 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise. 
+This is a feature in zoom that we'll use throughout the mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 60 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 60 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise.
 
 Some norms before heading in:
 * Be aware and try not talk over others.
@@ -326,13 +326,13 @@ This [video](https://www.youtube.com/watch?v=I3PBZBX-Fig&list=PL1Y67f0xPzdMFq2S1
 
 **Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 4. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
 
-Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan (instances) are all different versions of a **pizza** (class).
+Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan are all different versions or <span class="vocab">instances</span> of a **pizza** (class).
 
 An Old Navy sweatshirt and an Eddie Bauer sweatshirt (instances) are different versions of a **sweatshirt** (class).
 
 _Great Expectations_ by Charles Dickens and _Becoming_ by Michelle Obama (instances) are different versions of a **book** (class).
 
-Class names are always singular: **pizza** (instead of pizzas), **sweatshirt** (instead of sweatshirts), and **book** instead of books.
+Class names are always singular and PascalCase: **Pizza** (instead of pizzas), **Sweatshirt** (instead of sweatshirts), and **Book** instead of books.
 
 <div class="try-it">
   <h3>Try It: Classes</h3>
@@ -346,14 +346,14 @@ An <span class="vocab">attribute</span> of a class is a characteristic that ever
 
 For example:
 
-- Each **pizza** (class) has a crust, sauce, and toppings (attributes).
-- Each **sweatshirt** (class) has a color, size, brand, and price (attributes).
-- Each **book** (class) has a title, author, publisher, published_date, and total_pages (attributes).
+- Each instance of a **Pizza** (class) has a crust, sauce, and toppings (attributes).
+- Each instance of a **Sweatshirt** (class) has a color, size, brand, and price (attributes).
+- Each instance of a **Book** (class) has a title, author, publisher, published_date, and total_pages (attributes).
 
 <div class="try-it">
   <h3>Try It: Attributes</h3>
   <p>Post two sentences in the chat about your two classes using this structure:</p>
-  <p>Each _______ (class) has a _______, ________, and ________ (attributes).</p>
+  <p>Each instance of a _______ (class) has a _______, ________, and ________ (attributes).</p>
 </div>
 
 <a name="findinganswers"></a>
@@ -662,4 +662,4 @@ In addition, consider the following questions:
 
 Find the homework in your Mod 0 Project Board. Contact David, Ellen, or Mason if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
-Capstones are another good thing to get a head start on. They can be found on the mod 0 website in the sidebar.
+Capstones (program specific pre-work) are another good thing to get a head start on. They can be found on the mod 0 website in the sidebar and are due 6/10. Plan on ~40 hours in total.
