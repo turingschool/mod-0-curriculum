@@ -45,7 +45,6 @@ subheading: Terminal, File/folder Structure, Git Basics
 - In the chat, post a keyboard shortcut that you practiced and now feel comfortable using.
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
 - Questions during the session? Click "raise hand" for whole-group question, or message the non-presenting host for an individual question.
-- You will get feedback on your hw directly through gh gist comments. We'll dm you if we see any big issues
 
 ### Wins
 
@@ -54,7 +53,8 @@ subheading: Terminal, File/folder Structure, Git Basics
 ### Follow-Ups
 
 - We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
-- You'll receive feedback on homework from either Mason or David. Check your homework gists!
+- You'll receive feedback on homework from either Alice, Margo, Mason, or David. Check your homework gists!!!
+- Where are you on your capstone? They're due June 10th!
 
 ### Today's Goals
 
@@ -63,7 +63,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker (5 minutes)</h3>
   <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. What's the most boring fact about yourself?</p>
+  <p>2. Is a taco a sandwich? What is the best type of taco?</p>
   <p>3. Accountability review: what were the skills/processes that you decided to focus on last session, and how are you progressing toward mastery of those skills?</p>
 </div>
 
@@ -84,8 +84,8 @@ subheading: Terminal, File/folder Structure, Git Basics
 <div class="try-it">
   <h3>Try It: Attributes</h3>
   <p>Post one sentence in the chat about your class using this structure:</p>
-  <p>Each _______ (class) has a _______, ________, and ________ (attributes).</p>
-  <p>For example: Each Sweatshirt (class) has a color, brand, and size (attributes).</p>
+  <p>Each instance of a _______ (class) has a _______, ________, and ________ (attributes).</p>
+  <p>For example: Each instance of a Sweatshirt (class) has a color, brand, and size (attributes).</p>
 </div>
 
 ### Methods of Classes
@@ -177,19 +177,17 @@ In the diagram below, we would say that there's a directory called `essays` that
 <a name="terminalcommandline"></a>
 ## Terminal and Command Line
 
-The <span class="vocab">terminal</span> is what we call a command line interface. Basically, that's a fancy way of saying that it's the program we use to give commands to the computer. The <span class="vocab">command line</span> is a text-based way to make files, make directories, and run applications, among other things.
+The <span class="vocab">terminal</span> is what we call a command line interface. Basically, that's a fancy way of saying that it's the program we use to give commands to the compu
+
+We use the command line because it is a faster way to navigate our file systems, and certain tools can only be downloaded and accessed via the commandline.
 
 Your terminal will look something like this:
 
-<img src="images/tim_terminal.png" alt="">
+<img src="images/david_terminal.png" alt="">
 
 <a name="profiledetour"></a>
-The text `timo@Tims-MacBook-Pro:~$` is called the command prompt, and the `$` indicates that it's ready to accept input.
-
-**Something to note:** When copying and pasting commands from the internet, do not include the `$`. It is meant to symbolize that a command is run from the terminal.
-
 **Apple recently changed its default profile to .zsh.**
-We will be using zsh in Mod-0 and beyond. Another shell you may hear about is called bash. These shells mostly behave the same. You will learn how to start customizing your zsh shell in the Session 2 homework.
+We will be using zsh in Mod-0 and beyond. Another <span class="vocab">shell</span> you may hear about is called bash. These shells mostly behave the same. You will learn how to start customizing your zsh shell in the Session 2 homework.
 
 Some follow up reading that is **Not Required**: [Apple Switches from .bash to .zsh - who cares and what does that even mean?](https://scriptingosx.com/2019/06/moving-to-zsh/)
 
