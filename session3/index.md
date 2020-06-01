@@ -150,7 +150,7 @@ subheading: More Git and Intro to GitHub
   <h3>Intros, Review, and Icebreaker</h3>
   <p>Person with the lightest color shirt speaks first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. Share: What would be your deathrow meal? You get 1 app, 1 entree, and 1 dessert</p>
+  <p>2. Share: What is your favorite warm weather activity? Whens the last time your did it?</p>
   <p>3. Accountability review: how are you progressing toward mastery of your focus skills?</p>
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
