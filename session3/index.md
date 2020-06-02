@@ -43,13 +43,13 @@ subheading: More Git and Intro to GitHub
 
 ### Wins
 
-- Most common answer to git question: "I can name the steps of the git workflow and can put them in practice (using a reference)."
+- Most common answer to git question from survey: "I can name the steps of the git workflow and can put them in practice (using a reference)."
 - This is expected, and we use references as programmers on the job all the time, at some point it'll be muscle memory
 - Great job asking and answering eachothers questions in the public channel!
 
 ### Follow-Ups
 
-- We'll leave feedback on everyones session 1 homeworks by end of day tomorrow, be sure to check your gists!
+- We've left feedback on everyone's session 1 hw, be sure to check your gists!
   - Suggestions there are for your benefit and can change your grade :)
 - Make sure that you're checking slack at least once a day
 - Be sure to stay at your home directory or below
@@ -407,3 +407,5 @@ git push origin master
 ## Homework and GitHub Projects
 
 Business as usual. Reach out on slack if you're stuck!
+
+Capstone is due next Wednesday! Aim to be finished with day 5 by the weekend!
