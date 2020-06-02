@@ -51,8 +51,10 @@ subheading: More Git and Intro to GitHub
 
 - We've left feedback on everyone's session 1 hw, be sure to check your gists!
   - Suggestions there are for your benefit and can change your grade :)
+  - TA intros - Mason, Margo, Alice
 - Make sure that you're checking slack at least once a day
 - Be sure to stay at your home directory or below
+- A lot going on in America right now, if you're wondering how to get involved, check out #unlearning-white-supremacy and #anti-racist-action in slack
 
 ### Today's Goals
 
