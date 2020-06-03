@@ -385,7 +385,7 @@ git push origin master
 <div class="things-to-note">  
   <h4>Things to Note: Cloning with Git</h4>
   <ul>
-    <li><strong>Never</strong> clone a remote repository within a preexisting <span class="vocab">Git</span> repository. If you watched the video for modifying your <code>.bash_profile</code>, then you will see [master] if you're already in a git repository.</li>
+    <li><strong>Never</strong> clone a remote repository within a preexisting <span class="vocab">Git</span> repository. If you watched the video for modifying your <code>.zshrc</code>, then you will see [master] if you're already in a git repository.</li>
     <li>After cloning a repository, remember to <code>cd</code> into the directory you just cloned to your machine before running commands. If you cannot remember what the directory is called then run<code>ls</code> after cloning to see the contents of your current directory.</li>
     <li>There is no need to run <code>git init</code> within a repository that you cloned down to your local machine. Remote repositories that you clone to your local machine have already been initialized by git. You only ever need to run <code>git init</code> when you've created a repository locally from scratch. If you mess this one up, it's not going to cause any problems; it's just unnecessary.</li>
     <li><strong>Don't</strong> use "Initial commit" as your commit message for a cloned repository. Whoever made the repository already did that. You only need "Initial commit" when you make a new repository for yourself.</li>
