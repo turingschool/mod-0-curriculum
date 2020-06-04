@@ -37,7 +37,6 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 </div>
 
 ## Housekeeping and Goals
-- Mason intro
 
 ### Wins
 
@@ -45,8 +44,9 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 ### Follow-Ups
 
-- Leaving feedback directly on homework gists. Make sure you're checking them. 
+- Leaving feedback directly on homework gists. Make sure you're checking them. We'll have session 2 + 3 feedback to y'all be end of the weekend.
 - Remember to be aware of where you are in your directory structure of the terminal before you clone anything down or start running git commands. Always run ls after cloning
+- We understand that things are crazy right now. Be kind and gentle with yourselves and others. If you need anything from us, don't hesitate to reach out. Remember that proactive communication is always best.
 
 ### Other Notes
 
@@ -123,6 +123,11 @@ We won't be available for help during this scavenger hunt, however write down th
     <li>Add ramen to the 5th line of the file</li>
     <li>Save, commit, and push your changes</li>
     <li>Create a pull request to this directory: https://github.com/damwhit/very-best-foods</li>
+    <li>Didn't work? Why not?</li>
+    <li>Delete your very-best-foods github repo</li>
+    <li>Fork David's repo above</li>
+    <li>Push to that repo</li>
+    <li>Can you create a pr now? Why?</li>
     <li>If you followed all of the directions above correctly, you should see no difference between the two repos in the pull request</li>
   </ol>
   <p><strong>Done?</strong> Switch drivers and try the process again!</p>
@@ -143,17 +148,18 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 
 OOP is very similar to how the world actually works. <span class="vocab">Objects</span> are created from templates that we call <span class="vocab">classes</span>.
 
-A class defines attributes (or properties) and methods (or actions). An object is a very specific instance of a class. For example, if the class were Car, two objects might be David's 2007 Blue Nissan Versa and Grandma's 2014 Silver Nissan Juke. *There is only one of each of them*
+A class defines attributes (or properties) and methods (or actions). You've heard the word instance, that's the same thing as an object in this case. For example, if the class were Car, two objects might be David's 2000 Honda Accord and Grandma's 2014 Subaru Forester. *There is only one of each of them*
+
+Let's whiteboard this out...
 
 <span class="vocab">Attributes</span> contain **data** about a specific object. The information format should be one of the basic data types from Session 1 (string, integer, float, boolean, array, hash).
 
-The names of attributes are generally nouns.
+#### Key Points
 
-A good question to ask when you're determining what should be classified as an attribute is:
-
-* "Is there any other data that underlies this piece of data?" (you want the answer to be no)
-
-CAUTION: Sometimes, methods will *feel* like they should be attributes. For example: `percent_full` or `volume`.
+* An attribute is a characteristic
+* Attribute names are generally nouns
+* Or boolean attributes can be named as questions: ie. `is_open` or `was_recycled`
+* Attributes *should not have underlying data*. For instance, since `volume` can be calculated from `length` x `width` x `height`, that should be a method instead
 
 <div class="try-it">
   <h3>Try It Together: Bottle Class Attributes</h3>
@@ -184,9 +190,11 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
 #### Key Points
 
 * A method performs some kind of work and will almost always **use** or **modify** an attribute
+  * it can add to or take away from an attribute
+  * it can reassign an attribute
+  * it can toggle an attribute
 * Anything that does work (calculations) should be a method, not an attribute
   * the result of that work is called the **return value**
-* Attributes are generally nouns (99.9% of time)
 * Methods are generally verbs (90% of time -- can also be questions OR nouns that are the result of calculations)
   * ie. `percent_full` or `volume` since they require calculation
 
