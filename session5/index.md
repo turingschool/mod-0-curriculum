@@ -62,6 +62,85 @@ subheading: Attention to Detail and Iteration
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
 
+<a name="attention-to-detail"></a>
+## Attention to Detail
+
+After reflecting on and trying to find patterns for the people who are struggling in mod 1, we've identified that attention to detail is one of the main themes we've seen.
+
+Attention to detail is something that constantly comes up when coding
+* A missing or misplaced character can make your code behave in an entirely different way
+* Documentation is super dense, you'll likely need to read it at least couple of times before you're able to understand and apply it
+* Tutorials and directions for implementation are common place. If you miss one step, you won't get the same result
+
+### Syntax and Style
+
+<span class="vocab">Syntax</span> and <span class="vocab">Style</span> are both essential when it comes to writing code.
+
+<span class="vocab">Syntax</span> refers to the structure of statements in a computer language. Are quotes surrounding both sides of a string? No, then the language will throw an error. If your code isn't working because of a placement of a character, it's a syntax issue.
+
+<span class="vocab">Style</span> doesn't determine if a piece of code runs or not. Its purpose is to make code more readable. Ideally, when you're working on a team, you and your teammates are following similar patterns (conventions) when it comes to things like whitespace (including indentation) or double vs single quotes. What is one of those conventions you've already been using?
+
+Let's take a look at what these two things might look like in action:
+
+Difference in syntax
+
+```
+one doesn't work
+
+animals = ['donkey', 'giraffe', 'elephant', 'chimpanzee']
+
+animals = ['donkey', 'giraffe', 'elephant' 'chimpanzee']
+```
+
+Difference in style
+
+```
+both work below, but which reads better?
+
+animals = ['donkey', 'giraffe', 'elephant', 'chimpanzee']
+
+animals=["donkey",'giraffe','elephant',"chimpanzee"]
+```
+
+If you want to find code that is both syntactically correct and using good style the best place to look is going to be the docs (mdn for JavaScript and ruby-doc for Ruby). The code examples are a great place to look to see if you are writing your code in a similar way. Also, keep in mind that things like casing of variables is another good way to stay consistent and maintain good style.
+
+## Error Messages
+
+Error messages are a beautiful thing. Learning how to read errors is very important in programming because they can tell you <em>exactly</em> where you made a mistake.
+
+But error messages can be overwhelming because they may overload you with information or use terms you may not understand.
+
+What are some strategies that you have already been using to interpret error messages?
+
+### Program Specific Breakout Groups (20 minutes)
+
+After watching a brief demo from the instructor, complete the following exercise with program-specific breakout groups:
+
+<div class="try-it">
+  <h3>Mythical Creatures: A Primer</h3>
+  <p>Everyone should do a fist to five to show their comfort with error messages. Whoever is the least comfortable with errors will share their screen. Whoever is sharing their screen will be the driver. Every other person in the room will be a navigator.</p>
+    <ol>
+      <li>Clone and cd into the repo:</li>
+      <ul>
+        <li><a href="https://github.com/corneliusellen/mythical-creatures-primer-fe">Frontend version</a></li>
+        <li><a href="https://github.com/corneliusellen/mythical-creatures-primer">Backend version</a></li>
+      </ul>
+      <li>Run the file with the command <code>ruby yeti.rb</code> for BE or <code>node yeti.rb</code> for FE.</li>
+      <li>Discuss with your group what you think the error message means.</li>
+      <li>Fix the error.</li>
+      <li>Repeat step 2-4 until there are no more errors. You will know you are making progress if the error messages change.</li>
+    </ol>
+
+  <p>You've corrected all the errors when you see the single line <code>We'll have to outwit the Bumble with our superior intelligence</code> outputted to your terminal.</p>
+
+  <p><b>NOTE: To fix the errors, do not delete any <em>lines</em> of code. You may only update/add code.</b></p>
+</div>
+
+## BREAK
+
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
+<hr>
+
 <a name="iteration"></a>
 ## Iteration
 
@@ -260,13 +339,13 @@ The ability to critically examine a problem and break it down into smaller piece
 
 - *Planning:* Consider a situation where a not-as-technical boss asks the development team to make a new, large feature. Everyone will benefit from time spent laying out all the specific steps towards achieving the bigger end goal. Not only will your team be better able to communicate how much time completing the feature is expected to take, but individual tasks can be divided among your team in a way that is strategic and fair.
 
-- *Coding:* Breaking apart code challenges into steps is often referred to as `pseudocode`. A recommended approach is to write down short explanations of what specifically each line of code you will write will do. Pseudocode keeps your thoughts in order, especially helpful for when you might need to put a little research into HOW to accomplish all the steps involved. Further, pseudocode is an excellent approach to explaining code to your team because it is code-language agnostic, allowing non-technical teammates, or teammates who work with different technology, to pick up your ideas more easily. 
+- *Coding:* Breaking apart code challenges into steps is often referred to as `pseudocode`. A recommended approach is to write down short explanations of what specifically each line of code you will write will do. Pseudocode keeps your thoughts in order, especially helpful for when you might need to put a little research into HOW to accomplish all the steps involved. Further, pseudocode is an excellent approach to explaining code to your team because it is code-language agnostic, allowing non-technical teammates, or teammates who work with different technology, to pick up your ideas more easily.
 
 We'll practice some of the coding and business applications of breaking problems apart below.
 
 ## Turning data into a Display
 
-Imagine the following scenario for the next exercises: 
+Imagine the following scenario for the next exercises:
 
 You are a developer for a retail outlet. Your store has a customer rewards system, and tracks various data about its customers.
 
