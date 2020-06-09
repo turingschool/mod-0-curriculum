@@ -133,7 +133,7 @@ After watching a brief demo from the instructor, complete the following exercise
 
   <p>You've corrected all the errors when you see the single line <code>We'll have to outwit the Bumble with our superior intelligence</code> outputted to your terminal.</p>
 
-  <p><b>NOTE: To fix the errors, do not delete any <em>lines</em> of code. You may only update/add code.</b></p>
+  <p><b>Note: To fix the errors, you shouldn't just delete entire lines of code. Only update lines or add them.</b></p>
 </div>
 
 ## BREAK
@@ -326,69 +326,6 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
   <iframe height="350px" width="100%" src="//repl.it/@TimTyrrell1/RubyExampleNumberIteration?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   </div>
 </div>
-
-## BREAK
-
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
-<hr>
-
-<a name="pseudocoding"></a>
-## Breaking Apart A Problem - Pseudocode
-
-The ability to critically examine a problem and break it down into smaller pieces is an essential skill of a developer that can be improved with practice. Breaking large problems into several smaller problems can help you in every step of the development process:
-
-- *Planning:* Consider a situation where a not-as-technical boss asks the development team to make a new, large feature. Everyone will benefit from time spent laying out all the specific steps towards achieving the bigger end goal. Not only will your team be better able to communicate how much time completing the feature is expected to take, but individual tasks can be divided among your team in a way that is strategic and fair.
-
-- *Coding:* Breaking apart code challenges into steps is often referred to as `pseudocode`. A recommended approach is to write down short explanations of what specifically each line of code you will write will do. Pseudocode keeps your thoughts in order, especially helpful for when you might need to put a little research into HOW to accomplish all the steps involved. Further, pseudocode is an excellent approach to explaining code to your team because it is code-language agnostic, allowing non-technical teammates, or teammates who work with different technology, to pick up your ideas more easily.
-
-We'll practice some of the coding and business applications of breaking problems apart below.
-
-## Turning data into a Display
-
-Imagine the following scenario for the next exercises:
-
-You are a developer for a retail outlet. Your store has a customer rewards system, and tracks various data about its customers.
-
-### Task 1: Publish contest winners
-
-Your store has started a promotion where 3 customers are randomly selected to win a prize each month. The winners will be announced on your website, and you will receive the three customer IDs of the winners in a collection. You have also been told to build a form to verify the winner via customer ID and email address to send them a digital coupon.
-
-What specific steps must be taken to display the winners names on a website? What questions come up when you think about this process, and how might you incorporate those into your steps? While you might not know the specifics of HOW everything will work, try to think of every step that will need to occur along the way, and include when you might use specific methods, or patterns you've learned about.
-
-#### Finish brainstorming and writing down your steps before proceeding!
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### Task 2: Data Normalization
-
-You were able to retrieve the names of the three customers! The data you receive back appears as follows:
-
-```
-[ "jokic_nikola", "murray_jamal", "harris_garry" ]
-```
-
-Write pseudocode explaining how you would go about transforming the names into what you'd want to display on your website. Please note that the format is currently `lastname_firstname` and the desired result would be `Firstname Lastname`.
-When possible, list ideas for specific methods you'd use. (Remember- Google is your friend)
-
-### Extension - Hash/Object
-
-Frequently, you will receive information from databases in the form of a hash (or 'object' in javascript). In the example below, we get back a hash per winner, stored in an array. Arrays of objects can be tricky to navigate, so putting some thought into this now is great prep work, even if this is a work in progress:
-
-```
-var customerNames = [
-{ firstName: "nikola", lastName: "jokic" },
-{ firstName: "william", lastName: "barton_iii" },
-{ firstName: "jamal", lastName: "murray" }
-];
-```
-
-Again, write pseudocode explaining how you would access this information and change it into a format to display.
-When possible, list ideas for specific methods or notation of obtaining data.
 
 ### Other Reminders
 
