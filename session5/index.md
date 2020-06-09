@@ -42,9 +42,8 @@ subheading: Attention to Detail and Iteration
 
 ### Follow-Ups
 
-- We'll have scores back to y'all by early next week!
-- Be sure to use the formula pinned in the channel when asking technical questions
-- Capstone is due in a few weeks! Get on it!
+- Capstones are due this Wednesday! Get on it!
+- We will have assessment and capstone feedback to everyone by EOD Monday
 
 ### Today's Goals
 
@@ -108,13 +107,11 @@ If you want to find code that is both syntactically correct and using good style
 
 Error messages are a beautiful thing. Learning how to read errors is very important in programming because they can tell you <em>exactly</em> where you made a mistake.
 
-But error messages can be overwhelming because they may overload you with information or use terms you may not understand.
+But error messages can be overwhelming if you're not used to them because they might overload you with information or use terms you don't understand.
 
 What are some strategies that you have already been using to interpret error messages?
 
 ### Program Specific Breakout Groups (20 minutes)
-
-After watching a brief demo from the instructor, complete the following exercise with program-specific breakout groups:
 
 <div class="try-it">
   <h3>Mythical Creatures: A Primer</h3>
@@ -330,12 +327,12 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
 ### Other Reminders
 
 * This is your last mod 0 session
-* When you start working on Mythical Creatures in Mod 1, think back to OOP, classes and methods in mod 0
+* When you start working on Mythical Creatures in Mod 1, think back to OOP, classes and methods in Mod 0
 * Moving forward:
   * Keep up the hard work
   * Keep asking questions in your cohort channels
-  * Ellen, Mason and I are still around if you need us
-  * Capstone is due in a couple weeks! (see your mod 0 calendar)
+  * Ellen, Mason and David are still around if you need us
+  * Capstone is due Wednesday (see your mod 0 calendar)
 
 * Learning to code is much more like exercise than epiphanies - Think about MJ!
 
