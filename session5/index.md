@@ -18,9 +18,10 @@ subheading: Attention to Detail and Iteration
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong>Follow-Ups and Goals</li>
-      <li><strong>35 min: </strong><a href="#iteration">Iteration</a></li>
+      <li><strong>15 min: </strong><a href="#attention-to-detail">Attention to Detail</a></li>
+      <li><strong>25 min: </strong><a href="#errors">Error Handling</a></li>
       <li><strong>5 min: </strong>Break</li>
-      <li><strong>35 min: </strong><a href="#pseudocoding">Pseudocoding</a></li>
+      <li><strong>35 min: </strong><a href="#iteration">Iteration</a></li>
     </ul>
   </div>
   <div>
@@ -103,6 +104,7 @@ animals=["donkey",'giraffe','elephant',"chimpanzee"]
 
 If you want to find code that is both syntactically correct and using good style the best place to look is going to be the docs (mdn for JavaScript and ruby-doc for Ruby). The code examples are a great place to look to see if you are writing your code in a similar way. Also, keep in mind that things like casing of variables is another good way to stay consistent and maintain good style.
 
+<a name="errors"></a>
 ## Error Messages
 
 Error messages are a beautiful thing. Learning how to read errors is very important in programming because they can tell you <em>exactly</em> where you made a mistake.
