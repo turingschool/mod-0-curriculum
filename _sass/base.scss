@@ -101,6 +101,11 @@ header {
   width: 80%;
 }
 
+.calendar {
+  height: 400px;
+  width: 100%;
+}
+
 @media (max-width: $tablet-width) {
   .content {
     width: 100%;

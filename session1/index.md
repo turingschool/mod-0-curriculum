@@ -21,7 +21,8 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
     <h3>Agenda</h3>
     <ul>
       <li><strong>10 min: </strong><a href="#intro">Housekeeping, Intros</a></li>
-      <li><strong>20 min: </strong><a href="#expectations">Turing/Mod 0 mission and expectations</a></li>
+      <li><strong>20 min: </strong><a href="#turing-expectations">Turing mission and expectations</a></li>
+      <li><strong>20 min: </strong><a href="#mod0-expectations">Mod 0 mission and expectations</a></li>
       <li><strong>20 min: </strong><a href="#studytips">Study Tips</a></li>
       <li><strong>5 min: </strong>Break</li>
       <li><strong>10 min: </strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
@@ -82,7 +83,7 @@ Other things to note as we go through Mod 0:
 - <strong>You can raise your hand using zoom</strong>: go ahead and try it now!
 - <strong>Problems or individual questions during the Zoom session?</strong> Send a message in the chat!
 
-<a name="expectations"></a>
+<a name="turing-expectations"></a>
 ## Turing Mission and Expectations
 
 > “Our mission is to unlock human potential by training a diverse, inclusive student body to succeed in high-fulfillment technical careers.”
@@ -113,6 +114,7 @@ We will also remind you when these events are via **[slack](https://turingschool
 
 This [video](https://www.youtube.com/watch?v=tfq333EpWgM&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=2&t=110s) from Back-End instructor Tim Tyrrell is a great resource to get more comfortable with slack.
 
+<a name="mod0-expectations"></a>
 ## Mod 0 Expecations
 
 Mod 0 is less about code or solving difficult problems and more about developing and learning tools, procedures, systems, and  learning behaviors/processes. For some of you, the technical content will be brand new. For others, it will be review.
@@ -127,15 +129,16 @@ At the end of mod 0, you'll be considered one of the following:
  * You’ve missed more than one session or did not meet engagement expectations
  * You’ve missed assignments or delivered poor quality work
  * You were unable to pass the Technical Assessment
- * You were unable to pass the Mod 0 Capstone
+ * You were unable to pass the Mod 1 Pre-work
    * *Next step:* You have one chance to re-enroll in and successfully complete Mod 0
  * If you don’t pass on your second try you will be asked to reapply to Turing in 6 months.
 
 **Technical Ready**
  * Your work and assessment have met the expectations of mod 0
- * *Next step:* Submit your Program-Specific Mod 0 Capstone
+ * *Next step:* Submit your Program-Specific Mod 1 Pre-work
 
-If your Mod 0 Capstone meets expectations, you'll be **Turing Ready**
+If your Mod 1 Pre-work meets expectations, you'll be **Turing Ready**
+
 
 <div class="try-it">
   <h3>Break out rooms</h3>
