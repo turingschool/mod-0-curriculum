@@ -46,7 +46,6 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 - Leaving feedback directly on homework gists. Make sure you're checking them. We'll have session 2 + 3 feedback to y'all be end of the weekend.
 - Remember to be aware of where you are in your directory structure of the terminal before you clone anything down or start running git commands. Always run ls after cloning
-- We don't expect you to be masters at all the things in your capstone. It's really your mod 1 prework
 - We understand that things are crazy right now. Be kind and gentle with yourselves and others. If you need anything from us, don't hesitate to reach out. Remember that proactive communication is always best.
 
 ### Other Notes
@@ -328,7 +327,7 @@ This is our final Mod 0 technical session. Your assignment between now and Sessi
 
   <ol>
     <li>Open up your <code>...</code> file in your text editor.</li>
-    <li>You'll be given directions for some exercises that are program specific. Looking for something to study? Check out session 1 on data types and variable assignment. The capstone is also a good resource.</li>
+    <li>You'll be given directions for some exercises that are program specific. Looking for something to study? Check out session 1 on data types and variable assignment. The mod 1 pre-work is also a good resource.</li>
     <li>If you are really solid with data types and variable assignment, it shouldn't be too bad</li>
     <li>Save your file.</li>
     <li>Add and commit your changes.</li>

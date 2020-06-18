@@ -14,19 +14,10 @@ The assignments below will be submitted in gists that you will create on your Gi
 * click Create Public Gist
 * You can also visit [gist.github.com](https://gist.github.com/)
 
-We take these exercises seriously, and we ask that you do too. We expect at minimum 4-6 sentences in response to **each** question, but feel free to expand and elaborate as you deem necessary. Use Markdown to organize your gists clearly with the question above the response like so:
-<div class="try-it">
-  <h3>What is the value of a checklist?</h3>
-  <p>Your response here.</p>
-  <hr>
-  <h3>What do you plan to improve upon while at Turing?</h3>
-  <p>Your response here.</p>
-</div>
- Don't worry about the color or the boxes within the formatting, but the above has the heading and response format that will help us read through these clearly and efficiently, while giving you some practice with ```.md``` files.
+We take these exercises seriously, and we ask that you do too. We expect at minimum 4-6 sentences in response to **each** question, but feel free to expand and elaborate as you deem necessary. Use Markdown (this is a programming language used for writing) to format your gists.
 
- Use these exercises to start telling your unique story with your distinct experiences. This is something we will continue to practice during your time at Turing.
+Use these exercises to start telling your unique story with your distinct experiences. This is something we will continue to practice during your time at Turing.
 
 #### [Professional Development Assignment](https://github.com/turingschool/career-development-curriculum-site/blob/master/module-0-capstone/career_development_capstone.md)
 
 #### [Gear Up Assignment](https://github.com/turingschool/gear-up/blob/master/pre-work/intro_with_empathy.markdown)
-

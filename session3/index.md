@@ -409,5 +409,3 @@ git push origin master
 ## Homework and GitHub Projects
 
 Business as usual. Reach out on slack if you're stuck!
-
-Capstone is due next Wednesday! Aim to be finished with day 5 by the weekend!

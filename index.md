@@ -3,11 +3,9 @@ layout: main
 title: Mod 0 Curriculum
 ---
 
-Hi there and welcome!
-
 ## What is Mod 0?
 
-Mod 0 is a prerequisite course for both of the programs at Turing. It is a structured series of 5 classes which take place remotely during the evening, and ideally starts 6 weeks before you begin your full-time FEE or BEE course at Turing. These classes are not in person, and are conducted fully remotely via Zoom. Please check the [calendar](https://sites.google.com/casimircreative.com/enrollment/documents-and-info/events-mod-0-calendar) for session dates.
+Mod 0 is a prerequisite course for both of the programs at Turing. It is a structured series of 5 sessions which take place remotely during the evening, and ideally starts 6 weeks before you begin your full-time FEE or BEE course at Turing. These classes are not in person, and are conducted fully remotely via Zoom. Please check the [calendar]({{ site.baseurl }}/calendar) for session dates.
 
 The goals of mod 0 are to:
 * Understand the systems and behaviors needed to be successful at Turing and as a software developer
@@ -31,7 +29,3 @@ The key tools and concepts we go over in mod 0 are:
 ## Next steps
 
 When you're ready to get started, click over to [environment setup instructions]({{ site.baseurl }}{% link setup-instructions.md %}) and start installing!
-
-## Calendar
-
-<iframe src="https://calendar.google.com/calendar/embed?src=casimircreative.com_12p4693hmer1orcepp74vg77pg%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="100%" height="500" frameborder="0" scrolling="yes"></iframe>

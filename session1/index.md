@@ -105,7 +105,7 @@ Turing is a very challenging experience for most people. To be successful here, 
 
 ### Communication
 
-Make sure that you've added the **[Mod 0 Calendar](https://calendar.google.com/calendar?cid=Y2FzaW1pcmNyZWF0aXZlLmNvbV8xMnA0NjkzaG1lcjFvcmNlcHA3NHZnNzdwZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)** to your own calendar. This is where you will find all mod 0 related events, including sessions, capstone study sessions, and other community wide events.
+Make sure that you've added the **[Mod 0 Calendar](https://calendar.google.com/calendar?cid=Y2FzaW1pcmNyZWF0aXZlLmNvbV8xMnA0NjkzaG1lcjFvcmNlcHA3NHZnNzdwZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)** to your own calendar. This is where you will find all mod 0 related events, including sessions, mod 1 pre-work study sessions, and other community wide events.
 
 We will also remind you when these events are via **[slack](https://turingschool.slack.com/)**, which is the **primary mode of communication** we use at Turing. Make sure that you're checking it once a day so that you can stay up to date. It's also a great place to ask questions if you are running into issues, as people are likely experiencing the same issue that you are.
 
@@ -664,5 +664,3 @@ In addition, consider the following questions:
 ## Homework
 
 Find the homework in your Mod 0 Project Board. Contact David, Ellen, or Mason if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
-
-Capstones (program specific pre-work) are another good thing to get a head start on. They can be found on the mod 0 website in the sidebar and are due 6/10. Plan on ~40 hours in total.

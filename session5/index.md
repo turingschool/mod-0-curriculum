@@ -43,8 +43,8 @@ subheading: Attention to Detail and Iteration
 
 ### Follow-Ups
 
-- Capstones are due this Wednesday! Get on it!
-- We will have assessment and capstone feedback to everyone by EOD Monday
+- Prework is due this Wednesday! Get on it!
+- We will have assessment and prework feedback to everyone by EOD Monday
 
 ### Today's Goals
 
@@ -334,8 +334,8 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
   * Keep up the hard work
   * Keep asking questions in your cohort channels
   * Ellen, Mason and David are still around if you need us
-  * Capstone is due Wednesday (see your mod 0 calendar)
+  * Prework is due Wednesday (see your mod 0 calendar)
 
 * Learning to code is much more like exercise than epiphanies - Think about MJ!
 
-> Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 0 capstone are the ones that usually struggle for at least the first half of the mod."
+> Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 1 pre-work are the ones that usually struggle for at least the first half of the mod."

@@ -54,7 +54,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 - We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
 - You'll receive feedback on homework from either Alice, Margo, Mason, or David. Check your homework gists!!!
-- Where are you on your capstone? They're due June 10th!
+- Where are you on your pre-work? It's due June 10th!
 
 ### Today's Goals
 
