@@ -13,7 +13,7 @@ Complete the following steps before Mod 0 in order to get the tools you'll need 
 If you'd like to watch a video overview, a Turing alum who is <strike>at least partially competent</strike> gainfully employed in the software development industry put this video together for you, which walks through most of this guide:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7TTt1a8UHic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
+
 The above video has shortcuts to specific pieces of this guide. Click over to it and read the video description to jump to just the right sections.
 
 Here's what we'll cover in this guide. Click a link to jump to that portion of the guide:
@@ -30,7 +30,7 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 
 Lets get started:
 
-## 1) New to Mac? 
+## 1) New to Mac?
 
 If this is your first time using a Mac instead of a PC or Linux, then watch [this video](https://www.youtube.com/watch?v=MN0FD8KW2V4) about the basics of using a Mac.
 
@@ -44,12 +44,12 @@ Install [Atom](https://atom.io/). Atom is a program where we edit code - it is a
 
 Rather than download Xcode via the Apple Store, we can get a much smaller selection of necessary tools, called `xcode-select`, via our terminal.
 
-Open the Terminal by pressing the `Command + Space` keys at the same time, which opens Spotlight, and then type `Terminal` into the search. Press the enter key, and type the following into the application, but without the `$`: 
+Open the Terminal by pressing the `Command + Space` keys at the same time, which opens Spotlight, and then type `Terminal` into the search. Press the enter key, and type the following into the application, but without the `$`:
 
 ```
 $ xcode-select --install
 ```
-When prompted, enter your password. 
+When prompted, enter your password.
 
 You can verify that the installation was successful by typing `xcode-select` in your terminal. You should see something like this:
 
@@ -71,7 +71,7 @@ Options:
 
 ### A note on convention
 
-When you see a `$` before a line, it means "enter what follows the dollar sign as a terminal command". 
+When you see a `$` before a line, it means "enter what follows the dollar sign as a terminal command".
 
 Lines that don't have a `$` are usually what is printed out as a _result_ of the command.
 
@@ -96,7 +96,7 @@ Options:
 
 [Homebrew](https://brew.sh/) is a package management system that makes it easy to install hundreds of open source projects and compile them from source for maximum performance on your machine.
 
-To install homebrew, open Terminal. Again, you can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search. 
+To install homebrew, open Terminal. Again, you can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search.
 
 Once you have Terminal open, paste this line and hit enter. (remember, skip the `$`)
 
@@ -116,8 +116,9 @@ Your system is ready to brew.
 If you got a warning from Homebrew about your path, do the following:
 
 ```
-$ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
-$ source ~/.bash_profile
+$ touch ~/.zshrc
+$ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
+$ source ~/.zshrc
 // Now run "brew doctor" again and the warning should be gone.
 ```
 
@@ -157,7 +158,7 @@ We'll want to configure git with some basic information about us.
 
 We can tell git to configure itself using the git config command from our terminal. Additionally, we're setting "global" configurations for git, so we'll use the --global flag when we provide it with a new piece of configuration.
 
-Open Terminal with Spotlight search (press the `Command + Space` keys like we did previously). Type the following, substituting your own name and email: 
+Open Terminal with Spotlight search (press the `Command + Space` keys like we did previously). Type the following, substituting your own name and email:
 
 ```
 git config --global user.name "Alan Turing"
@@ -177,7 +178,7 @@ If you get "stuck" in the screen showing the output of `git config --list`, don'
 
 ## 7) Install Chrome
 
-If you're not already using Chrome, install it from [here](https://www.google.com/chrome/). Chrome includes a set of developer tools that will come in handy down the road. Additionally, it is always on the cutting edge of being able to support new web technologies. 
+If you're not already using Chrome, install it from [here](https://www.google.com/chrome/). Chrome includes a set of developer tools that will come in handy down the road. Additionally, it is always on the cutting edge of being able to support new web technologies.
 
 --------------------
 
@@ -193,11 +194,11 @@ Install the shell commands for Atom. Open Atom, drop down the `Atom` menu in the
 
 ![Install Shell Commands](/images/install_shell_commands.jpg)
 
-To confirm that Atom is working from your command line, open a terminal with Spotlight search (`Command + Space`), type `terminal` and hit enter. Type `atom .` in your terminal. If it is setup correctly, the atom editor will automatically open. 
+To confirm that Atom is working from your command line, open a terminal with Spotlight search (`Command + Space`), type `terminal` and hit enter. Type `atom .` in your terminal. If it is setup correctly, the atom editor will automatically open.
 
 If you get an error, make sure you've selected `Install Shell Commands` from the Atom menu.
 
-If is _still_ not working, try entering this in the command line: 
+If is _still_ not working, try entering this in the command line:
 
 ```
 ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
@@ -211,7 +212,7 @@ Atom also offers a number of different options and packages that you can customi
 
 SSH keys are a more secure and convenient way of authenticating than typing in our password every time we want to interact with Github.
 
-This is getting fairly advanced, so if you want to stop the setup instructions here, and come back later once you're annoyed at entering your Github password regularly, that's totally fine. 
+This is getting fairly advanced, so if you want to stop the setup instructions here, and come back later once you're annoyed at entering your Github password regularly, that's totally fine.
 
 This can be a bit tricky to do, so here's another quick walk-through, of _just_ adding Github SSH keys:
 
@@ -294,9 +295,8 @@ Are you sure you want to continue connecting (yes/no)?
 Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-Great work! You've connected your terminal to your Github profile. You can now interact with Github from your terminal _without_ entering your password all the time. 
+Great work! You've connected your terminal to your Github profile. You can now interact with Github from your terminal _without_ entering your password all the time.
 
 ### You're Done!
 
-Give yourself a pat on the back. 
-
+Give yourself a pat on the back.
