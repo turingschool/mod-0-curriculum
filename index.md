@@ -14,8 +14,10 @@ The goals of mod 0 are to:
 
 In order to pass mod 0 and be mod 1 ready, you will need to:
 * Attend all 5 sessions and complete the required homework
+  * homeworks are due by the next session. ie. session 1 hw is due by session 2
 * Pass the mod 0 assessment (Info can be found in session 4)
 * Pass the mod 1 pre-work (See side bar link for your program)
+  * All of the due dates above are on the [calendar]({{ site.baseurl }}/calendar)
 
 ## What will we cover in Mod 0?
 

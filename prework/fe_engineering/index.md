@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Module 1 Pre-work
-subheading: Front End Engineering
+subheading: Front-End Engineering
 ---
 
 {% include base-prework-instructions.md %}
