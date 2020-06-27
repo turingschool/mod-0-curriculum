@@ -16,4 +16,4 @@ This project board allows for a methodology called kanban (I would google the te
 
 When you've finished your homework for a given session, and you're looking for something to do, you can always rely on the mod 1 pre-work as that outlet! Just find the link in the sidebar for your program.
 
-Click [here](https://www.youtube.com/playlist?list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt) for some review videos to help with some of the concepts we go over in mod 0.
+Click [here](https://www.youtube.com/playlist?list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt) for some review videos to help with some of the concepts we go over in mod 0 and the mod 1 pre-work

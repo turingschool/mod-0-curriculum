@@ -13,10 +13,10 @@ The goals of mod 0 are to:
 * Begin to break down social walls and build community in your future cohort
 
 In order to pass mod 0 and be mod 1 ready, you will need to:
-* Attend all 5 sessions and complete the required homework
+1. Attend all 5 sessions and complete the required homework
   * homeworks are due by the next session. ie. session 1 hw is due by session 2
-* Pass the mod 0 assessment (Info can be found in session 4)
-* Pass the mod 1 pre-work (See side bar link for your program)
+2. Pass the mod 0 assessment (Info can be found in session 4)
+3. Pass the mod 1 pre-work (See side bar link)
   * All of the due dates above are on the [calendar]({{ site.baseurl }}/calendar)
 
 ## What will we cover in Mod 0?
@@ -30,4 +30,4 @@ The key tools and concepts we go over in mod 0 are:
 
 ## Next steps
 
-When you're ready to get started, click over to [environment setup instructions]({{ site.baseurl }}{% link setup-instructions.md %}) and start installing!
+When you're ready to get started, click over to [computer setup instructions]({{ site.baseurl }}{% link setup-instructions.md %}) and start installing!
