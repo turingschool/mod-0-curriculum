@@ -47,18 +47,19 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: David and Ellen
+* Instructor intros: David, Margo, and Alice
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
 ## Housekeeping and Follow-ups
 
 * Did you get through your session 1 pre-work? Post in the chat!
-* No email from conveyorbelt? https://turingschool.slack.com/archives/G013R8PD2NA/p1589984057066100
+* No email from conveyorbelt? follow the instructions in the homework tab to find your board
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
 * We share pronouns to be inclusive of folks who are transgender or gender non-conforming
   * If you're unfamiliar with genders other than cisgender, the [gender-unicorn](https://transstudent.org/what-we-do/graphics/gender-unicorn/) is a great resource to learn about them
 * Session will be recorded and posted in Slack
+* Turing is staying remote first through at least January
 
 ### Breakout Rooms
 
@@ -252,8 +253,8 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
         </li>  
       </ul>
       <div>
-      <h3>Spectacle</h3>
-      <p>Start by making sure Spectacle is running with (command + spacebar) then type <strong>spectacle</strong> and then return. You should see a sunglasses icon at the top right of your menu bar. Click the icon to see a dropdown of your shortcuts. Click preferences to customize them.</p>
+      <h3>Spectacle / Rectangle</h3>
+      <p>Start by making sure Spectacle or Rectangle is running with (command + spacebar) then type <strong>spectacle</strong> and then return. You should see a sunglasses icon at the top right of your menu bar. Click the icon to see a dropdown of your shortcuts. Click preferences to customize them.</p>
       <ul>
         <li>
           <strong>Full Screen Current Window:</strong>
@@ -663,4 +664,6 @@ In addition, consider the following questions:
 <a name="homework"></a>
 ## Homework
 
-Find the homework in your Mod 0 Project Board. Contact David, Ellen, or Mason if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
+Find the homework in your Mod 0 Project Board. Contact your instructors if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
+
+Also, if you haven't already, make sure that you start your mod 1 pre-work.
