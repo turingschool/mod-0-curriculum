@@ -13,7 +13,7 @@ The Mod 1 Pre-work is divided into three sections: Professional Development, Gea
 
 The following assignments are due based on your mod 0 section and can be found on the [mod 0 calendar]({{ site.baseurl }}/calendar)
 
-The capstone is made up of 3 parts:
+The pre-work is made up of 3 parts:
 * [Professional Development]({{ site.baseurl }}#professional-dev)
 * [Gear Up]({{ site.baseurl }}#gear-up)
 * [Technical]({{ site.baseurl }}#technical)
