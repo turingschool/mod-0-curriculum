@@ -6,7 +6,7 @@ title: Homework
 All of the homework for mod 0 can be found on the [mod 0 project board](https://github.com/turingschool/mod-0/projects/1)
 
 
-You'll be using an app called [conveyor belt](http://conveyorbelt.herokuapp.com/) to create your own copy of the board above. This will allow you to track your progress on the homework over time by moving each card to the done column when you've completed it.
+You'll be using an app called [conveyor belt](http://conveyorbelt.herokuapp.com/projects/vyVI9T5ajeyC/clones/new) to create your own copy of the board above. This will allow you to track your progress on the homework over time by moving each card to the done column when you've completed it.
 
 This project board allows for a methodology called kanban (I would google the term if you're unfamiliar) to organize and update
 
