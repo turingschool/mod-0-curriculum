@@ -42,6 +42,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ## Housekeeping, Feedback, and Goals
 
+- Special Guest! Amy Holt with a new pilot program
 - In the chat, post a keyboard shortcut that you practiced and now feel comfortable using.
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
 - Questions during the session? Click "raise hand" for whole-group question, or message the non-presenting host for an individual question.
@@ -53,8 +54,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 ### Follow-Ups
 
 - We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
-- You'll receive feedback on homework from either Alice, Margo, Mason, or David. Check your homework gists!!!
-- Where are you on your pre-work? It's due June 10th!
+- You'll receive feedback on homework from either Alice, Margo, or Mason. Check your homework gists!!!
 
 ### Today's Goals
 
@@ -759,6 +759,8 @@ Understanding git and the workflow can be tricky at first; however, this pattern
 Today (and during Mod 0), we'll just be moving forward in time using git. We won't learn how to go back in time, but it's important to understand and master making small commits before adding in new git functionality.
 
 We do not expect you to have these steps and reasons memorized right now. You can always reference back to this tutorial (or other tutorials that you find online). The more you practice, the easier it will become.
+
+Check out this great resource from built by Turing instructor Amy Holt: https://learn-terminal.turing.io/
 
 ## Homework
 
