@@ -57,7 +57,7 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 * No email from conveyorbelt? follow the instructions in the homework tab to find your board
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
 * We share pronouns to be inclusive of folks who are transgender or gender non-conforming
-  * If you're unfamiliar with genders other than cisgender, the [gender-unicorn](https://transstudent.org/what-we-do/graphics/gender-unicorn/) is a great resource to learn about them
+  * If you're unfamiliar with genders other than cisgender, the [gender-unicorn](http://transstudent.org/gender/) is a great resource to learn about them
 * Session will be recorded and posted in Slack
 * Turing is staying remote first through at least January
 
@@ -213,6 +213,7 @@ Throughout your time at Turing, including mod 0 we'd suggest that you get in the
     * Anime (#anime)
     * Teachers  (#teachers-union)
     * Motorcycle Enthusiasts (#turing-moto-club)
+    * One on one meetings with community members (#lets_grab_donuts)
 
 ## BREAK
 
