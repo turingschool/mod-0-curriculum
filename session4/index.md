@@ -44,9 +44,7 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 ### Follow-Ups
 
-- Leaving feedback directly on homework gists. Make sure you're checking them. We'll have session 2 + 3 feedback to y'all be end of the weekend.
-- Remember to be aware of where you are in your directory structure of the terminal before you clone anything down or start running git commands. Always run ls after cloning
-- We understand that things are crazy right now. Be kind and gentle with yourselves and others. If you need anything from us, don't hesitate to reach out. Remember that proactive communication is always best.
+- Leaving feedback directly on homework gists. Everyone has feedback on gists for hw's 1 + 2 so far.
 
 ### Other Notes
 
@@ -76,7 +74,7 @@ Oops, I need to fix my spelling mistake
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. What music are you listening to currently, and is there any music that you've found to be helpful when you're studying/programming? </p>
   <p>3. Accountability review: what tangible progress have you made toward the focus skills you identified at the beginning of Mod 0?</p>
-  <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
+  <p>Have extra time? Share what extra things you're doing to get ready to start mod 1</p>
 </div>
 
 <a name="scavengerhunt"></a>
@@ -189,7 +187,7 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
 
 #### Key Points
 
-* A method performs some kind of work and will almost always **use** or **modify** an attribute
+* A method performs some kind of work and should **use** or **modify** an attribute
   * it can add to or take away from an attribute
   * it can reassign an attribute
   * it can toggle an attribute
@@ -218,7 +216,7 @@ recyclable (boolean)
 
 Methods:
 calculatePercentFull (divides currentCapacity by totalCapacity)
-refill (subtracts currentCapacity from totalCapacity and then refills that amount)
+fill (adds 50 to currentCapacity)
 addSticker (append a sticker item into the stickers array)
 changeColor (changes the color attribute)
 ```
@@ -236,13 +234,17 @@ Object: Nalgene
 Attributes:
 color: "Pink"
 lidType: "Twist top"
-...
+totalCapacity: 1000
+stickers: ["I voted", "A basin", "Hello Kitty"]
+currentCapacity: 800
+recyclable: true
 
 
 Methods:
 calculatePercentFull: 800 / 1000 = .8
+refill: currentCapacity = 850
+addSticker: stickers = ["I voted", "A basin", "Hello Kitty", "Megan Thee Stallion"]
 changeColor: color = "Blue"
-...
 ```
 
 <div class="try-it">
