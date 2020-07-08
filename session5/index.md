@@ -43,7 +43,10 @@ subheading: Attention to Detail and Iteration
 
 ### Follow-Ups
 
-- We will have assessment feedback to everyone by end of the weekend
+- We will have assessment feedback and results to everyone by end of the weekend
+  - If you pass, what do you have left to be mod 1 ready?
+- Only 20 of 30 surveys in for session 4
+- We teach JavaScript not Java
 
 ### Today's Goals
 
