@@ -60,7 +60,6 @@ subheading: Attention to Detail and Iteration
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. What is a book, tv show, or movie that you've read/watched recently and really enjoyed? Why?</p>
   <p>3. Accountability review: what tangible progress have you made toward your mod 0 focus skills?</p>
-  <p>4. Determine who will bring your breakout group questions back to the whole group</p>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
 
