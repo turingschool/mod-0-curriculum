@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 1
-subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
+subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
 ---
 
 <div class="goals-agenda">
@@ -9,8 +9,7 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
     <h3>Goals</h3>
     <strong>By the end of this session, you will be able to:</strong>
     <ul>
-      <li>speak to Turing's mission and expectations</li>
-      <li>implement study habits that will help you be successful at Turing</li>
+      <li>understand the full stack of web development at a high level</li>
       <li>use keyboard shortcuts to navigate your computer and Chrome</li>
       <li>brainstorm classes for specific objects</li>
       <li>refine searching and filtering skills to Google programming questions</li>
@@ -20,13 +19,10 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>10 min: </strong><a href="#intro">Housekeeping, Intros</a></li>
-      <li><strong>20 min: </strong><a href="#turing-expectations">Turing mission and expectations</a></li>
-      <li><strong>20 min: </strong><a href="#mod0-expectations">Mod 0 mission and expectations</a></li>
-      <li><strong>20 min: </strong><a href="#studytips">Study Tips</a></li>
-      <li><strong>5 min: </strong>Break</li>
+      <li><strong>25 min: </strong><a href="#the-stack">The Full Stack</a></li>
       <li><strong>10 min: </strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
-      <li><strong>10 min: </strong><a href="#classes">Classes</a></li>
+      <li><strong>15 min: </strong><a href="#classes">Classes</a></li>
+      <li><strong>5 min: </strong>Break</li>
       <li><strong>15 min: </strong><a href="#findinganswers">Googling</a></li>
       <li><strong>25 min: </strong><a href="#datatypes">Data Types</a></li>
       <li><strong>10 min: </strong><a href="#homework">Homework Preview</a></li>
@@ -47,19 +43,18 @@ subheading: Expectations, Keyboard Shortcuts, Googling, and Data Types
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: David, Margo, and Alice
+* Instructor intros: David, Ellen, and Mason
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
 ## Housekeeping and Follow-ups
 
-* Did you get through your session 1 pre-work? Post in the chat!
-* No email from conveyorbelt? follow the instructions in the homework tab to find your board
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
 * We share pronouns to be inclusive of folks who are transgender or gender non-conforming
-  * If you're unfamiliar with genders other than cisgender, the [gender-unicorn](http://transstudent.org/gender/) is a great resource to learn about them
-* Session will be recorded and posted in Slack
+* If you're unfamiliar with genders other than cisgender, the [gender-unicorn](http://transstudent.org/gender/) is a great resource to learn about them
+* Sessions will be recorded and posted in Slack
 * Turing is staying remote first through at least January
+* No computer yet? Don't fret for today. If it's not here by Thursday. Let me (David) know in slack!
 
 ### Breakout Rooms
 
@@ -75,7 +70,7 @@ Breakout groups can be a bit awkward at first, but try to embrace them and have 
   <h3>Try It: Break out rooms</h3>
   <p>1. Introduce yourself (name, pronouns, program)</p>
   <p>2. Where do you call home</p>
-  <p>3. What is a tv show you've been getting into during quarantine?</p>
+  <p>3. What were your takeaways from the orientation video that you watch in preparation for class?</p>
 </div>
 
 Other things to note as we go through Mod 0:
@@ -84,140 +79,51 @@ Other things to note as we go through Mod 0:
 - <strong>You can raise your hand using zoom</strong>: go ahead and try it now!
 - <strong>Problems or individual questions during the Zoom session?</strong> Send a message in the chat!
 
-<a name="turing-expectations"></a>
-## Turing Mission and Expectations
+<a name="the-stack"></a>
+## "The Stack"
 
-> “Our mission is to unlock human potential by training a diverse, inclusive student body to succeed in high-fulfillment technical careers.”
+People talk about being back-end, front-end, or full-stack devs, but what does that mean? What technologies are you working in? Where does your code run?
 
-* We all have different backgrounds and experiences
-* Listen and learn from one another's perspectives
+Let's break it down.
 
-### A different type of learning environment
+At Turing, we teach <span class="vocab">web development</span>. This means that we build applications that live on the internet.
 
-Turing is a very challenging experience for most people. To be successful here, I'd highly recommend that you embrace a **growth mindset**. This means that you believe that knowledge and intelligence can be improved through hard work and dedication and that you may fail at something before you're successful at it. It's the difference between being good at something right off the bat, and working hard to get good at something that sets people apart here.
+If you're in the **Front-End Program**, you're going to be writing code that lives on the user's computer. For the sake web apps, it'll live within their web browser (ie. chrome). The Front-End is user facing, and can be thought of as the presentation layer. Fun frontend things include data visualization and interesting user interactions.
 
-**This is not traditional education**
-* You will not be given all of the answers
-* We expect you to do your own research
-* Technology is constantly changing
-* Learning how to learn
+If you're in the **Back-End Program**, you're likely writing code that lives on a server somewhere. This may not interact with the end user directly. Instead, it's often the back-end's job to store and manipulate data that's sent from the front-end. Or search through data and present it to the front-end.
 
-**There is no transcript** - Sure, you'll get a diploma upon graduation, but we don't have GPAs at Turing and grades are not the measurement of success. **We measure success in understanding.** Throughout your time at Turing, you'll have projects and assessments that will allow us as instructors to gauge your success. This is because the ultimate goal here is for you to get a job in software development. And to do so, you need to show understanding during the interview process.
+Front-End and Back-End technologies communicate via a protocol called <span class="vocab">http</span>. This stands for hypertext transfer protocol. Which in simple terms means that it is a standard for how data is sent back and forth over the internet.
 
-### Communication
+#### The stack in practice
 
-Make sure that you've added the **[Mod 0 Calendar](https://calendar.google.com/calendar?cid=Y2FzaW1pcmNyZWF0aXZlLmNvbV8xMnA0NjkzaG1lcjFvcmNlcHA3NHZnNzdwZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)** to your own calendar. This is where you will find all mod 0 related events, including sessions, mod 1 pre-work study sessions, and other community wide events.
+What happens when we go to airbnb.com, and fill out the form with a location and dates, and then click enter?
+* What is happening on the client side?
+* What is happening on the server side?
+* In what order?
 
-We will also remind you when these events are via **[slack](https://turingschool.slack.com/)**, which is the **primary mode of communication** we use at Turing. Make sure that you're checking it once a day so that you can stay up to date. It's also a great place to ask questions if you are running into issues, as people are likely experiencing the same issue that you are.
+#### Technologies
 
-* Let's practice a couple of slack features right now! Watch as we show you how to make and write in threads.
-  * Thread: What is your favorite food?
+Front-End languages include:
 
-This [video](https://www.youtube.com/watch?v=tfq333EpWgM&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=2&t=110s) from Back-End instructor Tim Tyrrell is a great resource to get more comfortable with slack.
+* html
+* JavaScript
+* css
 
-<a name="mod0-expectations"></a>
-## Mod 0 Expecations
+Does anyone know what front-end technologies are taught at Turing?
 
-Mod 0 is less about code or solving difficult problems and more about developing and learning tools, procedures, systems, and  learning behaviors/processes. For some of you, the technical content will be brand new. For others, it will be review.
+Back-End languages include:
 
-At the end of Session 4, you'll take a technical assessment that will showcase a subset skills you learned during Mod 0. The assessment will be performance-based rather than multiple choice. The assessment instructions will include a checklist of what we're looking for to know that you've practiced and mastered the material.
+* Ruby
+* PHP
+* Java
 
-### Being Turing Ready
-
-At the end of mod 0, you'll be considered one of the following:
-
-**Not Ready** based on any of these factors:
- * You’ve missed more than one session or did not meet engagement expectations
- * You’ve missed assignments or delivered poor quality work
- * You were unable to pass the Technical Assessment
- * You were unable to pass the Mod 1 Pre-work
-   * *Next step:* You have one chance to re-enroll in and successfully complete Mod 0
- * If you don’t pass on your second try you will be asked to reapply to Turing in 6 months.
-
-**Technical Ready**
- * Your work and assessment have met the expectations of mod 0
- * *Next step:* Submit your Program-Specific Mod 1 Pre-work
-
-If your Mod 1 Pre-work meets expectations, you'll be **Turing Ready**
+Does anyone know what back-end technologies are taught at Turing?
 
 
-<div class="try-it">
-  <h3>Break out rooms</h3>
-  <p>1. What is one reason you chose to come to Turing?</p>
-  <p>2. What is your biggest concern about coming to Turing?</p>
-  <p>3. What is a skill or focus area that you want to be held accountable on during mod 0?</p>
-  <p>ie. Asking questions during sessions, sticking to a calendar, using a planner</p>
-</div>
 
-<a name="studytips"></a>
-### Study Habits
 
-Throughout your time at Turing, including mod 0 we'd suggest that you get in the habit of doing the following:
-
-#### Pre-teaching
-* Preview: Up to 24 hours prior
-  * Check out the lesson plan
-  * Peek at coding examples
-  * Record new vocab in Turing Notebook
-
-#### Take great notes (during the lesson)
-* Notebook: Start now with handwritten notes
-* Visual organization: Colors/markers/pens/stickies
-* Diagrams: Draw out everything your instructors draw on board
-* KEY ideas: Focus on main concepts, write in your own words
-
-#### Post-teaching
-* Review: At lesson’s close
-  * What do I understand from today?
-  * When will I need what I just learned?
-  * What questions do I still have?
-* Do your own research!
-* Experiment!
-
-### Study Habits (focus)
-* Limit distractions. Turn off:
-  * Notifications (slack, imessage, etc)
-  * Phone (or airplane mode, and out of sight)
-
-* Location, location, location:
-  * Make sure that your space is quiet and free from distractions
-  * Leave house if need be
-
-### Study Habits (goals)
-* Study/Worktime goal:
-  * Write priorities in your notebook for each study/work session (get granular)
-  * Use checklists and kanban tracking
-* Pomodoros:
-  * Use a TIMER and stick to it. ([befocused timer - free on App Store](https://apps.apple.com/us/app/be-focused-focus-timer/id973130201))
-  * Plan for focus and recovery (you’ll get more done!)
-
-### Organization
-* Try to develop a schedule similar to your pre-turing life (ie. if you exercise before work, keep doing so before class)
-* Procrastination does not work at Turing
-* Get a planner to help prioritize work
-
-### Community
-  * You're joining a community of really wonderful people - take advantage!
-  * I'd encourage y'all to poke around slack and join any channels that interest you
-    * Yoga (#yoga-posse)
-    * Jennifer Pahlka - civic tech (#pahlka-posse)
-    * 3D Printing (#3d_printing)
-    * Climbing (#climbing)
-    * Veterans (#turing-veterans)
-    * Parents (#parenturing)
-    * Moms (#turingmoms)
-    * Running (#runtime)
-    * Mindfulness (#mindfulness)
-    * QueerQoders (#queerqoders)
-    * Shades of Turing (#shades-of-turing)
-    * Anime (#anime)
-    * Teachers  (#teachers-union)
-    * Motorcycle Enthusiasts (#turing-moto-club)
-    * One on one meetings with community members (#lets_grab_donuts)
-
-## BREAK
-
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
+You won't be tested on any of the above, but it's nonetheless great context for what you're going to be learning over the next 7 plus months.
+In mod 0, we'll focus on Ruby and JavaScript as they have the most similarities. And we try to keep things as program agnostic as we can in mod 0.
 
 <a name="shortcuts"></a>
 ## Keyboard Shortcuts
@@ -361,6 +267,11 @@ For example:
   <p>Each instance of a _______ (class) has a _______, ________, and ________ (attributes).</p>
 </div>
 
+
+## BREAK
+
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
+
 <a name="findinganswers"></a>
 ## Googling
 
@@ -417,7 +328,7 @@ Once you formulate a good Google search and receive your results, there are a fe
 
 <div class="try-it">
   <h3>Demo: Google Results</h3>
-  <p>We'll look through some Google results for "change width of textarea in html". Be ready to jot down tips for sifting through results.</p>
+  <p>We'll look through some Google results for "how do you find out the length of a string in javascript?". Be ready to jot down tips for sifting through results.</p>
 </div>
 
 <a name="datatypes"></a>
@@ -633,7 +544,9 @@ We'll go into breakout rooms to briefly discuss the how to check correct syntax 
 
 In addition to practicing writing out our data types, we'll also touch briefly on what it looks like to <span class="vocab">assign a variable</span>. This allows us to reference a word in our computer's memory that returns the data we've stored.
 
-After watching a brief demo from an instructor, try out the following:
+
+
+After watching a brief demo from an instructor on how to write variables on your computer in either ruby or javascript, try out the following:
 * Assign a variable called `pizza` a value of 'the best food of all time'
 * Assign a variable called `is_hungry` a value of true
 * Assign a variable called `number` a value of 5
@@ -652,19 +565,16 @@ Videos on variable assignment:
 * [Back-End](https://www.youtube.com/watch?v=S-IeM4xnCog&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=3)
 * [Front-End](https://www.youtube.com/watch?v=sIGNox7OGD0&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=4)
 
-## The End!
+## Close Out
 
-After this Zoom call is over, take 15 minutes on your own to digest the content from this lesson, including the notes you wrote in the text boxes.
-
-In addition, consider the following questions:
-  - What do I understand from today?
-  - When will I need what I just learned?
-  - What questions do I still have?
-  - What learning processes/behaviors did I exercise today?
+Key takeaways from today:
+* You should now understand what people mean when they talk about "the stack" at a high level
+* You should understand how to google programming questions
+* You should understand what data types are and how you can use them with variables
 
 <a name="homework"></a>
 ## Homework
 
 Find the homework in your Mod 0 Project Board. Contact your instructors if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
-Also, if you haven't already, make sure that you start your mod 1 pre-work.
+Also, if you haven't already, make sure that you start your mod 1 pre-work, which is due in 2 weeks for folks starting in 2008 (or if you're on the waitlist)
