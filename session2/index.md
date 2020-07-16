@@ -42,10 +42,8 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ## Housekeeping, Feedback, and Goals
 
-- Special Guest! Amy Holt with a new pilot program
 - In the chat, post a keyboard shortcut that you practiced and now feel comfortable using.
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
-- Questions during the session? Click "raise hand" for whole-group question, or message the non-presenting host for an individual question.
 
 ### Wins
 
@@ -54,7 +52,8 @@ subheading: Terminal, File/folder Structure, Git Basics
 ### Follow-Ups
 
 - We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
-- You'll receive feedback on homework from either Alice, Margo, or Mason. Check your homework gists!!!
+- For homework, we'll be leaving feedback on your practice tasks and also checking, but not leaving feedback on your readings and responses.
+- Check your gists, as you can improve your grade by responding to that feedback!
 
 ### Today's Goals
 
@@ -64,7 +63,7 @@ subheading: Terminal, File/folder Structure, Git Basics
   <h3>Intros, Review, and Icebreaker (5 minutes)</h3>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. Is a taco a sandwich? What is the best type of taco?</p>
-  <p>3. Accountability review: what were the skills/processes that you decided to focus on last session, and how are you progressing toward mastery of those skills?</p>
+  <p>3. What was your biggest takeaway from the session 1 readings and responses?</p>
 </div>
 
 <a name="classes"></a>
@@ -765,6 +764,8 @@ Check out this great resource from built by Turing instructor Amy Holt: https://
 ## Homework
 
 Find the homework in your Mod 0 Project Board. Post in the Mod 0 Slack channel if you're stuck (and don't be afraid to help each other out).
+
+Also, reminder that the mod 1 pre-work is due in a little less than two weeks. I would try to be done with at least day 3 by the end of the weekend.
 
 ### Asking questions
 
