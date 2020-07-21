@@ -202,7 +202,7 @@ Attributes (____ has a/an _____):
 amount_of_gas (integer)
 paint_color (string)
 number_of_carseats (integer)
-engine_status (boolean)
+engine_on (boolean)
 passengers (array)
 last_oil_change (datetime)
 ```
@@ -223,7 +223,7 @@ Let's talk once more about this Git diagram.
 ![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png)
 <small><em>Source: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository</em></small>
 
-We'll start by repeating the group git exercise from Tuesday's session. This may seem repetative, but each time you practice, you'll gain muscle memory and procedural understanding.
+We'll start by repeating the group git exercise from the last session. This may seem repetitive, but each time you practice, you'll gain muscle memory and procedural understanding.
 
 Today's <span class="vocab">driver</span> will be the person who was born closest to the state of Indiana. Everyone else will be <span class="vocab">navigators</span>. **Driver**: remember not to type anything that has not yet been brought up by a navigator and discussed in the group.
 
@@ -233,7 +233,7 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
 
 <div class="try-it">
   <h3>Try It: Git Review</h3>
-  <p>As you and your group walk through the git review below, it might be a good idea to have <a href="/session3#init" title="">Session 2's Git Notes</a> open.</p>
+  <p>As you and your group walk through the git review below, it might be a good idea to have <a href="/session2/#git" title="">Session 2's Git Notes</a> open.</p>
   <ol>
     <li>Before we do this, make sure the driver is in the home directory by typing <code>cd</code></li>
     <li>Create a new directory called <code>session_3_git_practice</code>. Inside of that directory, create three files called <code>coding_languages.txt</code>,<code>programming_terms.txt</code>, and<code>git_terms.txt</code>.</li>
