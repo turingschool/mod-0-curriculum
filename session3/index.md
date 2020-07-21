@@ -51,9 +51,9 @@ subheading: More Git and Intro to GitHub
 
 - We've left feedback on everyone's session 1 hw, be sure to check your gists!
   - Suggestions there are for your benefit and can change your grade :)
-  - feedback will be back to y'all by the end of the weekend
 - Make sure that you're checking slack at least once a day
 - Be sure to stay at your home directory or below
+- Mod 1 pre-work is due a week from tomorrow. You should ideally be on at least day 4 by now
 
 ### Today's Goals
 
@@ -152,7 +152,7 @@ subheading: More Git and Intro to GitHub
   <p>Person with the lightest color shirt speaks first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. Share: What is your favorite warm weather activity? When's the last time you did it?</p>
-  <p>3. Accountability review: how are you progressing toward mastery of your focus skills?</p>
+  <p>3. What git staging area metaphor did you come up with in the session 2 hw?</p>
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
 
