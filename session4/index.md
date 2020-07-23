@@ -44,7 +44,7 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 ### Follow-Ups
 
-- Leaving feedback directly on homework gists. Everyone has feedback on gists for hw's 1 + 2 so far.
+- Leaving feedback directly on homework gists. Should have HW 2 feedback to you soon.
 
 ### Other Notes
 
