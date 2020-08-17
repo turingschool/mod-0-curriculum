@@ -19,13 +19,13 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>25 min: </strong><a href="#the-stack">The Full Stack</a></li>
-      <li><strong>10 min: </strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
-      <li><strong>15 min: </strong><a href="#classes">Classes</a></li>
-      <li><strong>5 min: </strong>Break</li>
-      <li><strong>15 min: </strong><a href="#findinganswers">Googling</a></li>
-      <li><strong>25 min: </strong><a href="#datatypes">Data Types</a></li>
-      <li><strong>10 min: </strong><a href="#homework">Homework Preview</a></li>
+      <li><strong>6:15</strong><a href="#the-stack">The Full Stack</a></li>
+      <li><strong>6:45</strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
+      <li><strong>6:50</strong><a href="#classes">Classes</a></li>
+      <li><strong>7:05</strong>Break</li>
+      <li><strong>7:10</strong><a href="#findinganswers">Googling</a></li>
+      <li><strong>7:35</strong><a href="#datatypes">Data Types</a></li>
+      <li><strong>8:25</strong><a href="#homework">Homework Preview</a></li>
     </ul>
   </div>
   <div>
@@ -43,18 +43,15 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: David, Ellen, and Mason
+* Instructor intros: David, Margo, and Alice
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
 ## Housekeeping and Follow-ups
 
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
-* We share pronouns to be inclusive of folks who are transgender or gender non-conforming
-* If you're unfamiliar with genders other than cisgender, the [gender-unicorn](http://transstudent.org/gender/) is a great resource to learn about them
 * Sessions will be recorded and posted in Slack
-* Turing is staying remote first through at least January
-* No computer yet? Don't fret for today. If it's not here by Thursday. Let me (David) know in slack!
+* No computer yet? Don't fret for today. If you don't have a mac, please reach out to me! (David)
 
 ### Breakout Rooms
 
@@ -67,7 +64,7 @@ Some norms before heading in:
 Breakout groups can be a bit awkward at first, but try to embrace them and have fun!
 
 <div class="try-it">
-  <h3>Try It: Break out rooms</h3>
+  <h3>Try It: Break out rooms</h3> 5 minutes (groups of 3 or 4)
   <p>1. Introduce yourself (name, pronouns, program)</p>
   <p>2. Where do you call home</p>
   <p>3. What were your takeaways from the orientation video that you watch in preparation for class?</p>
@@ -96,10 +93,13 @@ Front-End and Back-End technologies communicate via a protocol called <span clas
 
 #### The stack in practice
 
-What happens when we go to airbnb.com, and fill out the form with a location and dates, and then click enter?
-* What is happening on the client side?
-* What is happening on the server side?
-* In what order?
+<div class="try-it">
+  <h3>Try It: Break out rooms</h3> 7 minutes (groups of 3 or 4)
+  <p>What happens when we go to airbnb.com, and fill out the form with a location and dates, and then click enter?</p>
+  <p>What is happening on the client side?</p>
+  <p>What is happening on the server side?</p>
+  <p>In what order?</p>
+</div>
 
 #### Technologies
 
@@ -160,12 +160,12 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
         </li>  
       </ul>
       <div>
-      <h3>Spectacle / Rectangle</h3>
-      <p>Start by making sure Spectacle or Rectangle is running with (command + spacebar) then type <strong>spectacle</strong> and then return. You should see a sunglasses icon at the top right of your menu bar. Click the icon to see a dropdown of your shortcuts. Click preferences to customize them.</p>
+      <h3>Rectangle</h3>
+      <p>Start by making sure Rectangle is running with (command + spacebar) then type <strong>rectangle</strong> and then return. You should see a window icon at the top right of your menu bar. Click the icon to see a dropdown of your shortcuts. Click preferences to customize them.</p>
       <ul>
         <li>
           <strong>Full Screen Current Window:</strong>
-          <pre>command + option + F</pre>
+          <pre>command + option + enter</pre>
         </li>
         <li>
           <strong>Left Half Current Window:</strong>
@@ -577,4 +577,4 @@ Key takeaways from today:
 
 Find the homework in your Mod 0 Project Board. Contact your instructors if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
-Also, if you haven't already, make sure that you start your mod 1 pre-work, which is due in 2 weeks for folks starting in 2008 (or if you're on the waitlist)
+Also, if you haven't already, I would encourage you to start your mod 1 pre-work, as it'll help you work on your program specific skills.
