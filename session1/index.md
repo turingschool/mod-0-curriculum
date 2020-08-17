@@ -19,13 +19,13 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>6:15</strong><a href="#the-stack">The Full Stack</a></li>
-      <li><strong>6:45</strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
-      <li><strong>6:50</strong><a href="#classes">Classes</a></li>
-      <li><strong>7:05</strong>Break</li>
-      <li><strong>7:10</strong><a href="#findinganswers">Googling</a></li>
-      <li><strong>7:35</strong><a href="#datatypes">Data Types</a></li>
-      <li><strong>8:25</strong><a href="#homework">Homework Preview</a></li>
+      <li><strong>6:15 </strong><a href="#the-stack">The Full Stack</a></li>
+      <li><strong>6:45 </strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
+      <li><strong>6:50 </strong><a href="#classes">Classes</a></li>
+      <li><strong>7:05 </strong>Break</li>
+      <li><strong>7:10 </strong><a href="#findinganswers">Googling</a></li>
+      <li><strong>7:35 </strong><a href="#datatypes">Data Types</a></li>
+      <li><strong>8:25 </strong><a href="#homework">Homework Preview</a></li>
     </ul>
   </div>
   <div>
@@ -67,7 +67,8 @@ Breakout groups can be a bit awkward at first, but try to embrace them and have 
   <h3>Try It: Break out rooms</h3> 5 minutes (groups of 3 or 4)
   <p>1. Introduce yourself (name, pronouns, program)</p>
   <p>2. Where do you call home</p>
-  <p>3. What were your takeaways from the orientation video that you watch in preparation for class?</p>
+  <p>3. What were your takeaways from the orientation video that you watched in preparation for class?</p>
+  <p>4. Done? What questions do you still have?</p>
 </div>
 
 Other things to note as we go through Mod 0:
