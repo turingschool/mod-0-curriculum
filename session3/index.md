@@ -34,7 +34,7 @@ subheading: More Git and Intro to GitHub
     <ul>
       <li>Notebook</li>
       <li>Writing instrument</li>
-      <li>Laptop</li>
+      <li>Laptop - with git config and SSH key connected to GitHub as detailed in the <a href ="{{ site.baseurl }}/setup-instructions">Computer Setup</a></li>
       <li>Headphones & mic</li>
     </ul>
   </div>
