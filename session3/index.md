@@ -50,11 +50,12 @@ subheading: More Git and Intro to GitHub
 
 ### Follow-Ups
 
-- We've left feedback on everyone's session 1 hw, be sure to check your gists!
+- We're in the process of leaving feedback on everyone's session 1 hw, be sure to check your gists!
   - Suggestions there are for your benefit and can change your grade :)
 - Make sure that you're checking slack at least once a day
 - Be sure to stay at your home directory or below
-- Mod 1 pre-work is due a week from tomorrow. You should ideally be on at least day 4 by now
+- Mod 1 pre-work is due September 9.
+- Session 3 HW due Monday.
 
 ### Today's Goals
 
