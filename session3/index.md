@@ -24,7 +24,7 @@ subheading: More Git and Intro to GitHub
       <li><strong>6:35 </strong><a href="#gitreview">Git Review</a></li>
       <li><strong>6:50 </strong><a href="#github">GitHub and Repositories</a></li>
       <li><strong>7:35 </strong>Break</li>
-      <li><strong>7:40 </strong><GitHub in action</li>
+      <li><strong>7:40 </strong>GitHub in action</li>
       <li><strong>8:15 </strong><a href="#forkclone">Forking and Cloning</a></li>
       <li><strong>8:25 </strong><a href="#homework">Homework Preview</a></li>
     </ul>
@@ -36,6 +36,7 @@ subheading: More Git and Intro to GitHub
       <li>Writing instrument</li>
       <li>Laptop - with git config and SSH key connected to GitHub as detailed in the <a href ="{{ site.baseurl }}/setup-instructions">Computer Setup</a></li>
       <li>Headphones & mic</li>
+      <li>Zoom permission to share screen for driver/navigator pairing sessions</li>
     </ul>
   </div>
 </div>
@@ -46,16 +47,16 @@ subheading: More Git and Intro to GitHub
 
 - Most common answer to git question from survey: "I can name the steps of the git workflow and can put them in practice (using a reference)."
 - This is expected, and we use references as programmers on the job all the time, at some point it'll be muscle memory
-- Great job asking and answering eachothers questions in the public channel!
+- Great job asking and answering each others questions in the public channel!
 
 ### Follow-Ups
 
 - We're in the process of leaving feedback on everyone's session 1 hw, be sure to check your gists!
   - Suggestions there are for your benefit and can change your grade :)
 - Make sure that you're checking slack at least once a day
-- Be sure to stay at your home directory or below
 - Mod 1 pre-work is due September 9.
 - Session 3 HW due Monday.
+- Be sure to stay at your home directory or below
 
 ### Today's Goals
 
@@ -154,7 +155,7 @@ subheading: More Git and Intro to GitHub
   <p>Person with the lightest color shirt speaks first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. Share: What is your favorite warm weather activity? When's the last time you did it?</p>
-  <p>3. What git staging area metaphor did you come up with in the session 2 hw?</p>
+  <p>3. What metaphor would you use to describe the git staging area (git add)?</p>
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
 
