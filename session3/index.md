@@ -164,7 +164,7 @@ subheading: More Git and Intro to GitHub
 
 <div class="try-it">
   <h3>Try It: Methods</h3>
-  <p>Post one sentence in the chat about a class using this structure:</p>
+  <p>In your notebook, write down a sentence about a class using this structure:</p>
   <p>Each _______ (class) can ___________, __________, and ___________.</p>
   <p>Example: Each bank account (class) can have money deposited, can have money withdrawn, can be opened, can be closed, and can change ownership (methods).</p>
 </div>
