@@ -17,11 +17,11 @@ subheading: Attention to Detail and Iteration
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>10 min: </strong>Follow-Ups and Goals</li>
-      <li><strong>40 min: </strong><a href="#iteration">Iteration</a></li>
-      <li><strong>5 min: </strong>Break</li>
-      <li><strong>40 min: </strong><a href="#pseudocode">pseudocode</a></li>
-      <li><strong>5 min: </strong>Close Out</li>
+      <li><strong>6:15 </strong>Follow-Ups and Goals</li>
+      <li><strong>6:25 </strong><a href="#iteration">Iteration</a></li>
+      <li><strong>7:15 </strong>Break</li>
+      <li><strong>7:20 </strong><a href="#pseudocode">pseudocode</a></li>
+      <li><strong>8:15 </strong>Close Out</li>
     </ul>
   </div>
   <div>
