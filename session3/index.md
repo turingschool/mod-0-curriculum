@@ -290,7 +290,7 @@ This diagram shows  how GitHub can be used as a collaboration tool:
 Let's take a look at an example of a repo on GitHub: <a href="https://github.com/freeCodeCamp/freeCodeCamp" title="">FreeCodeCamp</a>
 
 <div class="try-it">
-  <h3>Try It: Exploring GitHub Repositories</h3> groups of 2 or 3 (8 minutes)
+  <h3>Try It: Exploring GitHub Repositories</h3> groups of 3 or 4 (8 minutes)
   <p>In your breakout group, choose one of the repositories listed at the bottom of this "Try It" section. Take a few minutes to explore the following questions and be ready to report back to your group:</p>
   <ol>
     <li>What is this project about?</li>
@@ -328,7 +328,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
 1. Paste the lines listed, one at a time, in your terminal. <strong>Make sure to follow instructions for SSH</strong>
 1. Refresh Github. Tada! Your project is there.
 
-<div class="try-it"> groups of 2 or 3 (8 minutes)
+<div class="try-it"> groups of 3 or 4 (8 minutes)
   <h3>Try It: Adding a Remote</h3>
   <p>1. Create a new repository on GitHub called <code>git_homework</code>.</p>
   <p>2. In your terminal, navigate to your <code>git_homework</code> directory from session 2's homework. If for some reason you don't have this directory then use the <code>mkdir</code> command to create <code>git_homework</code>. Then use <code>touch</code> to create a file called<code>sample_file.txt</code>. Then run <code>git init</code>. Only do this if you don't already have a <code>git_homework</code> repo.</p>
@@ -340,7 +340,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
 Watch and take notes while we walk through how to continue making changes and pushing those changes to GitHub.
 
 <div class="try-it">
-  <h3>Try It: Full Git Workflow</h3> groups of 2 or 3 (10 minutes)
+  <h3>Try It: Full Git Workflow</h3> groups of 3 or 4 (10 minutes)
   <p>In your breakout rooms, <strong>everyone</strong> will complete the steps below synchronously, but on your own projects. Use each other as resources and sounding boards. Don't hesitate to click "share screen" if there's something you want your team to look at!</p>
   <p>If you get really stuck, you can click "ask for help" and we'll pop into your room.</p>
   <ul>
@@ -395,7 +395,7 @@ git push origin master
 </div>
 
 <div class="try-it">
-  <h3>Try It: Forking</h3> groups of 2 or 3 (8 minutes)
+  <h3>Try It: Forking</h3> groups of 3 or 4 (8 minutes)
   <ol>
     <li>Fork the <a href="https://github.com/rwarbelow/best_animals" title="Best Animals">Best Animals</a> repository.</li>
     <li>Clone <strong>your</strong> fork using your terminal.</li>
