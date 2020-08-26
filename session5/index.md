@@ -57,7 +57,7 @@ subheading: Attention to Detail and Iteration
 Note: Update your zoom display name to include your first name, last initial, pronouns, and "FE" or "BE"
 
 <div class="try-it">
-  <h3>Intros, Review, and Icebreaker</h3>
+  <h3>Intros, Review, and Icebreaker (3 people, 6 min)</h3>
   <p>Person with the shortest first name goes first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. What is a book, tv show, or movie that you've read/watched recently and really enjoyed? Why?</p>
@@ -242,12 +242,21 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
     <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationJS4?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   </div>
 </div>
+
 <div class="hidden be-iteration">
   <p>The code that you see below is written using Ruby. This syntax is something that you'll see all over the place, so it's important to get used to it. You don't need to memorize every little symbol for now, but knowing how to explain the big pieces is important.</p>
   <h4>Example #1: Grading papers for five students</h4>
   <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationRuby1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   <h4>Example #2: Multiplying By Two</h4>
   <iframe height="350px" width="100%" src="//repl.it/@TimTyrrell1/RubyExampleNumberIteration?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  
+  <div class="try-it">
+    <h3>Try It: Iteration Syntax</h3>
+    <p>Fill in the missing pieces of the iteration examples below:</p>
+    <iframe height="350px" width="100%" src="//repl.it/@ap2322/rubyiterationtryitrb?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+    <br>
+    <iframe height="350px" width="100%" src="https://repl.it/@ap2322/rubyiterationtryitsumrb?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  </div>
   </div>
 </div>
 
