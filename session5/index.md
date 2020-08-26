@@ -54,6 +54,8 @@ subheading: Attention to Detail and Iteration
 
 ## Intros, Review, and Icebreaker
 
+Note: Update your zoom display name to include your first name, last initial, pronouns, and "FE" or "BE"
+
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3>
   <p>Person with the shortest first name goes first.</p>
@@ -201,7 +203,7 @@ By "in programming", we mean things that could be done, with relative ease, by a
 
 ### Iteration Syntax
 
-We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby and JavaScript.
+We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby and JavaScript. (15-18 min)
 
 <div>
   Are you a <button class="iteration-toggle" id="fe-show">front end</button> or <button class="iteration-toggle" id="be-show">back end</button> student?
