@@ -36,6 +36,7 @@ subheading: Terminal, File/folder Structure, Git Basics
       <li>Writing instrument</li>
       <li>Laptop</li>
       <li>Headphones & mic</li>
+      <li>Zoom permission to share screen for breakout sessions</li>
     </ul>
   </div>
 </div>

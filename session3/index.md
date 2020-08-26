@@ -36,7 +36,7 @@ subheading: More Git and Intro to GitHub
       <li>Writing instrument</li>
       <li>Laptop - with git config and SSH key connected to GitHub as detailed in the <a href ="{{ site.baseurl }}/setup-instructions">Computer Setup</a></li>
       <li>Headphones & mic</li>
-      <li>Zoom permission to share screen for driver/navigator pairing sessions</li>
+      <li>Zoom permission to share screen for breakout sessions</li>
     </ul>
   </div>
 </div>
