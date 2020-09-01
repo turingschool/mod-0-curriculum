@@ -43,12 +43,13 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: David, Margo, and Alice
+* Instructor intros: David, Ellen, and Mason
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
 ## Housekeeping and Follow-ups
 
+* Special Guest! Amy Holt with a new pilot program for front-end
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
 * Sessions will be recorded and posted in Slack
 * No computer yet? Don't fret for today. If you don't have a mac, please reach out to me! (David)
@@ -238,13 +239,13 @@ This [video](https://www.youtube.com/watch?v=I3PBZBX-Fig&list=PL1Y67f0xPzdMFq2S1
 
 **Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 4. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
 
-Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan are all different versions or <span class="vocab">instances</span> of a **pizza** (class).
+Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan are all different versions or <span class="vocab">instances</span> of a **Pizza** (class).
 
-An Old Navy sweatshirt and an Eddie Bauer sweatshirt (instances) are different versions of a **sweatshirt** (class).
+Elmer the dog and Bernie the cat are different instances of a **Pet** (class).
 
-_Great Expectations_ by Charles Dickens and _Becoming_ by Michelle Obama (instances) are different versions of a **book** (class).
+My copy of _Great Expectations_ by Charles Dickens and my copy of _Becoming_ by Michelle Obama (instances) are different instances of a **Book** (class).
 
-Class names are always singular and PascalCase: **Pizza** (instead of pizzas), **Sweatshirt** (instead of sweatshirts), and **Book** instead of books.
+Class names are always singular and PascalCase: **Pizza** (instead of pizzas), **Pet** (instead of pets), and **Book** instead of books.
 
 <div class="try-it">
   <h3>Try It: Classes</h3>
@@ -259,7 +260,7 @@ An <span class="vocab">attribute</span> of a class is a characteristic that ever
 For example:
 
 - Each instance of a **Pizza** (class) has a crust, sauce, and toppings (attributes).
-- Each instance of a **Sweatshirt** (class) has a color, size, brand, and price (attributes).
+- Each instance of a **Pet** (class) has a color, species, size, number_of_legs, temperament, and age (attributes).
 - Each instance of a **Book** (class) has a title, author, publisher, published_date, and total_pages (attributes).
 
 <div class="try-it">
@@ -545,7 +546,25 @@ We'll go into breakout rooms to briefly discuss the how to check correct syntax 
 
 In addition to practicing writing out our data types, we'll also touch briefly on what it looks like to <span class="vocab">assign a variable</span>. This allows us to reference a word in our computer's memory that returns the data we've stored.
 
+```js
+// Javascript examples of variable assignment
+var bestFood = "ramen";
+var isDelicious = true;
+var inventory = 20;
 
+// re-assignment
+bestFood = "pizza";
+```
+
+```ruby
+# Ruby examples of variable assignment
+best_food = "ramen"
+is_delicious = true
+inventory = 10
+
+# re-assignment
+best_food = "pizza"
+```
 
 After watching a brief demo from an instructor on how to write variables on your computer in either ruby or javascript, try out the following:
 * Assign a variable called `pizza` a value of 'the best food of all time'
