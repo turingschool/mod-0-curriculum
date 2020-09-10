@@ -19,13 +19,13 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>25 min: </strong><a href="#the-stack">The Full Stack</a></li>
-      <li><strong>10 min: </strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
-      <li><strong>15 min: </strong><a href="#classes">Classes</a></li>
-      <li><strong>5 min: </strong>Break</li>
-      <li><strong>15 min: </strong><a href="#findinganswers">Googling</a></li>
-      <li><strong>25 min: </strong><a href="#datatypes">Data Types</a></li>
-      <li><strong>10 min: </strong><a href="#homework">Homework Preview</a></li>
+      <li><strong>6:15 </strong><a href="#the-stack">The Full Stack</a></li>
+      <li><strong>6:45 </strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
+      <li><strong>6:50 </strong><a href="#classes">Classes</a></li>
+      <li><strong>7:05 </strong>Break</li>
+      <li><strong>7:10 </strong><a href="#findinganswers">Googling</a></li>
+      <li><strong>7:35 </strong><a href="#datatypes">Data Types</a></li>
+      <li><strong>8:25 </strong><a href="#homework">Homework Preview</a></li>
     </ul>
   </div>
   <div>
@@ -49,12 +49,10 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
 
 ## Housekeeping and Follow-ups
 
+* Special Guest! Amy Holt with a new pilot program for front-end
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
-* We share pronouns to be inclusive of folks who are transgender or gender non-conforming
-* If you're unfamiliar with genders other than cisgender, the [gender-unicorn](http://transstudent.org/gender/) is a great resource to learn about them
 * Sessions will be recorded and posted in Slack
-* Turing is staying remote first through at least January
-* No computer yet? Don't fret for today. If it's not here by Thursday. Let me (David) know in slack!
+* No computer yet? Don't fret for today. If you don't have a mac, please reach out to me! (David)
 
 ### Breakout Rooms
 
@@ -67,10 +65,11 @@ Some norms before heading in:
 Breakout groups can be a bit awkward at first, but try to embrace them and have fun!
 
 <div class="try-it">
-  <h3>Try It: Break out rooms</h3>
+  <h3>Try It: Break out rooms</h3> 5 minutes (groups of 3 or 4)
   <p>1. Introduce yourself (name, pronouns, program)</p>
   <p>2. Where do you call home</p>
-  <p>3. What were your takeaways from the orientation video that you watch in preparation for class?</p>
+  <p>3. What were your takeaways from the orientation video that you watched in preparation for class?</p>
+  <p>4. Done? What questions do you still have?</p>
 </div>
 
 Other things to note as we go through Mod 0:
@@ -96,10 +95,13 @@ Front-End and Back-End technologies communicate via a protocol called <span clas
 
 #### The stack in practice
 
-What happens when we go to airbnb.com, and fill out the form with a location and dates, and then click enter?
-* What is happening on the client side?
-* What is happening on the server side?
-* In what order?
+<div class="try-it">
+  <h3>Try It: Break out rooms</h3> 7 minutes (groups of 3 or 4)
+  <p>What happens when we go to airbnb.com, and fill out the form with a location and dates, and then click enter?</p>
+  <p>What is happening on the client side?</p>
+  <p>What is happening on the server side?</p>
+  <p>In what order?</p>
+</div>
 
 #### Technologies
 
@@ -160,12 +162,12 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
         </li>  
       </ul>
       <div>
-      <h3>Spectacle / Rectangle</h3>
-      <p>Start by making sure Spectacle or Rectangle is running with (command + spacebar) then type <strong>spectacle</strong> and then return. You should see a sunglasses icon at the top right of your menu bar. Click the icon to see a dropdown of your shortcuts. Click preferences to customize them.</p>
+      <h3>Rectangle</h3>
+      <p>Start by making sure Rectangle is running with (command + spacebar) then type <strong>rectangle</strong> and then return. You should see a window icon at the top right of your menu bar. Click the icon to see a dropdown of your shortcuts. Click preferences to customize them.</p>
       <ul>
         <li>
           <strong>Full Screen Current Window:</strong>
-          <pre>command + option + F</pre>
+          <pre>command + option + enter</pre>
         </li>
         <li>
           <strong>Left Half Current Window:</strong>
@@ -237,13 +239,13 @@ This [video](https://www.youtube.com/watch?v=I3PBZBX-Fig&list=PL1Y67f0xPzdMFq2S1
 
 **Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 4. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
 
-Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan are all different versions or <span class="vocab">instances</span> of a **pizza** (class).
+Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan are all different versions or <span class="vocab">instances</span> of a **Pizza** (class).
 
-An Old Navy sweatshirt and an Eddie Bauer sweatshirt (instances) are different versions of a **sweatshirt** (class).
+Elmer the dog and Bernie the cat are different instances of a **Pet** (class).
 
-_Great Expectations_ by Charles Dickens and _Becoming_ by Michelle Obama (instances) are different versions of a **book** (class).
+My copy of _Great Expectations_ by Charles Dickens and my copy of _Becoming_ by Michelle Obama (instances) are different instances of a **Book** (class).
 
-Class names are always singular and PascalCase: **Pizza** (instead of pizzas), **Sweatshirt** (instead of sweatshirts), and **Book** instead of books.
+Class names are always singular and PascalCase: **Pizza** (instead of pizzas), **Pet** (instead of pets), and **Book** instead of books.
 
 <div class="try-it">
   <h3>Try It: Classes</h3>
@@ -258,7 +260,7 @@ An <span class="vocab">attribute</span> of a class is a characteristic that ever
 For example:
 
 - Each instance of a **Pizza** (class) has a crust, sauce, and toppings (attributes).
-- Each instance of a **Sweatshirt** (class) has a color, size, brand, and price (attributes).
+- Each instance of a **Pet** (class) has a color, species, size, number_of_legs, temperament, and age (attributes).
 - Each instance of a **Book** (class) has a title, author, publisher, published_date, and total_pages (attributes).
 
 <div class="try-it">
@@ -544,7 +546,25 @@ We'll go into breakout rooms to briefly discuss the how to check correct syntax 
 
 In addition to practicing writing out our data types, we'll also touch briefly on what it looks like to <span class="vocab">assign a variable</span>. This allows us to reference a word in our computer's memory that returns the data we've stored.
 
+```js
+// Javascript examples of variable assignment
+var bestFood = "ramen";
+var isDelicious = true;
+var inventory = 20;
 
+// re-assignment
+bestFood = "pizza";
+```
+
+```ruby
+# Ruby examples of variable assignment
+best_food = "ramen"
+is_delicious = true
+inventory = 10
+
+# re-assignment
+best_food = "pizza"
+```
 
 After watching a brief demo from an instructor on how to write variables on your computer in either ruby or javascript, try out the following:
 * Assign a variable called `pizza` a value of 'the best food of all time'
@@ -577,4 +597,4 @@ Key takeaways from today:
 
 Find the homework in your Mod 0 Project Board. Contact your instructors if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
-Also, if you haven't already, make sure that you start your mod 1 pre-work, which is due in 2 weeks for folks starting in 2008 (or if you're on the waitlist)
+Also, if you haven't already, I would encourage you to start your mod 1 pre-work, as it'll help you work on your program specific skills.

@@ -20,13 +20,13 @@ subheading: Terminal, File/folder Structure, Git Basics
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>10 min: </strong>Housekeeping, Feedback, and Goals</li>
-      <li><strong>10 min: </strong>Classes, Attributes and Methods</li>
-      <li><strong>15 min: </strong><a href="#filesdirectories">Files, Directories, and Paths</a></li>
-      <li><strong>35 min: </strong><a href="#terminalcommandline">Terminal and Command Line</a></li>
-      <li><strong>5 min: </strong>Break</li>
-      <li><strong>40 min: </strong><a href="#git">Git Basics</a></li>
-      <li><strong>5 min: </strong><a href="#troubleshooting">Troubleshooting Demo</a></li>
+      <li><strong>6:15 </strong>Housekeeping, Feedback, and Goals</li>
+      <li><strong>6:25 </strong>Classes, Attributes and Methods</li>
+      <li><strong>6:35 </strong><a href="#filesdirectories">Files, Directories, and Paths</a></li>
+      <li><strong>6:50 </strong><a href="#terminalcommandline">Terminal and Command Line</a></li>
+      <li><strong>7:25 </strong>Break</li>
+      <li><strong>7:32 </strong><a href="#git">Git Basics</a></li>
+      <li><strong>8:17 </strong><a href="#troubleshooting">Troubleshooting Demo</a></li>
     </ul>
   </div>
   <div>
@@ -36,6 +36,7 @@ subheading: Terminal, File/folder Structure, Git Basics
       <li>Writing instrument</li>
       <li>Laptop</li>
       <li>Headphones & mic</li>
+      <li>Zoom permission to share screen for breakout sessions</li>
     </ul>
   </div>
 </div>
@@ -60,7 +61,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 (See above)
 
 <div class="try-it">
-  <h3>Intros, Review, and Icebreaker (5 minutes)</h3>
+  <h3>Intros, Review, and Icebreaker (5 minutes)</h3> Groups of 2 or 3
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. Is a taco a sandwich? What is the best type of taco?</p>
   <p>3. What was your biggest takeaway from the session 1 readings and responses?</p>
@@ -452,7 +453,7 @@ Now when I type `ls`, I will no longer see `books` listed.
 </div>
 
 
-### Putting it All Together
+### Putting it All Together - groups of 2 or 3 (15 minutes)
 
 <p>At this point, we'll split into breakout rooms. The person whose name first name starts with the letter closest to T will share their screen by clicking the green "Share Screen" button. We will call this person the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
 
@@ -712,6 +713,7 @@ The basic git workflow is this:
 
 <div class="try-it">
   <h3>Try It: Git Together</h3>
+  <p>Groups of 2 or 3 (10 minutes)</p>
   <p>At this point, we'll split into breakout rooms. The person whose name is first alphabetically will start by sharing their screen, <strong>unless</strong> this person already has significant git experience. Whoever is sharing their screen will be called the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
 
   <p>The driver will be the person typing the commands, but the navigators should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss <strong>why</strong> you are doing each step, or <strong>what</strong> exactly is taking place in each step.</p>

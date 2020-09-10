@@ -17,11 +17,11 @@ subheading: Attention to Detail and Iteration
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>10 min: </strong>Follow-Ups and Goals</li>
-      <li><strong>40 min: </strong><a href="#iteration">Iteration</a></li>
-      <li><strong>5 min: </strong>Break</li>
-      <li><strong>40 min: </strong><a href="#pseudocode">pseudocode</a></li>
-      <li><strong>5 min: </strong>Close Out</li>
+      <li><strong>6:15 </strong>Follow-Ups and Goals</li>
+      <li><strong>6:25 </strong><a href="#iteration">Iteration</a></li>
+      <li><strong>7:15 </strong>Break</li>
+      <li><strong>7:20 </strong><a href="#pseudocode">pseudocode</a></li>
+      <li><strong>8:15 </strong>Close Out</li>
     </ul>
   </div>
   <div>
@@ -43,10 +43,10 @@ subheading: Attention to Detail and Iteration
 
 ### Follow-Ups
 
-- We will have assessment feedback and results to everyone by end of the weekend
-  - If you pass, what do you have left to be mod 1 ready?
-- Only 20 of 30 surveys in for session 4
+- We will have assessment feedback and results to everyone by end of week
+- If you pass, what do you have left to be mod 1 ready?
 - We teach JavaScript not Java
+- Check in on git/github usage (survey responses)
 
 ### Today's Goals
 
@@ -54,8 +54,10 @@ subheading: Attention to Detail and Iteration
 
 ## Intros, Review, and Icebreaker
 
+Note: Update your zoom display name to include your first name, last initial, pronouns, and "FE" or "BE"
+
 <div class="try-it">
-  <h3>Intros, Review, and Icebreaker</h3>
+  <h3>Intros, Review, and Icebreaker (3 people, 6 min)</h3>
   <p>Person with the shortest first name goes first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. What is a book, tv show, or movie that you've read/watched recently and really enjoyed? Why?</p>
@@ -132,7 +134,7 @@ By "in programming", we mean things that could be done, with relative ease, by a
       <td>year</td>
       <td>
         <ol>
-          <li>subtract birth year from 2019 to get age</li>
+          <li>subtract birth year from 2020 to get age</li>
           <li>subtract age from 220</li>
         </ol>
       </td>
@@ -201,7 +203,7 @@ By "in programming", we mean things that could be done, with relative ease, by a
 
 ### Iteration Syntax
 
-We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby and JavaScript.
+We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby and JavaScript. (15-18 min)
 
 <div>
   Are you a <button class="iteration-toggle" id="fe-show">front end</button> or <button class="iteration-toggle" id="be-show">back end</button> student?
@@ -240,12 +242,21 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
     <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationJS4?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   </div>
 </div>
+
 <div class="hidden be-iteration">
   <p>The code that you see below is written using Ruby. This syntax is something that you'll see all over the place, so it's important to get used to it. You don't need to memorize every little symbol for now, but knowing how to explain the big pieces is important.</p>
   <h4>Example #1: Grading papers for five students</h4>
   <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationRuby1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
   <h4>Example #2: Multiplying By Two</h4>
   <iframe height="350px" width="100%" src="//repl.it/@TimTyrrell1/RubyExampleNumberIteration?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  
+  <div class="try-it">
+    <h3>Try It: Iteration Syntax</h3>
+    <p>Fill in the missing pieces of the iteration examples below:</p>
+    <iframe height="350px" width="100%" src="//repl.it/@ap2322/rubyiterationtryitrb?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+    <br>
+    <iframe height="350px" width="100%" src="https://repl.it/@ap2322/rubyiterationtryitsumrb?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  </div>
   </div>
 </div>
 

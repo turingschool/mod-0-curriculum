@@ -18,11 +18,11 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>10 min: </strong>Follow-Ups and Goals</li>
-      <li><strong>35 min: </strong><a href="#scavengerhunt">Scavenger Hunt</a></li>
-      <li><strong>5 min: </strong>Break</li>
-      <li><strong>45 min: </strong><a href="#oop">Object Oriented Programming</a></li>
-      <li><strong>15 min: </strong><a href="#assessmentprev">Assessment Expectations</a></li>
+      <li><strong>6:15 </strong>Follow-Ups and Goals</li>
+      <li><strong>6:30 </strong><a href="#scavengerhunt">Scavenger Hunt</a></li>
+      <li><strong>7:05 </strong>Break</li>
+      <li><strong>7:10 </strong><a href="#oop">Object Oriented Programming</a></li>
+      <li><strong>8:00 </strong><a href="#assessmentprev">Assessment Expectations</a></li>
     </ul>
   </div>
   <div>
@@ -98,7 +98,7 @@ We won't be available for help during this scavenger hunt, however write down th
 **Note:** The one exception to that rule is if you're asking for clarification on a given step. If you're unsure about what the directions are asking, please reach out in the slack thread.
 
 <div class="try-it">
-  <h3>Try It: Don't fork it up!</h3>
+  <h3>Try It: Don't fork it up!</h3> 20 minutes (groups of 2 or 3)
   <p>At this point, we'll split into breakout rooms. Everyone should do a fist to five to show their comfort with git. Whoever is the least comfortable with git will share their screen. Whoever is sharing their screen will be called the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
 
   <p>If you are already comfortable with git, your challenge during the breakout is somewhat more difficult: your goal is to focus on your explanations, communication, and ability to gauge whether or not another person understands you.</p>
@@ -250,7 +250,7 @@ changeColor: color = "Blue"
 ```
 
 <div class="try-it">
-  <h3>Try It (Big Breakout Rooms) (~15 minutes)</h3>
+  <h3>Try It (Big Breakout Rooms) (~15 minutes) groups of 2 or 3</h3>
   <p>Person whose first name starts closest to Q will share their screen and choose one of the following classes:</p>
   <ul>
     <li>Vehicle</li>

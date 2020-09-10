@@ -19,13 +19,14 @@ subheading: More Git and Intro to GitHub
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>10 min: </strong>Housekeeping and Goals</li>
-      <li><strong>10 min: </strong><a href="#classes">Classes and Methods</a></li>
-      <li><strong>15 min: </strong><a href="#gitreview">Git Review</a></li>
-      <li><strong>50 min: </strong><a href="#github">GitHub and Repositories</a></li>
-      <li><strong>5 min: </strong>Break</li>
-      <li><strong>35 min: </strong><a href="#forkclone">Forking and Cloning</a></li>
-      <li><strong>10 min: </strong><a href="#homework">Homework Preview</a></li>
+      <li><strong>6:15 </strong>Housekeeping and Goals</li>
+      <li><strong>6:25 </strong><a href="#classes">Classes and Methods</a></li>
+      <li><strong>6:35 </strong><a href="#gitreview">Git Review</a></li>
+      <li><strong>6:50 </strong><a href="#github">GitHub and Repositories</a></li>
+      <li><strong>7:35 </strong>Break</li>
+      <li><strong>7:40 </strong>GitHub in action</li>
+      <li><strong>8:15 </strong><a href="#forkclone">Forking and Cloning</a></li>
+      <li><strong>8:25 </strong><a href="#homework">Homework Preview</a></li>
     </ul>
   </div>
   <div>
@@ -33,8 +34,9 @@ subheading: More Git and Intro to GitHub
     <ul>
       <li>Notebook</li>
       <li>Writing instrument</li>
-      <li>Laptop</li>
+      <li>Laptop - with git config and SSH key connected to GitHub as detailed in the <a href ="{{ site.baseurl }}/setup-instructions">Computer Setup</a></li>
       <li>Headphones & mic</li>
+      <li>Zoom permission to share screen for breakout sessions</li>
     </ul>
   </div>
 </div>
@@ -45,15 +47,16 @@ subheading: More Git and Intro to GitHub
 
 - Most common answer to git question from survey: "I can name the steps of the git workflow and can put them in practice (using a reference)."
 - This is expected, and we use references as programmers on the job all the time, at some point it'll be muscle memory
-- Great job asking and answering eachothers questions in the public channel!
+- Great job asking and answering each others questions in the public channel!
 
 ### Follow-Ups
 
-- We've left feedback on everyone's session 1 hw, be sure to check your gists!
+- We're in the process of leaving feedback on everyone's session 1 hw, be sure to check your gists!
   - Suggestions there are for your benefit and can change your grade :)
 - Make sure that you're checking slack at least once a day
+- Mod 1 pre-work is due September 16 for people starting in 2010 (or waitlist)
+- Session 3 HW due Monday.
 - Be sure to stay at your home directory or below
-- Mod 1 pre-work is due a week from tomorrow. You should ideally be on at least day 4 by now
 
 ### Today's Goals
 
@@ -148,11 +151,11 @@ subheading: More Git and Intro to GitHub
 </div>
 
 <div class="try-it">
-  <h3>Intros, Review, and Icebreaker</h3>
+  <h3>Intros, Review, and Icebreaker</h3> groups of 2 or 3 (5 minutes)
   <p>Person with the lightest color shirt speaks first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. Share: What is your favorite warm weather activity? When's the last time you did it?</p>
-  <p>3. What git staging area metaphor did you come up with in the session 2 hw?</p>
+  <p>3. What metaphor would you use to describe the git staging area (git add)?</p>
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
 
@@ -161,7 +164,7 @@ subheading: More Git and Intro to GitHub
 
 <div class="try-it">
   <h3>Try It: Methods</h3>
-  <p>Post one sentence in the chat about a class using this structure:</p>
+  <p>In your notebook, write down a sentence about a class using this structure:</p>
   <p>Each _______ (class) can ___________, __________, and ___________.</p>
   <p>Example: Each bank account (class) can have money deposited, can have money withdrawn, can be opened, can be closed, and can change ownership (methods).</p>
 </div>
@@ -216,7 +219,7 @@ last_oil_change (datetime)
 </div>
 
 <a name="gitreview"></a>
-## Git Review
+## Git Review - groups of 2 or 3 (10 minutes)
 
 Let's talk once more about this Git diagram.
 
@@ -287,7 +290,7 @@ This diagram shows  how GitHub can be used as a collaboration tool:
 Let's take a look at an example of a repo on GitHub: <a href="https://github.com/freeCodeCamp/freeCodeCamp" title="">FreeCodeCamp</a>
 
 <div class="try-it">
-  <h3>Try It: Exploring GitHub Repositories</h3>
+  <h3>Try It: Exploring GitHub Repositories</h3> groups of 3 or 4 (8 minutes)
   <p>In your breakout group, choose one of the repositories listed at the bottom of this "Try It" section. Take a few minutes to explore the following questions and be ready to report back to your group:</p>
   <ol>
     <li>What is this project about?</li>
@@ -325,7 +328,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
 1. Paste the lines listed, one at a time, in your terminal. <strong>Make sure to follow instructions for SSH</strong>
 1. Refresh Github. Tada! Your project is there.
 
-<div class="try-it">
+<div class="try-it"> groups of 3 or 4 (8 minutes)
   <h3>Try It: Adding a Remote</h3>
   <p>1. Create a new repository on GitHub called <code>git_homework</code>.</p>
   <p>2. In your terminal, navigate to your <code>git_homework</code> directory from session 2's homework. If for some reason you don't have this directory then use the <code>mkdir</code> command to create <code>git_homework</code>. Then use <code>touch</code> to create a file called<code>sample_file.txt</code>. Then run <code>git init</code>. Only do this if you don't already have a <code>git_homework</code> repo.</p>
@@ -337,7 +340,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
 Watch and take notes while we walk through how to continue making changes and pushing those changes to GitHub.
 
 <div class="try-it">
-  <h3>Try It: Full Git Workflow</h3>
+  <h3>Try It: Full Git Workflow</h3> groups of 3 or 4 (10 minutes)
   <p>In your breakout rooms, <strong>everyone</strong> will complete the steps below synchronously, but on your own projects. Use each other as resources and sounding boards. Don't hesitate to click "share screen" if there's something you want your team to look at!</p>
   <p>If you get really stuck, you can click "ask for help" and we'll pop into your room.</p>
   <ul>
@@ -392,7 +395,7 @@ git push origin master
 </div>
 
 <div class="try-it">
-  <h3>Try It: Forking</h3>
+  <h3>Try It: Forking</h3> groups of 3 or 4 (8 minutes)
   <ol>
     <li>Fork the <a href="https://github.com/rwarbelow/best_animals" title="Best Animals">Best Animals</a> repository.</li>
     <li>Clone <strong>your</strong> fork using your terminal.</li>
