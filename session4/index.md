@@ -38,10 +38,11 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 ## Housekeeping and Goals
 
-### Wins
+### Keep Improving
 
 - Git and Github are hard - keep practicing!
 - If you don't finish something in a breakout room, reach out to your cohort-mates outside of class.
+- Ask questions in Slack channel if you get stuck
 
 ### Follow-Ups
 
