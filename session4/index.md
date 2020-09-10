@@ -40,11 +40,13 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 ### Wins
 
-- Good survey scores regarding git and github.
+- Git and Github are hard - keep practicing!
+- If you don't finish something in a breakout room, reach out to your cohort-mates outside of class.
 
 ### Follow-Ups
 
-- Leaving feedback directly on homework gists. Should have HW 2 feedback to you soon.
+- Leaving feedback directly on homework gists. You should have HW 2 feedback.
+- Prework is due 9/16 (next Wednesday). Get on it!
 
 ### Other Notes
 
