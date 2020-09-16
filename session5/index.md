@@ -45,8 +45,7 @@ subheading: Attention to Detail and Iteration
 
 - We will have assessment feedback and results to everyone by end of week
 - If you pass, what do you have left to be mod 1 ready?
-- We teach JavaScript not Java
-- Check in on git/github usage (survey responses)
+- Prework due tomorrow EOD! 9/16
 
 ### Today's Goals
 
