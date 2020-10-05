@@ -43,13 +43,12 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: David, Ellen, and Mason
+* Instructor intros: David and Margo
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
 ## Housekeeping and Follow-ups
 
-* Special Guest! Amy Holt with a new pilot program for front-end
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
 * Sessions will be recorded and posted in Slack
 * No computer yet? Don't fret for today. If you don't have a mac, please reach out to me! (David)
