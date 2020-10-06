@@ -19,7 +19,7 @@ The pre-work is made up of 3 parts:
 * [Technical]({{ site.baseurl }}#technical)
 
 <a name="professional-dev"></a>
-## Professional Development
+## Professional Development (2 hours)
 
 **Turing is not just a school where you learn to code.** Turing's curriculum focuses on both technical and professional development.
 
@@ -44,14 +44,14 @@ You can find the professional development assignments [here](https://github.com/
 Submission instructions for the PD assignment will be listed in the link above.
 
 <a name="gear-up"></a>
-## Gear Up
+## Gear Up (2 hours)
 
 Gear up is a part of our curriculum where we talk about topics such as privilege and power, and ethical issues in the tech industry. Here is the [Gear Up Assignment](https://github.com/turingschool/gear-up/blob/master/pre-work/intro_with_empathy.markdown).
 
 The gear up assignment will be submitted with the technical pre-work. Instructions can be found on day 7 of the technical pre-work.
 
 <a name="technical"></a>
-## Technical Pre-work (Program Specific)
+## Technical Pre-work (Program Specific) (30 - 35 hours)
 
 The technical mod 1 pre-work is split up into 8 days. These days aren't meant to line up with anything, they're only meant to give you an idea of how long each section will take. I'd plan on each one of those days taking about 6 hours on average. Also, keep in mind that the days do get progressively harder and that they build on one another.
 
@@ -67,8 +67,7 @@ If you have more than 8 days to work on the pre-work, you should break up the wo
 The link below will take you to the Github page that contains all the Technical work. Scroll through the page to find the instructions for getting your computer setup and getting started.
 
 * [Click here to get started with Back-End Technical Mod 1 Pre-work](https://github.com/turingschool-examples/backend_mod_1_prework) (This is your technical mod 1 pre-work if you are in the back-end program)
-* **If you are in mod 0 2008B and starting in the 2010 cohort** [Click here to get started with Front-End Technical Mod 1 Pre-work](https://github.com/turingschool/frontend-mod-1-prework-2008b) (This is your technical mod 1 pre-work if you are in the front-end program)
-* [Click here to get started with Front-End Technical Mod 1 Pre-work](https://github.com/turingschool-examples/frontend-mod-1-prework) (This is your technical mod 1 pre-work if you are in the front-end program)
+* [Click here to get started with Front-End Technical Mod 1 Pre-work](https://github.com/turingschool/frontend-mod-1-prework-2008b) (This is your technical mod 1 pre-work if you are in the front-end program)
 
 The technical pre-work and gear up pre-work will be submitted in a google survey that is linked on day 7 of the technical pre-work repo for your respective program.
 
