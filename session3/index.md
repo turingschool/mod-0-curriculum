@@ -51,10 +51,10 @@ subheading: More Git and Intro to GitHub
 
 ### Follow-Ups
 
-- We're in the process of leaving feedback on everyone's session 1 hw, be sure to check your gists!
-  - Suggestions there are for your benefit and can change your grade :)
+- We're in the process of leaving feedback on everyone's session 1 and 2 HW, be sure to check your gists!
+  - Suggestions there are for your benefit
 - Make sure that you're checking slack at least once a day
-- Mod 1 pre-work is due September 16 for people starting in 2010 (or waitlist)
+- Pre-work is due October 28 for people starting Mod 1 in 2011 (or waitlist)
 - Session 3 HW due Monday.
 - Be sure to stay at your home directory or below
 
