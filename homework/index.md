@@ -5,7 +5,7 @@ title: Homework
 
 ### Creating your hw board
 
-You'll be using an app called [conveyor belt](http://conveyorbelt.herokuapp.com/projects/vyVI9T5ajeyC/clones/new) to create your own copy of a GitHub project board. This will allow you to track your progress on the homework over time by moving each card to the done column when you've completed it.
+You'll be using an app called [conveyor belt](https://conveyorbelt.herokuapp.com/projects/vyVI9T5ajeyC/clones/new) to create your own copy of a GitHub project board. This will allow you to track your progress on the homework over time by moving each card to the done column when you've completed it.
 
 This project board allows for a methodology called kanban (I would google the term if you're unfamiliar) to organize and update
 
