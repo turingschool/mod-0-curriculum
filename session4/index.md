@@ -38,16 +38,14 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 ## Housekeeping and Goals
 
-### Keep Improving
+### Wins
 
-- Git and Github are hard - keep practicing!
-- If you don't finish something in a breakout room, reach out to your cohort-mates outside of class.
-- Ask questions in Slack channel if you get stuck
+- Awesome job asking questions in the Slack channel!
 
 ### Follow-Ups
 
-- Leaving feedback directly on homework gists. You should have HW 2 feedback.
-- Prework is due 9/16 (next Wednesday). Get on it!
+- Leaving feedback directly on homework gists. You should have HW 1 and 2 feedback. Feedback is for your own benefit... it would be wise to understand it and update your hw.
+- Prework is due October 28 for people starting Mod 1 in 2011 (or waitlist). Get on it!
 
 ### Other Notes
 
