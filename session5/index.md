@@ -45,7 +45,7 @@ subheading: Attention to Detail and Iteration
 
 - We will have assessment feedback and results to everyone by end of week
 - If you pass, what do you have left to be mod 1 ready?
-- Prework due tomorrow EOD! 9/16
+- Prework due in two weeks! 10/28
 
 ### Today's Goals
 
