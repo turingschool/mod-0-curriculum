@@ -43,9 +43,9 @@ subheading: Attention to Detail and Iteration
 
 ### Follow-Ups
 
-- We will have assessment feedback and results to everyone by end of week
+- We will have assessment feedback and results to everyone by early next week
 - If you pass, what do you have left to be mod 1 ready?
-- Prework due tomorrow EOD! 9/16
+- Prework due in two weeks! 10/28
 
 ### Today's Goals
 
@@ -56,7 +56,7 @@ subheading: Attention to Detail and Iteration
 Note: Update your zoom display name to include your first name, last initial, pronouns, and "FE" or "BE"
 
 <div class="try-it">
-  <h3>Intros, Review, and Icebreaker (3 people, 6 min)</h3>
+  <h3>Intros, Review, and Icebreaker (2-3 people, 5 min)</h3>
   <p>Person with the shortest first name goes first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. What is a book, tv show, or movie that you've read/watched recently and really enjoyed? Why?</p>
@@ -67,7 +67,7 @@ Note: Update your zoom display name to include your first name, last initial, pr
 <a name="iteration"></a>
 ## Iteration
 
-Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we'll walk through using props to demonstrate the concept.
+Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we'll walk through step by step to demonstrate the concept.
 
 ### Iteration in Real Life
 
@@ -308,4 +308,4 @@ What are some strategies that you have already been using to interpret error mes
 
 > Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 1 pre-work are the ones that usually struggle for at least the first half of the mod."
 
-When you're finished with your pre-work. Work on the suggested exercises. Not sure what to work on at that point? Ask!
+When you're finished with your pre-work, work on the suggested exercises. Not sure what to work on at that point? Ask!
