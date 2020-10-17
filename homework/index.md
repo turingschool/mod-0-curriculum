@@ -5,9 +5,9 @@ title: Homework
 
 ### Creating your hw board
 
-You'll be using an app called [conveyor belt](http://conveyorbelt.herokuapp.com/projects/vyVI9T5ajeyC/clones/new) to create your own copy of a GitHub project board. This will allow you to track your progress on the homework over time by moving each card to the done column when you've completed it.
+All of the mod 0 work is organized on a [mod 0 trello board](https://trello.com/b/fMthLx4x/mod-0)
 
-This project board allows for a methodology called kanban (I would google the term if you're unfamiliar) to organize and update
+This board allows for a methodology called kanban (I would google the term if you're unfamiliar) to organize and update
 
 * After going through the conveyorbelt link above, your board will be found at `https://github.com/<yourusername>/mod-0/projects/1`
   * For example, since my github username is `damwhit`, my board would be at `https://github.com/damwhit/mod-0/projects/1`
