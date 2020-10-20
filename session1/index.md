@@ -43,7 +43,7 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: David and Margo
+* Instructor intros: David, Alice, and Mason
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
@@ -594,6 +594,8 @@ Key takeaways from today:
 <a name="homework"></a>
 ## Homework
 
-Find the homework in your Mod 0 Project Board. Contact your instructors if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
+Find the homework in your Mod 0 Trello Board. Contact your instructors if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
-Also, if you haven't already, I would encourage you to start your mod 1 pre-work, as it'll help you work on your program specific skills.
+Also, if you haven't already, I would encourage you to start your mod 1 pre-work, as it'll help you work on your program specific skills and it is due in a few weeks
+
+If you're in FE, we'll give more details on what's happening with the FE small groups pilot tomorrow.
