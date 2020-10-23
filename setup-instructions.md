@@ -163,6 +163,7 @@ Open Terminal with Spotlight search (press the `Command + Space` keys like we di
 ```
 git config --global user.name "Alan Turing"
 git config --global user.email alanturing@example.com
+git config --global init.defaultBranch main
 ```
 
 You can verify that this is working:
@@ -172,6 +173,7 @@ $ git config --list
 credential.helper=osxkeychain
 user.name=Alan Turing
 user.email=alanturing@example.com
+init.defaultbranch=main
 ```
 If you get "stuck" in the screen showing the output of `git config --list`, don't panic! Just type `q`, and you should get back to your regular terminal.
 

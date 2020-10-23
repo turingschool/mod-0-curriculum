@@ -549,7 +549,7 @@ Safe/Informative Commands
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
-  <p>Git has a steep learning curve, and it can be super confusing at the beginning. Tonight's lesson is not meant to make you a git master, but it will expose you to the basic git commands and workflow. Most likely, you will not have the commands or workflow memorized after tonight.</p>
+  <p>Git has a steep learning curve, and it can be super confusing at the beginning. Tonight's lesson is not meant to make you a git expert, but it will expose you to the basic git commands and workflow. Most likely, you will not have the commands or workflow memorized after tonight.</p>
   <p>To get comfortable with git (just like with anything else), you will need to put in hours of practice. It's an excellent idea to go back over this lesson (either in print or recording) multiple times.</p>
 </div>
 
@@ -603,7 +603,7 @@ When you want to see what git is tracking and the current status of files, you c
 
 ```
 timo@Tims-MacBook-Pro:~/notes$ git status
-On branch master
+On branch main
 
 No commits yet
 
@@ -640,7 +640,7 @@ We will add our file to the staging area.
 ```
 timo@Tims-MacBook-Pro:~/notes$ git add things_to_remember.txt
 timo@Tims-MacBook-Pro:~/notes$ git status
-On branch master
+On branch main
 
 No commits yet
 
@@ -663,7 +663,7 @@ Now that our file is in the staging area, let's tell git that we're ready to com
 
 ```
 timo@Tims-MacBook-Pro:~/notes$ git commit -m 'Initial commit'
-[master (root-commit) b7654a6] Initial commit
+[main (root-commit) b7654a6] Initial commit
  1 file changed, 1 insertion(+)
  create mode 100644 things_to_remember.txt
 ```
@@ -672,7 +672,7 @@ Now if I look at my git status, this is what I see:
 
 ```
 timo@Tims-MacBook-Pro:~/notes$ git status
-On branch master
+On branch main
 nothing to commit, working tree clean
 ```
 
@@ -757,7 +757,7 @@ The basic git workflow is this:
 
 Understanding git and the workflow can be tricky at first; however, this pattern is one that you will come to memorize over time. As you are memorizing the steps, be sure that you know **what** each step does.
 
-Today (and during Mod 0), we'll just be moving forward in time using git. We won't learn how to go back in time, but it's important to understand and master making small commits before adding in new git functionality.
+Today (and during Mod 0), we'll just be moving forward in time using git. We won't learn how to go back in time, but it's important to understand and main making small commits before adding in new git functionality.
 
 We do not expect you to have these steps and reasons memorized right now. You can always reference back to this tutorial (or other tutorials that you find online). The more you practice, the easier it will become.
 
