@@ -51,11 +51,11 @@ subheading: More Git and Intro to GitHub
 
 ### Follow-Ups
 
-- We're in the process of leaving feedback on everyone's session 1 and 2 HW, be sure to check your gists!
+- We're in the process of leaving feedback on everyone's session 1, be sure to check your gists!
   - Suggestions there are for your benefit
 - Make sure that you're checking slack at least once a day
-- Pre-work is due October 28 for people starting Mod 1 in 2011 (or waitlist)
-- Session 3 HW due Monday.
+- Pre-work is due Nov 4 (next Wednesday!) for people starting Mod 1 in 2011 (or waitlist)
+- Session 3 HW due Thursday
 - Be sure to stay at your home directory or below
 
 ### Today's Goals
@@ -166,7 +166,7 @@ subheading: More Git and Intro to GitHub
   <h3>Try It: Methods</h3>
   <p>In your notebook, write down a sentence about a class using this structure:</p>
   <p>Each _______ (class) can ___________, __________, and ___________.</p>
-  <p>Example: Each bank account (class) can have money deposited, can have money withdrawn, can be opened, can be closed, and can change ownership (methods).</p>
+  <p>Example: Each BankAccount (class) can deposit_money, can withdraw_money, can open, can close, and can change_ownership (methods).</p>
 </div>
 
 ### Method and Attribute Interaction
