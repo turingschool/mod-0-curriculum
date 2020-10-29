@@ -42,10 +42,13 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 - Awesome job asking questions in the Slack channel!
 
+- Nice scores on feedback! Love seeing people use the term 'practice'!
+
 ### Follow-Ups
 
-- Leaving feedback directly on homework gists. You should have HW 1 and 2 feedback. Feedback is for your own benefit... it would be wise to understand it and update your hw.
-- Prework is due October 28 for people starting Mod 1 in 2011 (or waitlist). Get on it!
+- Leaving feedback directly on homework gists. You should have HW 1, session 2 feedback coming very soon if not yet. Feedback is for your own benefit... it would be wise to decipher it and update your hw.
+
+- Prework is due November 4 for people starting Mod 1 in 2011 (or waitlist). Get on it!
 
 ### Other Notes
 
