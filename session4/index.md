@@ -46,6 +46,8 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 ### Follow-Ups
 
+- Moving class session 5 to Monday at 6:15pm (day earlier)!
+
 - Leaving feedback directly on homework gists. You should have HW 1, session 2 feedback coming very soon if not yet. Feedback is for your own benefit... it would be wise to decipher it and update your hw.
 
 - Prework is due November 4 for people starting Mod 1 in 2011 (or waitlist). Get on it!
