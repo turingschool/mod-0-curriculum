@@ -11,7 +11,7 @@ subheading: Attention to Detail and Iteration
     <ul>
       <li>define iteration in programming</li>
       <li>demonstrate iteration in real-world and programming situations</li>
-      <li>demonstrate how to pseudocode out a problem</li>
+      <li>read and debug error messages</li>
     </ul>
   </div>
   <div>
@@ -45,7 +45,8 @@ subheading: Attention to Detail and Iteration
 
 - We will have assessment feedback and results to everyone by early next week
 - If you pass, what do you have left to be mod 1 ready?
-- Prework due in two weeks! 10/28
+- Prework due Wednesday 11/4! (for 2011 cohort)
+- Check the calendar: Mod 1 Orientation is Nov 11
 
 ### Today's Goals
 
@@ -133,7 +134,7 @@ By "in programming", we mean things that could be done, with relative ease, by a
       <td>year</td>
       <td>
         <ol>
-          <li>subtract birth year from 2020 to get age</li>
+          <li>subtract birth year from the current year to get age</li>
           <li>subtract age from 220</li>
         </ol>
       </td>
@@ -228,8 +229,8 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
       <strong>Todo:</strong> Google <code>console.log</code> and other console methods that are available to you in a Javascript console.</li>
       <li><code>students[i]</code><br> Access the <span class="vocab">element</span> of the <code>students</code> <span class="vocab">array</span> at <span class="vocab">index position</span><code>i</code> which will change as <code>i</code> changes and we increment through the <span class="vocab">for loop</span>
       As we move through the loop this breaks down to <code>students[0]</code>, next time through the loop: <code>students[1]</code>, next time through the loop: <code>students[2]</code> ...</li>
-  </ul>
-</div>
+    </ul>
+  </div>
 
   <h4>Example #2: Multiplying By Six</h4>
   <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationJS2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
@@ -273,7 +274,7 @@ But error messages can be overwhelming if you're not used to them because they m
 
 What are some strategies that you have already been using to interpret error messages?
 
-### Program Specific Breakout Groups (20 minutes)
+### Program Specific Breakout Groups (Groups of 3-4, 20 minutes)
 
 <div class="try-it">
   <h3>Mythical Creatures: A Primer</h3>
@@ -299,6 +300,7 @@ What are some strategies that you have already been using to interpret error mes
 
 * This is your last mod 0 session
 * All that's left is to turn in your mod 1 pre-work
+* Check the calendar: Mod 1 Orientation is Nov 11
 * When you start working on Mythical Creatures in Mod 1, think back to OOP, classes and methods in Mod 0
 * Moving forward:
   * Keep up the hard work
