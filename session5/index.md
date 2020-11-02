@@ -210,7 +210,7 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
 <div class="hidden fe-iteration">
   <p>The code that you see below is written using JavaScript. This syntax is something that you'll see all over the place, so it's important to get used to it. You don't need to memorize every little symbol for now, but knowing how to explain the big pieces is important.</p>
   <h4>Example #1: Grading papers for five students</h4>
-  <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationJS1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationJS1?lite=true"></iframe>
   <div class="things-to-note">
     <h4>Things to Note: For Loop Vocabulary</h4>
     <ul>
@@ -246,9 +246,9 @@ We'll go into breakout rooms to briefly discuss the syntax for iterating in Ruby
 <div class="hidden be-iteration">
   <p>The code that you see below is written using Ruby. This syntax is something that you'll see all over the place, so it's important to get used to it. You don't need to memorize every little symbol for now, but knowing how to explain the big pieces is important.</p>
   <h4>Example #1: Grading papers for five students</h4>
-  <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationRuby1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  <iframe height="350px" width="100%" src="//repl.it/@rwarbelow/mod0iterationRuby1?lite=true"></iframe>
   <h4>Example #2: Multiplying By Two</h4>
-  <iframe height="350px" width="100%" src="//repl.it/@TimTyrrell1/RubyExampleNumberIteration?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  <iframe height="350px" width="100%" src="//repl.it/@TimTyrrell1/RubyExampleNumberIteration?lite=true"></iframe>
 
   <div class="try-it">
     <h3>Try It: Iteration Syntax</h3>
