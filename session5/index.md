@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 5
-subheading: Attention to Detail and Iteration
+subheading: Iteration and Error Messages
 ---
 
 <div class="goals-agenda">
