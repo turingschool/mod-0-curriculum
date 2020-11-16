@@ -48,7 +48,7 @@ Follow these steps to get Xcode-select installed on your machine:
 
 1. Open the Terminal by pressing the `Command + Space` keys at the same time, which opens Spotlight, and then type `Terminal` into the search.
 1. Press the enter key to open `Terminal`
-1.  Once terminal is open, type the following **without the `$` symbol**: 
+1. Once terminal is open, type the following **without the `$` symbol**: 
  ```
   $ xcode-select --install
  ```
@@ -70,8 +70,6 @@ Options:
 .
 .
 ```
-
-<section class="call-to-action">
 
 ### A note on convention
 
@@ -95,7 +93,6 @@ Options:
 .
 .
 ```
-</section>
 
 ## 4) Install Homebrew
 
@@ -133,13 +130,14 @@ $ source ~/.zshrc
 
 [Git](https://git-scm.com/) is a Version Control System (VCS). It allows you to save work on your project, and reference previous states of a project if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and ANY previous version. Git’s philosophy: never lose anything.
 
-To install Git, we will use Homebrew. In your Terminal, type this:
+To install Git, we will use Homebrew. Follow these steps to install `git` on your machine:
+
+1. Open your Terminal, and type this:
 
 ```
 $ brew install git
 ```
-
-You can do `git` in the terminal to verify that its working:
+1. Check that it was successful by typing `git` in the terminal. It should output: 
 
 ```
 $ git
@@ -165,29 +163,30 @@ We'll want to configure git with some basic information about us.
 
 We can tell git to configure itself using the git config command from our terminal. Additionally, we're setting "global" configurations for git, so we'll use the --global flag when we provide it with a new piece of configuration.
 
-Open Terminal with Spotlight search (press the `Command + Space` keys like we did previously). Type the following, substituting your own name and email:
+1. Open Terminal with Spotlight search (press the `Command + Space` keys like we did previously). 
+1. Type the following, one at a time, **SUBSTITUTING YOUR OWN NAME AND EMAIL** for the first two commands:
 
 ```
-git config --global user.name "Alan Turing"
-git config --global user.email alanturing@example.com
+git config --global user.name "Eric Weissman"
+git config --global user.email eric@example.com
 git config --global init.defaultBranch main
 git config --global core.editor "atom --wait"
 git config --global pull.rebase false
 ```
 
-You can verify that this is working:
+1. You can verify that this is working by typing `git config --list` in your terminal and checking the output: 
 
 ```
 $ git config --list
 credential.helper=osxkeychain
-user.name=Alan Turing
-user.email=alanturing@example.com
+user.name=Eric Weissman
+user.email=eric@example.com
 init.defaultbranch=main
 core.editor=atom --wait
 pull.rebase=false
 
 ```
-If you get "stuck" in the screen showing the output of `git config --list`, don't panic! Just type `q`, and you should get back to your regular terminal.
+If you get "stuck" in the screen showing the output of `git config --list`, **don't panic!** Just type `q`, and you should get back to your regular terminal.
 
 
 ## 7) Install Chrome
@@ -208,17 +207,17 @@ Install the shell commands for Atom. Open Atom, drop down the `Atom` menu in the
 
 ![Install Shell Commands](/images/install_shell_commands.jpg)
 
-To confirm that Atom is working from your command line, open a terminal with Spotlight search (`Command + Space`), type `terminal` and hit enter. Type `atom .` in your terminal. If it is setup correctly, the atom editor will automatically open.
-
-If you get an error, make sure you've selected `Install Shell Commands` from the Atom menu.
-
-If is _still_ not working, try entering this in the command line:
+To confirm that Atom is working from your command line, complete the following steps:
+1. Open Terminal with Spotlight search (`Command + Space`), type `terminal` and hit enter. 
+1. Type `atom .` in your terminal. **Be sure to include a space between `atom` and the `.`** If it is setup correctly, the atom editor will automatically open.
+1. If you get an error, make sure you've selected `Install Shell Commands` from the Atom menu.
+1. If is _still_ not working, try entering this in the command line:
 
 ```
 ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 
 ```
-Try opening Atom from the command line again. If it's still not working, message one of the Turing staff, or mention this in your cohort channel. We'll get this squared away!
+1. Try opening Atom from the command line/terminal by typing `atom .` If it's still not working, message one of the Turing staff, or mention this in your cohort channel. We'll get this squared away!
 
 Atom also offers a number of different options and packages that you can customize to your liking. [This](https://www.youtube.com/watch?v=WWwBQQOGllo&list=PLYzJdSdNWNqwNWlxz7bvu-lOYR0CFWQ4I) series of videos will walk you through many of them if you'd like to dive deeper.
 
@@ -235,15 +234,16 @@ This can be a bit tricky to do, so here's another quick walk-through, of _just_ 
 
 ### 1. Generate a new key by running:
 
-(You should use the email associated with your GitHub account)
+Follow these steps to generate a new key:
+1. Open terminal and enter the following command - **You should use the email associated with your GitHub account**
 
 ```
 $ ssh-keygen -t rsa -C "johndoe@example.com"
 ```
 
-When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location, which is `~/ssh/id_rsa`
+1. When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location, which is `~/ssh/id_rsa`
 
-When asked to enter a password, hit enter, which means "no password".
+1. When asked to enter a password, hit `enter`, which means "no password".
 
 You'll see a confirmation message that looks like:
 
@@ -268,12 +268,14 @@ The key's randomart image is:
 
 ### 2. Add this new key to your system by running:
 
+- In your terminal, run:
 ```
 $ ssh-add ~/.ssh/id_rsa
 ```
 
 ### 3. Copy the new _public_ key to your clipboard:
 
+- In your terminal, run:
 ```
 $ pbcopy < ~/.ssh/id_rsa.pub
 ```
@@ -281,14 +283,15 @@ $ pbcopy < ~/.ssh/id_rsa.pub
 ### 4. Tell GitHub about this key.
 
 1.  Go to [https://github.com/settings/keys](https://github.com/settings/keys)
-1.  Click the green "New SSH key" button.
-1.  Leave the "title" section empty
-1.  Paste the key into the "key" section with `Command + v`.
-1.  Hit the green "Add SSH key" button.
+1.  Click the green `New SSH key` button.
+1.  Leave the `title` section empty
+1.  Paste the key into the `key` section with `Command + v`.
+1.  Hit the green `Add SSH key` button.
 
 
 **To test that our key is configured, type the following into the command line:**
 
+- In your terminal, run:
 ```
 $ ssh -T git@github.com
 ```
