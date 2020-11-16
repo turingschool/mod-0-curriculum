@@ -46,11 +46,14 @@ Rather than download Xcode via the Apple Store, we can get a much smaller select
 
 Follow these steps to get Xcode-select installed on your machine:
 
-- Open the Terminal by pressing the `Command + Space` keys at the same time, which opens Spotlight, and then type `Terminal` into the search.
-- Press the enter key to open `Terminal`
-- Once terminal is open, type the following **without the `$` symbol**: `xcode-select --install`
-- When prompted, enter the password you use to login to your computer.
-- Check that installation was succesful by typing `xcode-select` in your terminal. You should see something like this:
+1. Open the Terminal by pressing the `Command + Space` keys at the same time, which opens Spotlight, and then type `Terminal` into the search.
+1. Press the enter key to open `Terminal`
+1.  Once terminal is open, type the following **without the `$` symbol**: 
+ ```
+  $ xcode-select --install
+ ```
+1. When prompted, enter the password you use to login to your computer.
+1. Check that installation was succesful by typing `xcode-select` in your terminal. You should see something like this:
 
 ```
 $ xcode-select
@@ -69,6 +72,7 @@ Options:
 ```
 
 <section class="call-to-action">
+
 ### A note on convention
 
 When you see a `$` before a line, it means "enter what follows the dollar sign as a terminal command".
@@ -97,17 +101,19 @@ Options:
 
 [Homebrew](https://brew.sh/) is a package management system that makes it easy to install hundreds of open source projects and compile them from source for maximum performance on your machine.
 
-To install homebrew, open Terminal. Again, you can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search.
+Follow these steps to get Homebrew installed on your machine:
 
-Once you have Terminal open, paste this line and hit enter. (remember, skip the `$`)
+1. Open `Terminal`. Again, you can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search.
+
+1. Once you have Terminal open, paste this line and hit enter. (remember, skip the `$`)
 
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-It will ask you for your password. This is the password to log in to your account on the computer. It needs this because it installs its packages in a place that all users of this computer can access.
+1. When prompted, enter the password you use to login to your computer. It needs this because it installs its packages in a place that all users of this computer can access.
 
-When it has completed the installation run brew doctor and it should tell you that everything is fine:
+1. When it has completed the installation, type `brew doctor` in your terminal + press enter. It should tell you that everything is fine:
 
 ```
 $ brew doctor
