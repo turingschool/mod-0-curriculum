@@ -44,14 +44,13 @@ Install [Atom](https://atom.io/). Atom is a program where we edit code - it is a
 
 Rather than download Xcode via the Apple Store, we can get a much smaller selection of necessary tools, called `xcode-select`, via our terminal.
 
-Open the Terminal by pressing the `Command + Space` keys at the same time, which opens Spotlight, and then type `Terminal` into the search. Press the enter key, and type the following into the application, but without the `$`:
+Follow these steps to get Xcode-select installed on your machine:
 
-```
-$ xcode-select --install
-```
-When prompted, enter your password.
-
-You can verify that the installation was successful by typing `xcode-select` in your terminal. You should see something like this:
+- Open the Terminal by pressing the `Command + Space` keys at the same time, which opens Spotlight, and then type `Terminal` into the search.
+- Press the enter key to open `Terminal`
+- Once terminal is open, type the following **without the `$` symbol**: `xcode-select --install`
+- When prompted, enter the password you use to login to your computer.
+- Check that installation was succesful by typing `xcode-select` in your terminal. You should see something like this:
 
 ```
 $ xcode-select
@@ -69,6 +68,7 @@ Options:
 .
 ```
 
+<section class="call-to-action">
 ### A note on convention
 
 When you see a `$` before a line, it means "enter what follows the dollar sign as a terminal command".
@@ -91,6 +91,7 @@ Options:
 .
 .
 ```
+</section>
 
 ## 4) Install Homebrew
 
