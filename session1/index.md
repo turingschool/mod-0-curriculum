@@ -49,13 +49,21 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
 
 ## Housekeeping and Follow-ups
 
-* Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
+* Change display name in Zoom by clicking the **Participants** menu and choosing **Rename**. Make sure to match the following format:
+  - Color Status 🟢 🟡 🟠 🔴
+    - To open the Emoji menu on Mac, click in any text field and press `CONTROL + COMMAND + SPACE`
+    - Search for `Green`, `Yellow`, `Orange`, or `Red` to pick the appropriate color based on your current status
+  - First name
+  - Last initial
+  - Pronouns
+  - Program (FE or BE)
+  - Example: 🟡 Eric W (he/him, FE)
 * Sessions will be recorded and posted in Slack
 * No computer yet? Don't fret for today. If you don't have a mac, please reach out to me! (Eric Weissman/@ericweissman)
 
 ### Breakout Rooms
 
-This is a feature in zoom that we'll use throughout the mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 60 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 60 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise.
+This is a feature in zoom that we'll use throughout the mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 30 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 30 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise.
 
 Some norms before heading in:
 * Be aware and try not talk over others.
