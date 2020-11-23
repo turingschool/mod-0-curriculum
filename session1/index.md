@@ -43,7 +43,7 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: David, Alice, and Mason
+* Instructor intros: Eric, Alice, and Ellen
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
@@ -51,7 +51,7 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
 
 * Change display name to first name, last initial, pronouns, program; ie - `Rachel W. (she/her, BE)`
 * Sessions will be recorded and posted in Slack
-* No computer yet? Don't fret for today. If you don't have a mac, please reach out to me! (David)
+* No computer yet? Don't fret for today. If you don't have a mac, please reach out to me! (Eric Weissman/@ericweissman)
 
 ### Breakout Rooms
 
@@ -125,111 +125,6 @@ Does anyone know what back-end technologies are taught at Turing?
 
 You won't be tested on any of the above, but it's nonetheless great context for what you're going to be learning over the next 7 plus months.
 In mod 0, we'll focus on Ruby and JavaScript as they have the most similarities. And we try to keep things as program agnostic as we can in mod 0.
-
-<a name="shortcuts"></a>
-## Keyboard Shortcuts
-
-Most computer users rely heavily on the mouse to open applications, interact with programs, etc. You might think that you're quick with a mouse, but just wait until you get good at <span class="vocab">keyboard shortcuts</span>.
-
-Initially, your flow will be slower as you learn and memorize each of the shortcuts. However, if you force yourself to use these shortcuts, you'll become MUCH faster in the long run.
-
-<div class="try-it">
-  <h3>Try it: Shortcuts</h3>
-  <div class="flex-container tips">
-    <div>
-      <h3>Mac Environment</h3>
-      <p>Use these shortcuts to quickly move around within your environment.</p>
-      <ul>
-        <li>
-          <strong>Open a program or search for a file:</strong>
-          <pre>command + spacebar</pre>
-          <p>Then start typing the name of the program or file to search for such as
-            <i>"Terminal"</i> Or <i>"Chrome"</i>,
-          then press return to open that program or file</p>
-        </li>
-        <li>
-          <strong>Cycle through open programs:</strong>
-          <pre>command + tab + tab ...</pre>
-        </li>
-        <li>
-          <strong>Switch between separate open windows of the same program:</strong>
-          <pre>command + `</pre>
-        </li>
-        <li>
-          <strong>Quit an Open Program:</strong>
-          <pre>command + Q</pre>
-        </li>  
-      </ul>
-      <div>
-      <h3>Rectangle</h3>
-      <p>Start by making sure Rectangle is running with (command + spacebar) then type <strong>rectangle</strong> and then return. You should see a window icon at the top right of your menu bar. Click the icon to see a dropdown of your shortcuts. Click preferences to customize them.</p>
-      <ul>
-        <li>
-          <strong>Full Screen Current Window:</strong>
-          <pre>command + option + enter</pre>
-        </li>
-        <li>
-          <strong>Left Half Current Window:</strong>
-          <pre>command + option + left-arrow</pre>
-        </li>
-        <li>
-          <strong>Right Half Current Window:</strong>
-          <pre>command + option + right-arrow</pre>
-        </li>
-        <li>
-          <strong>Top Half Current Window:</strong>
-          <pre>command + option + up-arrow</pre>
-        </li>
-        <li>
-          <strong>Bottom Half Current Window:</strong>
-          <pre>command + option + down-arrow</pre>
-        </li>
-      </ul>
-    </div>
-    </div>
-    <div>
-      <h3>Chrome Browser</h3>
-      <p>Start by opening Chrome with the shortcut (command + space) you already learned.</p>
-      <ul>
-        <li>
-          <strong>Bookmark Page:</strong>
-          <pre>command + D</pre>
-        </li>
-        <li>
-          <strong>Open New Tab:</strong>
-          <pre>command + T</pre>
-        </li>
-        <li>
-          <strong>Open New Window:</strong>
-          <pre>command + N</pre>
-        </li>
-        <li>
-          <strong>Open New Incognito Window:</strong>
-          <pre>command + shift + N</pre>
-        </li>
-        <li>
-          <strong>Highlight Current URL:</strong>
-          <pre>command + L</pre>
-        </li>
-        <li>
-          <strong>Cycle Through Tabs:</strong>
-          <pre>Right: control + tab</pre>
-          <pre>Left: control + shift + tab</pre>
-        </li>
-        <li>
-          <strong>Reload Page:</strong>
-          <pre>command + shift + R</pre>
-        </li>
-        <li>
-          <strong>Close Tab:</strong>
-          <pre>command + W</pre>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-This [video](https://www.youtube.com/watch?v=I3PBZBX-Fig&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=2) from Technical Programs Instructor Amy Holt gives some great screen management tips.
 
 <a name="classes"></a>
 ## Classes
@@ -598,4 +493,107 @@ Find the homework in your Mod 0 Trello Board. Contact your instructors if you're
 
 Also, if you haven't already, I would encourage you to start your mod 1 pre-work, as it'll help you work on your program specific skills and it is due in a few weeks
 
-If you're in FE, we'll give more details on what's happening with the FE small groups pilot tomorrow.
+<a name="shortcuts"></a>
+## Keyboard Shortcuts
+
+Most computer users rely heavily on the mouse to open applications, interact with programs, etc. You might think that you're quick with a mouse, but just wait until you get good at <span class="vocab">keyboard shortcuts</span>.
+
+Initially, your flow will be slower as you learn and memorize each of the shortcuts. However, if you force yourself to use these shortcuts, you'll become MUCH faster in the long run.
+
+<div class="try-it">
+  <h3>Try it: Shortcuts</h3>
+  <div class="flex-container tips">
+    <div>
+      <h3>Mac Environment</h3>
+      <p>Use these shortcuts to quickly move around within your environment.</p>
+      <ul>
+        <li>
+          <strong>Open a program or search for a file:</strong>
+          <pre>command + spacebar</pre>
+          <p>Then start typing the name of the program or file to search for such as
+            <i>"Terminal"</i> Or <i>"Chrome"</i>,
+          then press return to open that program or file</p>
+        </li>
+        <li>
+          <strong>Cycle through open programs:</strong>
+          <pre>command + tab + tab ...</pre>
+        </li>
+        <li>
+          <strong>Switch between separate open windows of the same program:</strong>
+          <pre>command + `</pre>
+        </li>
+        <li>
+          <strong>Quit an Open Program:</strong>
+          <pre>command + Q</pre>
+        </li>  
+      </ul>
+      <div>
+      <h3>Rectangle</h3>
+      <p>Start by making sure Rectangle is running with (command + spacebar) then type <strong>rectangle</strong> and then return. You should see a window icon at the top right of your menu bar. Click the icon to see a dropdown of your shortcuts. Click preferences to customize them.</p>
+      <ul>
+        <li>
+          <strong>Full Screen Current Window:</strong>
+          <pre>command + option + enter</pre>
+        </li>
+        <li>
+          <strong>Left Half Current Window:</strong>
+          <pre>command + option + left-arrow</pre>
+        </li>
+        <li>
+          <strong>Right Half Current Window:</strong>
+          <pre>command + option + right-arrow</pre>
+        </li>
+        <li>
+          <strong>Top Half Current Window:</strong>
+          <pre>command + option + up-arrow</pre>
+        </li>
+        <li>
+          <strong>Bottom Half Current Window:</strong>
+          <pre>command + option + down-arrow</pre>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div>
+      <h3>Chrome Browser</h3>
+      <p>Start by opening Chrome with the shortcut (command + space) you already learned.</p>
+      <ul>
+        <li>
+          <strong>Bookmark Page:</strong>
+          <pre>command + D</pre>
+        </li>
+        <li>
+          <strong>Open New Tab:</strong>
+          <pre>command + T</pre>
+        </li>
+        <li>
+          <strong>Open New Window:</strong>
+          <pre>command + N</pre>
+        </li>
+        <li>
+          <strong>Open New Incognito Window:</strong>
+          <pre>command + shift + N</pre>
+        </li>
+        <li>
+          <strong>Highlight Current URL:</strong>
+          <pre>command + L</pre>
+        </li>
+        <li>
+          <strong>Cycle Through Tabs:</strong>
+          <pre>Right: control + tab</pre>
+          <pre>Left: control + shift + tab</pre>
+        </li>
+        <li>
+          <strong>Reload Page:</strong>
+          <pre>command + shift + R</pre>
+        </li>
+        <li>
+          <strong>Close Tab:</strong>
+          <pre>command + W</pre>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+This [video](https://www.youtube.com/watch?v=I3PBZBX-Fig&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=2) from Technical Programs Instructor Amy Holt gives some great screen management tips.
