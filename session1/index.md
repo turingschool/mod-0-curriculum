@@ -134,43 +134,6 @@ Does anyone know what back-end technologies are taught at Turing?
 You won't be tested on any of the above, but it's nonetheless great context for what you're going to be learning over the next 7 plus months.
 In mod 0, we'll focus on Ruby and JavaScript as they have the most similarities. And we try to keep things as program agnostic as we can in mod 0.
 
-<a name="classes"></a>
-## Classes
-
-### Defining and Identifying Classes
-
-**Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 4. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
-
-Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan are all different versions or <span class="vocab">instances</span> of a **Pizza** (class).
-
-Elmer the dog and Bernie the cat are different instances of a **Pet** (class).
-
-My copy of _Great Expectations_ by Charles Dickens and my copy of _Becoming_ by Michelle Obama (instances) are different instances of a **Book** (class).
-
-Class names are always singular and PascalCase: **Pizza** (instead of pizzas), **Pet** (instead of pets), and **Book** instead of books.
-
-<div class="try-it">
-  <h3>Try It: Classes</h3>
-  <p>Post two sentences in the chat using this structure:</p>
-  <p>______, ________, and _______ (instances) are different versions of a ________ (class).</p>
-</div>
-
-### Attributes of Classes
-
-An <span class="vocab">attribute</span> of a class is a characteristic that every instance of that class has.
-
-For example:
-
-- Each instance of a **Pizza** (class) has a crust, sauce, and toppings (attributes).
-- Each instance of a **Pet** (class) has a color, species, size, number_of_legs, temperament, and age (attributes).
-- Each instance of a **Book** (class) has a title, author, publisher, published_date, and total_pages (attributes).
-
-<div class="try-it">
-  <h3>Try It: Attributes</h3>
-  <p>Post two sentences in the chat about your two classes using this structure:</p>
-  <p>Each instance of a _______ (class) has a _______, ________, and ________ (attributes).</p>
-</div>
-
 
 ## BREAK
 
@@ -233,6 +196,43 @@ Once you formulate a good Google search and receive your results, there are a fe
 <div class="try-it">
   <h3>Demo: Google Results</h3>
   <p>We'll look through some Google results for "how do you find out the length of a string in javascript?". Be ready to jot down tips for sifting through results.</p>
+</div>
+
+<a name="classes"></a>
+## Classes
+
+### Defining and Identifying Classes
+
+**Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 4. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
+
+Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan are all different versions or <span class="vocab">instances</span> of a **Pizza** (class).
+
+Elmer the dog and Bernie the cat are different instances of a **Pet** (class).
+
+My copy of _Great Expectations_ by Charles Dickens and my copy of _Becoming_ by Michelle Obama (instances) are different instances of a **Book** (class).
+
+Class names are always singular and PascalCase: **Pizza** (instead of pizzas), **Pet** (instead of pets), and **Book** instead of books.
+
+<div class="try-it">
+  <h3>Try It: Classes</h3>
+  <p>Post two sentences in the chat using this structure:</p>
+  <p>______, ________, and _______ (instances) are different versions of a ________ (class).</p>
+</div>
+
+### Attributes of Classes
+
+An <span class="vocab">attribute</span> of a class is a characteristic that every instance of that class has.
+
+For example:
+
+- Each instance of a **Pizza** (class) has a crust, sauce, and toppings (attributes).
+- Each instance of a **Pet** (class) has a color, species, size, number_of_legs, temperament, and age (attributes).
+- Each instance of a **Book** (class) has a title, author, publisher, published_date, and total_pages (attributes).
+
+<div class="try-it">
+  <h3>Try It: Attributes</h3>
+  <p>Post two sentences in the chat about your two classes using this structure:</p>
+  <p>Each instance of a _______ (class) has a _______, ________, and ________ (attributes).</p>
 </div>
 
 <a name="datatypes"></a>
