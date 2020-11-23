@@ -19,12 +19,12 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>6:15 </strong><a href="#the-stack">The Full Stack</a></li>
-      <li><strong>6:45 </strong><a href="#shortcuts">Keyboard Shortcuts</a></li>
-      <li><strong>6:50 </strong><a href="#classes">Classes</a></li>
-      <li><strong>7:05 </strong>Break</li>
-      <li><strong>7:10 </strong><a href="#findinganswers">Googling</a></li>
-      <li><strong>7:35 </strong><a href="#datatypes">Data Types</a></li>
+      <li><strong>6:15 </strong><a href="#intro">Intro + Housekeeping/a></li>
+      <li><strong>6:30 </strong><a href="#the-stack">The Stack/a></li>
+      <li><strong>7:00 </strong>Break</li>
+      <li><strong>7:05 </strong><a href="#findinganswers">Googling</a></li>
+      <li><strong>7:30 </strong><a href="#classes">Classes</a></li>
+      <li><strong>8:00 </strong><a href="#datatypes">Data Types</a></li>
       <li><strong>8:25 </strong><a href="#homework">Homework Preview</a></li>
     </ul>
   </div>
@@ -59,7 +59,7 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
   - Program (FE or BE)
   - Example: 🟡 Eric W (he/him, FE)
 * Sessions will be recorded and posted in Slack
-* No computer yet? Don't fret for today. If you don't have a mac, please reach out to me! (Eric Weissman | @ericweissman)
+* No computer yet? Don't fret for today. If you don't have a mac, please reach out to me! (Eric Weissman or @ericweissman)
 
 ### Breakout Rooms
 
@@ -129,8 +129,6 @@ Back-End languages include:
 Does anyone know what back-end technologies are taught at Turing?
 
 
-
-
 You won't be tested on any of the above, but it's nonetheless great context for what you're going to be learning over the next 7 plus months.
 In mod 0, we'll focus on Ruby and JavaScript as they have the most similarities. And we try to keep things as program agnostic as we can in mod 0.
 
@@ -182,7 +180,7 @@ make border on heading element css
     Phrase 1:
     Phrase 2:
   </textarea>
-  <p>3. A Mod 0 homework assignment asks you to print out your git log in oneline (yes, oneline, not a spelling error) format and David definitely did not teach how to do this during class.</p>
+  <p>3. A Mod 0 homework assignment asks you to print out your git log in oneline (yes, oneline, not a spelling error) format and the instructors DEFINITELY did not teach how to do this during class.</p>
   <textarea rows="2">
     Phrase 1:
     Phrase 2:
@@ -207,14 +205,14 @@ Once you formulate a good Google search and receive your results, there are a fe
 
 Think of a <span class="vocab">class</span> as a category of thing. For example, deep dish, new york, and pan are all different versions or <span class="vocab">instances</span> of a **Pizza** (class).
 
-Elmer the dog and Bernie the cat are different instances of a **Pet** (class).
+Bandit the dog and Pumpernickel the cat are different instances of a **Pet** (class).
 
-My copy of _Great Expectations_ by Charles Dickens and my copy of _Becoming_ by Michelle Obama (instances) are different instances of a **Book** (class).
+My copy of _Lonesome Dove_ by Larry McMurtry and my copy of _Becoming_ by Michelle Obama (instances) are different instances of a **Book** (class).
 
-Class names are always singular and PascalCase: **Pizza** (instead of pizzas), **Pet** (instead of pets), and **Book** instead of books.
+Class names are always singular and PascalCase: **Pizza** (instead of pizzas), **Pet** (instead of pets), and **GolfCourse** instead of Golf Course.
 
 <div class="try-it">
-  <h3>Try It: Classes</h3>
+  <h3>Try It: Classes Practice</h3>
   <p>Post two sentences in the chat using this structure:</p>
   <p>______, ________, and _______ (instances) are different versions of a ________ (class).</p>
 </div>
@@ -230,7 +228,7 @@ For example:
 - Each instance of a **Book** (class) has a title, author, publisher, published_date, and total_pages (attributes).
 
 <div class="try-it">
-  <h3>Try It: Attributes</h3>
+  <h3>Try It: Attributes Practice</h3>
   <p>Post two sentences in the chat about your two classes using this structure:</p>
   <p>Each instance of a _______ (class) has a _______, ________, and ________ (attributes).</p>
 </div>
@@ -442,9 +440,10 @@ Imagine that we're making an application for grocery stores to use (intentionall
   </div>
 </div>
 
-### Program specific breakouts
+<a name="syntax-practice"></a>
+### Syntax Practice
 
-We'll go into breakout rooms to briefly discuss the how to check correct syntax for datatypes in Ruby and JavaScript.
+We'll go into program specific breakout rooms to briefly discuss the how to check correct syntax for datatypes in Ruby and JavaScript.
 
 In addition to practicing writing out our data types, we'll also touch briefly on what it looks like to <span class="vocab">assign a variable</span>. This allows us to reference a word in our computer's memory that returns the data we've stored.
 
@@ -468,6 +467,10 @@ inventory = 10
 best_food = "pizza"
 ```
 
+Videos on variable assignment:
+* [Back-End](https://www.youtube.com/watch?v=S-IeM4xnCog&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=3)
+* [Front-End](https://www.youtube.com/watch?v=sIGNox7OGD0&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=4)
+
 After watching a brief demo from an instructor on how to write variables on your computer in either ruby or javascript, try out the following:
 * Assign a variable called `pizza` a value of 'the best food of all time'
 * Assign a variable called `is_hungry` a value of true
@@ -483,9 +486,6 @@ Answer Keys:
 * [Back-End](https://gist.github.com/damwhit/99e906bcfb3b39d34790e2a246029716)
 * [Front-End](https://gist.github.com/damwhit/3656c48a09d5ab8bf85916b53fe6e760)
 
-Videos on variable assignment:
-* [Back-End](https://www.youtube.com/watch?v=S-IeM4xnCog&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=3)
-* [Front-End](https://www.youtube.com/watch?v=sIGNox7OGD0&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=4)
 
 ## Close Out
 
