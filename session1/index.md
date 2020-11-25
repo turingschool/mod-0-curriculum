@@ -19,8 +19,8 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
   <div>
     <h3>Agenda</h3>
     <ul>
-      <li><strong>6:15 </strong><a href="#intro">Intro + Housekeeping/a></li>
-      <li><strong>6:30 </strong><a href="#the-stack">The Stack/a></li>
+      <li><strong>6:15 </strong><a href="#intro">Intro + Housekeeping</a></li>
+      <li><strong>6:30 </strong><a href="#the-stack">The Stack</a></li>
       <li><strong>7:00 </strong>Break</li>
       <li><strong>7:05 </strong><a href="#findinganswers">Googling</a></li>
       <li><strong>7:30 </strong><a href="#classes">Classes</a></li>
