@@ -43,7 +43,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ## Housekeeping, Feedback, and Goals
 
-- In the chat, post a keyboard shortcut that you practiced and now feel comfortable using.
+- In the warmup slack thread, post a keyboard shortcut that you practiced and now feel comfortable using.
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
 
 ### Wins
@@ -52,9 +52,8 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ### Follow-Ups
 
-- We'll stay on the call at the end of today's session for any Qs that are not addressed during the lesson.
 - For homework, we'll be leaving feedback on your practice tasks and also checking, but not leaving feedback on your readings and responses.
-- Check your gists, as you can improve your grade by responding to that feedback!
+- Check your gists, we give feedback and ask for edits to help you learn these concepts. 
 
 ### Today's Goals
 
@@ -76,14 +75,14 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 <div class="try-it">
   <h3>Try It: Classes</h3>
-  <p>Post one sentence in the chat using this structure:</p>
+  <p>Post one sentence in a slack thread using this structure:</p>
   <p>______, ________, and _______ (instances) are different versions of a ________ (class).</p>
   <p>For example: My Old Navy sweatshirt and my American Giant sweatshirt (instances) are different versions of a sweatshirt (class).</p>
 </div>
 
 <div class="try-it">
   <h3>Try It: Attributes</h3>
-  <p>Post one sentence in the chat about your class using this structure:</p>
+  <p>Post one sentence in a slack thread about your class using this structure:</p>
   <p>Each instance of a _______ (class) has a _______, ________, and ________ (attributes).</p>
   <p>For example: Each instance of a Sweatshirt (class) has a color, brand, and size (attributes).</p>
 </div>
@@ -94,14 +93,14 @@ A <span class="vocab">method</span> of a class defines **behavior/actions**. Met
 
 For example:
 
-- Each **child** (class) can greet, run, and learn (methods).
-- Each **school** (class) can accept_student, lower_tuition, count_enrollment, and calculate_acceptance_rate (methods).
-- Each **book** (class) can turn_page, update_price, and highlight_section (methods).
-- Each **bank account** (class) can deposit, withdraw, open, close, check_balance, and change_ownership (methods).
+- Each **Child** (class) can greet, run, and learn (methods).
+- Each **School** (class) can accept_student, lower_tuition, count_enrollment, and calculate_acceptance_rate (methods).
+- Each **Book** (class) can turn_page, update_price, and highlight_section (methods).
+- Each **BankAccount** (class) can deposit, withdraw, open, close, check_balance, and change_ownership (methods).
 
 <div class="try-it">
   <h3>Try It: Methods</h3>
-  <p>Post one sentence in the chat about your class using this structure:</p>
+  <p>Post one sentence in a slack thread about your class using this structure:</p>
   <p>Each _______ (class) can ___________, __________, and ___________.</p>
 </div>
 
@@ -177,9 +176,9 @@ In the diagram below, we would say that there's a directory called `essays` that
 <a name="terminalcommandline"></a>
 ## Terminal and Command Line
 
-The <span class="vocab">terminal</span> is what we call a command line interface. Basically, that's a fancy way of saying that it's the program we use to give commands to the compu
+The <span class="vocab">terminal</span> is what we call a command line interface. Basically, that's a fancy way of saying that it's the program we use to give commands to the computer.
 
-We use the command line because it is a faster way to navigate our file systems, and certain tools can only be downloaded and accessed via the commandline.
+We use the command line because it is a faster and more precise way to navigate our file systems, and certain tools can only be downloaded and accessed via the command line.
 
 Your terminal will look something like this:
 
@@ -452,7 +451,7 @@ Now when I type `ls`, I will no longer see `books` listed.
   </div>
 </div>
 
-
+<a name="terminalbreakout"></a>
 ### Putting it All Together - groups of 2 or 3 (15 minutes)
 
 <p>At this point, we'll split into breakout rooms. The person whose name first name starts with the letter closest to T will share their screen by clicking the green "Share Screen" button. We will call this person the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
@@ -710,7 +709,7 @@ The basic git workflow is this:
 1. Check the `git status` to make sure the correct files are in the staging area
 1. `git commit -m 'Message about your changes'` to commit the changes
 
-
+<a name="gitbreakout"></a>
 <div class="try-it">
   <h3>Try It: Git Together</h3>
   <p>Groups of 2 or 3 (10 minutes)</p>
