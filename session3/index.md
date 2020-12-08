@@ -54,7 +54,7 @@ subheading: More Git and Intro to GitHub
 - We're in the process of leaving feedback on everyone's session 1, be sure to check your gists!
   - Suggestions there are for your benefit
 - Make sure that you're checking slack at least once a day
-- Pre-work is due Nov 4 (next Wednesday!) for people starting Mod 1 in 2011 (or waitlist)
+- Pre-work is due Jan 6 for people starting Mod 1 in 2102 (or waitlist)
 - Session 3 HW due Thursday
 - Be sure to stay at your home directory or below
 
@@ -63,7 +63,7 @@ subheading: More Git and Intro to GitHub
 (See above)
 
 ### Warm Up
-
+<a name="shortcuts"></a>
 <p>Last week, we briefly talked about keyboard shortcuts in the Mac environment and in Chrome. You should also learn and practice these terminal and atom shortcuts.</p>
 
 <div class="try-it">
@@ -195,6 +195,7 @@ display_account_info (uses the owner_name and balance attributes)
 ```
 
 ### Example #2
+<a name="car"></a>
 
 Look at the Car class and its attributes below:
 
