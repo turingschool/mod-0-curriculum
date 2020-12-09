@@ -63,7 +63,22 @@ subheading: More Git and Intro to GitHub
 (See above)
 
 ### Warm Up
+
+
+<a name="ssh-check"></a>
+
+#### SSH Check
+
+In your terminal (use shortcuts if you can) check if your ssh keys are configured correctly by running the command below and seeing a success message:
+
+```
+$ ssh -T git@github.com
+Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+
 <a name="shortcuts"></a>
+<h3>Shortcuts</h3>
 <p>Last week, we briefly talked about keyboard shortcuts in the Mac environment and in Chrome. You should also learn and practice these terminal and atom shortcuts.</p>
 
 <div class="try-it">
