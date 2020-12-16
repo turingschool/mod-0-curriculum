@@ -40,17 +40,15 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 ### Wins
 
-- Awesome job asking questions in the Slack channel!
+- Awesome job asking questions in the Slack channel! And supporting your cohortmates.
 
 - Nice scores on feedback! Love seeing people use the term 'practice'!
 
 ### Follow-Ups
 
-- Moving class session 5 to Monday at 6:15pm (day earlier)!
-
 - Leaving feedback directly on homework gists. You should have HW 1, session 2 feedback coming very soon if not yet. Feedback is for your own benefit... it would be wise to decipher it and update your hw.
 
-- Prework is due November 4 for people starting Mod 1 in 2011 (or waitlist). Get on it!
+- Prework is due January 6 for people starting Mod 1 in 2102 (or waitlist). Get on it!
 
 ### Other Notes
 
@@ -102,7 +100,7 @@ We won't be available for help during this scavenger hunt, however write down th
 **Note:** The one exception to that rule is if you're asking for clarification on a given step. If you're unsure about what the directions are asking, please reach out in the slack thread.
 
 <div class="try-it">
-  <h3>Try It: Don't fork it up!</h3> 20 minutes (groups of 2 or 3)
+  <h3>Try It: Don't fork it up!</h3> 20 minutes (groups of 2)
   <p>At this point, we'll split into breakout rooms. Everyone should do a fist to five to show their comfort with git. Whoever is the least comfortable with git will share their screen. Whoever is sharing their screen will be called the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
 
   <p>If you are already comfortable with git, your challenge during the breakout is somewhat more difficult: your goal is to focus on your explanations, communication, and ability to gauge whether or not another person understands you.</p>
