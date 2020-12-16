@@ -285,7 +285,7 @@ What are some strategies that you have already been using to interpret error mes
         <li><a href="https://github.com/corneliusellen/mythical-creatures-primer-fe">Frontend version</a></li>
         <li><a href="https://github.com/corneliusellen/mythical-creatures-primer">Backend version</a></li>
       </ul>
-      <li>Run the file with the command <code>ruby yeti.rb</code> for BE or <code>node yeti.rb</code> for FE.</li>
+      <li>Run the file with the command <code>ruby yeti.rb</code> for BE or <code>node yeti.js</code> for FE.</li>
       <li>Discuss with your group what you think the error message means.</li>
       <li>Fix the error.</li>
       <li>Repeat step 2-4 until there are no more errors. You will know you are making progress if the error messages change.</li>
