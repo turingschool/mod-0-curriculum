@@ -54,7 +54,6 @@ subheading: More Git and Intro to GitHub
 - We're in the process of leaving feedback on everyone's session 1, be sure to check your gists!
   - Suggestions there are for your benefit
 - Make sure that you're checking slack at least once a day
-- Pre-work is due Jan 6 for people starting Mod 1 in 2102 (or waitlist)
 - Session 3 HW due Thursday
 - Be sure to stay at your home directory or below
 
@@ -76,6 +75,7 @@ $ ssh -T git@github.com
 Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
+In the Slack thread, reply with your output after running the `$ ssh -T git@github.com` command! 
 
 <a name="shortcuts"></a>
 <h3>Shortcuts</h3>
