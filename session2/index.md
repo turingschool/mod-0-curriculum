@@ -376,18 +376,9 @@ We don't see any confirmation that the file was created, but we can use `ls` to 
 timo@Tims-MacBook-Pro:~/latest_projects $ ls
 chapter_1.txt    chapter_2.txt
 ```
-<a name="cat"></a>
-### 7. See the text in a file (cat)
-
-If we want to check what text is inside of a file, we can use <code>cat</code>:
-
-```
-timo@Tims-MacBook-Pro:~/latest_projects $ cat chapter_1.txt
-It was the best of times, it was the worst of times
-```
 
 <a name="rm"></a>
-### 8. Remove a File (rm)
+### 7. Remove a File (rm)
 
 In the past, you've probably gotten rid of files by using the `Move to trash` command or dragging them into the trash, like this:
 
@@ -469,8 +460,6 @@ Now when I type `ls`, I will no longer see `books` listed.
 1. Make a file called `favorite_foods.txt`
 1. List the contents of your directory (you should see just your `favorite_foods.txt` file appear)
 1. Use Atom add your #1 favorite food to the file
-1. Add your #2 favorite food to the file
-1. Use the cat command to show what's in that file
 1. Delete the `favorite_foods.txt` file
 1. Get back out of the `terminal_practice` directory
 1. Remove the `terminal_practice` directory
@@ -505,7 +494,6 @@ The person who has not yet been the driver will share their screen.
 1. Make a file called `terminal.txt`
 1. List the contents of your directory (you should see the `terminal.txt` file you just created)
 1. Add the text "The terminal is an interface to give commands to the computer" to the `terminal.txt` file
-1. Use the `cat` command to check that the text got added to the `terminal.txt` file
 1. Get back out of the `session3_practice` directory
 1. Remove the `session3_practice` directory
 
