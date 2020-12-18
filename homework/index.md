@@ -3,9 +3,9 @@ layout: page
 title: Homework
 ---
 
-### Creating your hw board
+### Creating your HW Board
 
-All of the mod 0 work is organized on a [mod 0 trello board](https://trello.com/b/fMthLx4x/mod-0)
+All of the mod 0 work is organized on a [Mod 0 Trello board](https://trello.com/b/2SkOztic/mod-0)
 
 This board allows for a methodology called kanban (I would google the term if you're unfamiliar) to organize and update you tasks
 
