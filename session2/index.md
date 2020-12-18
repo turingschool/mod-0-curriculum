@@ -766,8 +766,7 @@ Check out this great resource from built by Turing instructor Amy Holt: https://
 
 Find the homework in your Mod 0 Project Board. Post in the Mod 0 Slack channel if you're stuck (and don't be afraid to help each other out).
 
-Also, reminder that the mod 1 pre-work is due in a little less than two weeks. I would try to be done with at least day 3 by the end of the weekend.
 
 ### Asking questions
 
-Now that we're working on some more technical subjects, be sure to provide as much context as possible in your slack questions. They'll help you get an answer faster and that answer will be more accurate.
+Now that we're working on some more technical subjects, be sure to provide as much context as possible in your slack questions. They'll help you get an answer faster and that answer will be more accurate. Use [this guide](https://gist.github.com/ericweissman/fb0241e226227867b6bc70a4d49227f5) to ask good questions!
