@@ -32,7 +32,7 @@ The assignments below will be submitted in gists that you will create on your Gi
 * Select 'New Gist'
 * Enter a filename, with the extension .md
 * Enter the text of your gist in the large text area
-* click Create Public Gist
+* click Create PRIVATE Gist
 * You can also visit [gist.github.com](https://gist.github.com/)
 
 We take these exercises seriously, and we ask that you do too. We expect at minimum 4-6 sentences in response to **each** question, but feel free to expand and elaborate as you deem necessary. Use Markdown (this is a programming language used for writing) to format your gists.
