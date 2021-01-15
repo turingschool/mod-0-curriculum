@@ -53,7 +53,7 @@ The gear up assignment will be submitted with the technical pre-work. Instructio
 <a name="technical"></a>
 ## Technical Pre-work (Program Specific) (30 - 35 hours)
 
-The technical mod 1 pre-work is split up into 8 days. These days aren't meant to line up with anything, they're only meant to give you an idea of how long each section will take. I'd plan on each one of those days taking about 6 hours on average. Also, keep in mind that the days do get progressively harder and that they build on one another.
+The technical Mod 1 Prework is split up into 4 sections. Each section builds on the previous section in terms of technical content and complexity, so be sure to go in order!
 
 At Turing, you will have to code every single day to stay on top of the workload and build muscle memory for everything you've learned. This pre-work is designed to get you into that essential routine before day one of class.
 
@@ -62,20 +62,17 @@ After completing the technical pre-work, you should be able to do the following:
 * Be comfortable navigating your development environment and using your tools (Atom, Chrome, the console, and the command line)
 * Develop a basic knowledge of Ruby (for back-enders) or JavaScript (for front-enders)
 
-If you have more than 8 days to work on the pre-work, you should break up the work and complete the Next Steps section below so that you are coding every day!
 
 The link below will take you to the Github page that contains all the Technical work. Scroll through the page to find the instructions for getting your computer setup and getting started.
 
 * [Click here to get started with Back-End Technical Mod 1 Pre-work](https://github.com/turingschool/backend_mod_1_prework) (This is your technical mod 1 pre-work if you are in the back-end program)
 * [Click here to get started with Front-End Technical Mod 1 Pre-work](https://github.com/turingschool/frontend-mod-1-prework) (This is your technical mod 1 pre-work if you are in the front-end program)
 
-The technical pre-work and gear up pre-work will be submitted in a google survey that is linked on day 7 of the technical pre-work repo for your respective program.
+The technical pre-work and Gear up pre-work will be submitted in a google survey that is linked on day 7 of the technical pre-work repo for your respective program.
 
-### Next Steps
+### Next Steps.
 
-Before moving any further, complete all of the projects listed in Day 7 of technical pre-work repository.
-
-If you have more time, review the curriculum site for the program that you're joining:
+If you have more time, review the curriculum site for the program that you're joining.
 
 * [Back-End Curriculum Site](http://backend.turing.io/)
 * [Front-End Curriculum Site](http://frontend.turing.io/)
