@@ -48,7 +48,7 @@ Submission instructions for the PD assignment will be listed in the link above.
 
 Gear up is a part of our curriculum where we talk about topics such as privilege and power, and ethical issues in the tech industry. Here is the [Gear Up Assignment](https://github.com/turingschool/gear-up/blob/master/pre-work/intro_with_empathy.markdown).
 
-The gear up assignment will be submitted with the technical pre-work. Instructions can be found on day 7 of the technical pre-work.
+The gear up assignment will be submitted with the technical pre-work. Instructions can be found on the finalProject README of the technical pre-work.
 
 <a name="technical"></a>
 ## Technical Pre-work (Program Specific) (30 - 35 hours)
