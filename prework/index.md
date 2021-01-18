@@ -68,7 +68,7 @@ The link below will take you to the Github page that contains all the Technical 
 * [Click here to get started with Back-End Technical Mod 1 Pre-work](https://github.com/turingschool/backend_mod_1_prework) (This is your technical mod 1 pre-work if you are in the back-end program)
 * [Click here to get started with Front-End Technical Mod 1 Pre-work](https://github.com/turingschool/frontend-mod-1-prework) (This is your technical mod 1 pre-work if you are in the front-end program)
 
-The technical pre-work and Gear up pre-work will be submitted in a google survey that is linked on day 7 of the technical pre-work repo for your respective program.
+The technical pre-work and Gear up pre-work will be submitted in a google survey that is linked on finalProject portion of the technical pre-work repo for your respective program.
 
 ### Next Steps.
 
