@@ -186,9 +186,6 @@ insulated (boolean)
 
 Methods generally answer the question "What can this thing do?" or "What can be done to this thing?"
 
-A <span class="vocab">return value</span> is the result of a method that performs a calculation.
-For instance, a `calculatePercentFull` method could divide the value of a `currentCapacity` attribute from the value of `totalCapacity` attribute. The result of that calculation would be the **return value** for `calculatePercentFull` method.
-
 #### Key Points
 
 * A method performs some kind of work and should **use** or **modify** an attribute
@@ -196,7 +193,7 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
   * it can reassign an attribute
   * it can toggle an attribute
 * Anything that does work (calculations) should be a method, not an attribute
-  * the result of that work is called the **return value**
+  * For instance, a `calculatePercentFull` method could divide the value of a `currentCapacity` attribute from the value of `totalCapacity` attribute.
 * Methods are generally verbs (90% of time -- can also be questions OR nouns that are the result of calculations)
   * ie. `percent_full` or `volume` since they require calculation
 
@@ -204,7 +201,7 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
 <div class="try-it">
   <h3>Try It Together: Bottle Class Methods</h3>
   <p>Follow along as we walk through defining some methods for our Bottle class.</p>
-  <p> What kind of methods can we add? What would their return value be?</p>
+  <p> What kind of methods can we add?</p>
 </div>
 
 ```
