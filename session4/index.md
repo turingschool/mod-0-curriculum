@@ -236,12 +236,12 @@ changeColor (changes the color attribute)
 Object: Nalgene
 
 Attributes:
-color: "Pink"
-lidType: "Twist top"
-totalCapacity: 1000
-stickers: ["I voted", "A basin", "Hello Kitty"]
-currentCapacity: 800
-recyclable: true
+color = "Pink"
+lidType = "Twist top"
+totalCapacity = 1000
+stickers = ["I voted", "A basin", "Hello Kitty"]
+currentCapacity = 800
+recyclable = true
 
 
 Methods:
@@ -287,7 +287,23 @@ What would be wrong with...
 <a name="assessmentprev"></a>
 ## Mod 0 Technical Assessment
 
-This is our final Mod 0 technical session. Your assignment between now and Session 5 is to find 80 minutes  to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com).
+This is our final Mod 0 technical session. Your assignment between now and Session 5 is to find 80 minutes to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com).
+
+### How Will I Be Assessed?
+The purpose of the Mod 0 Assessment is to determine your readiness for Mod 1 based on your technical understanding of the core concepts of Mod 0, including:
+- Attention to Detail
+  - Proper sytax
+  - Proper naming conventions
+  - Proper spacing
+- Carefully reading and following instructions
+- Understanding of data types and variable assignment
+- Git workflow
+- Object Oriented Programmming (OOP) Principles
+  - Attention to detail in instances and classes
+  - Understanding of difference between instance and class
+  - Understanding of attributes, including naming conventions and data types
+  - Understanding of methods, including naming conventions relationship to specific attributes
+  - Ability to create instance/class examples that demonstrate clear understanding of OOP Principles
 
 <div class="instructions assessmentpreview">
   <h1>SAMPLE INSTRUCTIONS</h1>
@@ -299,8 +315,8 @@ This is our final Mod 0 technical session. Your assignment between now and Sessi
   <h4>Part I: Creating Directories and Files; Initializing Git and Pushing to GitHub (10 min)</h4>
 
   <ol>
-    <li>Use your terminal to create a directory called <code>...</code></li>
-    <li>Inside of that directory, make an empty text file called <code>...</code></li>
+    <li>Use your terminal to create a directory called <code>assessment-practice</code></li>
+    <li>Inside of that directory, make an empty text file called <code>final-assessment.txt</code></li>
     <li>Initialize your directory as a git repository.</li>
     <li>Add your file and commit using the message "Initial commit"</li>
     <li>Create a public repo on Github with the same name.</li>
@@ -310,31 +326,31 @@ This is our final Mod 0 technical session. Your assignment between now and Sessi
   <h4>Part II: Classes, Objects, Attributes, and Methods (35 min)</h4>
 
   <ol>
-    <li>Inside of <code>...</code>, create a new directory called <code>...</code></li>
-    <li>Inside of <code>...</code>, create four files: <code>...</code>, <code>...</code>, <code>...</code>, and <code>...</code><em>(If you're comfortable trying markdown at this point, feel free to use .md instead of .txt).</em> </li>
-    <li>Open up <code>...</code> in your text editor.</li>
-    <li>Brainstorm one class that might exist in a <code>...</code> and put this at the top of the file.</li>
+    <li>Inside of <code>assessment-practice</code>, create a new directory called <code>oop-practice</code></li>
+    <li>Inside of <code>oop-practice</code>, create four files: <code>class-example-1.txt</code>, <code>class-1-object-instance.txt</code>, <code>class-example-2.txt</code>, and <code>class-2-object-instance.txt</code><em>(If you're comfortable trying markdown at this point, feel free to use .md instead of .txt).</em> </li>
+    <li>Open up <code>class-example-1.txt</code> in your text editor.</li>
+    <li>Brainstorm one class that might exist in a <code><b>SCHOOL</b></code> and put this at the top of the file.</li>
     <li>List at least four attributes for that class. In parentheses, list the data type for that attribute (string, boolean, integer, float, hash/object, datetime).</li>
     <li>List at least four methods for that class. In parentheses, explain what the method does, including the names of the attributes that it uses or modifies.</li>
     <li>Save your file.</li>
     <li>Add and commit your changes for this class.</li>
-    <li>Open up <code>...</code> in your text editor.</li>
+    <li>Open up <code>class-1-object-instance.txt</code> in your text editor.</li>
     <li>At the top, type the name of an object that is an instance of your class.</li>
     <li>List the values for each attribute.</li>
     <li>List the results of the method being called for this specific object.</li>
     <li>Save your file.</li>
     <li>Add and commit your changes for this class.</li>
-    <li>Repeat steps 3-8 with <code>...</code></li>
-    <li>Repeat steps 9-14 with <code>...</code></li>
+    <li>Repeat steps 3-8 with <code>class-example-2.txt</code>. Be sure to create a different class example that still falls under the <code><b>SCHOOL</b></code> category. </li>
+    <li>Repeat steps 9-14 with <code>class-2-object-instance.txt</code></li>
     <li>Push your changes to GitHub.</li>
   </ol>
 
   <h4>Part III: Program Specific Challenge (25 min)</h4>
 
   <ol>
-    <li>Open up your <code>...</code> file in your text editor.</li>
+    <li>Open up your <code>final-assessment.txt</code> file in your text editor.</li>
     <li>You'll be given directions for some exercises that are program specific. Looking for something to study? Check out session 1 on data types and variable assignment. The mod 1 pre-work is also a good resource.</li>
-    <li>If you are really solid with data types and variable assignment, it shouldn't be too bad</li>
+    <li>Concepts to focus on: data types, variable assignment rules, variable assignment syntax, naming conventions for data types and variables</li>
     <li>Save your file.</li>
     <li>Add and commit your changes.</li>
     <li>Push your changes to Github.</li>
@@ -344,10 +360,10 @@ This is our final Mod 0 technical session. Your assignment between now and Sessi
   <p>There is a link to a google form where you'll submit your mod 0 assessment repo at the end of your checklist</p>
 </div>
 
-### Other faq's:
-* Can I update my work after I've committed a file?
+ 
+### FAQs
+* **Can I update my work after I've committed a file?**
   * Yes, please do. Update and commit away!
-* I messed up my commit message. Should I fix it?
-  * No, mistakes happen. We don't want you wasting time on that. Just be more diligent on the next commit
-
-Be sure to fill out the survey from your project board!
+* **I messed up my commit message. Should I fix it?**
+  * No, mistakes happen. We don't want you wasting time on that. 
+  * Just be more diligent on the next commit. You should be committing often (after each each piece of discrete work) so you should have multiple opportunities to show mastery of strong git workflow and commit messages. 
