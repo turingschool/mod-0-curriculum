@@ -266,20 +266,22 @@ changeColor: color = "Blue"
   <p>Repeat the brainstorm process for attributes and methods for object #2. </p>
 </div>
 
-### Can You Spot the Problem?
-
-What would be wrong with...
-
-* a class called `Turing`
-* an attribute called `current_time`
-* having attributes for a `Review` class called `one_star`, `two_stars`, `three_stars`, etc.
-* a `Senator` class having an array attribute called `senator_names`
-* a class called `California`
-* having attributes on a `ShoppingCart` class called `item_one`, `item_two`, `item_three`, etc.
-* a method on `GroceryStore` called `clean_aisle_seven`
-* a `Bottle` class having an attribute called `water`
-* a `Chair` class having an attribute called `number_of_chairs`
-* a `MenuItem` class with a method called `CustomerSurvey`
+<div class="try-it">
+  <h3>Try It: Can You Spot the Problem? (~10 minutes) groups of 2 or 3</h3>
+    <p>What would be wrong with... </p>
+    <ul>
+      <li>a class called `Turing`</li>
+      <li>an attribute called `current_time`</li>
+      <li>having attributes for a `Review` class called `one_star`, `two_stars`, `three_stars`, etc.</li>
+      <li>a `Senator` class having an array attribute called `senator_names`</li>
+      <li>a class called `California`</li>
+      <li>having attributes on a `ShoppingCart` class called `item_one`, `item_two`, `item_three`, etc.</li>
+      <li>a method on `GroceryStore` called `clean_aisle_seven`</li>
+      <li>a `Bottle` class having an attribute called `water`</li>
+      <li>a `Chair` class having an attribute called `number_of_chairs`</li>
+      <li>a `MenuItem` class with a method called `CustomerSurvey`</li>
+    </ul>
+</div>
 
 <a name="assessmentprev"></a>
 ## Mod 0 Technical Assessment
