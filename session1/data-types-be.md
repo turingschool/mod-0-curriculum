@@ -60,7 +60,8 @@ When we share out - be sure to take notes in your notebook about each data type 
   <p class="toggle-show">
     Integers and Floats Definition (click here)
   </p>
-  <div class="toggle-content hidden">
+  <div>
+    <div class="toggle-content hidden">
       <p><strong><span class="vocab">Integer</span>:</strong> An integer is a whole number (not a fraction) that can be positive, negative, or zero. Unlike floating point numbers, integers cannot have decimal places.</p>
       <p>Examples:</p>
       <ul>
@@ -71,11 +72,14 @@ When we share out - be sure to take notes in your notebook about each data type 
       </ul>
       <p><strong><span class="vocab">Float</span>:</strong> As the name implies, floating point numbers are numbers that contain floating decimal points. They can be positive or negative.</p>
       <p>Examples:</p>
-      <li><code>-5.5</code></li>
-      <li><code>0.0001</code></li>
-      <li><code>98.2</code></li>
+      <ul>
+        <li><code>deduction = -5.5</code></li>
+        <li><code>savings_rate = 0.01</code></li>
+        <li><code>temperature = 98.2</code></li>
+      </ul>
     </div>
   </div>
+  <div>
     <p class="toggle-show">
       Boolean Definition (click here)
     </p>
@@ -87,6 +91,8 @@ When we share out - be sure to take notes in your notebook about each data type 
         <li><code>is_scared = false</code></li>
       </ul>
     </div>
+  </div>
+  <div>
     <p class="toggle-show">
       Array Definition (click here)
     </p>
@@ -101,6 +107,8 @@ When we share out - be sure to take notes in your notebook about each data type 
         <li><code>answer_key = [false, true, true, true, false, true, true]</code></li>
       </ul>
     </div>
+  </div>
+  <div>
     <p class="toggle-show">
       <strong>EXTENSION</strong> Hash/Object Definition (click here)
     </p>
@@ -115,4 +123,22 @@ When we share out - be sure to take notes in your notebook about each data type 
         <li><code>mod_assignments = { "Mod 0": "Tim and David", "Mod 1": "Mike and Sal", "Mod 2": "Brittany and Robbie" }</code></li>
       </ul>
     </div>
+  </div>
 </div>
+
+### Syntax Practice using `irb`
+We are going to learn about how you can use a tool known as `irb` to start practicing writing and executing Ruby syntax.
+
+### Practice
+* Assign a variable called `pizza` set to a value of a string
+* Assign a variable called `is_hungry` a value of a boolean
+* Assign a variable called `number` a value of an integer
+* Reassign that `number` variable so that is has a different value
+* Assign a variable called `teachers` a value of an array with the names 'Ellen', 'Robert', and 'David'
+* Try the following (these may take some googling):
+  * Create another string variable and add combine it with your pizza variable
+  * Create another integer variable and multiply it by your number variable
+  * Remove the last item from your teachers array
+
+### Still confused?
+Watch [this video](https://www.youtube.com/watch?v=S-IeM4xnCog&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=3) on variable assignment in Ruby. Do some additional research and then post any additional questions in the class Slack!
