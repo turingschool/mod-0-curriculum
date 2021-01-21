@@ -126,6 +126,23 @@ $ source ~/.zshrc
 // Now run "brew doctor" again and the warning should be gone.
 ```
 
+### I followed the above instructions and Homebrew won't install!
+No worries! This likely means you have one of Apple's newest M1 laptops - fancy you 😉 ! Essentially, some programs are not currently supported with this setup, Homebrew being one of them. 
+
+However, there is another way to get Homebrew installed using a program that's built into your Mac known as `Rosetta`
+
+[This video](https://www.youtube.com/watch?v=nv2ylxro7rM) does a solid job of walking you through the steps to install Homebrew using Rosetta - don't worry about the native setup.
+
+I've also outlined the steps here:
+
+1. Open a Finder window by pressing `CMD + N` on your Desktop. You can also use Spotlight by pressing `CMD + Space` and searching for `Finder`
+1. Click on the `Applications` folder on the left sidebar
+1. Click into the folder called `Utilities`
+1. Right click on the `Terminal` app and choose `Get Info`
+1. Check the box that says `Open using Rosetta`
+1. Open the `Terminal` app by either double clicking the icon or using a Spotlight search for `Terminal`
+1. Proceed with Step 2 from the instructions above this section! 
+
 ## 5) Install Git
 
 [Git](https://git-scm.com/) is a Version Control System (VCS). It allows you to save work on your project, and reference previous states of a project if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and ANY previous version. Git’s philosophy: never lose anything.
