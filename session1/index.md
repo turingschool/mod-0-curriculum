@@ -20,11 +20,13 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
     <h3>Agenda</h3>
     <ul>
       <li><strong>6:15 </strong><a href="#intro">Intro + Housekeeping</a></li>
-      <li><strong>6:30 </strong><a href="#the-stack">The Stack</a></li>
+      <li><strong>6:30 </strong><a href="#mythbusting">Mythbusting @ Turing</a></li>
+      <li><strong>6:30 </strong><a href="#notetaking">Notetaking x Technical Content</a></li>
       <li><strong>7:00 </strong>Break</li>
       <li><strong>7:05 </strong><a href="#findinganswers">Googling</a></li>
       <li><strong>7:30 </strong><a href="#classes">Classes</a></li>
-      <li><strong>8:00 </strong><a href="#datatypes">Data Types</a></li>
+      <li><strong>7:45 </strong>Break</li>
+      <li><strong>7:50 </strong><a href="#datatypes">Data Types + Variables</a></li>
       <li><strong>8:25 </strong><a href="#homework">Homework Preview</a></li>
     </ul>
   </div>
@@ -43,7 +45,7 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
 <a name="intro"></a>
 ## Intro
 
-* Instructor intros: Eric, Alice, and Ellen
+* Instructor intros: Eric, Margo, and Ellen
 * Goals for session (see above)
 * Follow along by clicking the lesson plan in slack
 
@@ -85,55 +87,38 @@ Other things to note as we go through Mod 0:
 - <strong>You can raise your hand using zoom</strong>: go ahead and try it now!
 - <strong>Problems or individual questions during the Zoom session?</strong> Send a message in the chat!
 
-<a name="the-stack"></a>
-## "The Stack"
+<a name="mythbusting"></a>
 
-People talk about being back-end, front-end, or full-stack devs, but what does that mean? What technologies are you working in? Where does your code run?
+## Mythbusting @ Turing
+#### Myth 1 - The "Lone Wolf" Approach
+We've met many propspective students who think that they can succeed at Turing (and in programming) by doing things alone. If you've said to yourself, "I'm just going to do my thing and the only reason I'm here is to learn to code..." you should probably chose a different program.
 
-Let's break it down.
+Turing and software development is inherently collaborative. Our project-based learning approach requires teammwork, collaboration and making sacrifices. If you want to only focus on "coding", it's probably best to just choose another program or learn on your own. Good luck getting a job, though!
 
-At Turing, we teach <span class="vocab">web development</span>. This means that we build applications that live on the internet.
+#### Myth 2- "FE is harder! No - BE is harder!"
+Reality check - both frontend development and backend development are "hard". That is why salaries are high for positions in this field! At Turing, you will get exposure to the "full stack" - in fact, your final module will be a combined cohort of frontend and backend students! 
 
-If you're in the **Front-End Program**, you're going to be writing code that lives on the user's computer. For the sake web apps, it'll live within their web browser (ie. chrome). The Front-End is user facing, and can be thought of as the presentation layer. Fun frontend things include data visualization and interesting user interactions. Often, the front-end is referred to as `client side`. 
+#### Myth 3 - People "fail" Turing due to the technical content
+Believe it or not, 99% of failing projects at Turing have little to do with technical deficits. Instead, poor communication and issues with collaboration are the main cause of failitheng projects. Remember, your Turing experience is designed to prepare you for the actual job - collaborating and communicating under tight deadlines is what makes the job difficult! 
 
-If you're in the **Back-End Program**, you're likely writing code that lives on a server somewhere. This may not interact with the end user directly. Instead, it's often the back-end's job to store and manipulate data that's sent from the front-end. Or search through data and present it to the front-end. Often, the back-end is referred to as `server side`. 
+## Setup for Success: Notetaking x Technical Content
+Many of you are diving back into an academic setting for the first time in awhile. To be clear, the Turing experience is likely MUCH different than your previous academic experiecnes! We will use Mod 0 to start preparing you to kick ass at Turing and start your transformation into a developer off on the right foot.
 
-Front-End and Back-End technologies communicate via a protocol called <span class="vocab">http</span>. This stands for hypertext transfer protocol. Which in simple terms means that it is a standard for how data is sent back and forth over the internet.
+One area we notice students struggle with is how and when to take notes. Before we go into specifics, take a look at [these notes](https://gist.github.com/ericweissman/a729a849ed6355ed8ee0c9156a8e9c98) created by some of our most successful students.
 
-#### The stack in practice
+- What things stand out as your look at these examples?
+- How do these examples compare to your current notes?
 
-<div class="try-it">
-  <h3>Try It: Break out rooms</h3> 7 minutes (groups of 3 or 4)
-  <p>What happens when we go to `airbnb.com`, and fill out the form with a location and dates, and then click enter?</p>
-  <p>What is happening on the front-end/client side?</p>
-  <p>What is happening on the back-end/server side?</p>
-  <p>In what order?</p>
-</div>
+<a name="notetaking"></a>
 
-#### Technologies
+#### Tips for Strong Notetaking @ Turing
+- **Setup is a key to success:** Having an organization strategy can make it easier to use your notes as a tool. We recommend creating a `Table of Contents ` to make it easier to reference your notes. Also, taking notes on key vocabulary BEFORE a lesson has been useful for some students!
+- **Use different colors:** This can help with modeling syntax highlighting, making notes easier to read, draw attention to different content
+- **Leave plenty of whitespace:** Allows you to add more context, write questions, make connections
+- **Draw or diagram often:** Many concepts can be difficult to understand with just words, use drawings/diagrams to help synthesize and frame information
+- **Pen + Paper > Digital:** Don't rely on taking notes on your computer. Studies have proven that you will retain more information by physically writing your notes. Plus, it will make diagramming and drawing easier! 
 
-Front-End languages include:
-
-* html
-* JavaScript
-* css
-
-Does anyone know what front-end technologies are taught at Turing?
-
-Back-End languages include:
-
-* Ruby
-* PHP
-* Java
-
-Does anyone know what back-end technologies are taught at Turing?
-
-
-You won't be tested on any of the above, but it's nonetheless great context for what you're going to be learning over the next 7 plus months.
-In mod 0, we'll focus on Ruby and JavaScript as they have the most similarities. And we try to keep things as program agnostic as we can in mod 0.
-
-
-## BREAK
+## BREAK 
 
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 
