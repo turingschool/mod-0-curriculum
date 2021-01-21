@@ -1,0 +1,118 @@
+### Working with Data - Variables x Data Types
+At it's most basic level, computer programming is simply working with, storing and presenting data. 
+
+In programming, one of the most common ways to interact with data is to store data/information in a `variable` - this allows us to reference a word in our computer's memory that returns the data we've stored.
+
+We are going to learn about two concepts together as we dive into our first technical content: variable assignment and data types. To help frame this lesson, we will be conceptualizing a grocery shopping applaction! For each of the data types we research, we'll brainstorm examples of how we might use that data type in a grocery store app and practice assigning variables to each specific data type!
+
+### Variable Assignment x Re-assignment
+In Ruby, assigning/declaring a variable follows a very clear pattern.
+**Step 1 -** Write a name for your variable in `snake_case`
+- Separate words with an underscore `_` and make sure each word starts with a `lowercase` letter
+- Try to name the variable in a descriptive way - another developer should be able to read the variable name and have a good understanding of what the data represents!
+
+**Step 2 -** Add an assignment operator `=`
+
+**Step 3 -** Assign a value to your variable! This will be assigned to one of the following data types:
+- String
+- Integer
+- Float
+- Boolean
+- Array
+- Hash
+
+Before we get into specific syntax examples, we need to get a better understanding of the data types we will encounter in Ruby.
+
+### Breakouts - Research x Teachout
+To start building on our Googling skills we learned earlier, we are going to break out into small groups to research AND present on a specific data type.
+
+You will be assigned a specific data type to research with your breakout group. Together, we want you to report back on:
+- Basic definition of your assigned data type
+- Example of the proper syntax for working with this data type
+- 1-2 examples of how this data type could be implemented in our imaginary grocery app
+
+You will be assigned to one of these data types:
+- String
+- Integer + Float
+- Boolean
+- Array
+- Hash (extension)
+
+When we share out - be sure to take notes in your notebook about each data type and syntax!
+
+
+<div class="try-it">
+<h3>Data Type Definitions: DON'T CLICK UNTIL AFTER BREAKOUTS</h3>
+  <div>
+    <p class="toggle-show">
+      String Definition (click here)
+    </p>
+    <div class="toggle-content hidden">  
+      <p>A <span class="vocab">string</span> is a data type used represent text. Strings can contain alphabet characters in addition to spaces, numbers, and special characters.</p>
+      <p>Examples:</p>
+      <ul>
+        <li><code>poem = "two roads diverged in a yellow wood"</code></li>
+        <li><code>office_phone_number = "(303) 731-3117"</code></li>
+        <li><code>school_name = "Turing School of Software & Design"</code></li>
+      </ul>
+    </div>
+  </div>
+  <p class="toggle-show">
+    Integers and Floats Definition (click here)
+  </p>
+  <div class="toggle-content hidden">
+      <p><strong><span class="vocab">Integer</span>:</strong> An integer is a whole number (not a fraction) that can be positive, negative, or zero. Unlike floating point numbers, integers cannot have decimal places.</p>
+      <p>Examples:</p>
+      <ul>
+        <li><code>number_of_cats = 10</code></li>
+        <li><code>remaining_energy = 0</code></li>
+        <li><code>windchill = -25</code></li>
+        <li><code>balance = 5148</code></li>
+      </ul>
+      <p><strong><span class="vocab">Float</span>:</strong> As the name implies, floating point numbers are numbers that contain floating decimal points. They can be positive or negative.</p>
+      <p>Examples:</p>
+      <li><code>-5.5</code></li>
+      <li><code>0.0001</code></li>
+      <li><code>98.2</code></li>
+    </div>
+  </div>
+    <p class="toggle-show">
+      Boolean Definition (click here)
+    </p>
+    <div class="toggle-content hidden">
+      <p>A <span class="vocab">boolean</span> value is either true or false. Boolean values are used in boolean logic, which is a subset of algebra used for creating true/false statements.</p>
+      <p>Examples:</p>
+      <ul>
+        <li><code>is_logged_in = true</code></li>
+        <li><code>is_scared = false</code></li>
+      </ul>
+    </div>
+    <p class="toggle-show">
+      Array Definition (click here)
+    </p>
+    <div class="toggle-content hidden">
+      <p>An <span class="vocab">array</span> is a data structure that represents a group of things.</p>
+      <p>You can think of an array as a collection, box, or container. Instead of saying "I have a collection of shirts," you could say "I have an array of shirts." The phrase "a container of pencils" would become "an array of pencils."</p>
+      <p>Typically, elements in an array are all of the same data type, such as an integer or string. Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched.</p>
+      <p>Examples:</p>
+      <ul>
+        <li><code>recent_scores = [26, 24, 28, 25, 27, 27, 26, 27]</code></li>
+        <li><code>modules = ["Mod 0", "Mod 1", "Mod 2", "Mod 3", "Mod 4"]</code></li>
+        <li><code>answer_key = [false, true, true, true, false, true, true]</code></li>
+      </ul>
+    </div>
+    <p class="toggle-show">
+      <strong>EXTENSION</strong> Hash/Object Definition (click here)
+    </p>
+    <div class="toggle-content hidden">
+      <p>A <span class="vocab">hash</span> or <span class="vocab">object</span> is a collection of key-value pairs. It is similar to an array in that it is a collection of things, but in the case of hashes/objects, we are <strong>pairing</strong> data together.</p>
+      <p>Sometimes, this data type is referred to as a dictionary because of the pairing of word -> definition.</p>
+      <p>For example, you might have a hash/object where the keys are first names and the values are last names.</p>
+      <p>When I think about whether or not I need to use a hash, I ask myself "Is this a collection of data where the pairing of items matters?"</p>
+      <p>Examples:</p>
+      <ul>
+        <li><code>total_students = {"9th grade": 110, "10th grade": 125, "11th grade": 66, "12th grade": 70}</code></li>
+        <li><code>mod_assignments = { "Mod 0": "Tim and David", "Mod 1": "Mike and Sal", "Mod 2": "Brittany and Robbie" }</code></li>
+      </ul>
+    </div>
+</div>
