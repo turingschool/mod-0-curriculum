@@ -186,9 +186,6 @@ insulated (boolean)
 
 Methods generally answer the question "What can this thing do?" or "What can be done to this thing?"
 
-A <span class="vocab">return value</span> is the result of a method that performs a calculation.
-For instance, a `calculatePercentFull` method could divide the value of a `currentCapacity` attribute from the value of `totalCapacity` attribute. The result of that calculation would be the **return value** for `calculatePercentFull` method.
-
 #### Key Points
 
 * A method performs some kind of work and should **use** or **modify** an attribute
@@ -196,7 +193,7 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
   * it can reassign an attribute
   * it can toggle an attribute
 * Anything that does work (calculations) should be a method, not an attribute
-  * the result of that work is called the **return value**
+  * For instance, a `calculatePercentFull` method could divide the value of a `currentCapacity` attribute from the value of `totalCapacity` attribute.
 * Methods are generally verbs (90% of time -- can also be questions OR nouns that are the result of calculations)
   * ie. `percent_full` or `volume` since they require calculation
 
@@ -204,7 +201,7 @@ For instance, a `calculatePercentFull` method could divide the value of a `curre
 <div class="try-it">
   <h3>Try It Together: Bottle Class Methods</h3>
   <p>Follow along as we walk through defining some methods for our Bottle class.</p>
-  <p> What kind of methods can we add? What would their return value be?</p>
+  <p> What kind of methods can we add?</p>
 </div>
 
 ```
@@ -269,20 +266,22 @@ changeColor: color = "Blue"
   <p>Repeat the brainstorm process for attributes and methods for object #2. </p>
 </div>
 
-### Can You Spot the Problem?
-
-What would be wrong with...
-
-* a class called `Turing`
-* an attribute called `current_time`
-* having attributes for a `Review` class called `one_star`, `two_stars`, `three_stars`, etc.
-* a `Senator` class having an array attribute called `senator_names`
-* a class called `California`
-* having attributes on a `ShoppingCart` class called `item_one`, `item_two`, `item_three`, etc.
-* a method on `GroceryStore` called `clean_aisle_seven`
-* a `Bottle` class having an attribute called `water`
-* a `Chair` class having an attribute called `number_of_chairs`
-* a `MenuItem` class with a method called `CustomerSurvey`
+<div class="try-it">
+  <h3>Try It: Can You Spot the Problem? (~10 minutes) groups of 2 or 3</h3>
+    <p>What would be wrong with... </p>
+    <ul>
+      <li>a class called `Turing`</li>
+      <li>an attribute called `current_time`</li>
+      <li>having attributes for a `Review` class called `one_star`, `two_stars`, `three_stars`, etc.</li>
+      <li>a `Senator` class having an array attribute called `senator_names`</li>
+      <li>a class called `California`</li>
+      <li>having attributes on a `ShoppingCart` class called `item_one`, `item_two`, `item_three`, etc.</li>
+      <li>a method on `GroceryStore` called `clean_aisle_seven`</li>
+      <li>a `Bottle` class having an attribute called `water`</li>
+      <li>a `Chair` class having an attribute called `number_of_chairs`</li>
+      <li>a `MenuItem` class with a method called `CustomerSurvey`</li>
+    </ul>
+</div>
 
 <a name="assessmentprev"></a>
 ## Mod 0 Technical Assessment
