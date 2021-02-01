@@ -122,8 +122,12 @@ When we share out - be sure to take notes in your notebook about each data type 
       <p>When I think about whether or not I need to use a hash, I ask myself "Is this a collection of data where the pairing of items matters?"</p>
       <p>Examples:</p>
       <ul>
-        <li><code>total_students = {"9th grade": 110, "10th grade": 125, "11th grade": 66, "12th grade": 70}</code></li>
-        <li><code>mod_assignments = { "Mod 0": "Tim and David", "Mod 1": "Mike and Sal", "Mod 2": "Brittany and Robbie" }</code></li>
+        <li><code>var totalStudents = {grade9: 110, grade10: 125, grade11: 66, grade12: 70}</code></li>
+        <li><code>var modAssignments = { 
+          mod0: ["Tim", "David"], 
+          mod1: ["Mike"," Sal"], 
+          mod2: ["Brittany", "Robbie"] 
+          }</code></li>
       </ul>
     </div>
   </div>
