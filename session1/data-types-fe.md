@@ -39,7 +39,7 @@ You will be assigned to one of these data types:
 - Integer + Float
 - Boolean
 - Array
-- Hash (extension)
+- Object (extension)
 
 When we share out - be sure to take notes in your notebook about each data type and syntax!
 
