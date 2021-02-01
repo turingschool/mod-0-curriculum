@@ -1,11 +1,10 @@
 ---
 layout:     page
 title:      Mod 0 Start Dates
-subheading: Getting Your Computer Ready For Programming
+subheading: All sessions are held remotely via Zoom
 permalink:  start-dates
 ---
 
-## Mod 0 Start Dates
 ### 2102A: 2/1/2021 - 2/11/2021
 - **Session 1:** 2/1 @ 6:15pm MST
 - **Session 2:** 2/2 @ 6:15pm MST
