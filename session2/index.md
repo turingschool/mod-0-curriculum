@@ -48,12 +48,11 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ### Wins
 
-- To those of you asking questions in the public Slack channel, keep it up! This is a *win-win-win* for everybody.
+- Ask questions or post struggles you have in the public Slack channel! This is a *win-win-win* for everybody.
 
 ### Follow-Ups
 
 - For homework, we'll be leaving feedback on your practice tasks and also checking, but not leaving feedback on your readings and responses.
-- Check your gists, we give feedback and ask for edits to help you learn these concepts. 
 
 ### Today's Goals
 
