@@ -47,15 +47,15 @@ subheading: More Git and Intro to GitHub
 
 - Most common answer to git question from survey: "I can name the steps of the git workflow and can put them in practice (using a reference)."
 - This is expected, and we use references as programmers on the job all the time, at some point it'll be muscle memory
-- Great job asking and answering each others questions in the public channel!
+- Great job asking and answering each others questions in the slack channel!
 
 ### Follow-Ups
 
 - We're in the process of leaving feedback on everyone's session 1, be sure to check your gists!
-  - Suggestions there are for your benefit
+  - Suggestions and feedback are there for your benefit
 - Make sure that you're checking slack at least once a day
-- Session 3 HW due Thursday
-- Be sure to stay at your home directory or below
+- Session 3 HW due next Tuesday
+- Be sure to stay at your home (root) directory or below
 
 ### Today's Goals
 
@@ -75,7 +75,7 @@ $ ssh -T git@github.com
 Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-In the Slack thread, reply with your output after running the `$ ssh -T git@github.com` command! 
+In the Slack thread, reply with your output after running the `$ ssh -T git@github.com` command!
 
 <a name="shortcuts"></a>
 <h3>Shortcuts</h3>
@@ -169,8 +169,8 @@ In the Slack thread, reply with your output after running the `$ ssh -T git@gith
   <h3>Intros, Review, and Icebreaker</h3> groups of 2 or 3 (5 minutes)
   <p>Person with the lightest color shirt speaks first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. Share: What is your favorite warm weather activity? When's the last time you did it?</p>
-  <p>3. What metaphor would you use to describe the git staging area (git add)?</p>
+  <p>2. Share: What is your favorite cold weather activity? When's the last time you did it?</p>
+  <p>3. What metaphor would you use to describe the git staging area?</p>
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
 
@@ -186,7 +186,7 @@ In the Slack thread, reply with your output after running the `$ ssh -T git@gith
 
 ### Method and Attribute Interaction
 
-Like we talked about during session 2, a <span class="vocab">method</span> of a class defines **behavior/actions**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
+Like we talked about during session 2, a <span class="vocab">method</span> of a class defines a **behavior** or **action**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
 
 Most of the time, a method will either **use** or **change** an attribute of an object. For example, look at the attributes of the class `Bank Account` below:
 
@@ -248,7 +248,7 @@ Today's <span class="vocab">driver</span> will be the person who was born closes
 
 The <span class="vocab">driver</span> will be the person typing the commands, but the <span class="vocab">navigators</span> should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss **why** you are doing each step, or **what** exactly is taking place in each step.
 
-**Remember:** If you feel comfortable with git, your job is to hone your explanation and communication skills. Many companies in the industry that place far more weight on these professional skills than on being a technical superstar.
+**Remember:** If you feel comfortable with git, your job is to hone your explanation and communication skills. Many companies in the industry place far more weight on these professional skills than on being a technical superstar.
 
 <div class="try-it">
   <h3>Try It: Git Review</h3>
@@ -256,20 +256,20 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
   <ol>
     <li>Before we do this, make sure the driver is in the home directory by typing <code>cd</code></li>
     <li>Create a new directory called <code>session_3_git_practice</code>. Inside of that directory, create three files called <code>coding_languages.txt</code>,<code>programming_terms.txt</code>, and<code>git_terms.txt</code>.</li>
-    <li>Tell git to start watching the <code>session_3_git_practice</code> directory.</li>
-    <li>Before you check the status, predict what it will say. Then, check the current status.</li>
+    <li>Initialize git in the <code>session_3_git_practice</code> directory.</li>
+    <li>Before you check the status, predict what the output will be. Then, run the command to check the current status.</li>
     <li>Add <code>coding_languages.txt</code> to the staging area.</li>
     <li>Make your first commit in this directory. What should the commit message here be?</li>
-    <li>Before you check the status, predict what it will say. Then, check the current status.</li>
+    <li>Before you check the status, predict what the output will be. Then, check the current status.</li>
     <li>Add <code>programming_terms.txt</code> and<code>git_terms.txt</code> to the staging area.</li>
     <li>Make your second commit in this directory. This commit should include both files from the previous step. What should the commit message here be? Why? What conventions have we talked about?</li>
     <li>Use atom to add the names of two separate coding languages to <code>coding_languages.txt</code>. You may Google "programming languages" if you can't think of any.</li>
-    <li>Before you check the status, predict what it will say. Then, check the current status.</li>
-    <li>Before you check the difference between your last commit and what the file looks like now, predict what it will say. Then, check the diff.</li>
+    <li>Before you check the status, predict what the output will be. Then, check the current status.</li>
+    <li>Before you check the difference between your last commit and what the file looks like now, predict what the output will be. Then, check the diff.</li>
     <li>Add the changes to the staging area.</li>
-    <li>Before you check the status, predict what it will say. Then, check the current status.</li>
+    <li>Before you check the status, predict what the output will be. Then, check the current status.</li>
     <li>Commit the changes using a properly formatted commit message.</li>
-    <li>Before you check the status, predict what it will say. Then, check the current status.</li>
+    <li>Before you check the status, predict what the output will be. Then, check the current status.</li>
     <li>Repeat steps 10-16 again, adding the names of some programming terms and some git terms to the respective files.</li>
     <li>Add and commit the changes to these two files <strong>together</strong> with a properly formatted commit message.</li>
   </ol>
@@ -279,7 +279,7 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
 <a name="github"></a>
 ## GitHub
 
-Git is not the same as GitHub. They work together, but they are separate tools. Git allows us to track versions of our work on our local computers. <span class="vocab">GitHub</span> is an online git repository hosting service. A <span class="vocab">repository</span> (or <span class="vocab">repo</span>) is, at it's core, a place where your work and commits are stored.
+Git is not the same as GitHub. They work together, but they are separate tools. Git allows us to track versions of our work on our local computers. <span class="vocab">GitHub</span> is an online git repository hosting service. A <span class="vocab">repository</span> (or <span class="vocab">repo</span>) is at its core, a place where your work and commits are stored.
 
 Other alternatives to GitHub include GitLab and BitBucket, among others. GitHub (and these other services) also makes it easy for teams that use git to collaborate on the same codebase.
 
@@ -297,7 +297,7 @@ Let's first discuss this diagram:
 
 <span class="vocab">git push</span>: this is how you share/upload the changes you made to your local repository on GitHub.
 
-This diagram shows  how GitHub can be used as a collaboration tool:
+This diagram shows how GitHub can be used as a collaboration tool:
 
 ![Collaborative Github Diagram](https://qph.fs.quoracdn.net/main-qimg-a161bdd97e4e0de40d999ac222fe2008.webp)
 
@@ -338,7 +338,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
 
 1. Visit <code>github.com/your_username</code>
 1. Click the plus button in the upper-right corner of GitHub and select "New Repository" from the dropdown.
-1. Give your repository a name, and dont worry about adjusting any of the other settings for now.
+1. Give your repository a name, and don't worry about adjusting any of the other settings for now.
 1. Scroll down and click "Create Repository"
 1. Scroll to `…or push an existing repository from the command line`
 1. Paste the lines listed, one at a time, in your terminal. <strong>Make sure to follow instructions for SSH</strong>
