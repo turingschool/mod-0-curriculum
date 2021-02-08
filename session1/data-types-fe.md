@@ -60,9 +60,10 @@ When we share out - be sure to take notes in your notebook about each data type 
         </ul>
       </div>
     </div>
-    <p class="toggle-show">
-      Integers and Floats Definition (click here)
-    </p>
+    <div>
+      <p class="toggle-show">
+        Integers and Floats Definition (click here)
+      </p>
       <div class="toggle-content hidden">
         <p><strong><span class="vocab">Integer</span>:</strong> An integer is a whole number (not a fraction) that can be positive, negative, or zero. Unlike floating point numbers, integers cannot have decimal places.</p>
         <p>Examples:</p>
@@ -131,7 +132,6 @@ When we share out - be sure to take notes in your notebook about each data type 
       </div>
     </div>
   </div>
-</div>
 
 ### Syntax Practice using the Console
 We are going to learn about how you can use a browser tool known as the `console` to start practicing writing and executing Javascript syntax.
