@@ -131,7 +131,7 @@ When we share out - be sure to take notes in your notebook about each data type 
         </ul>
       </div>
     </div>
-  </div>
+</div>
 
 ### Syntax Practice using the Console
 We are going to learn about how you can use a browser tool known as the `console` to start practicing writing and executing Javascript syntax.
