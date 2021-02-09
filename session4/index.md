@@ -22,7 +22,7 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
       <li><strong>6:30 </strong><a href="#scavengerhunt">Scavenger Hunt</a></li>
       <li><strong>7:05 </strong>Break</li>
       <li><strong>7:10 </strong><a href="#oop">Object Oriented Programming</a></li>
-      <li><strong>8:00 </strong><a href="#assessmentprev">Assessment Expectations</a></li>
+      <li><strong>8:10 </strong><a href="#assessmentprev">Assessment Expectations</a></li>
     </ul>
   </div>
   <div>
@@ -46,9 +46,9 @@ subheading: Scavenger Hunt, Modeling OOP, Assessment Expectations
 
 ### Follow-Ups
 
-- Leaving feedback directly on homework gists. You should have HW 1, session 2 feedback coming very soon if not yet. Feedback is for your own benefit... it would be wise to decipher it and update your hw.
+- Leaving feedback directly on homework gists. Instructors have reviewed sessions 1 & 2 HW and may have given feedback. Feedback is a gift... it would be wise to decipher it and update your HW.
 
-- Prework is due January 6 for people starting Mod 1 in 2102 (or waitlist). Get on it!
+- Prework is due February 17th. Get on it!
 
 ### Other Notes
 
@@ -359,10 +359,10 @@ The purpose of the Mod 0 Assessment is to determine your readiness for Mod 1 bas
   <p>There is a link to a google form where you'll submit your mod 0 assessment repo at the end of your checklist</p>
 </div>
 
- 
+
 ### FAQs
 * **Can I update my work after I've committed a file?**
   * Yes, please do. Update and commit away!
 * **I messed up my commit message. Should I fix it?**
-  * No, mistakes happen. We don't want you wasting time on that. 
-  * Just be more diligent on the next commit. You should be committing often (after each each piece of discrete work) so you should have multiple opportunities to show mastery of strong git workflow and commit messages. 
+  * No, mistakes happen. We don't want you wasting time on that.
+  * Just be more diligent on the next commit. You should be committing often (after each each piece of discrete work) so you should have multiple opportunities to show mastery of strong git workflow and commit messages.
