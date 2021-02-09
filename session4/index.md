@@ -286,7 +286,7 @@ changeColor: color = "Blue"
 <a name="assessmentprev"></a>
 ## Mod 0 Technical Assessment
 
-This is our final Mod 0 technical session. Your assignment between now and Session 5 is to find 80 minutes to complete the [Mod 0 Technical Assessment](https://fierce-beyond-34376.herokuapp.com).
+This is our final Mod 0 technical session. Your assignment between now and Session 5 is to find 80 minutes to complete the [Mod 0 Technical Assessment](https://docs.google.com/forms/d/e/1FAIpQLScfI9RHD4u-hSf_2SL6b1GRBKgAM1KbNFVPCEk0-GreQeOeag/viewform?usp=sf_link).
 
 ### How Will I Be Assessed?
 The purpose of the Mod 0 Assessment is to determine your readiness for Mod 1 based on your technical understanding of the core concepts of Mod 0, including:

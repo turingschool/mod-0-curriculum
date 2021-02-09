@@ -105,10 +105,18 @@ Follow these steps to get Homebrew installed on your machine:
 1. Once you have Terminal open, paste this line and hit enter. (remember, skip the `$`)
 
 ```
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 1. When prompted, enter the password you use to login to your computer. It needs this because it installs its packages in a place that all users of this computer can access.
+
+1. When the process has completed, you will be given instructions for updating your `PATH` - follow the output from your terminal. It should look similar to this:
+```
+==> Next steps:
+- Add Homebrew to your PATH in /Users/yourname/.zprofile:
+    echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/yourname/.zprofile
+    eval $(/opt/homebrew/bin/brew shellenv)
+```
 
 1. When it has completed the installation, type `brew doctor` in your terminal + press enter. It should tell you that everything is fine:
 
@@ -117,14 +125,14 @@ $ brew doctor
 Your system is ready to brew.
 ```
 
-If you got a warning from Homebrew about your path, do the following:
+<!-- If you got a warning from Homebrew about your path, do the following:
 
 ```
 $ touch ~/.zshrc
 $ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
 $ source ~/.zshrc
 // Now run "brew doctor" again and the warning should be gone.
-```
+``` -->
 
 ### I followed the above instructions and Homebrew won't install!
 No worries! This likely means you have one of Apple's newest M1 laptops - fancy you 😉 ! Essentially, some programs are not currently supported with this setup, Homebrew being one of them. 
