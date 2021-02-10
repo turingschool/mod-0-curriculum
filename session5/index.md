@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 5
-subheading: Iteration and Error Messages
+subheading: Iteration, Pseudocode, and Annotations
 ---
 
 <div class="goals-agenda">
@@ -11,7 +11,8 @@ subheading: Iteration and Error Messages
     <ul>
       <li>define iteration in programming</li>
       <li>demonstrate iteration in real-world and programming situations</li>
-      <li>read and debug error messages</li>
+      <li>define and understand the art of pseudocode</li>
+      <li>participate in the process of annotating code</li>
     </ul>
   </div>
   <div>
@@ -45,10 +46,10 @@ subheading: Iteration and Error Messages
 
 ### Follow-Ups
 
-- We will have assessment feedback to everyone by this Friday.
-- Everyone should know if they are `turing ready` (passed Mod 0) by early next week.
+- We will have assessment feedback to everyone by this Saturday EOD.
+- Everyone should know if they are `technical ready` (passed assessment) by early next week.
 - If you pass, what do you have left to be mod 1 ready?
-- Check the <a href="https://mod0.turing.io/calendar/">calendar</a>! This is your source of truth for Mod 1 Orientation and prework due dates.
+- Check the <a href="https://mod0.turing.io/calendar/">calendar</a>! This is your source of truth for Mod 1 Orientation and pre-work due dates.
 
 ### Today's Goals
 
@@ -74,7 +75,7 @@ Iteration (or looping for a specified number of times) is a process of repeating
 
 ### Iteration in Real Life
 
-These are examples that would be programatically challenging because they would require a ton of steps, but are things that we do everyday.
+These are examples that would be programmatically challenging because they would require a ton of steps, but are things that we do everyday.
 
 <table>
   <thead>
@@ -214,9 +215,9 @@ Turn off your mics and videos and walk away from the computer. Stand up, stretch
 
 The ability to critically examine a problem and break it down into smaller pieces is an essential skill of a developer that can be improved with practice. Breaking large problems into several smaller problems can help you in every step of the development process:
 
-- *Pseudocode*: Breaking apart coding challenges into steps is often referred to as <span class="vocab">pseudocode</span>. This is done by writing those steps in plain english (or whatever language you speak), and then those steps, can later be converted to code the computer understands.
+- *Pseudocode*: Breaking apart coding challenges into steps is often referred to as <span class="vocab">pseudocode</span>. This is done by writing those steps in plain English (or whatever language you speak), and then those steps, can later be converted to code the computer understands.
 
-Pseudocoding can help keep your thoughts in order, especially helpful for when you may need to put a little research into HOW to accomplish all the steps involved. Further, pseudocode is an excellent approach to explaining code to your team because it is code-language agnostic, allowing non-technical teammates, or teammates who work with different code/technology, to understand your ideas more easily.
+Pseudocoding can help keep your thoughts in order, especially helpful for when you may need to put a little research into HOW to accomplish all the steps involved. Further, pseudocode is an excellent approach to explaining code to your team because it is programming language-agnostic, allowing non-technical teammates, or teammates who work with different code/technology, to understand your ideas more easily.
 
 ## Pseudocode - An Algorithm
 
@@ -235,7 +236,7 @@ What do y'all notice about how the pseudocode is written in the technical exampl
 Given the following data:
 
 ```
-[ "jokic_nikola", "murray_jamal", "harris_garry" ]
+[ "potter_harry", "weasley_ron", "granger_hermione" ]
 ```
 
 Write pseudocode to explain how you would approach transforming the names you receive into what you'd want to display on your website. Please note that the format is currently `lastname_firstname` and the desired result would be `Firstname Lastname`.
@@ -259,9 +260,9 @@ Frequently, you will receive information from databases in the form of a hash (o
 
 ```
 var customerNames = [
-{ firstName: "nikola", lastName: "jokic" },
-{ firstName: "william", lastName: "barton_iii" },
-{ firstName: "jamal", lastName: "murray" }
+{ firstName: "harry", lastName: "potter" },
+{ firstName: "ron", lastName: "weasley" },
+{ firstName: "hermione", lastName: "granger" }
 ];
 ```
 
@@ -275,7 +276,7 @@ Part of being a strong developer is not just writing code. Most of the job is ac
 - Annotation (adding your notes) to code other people have written
 - Articulating (speaking about) code that isn't yours
 
-Annotating code is a great way to start to understand how code works and dive into code that you yourself did not write. One strategy to annotating code is to write **comments** directly in the code you are trying to deciper.
+Annotating code is a great way to start to understand how code works and dive into code that you yourself did not write. One strategy to annotating code is to write **comments** directly in the code you are trying to decipher.
 
 Most text editors, like Atom, allow you to add comments in your code. You can highlight a selection and use `CMD + /` to turn your text into a comment. Conversely, you can start any line with `//` for Javascript or `#` in Ruby to indicate a comment. You should see your syntax highlighting change to a different color when code has been commented out!
 
@@ -319,7 +320,7 @@ end
 play_with_cats("Pumpernickel", "Nigel", "paperclip")
 ```
 
-As you can see, there is a lot of things happening in these few lines of code! As a new developer, looking at all this code can be very intimidating. Rather than get overwhelmed, I can go line by line and use comments to annotate what is happening to get a better understanding.
+As you can see, there are a lot of things happening in these few lines of code! As a new developer, looking at all this code can be very intimidating. Rather than get overwhelmed, I can go line by line and use comments to annotate what is happening to get a better understanding.
 ##### Javascript Example
 ```js
 //this is a function with 3 parameters (cat1, cat2 and toy)
@@ -341,7 +342,7 @@ function playWithCats(cat1, cat2, toy){
   //When function is called, it will return the greeting string value
   return greeting
 }
-//invoke the playWithCats function with cat1 = 'Pumpernickel', cat2 = 'Nigel', 
+//invoke the playWithCats function with cat1 = 'Pumpernickel', cat2 = 'Nigel',
 //and toy = 'paperclip'
 playWithCats('Pumpernickel', 'Nigel', 'paperclip')
 // this function will output the string - "Hello Pumpernickel and Nigel - how are you both doing this fine morning!"
@@ -367,7 +368,7 @@ def play_with_cats(cat_1, cat_2, toy)
   # When function is called, it will return the greeting string value
   return greeting
 end
-# invoke the play_with_cats function with cat_1 = "Pumpernickel", cat_2 = "Nigel" 
+# invoke the play_with_cats function with cat_1 = "Pumpernickel", cat_2 = "Nigel"
 # and toy = "paperclip"
 play_with_cats('Pumpernickel', 'Nigel', 'paperclip')
 # this function will output the string - "Hello Pumpernickel and Nigel - how are you both doing this fine morning!"
@@ -376,16 +377,16 @@ play_with_cats('Pumpernickel', 'Nigel', 'paperclip')
 ### Practice - 20 minutes
 In program-specific groups of 2-3, work through the exercises in the [Annotations Practice repo](https://github.com/turingschool/annotation_practice).
 - Carefully read the instructions in the `README` before starting
-- Take turns being the driver and navigator, but all members of the group should have annotations for each file. 
-- You may need to reference your notes, Mod 1 Prework, and/or Google
+- Take turns being the driver and navigator, but all members of the group should have annotations for each file.
+- You may need to reference your notes, Mod 1 Pre-work, and/or Google
 - Be sure to use code comments (`CMD + /`) on each line of code
 
-After the time is up, we will share our annotations in smaller groups! 
+After the time is up, we will share our annotations in smaller groups!
 
 ### Close out
 
 * This is your last mod 0 session
-* All that's left is to turn in your mod 1 prework
+* All that's left is to turn in your mod 1 pre-work
 * Check the calendar for Mod 1 Orientation
 * When you start working on Mythical Creatures in Mod 1, think back to OOP, classes and methods in Mod 0
 * Moving forward:
