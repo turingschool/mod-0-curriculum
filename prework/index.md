@@ -46,7 +46,7 @@ Submission instructions for the PD assignment will be listed in the link above.
 <a name="gear-up"></a>
 ## Gear Up (2 hours)
 
-Gear up is a part of our curriculum where we talk about topics such as privilege and power, and ethical issues in the tech industry. Here is the [Gear Up Assignment](https://github.com/turingschool/gear-up/blob/master/pre-work/intro_with_empathy.markdown).
+Gear up is a part of our curriculum where we talk about topics such as privilege and power, and ethical issues in the tech industry. Here is the [Gear Up Assignment](https://github.com/turingschool/gear-up/blob/main/m0/Intro.To.GearUp.md).
 
 The gear up assignment will be submitted with the technical pre-work. Instructions can be found on the finalProject README of the technical pre-work.
 
