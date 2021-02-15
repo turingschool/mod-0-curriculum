@@ -3,7 +3,7 @@ At it's most basic level, computer programming is simply working with, storing a
 
 In programming, one of the most common ways to interact with data is to store data/information in a `variable` - this allows us to reference a word in our computer's memory that returns the data we've stored.
 
-We are going to learn about two concepts together as we dive into our first technical content: variable assignment and data types. To help frame this lesson, we will be conceptualizing a grocery shopping applaction! For each of the data types we research, we'll brainstorm examples of how we might use that data type in a grocery store app and practice assigning variables to each specific data type!
+We are going to learn about two concepts together as we dive into our first technical content: variable assignment and data types. 
 
 ### Variable Assignment x Re-assignment
 In Ruby, assigning/declaring a variable follows a very clear pattern.
@@ -19,7 +19,7 @@ In Ruby, assigning/declaring a variable follows a very clear pattern.
 - Float
 - Boolean
 - Array
-- Hash
+- Hash (EXTENSION)
 
 Before we get into specific syntax examples, we need to get a better understanding of the data types we will encounter in Ruby.
 
@@ -29,7 +29,7 @@ To start building on our Googling skills we learned earlier, we are going to bre
 You will be assigned a specific data type to research with your breakout group. Together, we want you to report back on:
 - Basic definition of your assigned data type
 - Example of the proper syntax for working with this data type
-- 1-2 examples of how this data type could be implemented in our imaginary grocery app
+- 1-2 examples of variables that use this data type
 
 You will be assigned to one of these data types:
 - String
