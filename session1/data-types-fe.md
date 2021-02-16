@@ -6,14 +6,16 @@ In programming, one of the most common ways to interact with data is to store da
 We are going to learn about two concepts together as we dive into our first technical content: variable assignment and data types.
 
 ### Variable Assignment x Re-assignment
-In JavaSscipt, assigning/declaring a variable follows a very clear pattern.
+In JavaScript, assigning/declaring a variable follows a very clear pattern.
 **Step 1 -** Write the variable keyword `var`
-- `var` is a speciall keyword in Javascript - it tells the JS interpeter that you are about to declare a new variable!
+- `var` is a special keyword in Javascript - it tells the JS interpeter that you are about to declare a new variable!
 
 **Step 2 -** Write a name for your variable in `camelCase`
 - Make sure the first word starts with a `lowercase` letter
 - Any subsequent words should be combined with the first word (no spaces) and capitalized
 - Try to name the variable in a descriptive way - another developer should be able to read the variable name and have a good understanding of what the data represents!
+- Need to see more information on Case types in Coding?
+![Case Types[(https://res.cloudinary.com/practicaldev/image/fetch/s--sUdRHMkr--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://cl.ly/330i2s0q2j3o/Image%25202018-08-06%2520at%252012.13.40%2520PM.png)
 
 **Step 2 -** Add an assignment operator `=`
 
@@ -24,7 +26,7 @@ In JavaSscipt, assigning/declaring a variable follows a very clear pattern.
 - Array
 - Object (EXTENSION)
 
-Before we get into specific syntax examples, we need to get a better understanding of the data types we will encounter in Ruby.
+Before we get into specific syntax examples, we need to get a better understanding of the data types we will encounter in Javascript.
 
 ### Breakouts - Research x Teachout
 To start building on our Googling skills we learned earlier, we are going to break out into small groups to research AND present on a specific data type.
@@ -134,7 +136,7 @@ When we share out - be sure to take notes in your notebook about each data type 
 </div>
 
 ### Syntax Practice using the Console
-We are going to learn about how you can use a browser tool known as the `console` to start practicing writing and executing Javascript syntax.
+We are going to learn about how you can use a browser tool known as the `console` to start practicing writing and executing Javascript syntax. (See [here](https://developers.google.com/web/tools/chrome-devtools/open) for help opening `console` in Google Chrome)
 
 ### Practice
 * Assign a variable called `pizza` set to a value of a string
