@@ -15,7 +15,8 @@ In JavaScript, assigning/declaring a variable follows a very clear pattern.
 - Any subsequent words should be combined with the first word (no spaces) and capitalized
 - Try to name the variable in a descriptive way - another developer should be able to read the variable name and have a good understanding of what the data represents!
 - Need to see more information on Case types in Coding?
-![Case Types[(https://res.cloudinary.com/practicaldev/image/fetch/s--sUdRHMkr--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://cl.ly/330i2s0q2j3o/Image%25202018-08-06%2520at%252012.13.40%2520PM.png)
+
+![Case Types](https://res.cloudinary.com/practicaldev/image/fetch/s--sUdRHMkr--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://cl.ly/330i2s0q2j3o/Image%25202018-08-06%2520at%252012.13.40%2520PM.png)
 
 **Step 2 -** Add an assignment operator `=`
 
