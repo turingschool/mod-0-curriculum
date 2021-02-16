@@ -99,10 +99,10 @@ Turing and software development is inherently collaborative. Our project-based l
 Reality check - both frontend development and backend development are "hard". That is why salaries are high for positions in this field! At Turing, you will get exposure to the "full stack" - in fact, your final module will be a combined cohort of frontend and backend students! 
 
 #### Myth 3 - People "fail" Turing due to the technical content
-Believe it or not, 99% of failing projects at Turing have little to do with technical deficits. Instead, poor communication and issues with collaboration are the main cause of failitheng projects. Remember, your Turing experience is designed to prepare you for the actual job - collaborating and communicating under tight deadlines is what makes the job difficult! 
+Believe it or not, 99% of failing projects at Turing have little to do with technical deficits. Instead, poor communication and issues with collaboration are the main cause of failing projects. Remember, your Turing experience is designed to prepare you for the actual job - collaborating and communicating under tight deadlines is what makes the job difficult! 
 
 ## Setup for Success: Notetaking x Technical Content
-Many of you are diving back into an academic setting for the first time in awhile. To be clear, the Turing experience is likely MUCH different than your previous academic experiecnes! We will use Mod 0 to start preparing you to kick ass at Turing and start your transformation into a developer off on the right foot.
+Many of you are diving back into an academic setting for the first time in awhile. To be clear, the Turing experience is likely MUCH different than your previous academic experiences! We will use Mod 0 to start preparing you to kick ass at Turing and start your transformation into a developer off on the right foot.
 
 One area we notice students struggle with is how and when to take notes. Before we go into specifics, take a look at [these notes](https://gist.github.com/ericweissman/a729a849ed6355ed8ee0c9156a8e9c98) created by some of our most successful students.
 
