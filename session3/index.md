@@ -255,15 +255,15 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
   <p>As you and your group walk through the git review below, it might be a good idea to have <a href="/session2/#git" title="">Session 2's Git Notes</a> open.</p>
   <ol>
     <li>Before we do this, make sure the driver is in the home directory by typing <code>cd</code></li>
-    <li>Create a new directory called <code>session_3_git_practice</code>. Inside of that directory, create three files called <code>coding_languages.txt</code>,<code>programming_terms.txt</code>, and<code>git_terms.txt</code>.</li>
+    <li>Create a new directory called <code>session_3_git_practice</code>. Inside of that directory, create three files called <code>coding_languages.md</code>,<code>programming_terms.md</code>, and<code>git_terms.md</code>.</li>
     <li>Initialize git in the <code>session_3_git_practice</code> directory.</li>
     <li>Before you check the status, predict what the output will be. Then, run the command to check the current status.</li>
-    <li>Add <code>coding_languages.txt</code> to the staging area.</li>
+    <li>Add <code>coding_languages.md</code> to the staging area.</li>
     <li>Make your first commit in this directory. What should the commit message here be?</li>
     <li>Before you check the status, predict what the output will be. Then, check the current status.</li>
-    <li>Add <code>programming_terms.txt</code> and<code>git_terms.txt</code> to the staging area.</li>
+    <li>Add <code>programming_terms.md</code> and<code>git_terms.md</code> to the staging area.</li>
     <li>Make your second commit in this directory. This commit should include both files from the previous step. What should the commit message here be? Why? What conventions have we talked about?</li>
-    <li>Use atom to add the names of two separate coding languages to <code>coding_languages.txt</code>. You may Google "programming languages" if you can't think of any.</li>
+    <li>Use atom to add the names of two separate coding languages to <code>coding_languages.md</code>. You may Google "programming languages" if you can't think of any.</li>
     <li>Before you check the status, predict what the output will be. Then, check the current status.</li>
     <li>Before you check the difference between your last commit and what the file looks like now, predict what the output will be. Then, check the diff.</li>
     <li>Add the changes to the staging area.</li>
@@ -347,7 +347,8 @@ Watch and take notes while we walk through how to add a remote to your local rep
 <div class="try-it"> groups of 3 or 4 (8 minutes)
   <h3>Try It: Adding a Remote</h3>
   <p>1. Create a new repository on GitHub called <code>git_homework</code>.</p>
-  <p>2. In your terminal, navigate to your <code>git_homework</code> directory from session 2's homework. If for some reason you don't have this directory then use the <code>mkdir</code> command to create <code>git_homework</code>. Then use <code>touch</code> to create a file called<code>sample_file.txt</code>. Then run <code>git init</code>. Only do this if you don't already have a <code>git_homework</code> repo.</p>
+  <p>2. In your terminal, navigate to your <code>git_homework</code> directory from session 2's homework.</p>
+  <p>If for some reason you don't have this directory then use the <code>mkdir</code> command to create <code>git_homework</code>. Then use <code>touch</code> to create a file called<code>sample_file.md</code>. Then run <code>git init</code>. <b>Only do this if you don't already have a <code>git_homework</code> repo.</b></p>
   <p>3. Add the remote to your local repository, then push your changes to GitHub.</p>
 </div>
 
@@ -360,13 +361,13 @@ Watch and take notes while we walk through how to continue making changes and pu
   <p>In your breakout rooms, <strong>everyone</strong> will complete the steps below synchronously, but on your own projects. Use each other as resources and sounding boards. Don't hesitate to click "share screen" if there's something you want your team to look at!</p>
   <p>If you get really stuck, you can click "ask for help" and we'll pop into your room.</p>
   <ul>
-    <li>Add a few new quotes to your <code>quotes.txt</code> file.</li>
+    <li>Add a few new quotes to your <code>quotes.md</code> file.</li>
     <li>Save your file using the shortcut <code>command + s</code>.</li>
     <li>Go back to your terminal.</li>
     <li>Use commands to add and commit your new changes. Be sure to use <code>git status</code> to check your status, and make sure your commit message is properly formatted.</li>
     <li>Push your new changes to GitHub.</li>
     <li>Refresh the page to make sure the new changes appear.</li>
-    <li>Repeat the above steps, but this time, remove one of the quotes from your <code>quotes.txt</code> document, then add, commit, and push your changes.</li>
+    <li>Repeat the above steps, but this time, remove one of the quotes from your <code>quotes.md</code> document, then add, commit, and push your changes.</li>
   </ul>
   <p>Finished? Get to know your breakout room classmates better: What are they trying to get better at in life? What book would the recommend that everyone read at least once in life?</p>
 </div>
@@ -416,7 +417,7 @@ git push origin main
     <li>Fork the <a href="https://github.com/rwarbelow/best_animals" title="Best Animals">Best Animals</a> repository.</li>
     <li>Clone <strong>your</strong> fork using your terminal.</li>
     <li>Open up the project in your text editor (atom).</li>
-    <li>Add a few animals to the mammals.txt file.</li>
+    <li>Add a few animals to the mammals.md file.</li>
     <li>Add and commit your changes.</li>
     <li>Push your changes to the origin (which is your fork).</li>
     <p>Done? Repeat steps 4-6 with another animal file.</p>
