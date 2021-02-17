@@ -57,9 +57,9 @@ When we share out - be sure to take notes in your notebook about each data type 
         <p>A <strong><span class="vocab">string</span></strong> is a data type used represent text. Strings can contain alphabet characters in addition to spaces, numbers, and special characters.</p>
         <p>Examples:</p>
         <ul>
-          <li><code>var poem = "two roads diverged in a yellow wood"</code></li>
-          <li><code>var officePhoneNumber = "(303) 731-3117"</code></li>
-          <li><code>var schoolName = "Turing School of Software & Design"</code></li>
+          <li><code>var poem = "two roads diverged in a yellow wood";</code></li>
+          <li><code>var officePhoneNumber = "(303) 731-3117";</code></li>
+          <li><code>var schoolName = "Turing School of Software & Design";</code></li>
         </ul>
       </div>
     </div>
@@ -71,17 +71,17 @@ When we share out - be sure to take notes in your notebook about each data type 
         <p><strong><span class="vocab">Integer</span>:</strong> An integer is a whole number (not a fraction) that can be positive, negative, or zero. Unlike floating point numbers, integers cannot have decimal places.</p>
         <p>Examples:</p>
         <ul>
-          <li><code>var numberOfCats = 10</code></li>
-          <li><code>var remainingEnergy = 0</code></li>
-          <li><code>var windchill = -25</code></li>
-          <li><code>var balance = 5148</code></li>
+          <li><code>var numberOfCats = 10;</code></li>
+          <li><code>var remainingEnergy = 0;</code></li>
+          <li><code>var windchill = -25;</code></li>
+          <li><code>var balance = 5148;</code></li>
         </ul>
         <p><strong><span class="vocab">Float</span>:</strong> As the name implies, floating point numbers are numbers that contain floating decimal points. They can be positive or negative. Technically in Javascript, these are still considered integers but it's good to know the difference!</p>
         <p>Examples:</p>
         <ul>
-          <li><code>var deduction = -5.5</code></li>
-          <li><code>var savingsRate = 0.01</code></li>
-          <li><code>var temperature = 98.2</code></li>
+          <li><code>var deduction = -5.5;</code></li>
+          <li><code>var savingsRate = 0.01;</code></li>
+          <li><code>var temperature = 98.2;</code></li>
         </ul>
       </div>
     </div>
@@ -93,8 +93,8 @@ When we share out - be sure to take notes in your notebook about each data type 
         <p>A <strong><span class="vocab">boolean</span></strong> value is either true or false. Boolean values are used in boolean logic, which is a subset of algebra used for creating true/false statements.</p>
         <p>Examples:</p>
         <ul>
-          <li><code>var isLoggedIn = true</code></li>
-          <li><code>var isScared = false</code></li>
+          <li><code>var isLoggedIn = true;</code></li>
+          <li><code>var isScared = false;</code></li>
         </ul>
       </div>
     </div>
@@ -108,9 +108,9 @@ When we share out - be sure to take notes in your notebook about each data type 
         <p>Typically, elements in an array are all of the same data type, such as an integer or string. Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched.</p>
         <p>Examples:</p>
         <ul>
-          <li><code>var recent_scores = [26, 24, 28, 25, 27, 27, 26, 27]</code></li>
-          <li><code>var modules = ["Mod 0", "Mod 1", "Mod 2", "Mod 3", "Mod 4"]</code></li>
-          <li><code>var answer_key = [false, true, true, true, false, true, true]</code></li>
+          <li><code>var recent_scores = [26, 24, 28, 25, 27, 27, 26, 27];</code></li>
+          <li><code>var modules = ["Mod 0", "Mod 1", "Mod 2", "Mod 3", "Mod 4"];</code></li>
+          <li><code>var answer_key = [false, true, true, true, false, true, true];</code></li>
         </ul>
       </div>
     </div>
@@ -125,12 +125,12 @@ When we share out - be sure to take notes in your notebook about each data type 
         <p>When I think about whether or not I need to use a hash, I ask myself "Is this a collection of data where the pairing of items matters?"</p>
         <p>Examples:</p>
         <ul>
-          <li><code>var totalStudents = {grade9: 110, grade10: 125, grade11: 66, grade12: 70}</code></li>
+          <li><code>var totalStudents = {grade9: 110, grade10: 125, grade11: 66, grade12: 70};</code></li>
           <li><code>var modAssignments = { 
             mod0: ["Tim", "David"], 
             mod1: ["Mike"," Sal"], 
             mod2: ["Brittany", "Robbie"] 
-            }</code></li>
+            };</code></li>
         </ul>
       </div>
     </div>
