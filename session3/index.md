@@ -305,7 +305,7 @@ This diagram shows how GitHub can be used as a collaboration tool:
 
 Let's take a look at an example of a repo on GitHub: <a href="https://github.com/freeCodeCamp/freeCodeCamp" title="">FreeCodeCamp</a>
 
-<div class="try-it">
+<!-- <div class="try-it">
   <h3>Try It: Exploring GitHub Repositories</h3> groups of 3 or 4 (8 minutes)
   <p>In your breakout group, choose one of the repositories listed at the bottom of this "Try It" section. Take a few minutes to explore the following questions and be ready to report back to your group:</p>
   <ol>
@@ -326,7 +326,7 @@ Let's take a look at an example of a repo on GitHub: <a href="https://github.com
   </ul>
 </div>
 
-<hr>
+<hr> -->
 ## BREAK
 
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
