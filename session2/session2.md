@@ -4,7 +4,6 @@ title: Session 2
 subheading: Terminal, File/folder Structure, Git Basics
 ---
 
-<div class="goals-agenda">
 ### Goals
   - notate file paths from diagrams
   - navigate through directories from the command line
