@@ -252,8 +252,7 @@ changeColor: color = "Blue"
   <h3>Try It (Big Breakout Rooms) (~15 minutes) groups of 2 or 3</h3>
   <p>Person whose first name starts closest to Q will share their screen and choose one of the following classes:</p>
   <ul>
-    <li>Vehicle</li>
-    <li>Book</li>
+    <li>Apartment</li>
     <li>Playlist</li>
     <li>GroceryStore</li>
   </ul>
