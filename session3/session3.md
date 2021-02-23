@@ -14,11 +14,9 @@ subheading: More Git and Intro to GitHub
 
 ### Agenda
 **6:15** - Housekeeping, Feedback + Goals
-**6:25** - Iteration in Programming
+**6:25** - Psuedocoding Practice
 **6:55** - Break
-**7:00** - Psuedocoding 
-**7:35** - Break
-**7:40** - Git Basics
+**7:00** - GitHub 
 **8:25** - Wrap Up
 
 ### Materials
