@@ -22,11 +22,13 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 - [Install Atom as your Text Editor](#2-install-atom-as-your-text-editor)
 - [Install Xcode-select](#3-install-xcode-select)
 - [Install Homebrew](#4-install-homebrew)
-- [Install Git](#5-install-git)
-- [Configure Git](#6-configure-git)
-- [Install Chrome](#7-install-chrome)
-- [Set Up Terminal Access for Atom](#8-set-up-terminal-access-for-atom)
-- [Add GitHub SSH Keys](#9-add-github-ssh-keys)
+- [Setup Github]($5-setup-github)
+- [Install Git](#6-install-git)
+- [Configure Git](#7-configure-git)
+- [Install Chrome](#8-install-chrome)
+- [Set Up Terminal Access for Atom](#9-set-up-terminal-access-for-atom)
+- [Add GitHub SSH Keys](#10-add-github-ssh-keys)
+- [Install Rectangle](#11-install-rectangle)
 
 Lets get started:
 
@@ -149,11 +151,18 @@ I've also outlined the steps here:
 1. Right click on the `Terminal` app and choose `Get Info`
 1. Check the box that says `Open using Rosetta`
 1. Open the `Terminal` app by either double clicking the icon or using a Spotlight search for `Terminal`
-1. Proceed with Step 2 from the instructions above this section! 
+1. Proceed with Step 2 from the instructions above this section!
 
-## 5) Install Git
+## 5) Setup Github
+If you haven't had a chance to sign up for [Github](https://github.com/), now is a good time to do that.
+
+Update your [GitHub Profile](https://github.com/settings/profile) and be sure that you choose a username, status, profile info and picture that is PROFESSIONAL and APPROPRIATE! Future employers will be looking at your Github to see your projects, code, etc.
+
+## 6) Install Git
 
 [Git](https://git-scm.com/) is a Version Control System (VCS). It allows you to save work on your project, and reference previous states of a project if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and ANY previous version. Git’s philosophy: never lose anything.
+
+One other thing to clear up - `git` is not the same thing as `Github`. You'll learn more about how they interact in Mod 0!
 
 To install Git, we will use Homebrew. Follow these steps to install `git` on your machine:
 
@@ -182,7 +191,7 @@ start a working area (see also: git help tutorial)
 .
 ```
 
-## 6) Configure Git
+## 7) Configure Git
 
 We'll want to configure git with some basic information about us.
 
@@ -214,7 +223,7 @@ pull.rebase=false
 If you get "stuck" in the screen showing the output of `git config --list`, **don't panic!** Just type `q`, and you should get back to your regular terminal.
 
 
-## 7) Install Chrome
+## 8) Install Chrome
 
 If you're not already using Chrome, install it from [here](https://www.google.com/chrome/). Chrome includes a set of developer tools that will come in handy down the road. Additionally, it is always on the cutting edge of being able to support new web technologies.
 
@@ -226,7 +235,7 @@ We'll be here when you get back. :)
 
 --------------------
 
-## 8. Set Up Terminal Access for Atom
+## 9) Set Up Terminal Access for Atom
 
 Install the shell commands for Atom. Open Atom, drop down the `Atom` menu in the top left corner of your screen, and click on `Install Shell Commands`. Atom should now be enabled from your command line.
 
@@ -246,7 +255,7 @@ ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 
 Atom also offers a number of different options and packages that you can customize to your liking. [This](https://www.youtube.com/watch?v=WWwBQQOGllo&list=PLYzJdSdNWNqwNWlxz7bvu-lOYR0CFWQ4I) series of videos will walk you through many of them if you'd like to dive deeper.
 
-## 9. Add GitHub SSH Keys
+## 10) Add GitHub SSH Keys
 
 SSH keys are a more secure and convenient way of authenticating than typing in our password every time we want to interact with Github.
 
@@ -339,6 +348,15 @@ Hi <your_username>! You've successfully authenticated, but GitHub does not provi
 
 Great work! You've connected your terminal to your Github profile. You can now interact with Github from your terminal _without_ entering your password all the time.
 
+## 11) Install Rectangle
+**Install [Rectangle](https://rectangleapp.com/)** - Rectangle allows you to move and resize windows so you can watch the Zoom call and work in the terminal for your technical sessions.
+
+Once you've installed Rectangle, open the app and it will run in the background. You should see a smaller version of the Rectangle icon in the top right corner of your screen.
+
+Take some time to play around with the commands to adjust the positioning and size of different windows on your screen using the Rectangle shortcuts!
+
 ### You're Done!
 
 Give yourself a pat on the back.
+
+![congrats](https://media.giphy.com/media/xWZcTvh1cuAaSi7HeI/giphy.gif)
