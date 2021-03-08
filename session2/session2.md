@@ -16,7 +16,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 **6:15** - Housekeeping, Feedback + Goals
 **6:25** - Iteration in Programming
 **6:55** - Break
-**7:00** - Psuedocoding 
+**7:00** - Problem Solving + Pseudocode
 **7:35** - Break
 **7:40** - Git Basics
 **8:25** - Wrap Up
@@ -165,27 +165,6 @@ By "in programming", we mean things that could be done, with relative ease, by a
       </tr>
     </tbody>
   </table>
-  <p>Think back to your grocery store app. What is something you said you'd keep inside of an array? Why might you need to iterate over that collection? Jot down your scenario below.</p>
-  <table>
-    <thead>
-      <tr>
-        <th>Scenario</th>
-        <th>Collection</th>
-        <th>For each...</th>
-        <th>Do this:</th>
-        <th>Then:</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><textarea rows="4"></textarea></td>
-        <td><textarea rows="4"></textarea></td>
-        <td><textarea rows="4"></textarea></td>
-        <td><textarea rows="4"></textarea></td>
-        <td><textarea rows="4"></textarea></td>
-      </tr>
-    </tbody>
-  </table>
 </div>
 
 ## BREAK
@@ -193,7 +172,7 @@ By "in programming", we mean things that could be done, with relative ease, by a
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 <hr>
 
-# Pseudocode and Breaking Apart A Problem
+# Problem Solving + Pseudocode 
 
 The ability to critically examine a problem and break it down into smaller pieces is an essential skill of a developer that can be improved with practice. Breaking large problems into several smaller problems can help you in every step of the development process:
 
@@ -222,8 +201,19 @@ Pseudocode often reads like an algorithm. Algorithms often read like recipes:
 
 Here is an example of more technical pseudocode. Ultimately, how you write your own pseudocode depends on your personal preference and your audience (if it will be shared).
 
-#### Psuedocode for Code Challenge
-Challenge: Write some code that will determine the number of vowels in a given string. 
+#### Pseudocode Practice (2 mins)
+On your own, write some pseudocode for how you would make a **Peanut Butter + Jelly sandwich** - remember, think about how you can break this "problem" up into the smallest parts possible to allow for the clearest instructions!
+
+#### Pseudocode Breakout Demo (5 mins)
+Watch as your TAs model how to engage in a discussion of technical content as they share their pseudocode for creating a sandwich!
+
+
+#### Psuedocode for Technical Challenges
+Take a look at the example of a code challenge you might receive as part of an interview.
+
+**Challenge: Write some code that will determine the number of vowels in a given word/string.**
+
+Below is an example of some pseudocode that could be written for the challenge. What are some things that stand out?
 
 ```
 - Declare what letters are vowels - a, e, i, o, u
@@ -235,8 +225,6 @@ Challenge: Write some code that will determine the number of vowels in a given s
 - Move to next letter in word and repeat steps from Check if Vowel
 - When there are no more letters left in word, return the final vowelCount number
 ```
-
-What do y'all notice about how the pseudocode is written in the technical example above?
 
 #### "Good" Psuedocode
 
@@ -252,7 +240,6 @@ Hopefully, A LOT! Psuedocoding can be a great process to employ any time you are
 
 Additionally, psuedocoding comes in handy during technical interviews and code challenges for when you are applying for jobs. Interviewers want to see how you can break complex ideas down into language that everyone can understand - remember, as a developer you will often be working with non-technical colleagues in marketing, sales, etc. and hiring managers want to know that you can communicate with them!
 
-
 ### Practice: Data Normalization
 
 Given the following data:
@@ -266,10 +253,10 @@ Write pseudocode to explain how you would approach transforming the names you re
 #### 3 minutes - on your own
 - How can you break this problem down into smaller chunks or sub-problems?
 - What steps are needed to get from the initial data (input) to the desired end result (output)?
-#### 5 minutes - in groups (finished? start converting to code)
+#### 5 minutes - in groups 
 - In groups, take turns sharing your psuedocode
-- As a group, come up with a Team Solution that can borrow parts from all the different group members!
-#### 10 minutes - Share Outs + Walkthrough
+- As a group, come up with a Team Pseudocdoe that can borrow parts from all the different group members!
+#### 5 minutes - Share Outs + Walkthrough
 
 Everyone should read [this article](https://medium.com/@dannysmith/breaking-down-problems-its-hard-when-you-re-learning-to-code-f10269f4ccd5) at some point after class - note that it's written in Ruby, but again, **focus on the process**
 

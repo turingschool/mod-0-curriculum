@@ -4,42 +4,29 @@ title: Session 2
 subheading: Terminal, File/folder Structure, Git Basics
 ---
 
-<div class="goals-agenda">
-  <div>
-    <h3>Goals</h3>
-    <strong>By the end of this session, you will be able to:</strong>
-    <ul>
-      <li>notate file paths from diagrams</li>
-      <li>navigate through directories from the command line</li>
-      <li>make and remove files and directories from the command line</li>
-      <li>define and identify methods for a class</li>
-      <li>explain the purpose of git</li>
-      <li>initialize, add, and commit changes in a local repository  </li>
-    </ul>
-  </div>
-  <div>
-    <h3>Agenda</h3>
-    <ul>
-      <li><strong>6:15 </strong>Housekeeping, Feedback, and Goals</li>
-      <li><strong>6:25 </strong>Classes, Attributes and Methods</li>
-      <li><strong>6:35 </strong><a href="#filesdirectories">Files, Directories, and Paths</a></li>
-      <li><strong>6:50 </strong><a href="#terminalcommandline">Terminal and Command Line</a></li>
-      <li><strong>7:25 </strong>Break</li>
-      <li><strong>7:32 </strong><a href="#git">Git Basics</a></li>
-      <li><strong>8:17 </strong><a href="#troubleshooting">Troubleshooting Demo</a></li>
-    </ul>
-  </div>
-  <div>
-    <h3>Materials</h3>
-    <ul>
-      <li>Notebook</li>
-      <li>Writing instrument</li>
-      <li>Laptop</li>
-      <li>Headphones & mic</li>
-      <li>Zoom permission to share screen for breakout sessions</li>
-    </ul>
-  </div>
-</div>
+### Goals
+  - notate file paths from diagrams
+  - navigate through directories from the command line
+  - make and remove files and directories from the command line
+  - define and identify methods for a class
+  - explain the purpose of git
+  - initialize, add, and commit changes in a local repository 
+
+### Agenda
+**6:15** - Housekeeping, Feedback + Goals
+**6:25** - Iteration in Programming
+**6:55** - Break
+**7:00** - Problem Solving + Pseudocode
+**7:35** - Break
+**7:40** - Git Basics
+**8:25** - Wrap Up
+
+### Materials
+- Notebook
+- Writing instrument
+- Laptop
+- Headphones & mic
+- Zoom permission to share screen for breakout sessions
 
 ## Housekeeping, Feedback, and Goals
 
@@ -61,445 +48,223 @@ subheading: Terminal, File/folder Structure, Git Basics
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker (5 minutes)</h3> Groups of 2 or 3
   <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. Is a taco a sandwich? What is the best type of taco?</p>
-  <p>3. What was your biggest takeaway from the session 1 readings and responses?</p>
+  <p>2. What superpower is the most OVERRATED?</p>
+  <p>3. What was your biggest takeaway from Session 1?</p>
 </div>
 
-<a name="classes"></a>
-## Classes (Intro: Part II)
+<a name="iteration"></a>
+## Iteration
 
-**Note**: This is a topic that we will revisit in bite-size chunks leading up to Session 4. We will not talk about the technical aspects of how classes play a part in programming today; instead, we will apply the terminology and concepts to real life.
+Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we'll walk through step by step to demonstrate the concept.
 
-### Class and Attribute Review
+### Iteration in Real Life
+
+These are examples that would be programmatically challenging because they would require a ton of steps, but are things that we do everyday.
+
+<table>
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Collection</th>
+      <th>For each...</th>
+      <th>Do this:</th>
+      <th>Then:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Grading papers</td>
+      <td>papers</td>
+      <td>paper</td>
+      <td>
+        <ol>
+          <li>read through it</li>
+          <li>mark the score on the top</li>
+        </ol>
+      </td>
+      <td>repeat with next paper</td>
+    </tr>
+    <tr>
+      <td>Feeding animals</td>
+      <td>animals</td>
+      <td>animal</td>
+      <td>
+        <ol>
+          <li>bring the animal to the food bucket</li>
+          <li>allow the animal to eat</li>
+          <li>bring animal back to barn</li>
+        </ol>
+      </td>
+      <td>repeat with next animal</td>
+    </tr>
+  </tbody>
+</table>
+
+### Iteration in Programming
+
+By "in programming", we mean things that could be done, with relative ease, by a computer. Like crunching numbers.
+
+<table>
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Collection</th>
+      <th>For each...</th>
+      <th>Do this:</th>
+      <th>Then:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Calculating max heart rate</td>
+      <td>birth years</td>
+      <td>year</td>
+      <td>
+        <ol>
+          <li>subtract birth year from the current year to get age</li>
+          <li>subtract age from 220</li>
+        </ol>
+      </td>
+      <td>repeat with next year</td>
+    </tr>
+    <tr>
+      <td>Formatting names</td>
+      <td>names</td>
+      <td>name</td>
+      <td>
+        <ol>
+          <li>capitalize the first letter</li>
+          <li>lowercase all remaining letters</li>
+        </ol>
+      </td>
+      <td>repeat with next name</td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="try-it">
-  <h3>Try It: Classes</h3>
-  <p>Post one sentence in a slack thread using this structure:</p>
-  <p>______, ________, and _______ (instances) are different versions of a ________ (class).</p>
-  <p>For example: My Old Navy sweatshirt and my American Giant sweatshirt (instances) are different versions of a sweatshirt (class).</p>
+  <h3>Try It: Iteration in Real Life and Programming</h3>
+  <p>Brainstorm a real life scenario that uses iteration. Fill out the table below and be ready to share.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Scenario</th>
+        <th>Collection</th>
+        <th>For each...</th>
+        <th>Do this:</th>
+        <th>Then:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-
-<div class="try-it">
-  <h3>Try It: Attributes</h3>
-  <p>Post one sentence in a slack thread about your class using this structure:</p>
-  <p>Each instance of a _______ (class) has a _______, ________, and ________ (attributes).</p>
-  <p>For example: Each instance of a Sweatshirt (class) has a color, brand, and size (attributes).</p>
-</div>
-
-### Methods of Classes
-
-A <span class="vocab">method</span> of a class defines **behavior/actions**. Methods are verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
-
-For example:
-
-- Each **Child** (class) can greet, run, and learn (methods).
-- Each **School** (class) can accept_student, lower_tuition, count_enrollment, and calculate_acceptance_rate (methods).
-- Each **Book** (class) can turn_page, update_price, and highlight_section (methods).
-- Each **BankAccount** (class) can deposit, withdraw, open, close, check_balance, and change_ownership (methods).
-
-<div class="try-it">
-  <h3>Try It: Methods</h3>
-  <p>Post one sentence in a slack thread about your class using this structure:</p>
-  <p>Each _______ (class) can ___________, __________, and ___________.</p>
-</div>
-
-<a name="filesdirectories"></a>
-## Files, Directories, and Paths
-
-On your computer, you probably have many <span class="vocab">files</span> and <span class="vocab">directories</span>. Files are things like text documents, images, videos, PDFs, etc. Directories (or folders) are the structures we use to organize these files.
-
-In the diagram below, we would say that there's a directory called `essays` that contains three files: `life_lessons.docx`, `book_report.docx`, and `literary_analysis.docx`:
-
-<hr>
-<h4>Example #1</h4>
-<div class="flex-container">
-  <div>
-    <img src="images/files_directories_1.png" alt="files and directories 1">
-  </div>
-  <div>
-    A <span class="vocab">file path</span> is a way to notate where a file "lives" on your computer. This is the structure:
-    <pre>directory_name/file_name.extension</pre>
-    The file path for the first file in the diagram would be:
-    <pre>essays/life_lessons.docx</pre>
-    <p>What is the path for book_report.docx?</p>
-    <textarea rows="1" name="" style="width:100%;"></textarea>
-    <p>What is the path for literary_analysis.docx?</p>
-    <textarea rows="1" name="" style="width:100%;"></textarea>
-  </div>
-</div>
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  <ol>
-    <li>A file cannot be inside of another file. This means that every part of the path <strong>before</strong> the actual file is a directory. </li>
-    <li>For now, we will follow two convention rules: </li>
-    <ul>
-      <li>Use lower case letters when naming directories and files</li>
-      <li>Use underscores (_) or hyphens (-) instead of spaces when naming directories and files. However, keep in mind that different languages and frameworks have different conventions. Rather than arguing over which approach is "correct" (you'll find a lot of this on the internet), it is more important to pick an approach and be consistent. For today's lesson, we'll use the underscore (_) approach.</li>
-    </ul>
-    <li>Folders do not have extensions (like <strong>.docx</strong> or <strong>.txt</strong> or <strong>.csv</strong>, etc.) but file names do have extensions.</li>
-    <li>File extensions matter. A <strong>.md</strong> file will behave differently than a <strong>.docx</strong> file, which will also behave differently than a <strong>.txt</strong> file because the extensions help the operating system figure out which application can open the file. </li>
-  </ol>
-</div>
-<hr>
-<h4>Example #2</h4>
-<div class="flex-container">
-  <div>
-    <img src="images/files_directories_3.png" alt="files and directories 2">
-  </div>
-  <div>
-    <p>The path for the grading.txt file is</p>
-    <pre>to_do/work/grading.txt</pre>
-    <p>What is the path for cleaning.txt?</p>
-    <textarea rows="1" name="" style="width:100%;"></textarea>
-    <p>What is the path for random.txt?</p>
-    <textarea rows="1" name="" style="width:100%;"></textarea>
-    <p>What is the path for recurring.txt?</p>
-    <textarea rows="1" name="" style="width:100%;"></textarea>
-    <p>What is the path for bills.txt?</p>
-    <textarea rows="1" name="" style="width:100%;"></textarea>
-    <p>What is the path for data_entry.csv?</p>
-    <textarea rows="1" name="" style="width:100%;"></textarea>
-  </div>
-</div>
-
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  <ol>
-    <li>
-       We commonly refer to directories with an analogy of <span class="vocab">parent</span> and <span class="vocab">child</span>. In the above example <code>to_do</code> is the <span class="vocab">parent</span> directory of the <code>home</code> and <code>work</code> directories. <code>projects_to_delegate</code> is a <span class="vocab">child</span> directory of the <code>work</code> directory.
-    </li>
-  </ol>
-</div>
-
-<hr>
-<a name="terminalcommandline"></a>
-## Terminal and Command Line
-
-The <span class="vocab">terminal</span> is what we call a command line interface. Basically, that's a fancy way of saying that it's the program we use to give commands to the computer.
-
-We use the command line because it is a faster and more precise way to navigate our file systems, and certain tools can only be downloaded and accessed via the command line.
-
-Your terminal will look something like this:
-
-<img src="images/david_terminal.png" alt="">
-
-<a name="profiledetour"></a>
-**Apple recently changed its default profile to .zsh.**
-We will be using zsh in Mod-0 and beyond. Another <span class="vocab">shell</span> you may hear about is called bash. These shells mostly behave the same. You will learn how to start customizing your zsh shell in the Session 2 homework.
-
-Some follow up reading that is **Not Required**: [Apple Switches from .bash to .zsh - who cares and what does that even mean?](https://scriptingosx.com/2019/06/moving-to-zsh/)
-
-### Commands
-
-In this section on command prompts, we'll learn (or review) the commands below. We'll look at all 10 together (take notes!), then you'll go into breakout rooms to practice them.
-
-Action Commands
-<ul>
-  <li><a href="#mkdir" title="">mkdir</a></li>
-  <li><a href="#cd" title="">cd</a></li>
-  <li><a href="#cddot" title="">cd ..</a></li>
-  <li><a href="#touch" title="">touch</a></li>
-  <li><a href="#cat" title="">cat</a></li>
-</ul>
-
-Safe/Informative Commands
-<ul>
-  <li><a href="#pwd" title="">pwd</a></li>
-  <li><a href="#ls" title="">ls</a></li>
-</ul>
-
-Destructive Commands
-<ul>
-  <li><a href="#rm" title="">rm</a></li>
-  <li><a href="#rmrecursive" title="">rm -rf</a></li>
-</ul>
-
-<a name="pwd"></a>
-### 1. Where am I? (pwd)
-
-When you open the terminal, you will be in your home directory. Being in various directories will allow you to do different things, just like you can do different things at home vs. on vacation vs. at work.
-
-To figure out where you are in your computer's directories, type `pwd` after the command prompt. `pwd` stands for "print working directory"
-
-```
-timo@Tims-MacBook-Pro:~$ pwd
-/Users/timo
-```
-
-You'll see the path from the root of your computer to your current directory.
-
-<a name="mkdir"></a>
-### 2. Make a Directory (mkdir)
-
-To make a folder using the visual interface of Finder, this is what you might do:
-
-
-<img src="images/mkdir.gif" alt="making a folder using finder" style="height: 250px">
-
-We can make new directories with the `mkdir` command. Unlike `pwd` where we didn't need to type anything else, we'll need to add a name for the directory. Keep your directories lowercase with no spaces. If you need to use a space, use the underscore (\_).
-
-For example, the following two commands will create two directories called `work_spreadsheets` and `latest_projects`:
-
-```
-timo@Tims-MacBook-Pro:~$ mkdir work_spreadsheets
-timo@Tims-MacBook-Pro:~$ mkdir latest_projects
-```
-
-You won't get any confirmation that your directory was created -- you'll just see a new command prompt ready for your next comamnd.
-
-<a name="ls"></a>
-### 3. Listing Contents of a Directory (ls)
-
-With a visual interface (as shown in the gif above), you can easily see the contents of a directory. On the command line, it's a little different.
-
-To check what's inside of a directory, we use the `ls` command which stands for list (although I like to think to myself: "list stuff"). As an example, let's assume that I have the directories and files from this diagram on my computer:
-
-<div class="flex-container">
-  <div>
-    <img src="images/files_directories_2.png" alt="files and directories 2">
-  </div>
-  <div>
-    If I was in the essays directory and I typed ls, this is what I'd see:
-
-    <pre>timo@Tims-MacBook-Pro:~/essays$ ls
-    book_projects    life_lessons.docx    notes.docx</pre>
-
-    <p>You will only see the directories and files that are directly inside of where you are. You will not see any directories or files that are nested down the path. This is why we do not see the contents of book_projects listed.</p>
-
-    <p>Now assume we're in the book_projects directory. If I type ls, I'll see this:</p>
-
-    <pre>timo@Tims-MacBook-Pro:~/essays/book_projects$ ls
-    literary_analysis.docx    book_report.docx</pre>
-
-  </div>
-</div>
-
-<a name="cd"></a>
-### 4. Go Into a Directory (cd)
-
-You can move into a directory using the `cd` command, which stands for "change directory". After `cd`, type the name of the directory you want to go into.
-
-<div class="flex-container">
-  <div>
-    <img src="images/files_directories_2.png" alt="files and directories 2">
-  </div>
-  <div>
-    For example, if I was in the <code>essays</code> directory and wanted to move into the <code>book_projects</code> directory to see my documents, I would type this:
-<pre>
-timo@Tims-MacBook-Pro:~/essays$ cd book_projects
-timo@Tims-MacBook-Pro:~/essays/book_projects$
-</pre>
-
-We see that the second command prompt now lists the path of new directory that we're in.
-
-From there, if I used the <code>ls</code> command, I would be able to see the contents of my folder:
-
-<pre>
-timo@Tims-MacBook-Pro:~/essays/book_projects$ ls
-literary_analysis.docx    book_report.docx
-</pre>
-  </div>
-</div>
-
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  <ol>
-    <li>You can't pick any random directory from your computer to give to the cd command. It has to be a directory inside wherever you currently are (or you need to use the full path to get to that directory, which we won't talk about today).</li>
-  </ol>
-</div>
-
-<a name="cddot"></a>
-### 5. Get Out of a Directory (cd ..)
-
-To get out of a directory you're in, we use `cd ..` (with a space between the d and the first dot). This means "go back up one level."
-
-If I'm in the `book_projects` directory and I want to get back to `essays`, this is what I'd type:
-
-```
-timo@Tims-MacBook-Pro:~/essays/book_projects$ cd ..
-timo@Tims-MacBook-Pro:~/essays$
-```
-
-Notice that my path no longer includes `book_projects` because I'm outside of that folder now.
-
-**Note** You never want to cd into a directory above your home directory. This area requires admin permissions, and there is no practical use case for being there.
-
-<div class="try-it">
-  <h3>Try It: cd and cd ..</h3>
-  <p>Let's try to figure out the following scenarios together.</p>
-  <div class="flex-container">
-    <div>
-      <img src="images/files_directories_3.png" alt="files and directories 2">
-    </div>
-    <div>
-      <p>If I'm in the <code>work</code> directory, what do I need to type to get to <code>to_do</code>?</p>
-      <textarea name="" style="width:100%;"></textarea>
-      <p>If I'm in the <code>projects_to_delegate</code> directory, what <strong>two commands</strong> do I need to type to get to <code>to_do</code>?</p>
-      <p><small>(We'll learn how to combine these momentarily)</small></p>
-      <textarea name="" style="width:100%;"></textarea>
-      <p>I'm in the <code>home</code> directory. What <strong>three commands</strong> do I need to type to get to <code>projects_to_delegate</code>?</p>
-      <p><small>(We'll learn how to combine these momentarily)</small></p>
-      <textarea rows="3" name="" style="width:100%;"></textarea>
-      <p>I'm in the <code>projects_to_delegate</code> directory. What <strong>three commands</strong> do I need to type to get to <code>home</code>?</p>
-      <p><small>(We'll learn how to combine these momentarily)</small></p>
-      <textarea rows="3" name="" style="width:100%;"></textarea>
-    </div>
-  </div>
-</div>
-
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  <ul>
-    <li>One can combine commands to navigate multiple levels through your directory structure. </li>
-    <li>For the third example in the previous <strong>Try It</strong> section, one could navigate to the <code>projects_to_delegate</code> directory as long as one knows the path:</li>
-    <code>cd ../work/projects_to_delegate</code>
-    <li>For the fourth and final example above:</li>
-    <code>cd ../../home</code>   
-    <li>Each level in the path is spearated by a <code>/</code></li>
-  </ul>
-</div>
-
-<a name="touch"></a>
-### 6. Make a File (touch)
-
-We know how to make directories (or folders) using the `mkdir` command. In order to make files inside of those directories, we use `touch`. The following two commands show how I would make two new files, `chapter_1.txt` and `chapter_2.txt`:
-
-```
-timo@Tims-MacBook-Pro:~/latest_projects$ touch chapter_1.txt
-timo@Tims-MacBook-Pro:~/latest_projects$ touch chapter_2.txt
-```
-
-We don't see any confirmation that the file was created, but we can use `ls` to see what's inside the directory:
-
-```
-timo@Tims-MacBook-Pro:~/latest_projects $ ls
-chapter_1.txt    chapter_2.txt
-```
-
-<a name="rm"></a>
-### 7. Remove a File (rm)
-
-In the past, you've probably gotten rid of files by using the `Move to trash` command or dragging them into the trash, like this:
-
-<img src="images/filetotrash.gif" alt="file to trash" style="height: 250px;">
-
-We can remove files from the command line using the `rm` command, like this:
-
-```
-timo@Tims-MacBook-Pro:~/latest_projects $ rm chapter_1.txt
-```
-
-Again, we don't get a confirmation, but if I were to `ls` right now, nothing would appear since the directory is now empty.
-
-```
-timo@Tims-MacBook-Pro:~/latest_projects $ ls
-chapter_2.txt
-```
-
-<div class="things-to-note">
-  <h4>Things to Note</h4>
-  <ul>
-    <li>A file removed using the <code>rm</code> command <strong>does not</strong> go into your trash where you could restore it later.</li>
-    <li>Although it may be possible to recover files deleted with <code>rm</code>, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the <code>rm</code> command is gone for good.</li>
-  </ul>
-</div>
-
-<a name="rmrecursive"></a>
-### 9. Remove a Directory and Its Contents (rm -rf)
-
-We can use `rm` to remove a file, but we use a different command when we're removing a directory. Since a directory could potentially contain other files and directories inside of it, we use `rm -rf` which stands for remove recursively, or go inside this directory and remove everything inside of it as well.
-
-In order to remove a directory, you must be OUTSIDE of that directory. For example, if I'm inside a `books` directory and I want to remove it, I first need to get out of it using `cd ..`, then use the `rm -rf books`:
-
-```
-timo@Tims-MacBook-Pro:~/latest_projects/books$ cd ..
-timo@Tims-MacBook-Pro:~/latest_projects$ rm -rf books
-```
-
-Now when I type `ls`, I will no longer see `books` listed.
-
-<div class="try-it">
-  <h3>Try It: Removing files (rm) and directories (rm -rf)</h3>
-  <div class="flex-container">
-    <div>
-      <img src="images/files_directories_3.png" alt="files and directories 2">
-    </div>
-    <div>
-      <p>We'll work through these exercises together.</p>
-      <strong>For this scenario, assume that each question is independent of the rest, and that the starting point is always the diagram to the left.</strong>
-      <p>I'm in <code>to_do</code>. What do I type to remove <code>random.txt</code>?</p>
-      <textarea rows="1" name="" style="width:100%;"></textarea>
-      <p>I'm in <code>to_do</code>. What do I type to remove the <code>home</code> directory?</p>
-      <textarea rows="1" name="" style="width:100%;"></textarea>
-      <p>I'm in the <code>work</code> directory. What <strong>two commands</strong> do I type to remove the <code>home</code> directory?</p>
-      <textarea rows="2" name="" style="width:100%;"></textarea>
-      <p>I'm in the <code>projects_to_delegate</code> directory. What <strong>two commands</strong> do I type to remove the directory I'm currently in?</p>
-      <textarea rows="2" name="" style="width:100%;"></textarea>
-      <p>I'm in <code>projects_to_delegate</code>. What <strong>four commands</strong> do I need to type to remove the <code>cleaning.txt</code> file?</p>
-      <textarea rows="4" name="" style="width:100%;"></textarea>
-    </div>
-  </div>
-</div>
-
-<a name="terminalbreakout"></a>
-### Putting it All Together - groups of 2 or 3 (15 minutes)
-
-<p>At this point, we'll split into breakout rooms. The person whose name first name starts with the letter closest to T will share their screen by clicking the green "Share Screen" button. We will call this person the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
-
-<p>The driver will be the person typing the commands, but the navigators should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss <strong>why</strong> you are doing each step, or <strong>what</strong> exactly is taking place in each step.</p>
-
-<p>If you are already comfortable with commands, your challenge during the breakout is somewhat more difficult: your goal is to focus on your explanations, communication, and ability to gauge whether or not another person understands you.</p>
-
-#### Challenge #1
-
-1. Type `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
-1. Make a new directory called `terminal_practice`
-1. Move into that directory
-1. Print your current directory
-1. Make a file called `favorite_foods.txt`
-1. List the contents of your directory (you should see just your `favorite_foods.txt` file appear)
-1. Use Atom add your #1 favorite food to the file
-1. Delete the `favorite_foods.txt` file
-1. Get back out of the `terminal_practice` directory
-1. Remove the `terminal_practice` directory
-
-#### Challenge #2
-
-For this next challenge, the person whose name is next closest to the letter T will share their screen and become the driver.
-
-1. Type `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
-1. Make a new directory called `my_first_projects`
-1. Make another new directory called `my_other_projects`
-1. List the contents of your directory (you should see these two directories you just made in the list)
-1. Remove the `my_other_projects` directory
-1. Move into the `my_first_projects` directory
-1. Make a file called `ruby.txt`
-1. Make a file called `javascript.txt`
-1. Make a file called `python.txt`
-1. List the contents of your directory (you should see the three files you just created)
-1. Delete the `ruby.txt` file but leave the others
-1. Get back out of the `my_first_projects` directory
-1. List the contents of your directory (you should see `my_first_projects`)
-1. Remove the `my_first_projects` directory
-
-#### Challenge #3
-
-The person who has not yet been the driver will share their screen.
-
-1. Type `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
-1. Make a new directory called `session3_practice`
-1. Move into the `session3_practice` directory
-1. Print the path to your current directory
-1. Make a file called `terminal.txt`
-1. List the contents of your directory (you should see the `terminal.txt` file you just created)
-1. Add the text "The terminal is an interface to give commands to the computer" to the `terminal.txt` file
-1. Get back out of the `session3_practice` directory
-1. Remove the `session3_practice` directory
 
 ## BREAK
 
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 <hr>
+
+# Problem Solving + Pseudocode 
+
+The ability to critically examine a problem and break it down into smaller pieces is an essential skill of a developer that can be improved with practice. Breaking large problems into several smaller problems can help you in every step of the development process:
+
+- *Pseudocode*: Breaking apart coding challenges into steps is often referred to as <span class="vocab">pseudocode</span>. This is done by writing those steps in plain English (or whatever language you speak), and then those steps, can later be converted to code the computer understands.
+
+Pseudocoding can help keep your thoughts in order, especially helpful for when you may need to put a little research into HOW to accomplish all the steps involved. Further, pseudocode is an excellent approach to explaining code to your team because it is programming language-agnostic, allowing non-technical teammates, or teammates who work with different code/technology, to understand your ideas more easily.
+
+## Pseudocode - An Algorithm
+
+Pseudocode often reads like an algorithm. Algorithms often read like recipes:
+
+#### Psuedocode for Making a Cup of Coffee
+```
+- Organize all ingredients together
+- Add water to electric kettle
+- Turn electric kettle to ON
+- Put coffee grounds in french press
+- When water in electric kettle boils, turn to OFF
+- Wait 30 seconds
+- Add water to french press
+- Put plunger over top of french press
+- Wait 80 seconds
+- Press plunger down
+- Pour coffee into cat mug
+```
+
+Here is an example of more technical pseudocode. Ultimately, how you write your own pseudocode depends on your personal preference and your audience (if it will be shared).
+
+#### Pseudocode Practice (2 mins)
+On your own, write some pseudocode for how you would make a **Peanut Butter + Jelly sandwich** - remember, think about how you can break this "problem" up into the smallest parts possible to allow for the clearest instructions!
+
+#### Pseudocode Breakout Demo (5 mins)
+Watch as your TAs model how to engage in a discussion of technical content as they share their pseudocode for creating a sandwich!
+
+
+#### Psuedocode for Technical Challenges
+Take a look at the example of a code challenge you might receive as part of an interview.
+
+**Challenge: Write some code that will determine the number of vowels in a given word/string.**
+
+Below is an example of some pseudocode that could be written for the challenge. What are some things that stand out?
+
+```
+- Declare what letters are vowels - a, e, i, o, u
+- Start vowelCount at 0 to track number of vowels in the word
+- Look at first letter in the word
+- Check if vowel
+  - If letter is included in list of vowels, increase vowelCount by 1
+  - If letter is NOT included in list of vowels, do nothing
+- Move to next letter in word and repeat steps from Check if Vowel
+- When there are no more letters left in word, return the final vowelCount number
+```
+
+#### "Good" Psuedocode
+
+Before we go any futher, understand that it takes a long time to get proficient at writing strong psuedocode. However, here are some indicators of "good" psuedocode:
+- Each "step" could be translated into a line/few lines of code
+- Each "step" can translate into a Google search fairly easily, if necessary
+- The code considers "happy" and "sad" paths
+  - What should the code do if things go well?
+  - What should the code do if things don't go as expected?
+
+#### "When will I even use this?!"
+Hopefully, A LOT! Psuedocoding can be a great process to employ any time you are "stuck" on what your program should be doing! Basically, if you can't explain WHAT you want your code to do in your native language, there is literally 0% chance you'll be able to write code to accomplish that task!
+
+Additionally, psuedocoding comes in handy during technical interviews and code challenges for when you are applying for jobs. Interviewers want to see how you can break complex ideas down into language that everyone can understand - remember, as a developer you will often be working with non-technical colleagues in marketing, sales, etc. and hiring managers want to know that you can communicate with them!
+
+### Practice: Data Normalization
+
+Given the following data:
+
+```
+[ "potter_harry", "weasley_ron", "granger_hermione" ]
+```
+
+Write pseudocode to explain how you would approach transforming the names you receive into what you'd want to display on your website. Please note that the format is currently `lastname_firstname` and the desired result would be `Firstname Lastname`.
+
+#### 3 minutes - on your own
+- How can you break this problem down into smaller chunks or sub-problems?
+- What steps are needed to get from the initial data (input) to the desired end result (output)?
+#### 5 minutes - in groups 
+- In groups, take turns sharing your psuedocode
+- As a group, come up with a Team Pseudocdoe that can borrow parts from all the different group members!
+#### 5 minutes - Share Outs + Walkthrough
+
+Everyone should read [this article](https://medium.com/@dannysmith/breaking-down-problems-its-hard-when-you-re-learning-to-code-f10269f4ccd5) at some point after class - note that it's written in Ruby, but again, **focus on the process**
+
+## BREAK
+
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
+<hr>
+
 <a name="git"></a>
 ## Git
 
@@ -543,7 +308,7 @@ Watch and take notes during the demonstration of the git workflow. After the dem
 
 ### Getting Set Up
 
-We'll start with a directory called `notes` with a file inside called `things_to_remember.txt`.
+We'll start with a directory called `notes` with a file inside called `things_to_remember.md`.
 
 <a name="init"></a>
 ### 1. Start Tracking a Directory With Git (<span class="vocab">git init</span>)
@@ -596,7 +361,7 @@ No commits yet
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-  things_to_remember.txt
+  things_to_remember.md
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
@@ -624,7 +389,7 @@ Let's add one of the files that we want to track to the <span class="vocab">stag
 We will add our file to the staging area.
 
 ```
-timo@Tims-MacBook-Pro:~/notes$ git add things_to_remember.txt
+timo@Tims-MacBook-Pro:~/notes$ git add things_to_remember.md
 timo@Tims-MacBook-Pro:~/notes$ git status
 On branch main
 
@@ -633,11 +398,11 @@ No commits yet
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
 
-  new file:   things_to_remember.txt
+  new file:   things_to_remember.md
 
 ```
 
-Notice the "changes to be committed" section: It tells us that we have a new file, `things_to_remember.txt`, that is ready to be committed. We can say that the `things_to_remember.txt` file is in the <span class="vocab">git staging area</span>. That means no changes are tracked yet, but we're ready to take a snapshot of it (we'll do this next).
+Notice the "changes to be committed" section: It tells us that we have a new file, `things_to_remember.md`, that is ready to be committed. We can say that the `things_to_remember.md` file is in the <span class="vocab">git staging area</span>. That means no changes are tracked yet, but we're ready to take a snapshot of it (we'll do this next).
 
 This may seem silly right now, given that we only have one file -- why not just commit the file? Why do we have to add it first? Let's take a [small detour](https://gist.github.com/rwarbelow/e1340ca3eeb616851a1a48221f48b67b).
 
@@ -651,7 +416,7 @@ Now that our file is in the staging area, let's tell git that we're ready to com
 timo@Tims-MacBook-Pro:~/notes$ git commit -m 'Initial commit'
 [main (root-commit) b7654a6] Initial commit
  1 file changed, 1 insertion(+)
- create mode 100644 things_to_remember.txt
+ create mode 100644 things_to_remember.md
 ```
 
 Now if I look at my git status, this is what I see:
@@ -675,11 +440,11 @@ We'll open up Atom to make these changes - Do you have auto-save enabled?
 Your working directory now has changes that differ from what our file looked like the last time we committed (or took a snapshot).
 
 ```
-timo@Tims-MacBook-Pro:~/notes$ git diff things_to_remember.txt
-diff --git a/things_to_remember.txt b/things_to_remember.txt
+timo@Tims-MacBook-Pro:~/notes$ git diff things_to_remember.md
+diff --git a/things_to_remember.md b/things_to_remember.md
 index e69de29..9ffd068 100644
---- a/things_to_remember.txt
-+++ b/things_to_remember.txt
+--- a/things_to_remember.md
++++ b/things_to_remember.md
 @@ -0,0 +1,2 @@
 +Be kind
 +Work hard
@@ -707,13 +472,13 @@ The basic git workflow is this:
   <p>If you are already comfortable with git, your challenge during the breakout is somewhat more difficult: your goal is to focus on your explanations, communication, and ability to gauge whether or not another person understands you.</p>
   <ol>
     <li>Get back to your home directory</li>
-    <li>Create a new directory called <code>to_do</code>. Inside of that directory, create a file called <code>tasks.txt</code>.</li>
+    <li>Create a new directory called <code>to_do</code>. Inside of that directory, create a file called <code>tasks.md</code>.</li>
     <li>Initialize git inside of the <code>to_do</code> directory so that we have git available to track changes.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
-    <li>Add <code>tasks.txt</code> to the staging area.</li>
+    <li>Add <code>tasks.md</code> to the staging area.</li>
     <li>Make your first commit in this directory.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
-    <li>Use Atom to add three separate tasks to <code>tasks.txt</code>.</li>
+    <li>Use Atom to add three separate tasks to <code>tasks.md</code>.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Before you check the difference between your last commit and what the file looks like now, predict what it will say. Then, check the diff.</li>
     <li>Add the changes to the staging area.</li>
