@@ -14,13 +14,12 @@ By the end of this session, you will be able to:
 
 ### Agenda
   - **6:15** Intro + Housekeeping
-  - **6:30** Mythbusting @ Turing
-  - **6:30** Notetaking x Technical Content
+  - **6:30** Success @ Turing
   - **7:00** Break
   - **7:05** Googling
-  - **7:30** Classes
+  - **7:30** Files, Directories + Paths
   - **7:45** Break
-  - **7:50** Data Types + Variables
+  - **7:50** Terminal + Command Line
   - **8:25** Homework Preview
 
 ### Materials
@@ -74,7 +73,7 @@ Other things to note as we go through Mod 0:
 - <strong>You can raise your hand using zoom</strong>: go ahead and try it now!
 - <strong>Problems or individual questions during the Zoom session?</strong> Send a message in the chat!
 
-<a name="mythbusting"></a>
+<!-- <a name="mythbusting"></a>
 
 ## Mythbusting @ Turing
 #### Myth 1 - The "Lone Wolf" Approach
@@ -86,8 +85,25 @@ Turing and software development is inherently collaborative. Our project-based l
 Reality check - both frontend development and backend development are "hard". That is why salaries are high for positions in this field! At Turing, you will get exposure to the "full stack" - in fact, your final module will be a combined cohort of frontend and backend students! 
 
 #### Myth 3 - People "fail" Turing due to the technical content
-Believe it or not, 99% of failing projects at Turing have little to do with technical deficits. Instead, poor communication and issues with collaboration are the main cause of failitheng projects. Remember, your Turing experience is designed to prepare you for the actual job - collaborating and communicating under tight deadlines is what makes the job difficult! 
+Believe it or not, 99% of failing projects at Turing have little to do with technical deficits. Instead, poor communication and issues with collaboration are the main cause of failitheng projects. Remember, your Turing experience is designed to prepare you for the actual job - collaborating and communicating under tight deadlines is what makes the job difficult!  -->
 
+## Setup for Success: Notetaking x Technical Content
+Many of you are diving back into an academic setting for the first time in awhile. To be clear, the Turing experience is likely MUCH different than your previous academic experiecnes! We will use Mod 0 to start preparing you to kick ass at Turing and start your transformation into a developer off on the right foot.
+
+One area we notice students struggle with is how and when to take notes. Before we go into specifics, take a look at [these notes](https://gist.github.com/ericweissman/a729a849ed6355ed8ee0c9156a8e9c98) created by some of our most successful students.
+
+- What things stand out as your look at these examples?
+- How do these examples compare to your current notes?
+
+<a name="notetaking"></a>
+
+#### Tips for Strong Notetaking @ Turing
+- **Setup is a key to success:** Having an organization strategy can make it easier to use your notes as a tool. We recommend creating a `Table of Contents ` to make it easier to reference your notes. Also, taking notes on key vocabulary BEFORE a lesson has been useful for some students!
+- **Use different colors:** This can help with modeling syntax highlighting, making notes easier to read, draw attention to different content
+- **Leave plenty of whitespace:** Allows you to add more context, write questions, make connections
+- **Draw or diagram often:** Many concepts can be difficult to understand with just words, use drawings/diagrams to help synthesize and frame information
+- **Pen + Paper > Digital:** Don't rely on taking notes on your computer. Studies have proven that you will retain more information by physically writing your notes. Plus, it will make diagramming and drawing easier! 
+ 
 ## Time Management at Turing
 As you may have heard, the time commitment at Turing is no joke. In case you HAVEN'T heard, let's just get it out in the open: many students work harder at Turing than they have ever worked before. Remember, this is an accelerated program - you are going to learn the technical and professional skills needed to succeed in demanding, yet high-paying technical careers in only 7ish months!
 
@@ -243,6 +259,10 @@ In the diagram below, we would say that there's a directory called `essays` that
     </li>
   </ol>
 </div>
+
+## BREAK 
+
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 
 <hr>
 <a name="terminalcommandline"></a>
@@ -540,7 +560,7 @@ Now when I type `ls`, I will no longer see `books` listed.
   </div>
 </div>
 <a name="terminalbreakout"></a>
-### Putting it All Together - groups of 2 or 3 (15 minutes)
+### Putting it All Together - groups of 2 or 3 (10 minutes)
 
 <p>At this point, we'll split into breakout rooms. The person whose name first name starts with the letter closest to T will share their screen by clicking the green "Share Screen" button. We will call this person the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
 
@@ -548,7 +568,7 @@ Now when I type `ls`, I will no longer see `books` listed.
 
 <p>If you are already comfortable with commands, your challenge during the breakout is somewhat more difficult: your goal is to focus on your explanations, communication, and ability to gauge whether or not another person understands you.</p>
 
-#### Challenge #1
+#### Demo: Driver-Navigator Format
 
 1. Type `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
 1. Make a new directory called `terminal_practice`
@@ -561,7 +581,7 @@ Now when I type `ls`, I will no longer see `books` listed.
 1. Get back out of the `terminal_practice` directory
 1. Remove the `terminal_practice` directory
 
-#### Challenge #2
+#### Challenge #1
 
 For this next challenge, the person whose name is next closest to the letter T will share their screen and become the driver.
 
@@ -580,7 +600,7 @@ For this next challenge, the person whose name is next closest to the letter T w
 1. List the contents of your directory (you should see `my_first_projects`)
 1. Remove the `my_first_projects` directory
 
-#### Challenge #3
+#### Challenge #2
 
 The person who has not yet been the driver will share their screen.
 
@@ -606,7 +626,9 @@ Key takeaways from today:
 
 Find the homework in your Mod 0 Trello Board. Contact your instructors if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
 
-Also, if you haven't already, I would encourage you to start your mod 1 pre-work, as it'll help you work on your program specific skills and it is due in a few weeks
+Also, please note that the Mod 1 Prework takes about 40 hours total to complete. Part of your HW this week is to create a calendar for Mod 0 where you can plan how to spend your time on classes, HW, and the Mod 1 Prework! 
+
+**If you find yourself falling behind, it is your responsibility to reach out to your TAs early!**
 
 <a name="shortcuts"></a>
 ## Keyboard Shortcuts
