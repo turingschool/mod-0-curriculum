@@ -91,7 +91,7 @@ Write pseudocode to explain how you would approach finding the number of sheep i
 - How can you break this problem down into smaller chunks or sub-problems?
 - What steps are needed to get from the initial data (input) to the desired end result (output)?
 - Are there any "edge" cases you need to check?
-#### 5 minutes - in groups (finished? start converting to code)
+#### 5 minutes - in groups 
 - In groups, take turns sharing your psuedocode
 - As a group, come up with a Team Solution that can borrow parts from all the different group members!
 #### 10 minutes - Share Outs + Walkthrough
@@ -114,7 +114,7 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
 
 <div class="try-it">
   <h3>Try It: Git Review</h3>
-  <p>As you and your group walk through the git review below, it might be a good idea to have <a href="/session2/#git" title="">Session 2's Git Notes</a> open.</p>
+  <p>As you and your group walk through the git review below, it might be a good idea to have Session 2's Git notes open.</p>
   <ol>
     <li>Before we do this, make sure the driver is in the home directory by typing <code>cd</code></li>
     <li>Create a new directory called <code>session_3_git_practice</code>. Inside of that directory, create three files called <code>coding_languages.md</code>,<code>programming_terms.md</code>, and<code>git_terms.md</code>.</li>
@@ -255,7 +255,7 @@ git push origin main
 <div class="try-it">
   <h3>Try It: Forking</h3> groups of 3 or 4 (8 minutes)
   <ol>
-    <li>Fork the <a href="https://github.com/rwarbelow/best_animals" title="Best Animals">Best Animals</a> repository.</li>
+    <li>Fork the <a href="https://github.com/turingschool/best_animals" title="Best Animals">Best Animals</a> repository.</li>
     <li>Clone <strong>your</strong> fork using your terminal.</li>
     <li>Open up the project in your text editor (atom).</li>
     <li>Add a few animals to the mammals.md file.</li>
@@ -290,6 +290,6 @@ Typically, you do not want to merge your own pull request - this would prevent a
 - This is the one of the first tools you will learn to use that will help you prevent "shipping" (approving) unstable code in your production environemnt (the "public" version of your app)
 
 <a name="homework"></a>
-## Homework and GitHub Projects
+## Homework
 
 Business as usual. Reach out on slack if you're stuck!

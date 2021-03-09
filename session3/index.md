@@ -3,43 +3,28 @@ layout: page
 title: Session 3
 subheading: More Git and Intro to GitHub
 ---
+### Goals
+**By the end of this session, you will be able to:**    
 
-<div class="goals-agenda">
-  <div>
-    <h3>Goals</h3>
-    <strong>By the end of this session, you will be able to:</strong>
-    <ul>
-      <li>navigate important parts of a GitHub repository</li>
-      <li>design methods that use/modify attributes</li>
-      <li>create your own repository on GitHub</li>
-      <li>push local changes to a remote</li>
-      <li>fork and clone an existing repository</li>
-    </ul>
-  </div>
-  <div>
-    <h3>Agenda</h3>
-    <ul>
-      <li><strong>6:15 </strong>Housekeeping and Goals</li>
-      <li><strong>6:25 </strong><a href="#classes">Classes and Methods</a></li>
-      <li><strong>6:35 </strong><a href="#gitreview">Git Review</a></li>
-      <li><strong>6:50 </strong><a href="#github">GitHub and Repositories</a></li>
-      <li><strong>7:35 </strong>Break</li>
-      <li><strong>7:40 </strong>GitHub in action</li>
-      <li><strong>8:15 </strong><a href="#forkclone">Forking and Cloning</a></li>
-      <li><strong>8:25 </strong><a href="#homework">Homework Preview</a></li>
-    </ul>
-  </div>
-  <div>
-    <h3>Materials</h3>
-    <ul>
-      <li>Notebook</li>
-      <li>Writing instrument</li>
-      <li>Laptop - with git config and SSH key connected to GitHub as detailed in the <a href ="{{ site.baseurl }}/setup-instructions">Computer Setup</a></li>
-      <li>Headphones & mic</li>
-      <li>Zoom permission to share screen for breakout sessions</li>
-    </ul>
-  </div>
-</div>
+- navigate important parts of a GitHub repository
+- design methods that use/modify attributes
+- create your own repository on GitHub
+- push local changes to a remote
+- fork and clone an existing repository
+
+### Agenda
+**6:15** - Housekeeping, Feedback + Goals
+**6:25** - Psuedocoding Practice
+**6:55** - Break
+**7:00** - GitHub 
+**8:25** - Wrap Up
+
+### Materials
+- Notebook
+- Writing instrument
+- Laptop
+- Headphones & mic
+- Zoom permission to share screen for breakout sessions
 
 ## Housekeeping, Wins/Follow-Ups, and Goals
 
@@ -51,18 +36,12 @@ subheading: More Git and Intro to GitHub
 
 ### Follow-Ups
 
-- We're in the process of leaving feedback on everyone's session 1, be sure to check your gists!
+- We're in the process of leaving feedback on everyone's homework, be sure to check your gists!
   - Suggestions and feedback are there for your benefit
-- Make sure that you're checking slack at least once a day
-- Session 3 HW due next Tuesday
+- Make sure that you're checking Slack at least once a day
 - Be sure to stay at your home (root) directory or below
 
-### Today's Goals
-
-(See above)
-
 ### Warm Up
-
 
 <a name="ssh-check"></a>
 
@@ -77,94 +56,6 @@ Hi <your_username>! You've successfully authenticated, but GitHub does not provi
 
 In the Slack thread, reply with your output after running the `$ ssh -T git@github.com` command!
 
-<a name="shortcuts"></a>
-<h3>Shortcuts</h3>
-<p>Last week, we briefly talked about keyboard shortcuts in the Mac environment and in Chrome. You should also learn and practice these terminal and atom shortcuts.</p>
-
-<div class="try-it">
-  <h3>Try it: Practicing Shortcuts</h3>
-  <div class="flex-container tips">
-    <div>
-      <h3>Terminal</h3>
-      <p>Use these shortcuts to quickly move around within your terminal.</p>
-      <li>
-        <strong>Cycle through past commands</strong>
-        <pre>up arrow</pre>
-      </li>
-      <li>
-        <strong>See all commands previously typed</strong>
-        <pre>type "history" in the command prompt</pre>
-      </li>
-      <li>
-        <strong>Clear Command Line</strong>
-        <pre>control + u</pre>
-      </li>
-      <li>
-        <strong>Clear Terminal Window</strong>
-        <pre>command + k</pre>
-      </li>
-      <li>
-        <strong>Open New Tab</strong>
-        <pre>command + t</pre>
-      </li>
-      <li>
-        <strong>Cycle Through Terminal Tabs</strong>
-        <pre>control + tab</pre>
-      </li>
-      <li>
-        <strong>Goto Beginning of Line</strong>
-        <pre>control + a</pre>
-      </li>
-      <li>
-        <strong>Goto End of Line</strong>
-        <pre>control + e</pre>
-      </li>
-      <li>
-        <strong>Fast Moving Cursor Through Command Line Text</strong>
-        <pre>Right: option + right-arrow</pre>
-        <pre>Left: option + left-arrow</pre>
-      </li>
-      <li>
-        <strong>Stop Any Terminal Process</strong>
-        <p>Stuck? Not sure what's going on with your Terminal? This is the command to use.</p>
-        <pre>control + c</pre>
-      </li>
-    </div>
-    <div>
-      <h3>Atom</h3>
-      <p>Use these shortcuts to quickly move around within your text editor.</p>
-      <li>
-        <strong>File Finder</strong>
-        <pre>command + t or command + p</pre>
-      </li>
-      <li>
-        <strong>Toggle File Tree</strong>
-        <pre>command + \</pre>
-      </li>
-      <li>
-        <strong>Highlight Current Line(s)</strong>
-        <pre>command + l</pre>
-      </li>
-      <li>
-        <strong>Highlight Current Word</strong>
-        <pre>command + d</pre>
-      </li>      
-      <li>
-        <strong>Find in page</strong>
-        <pre>command + f</pre>
-      </li>
-      <li>
-        <strong>Find and replace in project (use with caution)</strong>
-        <pre>command + shift + f</pre>
-      </li>
-      <li>
-        <strong>Split panes</strong>
-        <pre>command + k ..unpress keys.. + arrow key(choose direction)</pre>
-      </li>
-    </div>
-  </div>
-</div>
-
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker</h3> groups of 2 or 3 (5 minutes)
   <p>Person with the lightest color shirt speaks first.</p>
@@ -174,65 +65,36 @@ In the Slack thread, reply with your output after running the `$ ssh -T git@gith
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
 
-<a name="classes"></a>
-## Class and Method Review
+### Psuedocode Practice: Counting Sheep
 
-<div class="try-it">
-  <h3>Try It: Methods</h3>
-  <p>In your notebook, write down a sentence about a class using this structure:</p>
-  <p>Each _______ (class) can ___________, __________, and ___________.</p>
-  <p>Example: Each BankAccount (class) can deposit_money, can withdraw_money, can open, can close, and can change_ownership (methods).</p>
-</div>
+Look at this collection of data...
 
-### Method and Attribute Interaction
+`[false, false, true, false, false, true, true, false, false, false]`
 
-Like we talked about during session 2, a <span class="vocab">method</span> of a class defines a **behavior** or **action**. Methods are generally verbs (action words or very short action phrases). Methods generally answer the questions "What things can instances of this specific class do?" or "What can be done to instances of this specific class?"
+Each `true` represents a piglet.
 
-Most of the time, a method will either **use** or **change** an attribute of an object. For example, look at the attributes of the class `Bank Account` below:
+Each `false` represents a sheep.
+
+Write a function that can count the number of sheep in the collection.
+
+See example below (remember, it is OK if you don't understand exactly what is happening in the code!)
 
 ```
-Class: Bank Account
-
-Attributes (____ has a/an _____):
-owner_name
-balance
-overdraft_fee
+[false, false, false] >>> returns "Oink! Oink! Only little piglets here!"
+[true, false, false] >>> returns "There is 1 sheep in the barn."
+[true, true, false] >>> returns "There are 2 sheep in the barn."
 ```
 
-Here are some Bank Account methods and the attributes that would be used/changed. Notice that these are all verbs or action phrases.
+Write pseudocode to explain how you would approach finding the number of sheep in the barn - remember, the smaller you can break up the "steps" the better!
 
-```
-Methods:
-change_owner (modifies the owner_name attribute)
-deposit (modifies the balance attribute)
-withdraw (modifies the balance attribute AND uses the over_draft fee if the balance drops below $0)
-display_account_info (uses the owner_name and balance attributes)
-```
-
-### Example #2
-<a name="car"></a>
-
-Look at the Car class and its attributes below:
-
-```
-Class: Car
-
-Attributes (____ has a/an _____):
-amount_of_gas (integer)
-paint_color (string)
-number_of_carseats (integer)
-engine_on (boolean)
-passengers (array)
-last_oil_change (datetime)
-```
-
-<div class="try-it">
-  <h3>Try It: Methods with Attributes</h3>
-  <p>Post two sentences in the chat about the Car class using this structure:</p>
-  <p>The ____________ method [modifies/uses] the _____________ attribute.</p>
-  <p>Example: The start_engine method modifies the engine_on attribute.</p>
-  <b>Make sure that your method names are verbs or action phrases.</b>
-</div>
+#### 3 minutes - on your own
+- How can you break this problem down into smaller chunks or sub-problems?
+- What steps are needed to get from the initial data (input) to the desired end result (output)?
+- Are there any "edge" cases you need to check?
+#### 5 minutes - in groups 
+- In groups, take turns sharing your psuedocode
+- As a group, come up with a Team Solution that can borrow parts from all the different group members!
+#### 10 minutes - Share Outs + Walkthrough
 
 <a name="gitreview"></a>
 ## Git Review - groups of 2 or 3 (10 minutes)
@@ -252,7 +114,7 @@ The <span class="vocab">driver</span> will be the person typing the commands, bu
 
 <div class="try-it">
   <h3>Try It: Git Review</h3>
-  <p>As you and your group walk through the git review below, it might be a good idea to have <a href="/session2/#git" title="">Session 2's Git Notes</a> open.</p>
+  <p>As you and your group walk through the git review below, it might be a good idea to have Session 2's Git notes open.</p>
   <ol>
     <li>Before we do this, make sure the driver is in the home directory by typing <code>cd</code></li>
     <li>Create a new directory called <code>session_3_git_practice</code>. Inside of that directory, create three files called <code>coding_languages.md</code>,<code>programming_terms.md</code>, and<code>git_terms.md</code>.</li>
@@ -305,28 +167,7 @@ This diagram shows how GitHub can be used as a collaboration tool:
 
 Let's take a look at an example of a repo on GitHub: <a href="https://github.com/freeCodeCamp/freeCodeCamp" title="">FreeCodeCamp</a>
 
-<!-- <div class="try-it">
-  <h3>Try It: Exploring GitHub Repositories</h3> groups of 3 or 4 (8 minutes)
-  <p>In your breakout group, choose one of the repositories listed at the bottom of this "Try It" section. Take a few minutes to explore the following questions and be ready to report back to your group:</p>
-  <ol>
-    <li>What is this project about?</li>
-    <li>How many commits have been made in the repository?</li>
-    <li>Approximately how often are changes made to this repository? How do you know?</li>
-    <li>Who is the top contributor?</li>
-    <li>How many people have contributed to the repository?</li>
-    <li>Done before time is up? Pick a second repository to explore.</li>
-  </ol>
-  <p>Options:</p>
-  <ul>  
-    <li><a href="https://github.com/jwasham/coding-interview-university" title="">Coding Interview University</a></li>
-    <li><a href="https://github.com/kamranahmedse/developer-roadmap" title="">Developer Roadmap</a></li>
-    <li><a href="https://github.com/EbookFoundation/free-programming-books" title="">Free Programming Books</a></li>
-    <li><a href="https://github.com/toddmotto/public-apis" title="">Public APIs</a></li>
-    <li><a href="https://github.com/samaaron/sonic-pi" title="">Sonic Pi</a></li>
-  </ul>
-</div>
 
-<hr> -->
 ## BREAK
 
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
@@ -414,7 +255,7 @@ git push origin main
 <div class="try-it">
   <h3>Try It: Forking</h3> groups of 3 or 4 (8 minutes)
   <ol>
-    <li>Fork the <a href="https://github.com/rwarbelow/best_animals" title="Best Animals">Best Animals</a> repository.</li>
+    <li>Fork the <a href="https://github.com/turingschool/best_animals" title="Best Animals">Best Animals</a> repository.</li>
     <li>Clone <strong>your</strong> fork using your terminal.</li>
     <li>Open up the project in your text editor (atom).</li>
     <li>Add a few animals to the mammals.md file.</li>
@@ -424,7 +265,31 @@ git push origin main
   </ol>
 </div>
 
+
+## Remote Collaboration Using GitHub: A Primer
+The workflows we outlined above are common patterns you will follow when working on projects for yourself. However, the real "magic" of using GitHub is it allows you to work collaboratively with teammates on the same repository/project.
+
+### Branching
+When working on collaborative projects, it is best for each group member to be working on their own `branch`. Think of a branch as a part of the overall project (tree), but a branch can go in it's own direction. Developers will often use a separate branch to work on a particular piece of functionality, usually referred to as a `feature`. This allows multiple developers to be working on separate pieces of an application simultaneously!
+
+### Pull Requests + Code Reviews
+When a developer has finished their feature, they will push their feature branch up to GitHub for their teammates to review. This process is known as making a `pull request` - essentially asking the other developers on the team to "pull down" the new code from GitHub, test it's functionality, and leave any feedback or requests for changes. Typically, teammates should review:
+- Does the code meet the quality standards as outlined by the team/organization?
+- Does the code "play nice" with the other features of the application? Or does it cause bugs?
+- Are there places that can be refactored or the code improved to make it easier for other developers to build on top of it?
+
+Pull requests are essentially requests to merge the new changes from the feature branch to the project's `main` branch. Once everyone from the team has had a chance to review the code, request adjustments, and fix any merge conflicts (issues that the new code causes with older code) - they can either approve or reject the request.
+- Approving the request will allow the new feature to be merged into the `main` branch of the project
+- Rejecting the request will prevent the new feature from being merged into the `main` branch of the project
+
+Typically, you do not want to merge your own pull request - this would prevent anyone else from reviewing it and giving valuable feedback!
+
+### Why Does This Matter?
+- The pull request process allows for all team members to view, test, and provide feedback on anyone's code
+- Hiring managers will often look at your code review comments and pull requests on your projects to gauge your ability to collaborate in a remote environment
+- This is the one of the first tools you will learn to use that will help you prevent "shipping" (approving) unstable code in your production environemnt (the "public" version of your app)
+
 <a name="homework"></a>
-## Homework and GitHub Projects
+## Homework
 
 Business as usual. Reach out on slack if you're stuck!
