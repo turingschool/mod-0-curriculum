@@ -6,9 +6,9 @@ subheading: Data Types, Variables + Modeling Real World Things
 ### Goals
 **By the end of this session, you will be able to:**    
 
-- identify and describe basic data types
-- learn how to assign and re-assign variables in Javascript or Ruby
-- begin to model data using variables
+- learn syntax for objects in JS or hashes in Ruby
+- pseudocode a technical word problem
+- laern how to annotate code using code comments
 
 
 ### Agenda

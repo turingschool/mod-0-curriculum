@@ -5,10 +5,10 @@ subheading: Terminal, File/folder Structure, Git Basics
 ---
 
 ### Goals
-  - notate file paths from diagrams
-  - navigate through directories from the command line
-  - make and remove files and directories from the command line
-  - define and identify methods for a class
+  - define and understand iteration at a high level
+  - define psuedocoding and problem solving strategies
+  - understand and practice Driver - Navigator pairing approach
+  - write pseudocode and break problem into smaller steps
   - explain the purpose of git
   - initialize, add, and commit changes in a local repository 
 

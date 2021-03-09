@@ -6,11 +6,12 @@ subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
 
 ### Goals
 By the end of this session, you will be able to:
-  - understand the full stack of web development at a high level
-  - use keyboard shortcuts to navigate your computer and Chrome
-  - brainstorm classes for specific objects
+  - identify note taking strategies for technical content
+  - plan and build a calendar that leads to successful outcomes
   - refine searching and filtering skills to Google programming questions
-  - define and identify use cases for basic data types
+  - notate file paths from diagrams
+  - navigate through directories from the command line
+  - make and remove files and directories from the command line
 
 ### Agenda
   - **6:15** Intro + Housekeeping

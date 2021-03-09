@@ -5,9 +5,7 @@ subheading: More Git and Intro to GitHub
 ---
 ### Goals
 **By the end of this session, you will be able to:**    
-
-- navigate important parts of a GitHub repository
-- design methods that use/modify attributes
+- practice pseudocoding approach and implementation
 - create your own repository on GitHub
 - push local changes to a remote
 - fork and clone an existing repository
