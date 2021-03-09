@@ -153,8 +153,8 @@ Let's try to use all of the different data types that we've learned so far to mo
 ```rb
 #variables that use strings
 name = 'Mt. Muffinman';
-nearestTown = 'Alma, CO';
-difficultyLevel = 'Advanced';
+nearest_town = 'Alma, CO';
+difficulty_level = 'Advanced';
 
 #variables that use numbers
 elevation = 10578;
