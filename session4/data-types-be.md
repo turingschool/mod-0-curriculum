@@ -22,7 +22,6 @@ In Ruby, assigning/declaring a variable follows a very clear pattern.
 - Float
 - Boolean
 - Array
-- Hash (EXTENSION)
 
 Before we get into specific syntax examples, we need to get a better understanding of the data types we will encounter in Ruby.
 

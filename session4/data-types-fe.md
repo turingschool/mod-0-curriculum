@@ -25,7 +25,6 @@ In JavaScript, assigning/declaring a variable follows a very clear pattern.
 - Integer
 - Boolean
 - Array
-- Object (EXTENSION)
 
 Before we get into specific syntax examples, we need to get a better understanding of the data types we will encounter in Javascript.
 
