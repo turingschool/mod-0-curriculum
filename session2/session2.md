@@ -242,13 +242,7 @@ Additionally, psuedocoding comes in handy during technical interviews and code c
 
 ### Practice: Data Normalization
 
-Given the following data:
-
-```
-[ "potter_harry", "weasley_ron", "granger_hermione" ]
-```
-
-Write pseudocode to explain how you would approach transforming the names you receive into what you'd want to display on your website. Please note that the format is currently `lastname_firstname` and the desired result would be `Firstname Lastname`.
+Write some pseudocode for how to change a flat tire on an automobile! 
 
 #### 3 minutes - on your own
 - How can you break this problem down into smaller chunks or sub-problems?
