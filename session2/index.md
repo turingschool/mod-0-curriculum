@@ -240,15 +240,9 @@ Hopefully, A LOT! Psuedocoding can be a great process to employ any time you are
 
 Additionally, psuedocoding comes in handy during technical interviews and code challenges for when you are applying for jobs. Interviewers want to see how you can break complex ideas down into language that everyone can understand - remember, as a developer you will often be working with non-technical colleagues in marketing, sales, etc. and hiring managers want to know that you can communicate with them!
 
-### Practice: Data Normalization
+### Practice: Problem Solving
 
-Given the following data:
-
-```
-[ "potter_harry", "weasley_ron", "granger_hermione" ]
-```
-
-Write pseudocode to explain how you would approach transforming the names you receive into what you'd want to display on your website. Please note that the format is currently `lastname_firstname` and the desired result would be `Firstname Lastname`.
+Write your process for changing a flat tire on an automobile!
 
 #### 3 minutes - on your own
 - How can you break this problem down into smaller chunks or sub-problems?
