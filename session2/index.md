@@ -199,8 +199,6 @@ Pseudocode often reads like an algorithm. Algorithms often read like recipes:
 - Pour coffee into cat mug
 ```
 
-Here is an example of more technical pseudocode. Ultimately, how you write your own pseudocode depends on your personal preference and your audience (if it will be shared).
-
 #### Pseudocode Practice (2 mins)
 On your own, write some pseudocode for how you would make a **Peanut Butter + Jelly sandwich** - remember, think about how you can break this "problem" up into the smallest parts possible to allow for the clearest instructions!
 
