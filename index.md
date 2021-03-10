@@ -16,20 +16,21 @@ The goals of mod 0 are to:
 
 The key tools and concepts we go over in mod 0 are:
 * Learning strategies
-* Data types
+* Data types + variable assignment
+* Problem solving strategies
 * Troubleshooting and googling
 * Git and GitHub
-* Object Oriented Programming (OOP)
+* Intro to Object Oriented Programming (OOP)
 
-## NEXT STEPS
-* Complete the [computer setup instructions]({{ site.baseurl }}{% link setup-instructions.md %}) and start installing!
-* Complete the [Mod 0 Prep](https://trello.com/b/2SkOztic/mod-0) before your first session starts - this should take around **2 hours**! 
-  - Just complete the first column (`START HERE - Mod 0 Prep`) before your first Mod 0 session
+## Ready to Get Started?!
+
+Complete the [Mod 0 Prep](https://mod0.turing.io/before-mod-0) before your first session starts - this should take around **3 hours**! 
+
 
 ## Passing Mod 0 
 In order to pass mod 0 and be mod 1 ready, you will need to:
 1. Attend all 5 sessions and complete the required homework
   * homeworks are due by the next session. ie. session 1 hw is due by session 2
-2. Pass the mod 0 assessment (Info can be found in session 4)
-3. Pass the mod 1 pre-work (See side bar link)
+2. Pass the Mod 0 Assessment (Info can be found in session 4 and 5)
+3. Pass the Mod 1 Prework (See side bar link)
   * All of the due dates above are on the [calendar]({{ site.baseurl }}/calendar)
