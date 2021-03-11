@@ -1,10 +1,3 @@
----
-layout:     page
-title:      Remote Workspace
-subheading: Getting Your Workspace Configured for Success
-permalink:  remote-workspace
----
-
 # Configure Your Remote Workspace for Success
 For many of you, this will likely be your first time learning and/or working in a remote setting. There are a few key tools we recommend to set yourself up for success during and after the program! 
 
@@ -79,5 +72,5 @@ You'll be staring at your computer screens a lot over the course of your journey
 
 ### Other really `NICE TO HAVE's`...
 - Pets
-- Windows
+- Healthy snacks
 - Access to fresh air
