@@ -14,11 +14,9 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ### Agenda
 **6:15** - Housekeeping, Feedback + Goals
-**6:25** - Iteration in Programming
-**6:55** - Break
-**7:00** - Problem Solving + Pseudocode
-**7:35** - Break
-**7:40** - Git Basics
+**6:20** - Git Basics
+**7:25** - Iteration in Programming
+**7:45** - Problem Solving + Pseudocode
 **8:25** - Wrap Up
 
 ### Materials
@@ -51,211 +49,6 @@ subheading: Terminal, File/folder Structure, Git Basics
   <p>2. What superpower is the most OVERRATED?</p>
   <p>3. What was your biggest takeaway from Session 1?</p>
 </div>
-
-<a name="iteration"></a>
-## Iteration
-
-Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we'll walk through step by step to demonstrate the concept.
-
-### Iteration in Real Life
-
-These are examples that would be programmatically challenging because they would require a ton of steps, but are things that we do everyday.
-
-<table>
-  <thead>
-    <tr>
-      <th>Scenario</th>
-      <th>Collection</th>
-      <th>For each...</th>
-      <th>Do this:</th>
-      <th>Then:</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Grading papers</td>
-      <td>papers</td>
-      <td>paper</td>
-      <td>
-        <ol>
-          <li>read through it</li>
-          <li>mark the score on the top</li>
-        </ol>
-      </td>
-      <td>repeat with next paper</td>
-    </tr>
-    <tr>
-      <td>Feeding animals</td>
-      <td>animals</td>
-      <td>animal</td>
-      <td>
-        <ol>
-          <li>bring the animal to the food bucket</li>
-          <li>allow the animal to eat</li>
-          <li>bring animal back to barn</li>
-        </ol>
-      </td>
-      <td>repeat with next animal</td>
-    </tr>
-  </tbody>
-</table>
-
-### Iteration in Programming
-
-By "in programming", we mean things that could be done, with relative ease, by a computer. Like crunching numbers.
-
-<table>
-  <thead>
-    <tr>
-      <th>Scenario</th>
-      <th>Collection</th>
-      <th>For each...</th>
-      <th>Do this:</th>
-      <th>Then:</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Calculating max heart rate</td>
-      <td>birth years</td>
-      <td>year</td>
-      <td>
-        <ol>
-          <li>subtract birth year from the current year to get age</li>
-          <li>subtract age from 220</li>
-        </ol>
-      </td>
-      <td>repeat with next year</td>
-    </tr>
-    <tr>
-      <td>Formatting names</td>
-      <td>names</td>
-      <td>name</td>
-      <td>
-        <ol>
-          <li>capitalize the first letter</li>
-          <li>lowercase all remaining letters</li>
-        </ol>
-      </td>
-      <td>repeat with next name</td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="try-it">
-  <h3>Try It: Iteration in Real Life and Programming</h3>
-  <p>Brainstorm a real life scenario that uses iteration. Fill out the table below and be ready to share.</p>
-  <table>
-    <thead>
-      <tr>
-        <th>Scenario</th>
-        <th>Collection</th>
-        <th>For each...</th>
-        <th>Do this:</th>
-        <th>Then:</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><textarea rows="4"></textarea></td>
-        <td><textarea rows="4"></textarea></td>
-        <td><textarea rows="4"></textarea></td>
-        <td><textarea rows="4"></textarea></td>
-        <td><textarea rows="4"></textarea></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-## BREAK
-
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
-<hr>
-
-# Problem Solving + Pseudocode 
-
-The ability to critically examine a problem and break it down into smaller pieces is an essential skill of a developer that can be improved with practice. Breaking large problems into several smaller problems can help you in every step of the development process:
-
-- *Pseudocode*: Breaking apart coding challenges into steps is often referred to as <span class="vocab">pseudocode</span>. This is done by writing those steps in plain English (or whatever language you speak), and then those steps, can later be converted to code the computer understands.
-
-Pseudocoding can help keep your thoughts in order, especially helpful for when you may need to put a little research into HOW to accomplish all the steps involved. Further, pseudocode is an excellent approach to explaining code to your team because it is programming language-agnostic, allowing non-technical teammates, or teammates who work with different code/technology, to understand your ideas more easily.
-
-## Pseudocode - An Algorithm
-
-Pseudocode often reads like an algorithm. Algorithms often read like recipes:
-
-#### Psuedocode for Making a Cup of Coffee
-```
-- Organize all ingredients together
-- Add water to electric kettle
-- Turn electric kettle to ON
-- Put coffee grounds in french press
-- When water in electric kettle boils, turn to OFF
-- Wait 30 seconds
-- Add water to french press
-- Put plunger over top of french press
-- Wait 80 seconds
-- Press plunger down
-- Pour coffee into cat mug
-```
-
-#### Pseudocode Practice (2 mins)
-On your own, write some pseudocode for how you would make a **Peanut Butter + Jelly sandwich** - remember, think about how you can break this "problem" up into the smallest parts possible to allow for the clearest instructions!
-
-#### Pseudocode Breakout Demo (5 mins)
-Watch as your TAs model how to engage in a discussion of technical content as they share their pseudocode for creating a sandwich!
-
-
-#### Psuedocode for Technical Challenges
-Take a look at the example of a code challenge you might receive as part of an interview.
-
-**Challenge: Write some code that will determine the number of vowels in a given word/string.**
-
-Below is an example of some pseudocode that could be written for the challenge. What are some things that stand out?
-
-```
-- Declare what letters are vowels - a, e, i, o, u
-- Start vowelCount at 0 to track number of vowels in the word
-- Look at first letter in the word
-- Check if vowel
-  - If letter is included in list of vowels, increase vowelCount by 1
-  - If letter is NOT included in list of vowels, do nothing
-- Move to next letter in word and repeat steps from Check if Vowel
-- When there are no more letters left in word, return the final vowelCount number
-```
-
-#### "Good" Psuedocode
-
-Before we go any futher, understand that it takes a long time to get proficient at writing strong psuedocode. However, here are some indicators of "good" psuedocode:
-- Each "step" could be translated into a line/few lines of code
-- Each "step" can translate into a Google search fairly easily, if necessary
-- The code considers "happy" and "sad" paths
-  - What should the code do if things go well?
-  - What should the code do if things don't go as expected?
-
-#### "When will I even use this?!"
-Hopefully, A LOT! Psuedocoding can be a great process to employ any time you are "stuck" on what your program should be doing! Basically, if you can't explain WHAT you want your code to do in your native language, there is literally 0% chance you'll be able to write code to accomplish that task!
-
-Additionally, psuedocoding comes in handy during technical interviews and code challenges for when you are applying for jobs. Interviewers want to see how you can break complex ideas down into language that everyone can understand - remember, as a developer you will often be working with non-technical colleagues in marketing, sales, etc. and hiring managers want to know that you can communicate with them!
-
-### Practice: Problem Solving
-
-Write your process for changing a flat tire on an automobile!
-
-#### 3 minutes - on your own
-- How can you break this problem down into smaller chunks or sub-problems?
-- What steps are needed to get from the initial data (input) to the desired end result (output)?
-#### 5 minutes - in groups 
-- In groups, take turns sharing your psuedocode
-- As a group, come up with a Team Pseudocdoe that can borrow parts from all the different group members!
-#### 5 minutes - Share Outs + Walkthrough
-
-Everyone should read [this article](https://medium.com/@dannysmith/breaking-down-problems-its-hard-when-you-re-learning-to-code-f10269f4ccd5) at some point after class - note that it's written in Ruby, but again, **focus on the process**
-
-## BREAK
-
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
-<hr>
 
 <a name="git"></a>
 ## Git
@@ -495,6 +288,214 @@ The basic git workflow is this:
 ## Mistakes in the terminal
 
 <a href="https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e">Terminal Mistakes Screencast</a>
+
+## BREAK
+
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
+<hr>
+
+
+<a name="iteration"></a>
+## Iteration
+
+Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we'll walk through step by step to demonstrate the concept.
+
+### Iteration in Real Life
+
+These are examples that would be programmatically challenging because they would require a ton of steps, but are things that we do everyday.
+
+<table>
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Collection</th>
+      <th>For each...</th>
+      <th>Do this:</th>
+      <th>Then:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Grading papers</td>
+      <td>papers</td>
+      <td>paper</td>
+      <td>
+        <ol>
+          <li>read through it</li>
+          <li>mark the score on the top</li>
+        </ol>
+      </td>
+      <td>repeat with next paper</td>
+    </tr>
+    <tr>
+      <td>Feeding animals</td>
+      <td>animals</td>
+      <td>animal</td>
+      <td>
+        <ol>
+          <li>bring the animal to the food bucket</li>
+          <li>allow the animal to eat</li>
+          <li>bring animal back to barn</li>
+        </ol>
+      </td>
+      <td>repeat with next animal</td>
+    </tr>
+  </tbody>
+</table>
+
+### Iteration in Programming
+
+By "in programming", we mean things that could be done, with relative ease, by a computer. Like crunching numbers.
+
+<table>
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Collection</th>
+      <th>For each...</th>
+      <th>Do this:</th>
+      <th>Then:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Calculating max heart rate</td>
+      <td>birth years</td>
+      <td>year</td>
+      <td>
+        <ol>
+          <li>subtract birth year from the current year to get age</li>
+          <li>subtract age from 220</li>
+        </ol>
+      </td>
+      <td>repeat with next year</td>
+    </tr>
+    <tr>
+      <td>Formatting names</td>
+      <td>names</td>
+      <td>name</td>
+      <td>
+        <ol>
+          <li>capitalize the first letter</li>
+          <li>lowercase all remaining letters</li>
+        </ol>
+      </td>
+      <td>repeat with next name</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="try-it">
+  <h3>Try It: Iteration in Real Life and Programming</h3>
+  <p>Brainstorm a real life scenario that uses iteration. Fill out the table below and be ready to share.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Scenario</th>
+        <th>Collection</th>
+        <th>For each...</th>
+        <th>Do this:</th>
+        <th>Then:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+## BREAK
+
+Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
+<hr>
+
+# Problem Solving + Pseudocode 
+
+The ability to critically examine a problem and break it down into smaller pieces is an essential skill of a developer that can be improved with practice. Breaking large problems into several smaller problems can help you in every step of the development process:
+
+- *Pseudocode*: Breaking apart coding challenges into steps is often referred to as <span class="vocab">pseudocode</span>. This is done by writing those steps in plain English (or whatever language you speak), and then those steps, can later be converted to code the computer understands.
+
+Pseudocoding can help keep your thoughts in order, especially helpful for when you may need to put a little research into HOW to accomplish all the steps involved. Further, pseudocode is an excellent approach to explaining code to your team because it is programming language-agnostic, allowing non-technical teammates, or teammates who work with different code/technology, to understand your ideas more easily.
+
+## Pseudocode - An Algorithm
+
+Pseudocode often reads like an algorithm. Algorithms often read like recipes:
+
+#### Psuedocode for Making a Cup of Coffee
+```
+- Organize all ingredients together
+- Add water to electric kettle
+- Turn electric kettle to ON
+- Put coffee grounds in french press
+- When water in electric kettle boils, turn to OFF
+- Wait 30 seconds
+- Add water to french press
+- Put plunger over top of french press
+- Wait 80 seconds
+- Press plunger down
+- Pour coffee into cat mug
+```
+
+#### Pseudocode Practice (2 mins)
+On your own, write some pseudocode for how you would make a **Peanut Butter + Jelly sandwich** - remember, think about how you can break this "problem" up into the smallest parts possible to allow for the clearest instructions!
+
+#### Pseudocode Breakout Demo (5 mins)
+Watch as your TAs model how to engage in a discussion of technical content as they share their pseudocode for creating a sandwich!
+
+
+#### Psuedocode for Technical Challenges
+Take a look at the example of a code challenge you might receive as part of an interview.
+
+**Challenge: Write some code that will determine the number of vowels in a given word/string.**
+
+Below is an example of some pseudocode that could be written for the challenge. What are some things that stand out?
+
+```
+- Declare what letters are vowels - a, e, i, o, u
+- Start vowelCount at 0 to track number of vowels in the word
+- Look at first letter in the word
+- Check if vowel
+  - If letter is included in list of vowels, increase vowelCount by 1
+  - If letter is NOT included in list of vowels, do nothing
+- Move to next letter in word and repeat steps from Check if Vowel
+- When there are no more letters left in word, return the final vowelCount number
+```
+
+#### "Good" Psuedocode
+
+Before we go any futher, understand that it takes a long time to get proficient at writing strong psuedocode. However, here are some indicators of "good" psuedocode:
+- Each "step" could be translated into a line/few lines of code
+- Each "step" can translate into a Google search fairly easily, if necessary
+- The code considers "happy" and "sad" paths
+  - What should the code do if things go well?
+  - What should the code do if things don't go as expected?
+
+#### "When will I even use this?!"
+Hopefully, A LOT! Psuedocoding can be a great process to employ any time you are "stuck" on what your program should be doing! Basically, if you can't explain WHAT you want your code to do in your native language, there is literally 0% chance you'll be able to write code to accomplish that task!
+
+Additionally, psuedocoding comes in handy during technical interviews and code challenges for when you are applying for jobs. Interviewers want to see how you can break complex ideas down into language that everyone can understand - remember, as a developer you will often be working with non-technical colleagues in marketing, sales, etc. and hiring managers want to know that you can communicate with them!
+
+### Practice: Problem Solving
+
+Write your process for changing a flat tire on an automobile!
+
+#### 3 minutes - on your own
+- How can you break this problem down into smaller chunks or sub-problems?
+- What steps are needed to get from the initial data (input) to the desired end result (output)?
+#### 5 minutes - in groups 
+- In groups, take turns sharing your psuedocode
+- As a group, come up with a Team Pseudocdoe that can borrow parts from all the different group members!
+#### 5 minutes - Share Outs + Walkthrough
+
+Everyone should read [this article](https://medium.com/@dannysmith/breaking-down-problems-its-hard-when-you-re-learning-to-code-f10269f4ccd5) at some point after class - note that it's written in Ruby, but again, **focus on the process**
+
+
 
 ## Close Out
 
