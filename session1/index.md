@@ -17,10 +17,10 @@ By the end of this session, you will be able to:
   - **6:15** Intro + Housekeeping
   - **6:30** Success @ Turing
   - **7:00** Break
-  - **7:05** Googling
-  - **7:30** Files, Directories + Paths
-  - **7:45** Break
-  - **7:50** Terminal + Command Line
+  - **7:05** Files, Directories + Paths
+  - **7:35** Break
+  - **7:40** Terminal + Command Line
+  - **8:05** Googling
   - **8:25** Homework Preview
 
 ### Materials
@@ -141,58 +141,6 @@ A few helpful tips to building a strong calendar...
 
 Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 
-<a name="findinganswers"></a>
-## Googling
-
-Believe it or not, a good chunk of your time as a programmer will be spent Googling to find answers to your questions. In fact, a somewhat experienced programmer will Google at a much higher rate than a beginning programmer. Therefore, it's really important to get good at Googling.
-
-For a frame of reference so that you know just how often we rely on Google (even the "easy" stuff), this is my most recent Chrome history as I've been building this curriculum 😂
-
-<img style="width: 50%" src="images/rachel_history.png" alt="Rachel's search history">
-
-When I Google programming questions, I _usually_ include three things (in varying orders):
-
-- What I want to do (verb)
-- to what thing (noun)
-- using what language or tool
-
-For example, if I wanted to add a thick green border to a heading on my webpage and I'm using plain CSS for styling, I might google this:
-
-```
-how to add border to heading css
-```
-
-or
-
-```
-make border on heading element css
-```
-***SUPER IMPORTANT:*** You might not get the results you're looking for on the first go-around.
-
-<div class="try-it">
-  <h3>Try It: Writing Google-able Phrases</h3>
-  <p>Write out Google-able search phrases for each of the following scenarios. Do not get hung up on being unfamiliar with the terminology for each scenario. We just want phrases to put into Google.</p>
-  <p>1. I am using Git for version control and made a typo in a commit message. I need to change it before I push my changes to GitHub.</p>
-  <textarea rows="2">
-    Phrase 1:
-    Phrase 2:
-  </textarea>
-  <p>2. I got this error message when I ran my Ruby program and I don't know what it means or how to fix it: <em>"unterminated string meets end of file"</em></p>
-  <textarea rows="2">
-    Phrase 1:
-    Phrase 2:
-  </textarea>
-</div>
-
-### Sifting Through Results
-
-Once you formulate a good Google search and receive your results, there are a few things you'll want to consider when determining which results to open.
-
-<div class="try-it">
-  <h3>Demo: Google Results</h3>
-  <p>We'll look through some Google results for "how do you find out the length of a string in javascript?". Be ready to jot down tips for sifting through results.</p>
-</div>
-
 <a name="filesdirectories"></a>
 ## Files, Directories, and Paths
 
@@ -302,8 +250,6 @@ Let's put your Googlin' skills to the test! In breakout rooms, research the foll
 - `rm`
 - `rm -rf`
 
-<p class="toggle-show">Click the 🤖 to see how these commands work</p>
-<div class="toggle-content hidden">  
 In this section on command prompts, we'll learn (or review) the commands below. We'll look at all 10 together (take notes!), then you'll go into breakout rooms to practice them.
 
 
@@ -559,7 +505,6 @@ Now when I type `ls`, I will no longer see `books` listed.
       </div>
     </div>
   </div>
-</div>
 <a name="terminalbreakout"></a>
 ### Putting it All Together - groups of 2 or 3 (10 minutes)
 
@@ -615,12 +560,65 @@ The person who has not yet been the driver will share their screen.
 1. Get back out of the `session3_practice` directory
 1. Remove the `session3_practice` directory
 
+<a name="findinganswers"></a>
+## Googling
+
+Believe it or not, a good chunk of your time as a programmer will be spent Googling to find answers to your questions. In fact, a somewhat experienced programmer will Google at a much higher rate than a beginning programmer. Therefore, it's really important to get good at Googling.
+
+For a frame of reference so that you know just how often we rely on Google (even the "easy" stuff), this is my most recent Chrome history as I've been building this curriculum 😂
+
+<img style="width: 50%" src="images/rachel_history.png" alt="Rachel's search history">
+
+When I Google programming questions, I _usually_ include three things (in varying orders):
+
+- What I want to do (verb)
+- to what thing (noun)
+- using what language or tool
+
+For example, if I wanted to add a thick green border to a heading on my webpage and I'm using plain CSS for styling, I might google this:
+
+```
+how to add border to heading css
+```
+
+or
+
+```
+make border on heading element css
+```
+***SUPER IMPORTANT:*** You might not get the results you're looking for on the first go-around.
+
+<div class="try-it">
+  <h3>Try It: Writing Google-able Phrases</h3>
+  <p>Write out Google-able search phrases for each of the following scenarios. Do not get hung up on being unfamiliar with the terminology for each scenario. We just want phrases to put into Google.</p>
+  <p>1. I am using Git for version control and made a typo in a commit message. I need to change it before I push my changes to GitHub.</p>
+  <textarea rows="2">
+    Phrase 1:
+    Phrase 2:
+  </textarea>
+  <p>2. I got this error message when I ran my Ruby program and I don't know what it means or how to fix it: <em>"unterminated string meets end of file"</em></p>
+  <textarea rows="2">
+    Phrase 1:
+    Phrase 2:
+  </textarea>
+</div>
+
+### Sifting Through Results
+
+Once you formulate a good Google search and receive your results, there are a few things you'll want to consider when determining which results to open.
+
+<div class="try-it">
+  <h3>Demo: Google Results</h3>
+  <p>We'll look through some Google results for "how do you find out the length of a string in javascript?". Be ready to jot down tips for sifting through results.</p>
+</div>
+
 ## Close Out
 
 Key takeaways from today:
 * You should have a better understanding of the skills + mindsets necessary to succeed at Turing
+* You should understand how to navigate files/directories using your terminal
+* You should understand basic action, safe/informative, and destructive terminal commands
 * You should understand how to google programming questions
-* You should understand what data types are and how you can use them with variables
 
 <a name="homework"></a>
 ## Homework
