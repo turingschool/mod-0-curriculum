@@ -114,26 +114,7 @@ When we share out - be sure to take notes in your notebook about each data type 
         </ul>
       </div>
     </div>
-    <div>
-      <p class="toggle-show">
-        <strong>EXTENSION</strong> Object Definition (click here)
-      </p>
-      <div class="toggle-content hidden">
-        <p>An <strong><span class="vocab">object</span></strong> is a collection of key-value pairs. It is similar to an array in that it is a collection of things, but in the case of objects, we are <strong>pairing</strong> data together.</p>
-        <p>Sometimes, this data type is referred to as a dictionary because of the pairing of word -> definition.</p>
-        <p>For example, you might have a hash/object where the keys are first names and the values are last names.</p>
-        <p>When I think about whether or not I need to use a hash, I ask myself "Is this a collection of data where the pairing of items matters?"</p>
-        <p>Examples:</p>
-        <ul>
-          <li><code>var totalStudents = {grade9: 110, grade10: 125, grade11: 66, grade12: 70};</code></li>
-          <li><code>var modAssignments = { 
-            mod0: ["Tim", "David"], 
-            mod1: ["Mike"," Sal"], 
-            mod2: ["Brittany", "Robbie"] 
-            };</code></li>
-        </ul>
-      </div>
-    </div>
+  
 </div>
 
 ### Syntax Practice using the Console

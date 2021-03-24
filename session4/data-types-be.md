@@ -110,22 +110,6 @@ When we share out - be sure to take notes in your notebook about each data type 
       </ul>
     </div>
   </div>
-  <div>
-    <p class="toggle-show">
-      <strong>EXTENSION</strong> Hash/Object Definition (click here)
-    </p>
-    <div class="toggle-content hidden">
-      <p>A <span class="vocab">hash</span> or <span class="vocab">object</span> is a collection of key-value pairs. It is similar to an array in that it is a collection of things, but in the case of hashes/objects, we are <strong>pairing</strong> data together.</p>
-      <p>Sometimes, this data type is referred to as a dictionary because of the pairing of word -> definition.</p>
-      <p>For example, you might have a hash/object where the keys are first names and the values are last names.</p>
-      <p>When I think about whether or not I need to use a hash, I ask myself "Is this a collection of data where the pairing of items matters?"</p>
-      <p>Examples:</p>
-      <ul>
-        <li><code>total_students = {"9th grade": 110, "10th grade": 125, "11th grade": 66, "12th grade": 70}</code></li>
-        <li><code>mod_assignments = { "Mod 0": "Tim and David", "Mod 1": "Mike and Sal", "Mod 2": "Brittany and Robbie" }</code></li>
-      </ul>
-    </div>
-  </div>
 </div>
 
 ### Syntax Practice using `irb`
