@@ -74,3 +74,6 @@ Read [these reflections](https://drive.google.com/file/d/1LNyXge4p6OQTWbo_Y9XIJA
 1. How will this impact your approach to Mod 0?
 
 You will be sharing these reflections during your first session of Mod 0!
+
+## 8) Setup Homework Board
+Follow the instructions in the [Homework section](https://mod0.turing.io/homework/) for getting your Trello board set up! 
