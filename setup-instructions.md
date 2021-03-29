@@ -10,12 +10,6 @@ permalink:  setup-instructions
 
 Complete the following steps before Mod 0 in order to get the tools you'll need on your machine.
 
-If you'd like to watch a video overview, a Turing alum who is <strike>at least partially competent</strike> gainfully employed in the software development industry put this video together for you, which walks through most of this guide:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7TTt1a8UHic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-The above video has shortcuts to specific pieces of this guide. Click over to it and read the video description to jump to just the right sections.
-
 Here's what we'll cover in this guide. Click a link to jump to that portion of the guide:
 
 - [New to Mac?](#1-new-to-mac)
