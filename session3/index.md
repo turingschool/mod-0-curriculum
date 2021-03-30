@@ -200,13 +200,13 @@ Watch and take notes while we walk through how to continue making changes and pu
   <p>In your breakout rooms, <strong>everyone</strong> will complete the steps below synchronously, but on your own projects. Use each other as resources and sounding boards. Don't hesitate to click "share screen" if there's something you want your team to look at!</p>
   <p>If you get really stuck, you can click "ask for help" and we'll pop into your room.</p>
   <ul>
-    <li>Add a few new quotes to your <code>quotes.md</code> file.</li>
+    <li>Add a few new thoughts to your <code>thoughts.md</code> file.</li>
     <li>Save your file using the shortcut <code>command + s</code>.</li>
     <li>Go back to your terminal.</li>
     <li>Use commands to add and commit your new changes. Be sure to use <code>git status</code> to check your status, and make sure your commit message is properly formatted.</li>
     <li>Push your new changes to GitHub.</li>
     <li>Refresh the page to make sure the new changes appear.</li>
-    <li>Repeat the above steps, but this time, remove one of the quotes from your <code>quotes.md</code> document, then add, commit, and push your changes.</li>
+    <li>Repeat the above steps, but this time, remove one of the thoughts from your <code>thoughts.md</code> document, then add, commit, and push your changes.</li>
   </ul>
   <p>Finished? Get to know your breakout room classmates better: What are they trying to get better at in life? What book would the recommend that everyone read at least once in life?</p>
 </div>
