@@ -15,7 +15,7 @@ subheading: Data Types, Variables + Modeling Real World Things
 **6:15** - Housekeeping, Feedback + Goals
 **6:25** - Pseudocoding Practice
 **6:55** - Break
-**7:00** - Data Types + Variable Assignment 
+**7:00** - Data Types + Variable Assignment
 **7:45** - Break
 **7:40** - Modeling Using Variables
 **8:25** - Wrap Up
@@ -44,7 +44,7 @@ subheading: Data Types, Variables + Modeling Real World Things
 
 ### Psuedocode Practice: Tricky Word Problems
 
-Here is a common code challenge: Write a function that determines whether a given word/string is a palindrome. 
+Here is a common code challenge: Write a function that determines whether a given word/string is a palindrome.
 
 See example below (remember, it is OK if you don't understand exactly what is happening in the code!)
 
@@ -72,9 +72,9 @@ Write pseudocode to explain how you would approach checking whether a given word
 
 In most programming languages, you'll find the same basic <span class="vocab">data types</span>. A data type represents the kind of data that you can use in the programming language. In this section, we'll discuss five different basic data types that are applicable to both the front end and back end. Luckily for us, the <span class="vocab">syntax</span> (the way we write) for these basic data types is almost identical in Ruby and JavaScript.
 
- 
+
 ### Data Type Use Cases and Syntax Practice
-We are going to break out into program specfiic small groups to start working through these skills!
+We are going to break out into program specific small groups to start working through these skills!
 - [Frontend: Data Types + Variable Assignment in Javascript](./data-types-fe.md)
 - [Backend: Data Types + Variable Assignment in Ruby](./data-types-be.md)
 
@@ -103,4 +103,4 @@ We **STRONGLY** recommend that you study ahead of time for this assessment. Luck
   - How to model data using variables
   - How to model data using objects and variables (coming in Session 5)
 
-  Preparing for this assessment is a great way to start building relationships with your community - remember, Turing is NOT a competition! We highly encourage you to use resources such as Slack calls, Zoom meetings, screen sharing, Driver - Navigator, etc. to work with your cohortmates to practice these skills! 
+  Preparing for this assessment is a great way to start building relationships with your community - remember, Turing is NOT a competition! We highly encourage you to use resources such as Slack calls, Zoom meetings, screen sharing, Driver - Navigator, etc. to work with your cohortmates to practice these skills!

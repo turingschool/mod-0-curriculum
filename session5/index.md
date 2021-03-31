@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Session 4
+title: Session 5
 subheading: Data Types, Variables + Modeling Real World Things
 ---
 ### Goals
@@ -42,7 +42,7 @@ Note: Update your zoom display name to include your first name, last initial, pr
 
 ### Psuedocode Practice: Data Normalization
 
-A common task on code challenges is to change or adjust the data that you receive (input) into a specific format for the output. 
+A common task on code challenges is to change or adjust the data that you receive (input) into a specific format for the output.
 
 See example below (remember, it is OK if you don't understand exactly what is happening in the code!)
 
@@ -72,7 +72,8 @@ Today we are going to take that a bit further as we learn how to use objects/has
 
 We will breakout in FE and BE specific groups to learn how to use these more advanced data structures!
 
-
+- [Frontend: Objects in Javascript](./objects.md)
+- [Backend: Hashes in Ruby](./hashes.md)
 
 <a name="annotations"></a>
 ## Annotating Code
@@ -190,7 +191,7 @@ After the time is up, we will share our annotations in smaller groups!
 
 ### Close out
 
-* This is your last Mod 0 session! 
+* This is your last Mod 0 session!
 * Remaining deliverables - complete the Mod 0 Assessment and turn in your Mod 1 Prework
 * Check the calendar for Mod 1 Orientation
 * Moving forward:
