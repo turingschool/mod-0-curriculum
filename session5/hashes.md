@@ -26,13 +26,13 @@ local_flora = ['lilac', 'bluebell', 'fireweed', 'columbine'];
 park_rangers = ['Dave Brackmann'];
 ```
 
-To a human/developer, we can scan these variables and naturally make a connection that they are related. 
+To a human/developer, we can scan these variables and naturally make a connection that they are related.
 
 However, to a computer, no such connection currently exists. All the computer sees is 12 separate, un-related variables. While this may not seem like a big deal, having a way to group related data together is a core tenant of programming, especially the Object-Oriented Programming paradigm you will learn at Turing!
 
 So, how do we group this data together in a way that makes sense to humans AND the computer? Enter `hashes` - one of the most common and useful data structures in programming!
 
-NOTE: Hashes may sometimes be referred to as objects. 
+NOTE: Hashes may sometimes be referred to as objects.
 
 ## Hash Syntax
 Take a look at the example object below. What do you notice about it?
@@ -62,8 +62,7 @@ Let's dive in a little deeper...
   - `name`
   - `favorite_num`
   - `collection_of_letters`
-- You should follow the same naming conventions for naming variables as you do for naming your keys
-- Keys should be wrapped in double quotes `" "`
+- Keys can be assigned to any datatype, but convention is to use strings (like above) or symbols
 
 #### Values
 - Values are the associated to specific keys
@@ -76,21 +75,28 @@ Let's dive in a little deeper...
   - `['a', 'x', 'p']` is the value assigned to the `collection_of_letters` key
 
 #### Other Important Syntax
-- We use a hash rocket  `=>` to separate our **keys** from our **values**
 - We use a comma `,` after each key-value pair
-- As mentioned before, we wrap our keys in double quotes `" "`
 - We still want to assign our object to a variable so that the computer knows how to reference the hash itself!
+- We use a hash rocket  `=>` to separate our **keys** from our **values**
+- NOTE: In the wild, it's more common to see hash keys using symbol datatypes (ex: ```:name```). When using symbols for keys, you should omit the hash rocket:
+  ```rb
+  example_hash = {
+    name: "cool object",
+    favorite_num: 21,
+    collection_of_letters: ['a', 'x', 'p']
+  }
+  ```
+
 
 ## Putting It All Together
 Creating an object is just like declaring any other variable - only this time, the variable's value is assigned to an object.
 
 So to create a new object, I would follow these steps:
-1. Use the `var` keyword to declare a new variable
-1. Assign the variable a descriptive name that a human can understand
-1. Add the assignment operator `=`
-1. Add your curly braces `{ }` - we recommend adding both at once so that you don't forget a closing curly bracket later on!
-1. Add your key-value pairs just as you would normal variables, only this time use a `=>` to separate them and a `,` after each key value pair
-1. Be sure your keys are wrapped in double quotes!
+1. Declare a new variable with a descriptive name that a human can understand
+2. Add the assignment operator `=`
+3. Add your curly braces `{ }` - we recommend adding both at once so that you don't forget a closing curly bracket later on!
+4. Add your key-value pairs just as you would normal variables, only this time use a `=>` to separate them and a `,` after each key value pair
+5. Be sure your keys are wrapped in double quotes!
 
 So, if we modeled our `mountain` using an object, it may look something like this:
 
@@ -130,4 +136,3 @@ Let's take everything we've worked on with git, GitHub, data types and variable 
 1. In your `hash-examples.rb` file, add a model for a `customer` using hash syntax
 1. Commit your work
 1. Push your changes to GitHub
-
