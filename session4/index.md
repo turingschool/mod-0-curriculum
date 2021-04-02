@@ -12,13 +12,13 @@ subheading: Data Types, Variables + Modeling Real World Things
 
 
 ### Agenda
-**6:15** - Housekeeping, Feedback + Goals
-**6:25** - Pseudocoding Practice
-**6:55** - Break
-**7:00** - Data Types + Variable Assignment
-**7:45** - Break
-**7:40** - Modeling Using Variables
-**8:25** - Wrap Up
+  - **6:15** - Housekeeping, Feedback + Goals
+  - **6:25** - Pseudocoding Practice
+  - **6:55** - Break
+  - **7:00** - Data Types + Variable Assignment
+  - **7:45** - Break
+  - **7:40** - Modeling Using Variables
+  - **8:25** - Wrap Up
 
 ### Materials
 - Notebook
