@@ -189,6 +189,28 @@ In program-specific groups of 2-3, work through the exercises in the [Annotation
 
 After the time is up, we will share our annotations in smaller groups!
 
+## Mod 0 Technical Assessment
+We've come to the end of our instruction in Mod 0 😭! Which means that you are ready to crush your Mod 0 Technical Assessment!
+
+Be sure to check your calendar for when your assessment is due! 
+
+Your technical assessment consists of two parts:
+- A 25 minute, program specific, timed multiple choice test
+- A 60 minute exercise utilzing git, GitHub and your understanding of core concepts from Mod 0
+
+You are free to use your notes, online resources, etc. but please be mindful of the time you are taking to complete the assessment!
+
+After completing the assessment, your instructors will evaluate your readiness for Mod 0 based on your technical proficiency. They will determine one of three outcomes:
+1. Passing technical assessment, no revisions required
+2. Passing technical assessment after a small number of revisions
+3. Failing technical assessment, requires repeat of Mod 0
+
+As a reminder, the technical assessment is only ONE of the data points we use to evaluate readiness for the program. You may still be asked to repeat Mod 0 if you have struggled to show proficiency with professional skills, accountability, interpersonal skills, etc. 
+
+[Click this link](https://github.com/turingschool/mod0_assessment2) when you are ready to begin your assessment! 
+
+![You got this](https://media.giphy.com/media/xT9IgEYXCNqPZnqMuY/giphy.gif)
+
 ### Close out
 
 * This is your last Mod 0 session!
