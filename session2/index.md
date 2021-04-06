@@ -13,11 +13,11 @@ subheading: Terminal, File/folder Structure, Git Basics
   - initialize, add, and commit changes in a local repository 
 
 ### Agenda
-**6:15** - Housekeeping, Feedback + Goals
-**6:20** - Git Basics
-**7:25** - Iteration in Programming
-**7:45** - Problem Solving + Pseudocode
-**8:25** - Wrap Up
+  - **6:15** - Housekeeping, Feedback + Goals
+  - **6:20** - Git Basics
+  - **7:25** - Iteration in Programming
+  - **7:45** - Problem Solving + Pseudocode
+  - **8:25** - Wrap Up
 
 ### Materials
 - Notebook
