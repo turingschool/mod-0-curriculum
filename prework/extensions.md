@@ -41,7 +41,8 @@ You will likely spend the first class or two in Mod 1 reviewing many of the conc
 - Dive into some program-specific extension projects!
     - **Backend Extensions**
         - [Credit Check](https://github.com/turingschool-examples/credit_check)
-        - [Ruby Exercises](https://github.com/turingschool/ruby-exercises) - start with Data Types and move to Mythical Creatures    
+        - [Ruby Exercises](https://github.com/turingschool/ruby-exercises) - start with Data Types and move to Mythical Creatures
+        - [Ideas on Starting BE M1 Strong! by Josh Thompson](https://josh.works/turing-backend-prep-01-intro)
     - **Frontend Extensions**
         - [HTML + CSS Practice](https://github.com/turingschool-examples/fe-m1-practice)
         - [Dog Party - HTML/CSS Project](https://github.com/turingschool-examples/introductory-static-site)
