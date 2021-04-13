@@ -1,4 +1,8 @@
-# How to Spend Your Time Between Mod 0 and Mod 1
+---
+layout: page
+title: Extra Time/Extension Ideas
+---
+## How to Spend Your Time Between Mod 0 and Mod 1
 
 Congrats on completing your Mod 0 requirements! Before we dive into other ways to spend your time, take a moment to celebrate your success thus far! You do not need to complete all or any of these extensions to be prepared for Mod 1 - that is the entire purpose of Mod 0! 
 
