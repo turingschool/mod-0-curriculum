@@ -70,9 +70,5 @@ The link below will take you to the Github page that contains all the Technical 
 
 The technical pre-work and Gear up pre-work will be submitted in a google survey that is linked on finalProject portion of the technical pre-work repo for your respective program.
 
-### Next Steps.
-
-If you have more time, review the curriculum site for the program that you're joining.
-
-* [Back-End Curriculum Site](http://backend.turing.io/)
-* [Front-End Curriculum Site](http://frontend.turing.io/)
+### Next Steps / Extensions
+Have some extra time before starting Mod 1? [Jump here](./extensions.md) to check out our extension ideas! 
