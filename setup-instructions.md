@@ -34,6 +34,8 @@ If this is your first time using a Mac instead of a PC or Linux, then watch [thi
 
 Install [Atom](https://atom.io/). Atom is a program where we edit code - it is a text editor with many great features that makes editing code more enjoyable compared to a simple text editor. Atom is commonly used in the software development industry, and we will use it throughout your time at Turing.
 
+After downloading Atom, ensure that Atom appears in your Applications folder and is no longer in your Downloads folder!  
+
 ## 3) Install Xcode-select
 
 [Xcode](https://developer.apple.com/xcode/) is a suite of development tools published by Apple. If we wanted to develop software for the Apple Ecosystem (iPhone apps, macOS apps, etc), we would use Xcode as our editor. But even though we're not building iPhone apps, Xcode provides some system dependencies that we need.
@@ -231,7 +233,9 @@ We'll be here when you get back. :)
 
 ## 9) Set Up Terminal Access for Atom
 
-Install the shell commands for Atom. Open Atom, drop down the `Atom` menu in the top left corner of your screen, and click on `Install Shell Commands`. Atom should now be enabled from your command line.
+Before moving any further, ensure that Atom is in your Applications folder. Open Atom from here (rather than opening Atom from your Downloads folder)!
+
+Install the shell commands for Atom. Open Atom (from your Applications folder), drop down the `Atom` menu in the top left corner of your screen, and click on `Install Shell Commands`. Atom should now be enabled from your command line.
 
 ![Install Shell Commands](/images/install_shell_commands.jpg)
 
