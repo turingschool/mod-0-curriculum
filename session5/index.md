@@ -16,8 +16,7 @@ subheading: Data Types, Variables + Modeling Real World Things
   - **6:25** - Pseudocoding Practice
   - **6:55** - Break
   - **7:00** - Modeling Using Objects + Hashes
-  - **7:45** - Break
-  - **7:40** - Annotations
+  - **7:55** - Annotations
   - **8:25** - Wrap Up
 
 ### Materials
