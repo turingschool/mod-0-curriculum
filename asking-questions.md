@@ -1,4 +1,4 @@
-# How To Ask Questions That Lead to Answers
+## How To Ask Questions That Lead to Answers
 As you launch into your technical career, you are going to have questions. Tons of them! The challenge for new developers is learning WHEN and HOW to ask questions around technical content!
 
 ## When You Should Ask a Question
