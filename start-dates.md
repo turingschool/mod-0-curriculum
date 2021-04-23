@@ -19,20 +19,6 @@ permalink:  start-dates
 - **Session 4:** 2/25 @ 6:15pm MST
 - **Session 5:** 3/2 @ 6:15pm MST
 
-### 103A: 3/22/2021 - 3/31/2021
-- **Session 1:** 3/22 @ 6:15pm MST
-- **Session 2:** 3/23 @ 6:15pm MST
-- **Session 3:** 3/25 @ 6:15pm MST
-- **Session 4:** 3/29 @ 6:15pm MST
-- **Session 5:** 3/31 @ 6:15pm MST
-
-### 103B: 4/6/2021 - 4/19/2021
-- **Session 1:** 4/6 @ 6:15pm MST
-- **Session 2:** 4/8 @ 6:15pm MST
-- **Session 3:** 4/13 @ 6:15pm MST
-- **Session 4:** 4/15 @ 6:15pm MST
-- **Session 5:** 4/19 @ 6:15pm MST
-
 ### 105A: 5/10/2021 - 5/19/2021
 - **Session 1:** 5/10 @ 6:15pm MST
 - **Session 2:** 5/11 @ 6:15pm MST
