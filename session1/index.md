@@ -88,22 +88,6 @@ Reality check - both frontend development and backend development are "hard". Th
 #### Myth 3 - People "fail" Turing due to the technical content
 Believe it or not, 99% of failing projects at Turing have little to do with technical deficits. Instead, poor communication and issues with collaboration are the main cause of failitheng projects. Remember, your Turing experience is designed to prepare you for the actual job - collaborating and communicating under tight deadlines is what makes the job difficult!  -->
 
-## Setup for Success: Notetaking x Technical Content
-Many of you are diving back into an academic setting for the first time in awhile. To be clear, the Turing experience is likely MUCH different than your previous academic experiecnes! We will use Mod 0 to start preparing you to kick ass at Turing and start your transformation into a developer off on the right foot.
-
-One area we notice students struggle with is how and when to take notes. Before we go into specifics, take a look at [these notes](https://gist.github.com/ericweissman/a729a849ed6355ed8ee0c9156a8e9c98) created by some of our most successful students.
-
-- What things stand out as your look at these examples?
-- How do these examples compare to your current notes?
-
-<a name="notetaking"></a>
-
-#### Tips for Strong Notetaking @ Turing
-- **Setup is a key to success:** Having an organization strategy can make it easier to use your notes as a tool. We recommend creating a `Table of Contents ` to make it easier to reference your notes. Also, taking notes on key vocabulary BEFORE a lesson has been useful for some students!
-- **Use different colors:** This can help with modeling syntax highlighting, making notes easier to read, draw attention to different content
-- **Leave plenty of whitespace:** Allows you to add more context, write questions, make connections
-- **Draw or diagram often:** Many concepts can be difficult to understand with just words, use drawings/diagrams to help synthesize and frame information
-- **Pen + Paper > Digital:** Don't rely on taking notes on your computer. Studies have proven that you will retain more information by physically writing your notes. Plus, it will make diagramming and drawing easier! 
  
 ## Time Management at Turing
 As you may have heard, the time commitment at Turing is no joke. In case you HAVEN'T heard, let's just get it out in the open: many students work harder at Turing than they have ever worked before. Remember, this is an accelerated program - you are going to learn the technical and professional skills needed to succeed in demanding, yet high-paying technical careers in only 7ish months!
@@ -133,7 +117,7 @@ A few helpful tips to building a strong calendar...
 - Color coding your calendar can give you a quick snapshot of how you are allocating your time
 - Purposefully build in scheduled time for health, wellness and whatever else you need to be your best self! If you don't plan for it - chances are it won't happen
 - Turing moves fast, but it is still a marathon. How can you make sure you are creating a sustainable schedule/routine?
-- Build in time each week to reflect on how well you stuck to your schedule. Be graceous to yourself and adjust the upcoming week
+- Build in time each week to reflect on how well you stuck to your schedule. Be gracious to yourself and adjust the upcoming week
 - Avoid context shifting too frequently - this can be extremely exhausting! It is better to have dedicated blocks of time for particular tasks as opposed to focusing on a bunch of separate tasks within one block of time
 
 
