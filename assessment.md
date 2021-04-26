@@ -3,7 +3,7 @@ layout: page
 title: Mod 0 Technical Assessment
 subheading: Carefully read all instructions below BEFORE starting!
 ---
-## Directions
+## Directions - READ CAREFULLY BEFORE STARTING!
 This assessment should take you approximately 85 minutes total - be sure you are in a quiet space, free from distractions before you begin the assessment.
 
 The assessment will be broken into two parts - a timed, multiple choice test AND a program-specific short exerise you will complete on your local machine and push to GitHub.
@@ -20,6 +20,16 @@ The assessment will be broken into two parts - a timed, multiple choice test AND
 - If you make an error/typo in one of your commit messages, don't waste time trying to change it - just focus on writing a correct message in your subsequent commits
 - Your instructors will review your work after you submit and may ask you to make revisions before you are considered `Turing Ready`
 - If your work falls far below expectations, you will likely not have an opportunity to make revisions and instead must repeat Mod 0 before considered ready for promotion to Mod 1
+
+### Assessment Evaluation
+After completing the assessment, your instructors will evaluate your readiness for Mod 0 based on your technical proficiency. They will determine one of three outcomes:
+1. Passing technical assessment, no revisions required
+2. Passing technical assessment after a small number of revisions
+3. Failing technical assessment, requires repeat of Mod 0
+
+As a reminder, the technical assessment is only ONE of the data points we use to evaluate readiness for the program. You may still be asked to repeat Mod 0 if you have struggled to show proficiency with professional skills, accountability, interpersonal skills, etc.
+
+**Your instructors will leave feedback directly in your Github repository via an `Issue`** - be sure to have notifictions set to receive emails on your Github so you will be notified when your feedback has come through and check your email a few days after submitting the assessment.
 
 ## Ready to Begin?
 [Click this link](https://github.com/turingschool/mod0_assessment3) when you are ready to begin your assessment! 
