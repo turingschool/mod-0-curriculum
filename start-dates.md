@@ -5,20 +5,6 @@ subheading: All sessions are held remotely via Zoom
 permalink:  start-dates
 ---
 
-### 102A: 2/1/2021 - 2/11/2021
-- **Session 1:** 2/1 @ 6:15pm MST
-- **Session 2:** 2/2 @ 6:15pm MST
-- **Session 3:** 2/4 @ 6:15pm MST
-- **Session 4:** 2/8 @ 6:15pm MST
-- **Session 5:** 2/10 @ 6:15pm MST
-
-### 102B: 2/16/2021 - 3/2/2021
-- **Session 1:** 2/16 @ 6:15pm MST
-- **Session 2:** 2/18 @ 6:15pm MST
-- **Session 3:** 2/23 @ 6:15pm MST
-- **Session 4:** 2/25 @ 6:15pm MST
-- **Session 5:** 3/2 @ 6:15pm MST
-
 ### 105A: 5/10/2021 - 5/19/2021
 - **Session 1:** 5/10 @ 6:15pm MST
 - **Session 2:** 5/11 @ 6:15pm MST
