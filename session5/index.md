@@ -206,7 +206,7 @@ After completing the assessment, your instructors will evaluate your readiness f
 
 As a reminder, the technical assessment is only ONE of the data points we use to evaluate readiness for the program. You may still be asked to repeat Mod 0 if you have struggled to show proficiency with professional skills, accountability, interpersonal skills, etc. 
 
-[Click this link](https://github.com/turingschool/mod0_assessment2) when you are ready to begin your assessment! 
+[Click this link](https://mod0.turing.edu/assessment) when you are ready to begin your assessment! 
 
 ![You got this](https://media.giphy.com/media/xT9IgEYXCNqPZnqMuY/giphy.gif)
 

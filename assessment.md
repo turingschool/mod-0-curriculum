@@ -22,6 +22,6 @@ The assessment will be broken into two parts - a timed, multiple choice test AND
 - If your work falls far below expectations, you will likely not have an opportunity to make revisions and instead must repeat Mod 0 before considered ready for promotion to Mod 1
 
 ## Ready to Begin?
-[Click this link](https://github.com/turingschool/mod0_assessment2) when you are ready to begin your assessment! 
+[Click this link](https://github.com/turingschool/mod0_assessment3) when you are ready to begin your assessment! 
 
 ![You got this](https://media.giphy.com/media/xT9IgEYXCNqPZnqMuY/giphy.gif)
