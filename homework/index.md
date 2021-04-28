@@ -16,6 +16,11 @@ In addition to your HW assignments, you will also have to work on your Mod 1 Pre
 
 If you find yourself falling behind, it is your responsibility to proactively reach out to your instructors to gameplan how to get caught up - treat your instructors as your colleagues AND your project managers!
 
+## Getting Feedback on HW
+Your instructors will leave feedback directly on your HW Gists by leaving a comment. You should ensure that you have Notifications set in your GitHub that will alert you when someone comments via email.
+
+For your HW, Technical Assessment and Mod 1 Prework you will be receiving feedback directly in GitHub via comments and/or Issues. 
+
 ## Stuck?
 The homework and Mod 1 Prework are designed to push you out of your comfort zone. We are looking to see how you grapple with these concepts and are not as concerned about getting a correct solution. However, if you do get stuck be sure to ask your question in your Mod 0 Slack channel! This will lead to the fastest answers to your questions and will allow everyone to benefit from the question you ask.
 
