@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Session 1
-subheading: The Stack, Keyboard Shortcuts, Googling, and Data Types
+subheading: Success at Turing, Files, Directories, Paths, Terminal
 ---
 
 ### Goals
 By the end of this session, you will be able to:
-  - identify note taking strategies for technical content
   - plan and build a calendar that leads to successful outcomes
   - refine searching and filtering skills to Google programming questions
   - notate file paths from diagrams
@@ -92,13 +91,12 @@ Believe it or not, 99% of failing projects at Turing have little to do with tech
 ## Time Management at Turing
 As you may have heard, the time commitment at Turing is no joke. In case you HAVEN'T heard, let's just get it out in the open: many students work harder at Turing than they have ever worked before. Remember, this is an accelerated program - you are going to learn the technical and professional skills needed to succeed in demanding, yet high-paying technical careers in only 7ish months!
 
-Most students estimate they work an **average of 60 hours per week** at Turing- some weeks with fewer hours, some weeks with more hours. While at Turing, **time** is your most valuable commodity-  how you use your time will go a long way in determining your overall success in the program! And ask any student: time has a way of escaping you at Turing unless you are able to manage it successfully.
+Most students estimate they work an **average of 60-70 hours per week** at Turing- some weeks with fewer hours, some weeks with more hours. While at Turing, **time** is your most valuable commodity-  how you use your time will go a long way in determining your overall success in the program! And ask any student: time has a way of escaping you at Turing unless you are able to manage it successfully.
 
 One strategy we've seen our most successful students employ is using some type of calendar system to track, manage and plan their time while in the program. A few key notes:
-- Calendaring is a very difficult skill to master - you will need to commit to practicing it in order to improve!
-- Everyone's system, calendar tool, etc. might be a little different, but those who DON'T use any tool typically struggle with time management while at Turing
-- Calendar's are meant to be living documents that can change - unfortunately you can't plan for everything!
-- Managing your time becomes more important as the program progresses and you are balancing the technical curriculum with searching for your first software developer job! 
+- **Calendaring is a very difficult skill to master** - you will need to commit to practicing it in order to improve!
+- **Find a calendar tool and stick with it** - Everyone's system, calendar tool, etc. might be a little different, but those who DON'T use any tool typically struggle with time management while at Turing. We **STRONGLY RECOMMEND** you use Google Calendars because a) we use that at Turing and b) it is a very popular tool in the field so it is good to practice using it now!
+- **Calendars are meant to be living documents that can change** - Unfortunately you can't plan for everything. Being able to make adjustments to calendars as things change is a very important skill to start practicing
 
 #### Calendar Analysis - Small Groups
 In small groups, take a look at the following [calendar examples](https://gist.github.com/ericweissman/6c4e0d9b658e0014b981093be8694288). 
@@ -109,16 +107,16 @@ Be sure to discuss the following AND jot down your own observations in your note
 - Are there any potential issues with this calendar?
 - Are there any aspects of this calendar you would want to include on your own?
 
-
 After discussing in groups, we will share out observations as a whole!
 
-#### Calendar Tips from Successful Students
-A few helpful tips to building a strong calendar...
-- Color coding your calendar can give you a quick snapshot of how you are allocating your time
-- Purposefully build in scheduled time for health, wellness and whatever else you need to be your best self! If you don't plan for it - chances are it won't happen
-- Turing moves fast, but it is still a marathon. How can you make sure you are creating a sustainable schedule/routine?
-- Build in time each week to reflect on how well you stuck to your schedule. Be gracious to yourself and adjust the upcoming week
-- Avoid context shifting too frequently - this can be extremely exhausting! It is better to have dedicated blocks of time for particular tasks as opposed to focusing on a bunch of separate tasks within one block of time
+#### Time MGMT + Calendar Tips from Successful Students
+- **Purposefully build in scheduled time for health, wellness and whatever else you need to be your best self** If you don't plan for it - chances are it won't happen. Turing moves fast, but it is still a marathon. How can you make sure you are creating a sustainable schedule/routine?
+- **Break down time blocks as much as possible** - anything over an hour will usually be unproductive and give too much time to procrastinate
+- **Avoid context shifting too frequently** - on the flip side, don't break down your blocks too much! For example, trying to cram 4-5 different tasks into a single hour is also not productive and can be extremely exhausting
+- **Treat your blocks of time as appointments that shouldn't be missed** - You woudln't miss an appointment with a mentor, treat your other blocks the same way - even for solo work time!
+- **When you think of something you need to do, put it on your calendar immediately** - For example, if after a particular lesson, I think to myself "I really want to go back and finish that You Do we started in the lesson..." I will immediately pull up my calendar, find a 20ish min block of time in the next couple of days and make an event for working on that particular exercise (and add the link to the lesson and/or exercise to that event)
+- **Reflect on your time management each week** - Build in time each week to reflect on how well you stuck to your schedule. Be gracious to yourself and adjust the upcoming week
+- **Time MGMT becomes more important throughout the program** - As the program progresses you will find yourself balancing more responsibilities, such as attacking the technical curriculum while simultaneously searching for your first software developer job! 
 
 
 ## BREAK 
