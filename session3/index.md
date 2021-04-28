@@ -203,7 +203,7 @@ Watch and take notes while we walk through how to continue making changes and pu
     <li>Add a few new thoughts to your <code>thoughts.md</code> file.</li>
     <li>Save your file using the shortcut <code>command + s</code>.</li>
     <li>Go back to your terminal.</li>
-    <li>Use commands to add and commit your new changes. Be sure to use <code>git status</code> to check your status, and make sure your commit message is properly formatted.</li>
+    <li>Use commands to <b>add</b> and <b>commit</b> your new changes. Be sure to use <code>git status</code> to check your status, and make sure your commit message is properly formatted.</li>
     <li>Push your new changes to GitHub.</li>
     <li>Refresh the page to make sure the new changes appear.</li>
     <li>Repeat the above steps, but this time, remove one of the thoughts from your <code>thoughts.md</code> document, then add, commit, and push your changes.</li>
@@ -243,7 +243,7 @@ git push origin main
 <div class="things-to-note">  
   <h4>Things to Note: Cloning with Git</h4>
   <ul>
-    <li><strong>Never</strong> clone a remote repository within a preexisting <span class="vocab">Git</span> repository. If you watched the video for modifying your <code>.zshrc</code>, then you will see [main] if you're already in a git repository.</li>
+    <li><strong>Never</strong> clone a remote repository within a preexisting <span class="vocab">Git</span> repository. If you watched the video for modifying your <code>.zshrc</code>, then you will see <code>main</code> if you're already in a git repository.</li>
     <li>After cloning a repository, remember to <code>cd</code> into the directory you just cloned to your machine before running commands. If you cannot remember what the directory is called then run<code>ls</code> after cloning to see the contents of your current directory.</li>
     <li>There is no need to run <code>git init</code> within a repository that you cloned down to your local machine. Remote repositories that you clone to your local machine have already been initialized by git. You only ever need to run <code>git init</code> when you've created a repository locally from scratch. If you mess this one up, it's not going to cause any problems; it's just unnecessary.</li>
     <li><strong>Don't</strong> use "Initial commit" as your commit message for a cloned repository. Whoever made the repository already did that. You only need "Initial commit" when you make a new repository for yourself.</li>
