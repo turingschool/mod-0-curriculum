@@ -5,7 +5,7 @@ subheading: Tasks to Complete
 permalink:  before-mod-0
 ---
 
-**Before your first session**, we ask that you complete the following tasks to familiarize yourself with the tools we use on a regular basis and ensure that you are set up to be successful.
+**Before your first Mod 0 session**, we ask that you complete the following tasks to familiarize yourself with the tools we use on a regular basis and ensure that you are set up to be successful.
 
 ### PLEASE PLAN TO SPEND ABOUT 3 HOURS ON THESE TASKS!
 
