@@ -169,13 +169,11 @@ In the diagram below, we would say that there's a directory called `essays` that
   <div>
     <p>The path for the grading.md file is</p>
     <pre>to_do/work/grading.md</pre>
-    <p>What is the path for cleaning.md?</p>
+    <p>What is the path for cleaning.txt?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
-    <p>What is the path for random.md?</p>
+    <p>What is the path for recurring.txt?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
-    <p>What is the path for recurring.md?</p>
-    <textarea rows="1" name="" style="width:100%;"></textarea>
-    <p>What is the path for bills.md?</p>
+    <p>What is the path for grading.txt?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
     <p>What is the path for data_entry.csv?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
