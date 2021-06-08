@@ -64,16 +64,6 @@ Write pseudocode to explain how you would approach transforming the names you re
 #### 10 minutes - Share Outs + Walkthrough
 - Share out as a whole group
 
-## Modeling Data Using Objects/Hashes
-Last session, we learned about basic data types and variables and how we can use these to begin the process of modeling real-world things using code.
-
-Today we are going to take that a bit further as we learn how to use objects/hashes to organize related data together.
-
-We will breakout in FE and BE specific groups to learn how to use these more advanced data structures!
-
-- [Frontend: Objects in Javascript](./objects.md)
-- [Backend: Hashes in Ruby](./hashes.md)
-
 <a name="annotations"></a>
 ## Annotating Code
 Part of being a strong developer is not just writing code. Most of the job is actually reading others code and building on top of it. In order to do so, you'll need to build your skills around:
@@ -187,6 +177,17 @@ In program-specific groups of 2-3, work through the exercises in the [Annotation
 - Be sure to use code comments (`CMD + /`) on each line of code
 
 After the time is up, we will share our annotations in smaller groups!
+
+## Modeling Data Using Objects/Hashes
+Last session, we learned about basic data types and variables and how we can use these to begin the process of modeling real-world things using code.
+
+Today we are going to take that a bit further as we learn how to use objects/hashes to organize related data together.
+
+We will breakout in FE and BE specific groups to learn how to use these more advanced data structures!
+
+- [Frontend: Objects in Javascript](./objects.md)
+- [Backend: Hashes in Ruby](./hashes.md)
+
 
 ## Mod 0 Technical Assessment
 We've come to the end of our instruction in Mod 0 😭! Which means that you are ready to crush your Mod 0 Technical Assessment!
