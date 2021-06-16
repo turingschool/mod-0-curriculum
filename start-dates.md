@@ -12,7 +12,7 @@ permalink:  start-dates
 - **Session 4:** 7/15 @ 6:15pm MST
 - **Session 5:** 7/20 @ 6:15pm MST
 
-### 107B: 7/26/2021 - 8/4/2021
+### 107B: 7/19/2021 - 7/28/2021
 - **Session 1:** 7/26 @ 6:15pm MST
 - **Session 2:** 7/27 @ 6:15pm MST
 - **Session 3:** 7/29 @ 6:15pm MST
