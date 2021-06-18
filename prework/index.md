@@ -43,23 +43,9 @@ The links below will take you to the Github page that contains all the Technical
 
 **Turing is not just a school where you learn to code.** Turing's curriculum focuses on both technical and professional development.
 
-In order to achieve our mission and vision, we also have group sessions each week called Gear Up in order to bring community awareness to certain issues in the tech industry.
+Please thoroughly read the directions and provide as much information as possible to the Career Development team. If you have questions on this prework, please reach out to Allison Reu Singer (@allison_reu_singer) on Slack
 
-The assignments below will be submitted in gists that you will create on your GitHub account. A gist is a text document that can be stored on GitHub. To create a gist, follow the steps below:
-
-* Log in to your GitHub account
-* In the upper right corner, click on the '+' icon
-* Select 'New Gist'
-* Enter a filename, with the extension .md
-* Enter the text of your gist in the large text area
-* click Create PRIVATE Gist
-* You can also visit [gist.github.com](https://gist.github.com/)
-
-We take these exercises seriously, and we ask that you do too. We expect at minimum 4-6 sentences in response to **each** question, but feel free to expand and elaborate as you deem necessary. Use Markdown (this is a programming language used for writing) to format your gists.
-
-Use these exercises to start telling your unique story with your distinct experiences. This is something we will continue to practice during your time at Turing.
-
-You can find the professional development assignments [here](https://github.com/turingschool/career-development-curriculum-site/blob/master/module-1-prework/career_development_mod1_prework.md)
+You can find the professional development assignments [here](https://careerdev.turing.edu/module-1-prework/index)
 
 Submission instructions for the PD assignment will be listed in the link above.
 
