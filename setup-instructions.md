@@ -100,7 +100,7 @@ Follow these steps to get Homebrew installed on your machine:
 
 1. Open `Terminal`. Again, you can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search.
 
-1. Once you have Terminal open, paste this line and hit enter. (remember, skip the `$`)
+1. Once you have Terminal open, paste this line and hit enter
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
