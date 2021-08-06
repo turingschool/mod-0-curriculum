@@ -27,13 +27,15 @@ Feeling apprehensive about asking a questions publicly? Don't be! That's part of
 
 Asking technical questions effectively requires providing the appropriate amount of context to elict strong and speedy responses. Here is a formula for asking questions at Turing and beyond:
 
-- [ ] What are you trying to accomplish?
-- [ ] What have you tried so far?
-- [ ] What specifically are you stuck on?
-- [ ] Provide additional visual context such as inline code examples, code snippets, or screenshots:
+- What are you trying to accomplish?
+- What have you tried so far?
+- What specifically are you stuck on?
+- Provide additional visual context such as inline code examples, code snippets, or screenshots:
   - Use `inline code examples` for short, single lines of code, such as error messages or warnings
+  - When using a screenshot, make sure image is clear and includes clarifying info/captions if necessary
   - Need to show more than one line of code? Use a code block instead - be sure to chose the correct language for your snippet to get proper syntax highlighting + line numbers (in Slack)!
-   ```js
+   
+```js
    //This is an example of a code snippet
    var coolPhrase = 'Gooooood morning campers!';
    
@@ -42,8 +44,7 @@ Asking technical questions effectively requires providing the appropriate amount
    }
    
    sayGreeting(coolPhrase)
-   ```
-  - When using a screenshot, make sure image is clear and includes clarifying info/captions if necessary
+```
   
 If you are unable to provide the information above, it is usually a sign that you haven't spent enough time working on this problem on your own! Also, the process of writing out such a detailed request for help will often allow you to think of new things to try or experiment with and can often allow you to solve the problem on your own.
 
