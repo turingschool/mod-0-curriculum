@@ -5,20 +5,6 @@ subheading: All sessions are held remotely via Zoom
 permalink:  start-dates
 ---
 
-### 2108 0-1: 8/23/2021 - 9/1/2021
-- **Session 1:** 8/23 @ 6:15pm MST
-- **Session 2:** 8/24 @ 6:15pm MST
-- **Session 3:** 8/26 @ 6:15pm MST
-- **Session 4:** 8/30 @ 6:15pm MST
-- **Session 5:** 9/1 @ 6:15pm MST
-
-### 2108 0-2: 9/7/2021 - 9/21/2021
-- **Session 1:** 9/7 @ 6:15pm MST
-- **Session 2:** 9/9 @ 6:15pm MST
-- **Session 3:** 9/14 @ 6:15pm MST
-- **Session 4:** 9/16 @ 6:15pm MST
-- **Session 5:** 9/21 @ 6:15pm MST
-
 ### 2110 0-1: 10/11/2021 - 10/20/2021
 - **Session 1:** 10/11 @ 6:15pm MST
 - **Session 2:** 10/12 @ 6:15pm MST
