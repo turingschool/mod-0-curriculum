@@ -26,12 +26,6 @@ One area we notice students struggle with is HOW and WHEN to take notes, especia
 [Click here](https://gist.github.com/ericweissman/a729a849ed6355ed8ee0c9156a8e9c98) to begin the notetaking activity and begin to setup your own notebook!
 
 
-## Watch the Mod 0 Orientation Video
-[Click here](https://www.youtube.com/watch?v=HPZ3qLQdrZA&list=PL1Y67f0xPzdO9ChmEnqMif4Y5uO3lAl4l&index=1) for the link to Orientation Video
-
-Turing staff members talk about what to expect at Turing and how to be successful here.
-
-
 ## Complete the Turing Computer Setup
 It is critical that you set up your computer according to the instructions outlined in the Computer Setup! You can access the Computer Setup instructions on the left sidebar any time or [click here](https://mod0.turing.io/setup-instructions)! 
 
