@@ -11,11 +11,10 @@ subheading: More Git and Intro to GitHub
 - fork and clone an existing repository
 
 ### Agenda
-  - **6:15** - Housekeeping, Feedback + Goals
-  - **6:25** - Psuedocoding Practice
-  - **6:55** - Break
-  - **7:00** - GitHub
-  - **8:25** - Wrap Up
+  - Housekeeping, Feedback + Goals
+  - Psuedocoding Practice
+  - GitHub
+  - Wrap Up
 
 ### Materials
 - Notebook
