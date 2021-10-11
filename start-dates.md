@@ -33,7 +33,7 @@ permalink:  start-dates
 - **Session 4:** 2/7 @ 6:15pm MST
 - **Session 5:** 2/9 @ 6:15pm MST
 
-### 2201 0-1: 2/15/2022 - 3/1/2022
+### 2201 0-2: 2/15/2022 - 3/1/2022
 - **Session 1:** 2/15 @ 6:15pm MST
 - **Session 2:** 2/17 @ 6:15pm MST
 - **Session 3:** 2/22 @ 6:15pm MST

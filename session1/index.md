@@ -42,9 +42,15 @@ By the end of this session, you will be able to:
   - Last initial
   - Pronouns
   - Program (FE or BE)
-  - Example: 🟡 Eric W (he/him, FE)
+  - Example: 🟡 Kaitlyn V (she/her, FE)
 * Sessions will be recorded and posted in Slack
-* No computer yet? Don't fret for today. If you don't have a mac, please reach out to me! (Eric Weissman or @ericweissman)
+* No computer yet? Don't fret for today. If you don't have a mac, please reach out to me! (Kaitlyn Van Gorkom or @kvg)
+
+Other things to note as we go through Mod 0:
+
+- <strong>Zoom</strong>: turn video on, turn mic off unless speaking
+- <strong>You can raise your hand using zoom</strong>: go ahead and try it now!
+- <strong>Problems or individual questions during the Zoom session?</strong> Send a message in the chat!
 
 ### Breakout Rooms
 
@@ -57,18 +63,11 @@ Some norms before heading in:
 Breakout groups can be a bit awkward at first, but try to embrace them and have fun!
 
 <div class="try-it">
-  <h3>Try It: Break out rooms</h3> 5 minutes (groups of 3 or 4)
+  <h3>Try It: Break out rooms</h3>
   <p>1. Introduce yourself (name, pronouns, program)</p>
   <p>2. Where do you call home?</p>
   <p>3. Why Turing?</p>
-  <p>4. Done? What questions do you still have?</p>
 </div>
-
-Other things to note as we go through Mod 0:
-
-- <strong>Zoom</strong>: turn video on, turn mic off unless speaking
-- <strong>You can raise your hand using zoom</strong>: go ahead and try it now!
-- <strong>Problems or individual questions during the Zoom session?</strong> Send a message in the chat!
 
 <!-- <a name="mythbusting"></a>
 
@@ -474,7 +473,7 @@ Now when I type `ls`, I will no longer see `books` listed.
     </div>
   </div>
 <a name="terminalbreakout"></a>
-### Putting it All Together - groups of 2 or 3 (10 minutes)
+### Putting it All Together
 
 <p>At this point, we'll split into breakout rooms. The person whose name first name starts with the letter closest to T will share their screen by clicking the green "Share Screen" button. We will call this person the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
 
