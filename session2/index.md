@@ -13,11 +13,11 @@ subheading: Terminal, File/folder Structure, Git Basics
   - initialize, add, and commit changes in a local repository 
 
 ### Agenda
-  - **6:15** - Housekeeping, Feedback + Goals
-  - **6:20** - Git Basics
-  - **7:25** - Iteration in Programming
-  - **7:45** - Problem Solving + Pseudocode
-  - **8:25** - Wrap Up
+  - Housekeeping, Feedback + Goals
+  - Git Basics
+  - Iteration in Programming
+  - Problem Solving + Pseudocode
+  - Wrap Up
 
 ### Materials
 - Notebook
@@ -38,10 +38,6 @@ subheading: Terminal, File/folder Structure, Git Basics
 ### Follow-Ups
 
 - For homework, we'll be leaving feedback on your practice tasks and also checking, but not leaving feedback on your readings and responses.
-
-### Today's Goals
-
-(See above)
 
 <div class="try-it">
   <h3>Intros, Review, and Icebreaker (5 minutes)</h3> Groups of 2 or 3
@@ -289,11 +285,6 @@ The basic git workflow is this:
 
 <a href="https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e">Terminal Mistakes Screencast</a>
 
-## BREAK
-
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
-<hr>
-
 
 <a name="iteration"></a>
 ## Iteration
@@ -410,9 +401,6 @@ By "in programming", we mean things that could be done, with relative ease, by a
   </table>
 </div>
 
-## BREAK
-
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 <hr>
 
 # Problem Solving + Pseudocode 
