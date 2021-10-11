@@ -28,9 +28,8 @@ By the end of this session, you will be able to:
   - Headphones & mic
 
 
-### Intro
+### Introductions
 - Instructor intros
-- Goals for session (see above)
 - Follow along by clicking the lesson plan in slack
 
 ## Housekeeping and Follow-ups
@@ -60,8 +59,8 @@ Breakout groups can be a bit awkward at first, but try to embrace them and have 
 <div class="try-it">
   <h3>Try It: Break out rooms</h3> 5 minutes (groups of 3 or 4)
   <p>1. Introduce yourself (name, pronouns, program)</p>
-  <p>2. Where do you call home</p>
-  <p>3. What were your takeaways from the orientation video that you watched in preparation for class?</p>
+  <p>2. Where do you call home?</p>
+  <p>3. Why Turing?</p>
   <p>4. Done? What questions do you still have?</p>
 </div>
 
