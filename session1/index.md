@@ -13,14 +13,12 @@ By the end of this session, you will be able to:
   - make and remove files and directories from the command line
 
 ### Agenda
-  - **6:15** Intro + Housekeeping
-  - **6:30** Success @ Turing
-  - **7:00** Break
-  - **7:05** Files, Directories + Paths
-  - **7:35** Break
-  - **7:40** Terminal + Command Line
-  - **8:05** Googling
-  - **8:25** Homework Preview
+  - Intro + Housekeeping
+  - Success @ Turing
+  - Files, Directories + Paths
+  - Terminal + Command Line
+  - Googling
+  - Closing + Homework Preview
 
 ### Materials
   - Quiet Space
@@ -118,11 +116,6 @@ After discussing in groups, we will share out observations as a whole!
 - **Reflect on your time management each week** - Build in time each week to reflect on how well you stuck to your schedule. Be gracious to yourself and adjust the upcoming week
 - **Time MGMT becomes more important throughout the program** - As the program progresses you will find yourself balancing more responsibilities, such as attacking the technical curriculum while simultaneously searching for your first software developer job! 
 
-
-## BREAK 
-
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
-
 <a name="filesdirectories"></a>
 ## Files, Directories, and Paths
 
@@ -188,10 +181,6 @@ In the diagram below, we would say that there's a directory called `essays` that
     </li>
   </ol>
 </div>
-
-## BREAK 
-
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 
 <hr>
 <a name="terminalcommandline"></a>
