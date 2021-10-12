@@ -1,16 +1,17 @@
 ---
 layout: page
 title: Session 2
-subheading: Terminal, File/folder Structure, Git Basics
+subheading: Problem Solving, Pseudocoding, Git
 ---
 
 ### Goals
+  - explain the purpose of git
+  - initialize, add, and commit changes in a local repository 
   - define and understand iteration at a high level
   - define psuedocoding and problem solving strategies
   - understand and practice Driver - Navigator pairing approach
   - write pseudocode and break problem into smaller steps
-  - explain the purpose of git
-  - initialize, add, and commit changes in a local repository 
+
 
 ### Agenda
   - Housekeeping, Feedback + Goals
@@ -28,7 +29,6 @@ subheading: Terminal, File/folder Structure, Git Basics
 
 ## Housekeeping, Feedback, and Goals
 
-- In the warmup slack thread, post a keyboard shortcut that you practiced and now feel comfortable using.
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
 
 ### Wins
@@ -40,7 +40,7 @@ subheading: Terminal, File/folder Structure, Git Basics
 - For homework, we'll be leaving feedback on your practice tasks and also checking, but not leaving feedback on your readings and responses.
 
 <div class="try-it">
-  <h3>Intros, Review, and Icebreaker (5 minutes)</h3> Groups of 2 or 3
+  <h3>Intros, Review, and Icebreaker</h3>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. What superpower is the most OVERRATED?</p>
   <p>3. What was your biggest takeaway from Session 1?</p>
@@ -158,9 +158,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 Let's talk briefly about this diagram from the git documentation. This diagram shows what you can do **after** you have initialized git:
 
-![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png)
-
-<small><em>Source: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository</em></small>
+![Git Workflow Diagram](https://user-images.githubusercontent.com/63985074/136991085-4f40cef8-18b0-4798-b0fc-80c4f36b04af.png)
 
 <a name="add"></a>
 ### 3. Add a File to Track (<span class="vocab">git add &lt;filename&gt;</span>)
@@ -210,7 +208,7 @@ nothing to commit, working tree clean
 
 Let's figure out on the diagram what we just did:
 
-![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png)
+![Git Workflow Diagram](https://user-images.githubusercontent.com/63985074/136991085-4f40cef8-18b0-4798-b0fc-80c4f36b04af.png)
 
 <a name="diff"></a>
 ### 5. Making File Changes, Adding New Commits, and Viewing Those Changes By Using (<span class="vocab">git diff &lt;filename&gt;</span>)
@@ -245,7 +243,6 @@ The basic git workflow is this:
 <a name="gitbreakout"></a>
 <div class="try-it">
   <h3>Try It: Git Together</h3>
-  <p>Groups of 2 or 3 (10 minutes)</p>
   <p>At this point, we'll split into breakout rooms. The person whose name is first alphabetically will start by sharing their screen, <strong>unless</strong> this person already has significant git experience. Whoever is sharing their screen will be called the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
 
   <p>The driver will be the person typing the commands, but the navigators should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss <strong>why</strong> you are doing each step, or <strong>what</strong> exactly is taking place in each step.</p>
@@ -430,10 +427,10 @@ Pseudocode often reads like an algorithm. Algorithms often read like recipes:
 - Pour coffee into cat mug
 ```
 
-#### Pseudocode Practice (2 mins)
+#### Pseudocode Practice
 On your own, write some pseudocode for how you would make a **Peanut Butter + Jelly sandwich** - remember, think about how you can break this "problem" up into the smallest parts possible to allow for the clearest instructions!
 
-#### Pseudocode Breakout Demo (5 mins)
+#### Pseudocode Breakout Demo
 Watch as your TAs model how to engage in a discussion of technical content as they share their pseudocode for creating a sandwich!
 
 
@@ -473,19 +470,19 @@ Additionally, psuedocoding comes in handy during technical interviews and code c
 
 Write your process for changing a flat tire on an automobile!
 
-#### 3 minutes - on your own
+#### On your own
 - How can you break this problem down into smaller chunks or sub-problems?
 - What steps are needed to get from the initial data (input) to the desired end result (output)?
-#### 5 minutes - in groups 
+#### In groups 
 - In groups, take turns sharing your psuedocode
 - As a group, come up with a Team Pseudocdoe that can borrow parts from all the different group members!
-#### 5 minutes - Share Outs + Walkthrough
+#### Share Outs + Walkthrough
 
 Everyone should read [this article](https://medium.com/@dannysmith/breaking-down-problems-its-hard-when-you-re-learning-to-code-f10269f4ccd5) at some point after class - note that it's written in Ruby, but again, **focus on the process**
 
 
 
-## Close Out
+## Closing
 
 Understanding git and the workflow can be tricky at first; however, this pattern is one that you will come to memorize over time. As you are memorizing the steps, be sure that you know **what** each step does.
 
@@ -494,6 +491,17 @@ Today (and during Mod 0), we'll just be moving forward in time using git. We won
 We do not expect you to have these steps and reasons memorized right now. You can always reference back to this tutorial (or other tutorials that you find online). The more you practice, the easier it will become.
 
 Check out this great resource from built by Turing instructor Amy Holt: https://learn-terminal.turing.io/
+
+#### SSH Check
+
+In your terminal (use shortcuts if you can) check if your ssh keys are configured correctly by running the command below and seeing a success message:
+
+```
+$ ssh -T git@github.com
+Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+**If you get an error message instead of the success message shown above, reply in the Slack thread with your output after running the `$ ssh -T git@github.com` command!**
 
 ## Homework
 
