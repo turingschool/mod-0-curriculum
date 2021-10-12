@@ -38,23 +38,8 @@ subheading: More Git and Intro to GitHub
 - Make sure that you're checking Slack at least once a day
 - Be sure to stay at your home (root) directory or below
 
-### Warm Up
-
-<a name="ssh-check"></a>
-
-#### SSH Check
-
-In your terminal (use shortcuts if you can) check if your ssh keys are configured correctly by running the command below and seeing a success message:
-
-```
-$ ssh -T git@github.com
-Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
-```
-
-In the Slack thread, reply with your output after running the `$ ssh -T git@github.com` command!
-
 <div class="try-it">
-  <h3>Intros, Review, and Icebreaker</h3> groups of 2 or 3 (5 minutes)
+  <h3>Intros, Review, and Icebreaker</h3>
   <p>Person with the lightest color shirt speaks first.</p>
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. Share: What is your favorite cold weather activity? When's the last time you did it?</p>
@@ -84,21 +69,21 @@ See example below (remember, it is OK if you don't understand exactly what is ha
 
 Write pseudocode to explain how you would approach finding the number of sheep in the barn - remember, the smaller you can break up the "steps" the better!
 
-#### 3 minutes - on your own
+#### On your own
 - How can you break this problem down into smaller chunks or sub-problems?
 - What steps are needed to get from the initial data (input) to the desired end result (output)?
 - Are there any "edge" cases you need to check?
-#### 5 minutes - in groups 
+#### In groups 
 - In groups, take turns sharing your psuedocode
 - As a group, come up with a Team Solution that can borrow parts from all the different group members!
-#### 10 minutes - Share Outs + Walkthrough
+#### Share Out + Review
 
 <a name="gitreview"></a>
-## Git Review - groups of 2 or 3 (10 minutes)
+## Git Review
 
 Let's talk once more about this Git diagram.
 
-![Git Workflow Diagram](https://git-scm.com/book/en/v2/images/lifecycle.png)
+![Git Workflow Diagram](https://user-images.githubusercontent.com/63985074/136991085-4f40cef8-18b0-4798-b0fc-80c4f36b04af.png)
 <small><em>Source: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository</em></small>
 
 We'll start by repeating the group git exercise from the last session. This may seem repetitive, but each time you practice, you'll gain muscle memory and procedural understanding.
@@ -164,10 +149,6 @@ This diagram shows how GitHub can be used as a collaboration tool:
 
 Let's take a look at an example of a repo on GitHub: <a href="https://github.com/freeCodeCamp/freeCodeCamp" title="">FreeCodeCamp</a>
 
-
-## BREAK
-
-Turn off your mics and videos and walk away from the computer. Stand up, stretch, drink water. Do a few sit-ups, squats, push-ups, jumping jacks, arm circles, stress ball squeezes, or whatever else moves your body.
 <hr>
 
 ### Creating a Remote Repo on GitHub
