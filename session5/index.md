@@ -34,7 +34,7 @@ Note: Update your zoom display name to include your first name, last initial, pr
   <p>Person with the shortest first name goes first.</p>
   <ol>
     <li>Introduce yourself: name, pronouns</li>
-    <li>What is a book, tv show, or movie that you've read/watched recently and really enjoyed? Why?</li>
+    <li>Share your reflections from Homework 4.</li>
     <li>What progress have you made on your Mod 1 Pre-Work?</li>
   </ol>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
