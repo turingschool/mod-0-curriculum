@@ -40,10 +40,29 @@ subheading: Problem Solving, Pseudocoding, Git
 - For homework, we'll be leaving feedback on your practice tasks and also checking, but not leaving feedback on your readings and responses.
 
 <div class="try-it">
-  <h3>Intros, Review, and Icebreaker</h3>
+  <h3>Intros and Review</h3>
   <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. What superpower is the most OVERRATED?</p>
-  <p>3. What was your biggest takeaway from Session 1?</p>
+  <p>2. What was your biggest takeaway from Session 1?</p>
+  <p>3. Work through the terminal commands review below using driver/navigator.</p>
+
+
+
+</div>
+
+<div class="things-to-note">
+  <h4>Terminal Commands Review</h4>
+  <ol>
+    <li>Type <strong>cd</strong> to get to your home directory (you'll probably already be here, but do it just to be sure)</li>
+    <li>Make a new directory called <strong>session2_review</strong></li>
+    <li>Move into the <strong>session2_review</strong> directory</li>
+    <li>Print the path to your current directory</li>
+    <li>Make a file called <strong>problem_solving.md</strong></li>
+    <li>Make a file called <strong>pseudocoding.md</strong></li>
+    <li>Make a file called <strong>git.md</strong></li>
+    <li>List the contents of your directory (you should see the three files you created)</li>
+    <li>Add the text "Git is a version control system" to the <strong>git.md</strong> file</li>
+    <li>Remove the <strong>session2_review</strong> directory</li>
+  </ol>
 </div>
 
 <a name="git"></a>

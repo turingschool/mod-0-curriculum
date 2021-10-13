@@ -30,11 +30,13 @@ subheading: Data Types, Variables + Modeling Real World Things
 Note: Update your zoom display name to include your first name, last initial, pronouns, and "FE" or "BE"
 
 <div class="try-it">
-  <h3>Intros, Review, and Icebreaker (2-3 people, 5 min)</h3>
+  <h3>Introductions and Review</h3>
   <p>Person with the shortest first name goes first.</p>
-  <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. What is a book, tv show, or movie that you've read/watched recently and really enjoyed? Why?</p>
-  <p>3. Accountability review: what tangible progress have you made toward your mod 0 focus skills?</p>
+  <ol>
+    <li>Introduce yourself: name, pronouns</li>
+    <li>What is a book, tv show, or movie that you've read/watched recently and really enjoyed? Why?</li>
+    <li>What progress have you made on your Mod 1 Pre-Work?</li>
+  </ol>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
 
@@ -53,14 +55,16 @@ Given the following data:
 
 Write pseudocode to explain how you would approach transforming the names you receive into what you'd want to display on your website. Please note that the format is currently `lastname_firstname` and the desired result would be `Firstname Lastname`. Remember, the smaller you can break up the "steps" the better!
 
-#### 3 minutes - on your own
+#### On your own
 - How can you break this problem down into smaller chunks or sub-problems?
 - What steps are needed to get from the initial data (input) to the desired end result (output)?
 - Are there any "edge" cases you need to check?
-#### 5 minutes - in groups
+
+#### In groups
 - In groups, take turns sharing your pseudocode
 - As a group, come up with a Team Solution that can borrow parts from all the different group members!
-#### 10 minutes - Share Outs + Walkthrough
+
+#### Share Out + Review
 - Share out as a whole group
 
 <a name="annotations"></a>
@@ -168,8 +172,8 @@ play_with_cats('Pumpernickel', 'Nigel', 'paperclip')
 # this function will output the string - "Hello Pumpernickel and Nigel - how are you both doing this fine morning!"
 ```
 
-### Practice - 20 minutes
-In program-specific groups of 2-3, work through the exercises in the [Annotations Practice repo](https://github.com/turingschool/annotation_practice).
+### Practice
+In program-specific groups, work through the exercises in the [Annotations Practice repo](https://github.com/turingschool/annotation_practice).
 - Carefully read the instructions in the `README` before starting
 - Take turns being the driver and navigator, but all members of the group should have annotations for each file.
 - You may need to reference your notes, Mod 1 Pre-work, and/or Google
