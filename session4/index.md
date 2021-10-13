@@ -26,18 +26,23 @@ subheading: Data Types, Variables + Modeling Real World Things
 
 ## Housekeeping, Wins/Follow-Ups, and Goals
 
-### Wins
-
-- Most common answer to git question from survey: "I can name the steps of the git workflow and can put them in practice (using a reference)."
-- This is expected, and we use references as programmers on the job all the time, at some point it'll be muscle memory
-- Great job asking and answering each others questions in the slack channel!
-
 ### Follow-Ups
 
 - We're in the process of leaving feedback on everyone's homework, be sure to check your gists!
   - Suggestions and feedback are there for your benefit
 - Make sure that you're checking Slack at least once a day
 - Be sure to stay at your home (root) directory or below
+
+<div class="try-it">
+  <h3>Intros and Review</h3>
+  <p>Person with the most siblings starts.</p>
+  <ol>
+    <li>Introduce yourself: name, pronouns, program</li>
+    <li>What is the difference between a fork and a clone?</li>
+    <li>What commands would you run to track changes in Git and then push to a remote repository on GitHub?</li>
+  </ol>
+  <p>Extra time? Share any helpful resources you’ve come across!</p>
+</div>
 
 ### Psuedocode Practice: Tricky Word Problems
 
@@ -55,25 +60,21 @@ See example below (remember, it is OK if you don't understand exactly what is ha
 
 Write pseudocode to explain how you would approach checking whether a given word is a palindrome or not - remember, the smaller you can break up the "steps" the better!
 
-#### 3 minutes - on your own
+#### On your own
 - How can you break this problem down into smaller chunks or sub-problems?
 - What steps are needed to get from the initial data (input) to the desired end result (output)?
 - Are there any "edge" cases you need to check?
-#### 5 minutes - in groups
+
+#### In groups
 - In groups, take turns sharing your psuedocode
 - As a group, come up with a Team Solution that can borrow parts from all the different group members!
-#### 10 minutes - Share Outs + Walkthrough
+
+#### Share Out + Review
 
 <a name="datatypes"></a>
 ## Basic Data Types + Variable Assignment
 
 In most programming languages, you'll find the same basic <span class="vocab">data types</span>. A data type represents the kind of data that you can use in the programming language. In this section, we'll discuss five different basic data types that are applicable to both the front end and back end. Luckily for us, the <span class="vocab">syntax</span> (the way we write) for these basic data types is almost identical in Ruby and JavaScript.
-
-
-### Data Type Use Cases and Syntax Practice
-We are going to break out into program specific small groups to start working through these skills!
-- [Frontend: Data Types + Variable Assignment in Javascript](./data-types-fe.md)
-- [Backend: Data Types + Variable Assignment in Ruby](./data-types-be.md)
 
 ## Technical Assessment Prep
 You will be taking the technical assessment following the last session of Mod 0. It is a good idea to begin preparing for this assessment now so that you feel comfortable and confident with the material.
@@ -101,3 +102,8 @@ We **STRONGLY** recommend that you study ahead of time for this assessment. Luck
   - How to model data using objects and variables (coming in Session 5)
 
   Preparing for this assessment is a great way to start building relationships with your community - remember, Turing is NOT a competition! We highly encourage you to use resources such as Slack calls, Zoom meetings, screen sharing, Driver - Navigator, etc. to work with your cohortmates to practice these skills!
+
+### Data Type Use Cases and Syntax Practice
+We are going to break out into program specific small groups to start working through these skills!
+- [Frontend: Data Types + Variable Assignment in Javascript](./data-types-fe.md)
+- [Backend: Data Types + Variable Assignment in Ruby](./data-types-be.md)

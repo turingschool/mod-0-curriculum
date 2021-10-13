@@ -39,11 +39,20 @@ subheading: More Git and Intro to GitHub
 - Be sure to stay at your home (root) directory or below
 
 <div class="try-it">
-  <h3>Intros, Review, and Icebreaker</h3>
-  <p>Person with the lightest color shirt speaks first.</p>
-  <p>1. Introduce yourself: name, pronouns</p>
-  <p>2. Share: What is your favorite cold weather activity? When's the last time you did it?</p>
-  <p>3. What metaphor would you use to describe the git staging area?</p>
+  <h3>Intros and Review</h3>
+  <p>Person with their birthday coming up next starts.</p>
+  <ol>
+    <li>Introduce yourself: name, pronouns</li>
+    <li>What metaphor would you use to describe the git staging area?</li>
+    <li>Review the following Git commands. What is the purpose of each one?</li>
+      <ul>
+        <li>git init</li>
+        <li>git add</li>
+        <li>git commit -m</li>
+        <li>git status</li>
+        <li>git diff</li>
+      </ul>
+  </ol>
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
 
@@ -73,9 +82,11 @@ Write pseudocode to explain how you would approach finding the number of sheep i
 - How can you break this problem down into smaller chunks or sub-problems?
 - What steps are needed to get from the initial data (input) to the desired end result (output)?
 - Are there any "edge" cases you need to check?
+
 #### In groups 
-- In groups, take turns sharing your psuedocode
+- In groups, take turns sharing your pseudocode
 - As a group, come up with a Team Solution that can borrow parts from all the different group members!
+
 #### Share Out + Review
 
 <a name="gitreview"></a>
@@ -84,7 +95,6 @@ Write pseudocode to explain how you would approach finding the number of sheep i
 Let's talk once more about this Git diagram.
 
 ![Git Workflow Diagram](https://user-images.githubusercontent.com/63985074/136991085-4f40cef8-18b0-4798-b0fc-80c4f36b04af.png)
-<small><em>Source: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository</em></small>
 
 We'll start by repeating the group git exercise from the last session. This may seem repetitive, but each time you practice, you'll gain muscle memory and procedural understanding.
 
@@ -163,7 +173,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
 1. Paste the lines listed, one at a time, in your terminal. <strong>Make sure to follow instructions for SSH</strong>
 1. Refresh Github. Tada! Your project is there.
 
-<div class="try-it"> groups of 3 or 4 (8 minutes)
+<div class="try-it">
   <h3>Try It: Adding a Remote</h3>
   <p>1. Create a new repository on GitHub called <code>git_homework</code>.</p>
   <p>2. In your terminal, navigate to your <code>git_homework</code> directory from session 2's homework.</p>
@@ -176,7 +186,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
 Watch and take notes while we walk through how to continue making changes and pushing those changes to GitHub.
 
 <div class="try-it">
-  <h3>Try It: Full Git Workflow</h3> groups of 3 or 4 (10 minutes)
+  <h3>Try It: Full Git Workflow</h3>
   <p>In your breakout rooms, <strong>everyone</strong> will complete the steps below synchronously, but on your own projects. Use each other as resources and sounding boards. Don't hesitate to click "share screen" if there's something you want your team to look at!</p>
   <p>If you get really stuck, you can click "ask for help" and we'll pop into your room.</p>
   <ul>
@@ -231,7 +241,7 @@ git push origin main
 </div>
 
 <div class="try-it">
-  <h3>Try It: Forking</h3> groups of 3 or 4 (8 minutes)
+  <h3>Try It: Forking</h3>
   <ol>
     <li>Fork the <a href="https://github.com/turingschool/best_animals" title="Best Animals">Best Animals</a> repository.</li>
     <li>Clone <strong>your</strong> fork using your terminal.</li>
@@ -239,8 +249,8 @@ git push origin main
     <li>Add a few animals to the mammals.md file.</li>
     <li>Add and commit your changes.</li>
     <li>Push your changes to the origin (which is your fork).</li>
-    <p>Done? Repeat steps 4-6 with another animal file.</p>
   </ol>
+  <p>Done? Repeat steps 4-6 with another animal file.</p>
 </div>
 
 
