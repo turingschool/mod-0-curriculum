@@ -45,7 +45,7 @@ Rather than download Xcode via the Apple Store, we can get a much smaller select
 Follow these steps to get Xcode-select installed on your machine:
 
 1. Open the Terminal by pressing the `Command + Space` keys at the same time, which opens Spotlight, and then type `Terminal` into the search.
-1. Press the enter key to open `Terminal`
+1. Press the enter key to open `Terminal`.
 1. Once terminal is open, type the following **without the `$` symbol**: 
  ```
   $ xcode-select --install
@@ -101,23 +101,13 @@ Follow these steps to get Homebrew installed on your machine:
 1. Open `Terminal`. Again, you can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search.
 
 1. Once you have Terminal open, paste this line and hit enter
-
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-1. When prompted, enter the password you use to login to your computer. It needs this because it installs its packages in a place that all users of this computer can access.
+1. When prompted, enter the password you use to login to your computer. It needs this because it installs its packages in a place that all users of this computer can access. You will get a message that says, `Press RETURN to continue or any other key to abort`. Press return.
 
-1. When the process has completed, you will be given instructions for updating your `PATH` - follow the output from your terminal. It should look similar to this:
-```
-==> Next steps:
-- Add Homebrew to your PATH in /Users/yourname/.zprofile:
-    echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/yourname/.zprofile
-    eval $(/opt/homebrew/bin/brew shellenv)
-```
-
-1. When it has completed the installation, type `brew doctor` in your terminal + press enter. It should tell you that everything is fine:
-
+1. When it has completed the installation, which may take some time, quit the terminal using `CMD + q` and start a new terminal session. Type `brew doctor` in your terminal and press enter. It should tell you that everything is fine:
 ```
 $ brew doctor
 Your system is ready to brew.
@@ -133,9 +123,7 @@ $ source ~/.zshrc
 ``` -->
 
 ### I followed the above instructions and Homebrew won't install!
-No worries! This likely means you have one of Apple's newest M1 laptops - fancy you 😉 ! Essentially, some programs are not currently supported with this setup, Homebrew being one of them. 
-
-However, there is another way to get Homebrew installed using a program that's built into your Mac known as `Rosetta`
+No worries! There is another way to get Homebrew installed using a program that's built into your Mac known as `Rosetta`.
 
 [This video](https://www.youtube.com/watch?v=nv2ylxro7rM) does a solid job of walking you through the steps to install Homebrew using Rosetta - don't worry about the native setup.
 
