@@ -94,7 +94,7 @@ Write pseudocode to explain how you would approach finding the number of sheep i
 
 Let's talk once more about this Git diagram.
 
-![Git Workflow Diagram](https://user-images.githubusercontent.com/63985074/136991085-4f40cef8-18b0-4798-b0fc-80c4f36b04af.png)
+![git-diagram-light](https://user-images.githubusercontent.com/63985074/139125657-b581818f-e9c9-4efb-b441-28010c48b560.png)
 
 We'll start by repeating the group git exercise from the last session. This may seem repetitive, but each time you practice, you'll gain muscle memory and procedural understanding.
 
@@ -141,7 +141,7 @@ During Mod 0, we will not be exploring the collaborative functionality of GitHub
 
 Let's first discuss this diagram:
 
-![Github Diagram](http://frontend.turing.io/assets/images/lessons/git/github-diagrams.002.jpeg)
+![git-github-light](https://user-images.githubusercontent.com/63985074/139126293-3ba6d640-da5d-4c6d-9dcb-5d5ef52ff684.png)
 
 <p><small><em>Source: http://frontend.turing.io/assets/images/lessons/git/github-diagrams.002.jpeg</em></small></p>
 
@@ -153,7 +153,7 @@ Let's first discuss this diagram:
 
 This diagram shows how GitHub can be used as a collaboration tool:
 
-![Collaborative Github Diagram](https://qph.fs.quoracdn.net/main-qimg-a161bdd97e4e0de40d999ac222fe2008.webp)
+![github-collab-light](https://user-images.githubusercontent.com/63985074/139126462-33c7c8f1-b18e-4003-bf35-32b6d4cfad1f.png)
 
 <small><em>Source: https://www.quora.com/What-is-git-and-repository</em></small>
 
