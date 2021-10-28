@@ -177,7 +177,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 Let's talk briefly about this diagram from the git documentation. This diagram shows what you can do **after** you have initialized git:
 
-![Git Workflow Diagram](https://user-images.githubusercontent.com/63985074/136991085-4f40cef8-18b0-4798-b0fc-80c4f36b04af.png)
+![git-diagram-light](https://user-images.githubusercontent.com/63985074/139125657-b581818f-e9c9-4efb-b441-28010c48b560.png)
 
 <a name="add"></a>
 ### 3. Add a File to Track (<span class="vocab">git add &lt;filename&gt;</span>)
@@ -227,7 +227,7 @@ nothing to commit, working tree clean
 
 Let's figure out on the diagram what we just did:
 
-![Git Workflow Diagram](https://user-images.githubusercontent.com/63985074/136991085-4f40cef8-18b0-4798-b0fc-80c4f36b04af.png)
+![git-diagram-light](https://user-images.githubusercontent.com/63985074/139125657-b581818f-e9c9-4efb-b441-28010c48b560.png)
 
 <a name="diff"></a>
 ### 5. Making File Changes, Adding New Commits, and Viewing Those Changes By Using (<span class="vocab">git diff &lt;filename&gt;</span>)

@@ -136,24 +136,24 @@ Let's try to use all of the different data types that we've learned so far to mo
 
 ```rb
 #variables that use strings
-name = 'Mt. Muffinman';
-nearest_town = 'Alma, CO';
-difficulty_level = 'Advanced';
+name = 'Mt. Muffinman'
+nearest_town = 'Alma, CO'
+difficulty_level = 'Advanced'
 
 #variables that use numbers
-elevation = 10578;
-number_of_trails = 17;
-parking_lot_capacity = 50;
+elevation = 10578
+number_of_trails = 17
+parking_lot_capacity = 50
 
 #variables that use booleans
-been_summited = true;
-is_haunted = false;
-is_treacherous = true;
+been_summited = true
+is_haunted = false
+is_treacherous = true
 
 #variables that use arrays
-local_fauna = ['bear', 'elk', 'chipmunk'];
-local_flora = ['lilac', 'bluebell', 'fireweed', 'columbine'];
-park_rangers = ['Dave Brackmann'];
+local_fauna = ['bear', 'elk', 'chipmunk']
+local_flora = ['lilac', 'bluebell', 'fireweed', 'columbine']
+park_rangers = ['Dave Brackmann']
 ```
 
 ### You Do - Variable Assignment

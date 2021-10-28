@@ -32,6 +32,6 @@ As a reminder, the technical assessment is only ONE of the data points we use to
 **Your instructors will leave feedback directly in your Github repository via an `Issue`** - be sure to have notifictions set to receive emails on your Github so you will be notified when your feedback has come through and check your email a few days after submitting the assessment.
 
 ## Ready to Begin?
-[Click this link](https://github.com/turingschool/mod0_assessment2) when you are ready to begin your assessment! 
+[Click this link](https://github.com/turingschool/mod0_assessment3) when you are ready to begin your assessment! 
 
 ![You got this](https://media.giphy.com/media/xT9IgEYXCNqPZnqMuY/giphy.gif)

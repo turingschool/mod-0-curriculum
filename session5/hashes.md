@@ -12,18 +12,18 @@ In small groups, discuss what variables are and why they are useful in programmi
 Take a look at the following variables from last session that we used to start beginning to model a `mountain`
 
 ```rb
-name = 'Mt. Muffinman';
-nearest_town = 'Alma, CO';
-difficulty_level = 'Advanced';
-elevation = 10578;
-number_of_trails = 17;
-parking_lot_capacity = 50;
-been_summited = true;
-is_haunted = false;
-is_treacherous = true;
-local_fauna = ['bear', 'elk', 'chipmunk'];
-local_flora = ['lilac', 'bluebell', 'fireweed', 'columbine'];
-park_rangers = ['Dave Brackmann'];
+name = 'Mt. Muffinman'
+nearest_town = 'Alma, CO'
+difficulty_level = 'Advanced'
+elevation = 10578
+number_of_trails = 17
+parking_lot_capacity = 50
+been_summited = true
+is_haunted = false
+is_treacherous = true
+local_fauna = ['bear', 'elk', 'chipmunk']
+local_flora = ['lilac', 'bluebell', 'fireweed', 'columbine']
+park_rangers = ['Dave Brackmann']
 ```
 
 To a human/developer, we can scan these variables and naturally make a connection that they are related.

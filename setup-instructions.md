@@ -55,8 +55,8 @@ Rather than download Xcode via the Apple Store, we can get a much smaller select
 Follow these steps to get Xcode-select installed on your machine:
 
 1. Open the Terminal by pressing the `Command + Space` keys at the same time, which opens Spotlight, and then type `Terminal` into the search.
-1. Press the enter key to open `Terminal`
-1. Once terminal is open, type the following **without the `$` symbol**:
+1. Press the enter key to open `Terminal`.
+1. Once terminal is open, type the following **without the `$` symbol**: 
  ```
   $ xcode-select --install
  ```
@@ -111,23 +111,13 @@ Follow these steps to get Homebrew installed on your machine:
 1. Open `Terminal`. Again, you can get to Terminal by pressing the `Command + Space` keys at the same time, then typing `Terminal` into the search.
 
 1. Once you have Terminal open, paste this line and hit enter
-
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-1. When prompted, enter the password you use to login to your computer. It needs this because it installs its packages in a place that all users of this computer can access.
+1. When prompted, enter the password you use to login to your computer. It needs this because it installs its packages in a place that all users of this computer can access. You will get a message that says, `Press RETURN to continue or any other key to abort`. Press return.
 
-1. When the process has completed, you will be given instructions for updating your `PATH` - follow the output from your terminal. It should look similar to this:
-```
-==> Next steps:
-- Add Homebrew to your PATH in /Users/yourname/.zprofile:
-    echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/yourname/.zprofile
-    eval $(/opt/homebrew/bin/brew shellenv)
-```
-
-1. When it has completed the installation, type `brew doctor` in your terminal + press enter. It should tell you that everything is fine:
-
+1. When it has completed the installation, which may take some time, quit the terminal using `CMD + q` and start a new terminal session. Type `brew doctor` in your terminal and press enter. It should tell you that everything is fine:
 ```
 $ brew doctor
 Your system is ready to brew.
@@ -143,9 +133,7 @@ $ source ~/.zshrc
 ``` -->
 
 ### I followed the above instructions and Homebrew won't install!
-No worries! This likely means you have one of Apple's newest M1 laptops - fancy you 😉 ! Essentially, some programs are not currently supported with this setup, Homebrew being one of them.
-
-However, there is another way to get Homebrew installed using a program that's built into your Mac known as `Rosetta`
+No worries! There is another way to get Homebrew installed using a program that's built into your Mac known as `Rosetta`.
 
 [This video](https://www.youtube.com/watch?v=nv2ylxro7rM) does a solid job of walking you through the steps to install Homebrew using Rosetta - don't worry about the native setup.
 
@@ -159,7 +147,7 @@ I've also outlined the steps here:
 1. Open the `Terminal` app by either double clicking the icon or using a Spotlight search for `Terminal`
 1. Proceed with Step 2 from the instructions above this section!
 
-## 5) Setup Github
+## 5) Setup GitHub
 If you haven't had a chance to sign up for [Github](https://github.com/), now is a good time to do that.
 
 Update your [GitHub Profile](https://github.com/settings/profile) and be sure that you choose a username, status, profile info and picture that is PROFESSIONAL and APPROPRIATE! Future employers will be looking at your Github to see your projects, code, etc.
@@ -173,7 +161,6 @@ One other thing to clear up - `git` is not the same thing as `Github`. You'll le
 To install Git, we will use Homebrew. Follow these steps to install `git` on your machine:
 
 1. Open your Terminal, and type this:
-
 ```
 $ brew install git
 ```
@@ -205,7 +192,6 @@ We can tell git to configure itself using the git config command from our termin
 
 1. Open Terminal with Spotlight search (press the `Command + Space` keys like we did previously).
 1. Type the following, one at a time, **SUBSTITUTING YOUR OWN NAME AND EMAIL** for the first two commands:
-
 ```
 git config --global user.name "Eric Weissman"
 git config --global user.email eric@example.com
@@ -214,8 +200,7 @@ git config --global core.editor "atom --wait"
 git config --global pull.rebase false
 ```
 
-1. You can verify that this is working by typing `git config --list` in your terminal and checking the output:
-
+1. You can verify that this is working by typing `git config --list` in your terminal and checking the output: 
 ```
 $ git config --list
 credential.helper=osxkeychain
@@ -224,8 +209,8 @@ user.email=eric@example.com
 init.defaultbranch=main
 core.editor=atom --wait
 pull.rebase=false
-
 ```
+
 If you get "stuck" in the screen showing the output of `git config --list`, **don't panic!** Just type `q`, and you should get back to your regular terminal.
 
 
@@ -278,17 +263,13 @@ This can be a bit tricky to do, so here's another quick walk-through, of _just_ 
 
 Follow these steps to generate a new key:
 1. Open terminal and enter the following command - **You should use the email associated with your GitHub account**
-
 ```
 $ ssh-keygen -t rsa -C "johndoe@example.com"
 ```
 
 1. When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location, which is `~/ssh/id_rsa`
 
-1. When asked to enter a password, hit `enter`, which means "no password".
-
-You'll see a confirmation message that looks like:
-
+1. When asked to enter a password, hit `enter`, which means "no password". You'll see a confirmation message that looks like:
 ```
 Your identification has been saved in id_rsa.
 Your public key has been saved in id_rsa.pub.
