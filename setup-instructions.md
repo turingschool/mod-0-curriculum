@@ -12,7 +12,8 @@ Complete the following steps before Mod 0 in order to get the tools you'll need 
 
 Here's what we'll cover in this guide. Click a link to jump to that portion of the guide:
 
-- [New to Mac?](#1-new-to-mac)
+- [New to Mac?](#0-new-to-mac)
+- [Enable Screen Sharing](#1-enable-screen-sharing)
 - [Install Atom as your Text Editor](#2-install-atom-as-your-text-editor)
 - [Install Xcode-select](#3-install-xcode-select)
 - [Install Homebrew](#4-install-homebrew)
@@ -26,9 +27,18 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 
 Lets get started:
 
-## 1) New to Mac?
+## 0) New to Mac?
 
 If this is your first time using a Mac instead of a PC or Linux, then watch [this video](https://www.youtube.com/watch?v=MN0FD8KW2V4) about the basics of using a Mac.
+
+## 1) Enable Screen Sharing
+
+Turing is a 100% remote program, which means you will be sharing your screen A LOT. If you are new to Zoom, you will probably need to enable its screen sharing permission:
+
+1. Open the System Preferences app by pressing the `Command + Space` keys at the same time, which opens Spotlight, and then type `System Preferences` into the search and hit enter.
+1. Click `Security and Privacy`
+1. Click the `Privacy` tab
+1. Scroll down to Screen Recording and check the option for zoom.us.app
 
 ## 2) Install Atom as your Text Editor
 
@@ -180,7 +190,7 @@ We'll want to configure git with some basic information about us.
 
 We can tell git to configure itself using the git config command from our terminal. Additionally, we're setting "global" configurations for git, so we'll use the --global flag when we provide it with a new piece of configuration.
 
-1. Open Terminal with Spotlight search (press the `Command + Space` keys like we did previously). 
+1. Open Terminal with Spotlight search (press the `Command + Space` keys like we did previously).
 1. Type the following, one at a time, **SUBSTITUTING YOUR OWN NAME AND EMAIL** for the first two commands:
 ```
 git config --global user.name "Eric Weissman"
@@ -225,7 +235,7 @@ Install the shell commands for Atom. Open Atom (from your Applications folder), 
 ![Install Shell Commands](/images/install_shell_commands.jpg)
 
 To confirm that Atom is working from your command line, complete the following steps:
-1. Open Terminal with Spotlight search (`Command + Space`), type `terminal` and hit enter. 
+1. Open Terminal with Spotlight search (`Command + Space`), type `terminal` and hit enter.
 1. Type `atom .` in your terminal. **Be sure to include a space between `atom` and the `.`** If it is setup correctly, the atom editor will automatically open.
 1. If you get an error, make sure you've selected `Install Shell Commands` from the Atom menu.
 1. If is _still_ not working, try entering this in the command line:
@@ -242,7 +252,7 @@ Atom also offers a number of different options and packages that you can customi
 
 SSH keys are a more secure and convenient way of authenticating than typing in our password every time we want to interact with Github.
 
-This is getting fairly advanced, so if you want to stop the setup instructions here, and come back later once you're annoyed at entering your Github password regularly, that's totally fine.
+This is getting fairly advanced, so we'd recommend taking a quick break, grabbing a coffee, and then come back once you feel refreshed.
 
 This can be a bit tricky to do, so here's another quick walk-through, of _just_ adding Github SSH keys:
 
@@ -286,7 +296,7 @@ The key's randomart image is:
 $ ssh-add ~/.ssh/id_rsa
 ```
 
-### 3. Copy the new _public_ key to your clipboard:
+### 3. Copy the new _public_ key to your clipboard (then we will paste it in GitHub in step 4):
 
 - In your terminal, run:
 ```
