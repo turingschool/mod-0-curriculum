@@ -137,7 +137,7 @@ I've also outlined the steps here:
 1. Open the `Terminal` app by either double clicking the icon or using a Spotlight search for `Terminal`
 1. Proceed with Step 2 from the instructions above this section!
 
-## 5) Setup Github
+## 5) Setup GitHub
 If you haven't had a chance to sign up for [Github](https://github.com/), now is a good time to do that.
 
 Update your [GitHub Profile](https://github.com/settings/profile) and be sure that you choose a username, status, profile info and picture that is PROFESSIONAL and APPROPRIATE! Future employers will be looking at your Github to see your projects, code, etc.
@@ -151,11 +151,10 @@ One other thing to clear up - `git` is not the same thing as `Github`. You'll le
 To install Git, we will use Homebrew. Follow these steps to install `git` on your machine:
 
 1. Open your Terminal, and type this:
-
 ```
 $ brew install git
 ```
-1. Check that it was successful by typing `git` in the terminal. It should output: 
+1. Check that it was successful by typing `git` in the terminal. It should output:
 
 ```
 $ git
@@ -183,7 +182,6 @@ We can tell git to configure itself using the git config command from our termin
 
 1. Open Terminal with Spotlight search (press the `Command + Space` keys like we did previously). 
 1. Type the following, one at a time, **SUBSTITUTING YOUR OWN NAME AND EMAIL** for the first two commands:
-
 ```
 git config --global user.name "Eric Weissman"
 git config --global user.email eric@example.com
@@ -193,7 +191,6 @@ git config --global pull.rebase false
 ```
 
 1. You can verify that this is working by typing `git config --list` in your terminal and checking the output: 
-
 ```
 $ git config --list
 credential.helper=osxkeychain
@@ -202,8 +199,8 @@ user.email=eric@example.com
 init.defaultbranch=main
 core.editor=atom --wait
 pull.rebase=false
-
 ```
+
 If you get "stuck" in the screen showing the output of `git config --list`, **don't panic!** Just type `q`, and you should get back to your regular terminal.
 
 
@@ -256,17 +253,13 @@ This can be a bit tricky to do, so here's another quick walk-through, of _just_ 
 
 Follow these steps to generate a new key:
 1. Open terminal and enter the following command - **You should use the email associated with your GitHub account**
-
 ```
 $ ssh-keygen -t rsa -C "johndoe@example.com"
 ```
 
 1. When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location, which is `~/ssh/id_rsa`
 
-1. When asked to enter a password, hit `enter`, which means "no password".
-
-You'll see a confirmation message that looks like:
-
+1. When asked to enter a password, hit `enter`, which means "no password". You'll see a confirmation message that looks like:
 ```
 Your identification has been saved in id_rsa.
 Your public key has been saved in id_rsa.pub.
