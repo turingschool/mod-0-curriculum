@@ -14,9 +14,17 @@ The Mod 1 Prework is divided into three sections: Technical, Professional Develo
 The following assignments are due based on your mod 0 section and can be found on the [mod 0 calendar]({{ site.baseurl }}/calendar)
 
 The pre-work is made up of 3 parts:
-* [Technical]({{ site.baseurl }}#technical)
 * [Professional Development]({{ site.baseurl }}#professional-dev)
+* [Technical]({{ site.baseurl }}#technical)
 * [Gear Up]({{ site.baseurl }}#gear-up)
+
+## Professional Development (2 hours)
+
+**Turing is not just a school where you learn to code.** Turing's curriculum focuses on both technical and professional development.
+
+Please thoroughly read the directions and provide as much information as possible to the Career Development team. If you have questions on this prework, please reach out to Allison Reu Singer (@allison_reu_singer) on Slack.
+
+[You can find the professional development assignments here](https://careerdev.turing.edu/module-1-prework/index). Submission instructions are included.
 
 ## Technical Prework (Program Specific) (~ 35 hours)
 
@@ -38,16 +46,6 @@ The links below will take you to the Github page that contains all the Technical
 
 - **Your prework due date is based on your Mod 0 cohort** - Check your Mod 0 calendar to see when the prework is due.If you are not starting Turing right after completing Mod 0, we have some recommended extensions to keep your skills sharp! 
 - **Do NOT work on your technical prework within Github's interface** - Part of the technical prework involves getting you used to working on your work locally (on your computer) and then pushing your changes to GitHub. If you are working directly in Github's interface to edit your work, you will likely run into some issues keeping your work in sync. 
-
-## Professional Development (2 hours)
-
-**Turing is not just a school where you learn to code.** Turing's curriculum focuses on both technical and professional development.
-
-Please thoroughly read the directions and provide as much information as possible to the Career Development team. If you have questions on this prework, please reach out to Allison Reu Singer (@allison_reu_singer) on Slack
-
-You can find the professional development assignments [here](https://careerdev.turing.edu/module-1-prework/index)
-
-Submission instructions for the PD assignment will be listed in the link above.
 
 ## Gear Up (2 hours)
 
