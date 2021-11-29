@@ -54,10 +54,6 @@ Slack is our main communication tool at Turing. You will receive an invite to jo
       code snippets in Slack
       That make it easier to share larger blocks of code
     ```
-- Join additional channels according to your interests! A few we recommend are:
-  - #salaries
-  - #announcements
-  - #broadcast
 
 ## FE vs BE Activity
 While you likely have picked your track for Turing, it's still critical to understand how front-end and back-end works together!
