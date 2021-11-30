@@ -10,7 +10,6 @@ permalink:  before-mod-0
 ### PLEASE PLAN TO SPEND ABOUT 3 HOURS ON THESE TASKS!
 
 1. Notetaking @ Turing (20 mins)
-1. Mod 0 Orientation Video (50 mins)
 1. Computer Setup (30 mins)
 1. Zoom Setup + Housekeeping (5 mins)
 1. Slack (15 mins)
