@@ -237,7 +237,7 @@ In the diagram below, we would say that there's a directory called `essays` that
   </div>
   <div>
     <p>The path for the grading.md file is</p>
-    <pre>to_do/work/grading.md</pre>
+    <pre>to_do/work/grading.txt</pre>
     <p>What is the path for cleaning.md?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
     <p>What is the path for random.md?</p>
