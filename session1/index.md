@@ -7,7 +7,6 @@ subheading: Success at Turing, Files, Directories, Paths, Terminal
 ### Goals
 By the end of this session, you will be able to:
   - plan and build a calendar that leads to successful outcomes
-  - refine searching and filtering skills to Google programming questions
   - notate file paths from diagrams
   - navigate through directories from the command line
   - make and remove files and directories from the command line
@@ -17,7 +16,6 @@ By the end of this session, you will be able to:
   - Success @ Turing
   - Files, Directories + Paths
   - Terminal + Command Line
-  - Googling
   - Closing + Homework Preview
 
 ### Materials
@@ -526,58 +524,6 @@ The person who has not yet been the driver will share their screen.
 1. Add the text "The terminal is an interface to give commands to the computer" to the `terminal.md` file
 1. Get back out of the `session3_practice` directory
 1. Remove the `session3_practice` directory
-
-<a name="findinganswers"></a>
-## Googling
-
-Believe it or not, a good chunk of your time as a programmer will be spent Googling to find answers to your questions. In fact, a somewhat experienced programmer will Google at a much higher rate than a beginning programmer. Therefore, it's really important to get good at Googling.
-
-For a frame of reference so that you know just how often we rely on Google (even the "easy" stuff), this is my most recent Chrome history as I've been building this curriculum 😂
-
-<img style="width: 50%" src="images/rachel_history.png" alt="Rachel's search history">
-
-When I Google programming questions, I _usually_ include three things (in varying orders):
-
-- What I want to do (verb)
-- to what thing (noun)
-- using what language or tool
-
-For example, if I wanted to add a thick green border to a heading on my webpage and I'm using plain CSS for styling, I might google this:
-
-```
-how to add border to heading css
-```
-
-or
-
-```
-make border on heading element css
-```
-***SUPER IMPORTANT:*** You might not get the results you're looking for on the first go-around.
-
-<div class="try-it">
-  <h3>Try It: Writing Google-able Phrases</h3>
-  <p>Write out Google-able search phrases for each of the following scenarios. Do not get hung up on being unfamiliar with the terminology for each scenario. We just want phrases to put into Google.</p>
-  <p>1. I am using Git for version control and made a typo in a commit message. I need to change it before I push my changes to GitHub.</p>
-  <textarea rows="2">
-    Phrase 1:
-    Phrase 2:
-  </textarea>
-  <p>2. I got this error message when I ran my Ruby program and I don't know what it means or how to fix it: <em>"unterminated string meets end of file"</em></p>
-  <textarea rows="2">
-    Phrase 1:
-    Phrase 2:
-  </textarea>
-</div>
-
-### Sifting Through Results
-
-Once you formulate a good Google search and receive your results, there are a few things you'll want to consider when determining which results to open.
-
-<div class="try-it">
-  <h3>Demo: Google Results</h3>
-  <p>We'll look through some Google results for "how do you find out the length of a string in javascript?". Be ready to jot down tips for sifting through results.</p>
-</div>
 
 ## Close Out
 
