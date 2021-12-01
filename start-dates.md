@@ -12,7 +12,7 @@ permalink:  start-dates
 - **Session 4:** 12/9 @ 6:15pm MST
 - **Session 5:** 12/14 @ 6:15pm MST
 
-### AT CAPACITY: ~2111 0-2: 1/3/2022 - 1/12/2022~
+### AT CAPACITY: ~~2111 0-2: 1/3/2022 - 1/12/2022~~
 - **Session 1:** 1/3 @ 6:15pm MST
 - **Session 2:** 1/4 @ 6:15pm MST
 - **Session 3:** 1/6 @ 6:15pm MST
