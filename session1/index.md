@@ -158,8 +158,8 @@ In the diagram below, we would say that there's a directory called `essays` that
     <img src="images/files_directories_3.png" alt="files and directories 2">
   </div>
   <div>
-    <p>The path for the grading.md file is</p>
-    <pre>to_do/work/grading.md</pre>
+    <p>The path for the grading.txt file is</p>
+    <pre>to_do/work/grading.txt</pre>
     <p>What is the path for cleaning.txt?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
     <p>What is the path for recurring.txt?</p>
