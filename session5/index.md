@@ -4,16 +4,13 @@ title: Session 5
 subheading: Data Types, Variables + Modeling Real World Things
 ---
 ### Goals
+
 **By the end of this session, you will be able to:**    
-
 - learn syntax for objects in JS or hashes in Ruby
-- pseudocode a technical word problem
 - laern how to annotate code using code comments
-
 
 ### Agenda
   - Housekeeping, Feedback + Goals
-  - Pseudocoding Practice
   - Modeling Using Objects + Hashes
   - Annotations
   - Wrap Up
@@ -39,33 +36,6 @@ Note: Update your zoom display name to include your first name, last initial, pr
   </ol>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
-
-### Psuedocode Practice: Data Normalization
-
-A common task on code challenges is to change or adjust the data that you receive (input) into a specific format for the output.
-
-See example below (remember, it is OK if you don't understand exactly what is happening in the code!)
-
-
-Given the following data:
-
-```
-[ "potter_harry", "weasley_ron", "granger_hermione" ]
-```
-
-Write pseudocode to explain how you would approach transforming the names you receive into what you'd want to display on your website. Please note that the format is currently `lastname_firstname` and the desired result would be `Firstname Lastname`. Remember, the smaller you can break up the "steps" the better!
-
-#### On your own
-- How can you break this problem down into smaller chunks or sub-problems?
-- What steps are needed to get from the initial data (input) to the desired end result (output)?
-- Are there any "edge" cases you need to check?
-
-#### In groups
-- In groups, take turns sharing your pseudocode
-- As a group, come up with a Team Solution that can borrow parts from all the different group members!
-
-#### Share Out + Review
-- Share out as a whole group
 
 <a name="annotations"></a>
 ## Annotating Code
@@ -119,6 +89,7 @@ play_with_cats("Pumpernickel", "Nigel", "paperclip")
 ```
 
 As you can see, there are a lot of things happening in these few lines of code! As a new developer, looking at all this code can be very intimidating. Rather than get overwhelmed, I can go line by line and use comments to annotate what is happening to get a better understanding.
+
 ##### Javascript Example
 ```js
 //this is a function with 3 parameters (cat1, cat2 and toy)
@@ -191,7 +162,6 @@ We will breakout in FE and BE specific groups to learn how to use these more adv
 - [Frontend: Objects in Javascript](./objects.md)
 - [Backend: Hashes in Ruby](./hashes.md)
 
-
 ## Mod 0 Technical Assessment
 We've come to the end of our instruction in Mod 0 😭! Which means that you are ready to crush your Mod 0 Technical Assessment!
 
@@ -216,7 +186,7 @@ As a reminder, the technical assessment is only ONE of the data points we use to
 
 ### Close out
 
-* This is your last Mod 0 session!
+* This is your last Mod 0 Session!
 * Remaining deliverables - complete the Mod 0 Assessment and turn in your Mod 1 Prework
 * Check the calendar for Mod 1 Orientation
 * Moving forward:
