@@ -8,7 +8,7 @@ subheading: Problem Solving, Pseudocoding, Git
   - explain the purpose of git
   - initialize, add, and commit changes in a local repository 
   - define and understand iteration at a high level
-  - define psuedocoding and problem solving strategies
+  - define pseudocoding and problem solving strategies
   - understand and practice Driver - Navigator pairing approach
   - write pseudocode and break problem into smaller steps
 
@@ -44,9 +44,6 @@ subheading: Problem Solving, Pseudocoding, Git
   <p>1. Introduce yourself: name, pronouns</p>
   <p>2. What was your biggest takeaway from Session 1?</p>
   <p>3. Work through the terminal commands review below using driver/navigator.</p>
-
-
-
 </div>
 
 <div class="things-to-note">
@@ -301,7 +298,6 @@ The basic git workflow is this:
 
 <a href="https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e">Terminal Mistakes Screencast</a>
 
-
 <a name="iteration"></a>
 ## Iteration
 
@@ -431,7 +427,7 @@ Pseudocoding can help keep your thoughts in order, especially helpful for when y
 
 Pseudocode often reads like an algorithm. Algorithms often read like recipes:
 
-#### Psuedocode for Making a Cup of Coffee
+#### Pseudocode for Making a Cup of Coffee
 ```
 - Organize all ingredients together
 - Add water to electric kettle
@@ -453,7 +449,7 @@ On your own, write some pseudocode for how you would make a **Peanut Butter + Je
 Watch as your TAs model how to engage in a discussion of technical content as they share their pseudocode for creating a sandwich!
 
 
-#### Psuedocode for Technical Challenges
+#### Pseudocode for Technical Challenges
 Take a look at the example of a code challenge you might receive as part of an interview.
 
 **Challenge: Write some code that will determine the number of vowels in a given word/string.**
@@ -471,9 +467,9 @@ Below is an example of some pseudocode that could be written for the challenge. 
 - When there are no more letters left in word, return the final vowelCount number
 ```
 
-#### "Good" Psuedocode
+#### "Good" Pseudocode
 
-Before we go any futher, understand that it takes a long time to get proficient at writing strong psuedocode. However, here are some indicators of "good" psuedocode:
+Before we go any futher, understand that it takes a long time to get proficient at writing strong pseudocode. However, here are some indicators of "good" pseudocode:
 - Each "step" could be translated into a line/few lines of code
 - Each "step" can translate into a Google search fairly easily, if necessary
 - The code considers "happy" and "sad" paths
@@ -481,9 +477,9 @@ Before we go any futher, understand that it takes a long time to get proficient 
   - What should the code do if things don't go as expected?
 
 #### "When will I even use this?!"
-Hopefully, A LOT! Psuedocoding can be a great process to employ any time you are "stuck" on what your program should be doing! Basically, if you can't explain WHAT you want your code to do in your native language, there is literally 0% chance you'll be able to write code to accomplish that task!
+Hopefully, A LOT! Pseudocoding can be a great process to employ any time you are "stuck" on what your program should be doing! Basically, if you can't explain WHAT you want your code to do in your native language, there is literally 0% chance you'll be able to write code to accomplish that task!
 
-Additionally, psuedocoding comes in handy during technical interviews and code challenges for when you are applying for jobs. Interviewers want to see how you can break complex ideas down into language that everyone can understand - remember, as a developer you will often be working with non-technical colleagues in marketing, sales, etc. and hiring managers want to know that you can communicate with them!
+Additionally, pseudocoding comes in handy during technical interviews and code challenges for when you are applying for jobs. Interviewers want to see how you can break complex ideas down into language that everyone can understand - remember, as a developer you will often be working with non-technical colleagues in marketing, sales, etc. and hiring managers want to know that you can communicate with them!
 
 ### Practice: Problem Solving
 
@@ -493,13 +489,12 @@ Write your process for changing a flat tire on an automobile!
 - How can you break this problem down into smaller chunks or sub-problems?
 - What steps are needed to get from the initial data (input) to the desired end result (output)?
 #### In groups 
-- In groups, take turns sharing your psuedocode
+- In groups, take turns sharing your pseudocode
 - As a group, come up with a Team Pseudocdoe that can borrow parts from all the different group members!
+
 #### Share Outs + Walkthrough
 
 Everyone should read [this article](https://medium.com/@dannysmith/breaking-down-problems-its-hard-when-you-re-learning-to-code-f10269f4ccd5) at some point after class - note that it's written in Ruby, but again, **focus on the process**
-
-
 
 ## Closing
 
@@ -525,7 +520,6 @@ Hi <your_username>! You've successfully authenticated, but GitHub does not provi
 ## Homework
 
 Find the homework in your Mod 0 Project Board. Post in the Mod 0 Slack channel if you're stuck (and don't be afraid to help each other out).
-
 
 ### Asking questions
 
