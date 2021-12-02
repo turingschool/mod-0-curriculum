@@ -253,31 +253,7 @@ git push origin main
   <p>Done? Repeat steps 4-6 with another animal file.</p>
 </div>
 
-
-## Remote Collaboration Using GitHub: A Primer
-The workflows we outlined above are common patterns you will follow when working on projects for yourself. However, the real "magic" of using GitHub is it allows you to work collaboratively with teammates on the same repository/project.
-
-### Branching
-When working on collaborative projects, it is best for each group member to be working on their own `branch`. Think of a branch as a part of the overall project (tree), but a branch can go in it's own direction. Developers will often use a separate branch to work on a particular piece of functionality, usually referred to as a `feature`. This allows multiple developers to be working on separate pieces of an application simultaneously!
-
-### Pull Requests + Code Reviews
-When a developer has finished their feature, they will push their feature branch up to GitHub for their teammates to review. This process is known as making a `pull request` - essentially asking the other developers on the team to "pull down" the new code from GitHub, test it's functionality, and leave any feedback or requests for changes. Typically, teammates should review:
-- Does the code meet the quality standards as outlined by the team/organization?
-- Does the code "play nice" with the other features of the application? Or does it cause bugs?
-- Are there places that can be refactored or the code improved to make it easier for other developers to build on top of it?
-
-Pull requests are essentially requests to merge the new changes from the feature branch to the project's `main` branch. Once everyone from the team has had a chance to review the code, request adjustments, and fix any merge conflicts (issues that the new code causes with older code) - they can either approve or reject the request.
-- Approving the request will allow the new feature to be merged into the `main` branch of the project
-- Rejecting the request will prevent the new feature from being merged into the `main` branch of the project
-
-Typically, you do not want to merge your own pull request - this would prevent anyone else from reviewing it and giving valuable feedback!
-
-### Why Does This Matter?
-- The pull request process allows for all team members to view, test, and provide feedback on anyone's code
-- Hiring managers will often look at your code review comments and pull requests on your projects to gauge your ability to collaborate in a remote environment
-- This is the one of the first tools you will learn to use that will help you prevent "shipping" (approving) unstable code in your production environemnt (the "public" version of your app)
-
 <a name="homework"></a>
 ## Homework
 
-Business as usual. Reach out on slack if you're stuck!
+Business as usual. Reach out on Slack if you're stuck!
