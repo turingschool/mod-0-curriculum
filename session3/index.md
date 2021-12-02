@@ -5,14 +5,13 @@ subheading: More Git and Intro to GitHub
 ---
 ### Goals
 **By the end of this session, you will be able to:**    
-- practice pseudocoding approach and implementation
 - create your own repository on GitHub
 - push local changes to a remote
 - fork and clone an existing repository
 
 ### Agenda
   - Housekeeping, Feedback + Goals
-  - Psuedocoding Practice
+  - Git Warm Up/Review
   - GitHub
   - Wrap Up
 
@@ -55,39 +54,6 @@ subheading: More Git and Intro to GitHub
   </ol>
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
-
-### Psuedocode Practice: Counting Sheep
-
-Look at this collection of data...
-
-`[false, false, true, false, false, true, true, false, false, false]`
-
-Each `true` represents a piglet.
-
-Each `false` represents a sheep.
-
-Write a function that can count the number of sheep in the collection.
-
-See example below (remember, it is OK if you don't understand exactly what is happening in the code!)
-
-```
-[false, false, false] >>> returns "Oink! Oink! Only little piglets here!"
-[true, false, false] >>> returns "There is 1 sheep in the barn."
-[true, true, false] >>> returns "There are 2 sheep in the barn."
-```
-
-Write pseudocode to explain how you would approach finding the number of sheep in the barn - remember, the smaller you can break up the "steps" the better!
-
-#### On your own
-- How can you break this problem down into smaller chunks or sub-problems?
-- What steps are needed to get from the initial data (input) to the desired end result (output)?
-- Are there any "edge" cases you need to check?
-
-#### In groups 
-- In groups, take turns sharing your pseudocode
-- As a group, come up with a Team Solution that can borrow parts from all the different group members!
-
-#### Share Out + Review
 
 <a name="gitreview"></a>
 ## Git Review
