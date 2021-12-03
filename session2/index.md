@@ -442,13 +442,6 @@ Pseudocode often reads like an algorithm. Algorithms often read like recipes:
 - Pour coffee into cat mug
 ```
 
-#### Pseudocode Practice
-On your own, write some pseudocode for how you would make a **Peanut Butter + Jelly sandwich** - remember, think about how you can break this "problem" up into the smallest parts possible to allow for the clearest instructions!
-
-#### Pseudocode Breakout Demo
-Watch as your TAs model how to engage in a discussion of technical content as they share their pseudocode for creating a sandwich!
-
-
 #### Pseudocode for Technical Challenges
 Take a look at the example of a code challenge you might receive as part of an interview.
 
@@ -480,19 +473,6 @@ Before we go any futher, understand that it takes a long time to get proficient 
 Hopefully, A LOT! Pseudocoding can be a great process to employ any time you are "stuck" on what your program should be doing! Basically, if you can't explain WHAT you want your code to do in your native language, there is literally 0% chance you'll be able to write code to accomplish that task!
 
 Additionally, pseudocoding comes in handy during technical interviews and code challenges for when you are applying for jobs. Interviewers want to see how you can break complex ideas down into language that everyone can understand - remember, as a developer you will often be working with non-technical colleagues in marketing, sales, etc. and hiring managers want to know that you can communicate with them!
-
-### Practice: Problem Solving
-
-Write your process for changing a flat tire on an automobile!
-
-#### On your own
-- How can you break this problem down into smaller chunks or sub-problems?
-- What steps are needed to get from the initial data (input) to the desired end result (output)?
-#### In groups 
-- In groups, take turns sharing your pseudocode
-- As a group, come up with a Team Pseudocdoe that can borrow parts from all the different group members!
-
-#### Share Outs + Walkthrough
 
 Everyone should read [this article](https://medium.com/@dannysmith/breaking-down-problems-its-hard-when-you-re-learning-to-code-f10269f4ccd5) at some point after class - note that it's written in Ruby, but again, **focus on the process**
 
