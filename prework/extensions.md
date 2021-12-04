@@ -100,8 +100,5 @@ Take a look at the Mod 1 Calendar and curriculum to preview what is to come! A f
 * [Back-End Curriculum Site](http://backend.turing.io/)
 * [Front-End Curriculum Site](http://frontend.turing.io/)
 
-
 ## Final Thoughts
 The purpose of Mod 0 is to prepare you to succeed in your first module at Turing. While the suggestions in this resource are helpful for many students to be best prepared to start their Turing journey, be sure to stay true to what works for you. Remember, as tempting as it may be, try not to compare YOUR journey to anyone else's. YOU CAN DO IT!
-
-

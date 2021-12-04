@@ -20,7 +20,7 @@ Turing is a very challenging experience for most people. To be successful here, 
 
 ### Communication
 
-Make sure that you've added the **[Mod 0 Calendar](https://calendar.google.com/calendar?cid=Y2FzaW1pcmNyZWF0aXZlLmNvbV8xMnA0NjkzaG1lcjFvcmNlcHA3NHZnNzdwZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)** to your own calendar. This is where you will find all mod 0 related events, including sessions, mod 1 pre-work study sessions, and other community wide events.
+Make sure that you've added the **[Mod 0 Calendar](https://calendar.google.com/calendar?cid=Y2FzaW1pcmNyZWF0aXZlLmNvbV8xMnA0NjkzaG1lcjFvcmNlcHA3NHZnNzdwZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)** to your own calendar. This is where you will find all Mod 0 related events, including sessions, mod 1 pre-work study sessions, and other community wide events.
 
 We will also remind you when these events are via **[slack](https://turingschool.slack.com/)**, which is the **primary mode of communication** we use at Turing. Make sure that you're checking it once a day so that you can stay up to date. It's also a great place to ask questions if you are running into issues, as people are likely experiencing the same issue that you are.
 
@@ -38,7 +38,7 @@ At the end of Session 4, you'll take a technical assessment that will showcase a
 
 ### Being Turing Ready
 
-At the end of mod 0, you'll be considered one of the following:
+At the end of Mod 0, you'll be considered one of the following:
 
 **Not Ready** based on any of these factors:
  * You’ve missed more than one session or did not meet engagement expectations
@@ -49,7 +49,7 @@ At the end of mod 0, you'll be considered one of the following:
  * If you don’t pass on your second try you will be asked to reapply to Turing in 6 months.
 
 **Technical Ready**
- * Your work and assessment have met the expectations of mod 0
+ * Your work and assessment have met the expectations of Mod 0
  * *Next step:* Submit your Program-Specific Mod 1 Pre-work
 
 If your Mod 1 Pre-work meets expectations, you'll be **Turing Ready**
@@ -59,14 +59,14 @@ If your Mod 1 Pre-work meets expectations, you'll be **Turing Ready**
   <h3>Break out rooms</h3>
   <p>1. What is one reason you chose to come to Turing?</p>
   <p>2. What is your biggest concern about coming to Turing?</p>
-  <p>3. What is a skill or focus area that you want to be held accountable on during mod 0?</p>
+  <p>3. What is a skill or focus area that you want to be held accountable on during Mod 0?</p>
   <p>ie. Asking questions during sessions, sticking to a calendar, using a planner</p>
 </div>
 
 <a name="studytips"></a>
 ### Study Habits
 
-Throughout your time at Turing, including mod 0 we'd suggest that you get in the habit of doing the following:
+Throughout your time at Turing, including Mod 0 we'd suggest that you get in the habit of doing the following:
 
 #### Pre-teaching
 * Preview: Up to 24 hours prior

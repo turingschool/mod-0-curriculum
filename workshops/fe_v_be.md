@@ -43,4 +43,4 @@ Does anyone know what back-end technologies are taught at Turing?
 
 
 You won't be tested on any of the above, but it's nonetheless great context for what you're going to be learning over the next 7 plus months.
-In mod 0, we'll focus on Ruby and JavaScript as they have the most similarities. And we try to keep things as program agnostic as we can in mod 0.
+In Mod 0, we'll focus on Ruby and JavaScript as they have the most similarities. And we try to keep things as program agnostic as we can in Mod 0.

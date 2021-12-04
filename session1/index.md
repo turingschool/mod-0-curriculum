@@ -52,7 +52,7 @@ Other things to note as we go through Mod 0:
 
 ### Breakout Rooms
 
-This is a feature in zoom that we'll use throughout the mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 30 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 30 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise.
+This is a feature in zoom that we'll use throughout the Mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 30 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 30 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise.
 
 Some norms before heading in:
 * Be aware and try not talk over others.
