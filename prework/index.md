@@ -37,7 +37,7 @@ After completing the technical pre-work, you should be able to do the following:
 * Be comfortable navigating your development environment and using your tools (Atom, Chrome, the console, and the command line)
 * Develop a basic knowledge of Ruby (for back-enders) or JavaScript (for front-enders)
 
-The links below will take you to the Github page that contains all the Technical work. Scroll through the page to find the instructions for getting your computer setup and getting started.
+The links below will take you to the GitHub page that contains all the Technical work. Scroll through the page to find the instructions for getting your computer setup and getting started.
 
 * [Click here to get started with Back-End Technical Mod 1 Pre-work](https://github.com/turingschool/backend_mod_1_prework) (This is your technical mod 1 pre-work if you are in the back-end program)
 * [Click here to get started with Front-End Technical Mod 1 Pre-work](https://github.com/turingschool/frontend-mod-1-prework) (This is your technical mod 1 pre-work if you are in the front-end program)
@@ -45,7 +45,7 @@ The links below will take you to the Github page that contains all the Technical
 ### FAQs on Technical Prework
 
 - **Your prework due date is based on your Mod 0 cohort** - Check your Mod 0 calendar to see when the prework is due.If you are not starting Turing right after completing Mod 0, we have some recommended extensions to keep your skills sharp! 
-- **Do NOT work on your technical prework within Github's interface** - Part of the technical prework involves getting you used to working on your work locally (on your computer) and then pushing your changes to GitHub. If you are working directly in Github's interface to edit your work, you will likely run into some issues keeping your work in sync. 
+- **Do NOT work on your technical prework within GitHub's interface** - Part of the technical prework involves getting you used to working on your work locally (on your computer) and then pushing your changes to GitHub. If you are working directly in GitHub's interface to edit your work, you will likely run into some issues keeping your work in sync. 
 
 ## Gear Up (2 hours)
 

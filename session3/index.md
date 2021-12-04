@@ -5,15 +5,15 @@ subheading: More Git and Intro to GitHub
 ---
 ### Goals
 **By the end of this session, you will be able to:**    
-- create your own repository on GitHub
-- push local changes to a remote
-- fork and clone an existing repository
+- Create your own repository on GitHub
+- Push local changes to a remote
+- Fork and clone an existing repository
 
 ### Agenda
-  - Housekeeping, Feedback + Goals
-  - Git Warm Up/Review
-  - GitHub
-  - Wrap Up
+- Housekeeping, Feedback + Goals
+- Git Warm Up/Review
+- GitHub
+- Wrap Up
 
 ### Materials
 - Notebook
@@ -23,19 +23,6 @@ subheading: More Git and Intro to GitHub
 - Zoom permission to share screen for breakout sessions
 
 ## Housekeeping, Wins/Follow-Ups, and Goals
-
-### Wins
-
-- Most common answer to git question from survey: "I can name the steps of the git workflow and can put them in practice (using a reference)."
-- This is expected, and we use references as programmers on the job all the time, at some point it'll be muscle memory
-- Great job asking and answering each others questions in the slack channel!
-
-### Follow-Ups
-
-- We're in the process of leaving feedback on everyone's homework, be sure to check your gists!
-  - Suggestions and feedback are there for your benefit
-- Make sure that you're checking Slack at least once a day
-- Be sure to stay at your home (root) directory or below
 
 <div class="try-it">
   <h3>Intros and Review</h3>
@@ -137,7 +124,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
 1. Scroll down and click "Create Repository"
 1. Scroll to `…or push an existing repository from the command line`
 1. Paste the lines listed, one at a time, in your terminal. <strong>Make sure to follow instructions for SSH</strong>
-1. Refresh Github. Tada! Your project is there.
+1. Refresh GitHub. Tada! Your project is there.
 
 <div class="try-it">
   <h3>Try It: Adding a Remote</h3>

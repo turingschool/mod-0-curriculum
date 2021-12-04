@@ -14,11 +14,11 @@ subheading: Problem Solving, Pseudocoding, Git
 
 
 ### Agenda
-  - Housekeeping, Feedback + Goals
-  - Git Basics
-  - Iteration in Programming
-  - Problem Solving + Pseudocode
-  - Wrap Up
+- Housekeeping, Feedback + Goals
+- Git Basics
+- Iteration in Programming
+- Problem Solving + Pseudocode
+- Wrap Up
 
 ### Materials
 - Notebook
@@ -30,14 +30,6 @@ subheading: Problem Solving, Pseudocoding, Git
 ## Housekeeping, Feedback, and Goals
 
 - You will be screensharing your terminal today. If you have programs open that might be distracting (or you have confidential work open), close or minimize those programs now.
-
-### Wins
-
-- Ask questions or post struggles you have in the public Slack channel! This is a *win-win-win* for everybody.
-
-### Follow-Ups
-
-- For homework, we'll be leaving feedback on your practice tasks and also checking, but not leaving feedback on your readings and responses.
 
 <div class="try-it">
   <h3>Intros and Review</h3>

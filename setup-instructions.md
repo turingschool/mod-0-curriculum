@@ -5,7 +5,6 @@ subheading: Getting Your Computer Ready For Programming
 permalink:  setup-instructions
 ---
 
-
 # Tech Setup
 
 Complete the following steps before Mod 0 in order to get the tools you'll need on your machine.
@@ -17,7 +16,7 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 - [Install Atom as your Text Editor](#2-install-atom-as-your-text-editor)
 - [Install Xcode-select](#3-install-xcode-select)
 - [Install Homebrew](#4-install-homebrew)
-- [Setup Github]($5-setup-github)
+- [Setup GitHub]($5-setup-github)
 - [Install Git](#6-install-git)
 - [Configure Git](#7-configure-git)
 - [Install Chrome](#8-install-chrome)
@@ -148,15 +147,15 @@ I've also outlined the steps here:
 1. Proceed with Step 2 from the instructions above this section!
 
 ## 5) Setup GitHub
-If you haven't had a chance to sign up for [Github](https://github.com/), now is a good time to do that.
+If you haven't had a chance to sign up for [GitHub](https://github.com/), now is a good time to do that.
 
-Update your [GitHub Profile](https://github.com/settings/profile) and be sure that you choose a username, status, profile info and picture that is PROFESSIONAL and APPROPRIATE! Future employers will be looking at your Github to see your projects, code, etc.
+Update your [GitHub Profile](https://github.com/settings/profile) and be sure that you choose a username, status, profile info and picture that is PROFESSIONAL and APPROPRIATE! Future employers will be looking at your GitHub to see your projects, code, etc.
 
 ## 6) Install Git
 
 [Git](https://git-scm.com/) is a Version Control System (VCS). It allows you to save work on your project, and reference previous states of a project if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and ANY previous version. Git’s philosophy: never lose anything.
 
-One other thing to clear up - `git` is not the same thing as `Github`. You'll learn more about how they interact in Mod 0!
+One other thing to clear up - `git` is not the same thing as `GitHub`. You'll learn more about how they interact in Mod 0!
 
 To install Git, we will use Homebrew. Follow these steps to install `git` on your machine:
 
@@ -250,11 +249,11 @@ Atom also offers a number of different options and packages that you can customi
 
 ## 10) Add GitHub SSH Keys
 
-SSH keys are a more secure and convenient way of authenticating than typing in our password every time we want to interact with Github.
+SSH keys are a more secure and convenient way of authenticating than typing in our password every time we want to interact with GitHub.
 
 This is getting fairly advanced, so we'd recommend taking a quick break, grabbing a coffee, and then come back once you feel refreshed.
 
-This can be a bit tricky to do, so here's another quick walk-through, of _just_ adding Github SSH keys:
+This can be a bit tricky to do, so here's another quick walk-through, of _just_ adding GitHub SSH keys:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YVBwSh-vlFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -335,7 +334,7 @@ Are you sure you want to continue connecting (yes/no)?
 Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-Great work! You've connected your terminal to your Github profile. You can now interact with Github from your terminal _without_ entering your password all the time.
+Great work! You've connected your terminal to your GitHub profile. You can now interact with GitHub from your terminal _without_ entering your password all the time.
 
 ## 11) Install Rectangle
 **Install [Rectangle](https://rectangleapp.com/)** - Rectangle allows you to move and resize windows so you can watch the Zoom call and work in the terminal for your technical sessions.

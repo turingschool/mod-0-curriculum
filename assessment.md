@@ -29,9 +29,7 @@ After completing the assessment, your instructors will evaluate your readiness f
 
 As a reminder, the technical assessment is only ONE of the data points we use to evaluate readiness for the program. You may still be asked to repeat Mod 0 if you have struggled to show proficiency with professional skills, accountability, interpersonal skills, etc.
 
-**Your instructors will leave feedback directly in your Github repository via an `Issue`** - be sure to have notifictions set to receive emails on your Github so you will be notified when your feedback has come through and check your email a few days after submitting the assessment.
+**Your instructors will leave feedback directly in your GitHub repository via an `Issue`** - be sure to have notifictions set to receive emails on your GitHub so you will be notified when your feedback has come through and check your email a few days after submitting the assessment.
 
 ## Ready to Begin?
 [Click this link](https://github.com/turingschool/mod0_assessment1) when you are ready to begin your assessment! 
-
-![You got this](https://media.giphy.com/media/xT9IgEYXCNqPZnqMuY/giphy.gif)

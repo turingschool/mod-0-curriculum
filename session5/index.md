@@ -6,14 +6,14 @@ subheading: Data Types, Variables + Modeling Real World Things
 ### Goals
 
 **By the end of this session, you will be able to:**    
-- learn syntax for objects in JS or hashes in Ruby
-- laern how to annotate code using code comments
+- Use syntax for objects in JavaScript or hashes in Ruby
+- Annotate code using code comments
 
 ### Agenda
-  - Housekeeping, Feedback + Goals
-  - Modeling Using Objects + Hashes
-  - Annotations
-  - Wrap Up
+- Housekeeping, Feedback + Goals
+- Modeling Using Objects + Hashes
+- Annotations
+- Wrap Up
 
 ### Materials
 - Notebook
@@ -23,8 +23,6 @@ subheading: Data Types, Variables + Modeling Real World Things
 - Zoom permission to share screen for breakout sessions
 
 ## Intros, Review, and Icebreaker
-
-Note: Update your zoom display name to include your first name, last initial, pronouns, and "FE" or "BE"
 
 <div class="try-it">
   <h3>Introductions and Review</h3>

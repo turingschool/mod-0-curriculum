@@ -6,16 +6,16 @@ subheading: Data Types, Variables + Modeling Real World Things
 ### Goals
 **By the end of this session, you will be able to:**    
 
-- identify and describe basic data types
-- learn how to assign and re-assign variables in Javascript or Ruby
-- begin to model data using variables
+- Identify and describe basic data types
+- Assign and re-assign variables in JavaScript or Ruby
+- Model data using variables
 
 
 ### Agenda
-  - Housekeeping, Feedback + Goals
-  - Pseudocoding Practice
-  - Data Types + Variable Assignment + Modeling Using Variables
-  - Wrap Up
+- Housekeeping, Feedback + Goals
+- Pseudocoding Practice
+- Data Types + Variable Assignment + Modeling Using Variables
+- Wrap Up
 
 ### Materials
 - Notebook
@@ -25,13 +25,6 @@ subheading: Data Types, Variables + Modeling Real World Things
 - Zoom permission to share screen for breakout sessions
 
 ## Housekeeping, Wins/Follow-Ups, and Goals
-
-### Follow-Ups
-
-- We're in the process of leaving feedback on everyone's homework, be sure to check your gists!
-  - Suggestions and feedback are there for your benefit
-- Make sure that you're checking Slack at least once a day
-- Be sure to stay at your home (root) directory or below
 
 <div class="try-it">
   <h3>Intros and Review</h3>
