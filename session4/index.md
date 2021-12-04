@@ -89,8 +89,8 @@ We **STRONGLY** recommend that you study ahead of time for this assessment. Luck
   - Basic `git` commands
   - How to properly format and write a concise commit message
   - Data types in Javacript (if your in FE program) or Ruby (if you are in BE program)
-  - How to assign variables in Javascript (if your in FE program) or Ruby (if you are in BE program)
-  - How to re-assign variables in Javascript (if your in FE program) or Ruby (if you are in BE program)
+  - How to assign variables in JavaScript (if your in FE program) or Ruby (if you are in BE program)
+  - How to re-assign variables in JavaScript (if your in FE program) or Ruby (if you are in BE program)
   - How to model data using variables
   - How to model data using objects and variables (coming in Session 5)
 
@@ -98,5 +98,5 @@ We **STRONGLY** recommend that you study ahead of time for this assessment. Luck
 
 ### Data Type Use Cases and Syntax Practice
 We are going to break out into program specific small groups to start working through these skills!
-- [Frontend: Data Types + Variable Assignment in Javascript](./data-types-fe.md)
+- [Frontend: Data Types + Variable Assignment in JavaScript](./data-types-fe.md)
 - [Backend: Data Types + Variable Assignment in Ruby](./data-types-be.md)

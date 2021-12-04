@@ -8,7 +8,7 @@ We are going to learn about two concepts together as we dive into our first tech
 ### Variable Assignment x Re-assignment
 In JavaScript, assigning/declaring a variable follows a very clear pattern.
 **Step 1 -** Write the variable keyword `var`
-- `var` is a special keyword in Javascript - it tells the JS interpeter that you are about to declare a new variable!
+- `var` is a special keyword in JavaScript - it tells the JS interpeter that you are about to declare a new variable!
 
 **Step 2 -** Write a name for your variable in `camelCase`
 - Make sure the first word starts with a `lowercase` letter
@@ -27,7 +27,7 @@ In JavaScript, assigning/declaring a variable follows a very clear pattern.
 - Array
 - Object (EXTENSION)
 
-Before we get into specific syntax examples, we need to get a better understanding of the data types we will encounter in Javascript.
+Before we get into specific syntax examples, we need to get a better understanding of the data types we will encounter in JavaScript.
 
 ### Breakouts - Research x Teachout
 To start building on our Googling skills we learned earlier, we are going to break out into small groups to research AND present on a specific data type.
@@ -76,7 +76,7 @@ When we share out - be sure to take notes in your notebook about each data type 
           <li><code>var windchill = -25;</code></li>
           <li><code>var balance = 5148;</code></li>
         </ul>
-        <p><strong><span class="vocab">Float</span>:</strong> As the name implies, floating point numbers are numbers that contain floating decimal points. They can be positive or negative. Technically in Javascript, these are still considered integers but it's good to know the difference!</p>
+        <p><strong><span class="vocab">Float</span>:</strong> As the name implies, floating point numbers are numbers that contain floating decimal points. They can be positive or negative. Technically in JavaScript, these are still considered integers but it's good to know the difference!</p>
         <p>Examples:</p>
         <ul>
           <li><code>var deduction = -5.5;</code></li>
@@ -137,7 +137,7 @@ When we share out - be sure to take notes in your notebook about each data type 
 </div>
 
 ### Syntax Practice using the Console
-We are going to learn about how you can use a browser tool known as the `console` to start practicing writing and executing Javascript syntax. (See [here](https://developers.google.com/web/tools/chrome-devtools/open) for help opening `console` in Google Chrome)
+We are going to learn about how you can use a browser tool known as the `console` to start practicing writing and executing JavaScript syntax. (See [here](https://developers.google.com/web/tools/chrome-devtools/open) for help opening `console` in Google Chrome)
 
 ### Practice
 * Assign a variable called `pizza` set to a value of a string
@@ -151,4 +151,4 @@ We are going to learn about how you can use a browser tool known as the `console
   * Remove the last item from your teachers array
 
 ### Still confused?
-Start by watching [this video](https://www.youtube.com/watch?v=sIGNox7OGD0&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=4) on variable assignment in Javascript. If you're still struggling, do some additional research and then post any additional questions in the class Slack!
+Start by watching [this video](https://www.youtube.com/watch?v=sIGNox7OGD0&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=4) on variable assignment in JavaScript. If you're still struggling, do some additional research and then post any additional questions in the class Slack!

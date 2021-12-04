@@ -43,7 +43,7 @@ Let's code it up together. Don't get too hung up on the syntax. **Focus on the p
 
 ### Extension - Hash/Object
 
-Frequently, you will receive information from databases in the form of a hash (or 'object' in javascript). In the example below, we have data that represents that. Arrays of objects can be tricky to navigate, but trying, and researching how now won't hurt, even if this is a work in progress:
+Frequently, you will receive information from databases in the form of a hash (or 'object' in JavaScript). In the example below, we have data that represents that. Arrays of objects can be tricky to navigate, but trying, and researching how now won't hurt, even if this is a work in progress:
 
 ```
 var customerNames = [

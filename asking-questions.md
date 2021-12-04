@@ -57,7 +57,7 @@ Issues with this question:
 - No context is given at to what the actual issue is
 - Unclear what steps they have already tried or what resources they have consulted
 - The way the question is phrased requires someone to ask what the issue is
-- Chances are there is nothing wrong with the Javascript file, but was rather an issue the developer wrote in the code. Providing code block or `inline code` examples could help identify the issue.
+- Chances are there is nothing wrong with the JavaScript file, but was rather an issue the developer wrote in the code. Providing code block or `inline code` examples could help identify the issue.
 
 ### Good Example
 <img width="576" alt="Screen Shot 2020-12-18 at 12 02 53 PM" src="https://user-images.githubusercontent.com/20710327/102651006-fc296280-4128-11eb-87e5-ff8434ae95e8.png">

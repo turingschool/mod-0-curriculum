@@ -6,7 +6,7 @@ Part of being a strong developer is not just writing code. Most of the job is ac
 
 Annotating code is a great way to start to understand how code works and dive into code that you yourself did not write. One strategy to annotating code is to write **comments** directly in the code you are trying to deciper.
 
-Most text editors, like Atom, allow you to add comments in your code. You can highlight a selection and use `CMD + /` to turn your text into a comment. Conversely, you can start any line with `//` for Javascript or `#` in Ruby to indicate a comment. You should see your syntax highlighting change to a different color when code has been commented out!
+Most text editors, like Atom, allow you to add comments in your code. You can highlight a selection and use `CMD + /` to turn your text into a comment. Conversely, you can start any line with `//` for JavaScript or `#` in Ruby to indicate a comment. You should see your syntax highlighting change to a different color when code has been commented out!
 
 ### Code Annotation Tips
 - Use code comments to add your annotations to code
@@ -14,8 +14,8 @@ Most text editors, like Atom, allow you to add comments in your code. You can hi
 - Add comments line by line to stay focused on specific functionality
 
 ### Code Annotation Example
-Take a look at the following code example in Javascript and Ruby
-##### Javascript Example
+Take a look at the following code example in JavaScript and Ruby
+##### JavaScript Example
 ```js
 function playWithCats(cat1, cat2, toy){
   var greeting = `Hello ${cat1} and ${cat2} - how are you both doing this fine morning!`
@@ -49,7 +49,7 @@ play_with_cats("Pumpernickel", "Nigel", "paperclip")
 ```
 
 As you can see, there is a lot of things happening in these few lines of code! As a new developer, looking at all this code can be very intimidating. Rather than get overwhelmed, I can go line by line and use comments to annotate what is happening to get a better understanding.
-##### Javascript Example
+##### JavaScript Example
 ```js
 //this is a function with 3 parameters (cat1, cat2 and toy)
 function playWithCats(cat1, cat2, toy){

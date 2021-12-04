@@ -227,7 +227,7 @@ Videos on variable assignment:
 * [Back-End](https://www.youtube.com/watch?v=S-IeM4xnCog&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=3)
 * [Front-End](https://www.youtube.com/watch?v=sIGNox7OGD0&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=4)
 
-After watching a brief demo from an instructor on how to write variables on your computer in either ruby or javascript, try out the following:
+After watching a brief demo from an instructor on how to write variables on your computer in either Ruby or JavaScript, try out the following:
 * Assign a variable called `pizza` a value of 'the best food of all time'
 * Assign a variable called `is_hungry` a value of true
 * Assign a variable called `number` a value of 5
