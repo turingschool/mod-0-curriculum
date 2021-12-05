@@ -132,7 +132,7 @@ We are going to learn about how you can use a browser tool known as the `console
   * Remove the last item from your teachers array
 
 ## Modeling "Real World Things" Using Code
-In Mod 0, we are going to start practicing how to use variables and data to "model" real world things. This is the beginning of your journey into Object Oriented Programming, which is one of the foundational programming approaches that you will learn much more about in Mod 1. Today's practice will also help you tremendously when you start working with Classes and Instances as part of your Mod 1 Prework!
+In Mod 0, we are going to start practicing how to use variables and data to "model" real world things. This is the beginning of your journey into Object Oriented Programming, which is one of the foundational programming approaches that you will learn much more about in Mod 1. Today's practice will also help you tremendously when you start working with Classes and Instances as part of your Mod 1 Pre-work!
 
 Today we are going to focus on modeling the `attributes` of a given thing. Think of these as the variables and values that would make up that thing in real life.
 

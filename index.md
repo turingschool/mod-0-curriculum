@@ -32,5 +32,5 @@ In order to pass mod 0 and be mod 1 ready, you will need to:
 1. Attend all 5 sessions and complete the required homework
   * homeworks are due by the next session. ie. session 1 hw is due by session 2
 2. Pass the Mod 0 Assessment (Info can be found in session 4 and 5)
-3. Pass the Mod 1 Prework (See side bar link)
+3. Pass the Mod 1 Pre-work (See side bar link)
   * All of the due dates above are on the [calendar]({{ site.baseurl }}/calendar)

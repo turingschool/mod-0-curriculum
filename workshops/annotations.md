@@ -104,7 +104,7 @@ play_with_cats('Pumpernickel', 'Nigel', 'paperclip')
 In program-specific groups of 2-3, work through the exercises in the [Annotations Practice repo](https://github.com/turingschool/annotation_practice).
 - Carefully read the instructions in the `README` before starting
 - Take turns being the driver and navigator, but all members of the group should have annotations for each file. 
-- You may need to reference your notes, Mod 1 Prework, and/or Google
+- You may need to reference your notes, Mod 1 Pre-work, and/or Google
 - Be sure to use code comments (`CMD + /`) on each line of code
 
 After the time is up, we will share our annotations in smaller groups! 

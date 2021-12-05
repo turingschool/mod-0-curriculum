@@ -185,7 +185,7 @@ As a reminder, the technical assessment is only ONE of the data points we use to
 ### Close out
 
 * This is your last Mod 0 Session!
-* Remaining deliverables - complete the Mod 0 Assessment and turn in your Mod 1 Prework
+* Remaining deliverables - complete the Mod 0 Assessment and turn in your Mod 1 Pre-work
 * Check the calendar for Mod 1 Orientation
 * Moving forward:
   * Keep up the hard work

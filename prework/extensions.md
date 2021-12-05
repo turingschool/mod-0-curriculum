@@ -19,7 +19,7 @@ Turing is an incredibly rigorous program that will consume much of your time and
 - **Set REALISTIC expectations with your friends, family, Close Circle, etc.**
     - As mentioned in Mod 0, most students at Turing estimate they spend an **average of 60-70 hours per week** on Turing-related responsibilities, including working during portions of the weekend. It is better to be upfront with your close circle about your realistic workload so they aren't giving you a hard time about missing social activities. Is it a bummer that you will likely have to miss out on some fun things over next few months? Absolutely. But changing your career and life trajectory requires making some sacrifices!
 - **Make introductions with your mentor**
-    - Part of your Mod 1 Prework was crafting an intro message to your mentor - now is the time to send that message and start laying the groundwork for your relationship as you start Turing! Remember, your mentor can offer much more than just technical help - they are your first contact in the development world and can give great insight into what success at Turing (and in the industry) looks like! You will likely be assigned a mentor shortly after your Mod 1 Orientation. 
+    - Part of your Mod 1 Pre-work was crafting an intro message to your mentor - now is the time to send that message and start laying the groundwork for your relationship as you start Turing! Remember, your mentor can offer much more than just technical help - they are your first contact in the development world and can give great insight into what success at Turing (and in the industry) looks like! You will likely be assigned a mentor shortly after your Mod 1 Orientation. 
 
 ### Start to Practice Your HOW
 It's one thing to make a plan for how you will attack the numerous challenges of Turing, it's an entirely different experience to implement that plan. Rather than leave it to chance, use some of your time now to practice your **HOW**, such as:
@@ -71,7 +71,7 @@ You will likely spend the first class or two in Mod 1 reviewing many of the conc
 
 - Review the Mod 0 [lesson plans](https://mod0.turing.io/sessions/) and your class notes
 - Work through the exercises from the Mod 0 sessions to build muscle memory on some of the foundational skills
-- Review your Mod 1 Prework, potentially building additional examples from some of the exercises
+- Review your Mod 1 Pre-work, potentially building additional examples from some of the exercises
 - Setup a review session with your cohortmates to clarify any material that feels a little fuzzy *Disclosure: It is OK and EXPECTED to feel a little shaky on some of the Mod 0 material technical! You will be getting much more practice in Mod 1!*
 
 ### Continue to Build Coding Muscle Memory
