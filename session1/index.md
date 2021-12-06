@@ -104,9 +104,9 @@ Be sure to discuss the following AND jot down your own observations in your note
 After discussing in groups, we will share out observations as a whole!
 
 #### Time MGMT + Calendar Tips from Successful Students
-- **Purposefully build in scheduled time for health, wellness and whatever else you need to be your best self** If you don't plan for it - chances are it won't happen. Turing moves fast, but it is still a marathon. How can you make sure you are creating a sustainable schedule/routine?
-- **Break down time blocks as much as possible** - anything over an hour will usually be unproductive and give too much time to procrastinate
-- **Avoid context shifting too frequently** - on the flip side, don't break down your blocks too much! For example, trying to cram 4-5 different tasks into a single hour is also not productive and can be extremely exhausting
+- **Purposefully build in scheduled time for health, wellness and whatever else you need to be your best self** - If you don't plan for it - chances are it won't happen. Turing moves fast, but it is still a marathon. How can you make sure you are creating a sustainable schedule/routine?
+- **Break down time blocks as much as possible** - Anything over an hour will usually be unproductive and give too much time to procrastinate
+- **Avoid context shifting too frequently** - On the flip side, don't break down your blocks too much! For example, trying to cram 4-5 different tasks into a single hour is also not productive and can be extremely exhausting
 - **Treat your blocks of time as appointments that shouldn't be missed** - You woudln't miss an appointment with a mentor, treat your other blocks the same way - even for solo work time!
 - **When you think of something you need to do, put it on your calendar immediately** - For example, if after a particular lesson, I think to myself "I really want to go back and finish that You Do we started in the lesson..." I will immediately pull up my calendar, find a 20ish min block of time in the next couple of days and make an event for working on that particular exercise (and add the link to the lesson and/or exercise to that event)
 - **Reflect on your time management each week** - Build in time each week to reflect on how well you stuck to your schedule. Be gracious to yourself and adjust the upcoming week
@@ -161,8 +161,6 @@ In the diagram below, we would say that there's a directory called `essays` that
     <p>What is the path for cleaning.txt?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
     <p>What is the path for recurring.txt?</p>
-    <textarea rows="1" name="" style="width:100%;"></textarea>
-    <p>What is the path for grading.txt?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
     <p>What is the path for data_entry.csv?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
