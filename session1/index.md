@@ -28,7 +28,7 @@ By the end of this session, you will be able to:
 
 ### Introductions
 - Instructor intros
-- Follow along by clicking the lesson plan in slack
+- Follow along by clicking the lesson plan in Slack
 
 ## Housekeeping and Follow-ups
 
@@ -47,12 +47,12 @@ By the end of this session, you will be able to:
 Other things to note as we go through Mod 0:
 
 - <strong>Zoom</strong>: turn video on, turn mic off unless speaking
-- <strong>You can raise your hand using zoom</strong>: go ahead and try it now!
+- <strong>You can raise your hand using Zoom</strong>: go ahead and try it now!
 - <strong>Problems or individual questions during the Zoom session?</strong> Send a message in the chat!
 
 ### Breakout Rooms
 
-This is a feature in zoom that we'll use throughout the Mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 30 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 30 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise.
+This is a feature in Zoom that we'll use throughout the Mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 30 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 30 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise.
 
 Some norms before heading in:
 * Be aware and try not talk over others.
@@ -61,7 +61,7 @@ Some norms before heading in:
 Breakout groups can be a bit awkward at first, but try to embrace them and have fun!
 
 <div class="try-it">
-  <h3>Try It: Break out rooms</h3>
+  <h3>Try It: Breakout rooms</h3>
   <p>1. Introduce yourself (name, pronouns, program)</p>
   <p>2. Where do you call home?</p>
   <p>3. Why Turing?</p>
@@ -284,14 +284,14 @@ To check what's inside of a directory, we use the `ls` command which stands for 
     <img src="images/files_directories_2.png" alt="files and directories 2">
   </div>
   <div>
-    If I was in the essays directory and I typed ls, this is what I'd see:
+    If I was in the essays directory and I typed <code>ls</code>, this is what I'd see:
 
   <pre>timo@Tims-MacBook-Pro:~/essays$ ls
   book_projects    life_lessons.docx    notes.docx</pre>
 
   <p>You will only see the directories and files that are directly inside of where you are. You will not see any directories or files that are nested down the path. This is why we do not see the contents of book_projects listed.</p>
 
-  <p>Now assume we're in the book_projects directory. If I type ls, I'll see this:</p>
+  <p>Now assume we're in the book_projects directory. If I type <code>ls</code>, I'll see this:</p>
 
   <pre>timo@Tims-MacBook-Pro:~/essays/book_projects$ ls
   literary_analysis.docx    book_report.docx</pre>
@@ -536,7 +536,7 @@ Key takeaways from today:
 <a name="homework"></a>
 ## Homework
 
-Find the homework in your Mod 0 Trello Board. Contact your instructors if you're stuck (or better yet, post in the public slack channel as you're likely not the only one running in to that issue)
+Find the homework in your Mod 0 Trello Board. Contact your instructors if you're stuck (or better yet, post in the public Slack channel as you're likely not the only one running in to that issue)
 
 Also, please note that the Mod 1 Pre-work takes about 40 hours total to complete. Part of your HW this week is to create a calendar for Mod 0 where you can plan how to spend your time on classes, HW, and the Mod 1 Pre-work! 
 
@@ -578,7 +578,7 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
       </ul>
       <div>
       <h3>Rectangle</h3>
-      <p>Start by making sure Rectangle is running with (command + spacebar) then type <strong>rectangle</strong> and then return. You should see a window icon at the top right of your menu bar. Click the icon to see a dropdown of your shortcuts. Click preferences to customize them.</p>
+      <p>Start by making sure Rectangle is running with (command + spacebar) then type <strong>Rectangle</strong> and then return. You should see a window icon at the top right of your menu bar. Click the icon to see a dropdown of your shortcuts. Click preferences to customize them.</p>
       <ul>
         <li>
           <strong>Full Screen Current Window:</strong>
@@ -644,5 +644,3 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
     </div>
   </div>
 </div>
-
-This [video](https://www.youtube.com/watch?v=I3PBZBX-Fig&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=2) from Technical Programs Instructor Amy Holt gives some great screen management tips.
