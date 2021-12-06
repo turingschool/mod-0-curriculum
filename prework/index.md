@@ -14,9 +14,9 @@ The Mod 1 Pre-work is divided into three sections: Technical, Professional Devel
 The following assignments are due based on your Mod 0 section and can be found on the [Mod 0 calendar]({{ site.baseurl }}/calendar)
 
 The pre-work is made up of 3 parts:
-* [Professional Development]({{ site.baseurl }}#professional-dev)
-* [Technical]({{ site.baseurl }}#technical)
-* [Gear Up]({{ site.baseurl }}#gear-up)
+* Professional Development
+* Technical
+* Gear Up
 
 ## Professional Development (2 hours)
 
