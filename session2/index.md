@@ -72,7 +72,7 @@ There are numerous reasons to use git. Among them:
 - The ability to use branches to separate features of a program
 - The ability to track who made specific changes to specific files
 
-In this section on git, we'll learn (or review) these git comamnds:
+In this section on git, we'll learn (or review) these git commands:
 
 Action Commands
 <ul>
