@@ -5,15 +5,13 @@ subheading: Data Types, Variables + Modeling Real World Things
 ---
 ### Goals
 **By the end of this session, you will be able to:**    
-
 - Identify and describe basic data types
 - Assign and re-assign variables in JavaScript or Ruby
 - Model data using variables
 
-
 ### Agenda
 - Housekeeping, Feedback + Goals
-- Pseudocoding Practice
+- Git Worflow Review
 - Data Types + Variable Assignment + Modeling Using Variables
 - Wrap Up
 
@@ -24,7 +22,7 @@ subheading: Data Types, Variables + Modeling Real World Things
 - Headphones & mic
 - Zoom permission to share screen for breakout sessions
 
-## Housekeeping, Wins/Follow-Ups, and Goals
+## Housekeeping & Follow-Ups
 
 <div class="try-it">
   <h3>Intros and Review</h3>
@@ -36,38 +34,6 @@ subheading: Data Types, Variables + Modeling Real World Things
   </ol>
   <p>Extra time? Share any helpful resources you’ve come across!</p>
 </div>
-
-### Psuedocode Practice: Tricky Word Problems
-
-Here is a common code challenge: Write a function that determines whether a given word/string is a palindrome.
-
-See example below (remember, it is OK if you don't understand exactly what is happening in the code!)
-
-```
-"tacocat" >>> returns true
-"kitten" >>> returns false
-"kayak" >>> returns true
-"button" >>> returns false
-"a" >>> returns true
-```
-
-Write pseudocode to explain how you would approach checking whether a given word is a palindrome or not - remember, the smaller you can break up the "steps" the better!
-
-#### On your own
-- How can you break this problem down into smaller chunks or sub-problems?
-- What steps are needed to get from the initial data (input) to the desired end result (output)?
-- Are there any "edge" cases you need to check?
-
-#### In groups
-- In groups, take turns sharing your psuedocode
-- As a group, come up with a Team Solution that can borrow parts from all the different group members!
-
-#### Share Out + Review
-
-<a name="datatypes"></a>
-## Basic Data Types + Variable Assignment
-
-In most programming languages, you'll find the same basic <span class="vocab">data types</span>. A data type represents the kind of data that you can use in the programming language. In this section, we'll discuss five different basic data types that are applicable to both the front end and back end. Luckily for us, the <span class="vocab">syntax</span> (the way we write) for these basic data types is almost identical in Ruby and JavaScript.
 
 ## Technical Assessment Prep
 You will be taking the technical assessment following the last session of Mod 0. It is a good idea to begin preparing for this assessment now so that you feel comfortable and confident with the material.
@@ -95,6 +61,12 @@ We **STRONGLY** recommend that you study ahead of time for this assessment. Luck
   - How to model data using objects and variables (coming in Session 5)
 
   Preparing for this assessment is a great way to start building relationships with your community - remember, Turing is NOT a competition! We highly encourage you to use resources such as Slack calls, Zoom meetings, screen sharing, Driver - Navigator, etc. to work with your cohortmates to practice these skills!
+
+<a name="datatypes"></a>
+## Basic Data Types + Variable Assignment
+
+In most programming languages, you'll find the same basic <span class="vocab">data types</span>. A data type represents the kind of data that you can use in the programming language. In this section, we'll discuss five different basic data types that are applicable to both the front end and back end. Luckily for us, the <span class="vocab">syntax</span> (the way we write) for these basic data types is almost identical in Ruby and JavaScript.
+
 
 ### Data Type Use Cases and Syntax Practice
 We are going to break out into program specific small groups to start working through these skills!
