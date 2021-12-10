@@ -41,7 +41,6 @@ You will be assigned to one of these data types:
 
 When we share out - be sure to take notes in your notebook about each data type and syntax!
 
-
 <div class="try-it">
 <h3>Data Type Definitions: DON'T CLICK UNTIL AFTER BREAKOUTS</h3>
   <div>
@@ -125,7 +124,6 @@ We are going to learn about how you can use a tool known as `irb` to start pract
   * Create another integer variable and multiply it by your number variable
   * Remove the last item from your teachers array
 
-
 ## Modeling "Real World Things" Using Code
 In Mod 0, we are going to start practicing how to use variables and data to "model" real world things. This is the beginning of your journey into Object Oriented Programming, which is one of the foundational programming approaches that you will learn much more about in Mod 1. Today's practice will also help you tremendously when you start working with Classes and Instances as part of your Mod 1 Pre-work!
 
@@ -159,19 +157,19 @@ park_rangers = ['Dave Brackmann']
 Let's take everything we've worked on with git, GitHub, data types and variable assignment to build a model of a real world thing of your choice!
 
 #### Directions
-1. Create a new directory called `variable-practice`
-1. Inside that directory, create a file called `model-1.rb`
+1. Create a new directory called `variable_practice`
+1. Inside that directory, create a file called `model_1.rb`
 1. Initialize `git` inside of the directory
 1. Commit your work (What message should you use here?)
-1. Go to GitHub and create a repo with the same name - `variable-practice`
+1. Go to GitHub and create a repo with the same name - `variable_practice`
 1. Push your local directory to GitHub by following the instructions
-1. In your `model-1.rb` file, add a few variables that are assigned to `strings`
+1. In your `model_1.rb` file, add a few variables that are assigned to `strings`
 1. Commit your work
-1. In your `model-1.rb` file, add a few variables that are assigned to `floats` or `integers`
+1. In your `model_1.rb` file, add a few variables that are assigned to `floats` or `integers`
 1. Commit your work
-1. In your `model-1.rb` file, add a few variables that are assigned to `booleans`
+1. In your `model_1.rb` file, add a few variables that are assigned to `booleans`
 1. Commit your work
-1. In your `model-1.rb` file, add a few variables that are assigned to `arrays`
+1. In your `model_1.rb` file, add a few variables that are assigned to `arrays`
 1. Commit your work
 1. Push your changes to GitHub
 
