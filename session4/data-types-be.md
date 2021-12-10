@@ -38,7 +38,6 @@ You will be assigned to one of these data types:
 - Integer + Float
 - Boolean
 - Array
-- Hash (extension)
 
 When we share out - be sure to take notes in your notebook about each data type and syntax!
 
@@ -174,9 +173,7 @@ Let's take everything we've worked on with git, GitHub, data types and variable 
 1. Commit your work
 1. In your `model-1.rb` file, add a few variables that are assigned to `arrays`
 1. Commit your work
-1. In your `model-1.rb` file, add a few variables that are assigned to `hashes`
-1. Commit your work
 1. Push your changes to GitHub
 
-### Still confused?
+### Additional Resource
 Watch [this video](https://www.youtube.com/watch?v=S-IeM4xnCog&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=3) on variable assignment in Ruby. Do some additional research and then post any additional questions in the class Slack!

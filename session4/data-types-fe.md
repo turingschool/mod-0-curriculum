@@ -41,10 +41,8 @@ You will be assigned to one of these data types:
 - Integer + Float
 - Boolean
 - Array
-- Object (extension)
 
 When we share out - be sure to take notes in your notebook about each data type and syntax!
-
 
 <div class="try-it">
   <h3>Data Type Definitions: DON'T CLICK UNTIL AFTER BREAKOUTS</h3>
@@ -114,7 +112,6 @@ When we share out - be sure to take notes in your notebook about each data type 
         </ul>
       </div>
     </div>
-  
 </div>
 
 ### Syntax Practice using the Console
@@ -178,9 +175,7 @@ Let's take everything we've worked on with git, GitHub, data types and variable 
 1. Commit your work
 1. In your `model-1.js` file, add a few variables that are assigned to `arrays`
 1. Commit your work
-1. In your `model-1.js` file, add a few variables that are assigned to `objects`
-1. Commit your work
 1. Push your changes to GitHub
 
-### Still confused?
+### Additional Resource
 Start by watching [this video](https://www.youtube.com/watch?v=sIGNox7OGD0&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=4) on variable assignment in JavaScript. If you're still struggling, do some additional research and then post any additional questions in the class Slack!
