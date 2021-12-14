@@ -6,19 +6,24 @@ subheading: Basic Data Types, Variables
 
 ## Learning Goals
 
-- Identify and use 3 basic data types
-- Assign and re-assign variables in JavaScript (FE) or Ruby (BE)
-- Comfortably use Chrome Dev Tool Console (FE) or IRB (BE)
+- Identify and use 3 basic Data Types
+- Assign and reassign variables in JavaScript
+- Comfortably use Chrome Dev Tool Console
 
-## Agenda
+## Vocabulary
 
-- Where To Run Code
-- Data Types & Variables
-- Annotations
+- assignment operator
+- Boolean
+- console
+- Data Type
+- Dev Tools
+- Number
+- String
+- variable
 
 ## Where To Run Code
 
-As users of internet browsers (Chrome, Firefox, etc.), we sometimes take for granted all the work those browsers actually do! Behind the scenes, they read and run code that we as developers write and ultimately send to the browser. This session will not take you through details, but you will build knowledge and understanding about how that works as you progress through the Front-End program.
+As users of internet browsers (Chrome, Firefox, etc.), we sometimes take for granted all the work those browsers actually do! Behind the scenes, they read and run code that developers write and ultimately send to the browser. This session will not take you through the details on how that work, but you will build knowledge and understanding about that as you progress through the Front-End program.
 
 By the end of this session, you'll be able to use the Chrome browser as a tool to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. The browser will allow you to explore and learn JavaScript and test out code you've written in a low stake environment. It is quick and easy to open up a browser tab and run your code immediately.
 
@@ -26,7 +31,7 @@ By the end of this session, you'll be able to use the Chrome browser as a tool t
 
 - Open and close the Dev Tools with keyboard shortcut `cmd + opt + i` or `cmd + opt + j`. There are other ways to do this but this is strongly recommended as using keyboard shortcuts is most efficient and the norm in the industry
 - The Dev Tools "drawer" can be readjusted to take up more or less of the entire browser window. Depending on the nature of your work, you may want to readjust this
-- The Dev Tools can be "docked" on the left, bottom, or side sides of the browser window. To adjust, click the small 3 dot icon, then select your desired "Dock side"
+- The Dev Tools can be "docked" on the left, bottom, or right sides of the browser window. To adjust, click the small 3 dot icon, then select your desired "Dock side"
 - The Dev Tools can be displayed with Dark Mode or Light Mode. Adjustments can be made to that in the "Settings" of the Dev Tools which can be found by clicking the small gear icon
 - When you open the Dev Tools console, depending on the site you are on, you might see warnings or errors. You can type `clear()` and hit `return` at anytime to clear those out
 
@@ -36,12 +41,12 @@ By the end of this session, you'll be able to use the Chrome browser as a tool t
   <h3>You Do: Chrome Dev Tools</h3> 
   <ul>
     <li>Open the Dev Tools in the Chrome browser using the keyboard shortcut.</li>
-    <li>Practice adjusting the size of the Dev Tools.</li>
+    <li>Practice adjusting the size of the Dev Tools</li>
     <li>Practice changing the Dock side - leave it on a side you prefer. You can always change your mind later!</li>
-    <li>If you'd like to change to Dark or Light mode, do that in the Settings.</li>
+    <li>If you'd like to change to Dark or Light mode, do that in the Settings</li>
     <li>Open up the Dev Tools in 5 different tabs; each tab should be on a different site. If you see any errors or warnings in the console, use <code>clear();</code></li>
-    <li>Close the Dev Tools in all tabs using the same keyboard shortcut.</li>
-    <li>Re-open the Dev Tools in one tab; it should have kept the previously selected settings in regards to size, Dock side, and Dark or Light mode</li>
+    <li>Close the Dev Tools in all tabs using the same keyboard shortcut</li>
+    <li>Reopen the Dev Tools in one tab; it should have kept the previously selected settings in regards to size, Dock side, and Dark or Light mode</li>
   </ul>
 </div>
 
@@ -62,9 +67,9 @@ To connect to how these data types are used in an application we all have some e
   <p><em>Note: You are doing this work in the breakout room to practice collaboration and communication just as much as to practice identifying Data Types.</em></p>
   <ul>
     <li>Identify a time keeper</li>
-    <li>Spend 2 minutes independently brainstorming Data Types for an app you are familiar with. Be ready to share with your group: the name of the app, example for String, Number and Boolean</li>
+    <li>Spend 2 minutes independently brainstorming Data Types for an app you are familiar with. Be ready to share with your group: the name of the app, example for String, Number, and Boolean</li>
     <li>Spend 2 minutes sharing out and asking clarifying questions if needed</li>
-    <li>Identify a presenter (someone who did not keep time). When we return to the main Zoom, this person will be asked to share the app and examples that a <em>different</em> student brainstormed</li>
+    <li>Identify a presenter (this should be someone who did not keep time). When we return to the main Zoom, this person will be asked to share the app and examples that a <em>different</em> student brainstormed</li>
   </ul>
 </div>
 
@@ -74,11 +79,11 @@ Pieces of data in the various types we've discussed so far are valid JavaScipt c
 
 However, if we ever want to reference that email address ever again in our code, the only way would be to read that part of the screen and manually type it out again - and that's not going to make for a very efficient application.
 
-**Variables** are what allows us to store data in a JavaScript program. We can think of them as storage containers that holds items we care about and want to keep track of. The label on top of that container is what we can compare to a variable _name_. Variables can store any of the Data Types we've learned today as well as others that you'll learn about in upcoming lessons.
+**Variables** are what allow us to store data in a JavaScript program. We can think of them as storage containers that hold items we care about and want to keep track of. The label on top of that container is what we can compare to a variable _name_. Variables can store any of the Data Types we've learned today as well as others that you'll learn about in upcoming lessons.
 
 ### Variable Syntax
 
-In JavaScript, we declare variables using the `var` keyword. This tells JavaScript that we’re about to make a new variable, or declare a variable.
+In JavaScript, we declare variables using the `var` keyword. This tells JavaScript that we’re about to make a new variable, or declare a variable. Following the `var` kayword is the name of the variable, the **assignment operator**, then the value being stored.
 
 ```javascript
 var email = "helloworld@gmail.com";
@@ -86,11 +91,13 @@ var startingAge = 37;
 var depositPaid = true;
 ```
 
+>To describe the first line of code in the previous example, one might say "This line of code declares a variable named `email` and assigns it to the String of `helloworld@gmail.com`".
+
 If our JavaScript program has data stored in variables, we are able to reference those variables at any time to access the data. This can be demonstrated in the console.
 
 ### Reassigning Variables
 
-We often need to write code that changes the data stored in a variable. Consider the Populi example:
+We often need to write code that changes the data stored in a variable. Consider this Populi example:
 - When a student first creates a profile, the `depositPaid` variable is automatically assigned to `false`
 - Once the student pays their deposit, some code is triggered to change that value to `true`
 
@@ -106,8 +113,10 @@ depositPaid // true
 
 <div class="try-it">
   <h3>Variables & Driver/Navigator (Pairs)</h3>
-  <p><strong>Roles:</strong> The partner with the birthday closest to New Years will screen share and be the driver. The other partner will be the navigator, who dictates what the driver should do/type. Write the following code in the browser console:</p>
+  <p><strong>Roles:</strong> The partner with the birthday closest to New Years will screen share and be the driver. The other partner will be the navigator, who dictates what the driver should do/type. In the browser, complete the tasks that follow:</p>
   <ul>
+    <li>Open the Dev Tools Console</li>
+    <li>Increase the font size in the Console so your partner can easily view it</li>
     <li>Declare 3 variables; a String, Number and Boolean</li>
     <li>Call each variable to confirm it was stored correctly</li>
     <li>Reassign each variable to a new value, then call it again to confirm it does indeed store the new value</li>
@@ -118,15 +127,16 @@ depositPaid // true
 
 ## Code Annotations
 
-Being a developer requires more than just writing code. Most of the job is actually reading others code and building on top of it. In order to do so, you’ll need to build your skills around:
+Being a developer involves more than just writing code. A big part of the job is actually reading other peoples code and then adding to it or modifying it. In order to do so, you’ll need to build your skills around:
 
 - Reading other people’s code
 - Annotation (adding your notes) to code other people have written
-- Articulating (speaking about) code that isn’t yours
+- Articulating (speaking about) what a line of code is doing, using precise technical vocabulary
+- Asking questions (to yourself or others) to make sense of new code
 
 Annotating code is a great way to understand how code works and dive into code that you yourself did not write. One strategy to annotating code is to write comments directly in the code you are trying to decipher.
 
-Most text editors, like Atom, allow you to add comments in your code. You can highlight a selection and use `cmd + /` to turn your text into a comment. Conversely, you can start any line with `//` for JavaScript to indicate a comment. You should see your syntax highlighting change to a different color when code has been commented out!
+Text editors, like Atom, allow you to add comments in your code. You can highlight a selection and use `cmd + /` to turn that text into a comment. You can also start any line with `//` and that entire line will be treated as a comment. You should see your syntax highlighting change to a different color when code has been commented out!
 
 Annotation Example:
 ```javascript
@@ -166,7 +176,7 @@ console.log(dogName, dogAge, hungryDog);
 
 ## Putting it All Together
 
-Use everything we’ve worked on with git, GitHub, data types and variable assignment:
+Use everything you’ve learned with git, GitHub, Data Types and variables, complete this challenge:
 
 1. Create a new directory called `variable-practice`
 1. Inside that directory, create a file called `variables.js`
