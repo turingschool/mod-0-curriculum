@@ -28,8 +28,8 @@ By the end of this session, you'll be able to use the your terminal, specicially
 
 ### `irb`: Tips & Tricks
 
-- Open and close the Terminal quickly with keyboard shortcut `cmd + space` to poen Spotlight. Then start typing "terminal" and it should auto-fill. Press `return`. Note: there are other ways to open your Terminal but keyboard shortcuts are most efficient and the norm in the industry
-- Regardless of your working directory, you can type `irb` then press `return` to open up an "irb session". A prompt that looks something like `irb(main):001:0>` will appear; you'll eventually type code to the right of that
+- Open and close the Terminal quickly with keyboard shortcut `cmd + space` to open Spotlight. Then start typing "terminal" and it should auto-fill. Press `return`. _Note: there are other ways to open your Terminal but keyboard shortcuts are most efficient and the norm in the industry_
+- Regardless of your working directory, you can type `irb` then press `return` to open up an what is referred to as an "irb session". A prompt that looks something like `irb(main):001:0>` will appear; you'll eventually type code to the right of that
 - The font size of your terminal can be increased or decreased with shortcuts `cmd + +` or `cmd + -`
 - To exit the irb session, type `exit` in all lowercase, then press `return`
 
@@ -45,7 +45,7 @@ By the end of this session, you'll be able to use the your terminal, specicially
 
 ## Data Types
 
-In this session, we will use 4 of Ruby's primitive Data Types:
+In this session, we will use 4 of Ruby's Data Types:
 - **String** - Any series of characters (alpha, numeric, or symbol) between quotation marks
 - **Integer** - Any whole positive and negative number, including 0
 - **Float** - Any positive and negative number that involves a decimal
@@ -91,13 +91,19 @@ deposit_paid = true
 
 If our Ruby program has data stored in variables, we are able to reference those variables at any time to access the data. This can be demonstrated in irb.
 
+### Best Practices for Naming Variables
+
+Naming can be hard, but is important to be thoughtful about and follow conventions of the language you are working with so that your code is easily accessible and readable for those you are collaborating with. A few key points:
+- All Ruby variables should use `snake_case` - all characters should be lower cased; in multi-word variables, words should be separated with an underscore
+- Variable names should descirbe the type of data they hold without being overly verbose or specific (examples: `name`, `email`, etc. non-examples: `x`, `ftga23`, `name_of_incoming_mod_1_be_student`)
+
 ### Reassigning Variables
 
 We often need to write code that changes the data stored in a variable. Consider this Populi example:
 - When a student first creates a profile, the `deposit_paid` variable is automatically assigned to `false`
 - Once the student pays their deposit, some code is triggered to change that value to `true`
 
-To do that, we use the exact same syntax that we used to make the original assignment. We can run the code that follows, or code like it, in the console to demonstrate that the value has changed.
+To do that, we use the exact same syntax that we used to make the original assignment. We can run the code that follows, or code like it, in irb to demonstrate that the value has changed.
 
 ```ruby
 deposit_paid = false
@@ -132,7 +138,7 @@ Being a developer involves more than just writing code. A big part of the job is
 
 Annotating code is a great way to understand how code works and dive into code that you yourself did not write. One strategy to annotating code is to write comments directly in the code you are trying to decipher.
 
-Text editors, like Atom, allow you to add comments in your code. You can highlight a selection and use `cmd + /` to turn that text into a comment. You can also start any line with `#` and that entire line will be treated as a comment. You should see your syntax highlighting change to a different color when code has been commented out!
+Text editors, like Atom, allow you to add comments in your code. You can highlight a selection and use `cmd + /` to turn that text into a comment. You can also manually type `#` at any point of a line and all characters after that will be treated as a comment. You should see your syntax highlighting change to a different color when code has been commented out!
 
 Annotation Example:
 ```ruby
