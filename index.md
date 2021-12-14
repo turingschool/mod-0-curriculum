@@ -26,8 +26,8 @@ The key tools and concepts we go over in mod 0 are:
 
 Complete the [Mod 0 Prep](https://mod0.turing.io/before-mod-0) before your first session starts - this should take around **3 hours**! 
 
-
 ## Passing Mod 0 
+
 In order to pass mod 0 and be mod 1 ready, you will need to:
 1. Attend all 5 sessions and complete the required homework
   * homeworks are due by the next session. ie. session 1 hw is due by session 2
