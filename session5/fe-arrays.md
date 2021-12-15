@@ -136,16 +136,16 @@ As a developer, an important skillset is researching and documentation reading (
 Since researching and documentation reading can sometimes be time-consuming, another skill is to be able to make the decision about when it's time to go to Google. In this activity, you will be provided with some structure to teach yourself a few technical concepts. The main goal is **not** to learn the technical concepts, it's to practice and explore _strategies to learn_ in an environment such as this, and how to make the decision about what to do when you need to learn something.
 
 <div class="try-it">
-  <h3>Data Types & Breakout Room Roles (Groups of 3-4):</h3> 
+  <h3>Data Types & Breakout Room Roles (Pairs):</h3> 
   <p>You've seen the syntax for the <code>pop</code> method but its utility was not explained. Before going down a potential rabbit hole in Google, open up your browser Dev Tools. Declare an Array with 3 elements. Use the <code>pop</code> method with the syntax you learned earlier. Call the Array and observe the change that has been made since you initially declared it. Go through this process again, with the same Array. What can you infer the <code>pop</code> method does? Check Google (remember, MDN has the most reliable documentation) to confirm your inference. Write this down; you'll be asked to share out and expected to use this learning in the next activity.</p>
   <p>Check in on how you've been collaborating - is one partner screensharing? Do both partners have the same info written down (it doesn't have to be the <em>exact</em> same, but you should generally have the same level of understanding and similar notes). Decide if you want to switch drivers, or change anything else for the next section.</p>
   <p>Your next task is to learn what the <code>push</code>, <code>shift</code> and <code>unshift</code> Array methods do. Discuss with your partner - how easy or hard did the work you did for <code>pop</code> feel? Do you want to follow the same steps to learn about the other methods, or go straight to MDN documentation to learn about the other 3? Act on whatever you decide, and be sure to write down your learnings about these methods.</p>
   <p>Your instructor will be calling random pairs to share out on each of the 4 methods you've discussed. Who will answer if you are called on?</p>
 </div>
 
-Regroup from BOs and call on groups to share out
+<!-- Regroup from BOs and call on groups to share out
 
-- Reflect: What % of the time did you talk, did your partner talk? What % of the time were you screensharing, your partner screensharing?
+- Reflect: What % of the time did you talk, did your partner talk? What % of the time were you screensharing, your partner screensharing? -->
 
 ## Practice Reviewing a Lesson
 
