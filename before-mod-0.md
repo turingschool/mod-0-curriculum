@@ -1,77 +1,64 @@
 ---
 layout:     page
-title:      Before Mod 0 
-subheading: Tasks to Complete
+title:      Before Starting Mod 0 
 permalink:  before-mod-0
 ---
 
 **Before your first Mod 0 session**, we ask that you complete the following tasks to familiarize yourself with the tools we use on a regular basis and ensure that you are set up to be successful.
 
-### PLEASE PLAN TO SPEND ABOUT 3 HOURS ON THESE TASKS!
+**PLEASE PLAN TO SPEND ABOUT 4 HOURS ON THESE TASKS!**
 
-1. Notetaking @ Turing (20 mins)
-1. Computer Setup (30 mins)
-1. Zoom Setup + Housekeeping (5 mins)
-1. Slack (15 mins)
-1. FE vs BE (10 mins)
-1. Remote Workspace (5 mins)
-1. Thoughts on Professionalism (5 mins)
+## Index (time estimates)
 
-## Notetaking @ Turing
-Many of you are diving back into an academic setting for the first time in awhile. To be clear, the Turing experience is likely MUCH different than your previous academic experiecnes! We will use Mod 0 to start preparing you to kick ass at Turing and start your transformation into a developer off on the right foot.
+1. Computer Setup (60-120 min)
+1. Slack (15 min)
+1. Remote Workspace (5 min)
+1. Notetaking (20 min)
+1. Thoughts on Professionalism (5 min)
+1. Setup Homework board (5 min)
 
-One area we notice students struggle with is HOW and WHEN to take notes, especially when it comes to technical content. We've put together a short activity to show you some examples of what "strong" notes look like at Turing and give you some time to reflect on what stands out to you!
+## Complete the Computer Setup
 
-[Click here](https://gist.github.com/ericweissman/a729a849ed6355ed8ee0c9156a8e9c98) to begin the notetaking activity and begin to setup your own notebook!
-
-
-## Complete the Turing Computer Setup
-It is critical that you set up your computer according to the instructions outlined in the Computer Setup! You can access the Computer Setup instructions on the left sidebar any time or [click here](https://mod0.turing.io/setup-instructions)! 
-
-
-## Zoom Setup + Housekeeping
-Since Turing is a remote school, we will use Zoom for our video conferencing software for class, group projects, etc.
-- Sign up for [Zoom](zoom.us)
-- Update your name in [your profile](https://support.zoom.us/hc/en-us/articles/201363203-My-Profile) following this pattern: First Name, Last Initial, Preferred Pronouns, Program - `Eric W (he/him), FE`
-- Learn how to [raise your hand](https://support.zoom.us/hc/en-us/articles/205566129-Raise-Hand-In-Webinar)
-- Give your Zoom account screen sharing permission and microphone permission
-- **BONUS**: Learn keyboard shortcut for using Emoji in MacOS (`COMMAND + SPACE` when you are in a text field!)
+It is **essential** that you set up your computer according to the instructions outlined in the [Computer Setup](https://mod0.turing.io/computer-setup). On occasion, students run into problems installing some of the programs, so it is advised you start this sooner than later in the event you need to reach out for support on Slack.
 
 ## Slack
-Slack is our main communication tool at Turing. You will receive an invite to join the Turing Slack a few days before you are scheduled to start your Mod 0 session. To ensure that you are prepared for your first session...
+
+Slack is our main communication tool at Turing. You will receive an invitation to join the Turing workspace 2-4 weeks before your Mod 0 start date. To ensure that you are prepared for your first session:
 - Watch the [Slack Tutorial Video](https://www.youtube.com/watch?v=tfq333EpWgM)
-- Join your specific `mod-0` channel (check email for invite)
-- Upload a clear and appropriate Headshot for your Profile image
-- Set up your Slack profile
-- Practice the following skills AND take notes on how to perform them in your notebook!
+- Upload a clear and appropriate headshot for your Profile image
+- Set up your Slack profile to include your cohort, program, pronouns, and timezone
+- Practice the following:
   - How to start a thread
   - How to reply in a thread
   - How to format an `inline code example`
-  - How to create a larger code snippet, like such:
+  - How to create a larger code snippet, as such:
     ```
       You can create multi-line
       code snippets in Slack
       That make it easier to share larger blocks of code
     ```
 
-## FE vs BE Activity
-While you likely have picked your track for Turing, it's still critical to understand how front-end and back-end works together!
-
-- Watch [this video](https://www.youtube.com/watch?v=7CjChB48_oM&feature=youtu.be)
-- Stop the video when prompted and take notes on the following:
-  - What do you think is happening on the front-end?
-  What do you think is happening on the back-end?
-
 ## Remote Workspace
-Be sure to get your [supplies and workspace prepared](https://mod0.turing.io/remote-workspace) to crush Mod 0 and beyond! 
+
+Read this guide on [how to prepare your supplies and workspace](https://mod0.turing.io/remote-workspace) and take any steps to you need to, to be ready for remote learning.
+
+## Notetaking
+
+Many of you are diving back into an academic setting for the first time in awhile. To be clear, the Turing experience is likely MUCH different than your previous academic experiecnes! We will use Mod 0 to start preparing you for the expectations at Turing and start your transformation into a developer off on the right foot.
+
+One area instructors have reported students that struggle with is **how** and **when** to take notes, especially when it comes to technical content. The guide that follows will provide some exemplar note taking strategies as well as some tips and tricks. 
+
+[Notetaking Guide](https://gist.github.com/ericweissman/a729a849ed6355ed8ee0c9156a8e9c98)
 
 ## Read Thoughts on Professionalism
+
 Read [these reflections](https://drive.google.com/file/d/1LNyXge4p6OQTWbo_Y9XIJAF2LEwNnN4P/view) from a former student and take notes on the following:
 1. What stood out to you as you read this?
 1. What surprised you after reading this?
 1. How will this impact your approach to Mod 0?
 
-You will be sharing these reflections during your first session of Mod 0!
+You will be sharing these reflections during your first session of Mod 0.
 
 ## Setup Homework Board
+
 Follow the instructions in the [Homework section](https://mod0.turing.io/homework/) for getting your Trello board set up! 
