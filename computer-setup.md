@@ -51,12 +51,25 @@ Chrome includes a set of developer tools that will come in handy down the road. 
 
 <br>
 
+### Install Slack
+
+Slack is our main communication tool at Turing. If you are not familiar with it, it may seem overwhelming at first. There are a lot of tips and tricks you'll pick up along the way.
+
+**Action Steps:**
+- 📌 [Download and install the Slack desktop app](https://slack.com/downloads/mac)
+
+<br>
+
 ### Install Zoom
 
 Zoom is the primary tool for classroom time, study halls, and community building time at Turing.
 
 **Action Steps:**
-- 📌 If you haven't already, [install Zoom](https://zoom.us/download/) for Macs with Apple Silicon chips
+- 📌 [Install Zoom](https://zoom.us/download/) for _Macs with Apple Silicon chips_
+- 📌 If you haven't already, create an account with Zoom
+- 📌 Update your name in [your profile](https://support.zoom.us/hc/en-us/articles/201363203-My-Profile) following this pattern: First Name, Last Initial, pronouns, Program - `Kaitlyn V (she/her), FE`
+- 📌 Learn how to [raise your hand](https://support.zoom.us/hc/en-us/articles/205566129-Raise-Hand-In-Webinar)
+- 📌 Give your Zoom account screen sharing permission and microphone permission
 
 <br>
 
