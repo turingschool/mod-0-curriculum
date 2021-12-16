@@ -3,13 +3,14 @@ layout: page
 title: Homework
 ---
 
-### Creating your Homework Board
+## Create your Homework Board
 
-All of the Mod 0 work is organized on a [Mod 0 Trello board](https://trello.com/b/2SkOztic/mod-0).
+All of the Mod 0 work is organized on a [Mod 0 Trello board](https://trello.com/b/2SkOztic/mod-0). Trello is a tool that allows us to make a card for each task, and store cards under various columns. This type of tool is frequently used in software development.
 
-This board allows for a methodology called kanban (I would google the term if you're unfamiliar) to organize and update you tasks.
+**Action Item:**
+- 📌 Follow the directions on the first card titled "What is Trello + Copy this Board!"
 
-### Budgeting Time & Communicating Proactively
+## Budgeting Time & Communicating Proactively
 
 During your time in Mod 0, you will have homework that is due after each session. The `Before Mod 0` activities can be considered your first homework assignment that will be due before the first session!
 
