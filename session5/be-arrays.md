@@ -25,7 +25,7 @@ subheading: Intro to Arrays in Ruby
 
 Let's consider a list of students in a class, using the programming tools we've learned thus far:
 
-```Ruby
+```ruby
 student1 = "Josiah"
 student2 = "Cindy"
 student3 = "Violet"
@@ -60,7 +60,7 @@ Notice that in the previous examples, the items in a given list are all of the _
 - Elements should be separated with a comma and space
 - An Array can hold any number of elements
 
-```Ruby
+```ruby
 students = ["Cindy", "Josiah", "Rigo"]
 ```
 
@@ -77,7 +77,7 @@ If we just want to access one element from an array, we can use **bracket notati
 
 Through reading the code snippets below, one can infer that the first element is in index position 0, and counting increments by 1.
 
-```Ruby
+```ruby
 # in irb
 students = ["Cindy", "Josiah", "Rigo"]
 
@@ -88,7 +88,7 @@ students[2]
 # --> "Rigo"
 ```
 
-```Ruby
+```ruby
 # in Atom, when running the file in the command line
 students = ["Cindy", "Josiah", "Rigo"]
 
@@ -122,7 +122,7 @@ An **Array method** is a piece of functionality that is built into the Ruby lang
 
 To use an Array method in Ruby, we first must tell Ruby which Array we want to perform the method on. After that, a dot/period, then the name of the method followed by parentheses.
 
-```Ruby
+```ruby
 students = ["Cindy", "Josiah", "Rigo"]
 students.pop
 
