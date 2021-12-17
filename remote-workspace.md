@@ -37,7 +37,7 @@ Here are a few of our recommendations...
 
 There are plenty of great options available on eBay, Facebook Marketplace, Craigslist, etc. All you really need is something that fits in your workspace and can connect to your MacBook!
 
-If you are unable to acquire an external monitor prior to Mod 1, please reach out to Eric Weissman (@ericweissman on Slack) and we can discuss other options.
+If you are unable to acquire an external monitor prior to Mod 1, please DM the Mod 0 Lead on Slack and we can discuss other options.
 
 #### Connecting to Your Monitor
 
