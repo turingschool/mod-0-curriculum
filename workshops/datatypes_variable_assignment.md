@@ -224,8 +224,8 @@ best_food = "pizza"
 ```
 
 Videos on variable assignment:
-* [Back-End](https://www.youtube.com/watch?v=S-IeM4xnCog&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=3)
-* [Front-End](https://www.youtube.com/watch?v=sIGNox7OGD0&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=4)
+* [Back End](https://www.youtube.com/watch?v=S-IeM4xnCog&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=3)
+* [Front End](https://www.youtube.com/watch?v=sIGNox7OGD0&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=4)
 
 After watching a brief demo from an instructor on how to write variables on your computer in either Ruby or JavaScript, try out the following:
 * Assign a variable called `pizza` a value of 'the best food of all time'
@@ -239,5 +239,5 @@ After watching a brief demo from an instructor on how to write variables on your
   * Remove the last item from your teachers array
 
 Answer Keys:
-* [Back-End](https://gist.github.com/damwhit/99e906bcfb3b39d34790e2a246029716)
-* [Front-End](https://gist.github.com/damwhit/3656c48a09d5ab8bf85916b53fe6e760)
+* [Back End](https://gist.github.com/damwhit/99e906bcfb3b39d34790e2a246029716)
+* [Front End](https://gist.github.com/damwhit/3656c48a09d5ab8bf85916b53fe6e760)

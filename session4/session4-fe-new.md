@@ -23,7 +23,7 @@ subheading: Basic Data Types, Variables
 
 ## Where To Run Code
 
-As users of internet browsers (Chrome, Firefox, etc.), we sometimes take for granted all the work those browsers actually do! Behind the scenes, they read and run code that developers write and ultimately send to the browser. This session will not take you through the details on how that work, but you will build knowledge and understanding about that as you progress through the Front-End program.
+As users of internet browsers (Chrome, Firefox, etc.), we sometimes take for granted all the work those browsers actually do! Behind the scenes, they read and run code that developers write and ultimately send to the browser. This session will not take you through the details on how that work, but you will build knowledge and understanding about that as you progress through the Front End program.
 
 By the end of this session, you'll be able to use the Chrome browser as a tool to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. The browser will allow you to explore and learn JavaScript and test out code you've written in a low stake environment. It is quick and easy to open up a browser tab and run your code immediately.
 

@@ -64,8 +64,8 @@ Last session, we learned about basic Data Types and variables and how we can use
 
 We will breakout into program specific groups to learn how to use these more advanced Data Types!
 
-- [Front-End](./fe-arrays.md)
-- [Back-End](./be-arrays.md)
+- [Front End](./fe-arrays.md)
+- [Back End](./be-arrays.md)
 
 ### Close out
 

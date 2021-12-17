@@ -99,8 +99,8 @@ Take a look at the Mod 1 Calendar and curriculum to preview what is to come! A f
 - Do **NOT** try to get a head start on any projects! These projects will change each inning (6-week cycle) and often require working in teams/groups.
 - Previewing lessons to see what concepts are coming down the pipeline can be very helpful - however, you don't need to be proficient or understand any of these concepts before starting Mod 1 to be successful!
 
-* [Back-End Curriculum Site](http://backend.turing.io/)
-* [Front-End Curriculum Site](http://frontend.turing.io/)
+* [Back End Curriculum Site](http://backend.turing.io/)
+* [Front End Curriculum Site](http://frontend.turing.io/)
 
 ## Final Thoughts
 
