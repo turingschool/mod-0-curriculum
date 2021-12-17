@@ -29,4 +29,5 @@ In order to pass Mod 0, you will need to:
 1. Attend and engage in all 5 sessions and complete the required homework
 2. Complete and pass the Mod 0 Assessment
 3. Complete and pass the Mod 0 Project
-  * All of the due dates above are on the [calendar]({{ site.baseurl }}/calendar)
+
+* All of the due dates above are on the [calendar]({{ site.baseurl }}/calendar)
