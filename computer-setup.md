@@ -23,7 +23,7 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 
 ### New to Mac?
 
-If this is your first time using a Mac, it is recommended you do spend some time learning about the basics of using a Mac and getting comfortable with it.
+If this is your first time using a Mac, it is recommended you spend some time learning about the basics of using a Mac and getting comfortable with it.
 
 **Action Steps:**
 - _(Optional) Watch [this video](https://www.youtube.com/watch?v=67keaaWOKzE&t=0s)_
@@ -32,22 +32,22 @@ If this is your first time using a Mac, it is recommended you do spend some time
 
 ### Install Rectangle
 
-Rectangle is a screen management app that allows you to move and resize windows so you can watch the Zoom call and work in the terminal for your technical sessions.
+Rectangle is a screen management application that allows you to move and resize windows to maximize your screen space as well as your time.
 
-Once you've installed Rectangle, open the app and it will run in the background. You should see a smaller version of the Rectangle icon in the top right corner of your screen.
+Once you've installed Rectangle, open the application and it will run in the background. You should see a smaller version of the Rectangle icon in the top right corner of your screen.
 
 **Action Steps:**
-- Install the screen management app [Rectangle](https://rectangleapp.com/)
-- Take some time to play around with the commands to adjust the positioning and size of different windows on your screen using the Rectangle shortcuts!
+- Download and install [Rectangle](https://rectangleapp.com/)
+- Take some time to play around with the commands to adjust the positioning and size of different windows on your screen using the Rectangle shortcuts
 
 <br>
 
 ### Install Chrome
 
-Chrome includes a set of developer tools that will come in handy down the road. Additionally, it is always on the cutting edge of being able to support new web technologies.
+Chrome includes a set of Developer Tools that will come in handy down the road. Additionally, it is always on the cutting edge of being able to support new web technologies.
 
 **Action Steps:**
-- If you haven't already, [install Chrome](https://www.google.com/chrome/)
+- _If you haven't already,_ [download and install Chrome](https://www.google.com/chrome/)
 
 <br>
 
@@ -56,7 +56,7 @@ Chrome includes a set of developer tools that will come in handy down the road. 
 Slack is our main communication tool at Turing. If you are not familiar with it, it may seem overwhelming at first. There are a lot of tips and tricks you'll pick up along the way.
 
 **Action Steps:**
-- [Download and install the Slack desktop app](https://slack.com/downloads/mac)
+- [Download and install the Slack desktop application](https://slack.com/downloads/mac)
 
 <br>
 
@@ -65,10 +65,10 @@ Slack is our main communication tool at Turing. If you are not familiar with it,
 Zoom is the primary tool for classroom time, study halls, and community building time at Turing.
 
 **Action Steps:**
-- [Install Zoom](https://zoom.us/download/) for _Macs with Apple Silicon chips_
+- [Download and install Zoom](https://zoom.us/download/) for _Macs with Apple Silicon chips_
 - If you haven't already, create an account with Zoom
-- Update your name in [your profile](https://support.zoom.us/hc/en-us/articles/201363203-My-Profile) following this pattern: First Name, Last Initial, pronouns, Program - `Kaitlyn V (she/her), FE`
-- Learn how to [raise your hand](https://support.zoom.us/hc/en-us/articles/205566129-Raise-Hand-In-Webinar)
+- [Update your name in your profile](https://support.zoom.us/hc/en-us/articles/201363203-My-Profile) following this pattern: First Name, Last Initial, pronouns, Program - `Kaitlyn V (she/her), FE`
+- [Learn how to raise your hand](https://support.zoom.us/hc/en-us/articles/205566129-Raise-Hand-In-Webinar)
 - Give your Zoom account screen sharing permission and microphone permission
 
 <br>
@@ -79,46 +79,46 @@ Turing is a fully remote and highly collaborative program, which means you will 
 
 **Action Steps:**
 - Enable screen sharing permissions by taking the following steps:
-1. Open the System Preferences app by pressing the `command + space` keys at the same time, which opens Spotlight. Then, start typing "System Preferences"; it will auto-fill. Press `return` and the System Preferences appliaction will open.
+1. Open the System Preferences app by pressing the `command + space` keys at the same time, which opens Spotlight. Then, start typing "System Preferences"; it will auto-fill. Press `return` and the System Preferences appliaction will open
 1. Click `Security and Privacy`
 1. Click the `Privacy` tab
-1. Scroll down to Screen Recording and click the small "plus sign" button. In the window that opens, navigate to the Applications, then click on "Zoom".
+1. Scroll down to Screen Recording and click the small "plus sign" button. In the window that opens, navigate to the Applications, then click on "Zoom"
 
 <br>
 
 <div class="try-it">
   <h3>Running Commands in the Terminal</h3>
-  <p>The remainder of the Computer Setup steps will be completed almost completey inside the Terminal application. This may be very new and potentially overwhelming to you! Follow the directions closely to work through each section.</p>
-  <p>The directions will use a phrase that may be new to you "Run ____". When you are instructed to "run something", it means that you need to type those characters into the Terminal where you see the command prompt, then press <code>return</code>.</p>
+  <p>The remainder of the Computer Setup steps will be completed via the Terminal application. This may be very new and potentially overwhelming to you! Follow the directions closely to work through each section.</p>
+  <p>The directions will use a phrase that may be new to you: "Run ____". When you are instructed to "run something", it means that you need to type those characters into the Terminal where you see the command prompt, then press <code>return</code>.</p>
 </div>
 
 ### Install Xcode-select
 
-[Xcode](https://developer.apple.com/xcode/) is a suite of development tools published by Apple. If we wanted to develop software for the Apple Ecosystem (iPhone apps, macOS apps, etc), we would use Xcode as our editor. But even though we're not building iPhone apps, Xcode provides some system dependencies that we need.
+[Xcode](https://developer.apple.com/xcode/) is a suite of development tools published by Apple. If we wanted to develop software for the Apple Ecosystem (iPhone apps, macOS apps, etc), we would use Xcode as our editor. Even though we're not building iPhone apps, Xcode provides some system dependencies that we need.
 
-Rather than download Xcode via the Apple Store, we can get a much smaller selection of necessary tools, called `xcode-select`, via our terminal.
+Rather than download Xcode via the Apple Store, we can get a much smaller selection of necessary tools, called `xcode-select`, via our Terminal.
 
 **Action Steps:**
 - Install `xcode-select` to your machine by taking the follwoing steps:
   1. Open the Terminal by pressing the `command + space` keys at the same time, which opens Spotlight. Then start typing "Terminal"; it will auto-fill. Press `return` and your Terminal application will open.
 
-  1. Once terminal is open, run `xcode-select --install`
-  1. The download _may_ take up to several hours,
+  1. Once terminal is open, run `xcode-select --install`. This download _may_ take up to several hours,
   1. When prompted, enter the password you use to login to your computer.
   1. Run `xcode-select`. If `xcode-select` was installed properly, you should see something like this:
   ```
   $ xcode-select
     xcode-select: error: no command option given
+    .
     Usage: xcode-select [options]
+    .
     Print or change the path to the active developer directory. This directory
     controls which tools are used for the Xcode command line tools (for 
     example, xcodebuild) as well as the BSD development commands (such as cc 
     and make).
+    .
     Options:
-      -h, --help                  print this help message and exit
-    .
-    .
-    .
+    -h, --help                  print this help message and exit
+    (... and many more lines similar to the one above)
   ```
 
 <br>
@@ -135,11 +135,11 @@ Homebrew is a package management system that allows us to install and run variou
   1. Right click on the `Terminal` app and choose `Get Info`
   1. Check the box that says `Open using Rosetta`
   1. Open the `Terminal` app by either double clicking the icon or using a Spotlight search for `Terminal`
-  1. Run
+  1. Run the following command:
   ```
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
-  1. When prompted, enter the password you use to login to your computer. It needs this because it installs its packages in a place that all users of this computer can access. You will get a message that says, "Press RETURN to continue or any other key to abort." Press `return`.
+  1. When prompted, enter the password you use to log in to your computer. It needs this because it installs its packages in a place that all users of this computer can access. You will get a message that says, "Press RETURN to continue or any other key to abort." Press `return`.
   1. When it has completed the installation, which may take some time, quit the terminal using `cmd + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
   ```
   $ brew doctor
@@ -149,12 +149,16 @@ Homebrew is a package management system that allows us to install and run variou
   ```
   WARNING: A newer Command Line Tools release is available.
   Update them from Software Update in System Preferences or run:
+  .
     softwareupdate --all --install --force
+  .
   If that doesn't show you any updates, run:
     sudo rm -rf /Library/Developer/CommandLineTools
     sudo xcode-select --install
+  .
   Alternatively, manually download them from:
     https://developer.apple.com/download/all/.
+  .
   You should download the Command Line Tools for Xcode 13.1.
   ```
   1. If you had that warning and ran that additional command, when it has completed the installation, which may take some time, quit the terminal using `cmd + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
@@ -167,16 +171,16 @@ Homebrew is a package management system that allows us to install and run variou
 
 ### Install and Configure Atom
 
-Atom is a code editor, a program where we write and edit code. You've probably used Word or Google Documents in the past; this is similar, but a program specifically designed for code to be written in it. There are many code editors available, and once you get a foundation you may choose to use others. We ask all students in Mod 0 and Mod 1 to use Atom so that staff can best support students and so that students can easily collaborate.
+Atom is a code editor which is a program where we write and edit code. You've probably used Word or Google Documents in the past; this is similar, but a program specifically designed for code to be written in. There are many code editors available, and once you get a foundation you may choose to use others. We ask all students in Mod 0 and Mod 1 to use Atom so that staff can best support students and so that students can easily collaborate with one another.
 
 **Action Steps:**
-- Install [Atom](https://atom.io/). 
+- [Download and install Atom](https://atom.io/)
 - After downloading Atom, **ensure** that Atom appears in your Applications folder and is no longer in your Downloads folder!  
 
 Atom is where we write the code that powers our applications, but we'll also do important work in the Terminal. We need our Terminal to be able to "talk to" Atom.
 
 **Action Steps:**
-- Open Atom (from your Applications folder), drop down the Atom menu in the top left corner of your screen, and click "Install Shell Commands". Atom should now be enabled from your command line.
+- Open Atom (from your Applications folder), drop down the Atom menu in the top left corner of your screen, and click "Install Shell Commands".
 - Confirm the Atom Shell Commands are installed properly by taking the following steps:
   1. Open Terminal with Spotlight search (`command + space`, start typing `Terminal` and press `return`.)
   1. Run `atom .` in your terminal. **Be sure to include a space between `atom` and the `.`** If it is setup correctly, Atom will automatically open.
@@ -193,12 +197,12 @@ Atom is where we write the code that powers our applications, but we'll also do 
 
 ### Install Git
 
-Git is a Version Control System (VCS). It allows you to save work on your project and reference previous states of a project, if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and any previous version. Git’s philosophy: never lose anything.
+Git is a Version Control System. It allows you to save work on your project and reference previous states of a project, if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and any previous version. Git’s philosophy: never lose anything.
 
-One thing we'd like to be clear on: Git is not the same thing as GitHub. You'll learn more about how they interact as you work through Mod 0.
+Note: Git is not the same thing as GitHub. You'll learn more about how they interact as you work through Mod 0.
 
 **Action Steps:**
-- Install Git (we will use Homebrew to do so) on your machine by taking the following steps:
+- Install Git on your machine by taking the following steps:
   1. Open your Terminal, and run `brew install git`
   1. Check that it was successful by running `git` in the Terminal. It should output something like what follows:
   ```
@@ -208,6 +212,7 @@ One thing we'd like to be clear on: Git is not the same thing as GitHub. You'll 
             [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
             [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
             <command> [<args>]
+  .
   These are common Git commands used in various situations:
   start a working area (see also: git help tutorial)
     clone      Clone a repository into a new directory
@@ -217,8 +222,8 @@ One thing we'd like to be clear on: Git is not the same thing as GitHub. You'll 
   .
   ```
 - Configure Git by carefully taking the following steps:
-  1. Open Terminal with Spotlight search (press the `command + space` keys like we did previously).
-  1. Run the following, one at a time, **substituting your own info** for the first two commands:
+  1. Open Terminal with Spotlight search (with`command + space`).
+  1. Run the following commands, one at a time, **substituting your own info** for the first two commands:
   ```
   git config --global user.name "Eric Weissman"
   git config --global user.email eric@example.com
@@ -231,11 +236,11 @@ One thing we'd like to be clear on: Git is not the same thing as GitHub. You'll 
 
 ### Configure GitHub
 
-GitHub is a widely used platform to host code projects and engage in a collaborative workflow. You will spend a lot of time on this site and become fluent in using it as a tool.
+GitHub is a widely used platform that hosts code projects and allows for collaborative workflows. You will spend a lot of time on this site and become fluent in using it as a tool.
 
 **Action Steps:**
-- Create an account on [GitHub](https://github.com/)
-- Update your [GitHub Profile](https://github.com/settings/profile) and be sure that you choose a username, status, profile info and picture that is appropriate for a professional setting; this is a professional platform where future/potential employers will be reviewing your work
+- [Create an account on GitHub](https://github.com/)
+- [Update your GitHub Profile](https://github.com/settings/profile) and be sure that you choose a username, status, profile info and picture that is appropriate for a professional setting; this is a professional platform where future/potential employers will be reviewing your work
 
 SSH keys are a secure and convenient way of authenticating than typing in our password every time we want to interact with GitHub.
 
@@ -288,7 +293,7 @@ SSH keys are a secure and convenient way of authenticating than typing in our pa
 To write JavaScript in the command line and use essential "packages" while building apps, `node` and `npm` must be on the machine. This applies to both Front End and Back End students. 
 
 **Action Items:**
-- Install node and verify it was installed correctly by taking the following steps:
+- Install `node` and verify it was installed correctly by taking the following steps:
   1. In the Terminal, run `brew update`. This may take several minutes
   1. Run `brew install node`. This may also take several minutes
   1. Run `node -v`. The output should be _something_ like `v17.2.0`
@@ -299,7 +304,7 @@ To write JavaScript in the command line and use essential "packages" while build
 ### Install rbenv (Back End students _only_)
 
 **Action Items:**
-- Install rbenv and verify it was installed correctly by taking the following steps:
+- Install `rbenv` and verify it was installed correctly by taking the following steps:
   1. In the Terminal, run `brew update`. This may take several minutes
   1. Run `brew install rbenv`. This may also take several minutes
   1. Run `rbenv init`. The output should be _something_ like:
@@ -311,13 +316,11 @@ To write JavaScript in the command line and use essential "packages" while build
     ```
   1. Run `atom ~/.zshrc`. Atom should open to a blank file, the `zshrc` file. Inside this file, type or copy-and-paste in: `eval "$(rbenv init -)"` 
   1. Close your Terminal using `cmd + q` - this is absolutely neccessary! Clicking the red dot in the corner is not a substitute
-  1. Open the Terminal, and run `rbenv versions`. As long as you don't get an error message, you have installed rbenv
-- Use rbenv to change Ruby versions by taking the following steps:
+  1. Open the Terminal, and run `rbenv versions`. As long as you don't get an error message, `rbenv` has been installed correctly
+- Use `rbenv` to change Ruby versions by taking the following steps:
   1. In the Terminal, run `rbenv install 2.7.2`. This may take several minutes, and will likely print a lot of output. Wait patiently until it finishes/the command prompt returns
   1. Run `rbenv versions`. You should now see `2.7.2` listed
   1. Run `rbenv local 2.7.2` 
   1. Run `ruby -v`. The output should be something like `ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]`. If the output does not include `ruby 2.7.2`, `cmd + q` out of the terminal and start this step over
   1. Run `rbenv global 2.7.2` then `rbenv rehash`. You should not expect any output from those commands
-- If you've followed these steps and are having issues, please DM the Mod 0 Lead on Slack ASAP. It is essential rbenv is installed on your machine correctly.
-
-<br>
+- If you've followed these steps and are having issues, please DM the Mod 0 Lead on Slack ASAP. It is essential `rbenv` is installed on your machine correctly.

@@ -1,4 +1,9 @@
-# Configure Your Remote Workspace for Success
+---
+layout:     page
+title:      Remote Workspace
+permalink:  remote-workspace
+---
+
 For many of you, this will likely be your first time learning and/or working in a remote setting. There are a few key tools we recommend to set yourself up for success during and after the program! 
 
 We **STRONGLY RECOMMEND** acquiring everything in the `NEED TO HAVE` list and building your workspace before you start Mod 0 so you can feel comfortable and prepared.

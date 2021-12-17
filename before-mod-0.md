@@ -4,7 +4,7 @@ title:      Before Starting Mod 0
 permalink:  before-mod-0
 ---
 
-**Before your first Mod 0 session**, we ask that you complete the following tasks to familiarize yourself with the tools we use on a regular basis and ensure that you are set up to be successful.
+**Before your first Mod 0 session**, we ask that you complete the following tasks to familiarize yourself with the tools we use and ensure that you are set up to be successful.
 
 **PLEASE PLAN TO SPEND ABOUT 4 HOURS ON THESE TASKS!**
 
@@ -14,7 +14,7 @@ permalink:  before-mod-0
 1. Slack (15 min)
 1. Remote Workspace (5 min)
 1. Notetaking (20 min)
-1. Thoughts on Professionalism (5 min)
+1. Thoughts on Professionalism (10 min)
 1. Setup Homework board (5 min)
 
 ## Complete the Computer Setup
@@ -25,7 +25,7 @@ It is **essential** that you set up your computer according to the instructions 
 
 Slack is our main communication tool at Turing. You will receive an invitation to join the Turing workspace 2-4 weeks before your Mod 0 start date. To ensure that you are prepared for your first session:
 - Watch the [Slack Tutorial Video](https://www.youtube.com/watch?v=tfq333EpWgM)
-- Upload a clear and appropriate headshot for your Profile image
+- Upload a clear and appropriate headshot for your profile image
 - Set up your Slack profile to include your cohort, program, pronouns, and timezone
 - Practice the following:
   - How to start a thread
@@ -40,15 +40,13 @@ Slack is our main communication tool at Turing. You will receive an invitation t
 
 ## Remote Workspace
 
-Read this guide on [how to prepare your supplies and workspace](https://mod0.turing.io/remote-workspace) and take any steps to you need to, to be ready for remote learning.
+Read this guide on [how to prepare your supplies and workspace]({{ sitebaseurl }}/remote-workspace) and take any steps to you need to, to be ready for remote learning.
 
 ## Notetaking
 
-Many of you are diving back into an academic setting for the first time in awhile. To be clear, the Turing experience is likely MUCH different than your previous academic experiecnes! We will use Mod 0 to start preparing you for the expectations at Turing and start your transformation into a developer off on the right foot.
+Many of you are entering an academic setting for the first time in many years. Your experience at Turing will likely be much different than your previous academic experiences! We will use Mod 0 to start preparing you for the expectations at Turing, so that you can start learning technical content on the first day of Mod 1.
 
-One area instructors have reported students that struggle with is **how** and **when** to take notes, especially when it comes to technical content. The guide that follows will provide some exemplar note taking strategies as well as some tips and tricks. 
-
-[Notetaking Guide](https://gist.github.com/ericweissman/a729a849ed6355ed8ee0c9156a8e9c98)
+One area instructors have reported students that struggle with is **how** and **when** to take notes, especially when it comes to technical content. [This guide provides some exemplar note taking strategies as well as some tips and tricks.](https://gist.github.com/ericweissman/a729a849ed6355ed8ee0c9156a8e9c98)
 
 ## Read Thoughts on Professionalism
 

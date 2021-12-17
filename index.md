@@ -19,15 +19,13 @@ The goal of Mod 0 is to ensure you are ready to begin engaging with technical co
 * Collaborating on Technical Work
 * Git and GitHub Workflows
 
-## Ready to Get Started?!
+## Required Prep for Mod 0
 
-Complete the [Mod 0 Prep](https://mod0.turing.io/before-mod-0) before your first session starts. This should take around **4 hours**! 
+Complete the [Mod 0 Prep]({{ site.baseurl }}/before-mod-0) before your first session starts. This should take around **4 hours**! 
 
 ## Passing Mod 0 
 
 In order to pass Mod 0, you will need to:
-1. Attend and engage in all 5 sessions and complete the required homework
+1. Attend and actively engage in all 5 sessions and complete the required homework
 2. Complete and pass the Mod 0 Assessment
 3. Complete and pass the Mod 0 Project
-
-* All of the due dates above are on the [calendar]({{ site.baseurl }}/calendar)
