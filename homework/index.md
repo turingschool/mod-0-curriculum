@@ -5,7 +5,7 @@ title: Homework
 
 ## Create your Homework Board
 
-All of the Mod 0 work is organized on a [Mod 0 Trello board](https://trello.com/b/2SkOztic/mod-0). Trello is a tool that allows us to make a card for each task, and store cards under various columns. This type of tool is frequently used in software development.
+All of the Mod 0 work is organized on a [Mod 0 Trello board](https://trello.com/b/S7nxD03M/m0-homework). Trello is a tool that allows us to make a card for each task, and store cards under various columns. This type of tool is frequently used in software development.
 
 **Action Item:**
 - 📌 Follow the directions on the first card titled "What is Trello + Copy this Board!"

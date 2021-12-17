@@ -18,4 +18,4 @@ The project involves both technical work as well as some professional developmen
 
 ## Next Steps / Extensions
 
-Have some extra time before starting Mod 1? [Jump here](./extensions.md) to check out our extension ideas! 
+Have some extra time before starting Mod 1? [Jump here](./extensions) to check out our extension ideas! 

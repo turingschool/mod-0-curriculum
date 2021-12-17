@@ -9,8 +9,8 @@ Congrats on completing your Mod 0 requirements! Before we dive into other ways t
 Depending on when you finished Mod 0, you might find yourself with a few weeks to even a few months until you begin the full program. So, how should you spend your time?
 
 ## Preparing for the Realities of Turing
-While it may be tempting to want to focus exclusively on honing your technical skills, you'll have the best chance of success early in the program you focus on all of the "non-technical" skills that are necessary to be successful: time management, utilizing resources, and building community. 
 
+While it may be tempting to want to focus exclusively on honing your technical skills, you'll have the best chance of success early in the program you focus on all of the "non-technical" skills that are necessary to be successful: time management, utilizing resources, and building community. 
 
 ### Loop in Your Support System
 
@@ -19,9 +19,10 @@ Turing is an incredibly rigorous program that will consume much of your time and
 - **Set REALISTIC expectations with your friends, family, Close Circle, etc.**
     - As mentioned in Mod 0, most students at Turing estimate they spend an **average of 60-70 hours per week** on Turing-related responsibilities, including working during portions of the weekend. It is better to be upfront with your close circle about your realistic workload so they aren't giving you a hard time about missing social activities. Is it a bummer that you will likely have to miss out on some fun things over next few months? Absolutely. But changing your career and life trajectory requires making some sacrifices!
 - **Make introductions with your mentor**
-    - Part of your Mod 1 Pre-work was crafting an intro message to your mentor - now is the time to send that message and start laying the groundwork for your relationship as you start Turing! Remember, your mentor can offer much more than just technical help - they are your first contact in the development world and can give great insight into what success at Turing (and in the industry) looks like! You will likely be assigned a mentor shortly after your Mod 1 Orientation. 
+    - Part of your Mod 0 Project was crafting an intro message to your mentor - now is the time to send that message and start laying the groundwork for your relationship as you start Turing! Remember, your mentor can offer much more than just technical help - they are your first contact in the development world and can give great insight into what success at Turing (and in the industry) looks like! You will likely be assigned a mentor shortly after your Mod 1 Orientation. 
 
 ### Start to Practice Your HOW
+
 It's one thing to make a plan for how you will attack the numerous challenges of Turing, it's an entirely different experience to implement that plan. Rather than leave it to chance, use some of your time now to practice your **HOW**, such as:
 - **HOW will you preview lesson material?** 
     - Does your learning style require you to make flash cards on the technical vocabulary? Or does your learning style involve creating visual representations of the content you are seeing for the first time? Take time to look at some of the lessons in the first week of Mod 1 and hone in on what feels most comfortable for YOU!
@@ -61,6 +62,7 @@ Turing offers plenty of opportunities to get involved in our community. We stron
 Also, we have a number of student-led groups and organizations, known as Student Circles, that are an excellent way to get involved in our community. Typically, we will post about Student Circles in the #announcements channel on Slack!
 
 ## Opportunities to Build Technical Content Knowledge
+
 As mentioned above, you will have better success in Mod 1 if you have a strong process and workflow. If you find yourself with more time to spare before starting Mod 1, put those foundational skills to the test by using the following technical exercises to see what works and what doesn't! 
 
 **DISCLAIMER: YOU DO NOT NEED TO DO ANY ADDITIONAL TECHNICAL PREP TO BE SUCCESSFUL IN MOD 1**
@@ -71,7 +73,7 @@ You will likely spend the first class or two in Mod 1 reviewing many of the conc
 
 - Review the Mod 0 [lesson plans](https://mod0.turing.io/sessions/) and your class notes
 - Work through the exercises from the Mod 0 sessions to build muscle memory on some of the foundational skills
-- Review your Mod 1 Pre-work, potentially building additional examples from some of the exercises
+- Review your Mod 0 Project, potentially building additional examples from some of the exercises
 - Setup a review session with your cohortmates to clarify any material that feels a little fuzzy *Disclosure: It is OK and EXPECTED to feel a little shaky on some of the Mod 0 material technical! You will be getting much more practice in Mod 1!*
 
 ### Continue to Build Coding Muscle Memory
@@ -101,4 +103,5 @@ Take a look at the Mod 1 Calendar and curriculum to preview what is to come! A f
 * [Front-End Curriculum Site](http://frontend.turing.io/)
 
 ## Final Thoughts
+
 The purpose of Mod 0 is to prepare you to succeed in your first module at Turing. While the suggestions in this resource are helpful for many students to be best prepared to start their Turing journey, be sure to stay true to what works for you. Remember, as tempting as it may be, try not to compare YOUR journey to anyone else's. YOU CAN DO IT!
