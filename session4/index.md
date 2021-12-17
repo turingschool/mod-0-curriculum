@@ -70,11 +70,7 @@ We **STRONGLY** recommend that you study ahead of time for this assessment. Luck
 
 <a name="datatypes"></a>
 
-## Basic Data Types + Variable Assignment
-
-In most programming languages, you'll find the same basic <span class="vocab">data types</span>. A data type represents the kind of data that you can use in the programming language. In this section, we'll discuss five different basic data types that are applicable to both the front end and back end. Luckily for us, the <span class="vocab">syntax</span> (the way we write) for these basic data types is almost identical in Ruby and JavaScript.
-
-### Data Type Use Cases and Syntax Practice
+### Data Types and Variables Breakouts
 
 We are going to break out into program specific groups to start working through these concepts!
 - [Frontend: Data Types + Variable Assignment in JavaScript](./data-types-fe.md)

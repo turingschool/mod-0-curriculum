@@ -1,166 +1,31 @@
 ---
 layout: page
 title: Session 5
-subheading: Data Types, Variables + Modeling Real World Things
+subheading: Intro to Arrays
 ---
-### Goals
 
-**By the end of this session, you will be able to:**    
-- Use syntax for objects in JavaScript or hashes in Ruby
-- Annotate code using code comments
+### Goals
+ 
+- Use syntax for Arrays in JavaScript (FE) or Ruby (BE)
+- Use basic Array methods to manipulate data in Arrays
+- Use technical vocabulary to explain and annotate code
 
 ### Agenda
+
 - Housekeeping, Feedback + Goals
-- Modeling Using Objects + Hashes
-- Annotations
+- Arrays
 - Wrap Up
 
 ### Materials
+
 - Notebook
 - Writing instrument
 - Laptop
 - Headphones & mic
 - Zoom permission to share screen for breakout sessions
 
-## Intros, Review, and Icebreaker
-
-<div class="try-it">
-  <h3>Introductions and Review</h3>
-  <p>Person with the shortest first name goes first.</p>
-  <ol>
-    <li>Introduce yourself: name, pronouns</li>
-    <li>Share your reflections from Homework 4.</li>
-    <li>What progress have you made on your Mod 1 Pre-Work?</li>
-  </ol>
-  <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
-</div>
-
-<a name="annotations"></a>
-## Annotating Code
-Part of being a strong developer is not just writing code. Most of the job is actually reading others code and building on top of it. In order to do so, you'll need to build your skills around:
-- Reading other people's code
-- Annotation (adding your notes) to code other people have written
-- Articulating (speaking about) code that isn't yours
-
-Annotating code is a great way to start to understand how code works and dive into code that you yourself did not write. One strategy to annotating code is to write **comments** directly in the code you are trying to decipher.
-
-Most text editors, like Atom, allow you to add comments in your code. You can highlight a selection and use `CMD + /` to turn your text into a comment. Conversely, you can start any line with `//` for JavaScript or `#` in Ruby to indicate a comment. You should see your syntax highlighting change to a different color when code has been commented out!
-
-### Code Annotation Tips
-- Use code comments to add your annotations to code
-- Use precise, technical vocabulary in your comments to build your articulation skills
-- Add comments line by line to stay focused on specific functionality
-
-### Code Annotation Example
-Take a look at the following code example in JavaScript and Ruby
-##### JavaScript Example
-```js
-function playWithCats(cat1, cat2, toy){
-  var greeting = `Hello ${cat1} and ${cat2} - how are you both doing this fine morning!`
-  var toyChest = [toy, 'piece of string', 'catnip mouse', 'another string']
-
-  console.log(toyChest[2])
-  toyChest[2] = 'shoelace'
-  console.log(toyChest[2])
-  toyChest[4] = 'Q tip'
-
-  return greeting
-}
-
-playWithCats('Pumpernickel', 'Nigel', 'paperclip')
-```
-##### Ruby Example
-```rb
-def play_with_cats(cat1, cat2, toy)
-  greeting = "Hello #{cat1} and #{cat2} - how are you both doing this fine morning!"
-  toy_chest = [toy, "piece of string", "catnip mouse", "another string"]
-
-  puts toy_chest[2]
-  toy_chest[2] = "shoelace"
-  puts toy_chest[2]
-  toy_chest[4] = "Q tip"
-
-  return greeting
-end
-
-play_with_cats("Pumpernickel", "Nigel", "paperclip")
-```
-
-As you can see, there are a lot of things happening in these few lines of code! As a new developer, looking at all this code can be very intimidating. Rather than get overwhelmed, I can go line by line and use comments to annotate what is happening to get a better understanding.
-
-##### JavaScript Example
-```js
-//this is a function with 3 parameters (cat1, cat2 and toy)
-function playWithCats(cat1, cat2, toy){
-  //declare a variable of greeting - value is a string with the cat1 and cat2 parameters interpolated in
-  var greeting = `Hello ${cat1} and ${cat2} - how are you both doing this fine morning!`
-  //declare a variable of toyChest - value is an array with 4 elements, including the toy parameter
-  var toyChest = [toy, 'piece of string', 'catnip mouse', 'another string']
-
-  //print the 3rd element from the toyChest array to console ('catnip mouse')
-  console.log(toyChest[2])
-  //reassign the 3 element in the toyChest array to 'shoelace'
-  toyChest[2] = 'shoelace'
-    //print the 3rd element from the toyChest array to console ('shoelace')
-  console.log(toyChest[2])
-  //add 'Q tip' as 4th element in the toyChest array
-  toyChest[4] = 'Q tip'
-
-  //When function is called, it will return the greeting string value
-  return greeting
-}
-//invoke the playWithCats function with cat1 = 'Pumpernickel', cat2 = 'Nigel',
-//and toy = 'paperclip'
-playWithCats('Pumpernickel', 'Nigel', 'paperclip')
-// this function will output the string - "Hello Pumpernickel and Nigel - how are you both doing this fine morning!"
-```
-#### Ruby Example
-```rb
-# this is a function with 3 parameters (cat1, cat2 and toy)
-def play_with_cats(cat_1, cat_2, toy)
-  # declare a variable of greeting - value is a string with the cat1 and cat2 parameters interpolated in
-  greeting = "Hello #{cat_1} and #{cat_2} - how are you both doing this fine morning!"
-  # declare a variable of toy_chest - value is an array with 4 elements, including the toy parameter
-  toy_chest = [toy, "piece of string", "catnip mouse", "another string"]
-
-  # print the 3rd element from the toy_chest array ("catnip mouse")
-  puts toy_chest[2]
-  # reassign the 3rd element from the toy_chest array to "shoelace"
-  toy_chest[2] = "shoelace"
-  # print the 3rd element from the toy_chest array ("shoelace")
-  puts toy_chest[2]
-  # add "Q tip" as 4th element in the toy_chest array
-  toy_chest[4] = "Q tip"
-
-  # When function is called, it will return the greeting string value
-  return greeting
-end
-# invoke the play_with_cats function with cat_1 = "Pumpernickel", cat_2 = "Nigel"
-# and toy = "paperclip"
-play_with_cats('Pumpernickel', 'Nigel', 'paperclip')
-# this function will output the string - "Hello Pumpernickel and Nigel - how are you both doing this fine morning!"
-```
-
-### Practice
-In program-specific groups, work through the exercises in the [Annotations Practice repo](https://github.com/turingschool/annotation_practice).
-- Carefully read the instructions in the `README` before starting
-- Take turns being the driver and navigator, but all members of the group should have annotations for each file.
-- You may need to reference your notes, Mod 1 Pre-work, and/or Google
-- Be sure to use code comments (`CMD + /`) on each line of code
-
-After the time is up, we will share our annotations in smaller groups!
-
-## Modeling Data Using Objects/Hashes
-Last session, we learned about basic data types and variables and how we can use these to begin the process of modeling real-world things using code.
-
-Today we are going to take that a bit further as we learn how to use objects/hashes to organize related data together.
-
-We will breakout in FE and BE specific groups to learn how to use these more advanced data structures!
-
-- [Frontend: Objects in JavaScript](./objects.md)
-- [Backend: Hashes in Ruby](./hashes.md)
-
 ## Mod 0 Technical Assessment
+
 We've come to the end of our instruction in Mod 0 😭! Which means that you are ready to crush your Mod 0 Technical Assessment!
 
 Be sure to check your calendar for when your assessment is due! 
@@ -180,7 +45,27 @@ As a reminder, the technical assessment is only ONE of the data points we use to
 
 [Click this link](https://mod0.turing.edu/assessment) when you are ready to begin your assessment! 
 
-![You got this](https://media.giphy.com/media/xT9IgEYXCNqPZnqMuY/giphy.gif)
+## Intros and Icebreaker
+
+<div class="try-it">
+  <h3>Introductions and Review</h3>
+  <p>Person with the shortest first name goes first.</p>
+  <ol>
+    <li>Introduce yourself: name, pronouns</li>
+    <li>Share your reflections from Homework 4.</li>
+    <li>What progress have you made on your Mod 1 Pre-Work?</li>
+  </ol>
+  <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
+</div>
+
+## Intro to Arrays
+
+Last session, we learned about basic Data Types and variables and how we can use these to store data in a program. We also got some practice collaborating and communicating in structured breakout rooms. Today, we are going to take that a bit further as we learn how to use Arrays to organize related data together, using similar structures to collaborate and communicate.
+
+We will breakout into program specific groups to learn how to use these more advanced Data Types!
+
+- [Front-End](./fe-arrays.md)
+- [Back-End](./be-arrays.md)
 
 ### Close out
 
