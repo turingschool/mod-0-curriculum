@@ -3,13 +3,13 @@ layout: page
 title: Mod 0 Project
 ---
 
-In order to make you as successful as possible during your time here, we have collected readings and exercises for you to complete prior to beginning Mod 1. This pre-work helps provide important context, vocabulary, and baseline of skills to help you hit the ground running on the first day of class. We've found that students who come into the program having invested time in familiarizing themselves with key concepts are able to maximize their time at Turing.
+The Mod 0 Project will give you an opportunity to practice breaking up a big task into small pieces and managing your time to complete it. Time management and breaking down problems is a huge part of being a developer and a Turing student. Completion of the project should also give you a boost of confidence as you go into Mod 1; professional and technical concepts are intentionally built in to support your success in the first weeks of Mod 1.
 
 ## Mod 0 Project Overview
 
-The Mod 0 Project typically takes about **35 hours to complete**. Careful time management will be necessary for you to complete this work by the deadline. The deadline canbe found on the Mod 0 Calendar.
+The Mod 0 Project typically takes about **35 hours to complete**. Careful time management will be necessary for you to complete this work by the deadline. The deadline can be found on the Mod 0 Calendar.
 
-The project involves both technical work as well as some professional development work. The expectation is that ALL sections are complete, and submitted by the deadline. This is a requirement to start Mod 1.
+The project involves both technical work as well as career development work. The expectation is that ALL sections are complete, and submitted by the deadline. This is a requirement to start Mod 1.
 
 * [Back End Mod 0 Project](https://github.com/turingschool/mod-0-project-be) 
 * [Front End Mod 0 Project](https://github.com/turingschool/mod-0-project-fe) 
