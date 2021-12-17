@@ -20,7 +20,7 @@ Turing is a very challenging experience for most people. To be successful here, 
 
 ### Communication
 
-Make sure that you've added the **[Mod 0 Calendar](https://calendar.google.com/calendar?cid=Y2FzaW1pcmNyZWF0aXZlLmNvbV8xMnA0NjkzaG1lcjFvcmNlcHA3NHZnNzdwZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)** to your own calendar. This is where you will find all Mod 0 related events, including sessions, mod 1 pre-work study sessions, and other community wide events.
+Make sure that you've added the **[Mod 0 Calendar](https://calendar.google.com/calendar?cid=Y2FzaW1pcmNyZWF0aXZlLmNvbV8xMnA0NjkzaG1lcjFvcmNlcHA3NHZnNzdwZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)** to your own calendar. This is where you will find all Mod 0 related events, including sessions, Mod 0 Project study sessions, and other community wide events.
 
 We will also remind you when these events are via **[slack](https://turingschool.slack.com/)**, which is the **primary mode of communication** we use at Turing. Make sure that you're checking it once a day so that you can stay up to date. It's also a great place to ask questions if you are running into issues, as people are likely experiencing the same issue that you are.
 
@@ -44,15 +44,15 @@ At the end of Mod 0, you'll be considered one of the following:
  * You’ve missed more than one session or did not meet engagement expectations
  * You’ve missed assignments or delivered poor quality work
  * You were unable to pass the Technical Assessment
- * You were unable to pass the Mod 1 Pre-work
+ * You were unable to pass the Mod 0 Project
    * *Next step:* You have one chance to re-enroll in and successfully complete Mod 0
  * If you don’t pass on your second try you will be asked to reapply to Turing in 6 months.
 
 **Technical Ready**
  * Your work and assessment have met the expectations of Mod 0
- * *Next step:* Submit your Program-Specific Mod 1 Pre-work
+ * *Next step:* Submit your Program-Specific Mod 0 Project
 
-If your Mod 1 Pre-work meets expectations, you'll be **Turing Ready**
+If your Mod 0 Project meets expectations, you'll be **Turing Ready**
 
 
 <div class="try-it">

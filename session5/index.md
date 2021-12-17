@@ -53,7 +53,7 @@ As a reminder, the technical assessment is only ONE of the data points we use to
   <ol>
     <li>Introduce yourself: name, pronouns</li>
     <li>Share your reflections from Homework 4.</li>
-    <li>What progress have you made on your Mod 1 Pre-Work?</li>
+    <li>What progress have you made on your Mod 0 Project?</li>
   </ol>
   <p>Have extra time? Share what extra things you're doing to get ready to start school at Turing.</p>
 </div>
@@ -70,7 +70,7 @@ We will breakout into program specific groups to learn how to use these more adv
 ### Close out
 
 * This is your last Mod 0 Session!
-* Remaining deliverables - complete the Mod 0 Assessment and turn in your Mod 1 Pre-work
+* Remaining deliverables - complete the Mod 0 Assessment and turn in your Mod 0 Project
 * Check the calendar for Mod 1 Orientation
 * Moving forward:
   * Keep up the hard work
@@ -78,8 +78,8 @@ We will breakout into program specific groups to learn how to use these more adv
 
 * Learning to code is much more like exercise than epiphanies - Think about MJ!
 
-> Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their mod 1 pre-work are the ones that usually struggle for at least the first half of the mod."
+> Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their Mod 0 Project are the ones that usually struggle for at least the first half of the mod."
 
 > Quote from Tara Westover (author of the book Educated) - "In retrospect, I see that this was my education... the hours I spent sitting at a borrowed desk, struggling to parse narrow strands of Mormon doctrine... This skill I was learning was a crucial one, the patience to read things I could not yet understand."
 
-When you're finished with your pre-work, work on the suggested exercises. Not sure what to work on at that point? Ask!
+When you're finished with your Mod 0 Project, work on the suggested exercises. Not sure what to work on at that point? Ask!

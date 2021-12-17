@@ -536,7 +536,7 @@ Key takeaways from today:
 
 Find the homework in your Mod 0 Trello Board. Contact your instructors if you're stuck (or better yet, post in the public Slack channel as you're likely not the only one running in to that issue)
 
-Also, please note that the Mod 1 Pre-work takes about 40 hours total to complete. Part of your HW this week is to create a calendar for Mod 0 where you can plan how to spend your time on classes, HW, and the Mod 1 Pre-work! 
+Also, please note that the Mod 0 Project takes about 40 hours total to complete. Part of your HW this week is to create a calendar for Mod 0 where you can plan how to spend your time on classes, HW, and the Mod 0 Project! 
 
 **If you find yourself falling behind, it is your responsibility to reach out to your TAs early!**
 
