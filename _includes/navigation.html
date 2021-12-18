@@ -1,21 +1,11 @@
-<nav class="sidebar-navigation">
-  <section class="sidebar-navigation--logo">
-    <a href='/'><img src="{{ site.url }}/assets/images/turing_logo_with_name.png"
-                     alt="Turing School of Software and Design"
-                     class="turing-logo">
-    </a>
-  </section>
-  <div class="sidebar-navigation--links" >
-    <section class="sidebar-navigation">
-      <h1>Mod 0</h1>
-      <ul>
-        <li><a href="{{ site.baseurl }}{% link before-mod-0.md %}">Before Starting Mod 0</a></li>
-        <li><a href="{{ site.baseurl }}{% link computer-setup.md %}">Computer Setup</a></li>
-        <li><a href="{{ site.baseurl }}/calendar">Calendar</a></li>
-        <li><a href="{{ site.url }}/sessions">Sessions</a></li>
-        <li><a href="{{ site.url }}/homework">Homework</a></li>
-        <li><a href="{{ site.url }}/project">Mod 0 Project</a></li>
-      </ul>
-    </section>
-  </div>
+<nav class="s-nav s-nav-sticky">
+  <a class="s-nav-icon" href="/">
+    <img src="https://assets.turing.edu/turing-school-mark-gray.png" alt="Home" />
+  </a>
+  <ul class="s-nav-menu">
+    <li><a href="{{ site.baseurl }}/calendar">Calendar</a></li>
+    <li><a href="{{ site.url }}/sessions">Sessions</a></li>
+    <li><a href="{{ site.url }}/homework">Homework</a></li>
+    <li><a href="{{ site.url }}/project">Mod 0 Project</a></li>
+  </ul>
 </nav>

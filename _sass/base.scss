@@ -5,39 +5,98 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--s-font-family-default);
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-p {
+.s-content p {
+  color: var(--s-color-gray-800);
   line-height: 1.6em;
+  font-size: 20px;
 }
 
-li {
-  line-height: 2em;
+.s-content li {
+  color: var(--s-color-gray-800);
+  line-height: 1.8em;
+  font-size: 20px;
 }
 
 img {
   max-width: 100%;
 }
 
-a {
-  border-bottom: 3px solid lighten($medium-gray, 20);
-  color: darken($teal, 30);
-  text-decoration: none;
-  transition: all 0.5s;
-
-  &:hover {
-    border-color: $dark-gray;
-  }
-}
-
 iframe {
   border: 1px solid $medium-gray;
   margin-bottom: 1em;
+}
+
+.splash {
+  background: url('/assets/images/brisa-hero.jpg') 100%;
+  background-size: cover;
+  border-bottom: 8px solid var(--s-color-yellow-400);
+  height: 525px;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  &:after {
+    background-color: rgba(0,0,0,0.15);
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
+
+.splash-text {
+  margin: auto 0;
+  max-width: 700px;
+  z-index: 2;
+  
+  h1 {
+    font-size: 7em;
+    line-height: 1em;
+    letter-spacing: -5px;
+  }
+  
+  h1, p {
+    color: var(--s-color-white);
+    margin: 0px 0px 0px 80px;
+    text-align: left;
+  }
+}
+
+.main-content {
+  background-color: var(--s-color-gray-200);
+  padding-bottom: 70px;
+  padding-top: 10px;
+  text-align: center;
+
+  h2 {
+    color: var(--s-color-gray-700);
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  p, ul {
+    text-align: left;
+    width: 76%;
+    margin: 0 auto;
+  }
+}
+
+.tri-color-border {
+  display: flex;
+  height: 0.625rem;
+  align-items: stretch;
+  div {
+    flex: 1;
+  }
 }
 
 blockquote {
@@ -63,16 +122,17 @@ blockquote {
   }
 }
 
-footer {
-  border-top: 1px dashed lighten($medium-gray, 10);
-  margin-top: 5em;
-  padding-top: 2em;
+.s-footer p {
+  color: var(--s-color-gray-100);
 }
 
+.s-footer a {
+  color: var(--s-color-cyan-400);
+
+}
 /* Layout */
 
 .container {
-  display: flex;
 
   min-height: 100vh;
   @media (max-width: $tablet-width) {
@@ -81,7 +141,6 @@ footer {
 }
 
 /* Header */
-
 
 header {
   margin-bottom: 2em;
@@ -98,20 +157,14 @@ header {
 }
 
 .content {
-  width: 80%;
+  margin: auto 12%;
+  width: 76%
 }
 
 .calendar {
   height: 400px;
   width: 100%;
 }
-
-@media (max-width: $tablet-width) {
-  .content {
-    width: 100%;
-  }
-}
-
 
 .underline {
   text-decoration: underline;
@@ -251,3 +304,4 @@ table {
   background: #dddddd;
   padding: 15px;
 }
+
