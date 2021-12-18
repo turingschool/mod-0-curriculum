@@ -5,24 +5,13 @@
     {% include head.html %}
   </head>
 
-  <body>
+  <body class="s-content">
+    {% include navigation.html %}
     <div class="container">
-      <section class="sidebar">
-        {% include navigation.html %}
-      </section>
-      <section class="content">
-        <article>
-          <header>
-            <h1>
-              Turing School Mod 0 Curriculum
-            </h1>
-          </header>
-          <section class="main-content">
-            {{ content }}
-          </section>
-        </article>
-      </section>
+      {{content}}
     </div>
   </body>
+
   <script type="text/javascript" src="{{ site.url }}/assets/javascript/navigation.js"></script>
 </html>
+

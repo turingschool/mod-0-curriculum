@@ -99,7 +99,7 @@ Turing is a fully remote and highly collaborative program, which means you will 
 Rather than download Xcode via the Apple Store, we can get a much smaller selection of necessary tools, called `xcode-select`, via our Terminal.
 
 **Action Steps:**
-- Install `xcode-select` to your machine by taking the follwoing steps:
+- Install `xcode-select` to your machine by taking the following steps:
   1. Open the Terminal by pressing the `command + space` keys at the same time, which opens Spotlight. Then start typing "Terminal"; it will auto-fill. Press `return` and your Terminal application will open.
 
   1. Once terminal is open, run `xcode-select --install`. This download _may_ take up to several hours,
