@@ -19,3 +19,5 @@ The project involves both technical work as well as career development work. The
 ## Next Steps / Extensions
 
 Have some extra time before starting Mod 1? [Jump here](./extensions) to check out our extension ideas! 
+
+<br>

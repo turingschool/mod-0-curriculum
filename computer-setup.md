@@ -324,3 +324,5 @@ To write JavaScript in the command line and use essential "packages" while build
   1. Run `ruby -v`. The output should be something like `ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]`. If the output does not include `ruby 2.7.2`, `cmd + q` out of the terminal and start this step over
   1. Run `rbenv global 2.7.2` then `rbenv rehash`. You should not expect any output from those commands
 - If you've followed these steps and are having issues, please DM the Mod 0 Lead on Slack ASAP. It is essential `rbenv` is installed on your machine correctly.
+
+<br>
