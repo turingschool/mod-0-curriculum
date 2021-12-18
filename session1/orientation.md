@@ -27,7 +27,7 @@ We will also remind you when these events are via **[slack](https://turingschool
 * Let's practice a couple of slack features right now! Watch as we show you how to make and write in threads.
   * Thread: What is your favorite food?
 
-This [video](https://www.youtube.com/watch?v=tfq333EpWgM&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=2&t=110s) from Back-End instructor Tim Tyrrell is a great resource to get more comfortable with slack.
+This [video](https://www.youtube.com/watch?v=tfq333EpWgM&list=PL1Y67f0xPzdMFq2S1bK7E7veT_BbK-zjt&index=2&t=110s) from Back End instructor Tim Tyrrell is a great resource to get more comfortable with Slack.
 
 <a name="mod0-expectations"></a>
 ## Mod 0 Expecations

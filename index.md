@@ -37,26 +37,3 @@ title: Home
    <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
  </div>
 </footer>
-
-<!-- ## What is Mod 0?
-
-Mod 0 is a prerequisite course for both of the programs at Turing. It is a structured series of 5 sessions which are conducted fully remotely via Zoom. Please check the [calendar]({{ site.baseurl }}/calendar) for session dates and times.
-
-
-## What will we cover in Mod 0?
-
-* Remote Learning Strategies
-* Asking Technical Questions
-* Collaborating on Technical Work
-* Git and GitHub Workflows
-
-## Required Prep for Mod 0
-
-Complete the [Mod 0 Prep]({{ site.baseurl }}/before-mod-0) before your first session starts. This should take around **4 hours**! 
-
-## Passing Mod 0 
-
-In order to pass Mod 0, you will need to:
-1. Attend and actively engage in all 5 sessions and complete the required homework
-2. Complete and pass the Mod 0 Assessment
-3. Complete and pass the Mod 0 Project -->
