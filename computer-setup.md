@@ -11,15 +11,16 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 - [New to Mac?](#new-to-mac)
 - [Install Rectangle](#install-rectangle)
 - [Install Chrome](#install-chrome)
+- [Install Slack](#install-slack)
 - [Install Zoom](#install-zoom)
 - [Enable Screen Sharing](#enable-screen-sharing)
 - [Install Xcode-select](#install-xcode-select)
 - [Install Homebrew](#install-homebrew)
 - [Install and Configure Atom](#install-and-configure-atom)
-- [Install and Configure Git](#install-and-configure-git)
+- [Install Git](#install-git)
 - [Configure GitHub](#configure-github)
 - [Install Node](#install-node)
-- [Install rbenv](#install-rbenv)
+- [Install rbenv (Back End students _only_)](#install-rbenv-back-end-students-only)
 
 ### New to Mac?
 
@@ -311,7 +312,7 @@ To write JavaScript in the command line and use essential "packages" while build
   1. Run `rbenv init`. The output should be _something_ like:
     ```
     # Load rbenv automatically by appending
-    # the following to ~/.zshrb
+    # the following to ~/.zshrc
     .
     eval "$(rbenv init -)"
     ```
