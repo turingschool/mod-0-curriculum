@@ -4,45 +4,44 @@ title: Session 1
 subheading: Success at Turing, Files, Directories, Paths, Terminal
 ---
 
-### Goals
-By the end of this session, you will be able to:
-  - plan and build a calendar that leads to successful outcomes
-  - notate file paths from diagrams
-  - navigate through directories from the command line
-  - make and remove files and directories from the command line
+### Learning Goals
+
+- Use the Driver-Navigator technique to collaborate
+- Screenshare work in a Breakout Room
+- Notate file paths from diagrams
+- Navigate through directories from the command line
+- Make and remove files and directories from the command line
 
 ### Agenda
-  - Intro + Housekeeping
-  - Success @ Turing
-  - Files, Directories + Paths
-  - Terminal + Command Line
-  - Closing + Homework Preview
+
+- Introduction to Mod 0
+- Success at Turing
+- Files, Directories + Paths
+- Terminal, Command Line
+- Closing Announcements
 
 ### Materials
-  - Quiet Space
-  - Notebook
-  - Writing instrument
-  - Laptop
-  - Headphones & mic
 
+- Quiet Space
+- Notebook
+- Writing instrument
+- Laptop
+- Headphones & mic
 
 ### Introductions
-- Instructor intros
+
+- Instructor Instroductions
 - Follow along by clicking the lesson plan in Slack
 
-## Housekeeping and Follow-ups
+## Housekeeping
 
 * Change display name in Zoom by clicking the **Participants** menu and choosing **Rename**. Make sure to match the following format:
-  - Color Status 🟢 🟡 🟠 🔴
-    - To open the Emoji menu on Mac, click in any text field and press `CONTROL + COMMAND + SPACE`
-    - Search for `Green`, `Yellow`, `Orange`, or `Red` to pick the appropriate color based on your current status
+  - Program (FE or BE)
   - First name
   - Last initial
   - Pronouns
-  - Program (FE or BE)
-  - Example: 🟡 Kaitlyn V (she/her, FE)
+  _- Example: FE - Kaitlyn V (she/her)_
 * Sessions will be recorded and posted in Slack
-* No computer yet? Don't fret for today. If you don't have a mac, please reach out to me! (Kaitlyn Van Gorkom or @kvg)
 
 Other things to note as we go through Mod 0:
 
@@ -52,67 +51,42 @@ Other things to note as we go through Mod 0:
 
 ### Breakout Rooms
 
-This is a feature in Zoom that we'll use throughout the Mod 0 sessions. They allow for small group discussion, where y'all can solidify concepts or work through challenges. You'll be kicked out into smaller group with 2 or 3 of your classmates. When they're finished you'll get a 30 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 30 seconds. During these, we may broadcast messages or pop in to see how we are doing time-wise.
+Breakout Rooms are a feature in Zoom that we'll use throughout the Mod 0 sessions. They allow for small group discussion, where you will work collaboratively through challenges. You'll be sent out into smaller group with 2 or 3 of your classmates. When they're finished, you'll get a 30 second warning where you can rejoin the main session, or you'll automatically rejoin at the end of the 30 seconds. During these, instructors may broadcast messages or join to see how we are doing time-wise.
 
-Some norms before heading in:
-* Be aware and try not talk over others.
-* Leave space and time for everyone to share.
+Some norms for Breakout Rooms:
+* Be aware and try not talk over others
+* Leave space and time for everyone to share
 
-Breakout groups can be a bit awkward at first, but try to embrace them and have fun!
+Breakout groups may be a bit awkward at first, but will be a regular and essential part of being a Turing student.
 
 <div class="try-it">
-  <h3>Try It: Breakout rooms</h3>
+  <h3>Try It: Breakout Rooms (3/group)</h3>
   <p>1. Introduce yourself (name, pronouns, program)</p>
   <p>2. Where do you call home?</p>
   <p>3. Why Turing?</p>
 </div>
-
-<!-- <a name="mythbusting"></a>
-
-## Mythbusting @ Turing
-#### Myth 1 - The "Lone Wolf" Approach
-We've met many propspective students who think that they can succeed at Turing (and in programming) by doing things alone. If you've said to yourself, "I'm just going to do my thing and the only reason I'm here is to learn to code..." you should probably chose a different program.
-
-Turing and software development is inherently collaborative. Our project-based learning approach requires teammwork, collaboration and making sacrifices. If you want to only focus on "coding", it's probably best to just choose another program or learn on your own. Good luck getting a job, though!
-
-#### Myth 2- "FE is harder! No - BE is harder!"
-Reality check - both frontend development and backend development are "hard". That is why salaries are high for positions in this field! At Turing, you will get exposure to the "full stack" - in fact, your final module will be a combined cohort of frontend and backend students! 
-
-#### Myth 3 - People "fail" Turing due to the technical content
-Believe it or not, 99% of failing projects at Turing have little to do with technical deficits. Instead, poor communication and issues with collaboration are the main cause of failitheng projects. Remember, your Turing experience is designed to prepare you for the actual job - collaborating and communicating under tight deadlines is what makes the job difficult!  -->
-
  
 ## Time Management at Turing
-As you may have heard, the time commitment at Turing is no joke. In case you HAVEN'T heard, let's just get it out in the open: many students work harder at Turing than they have ever worked before. Remember, this is an accelerated program - you are going to learn the technical and professional skills needed to succeed in demanding, yet high-paying technical careers in only 7ish months!
 
-Most students estimate they work an **average of 60-70 hours per week** at Turing- some weeks with fewer hours, some weeks with more hours. While at Turing, **time** is your most valuable commodity-  how you use your time will go a long way in determining your overall success in the program! And ask any student: time has a way of escaping you at Turing unless you are able to manage it successfully.
+Turing is a full-time, immersive program. You are going to learn the technical and professional skills needed to succeed in demanding, yet high-paying technical careers inless than a year.
+
+Most students estimate they work an **average of 65-75 hours per week** at Turing; some weeks with fewer hours, some weeks with more hours. While at Turing, **time** is your most valuable commodity. How you use your time will be a determining factor in your overall success in the program.
 
 One strategy we've seen our most successful students employ is using some type of calendar system to track, manage and plan their time while in the program. A few key notes:
 - **Calendaring is a very difficult skill to master** - you will need to commit to practicing it in order to improve!
 - **Find a calendar tool and stick with it** - Everyone's system, calendar tool, etc. might be a little different, but those who DON'T use any tool typically struggle with time management while at Turing. We **STRONGLY RECOMMEND** you use Google Calendars because a) we use that at Turing and b) it is a very popular tool in the field so it is good to practice using it now!
-- **Calendars are meant to be living documents that can change** - Unfortunately you can't plan for everything. Being able to make adjustments to calendars as things change is a very important skill to start practicing
+- **Calendars are meant to be living documents that can change** - You can't plan for everything, and sometimes we don't accurately estimate how long something will take. Being able to make adjustments to calendars as things change is a very important skill to start practicing
 
-#### Calendar Analysis - Small Groups
-In small groups, take a look at the following [calendar examples](https://gist.github.com/ericweissman/6c4e0d9b658e0014b981093be8694288). 
+### Time Management and Calendar Tips from Successful Students
 
-Be sure to discuss the following AND jot down your own observations in your notebooks.
-
-- What stands out about this calendar?
-- Are there any potential issues with this calendar?
-- Are there any aspects of this calendar you would want to include on your own?
-
-After discussing in groups, we will share out observations as a whole!
-
-#### Time MGMT + Calendar Tips from Successful Students
 - **Purposefully build in scheduled time for health, wellness and whatever else you need to be your best self** - If you don't plan for it - chances are it won't happen. Turing moves fast, but it is still a marathon. How can you make sure you are creating a sustainable schedule/routine?
 - **Break down time blocks as much as possible** - Anything over an hour will usually be unproductive and give too much time to procrastinate
-- **Avoid context shifting too frequently** - On the flip side, don't break down your blocks too much! For example, trying to cram 4-5 different tasks into a single hour is also not productive and can be extremely exhausting
-- **Treat your blocks of time as appointments that shouldn't be missed** - You woudln't miss an appointment with a mentor, treat your other blocks the same way - even for solo work time!
-- **When you think of something you need to do, put it on your calendar immediately** - For example, if after a particular lesson, I think to myself "I really want to go back and finish that You Do we started in the lesson..." I will immediately pull up my calendar, find a 20ish min block of time in the next couple of days and make an event for working on that particular exercise (and add the link to the lesson and/or exercise to that event)
+- **Avoid context shifting too frequently** - On the flip side, don't break down your blocks too much. For example, trying to cram 4-5 different tasks into a single hour is also not productive and can be extremely exhausting
+- **Treat your blocks of time as appointments that shouldn't be missed** - You woudln't miss an appointment with a mentor; treat your other blocks the same way, even for independent work or study time.
+- **When you think of something you need to do, put it on your calendar immediately** - For example, if after a lesson, you think to yourself "I really want to go back and finish that activity we started in the lesson..." you should immediately pull up your calendar, find a 15-30 minute block of time in the next couple of days and make an event for working on that particular exercise (and add the link to the lesson and/or exercise to that event)
 - **Reflect on your time management each week** - Build in time each week to reflect on how well you stuck to your schedule. Be gracious to yourself and adjust the upcoming week
-- **Time MGMT becomes more important throughout the program** - As the program progresses you will find yourself balancing more responsibilities, such as attacking the technical curriculum while simultaneously searching for your first software developer job! 
+- **Time management becomes more important throughout the program** - As the program progresses, you will find yourself balancing more responsibilities, such as attacking the technical curriculum while simultaneously searching for your first software developer job
 
-<a name="filesdirectories"></a>
 ## Files, Directories, and Paths
 
 On your computer, you probably have many <span class="vocab">files</span> and <span class="vocab">directories</span>. Files are things like text documents, images, videos, PDFs, etc. Directories (or folders) are the structures we use to organize these files.
@@ -130,9 +104,9 @@ In the diagram below, we would say that there's a directory called `essays` that
     <pre>directory_name/file_name.extension</pre>
     The file path for the first file in the diagram would be:
     <pre>essays/life_lessons.docx</pre>
-    <p>What is the path for book_report.docx?</p>
+    <p>What is the path for <code>book_report.docx</code>?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
-    <p>What is the path for literary_analysis.docx?</p>
+    <p>What is the path for <code>literary_analysis.docx</code>?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
   </div>
 </div>
@@ -177,46 +151,38 @@ In the diagram below, we would say that there's a directory called `essays` that
 </div>
 
 <hr>
-<a name="terminalcommandline"></a>
+
 ## Terminal and Command Line
 
-The <span class="vocab">terminal</span> is what we call a command line interface. Basically, that's a fancy way of saying that it's the program we use to give commands to the computer.
+The <span class="vocab">Terminal</span> is what we call a command line interface. It's the program we use to give commands to the computer. We use the command line because it is a faster and more precise way to navigate our file systems, and certain tools can only be downloaded and accessed via the command line.
 
-We use the command line because it is a faster and more precise way to navigate our file systems, and certain tools can only be downloaded and accessed via the command line.
-
-Your terminal will look something like this:
+Your Terminal will look something like this:
 
 <img src="images/david_terminal.png" alt="">
 
-<a name="profiledetour"></a>
-**Apple recently changed its default profile to .zsh.**
-We will be using zsh in Mod-0 and beyond. Another <span class="vocab">shell</span> you may hear about is called bash. These shells mostly behave the same. You will learn how to start customizing your zsh shell as part of your HW!
+### Terminal Commands
 
-Some follow up reading that is **Not Required**: [Apple Switches from .bash to .zsh - who cares and what does that even mean?](https://scriptingosx.com/2019/06/moving-to-zsh/)
+<div class="try-it">
+  <h3>Research, Breakout Room Roles</h3>
+  <p>In your Breakout Room, each team member should select one command from <code>pwd</code>, <code>touch</code>, and <code>cd ..</code>. (This should take no longer than 30 seconds).</p>
+  <ul>
+    <li>Assign a timekeeper</li>
+    <li>Take 2 minutes to independently Google the designated command, take notes, and be ready to share what you've learned or what you are confused about with your group</li>
+    <li>Take 1 minute to share what you learned with your teammates</li>
+  </ul>
+  <p>When we come back together as a whole group, you will have a chance to reflect on how this time was spent and then provided with some direct instruction on these commands.</p>
+</div>
 
-### Commands
-
-Let's put your Googlin' skills to the test! In breakout rooms, research the following commands and come up with your own definition for what they do. We will share out what each command does and model how to use them as a whole group!
+<div class="things-to-note">
+  <h3>Independent Reflection</h3>
+  <ul>
+    <li>How did it feel being in the Breakout Room?</li>
+    <li>Did your team follow the protocol?</li>
+    <li>Did everyone get about equal floor time?</li>
+  </ul>
+</div>
 
 #### Action Commands
-- `mkdir`
-- `cd`
-- `cd ..`
-- `touch`
-- `clear`
-
-#### Safe/Informative Commands
-- `pwd`
-- `ls`
-
-#### Destructive Commands
-- `rm`
-- `rm -rf`
-
-In this section on command prompts, we'll learn (or review) the commands below. We'll look at all 10 together (take notes!), then you'll go into breakout rooms to practice them.
-
-
-##### Action Commands
 <ul>
   <li><a href="#mkdir" title="">mkdir</a></li>
   <li><a href="#cd" title="">cd</a></li>
@@ -225,24 +191,23 @@ In this section on command prompts, we'll learn (or review) the commands below. 
   <li><a href="#clear" title="">clear</a></li>
 </ul>
 
-##### Safe/Informative Commands
+#### Safe/Informative Commands
 <ul>
   <li><a href="#pwd" title="">pwd</a></li>
   <li><a href="#ls" title="">ls</a></li>
 </ul>
 
-##### Destructive Commands
+#### Destructive Commands
 <ul>
   <li><a href="#rm" title="">rm</a></li>
   <li><a href="#rmrecursive" title="">rm -rf</a></li>
 </ul>
 
-<a name="pwd"></a>
 ### 1. Where am I? (`pwd`)
 
 When you open the terminal, you will be in your home directory. Being in various directories will allow you to do different things, just like you can do different things at home vs. on vacation vs. at work.
 
-To figure out where you are in your computer's directories, type `pwd` after the command prompt. `pwd` stands for "print working directory"
+To figure out where you are in your computer's directory structure, run `pwd`. `pwd` stands for "print working directory"
 
 ```
 timo@Tims-MacBook-Pro:~$ pwd
@@ -251,11 +216,9 @@ timo@Tims-MacBook-Pro:~$ pwd
 
 You'll see the path from the root of your computer to your current directory.
 
-<a name="mkdir"></a>
 ### 2. Make a Directory (`mkdir`)
 
 To make a folder using the visual interface of Finder, this is what you might do:
-
 
 <img src="images/mkdir.gif" alt="making a folder using finder" style="height: 250px">
 
@@ -268,28 +231,27 @@ timo@Tims-MacBook-Pro:~$ mkdir work_spreadsheets
 timo@Tims-MacBook-Pro:~$ mkdir latest_projects
 ```
 
-You won't get any confirmation that your directory was created -- you'll just see a new command prompt ready for your next comamnd.
+You won't get any confirmation that your directory was created -- you'll just see a new command prompt ready for your next command.
 
-<a name="ls"></a>
 ### 3. Listing Contents of a Directory (`ls`)
 
 With a visual interface (as shown in the gif above), you can easily see the contents of a directory. On the command line, it's a little different.
 
-To check what's inside of a directory, we use the `ls` command which stands for list (although I like to think to myself: "list stuff"). As an example, let's assume that I have the directories and files from this diagram on my computer:
+To see what is inside of a directory, we use the `ls` command which stands for list. As an example, let's assume that we have the directories and files from this diagram on a computer:
 
 <div class="flex-container">
   <div>
     <img src="images/files_directories_2.png" alt="files and directories 2">
   </div>
   <div>
-    If I was in the essays directory and I typed <code>ls</code>, this is what I'd see:
+    If I was in the essays directory and I ran <code>ls</code>, this is what I'd see:
 
   <pre>timo@Tims-MacBook-Pro:~/essays$ ls
   book_projects    life_lessons.docx    notes.docx</pre>
 
   <p>You will only see the directories and files that are directly inside of where you are. You will not see any directories or files that are nested down the path. This is why we do not see the contents of book_projects listed.</p>
 
-  <p>Now assume we're in the book_projects directory. If I type <code>ls</code>, I'll see this:</p>
+  <p>Now assume we're in the book_projects directory. If I run <code>ls</code>, I'll see this:</p>
 
   <pre>timo@Tims-MacBook-Pro:~/essays/book_projects$ ls
   literary_analysis.docx    book_report.docx</pre>
@@ -297,7 +259,6 @@ To check what's inside of a directory, we use the `ls` command which stands for 
   </div>
 </div>
 
-<a name="cd"></a>
 ### 4. Go Into a Directory (cd)
 
 You can move into a directory using the `cd` command, which stands for "change directory". After `cd`, type the name of the directory you want to go into.
@@ -326,17 +287,14 @@ literary_analysis.docx    book_report.docx
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
-  <ol>
-    <li>You can't pick any random directory from your computer to give to the cd command. It has to be a directory inside wherever you currently are (or you need to use the full path to get to that directory, which we won't talk about today).</li>
-  </ol>
+  <p>You can't pick any random directory from your computer to give to the cd command. It has to be a directory inside wherever you currently are (or you need to use the full path to get to that directory, which we won't talk about today).</p>
 </div>
 
-<a name="cddot"></a>
 ### 5. Get Out of a Directory (cd ..)
 
 To get out of a directory you're in, we use `cd ..` (with a space between the d and the first dot). This means "go back up one level."
 
-If I'm in the `book_projects` directory and I want to get back to `essays`, this is what I'd type:
+If I'm in the `book_projects` directory and I want to get back to `essays`, this is what I'd run:
 
 ```
 timo@Tims-MacBook-Pro:~/essays/book_projects$ cd ..
@@ -345,7 +303,7 @@ timo@Tims-MacBook-Pro:~/essays$
 
 Notice that my path no longer includes `book_projects` because I'm outside of that folder now.
 
-**Note** You never want to cd into a directory above your home directory. This area requires admin permissions, and there is no practical use case for being there.
+**Note** You never want to `cd` into a directory above your home directory. This area requires admin permissions, and there is no practical use case for being there.
 
 <div class="try-it">
   <h3>Try It: cd and cd ..</h3>
@@ -382,7 +340,6 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
   </ul>
 </div>
 
-<a name="touch"></a>
 ### 6. Make a File (touch)
 
 We know how to make directories (or folders) using the `mkdir` command. In order to make files inside of those directories, we use `touch`. The following two commands show how I would make two new files, `chapter_1.md` and `chapter_2.md`:
@@ -399,25 +356,23 @@ timo@Tims-MacBook-Pro:~/latest_projects $ ls
 chapter_1.md    chapter_2.md
 ```
 
-<a name="clear"></a>
-### 6. Clear your terminal (clear)
+### 6. Clear your Terminal (clear)
 
-Sometimes when you've entered a lot of terminal commands, your terimal can get pretty cluttered. You can always use `clear` to "clean up" your terminal workspace! 
+Sometimes when you've entered a lot of Terminal commands, your terimal can get pretty cluttered. You can always use `clear` to "clean up" your Terminal workspace! 
 
-<a name="rm"></a>
 ### 7. Remove a File (rm)
 
-In the past, you've probably gotten rid of files by using the `Move to trash` command or dragging them into the trash, like this:
+In the past, you've probably gotten rid of files by using the `Move to trash` button or dragging them into the trash, like this:
 
 <img src="images/filetotrash.gif" alt="file to trash" style="height: 250px;">
 
-We can remove files from the command line using the `rm` command, like this:
+We can remove files from the command line by running the `rm` command, like this:
 
 ```
 timo@Tims-MacBook-Pro:~/latest_projects $ rm chapter_1.md
 ```
 
-Again, we don't get a confirmation, but if I were to `ls` right now, nothing would appear since the directory is now empty.
+Again, we don't get a confirmation, but if I were to run `ls` right now, nothing would appear since the directory is now empty.
 
 ```
 timo@Tims-MacBook-Pro:~/latest_projects $ ls
@@ -427,15 +382,14 @@ chapter_2.md
 <div class="things-to-note">
   <h4>Things to Note</h4>
   <ul>
-    <li>A file removed using the <code>rm</code> command <strong>does not</strong> go into your trash where you could restore it later.</li>
-    <li>Although it may be possible to recover files deleted with <code>rm</code>, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the <code>rm</code> command is gone for good.</li>
+    <li>A file removed using the <code>rm</code> command <strong>does not</strong> go into your trash where you could restore it later</li>
+    <li>Although it may be possible to recover files deleted with <code>rm</code>, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the <code>rm</code> command is gone for good</li>
   </ul>
 </div>
 
-<a name="rmrecursive"></a>
 ### 9. Remove a Directory and Its Contents (rm -rf)
 
-We can use `rm` to remove a file, but we use a different command when we're removing a directory. Since a directory could potentially contain other files and directories inside of it, we use `rm -rf` which stands for remove recursively, or go inside this directory and remove everything inside of it as well.
+We can use `rm` to remove a file, but we use a different command when we're removing a directory. Since a directory could potentially contain other files and directories inside of it, we use `rm -rf` which stands for remove _recursively_, or go inside this directory and remove everything inside of it as well.
 
 In order to remove a directory, you must be OUTSIDE of that directory. For example, if I'm inside a `books` directory and I want to remove it, I first need to get out of it using `cd ..`, then use the `rm -rf books`:
 
@@ -468,18 +422,12 @@ Now when I type `ls`, I will no longer see `books` listed.
       </div>
     </div>
   </div>
-<a name="terminalbreakout"></a>
-### Putting it All Together
 
-<p>At this point, we'll split into breakout rooms. The person whose name first name starts with the letter closest to T will share their screen by clicking the green "Share Screen" button. We will call this person the <span class="vocab">driver</span>. Every other person in the room will be a <span class="vocab">navigator</span>.</p>
+## Putting it All Together
 
-<p>The driver will be the person typing the commands, but the navigators should be the ones who brainstorm what comes next or what to type. In addition to naming the steps, discuss <strong>why</strong> you are doing each step, or <strong>what</strong> exactly is taking place in each step.</p>
+### Demo: Driver-Navigator Format
 
-<p>If you are already comfortable with commands, your challenge during the breakout is somewhat more difficult: your goal is to focus on your explanations, communication, and ability to gauge whether or not another person understands you.</p>
-
-#### Demo: Driver-Navigator Format
-
-1. Type `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
+1. Run `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
 1. Make a new directory called `terminal_practice`
 1. Move into that directory
 1. Print your current directory
@@ -490,11 +438,15 @@ Now when I type `ls`, I will no longer see `books` listed.
 1. Get back out of the `terminal_practice` directory
 1. Remove the `terminal_practice` directory
 
-#### Challenge #1
+<div class="try-it">
+  <h3>Driver-Navigator Practice</h3>
+  <p>For Challenge #1, the person whose first name starts with the letter closest to "T" will share their screen. This person will be the <em>driver</em>, the person who types the commands. The other person will be the <em>navigator</em>, the person who brainstorms and articulates what the drier should type.</p>
+  <p>In addition to the roles of typing and artiuclating the commands, both teammates have a responsibility to listen and gauge whether the other understands what is going on and ask if clarification is needed. This is not a race. Your ability to communicate and work collaboratively through this is just as, if not more important, than your ability to use these commands correctly.</p>
+</div>
 
-For this next challenge, the person whose name is next closest to the letter T will share their screen and become the driver.
+### Challenge #1
 
-1. Type `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
+1. Run `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
 1. Make a new directory called `my_first_projects`
 1. Make another new directory called `my_other_projects`
 1. List the contents of your directory (you should see these two directories you just made in the list)
@@ -509,17 +461,17 @@ For this next challenge, the person whose name is next closest to the letter T w
 1. List the contents of your directory (you should see `my_first_projects`)
 1. Remove the `my_first_projects` directory
 
-#### Challenge #2
+### Challenge #2
 
-The person who has not yet been the driver will share their screen.
+Switch driver/navigator roles.
 
-1. Type `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
+1. Run `cd` to get to your home directory (you'll probably already be here, but do it just to be sure)
 1. Make a new directory called `session3_practice`
 1. Move into the `session3_practice` directory
 1. Print the path to your current directory
 1. Make a file called `terminal.md`
 1. List the contents of your directory (you should see the `terminal.md` file you just created)
-1. Add the text "The terminal is an interface to give commands to the computer" to the `terminal.md` file
+1. Add the text "The Terminal is an interface to give commands to the computer" to the `terminal.md` file
 1. Get back out of the `session3_practice` directory
 1. Remove the `session3_practice` directory
 
@@ -531,21 +483,19 @@ Key takeaways from today:
 * You should understand basic action, safe/informative, and destructive terminal commands
 * You should understand how to google programming questions
 
-<a name="homework"></a>
 ## Homework
 
-Find the homework in your Mod 0 Trello Board. Contact your instructors if you're stuck (or better yet, post in the public Slack channel as you're likely not the only one running in to that issue)
+Find the homework in your Mod 0 Trello Board. If you have any clarifying questions about expectations for Homework, post them in the Mod 0 Slack channel.
 
-Also, please note that the Mod 1 Pre-work takes about 40 hours total to complete. Part of your HW this week is to create a calendar for Mod 0 where you can plan how to spend your time on classes, HW, and the Mod 1 Pre-work! 
+Note that the Mod 0 Project takes about 35 hours total to complete. Part of your homework this week is to create a calendar for Mod 0 where you can plan how to spend your time on classes, homework, and the Mod 0 Project! 
 
 **If you find yourself falling behind, it is your responsibility to reach out to your TAs early!**
 
-<a name="shortcuts"></a>
 ## Keyboard Shortcuts
 
 Most computer users rely heavily on the mouse to open applications, interact with programs, etc. You might think that you're quick with a mouse, but just wait until you get good at <span class="vocab">keyboard shortcuts</span>.
 
-Initially, your flow will be slower as you learn and memorize each of the shortcuts. However, if you force yourself to use these shortcuts, you'll become MUCH faster in the long run.
+Initially, your flow will be slower as you learn and memorize each of the shortcuts. However, if you force yourself to use these shortcuts, you'll become much faster in the long run.
 
 <div class="try-it">
   <h3>Try it: Shortcuts</h3>
