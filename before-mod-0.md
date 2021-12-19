@@ -60,3 +60,5 @@ You will be sharing these reflections during your first session of Mod 0.
 ## Setup Homework Board
 
 [Follow the instructions in the Homework section]({{ site.url }}/homework) to get your Trello board set up.
+
+<br>

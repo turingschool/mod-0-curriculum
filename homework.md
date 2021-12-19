@@ -27,3 +27,5 @@ For your homework and Mod 0 Project you will be receiving feedback directly in G
 ## Stuck?
 
 The homework and Mod 0 Project are designed to push you out of your comfort zone. We are looking to see how you grapple with these concepts and are not as concerned about getting a correct solution. However, if you do get stuck be sure to ask your question in your Mod 0 Slack channel! This will lead to the fastest answers to your questions and will allow everyone to benefit from the question you ask.
+
+<br>

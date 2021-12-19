@@ -183,10 +183,10 @@ Atom is where we write the code that powers our applications, but we'll also do 
 - Open Atom (from your Applications folder), drop down the Atom menu in the top left corner of your screen, and click "Install Shell Commands".
 - Confirm the Atom Shell Commands are installed properly by taking the following steps:
   1. Open Terminal with Spotlight search (`command + space`, start typing `Terminal` and press `return`.)
-  1. Run `atom .` in your terminal. **Be sure to include a space between `atom` and the `.`** If it is setup correctly, Atom will automatically open.
-  1. If you get an error, make sure Atom is in the Applications folder, not the Downloads folder.
-  1. If you _still_  get an error, make sure you've selected `Install Shell Commands` from the Atom menu.
-  1. If it is _still_ not working, type this in the command line, then press `enter`:
+  1. Run `atom .` in your terminal. **Be sure to include a space between `atom` and the `.`** If it is setup correctly, Atom will automatically open
+  1. If you get an error, make sure Atom is in the Applications folder, not the Downloads folder
+  1. If you _still_  get an error, make sure you've selected `Install Shell Commands` from the Atom menu
+  1. If it is _still_ not working, run the following command:
 
   ```
   ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
@@ -275,8 +275,8 @@ SSH keys are a secure and convenient way of authenticating than typing in our pa
   1.  Go to [https://github.com/settings/keys](https://github.com/settings/keys) (You must be logged into your account!)
   1.  Click the green "New SSH key" button.
   1.  Leave the "title" section empty
-  1.  Paste the key into the "key" section with `command + v`.
-  1.  Click the green "Add SSH key" button.
+  1.  Paste the key into the "key" section with `command + v`
+  1.  Click the green "Add SSH key" button
   1. To test that our key is configured, run `ssh -T git@github.com` into the Terminal. You should see something similar to the following. When you do, run `yes`:
   ```
   The authenticity of host 'github.com (192.30.252.153)'... can't be established.
@@ -324,3 +324,5 @@ To write JavaScript in the command line and use essential "packages" while build
   1. Run `ruby -v`. The output should be something like `ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]`. If the output does not include `ruby 2.7.2`, `cmd + q` out of the terminal and start this step over
   1. Run `rbenv global 2.7.2` then `rbenv rehash`. You should not expect any output from those commands
 - If you've followed these steps and are having issues, please DM the Mod 0 Lead on Slack ASAP. It is essential `rbenv` is installed on your machine correctly.
+
+<br>
