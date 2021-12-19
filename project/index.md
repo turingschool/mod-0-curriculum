@@ -9,7 +9,7 @@ The Mod 0 Project will give you an opportunity to practice breaking up a big tas
 
 The Mod 0 Project typically takes about **35 hours to complete**. Careful time management will be necessary for you to complete this work by the deadline. The deadline can be found on the Mod 0 Calendar.
 
-The project involves both technical work as well as career development work. The expectation is that ALL sections are complete, and submitted by the deadline. This is a requirement to start Mod 1.
+The project involves both technical and career development work. The expectation is that ALL sections are complete, and submitted by the deadline. This is a requirement to start Mod 1.
 
 * [Back End Mod 0 Project](https://github.com/turingschool/mod-0-project-be) 
 * [Front End Mod 0 Project](https://github.com/turingschool/mod-0-project-fe) 
