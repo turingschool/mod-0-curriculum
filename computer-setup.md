@@ -128,7 +128,7 @@ Homebrew is a package management system that allows us to install and run variou
 
 **Action Steps:**
 - Install Homebrew by taking the following steps (some steps may take several minutes or more to finish):
-  1. Open the Finder window by typing `cmd + space` and start typing `Finder`
+  1. Open the Finder window by typing `command + space` and start typing `Finder`
   1. Click on the `Applications` folder on the left sidebar
   1. Click into the folder called `Utilities`
   1. Right click on the `Terminal` app and choose `Get Info`
@@ -139,7 +139,7 @@ Homebrew is a package management system that allows us to install and run variou
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
   1. When prompted, enter the password you use to log in to your computer. It needs this because it installs its packages in a place that all users of this computer can access. You will get a message that says, "Press RETURN to continue or any other key to abort." Press `return`
-  1. When it has completed the installation, which may take some time, quit the Terminal using `cmd + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
+  1. When it has completed the installation, which may take some time, quit the Terminal using `command + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
   ```
   $ brew doctor
   Your system is ready to brew.
@@ -160,7 +160,7 @@ Homebrew is a package management system that allows us to install and run variou
   .
   You should download the Command Line Tools for Xcode 13.1.
   ```
-  1. If you had that warning and ran that additional command, when it has completed the installation, which may take some time, quit the Terminal using `cmd + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
+  1. If you had that warning and ran that additional command, when it has completed the installation, which may take some time, quit the Terminal using `command + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
   ```
   $ brew doctor
   Your system is ready to brew.
@@ -179,7 +179,8 @@ Atom is a code editor which is a program where we write and edit code. You've pr
 Atom is where we write the code that powers our applications, but we'll also do important work in the Terminal. We need our Terminal to be able to "talk to" Atom.
 
 **Action Steps:**
-- Open Atom (from your Applications folder), drop down the Atom menu in the top left corner of your screen, and click "Install Shell Commands"
+- Open Atom (from your Applications folder)
+- Drop down the `Atom` menu in the top left corner of your screen, and click "Install Shell Commands"
 - Confirm the Atom Shell Commands are installed properly by taking the following steps:
   1. Open the Terminal with Spotlight search (`command + space`, start typing `Terminal` and press `return`)
   1. Run `atom .` in the Terminal. **Be sure to include a space between `atom` and the `.`** If it is setup correctly, Atom will automatically open
@@ -241,7 +242,7 @@ GitHub is a widely used platform that hosts code projects and allows for collabo
 - [Create an account on GitHub](https://github.com/)
 - [Update your GitHub Profile](https://github.com/settings/profile) and be sure that you choose a username, status, profile info, and picture that are appropriate for a professional setting. GitHub is a platform where future/potential employers will be reviewing your work
 
-SSH keys are a secure and convenient way to authenticate. We won't get into more detail right now, but setting this key up lets you skip typing in a password every time you want to interact with GitHub (_often_!).
+SSH keys are a secure and convenient way to authenticate. We won't get into more detail right now, but setting this key up lets you skip typing in a password every time you want to interact with GitHub from the Terminal (which is going to be _often_!).
 
 **Action Steps:**
 - Set up your SSH key by taking the following steps:
@@ -315,13 +316,13 @@ To write JavaScript in the command line and use essential "packages" while build
     eval "$(rbenv init -)"
     ```
   1. Run `atom ~/.zshrc`. Atom should open to a blank file, the `zshrc` file. Inside this file, type or copy-and-paste in: `eval "$(rbenv init -)"` 
-  1. Close the Terminal using `cmd + q` - this is absolutely neccessary! Clicking the red dot in the corner is not a substitute
+  1. Close the Terminal using `command + q` - this is absolutely neccessary! Clicking the red dot in the corner is not a substitute
   1. Re-open the Terminal, and run `rbenv versions`. As long as you don't get an error message, `rbenv` has been installed correctly
 - Use `rbenv` to change Ruby versions by taking the following steps:
   1. In the Terminal, run `rbenv install 2.7.2`. This may take several minutes, and will likely print a lot of output. Wait patiently until it finishes/the command prompt returns
   1. Run `rbenv versions`. You should now see `2.7.2` listed
   1. Run `rbenv local 2.7.2` 
-  1. Run `ruby -v`. The output should be something like `ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]`. If the output does not include `ruby 2.7.2`, `cmd + q` out of the Terminal and start this step over
+  1. Run `ruby -v`. The output should be something like `ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]`. If the output does not include `ruby 2.7.2`, `command + q` out of the Terminal and start this step over
   1. Run `rbenv global 2.7.2` then `rbenv rehash`. You should not expect any output from those commands
 - If you've followed these steps and are having issues, please DM the Mod 0 Lead on Slack ASAP. It is essential `rbenv` is installed on your machine correctly.
 
