@@ -24,7 +24,7 @@ title: Home
     <li>Developing strategies to thrive in a rigorous, remote learning environment</li>
   </ul>
   <br>
-  <p>It is expected that you arrive to your first Mod 0 Session prepared to engage, which this includes having your computer, notebook, and workspace set up. Start preparing by carefully following the directions on the Computer Setup page.</p>
+  <p>It is expected that you arrive to your first Mod 0 Session prepared to engage, which includes having your computer, notebook, and workspace set up. Start preparing by carefully following the directions on the Computer Setup page.</p>
   <br>
   <a class="s-button" href="/computer-setup">Computer Setup</a>
   <a class="s-button" href="/before-mod-0">Before Starting Mod 0</a>
