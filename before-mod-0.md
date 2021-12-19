@@ -27,7 +27,7 @@ Slack is our main communication tool at Turing. You will receive an invitation t
 - Watch the [Slack Tutorial Video](https://www.youtube.com/watch?v=tfq333EpWgM)
 - Upload a clear and appropriate headshot for your profile image
 - Set up your Slack profile to include your cohort, program, pronouns, and timezone
-- Practice the following:
+- Practice the following (direct message yourself to practice!):
   - How to start a thread
   - How to reply in a thread
   - How to format an `inline code example`
@@ -40,7 +40,7 @@ Slack is our main communication tool at Turing. You will receive an invitation t
 
 ## Remote Workspace
 
-Read this guide on [how to prepare your supplies and workspace]({{ sitebaseurl }}/remote-workspace) and take any steps to you need to, to be ready for remote learning.
+Read this guide on [how to prepare your supplies and workspace]({{ sitebaseurl }}/remote-workspace). Take any actions steps necessary to prepare yourself for remote learning.
 
 ## Notetaking
 
