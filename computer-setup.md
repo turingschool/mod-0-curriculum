@@ -323,7 +323,7 @@ To write JavaScript in the command line and use essential "packages" while build
   1. In the Terminal, run `rbenv install 2.7.2`. This may take several minutes, and will likely print a lot of output. Wait patiently until it finishes/the command prompt returns
   1. Run `rbenv versions`. You should now see `2.7.2` listed
   1. Run `rbenv local 2.7.2` 
-  1. Run `ruby -v`. The output should be something like `ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]`. If the output does not include `ruby 2.7.2`, `command + q` out of the Terminal and start this step over
+  1. Run `ruby -v`. The output should be something like `ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]`. If the output does not include `ruby 2.7.2`, `command + q` out of the Terminal and start this step over. If you still aren't seeing `ruby 2.7.2`, check that you correctly followed the step above to edit your `.zshrc` file.
   1. Run `rbenv global 2.7.2` then `rbenv rehash`. You should not expect any output from those commands
 - If you've followed these steps and are having issues, please DM the Mod 0 Lead on Slack ASAP. It is essential `rbenv` is installed on your machine correctly.
 
