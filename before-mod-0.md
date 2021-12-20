@@ -19,7 +19,7 @@ permalink:  before-mod-0
 
 ## Complete the Computer Setup
 
-It is **essential** that you set up your computer according to the instructions outlined in the [Computer Setup](https://mod0.turing.io/computer-setup). On occasion, students run into problems installing some of the programs, so it is advised you start this sooner than later in the event you need to reach out for support on Slack.
+It is **essential** that you set up your computer according to the instructions outlined in the [Computer Setup]({{ site.baseurl }}/computer-setup). On occasion, students run into problems installing some of the programs, so it is advised you start this sooner than later in the event you need to reach out for support on Slack.
 
 ## Slack
 

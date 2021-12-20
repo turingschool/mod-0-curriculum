@@ -38,7 +38,7 @@ Rectangle is a screen management application that allows you to move and resize 
 Once you've installed Rectangle, open the application and it will run in the background. You should see a smaller version of the Rectangle icon in the top right corner of your screen.
 
 **Action Steps:**
-- Download and install [Rectangle](https://rectangleapp.com/)
+- [Download and install Rectangle](https://rectangleapp.com/)
 - Take some time to play around with the commands to adjust the position and size of different windows on your screen using the Rectangle keyboard shortcuts
 
 <br>
