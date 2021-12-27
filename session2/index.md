@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 2
-subheading: Problem Solving, Pseudocoding, Git
+subheading: Git
 ---
 
 ### Goals
