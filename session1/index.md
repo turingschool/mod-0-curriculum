@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 1
-subheading: Success at Turing, Files, Directories, Paths, Terminal
+subheading: Success at Turing, Terminal
 ---
 
 ### Learning Goals
