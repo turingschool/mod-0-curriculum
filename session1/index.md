@@ -423,7 +423,7 @@ Now when I type `ls`, I will no longer see `books` listed.
     </div>
   </div>
 
-## Putting it All Together
+## Putting It All Together
 
 ### Demo: Driver-Navigator Format
 
@@ -477,11 +477,19 @@ Switch driver/navigator roles.
 
 ## Close Out
 
-Key takeaways from today:
-* You should have a better understanding of the skills + mindsets necessary to succeed at Turing
+<div class="things-to-note">
+  <h3>Independent Reflection</h3>
+  <ul>
+    <li>What was difficult about working on these challenges collaboratively?</li>
+    <li>What were the benefits of working on these challenges collaboratively?</li>
+    <li>Do you feel that you and your partner left the breakout room with similar levels of understanding/fluency of the Terminal commands?</li>
+  </ul>
+</div>
+
+Key takeaways from this Session:
+* You should understand that your Turing experience will be collaborative and how we leverage technology to collaborate remotely
+* You should have a better understanding of the skills and mindsets necessary to succeed at Turing
 * You should understand how to navigate files/directories using your terminal
-* You should understand basic action, safe/informative, and destructive terminal commands
-* You should understand how to google programming questions
 
 ## Homework
 
@@ -491,7 +499,9 @@ Note that the Mod 0 Project takes about 35 hours total to complete. Part of your
 
 **If you find yourself falling behind, it is your responsibility to reach out to your TAs early!**
 
-## Keyboard Shortcuts
+<br><br>
+
+<!-- ## Keyboard Shortcuts
 
 Most computer users rely heavily on the mouse to open applications, interact with programs, etc. You might think that you're quick with a mouse, but just wait until you get good at <span class="vocab">keyboard shortcuts</span>.
 
@@ -591,4 +601,4 @@ Initially, your flow will be slower as you learn and memorize each of the shortc
       </ul>
     </div>
   </div>
-</div>
+</div> -->
