@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Session 4 - FE
+title: Session 5 - FE
 subheading: Intro to Arrays in JavaScript
 ---
 
@@ -143,6 +143,8 @@ Since researching and documentation reading can sometimes be time-consuming, ano
   <p>Your instructor will be calling random pairs to share out on each of the 4 methods you've discussed. Who will answer if you are called on?</p>
 </div>
 
+<br>
+
 <!-- Regroup from BOs and call on groups to share out
 
 - Reflect: What % of the time did you talk, did your partner talk? What % of the time were you screensharing, your partner screensharing? -->
@@ -165,3 +167,5 @@ So, time has been built **into** this session to let you explore what works for 
   <p>Consider: What felt easiest and hardest for you? What was confusing to you? What resources can you leverage to clarify those areas?</p>
   <p>Be prepared to quickly share out what your strategy was for this time, and how effective it was. Also, be prepared to learn from your classmates on their strategies!</p>
 </div>
+
+<br><br>
