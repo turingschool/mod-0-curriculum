@@ -6,8 +6,10 @@ subheading: Basic Data Types, Variables
 
 ## Learning Goals
 
+- Share and explain work in front of the whole class
 - Identify and use 3 basic Data Types
 - Assign and reassign variables in JavaScript
+- Write detailed annotations with accurate technical vocabulary
 - Comfortably use Chrome Dev Tool Console
 
 ## Vocabulary
@@ -176,7 +178,7 @@ console.log(dogName, dogAge, hungryDog);
 
 ## Putting it All Together
 
-Use everything you’ve learned with git, GitHub, Data Types and variables, complete this challenge:
+Use everything you’ve learned with Git, GitHub, Data Types and variables, complete this challenge:
 
 1. Create a new directory called `variable-practice`
 1. Inside that directory, create a file called `variables.js`
@@ -193,3 +195,5 @@ Use everything you’ve learned with git, GitHub, Data Types and variables, comp
 1. Annotate ONE of the files
 1. Commit your work
 1. Push your changes to GitHub
+
+<br><br>

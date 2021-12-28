@@ -6,19 +6,20 @@ subheading: Basic Data Types, Variables
 
 ## Learning Goals
 
+- Share and explain work in front of the whole class
 - Identify and use 3 basic Data Types
 - Assign and reassign variables in Ruby
+- Write detailed annotations with accurate technical vocabulary
 - Comfortably use IRB within the Terminal
 
 ## Vocabulary
 
 - assignment operator
 - Boolean
-- console
 - Data Type
-- Dev Tools
 - Float
 - Integer
+- IRB (interactive Ruby)
 - String
 - variable
 
@@ -184,7 +185,7 @@ puts dog_name, dog_age, hungry_dog
 
 ## Putting it All Together
 
-Use everything you’ve learned with git, GitHub, Data Types and variables, complete this challenge:
+Use everything you’ve learned with Git, GitHub, Data Types and variables, complete this challenge:
 
 1. Create a new directory called `variable_practice`
 1. Inside that directory, create a file called `variables.rb`
@@ -203,3 +204,5 @@ Use everything you’ve learned with git, GitHub, Data Types and variables, comp
 1. Annotate ONE of the files
 1. Commit your work
 1. Push your changes to GitHub
+
+<br><br>
