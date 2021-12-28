@@ -4,18 +4,18 @@ title: Session 2
 subheading: Git
 ---
 
-### Goals
+## Learning Goals
 
+- Use the Driver-Navigator technique to collaborate
 - Explain the purpose of git
 - Initialize, add, and commit changes in a local repository 
-- Use the Driver-Navigator technique to collaborate
 
-### Agenda
+## Agenda
 
 - Housekeeping, Feedback and Goals
-- Calendar Workshop
+- Calendars and Time Management
 - Git Basics
-- Closing Announcements
+- Closing and Announcements
 
 ## Housekeeping, Feedback, and Goals
 
@@ -74,6 +74,8 @@ Pitfalls:
     <li>How did it feel to exchange live feedback with your peers in the Breakout Room? It might have felt awkward or uncomfortable - both to give/receive feedback and to be put on the spot and share your work. We provide that experience so you get used to that environment as it is an every day reality at Turing and as a software developer. Use this as an opportunity to consider how you will engage in those sessions to make the most of your professional community!</li>
   </ul>
 </div>
+
+<br>
 
 ## Git
 
@@ -301,11 +303,11 @@ The basic Git workflow is as follows:
   </ol>
 </div>
 
-## Mistakes in the terminal
+### Mistakes in the Terminal
 
 <a href="https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e">Terminal Mistakes Screencast</a>
 
-## Closing
+## Closing and Announcements
 
 Understanding Git and the workflow can be tricky at first; however, this pattern is one that you will come to memorize over time. As you are memorizing the steps, be sure that you know **what** each step does.
 
@@ -313,12 +315,8 @@ Today (and during Mod 0), we'll just be moving forward in time using Git. We won
 
 We do not expect you to have these steps and reasons memorized right now. You can always reference back to this tutorial (or other tutorials that you find online). The more you practice, the easier it will become.
 
-## Homework
+### Homework
 
-Find the homework in your Mod 0 Project Board. Post in the Mod 0 Slack channel if you have questions as you work through it (and don't be afraid to help each other out).
-
-### Asking questions
-
-Now that we're working on some more technical subjects, be sure to provide as much context as possible in your slack questions. They'll help you get an answer faster and that answer will be more accurate. Use [this guide](https://gist.github.com/ericweissman/fb0241e226227867b6bc70a4d49227f5) to ask good questions!
+Find the Homework in your Mod 0 Project Board. Post in the Mod 0 Slack channel if you have questions as you work through it (and don't be afraid to help each other out).
 
 <br><br>

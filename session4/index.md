@@ -17,9 +17,11 @@ subheading: Data Types, Variables
 - Housekeeping, Feedback and Goals
 - Git Workflow Review
 - Data Types + Variable Assignment
-- Closing Announcements
+- Closing and Announcements
 
-## Housekeeping & Follow-Ups
+## Housekeeping
+
+## Git Workflow Review
 
 
 ## Data Types and Variables Breakouts
@@ -27,6 +29,5 @@ subheading: Data Types, Variables
 We are going to break out into program specific groups to start working through these concepts!
 - [Frontend: Data Types + Variable Assignment in JavaScript](./fe)
 - [Backend: Data Types + Variable Assignment in Ruby](./be)
-
 
 <br><br>

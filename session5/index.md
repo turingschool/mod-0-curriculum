@@ -13,9 +13,10 @@ subheading: Intro to Arrays
 
 ## Agenda
 
-- Housekeeping, Feedback and Goals
+- Housekeeping
+- Homework 4 Share Out
 - Arrays
-- Wrap Up
+- Closing and Announcements
 
 ## Intros and Icebreaker
 
@@ -39,7 +40,7 @@ We will breakout into program specific groups to learn how to use these more adv
 - [Front End](./fe)
 - [Back End](./be)
 
-## Closing Announcements
+## Closing and Announcements
 
 * This is your last Mod 0 Session!
 * Remaining deliverables - complete the HW5/Assessment and turn in your Mod 0 Project

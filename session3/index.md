@@ -3,20 +3,21 @@ layout: page
 title: Session 3
 subheading: GitHub
 ---
-### Goals
+
+## Learning Goals
 
 - Use the Driver-Navigator technique to collaborate and work synchronously with fellow students
 - Create your own repository on GitHub
 - Push local changes to a remote
 
-### Agenda
+## Agenda
 
 - Housekeeping, Feedback and Goals
 - Git Warm Up/Review
 - GitHub
-- Closing Announcements
+- Closing and Announcements
 
-## Housekeeping, Wins/Follow-Ups, and Goals
+## Housekeeping
 
 <div class="try-it">
   <h3>Intros and Review</h3>
@@ -36,7 +37,6 @@ subheading: GitHub
   <p>Have extra time? Share helpful resources you've come across.</p>
 </div>
 
-<a name="gitreview"></a>
 ## Git Review
 
 Let's talk once more about this Git diagram.
@@ -152,9 +152,7 @@ Watch and take notes while we walk through how to continue making changes and pu
   <p>Finished? Get to know your breakout room classmates better: What are they trying to get better at in life? What book would the recommend that everyone read at least once in life?</p>
 </div>
 
-## Forking
-
-#### What is Forking?
+### Forking
 
 <span class="vocab">Forking</span> allows you to copy someone else's project while still keeping a reference to the original. To fork an existing project, you just click the `fork` button, which will make a copy of all of the code and directory structure to your own GitHub account.
 
@@ -204,7 +202,7 @@ git push origin main
   <p>Done? Check in on your peers. Then, repeat steps 4-6 with another animal file.</p>
 </div>
 
-## Closing
+## Closing and Announcements
 
 Reminders:
 - The Homework for Session 3 will follow the same patterns as established in Homeworks 1 and 2. Please post a message in the Mod 0 Slack channel if you need any support!

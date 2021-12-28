@@ -4,7 +4,7 @@ title: Session 1
 subheading: Success at Turing, Terminal
 ---
 
-### Learning Goals
+## Learning Goals
 
 - Use the Driver-Navigator technique to collaborate
 - Screenshare work in a Breakout Room
@@ -12,15 +12,15 @@ subheading: Success at Turing, Terminal
 - Navigate through directories from the command line
 - Make and remove files and directories from the command line
 
-### Agenda
+## Agenda
 
-- Introduction to Mod 0
-- Success at Turing
+- Introductions
+- Housekeeping
 - Files, Directories + Paths
 - Terminal, Command Line
-- Closing Announcements
+- Closing and Announcements
 
-### Materials
+## Materials
 
 - Quiet Space
 - Notebook
@@ -28,12 +28,14 @@ subheading: Success at Turing, Terminal
 - Laptop
 - Headphones & mic
 
-### Introductions
+## Introductions
 
 - Instructor Instroductions
 - Follow along by clicking the lesson plan in Slack
 
 ## Housekeeping
+
+### Zoom Display Names
 
 * Change display name in Zoom by clicking the **Participants** menu and choosing **Rename**. Make sure to match the following format:
   - Program (FE or BE)
@@ -66,7 +68,7 @@ Breakout groups may be a bit awkward at first, but will be a regular and essenti
   <p>3. Why Turing?</p>
 </div>
  
-## Time Management at Turing
+### Time Management at Turing
 
 Turing is a full-time, immersive program. You are going to learn the technical and professional skills needed to succeed in demanding, yet high-paying technical careers inless than a year.
 
@@ -77,7 +79,7 @@ One strategy we've seen our most successful students employ is using some type o
 - **Find a calendar tool and stick with it** - Everyone's system, calendar tool, etc. might be a little different, but those who DON'T use any tool typically struggle with time management while at Turing. We **STRONGLY RECOMMEND** you use Google Calendars because a) we use that at Turing and b) it is a very popular tool in the field so it is good to practice using it now!
 - **Calendars are meant to be living documents that can change** - You can't plan for everything, and sometimes we don't accurately estimate how long something will take. Being able to make adjustments to calendars as things change is a very important skill to start practicing
 
-### Time Management and Calendar Tips from Successful Students
+#### Time Management and Calendar Tips from Successful Students
 
 - **Purposefully build in scheduled time for health, wellness and whatever else you need to be your best self** - If you don't plan for it - chances are it won't happen. Turing moves fast, but it is still a marathon. How can you make sure you are creating a sustainable schedule/routine?
 - **Break down time blocks as much as possible** - Anything over an hour will usually be unproductive and give too much time to procrastinate
@@ -86,6 +88,8 @@ One strategy we've seen our most successful students employ is using some type o
 - **When you think of something you need to do, put it on your calendar immediately** - For example, if after a lesson, you think to yourself "I really want to go back and finish that activity we started in the lesson..." you should immediately pull up your calendar, find a 15-30 minute block of time in the next couple of days and make an event for working on that particular exercise (and add the link to the lesson and/or exercise to that event)
 - **Reflect on your time management each week** - Build in time each week to reflect on how well you stuck to your schedule. Be gracious to yourself and adjust the upcoming week
 - **Time management becomes more important throughout the program** - As the program progresses, you will find yourself balancing more responsibilities, such as attacking the technical curriculum while simultaneously searching for your first software developer job
+
+<br>
 
 ## Files, Directories, and Paths
 
@@ -475,7 +479,7 @@ Switch driver/navigator roles.
 1. Get back out of the `session3_practice` directory
 1. Remove the `session3_practice` directory
 
-## Close Out
+## Closing and Announcements
 
 <div class="things-to-note">
   <h3>Independent Reflection</h3>
@@ -493,7 +497,7 @@ Key takeaways from this Session:
 
 ## Homework
 
-Find the homework in your Mod 0 Trello Board. If you have any clarifying questions about expectations for Homework, post them in the Mod 0 Slack channel.
+Find the Homework in your Mod 0 Trello Board. If you have any clarifying questions about expectations for Homework, post them in the Mod 0 Slack channel.
 
 Note that the Mod 0 Project takes about 35 hours total to complete. Part of your homework this week is to create a calendar for Mod 0 where you can plan how to spend your time on classes, homework, and the Mod 0 Project! 
 
