@@ -8,7 +8,6 @@ subheading: Success at Turing, Terminal
 
 - Use the Driver-Navigator technique to collaborate
 - Screenshare work in a Breakout Room
-- Notate file paths from diagrams
 - Navigate through directories from the command line
 - Make and remove files and directories from the command line
 
@@ -16,7 +15,7 @@ subheading: Success at Turing, Terminal
 
 - Introductions
 - Housekeeping
-- Files, Directories + Paths
+- Files, Directories, and Paths
 - Terminal, Command Line
 - Closing and Announcements
 
@@ -147,11 +146,7 @@ In the diagram below, we would say that there's a directory called `essays` that
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
-  <ol>
-    <li>
-       We commonly refer to directories with an analogy of <span class="vocab">parent</span> and <span class="vocab">child</span>. In the above example <code>to_do</code> is the <span class="vocab">parent</span> directory of the <code>home</code> and <code>work</code> directories. <code>projects_to_delegate</code> is a <span class="vocab">child</span> directory of the <code>work</code> directory.
-    </li>
-  </ol>
+  <p>We commonly refer to directories with an analogy of <span class="vocab">parent</span> and <span class="vocab">child</span>. In the above example <code>to_do</code> is the <span class="vocab">parent</span> directory of the <code>home</code> and <code>work</code> directories. <code>projects_to_delegate</code> is a <span class="vocab">child</span> directory of the <code>work</code> directory.</p>
 </div>
 
 <hr>
@@ -427,6 +422,8 @@ Now when I type `ls`, I will no longer see `books` listed.
     </div>
   </div>
 
+<br>
+
 ## Putting It All Together
 
 ### Demo: Driver-Navigator Format
@@ -478,6 +475,8 @@ Switch driver/navigator roles.
 1. Add the text "The Terminal is an interface to give commands to the computer" to the `terminal.md` file
 1. Get back out of the `session3_practice` directory
 1. Remove the `session3_practice` directory
+
+<br>
 
 ## Closing and Announcements
 
