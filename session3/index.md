@@ -6,13 +6,14 @@ subheading: GitHub
 
 ## Learning Goals
 
-- Use the Driver-Navigator technique to collaborate and work synchronously with fellow students
+- Use the Driver-Navigator technique to collaborate 
+- Collaborate synchronously with fellow students
 - Create your own repository on GitHub
 - Push local changes to a remote
 
 ## Agenda
 
-- Housekeeping, Feedback and Goals
+- Housekeeping
 - Git Warm Up/Review
 - GitHub
 - Closing and Announcements
@@ -95,7 +96,7 @@ Let's first discuss this diagram:
 
 <span class="vocab">origin</span>: refers to the URL where the code is hosted on GitHub. Each repository has its own origin (own URL).
 
-<span class="vocab">git pull</span>: means download all of the changes and updates on the remote GitHub repository that I don't currently have on my local repository. You would use git pull after a teammate makes a change to the code, and you want to bring those changes into your own code.
+<span class="vocab">git pull</span>: means download all of the changes and updates on the remote GitHub repository that I don't currently have on my local repository. You would use `git pull` after a teammate makes a change to the code, and you want to bring those changes into your own code.
 
 <span class="vocab">git push</span>: this is how you share/upload the changes you made to your local repository on GitHub.
 
@@ -181,7 +182,7 @@ git push origin main
 <div class="things-to-note">  
   <h4>Things to Note: Cloning with Git</h4>
   <ul>
-    <li><strong>Never</strong> clone a remote repository within a preexisting <span class="vocab">Git</span> repository. If you watched the video for modifying your <code>.zshrc</code>, then you will see <code>main</code> if you're already in a git repository.</li>
+    <li><strong>Never</strong> clone a remote repository within a preexisting <span class="vocab">Git</span> repository. If you watched the video for modifying your <code>.zshrc</code>, then you will see <code>main</code> if you're already in a Git repository.</li>
     <li>After cloning a repository, remember to <code>cd</code> into the directory you just cloned to your machine before running commands. If you cannot remember what the directory is called then run<code>ls</code> after cloning to see the contents of your current directory.</li>
     <li>There is no need to run <code>git init</code> within a repository that you cloned down to your local machine. Remote repositories that you clone to your local machine have already been initialized by Git. You only ever need to run <code>git init</code> when you've created a repository locally from scratch. If you mess this one up, it's not going to cause any problems; it's just unnecessary.</li>
     <li><strong>Don't</strong> use "Initial commit" as your commit message for a cloned repository. Whoever made the repository already did that. You only need "Initial commit" when you make a new repository for yourself.</li>
