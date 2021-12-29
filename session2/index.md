@@ -7,7 +7,7 @@ subheading: Git
 ## Learning Goals
 
 - Use the Driver-Navigator technique to collaborate
-- Explain the purpose of git
+- Explain the purpose of Git
 - Initialize, add, and commit changes in a local repository 
 
 ## Agenda
@@ -154,12 +154,12 @@ This means Git now **HAS THE ABILITY** to track changes in the `notes` directory
   <p>When you run <code>git init</code>, a directory called <code>.git</code> is created inside of that folder. You can't see this folder using the <code>ls</code> command since it's a hidden folder. Everything that starts with "." is hidden. Instead, you can run <code>ls -a</code> which will display all hidden and visible files and directories.</p>
   <p>In a Git initialized directory, you'll see a <code>.git</code> directory. To remove git tracking, you would type:</p>
   <code>rm -rf .git</code>
-  <p>This removes the Git directory, and you are no longer using git to track your project. If you accidentally run <code>git init</code> in your home directory, and start tracking most of the files and directories on your entire computer, then remember to run <code>rm -rf .git</code> from your home directory. One way to tell if you've accidentally initialized Git in your home directory is to first go home by running:<code>cd ~</code> and then run: <code>git status</code>. If you see files being tracked but not staged for commit, then you need to remove the .git folder as layed out above. However, if your terminal returns:<code>fatal: Not a git repository (or any of the parent directories): .git</code>, then you are all good.</p>
+  <p>This removes the Git directory, and you are no longer using Git to track your project. If you accidentally run <code>git init</code> in your home directory, and start tracking most of the files and directories on your entire computer, then remember to run <code>rm -rf .git</code> from your home directory. One way to tell if you've accidentally initialized Git in your home directory is to first go home by running:<code>cd ~</code> and then run: <code>git status</code>. If you see files being tracked but not staged for commit, then you need to remove the .git folder as layed out above. However, if your Terminal outputs:<code>fatal: Not a git repository (or any of the parent directories): .git</code>, then you are all good.</p>
 </div>
 
 ### 2. Check the Status (<span class="vocab">git status</span>)
 
-When you want to see what git is tracking and the current status of files, you can use `git status`:
+When you want to see what Git is tracking and the current status of files, you can use `git status`:
 
 ```
 timo@Tims-MacBook-Pro:~/notes$ git status
@@ -184,7 +184,7 @@ nothing added to commit but untracked files present (use "git add" to track)
   You can type <code>git status</code> as many times as you want, whenever, wherever. It it a safe command that will not change anything about your tracking.
 </div>
 
-Let's talk briefly about this diagram from the git documentation. This diagram shows what you can do **after** you have initialized Git:
+Let's talk briefly about this diagram from the Git documentation. This diagram shows what you can do **after** you have initialized Git:
 
 ![git-diagram-light](https://user-images.githubusercontent.com/63985074/139125657-b581818f-e9c9-4efb-b441-28010c48b560.png)
 
@@ -208,7 +208,7 @@ Changes to be committed:
 
 ```
 
-Notice the "changes to be committed" section: It tells us that we have a new file, `things_to_remember.md`, that is ready to be committed. We can say that the `things_to_remember.md` file is in the <span class="vocab">git staging area</span>. That means no changes are tracked yet, but we're ready to take a snapshot of it (we'll do this next).
+Notice the "changes to be committed" section: It tells us that we have a new file, `things_to_remember.md`, that is ready to be committed. We can say that the `things_to_remember.md` file is in the <span class="vocab">Git staging area</span>. That means no changes are tracked yet, but we're ready to take a snapshot of it (we'll do this next).
 
 This may seem silly right now, given that we only have one file -- why not just commit the file? Why do we have to add it first? Let's take a [small detour](https://gist.github.com/rwarbelow/e1340ca3eeb616851a1a48221f48b67b).
 
@@ -268,7 +268,7 @@ The basic Git workflow is as follows:
 <a name="gitbreakout"></a>
 <div class="try-it">
   <h3>Try It: Git Together</h3>
-  <p>The person whose last name is first alphabetically will start by sharing their screen, <em>unless</em> this person already has significant git experience. Whoever is sharing their screen will be called the <span class="vocab">driver</span>. The other person in the room will be a <span class="vocab">navigator</span>.</p>
+  <p>The person whose last name is first alphabetically will start by sharing their screen, <em>unless</em> this person already has significant Git experience. Whoever is sharing their screen will be called the <span class="vocab">driver</span>. The other person in the room will be a <span class="vocab">navigator</span>.</p>
 
   <p>The driver will be the person typing the commands, and the navigator should be the one who brainstorms what comes next or what to type. In addition to naming the steps, discuss <strong>why</strong> you are doing each step, or <strong>what</strong> exactly is taking place in each step.</p>
 
@@ -276,7 +276,7 @@ The basic Git workflow is as follows:
   <ol>
     <li>Navigate back to your home directory</li>
     <li>Create a new directory called <code>to_do</code>. Inside of that directory, create a file called <code>tasks.md</code>.</li>
-    <li>Initialize Git inside of the <code>to_do</code> directory so that we have git available to track changes.</li>
+    <li>Initialize Git inside of the <code>to_do</code> directory so that we have Git available to track changes.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Add <code>tasks.md</code> to the staging area.</li>
     <li>Make your first commit in this directory.</li>
@@ -296,9 +296,9 @@ The basic Git workflow is as follows:
 <div class="things-to-note">
   <h4>Things to Note: Oh no, my Terminal is broken!</h4>
   <ol>
-    <li>It is likely you will make mistakes in the terminal. Do not fret, there are a few tools to save you when you inevitably receive unexpected feedback or behavior from the Terminal.</li>
+    <li>It is likely you will make mistakes in the Terminal. Do not fret, there are a few tools to save you when you inevitably receive unexpected feedback or behavior from the Terminal.</li>
     <li><code>control + C</code> shortcut will stop most Terminal tasks and bring you back to your current directory with no harm done. Try this first when you encounter unexpected behavior.</li>
-    <li>At some point your Terminal will look like it does in the photo below. This is Vim land. Vim is a text editor within your terminal that is beyond the scope of mod-0. When you find yourself here, you can run: <code>:q</code>, which stands for quit in Vim, and then hit enter to exit Vim. Sometimes, if you've already typed some characters, you need to run <code>ctrl + c</code>in order to get to a point within Vim where <code>:q</code> or <code>:qa!</code>, which is the command to quit and abandon changes, will successfully exit Vim.</li>
+    <li>At some point your Terminal will look like it does in the photo below. This is Vim land. Vim is a text editor within your Terminal that is beyond the scope of mod-0. When you find yourself here, you can run: <code>:q</code>, which stands for quit in Vim, and then hit enter to exit Vim. Sometimes, if you've already typed some characters, you need to run <code>ctrl + c</code>in order to get to a point within Vim where <code>:q</code> or <code>:qa!</code>, which is the command to quit and abandon changes, will successfully exit Vim.</li>
       <img src="images/vim_land.png" alt="">
   </ol>
 </div>
@@ -307,11 +307,13 @@ The basic Git workflow is as follows:
 
 <a href="https://www.loom.com/share/f05362155f5f4e1c959e92c94776e98e">Terminal Mistakes Screencast</a>
 
+<br>
+
 ## Closing and Announcements
 
 Understanding Git and the workflow can be tricky at first; however, this pattern is one that you will come to memorize over time. As you are memorizing the steps, be sure that you know **what** each step does.
 
-Today (and during Mod 0), we'll just be moving forward in time using Git. We won't learn how to go back in time, but it's important to understand and main making small commits before adding in new git functionality.
+Today (and during Mod 0), we'll just be moving forward in time using Git. We won't learn how to go back in time, but it's important to understand and main making small commits before adding in new Git functionality.
 
 We do not expect you to have these steps and reasons memorized right now. You can always reference back to this tutorial (or other tutorials that you find online). The more you practice, the easier it will become.
 
