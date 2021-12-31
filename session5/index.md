@@ -13,9 +13,10 @@ subheading: Intro to Arrays
 
 ## Agenda
 
-- Housekeeping, Homework 4 Discussions
-- Homework 4 Share Out
+- Housekeeping
+- Homework 4 Discussions
 - Arrays
+- Lesson Review
 - Closing and Announcements
 
 <div class="try-it">
