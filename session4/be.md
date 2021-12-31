@@ -205,7 +205,4 @@ Use everything you’ve learned with Git, GitHub, Data Types and variables, comp
 1. Commit your work
 1. Push your changes to GitHub
 
-## Closing and Announcements
-
-
 <br><br>

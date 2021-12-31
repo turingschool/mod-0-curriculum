@@ -4,7 +4,7 @@ title: Session 5
 subheading: Intro to Arrays
 ---
 
-## Goals
+## Learning Goals
  
 - Make decisions about how to best use time when self-teaching
 - Develop and practice strategies for reviewing a lesson
@@ -13,16 +13,14 @@ subheading: Intro to Arrays
 
 ## Agenda
 
-- Housekeeping
+- Housekeeping, Homework 4 Discussions
 - Homework 4 Share Out
 - Arrays
 - Closing and Announcements
 
-## Intros and Icebreaker
-
 <div class="try-it">
-  <h3>Introductions and Review</h3>
-  <p>Person with the shortest first name goes first.</p>
+  <h3>Homework 4 Discussions</h3>
+  <p>The person with the shortest first name goes first.</p>
   <ol>
     <li>Introduce yourself: name, pronouns</li>
     <li>Share your reflections from Homework 4.</li>
@@ -42,19 +40,9 @@ We will breakout into program specific groups to learn how to use these more adv
 
 ## Closing and Announcements
 
-* This is your last Mod 0 Session!
-* Remaining deliverables - complete the HW5/Assessment and turn in your Mod 0 Project
-* Check the calendar for Mod 1 Orientation
-* Moving forward:
-  * Keep up the hard work
-  * Keep asking questions in your cohort channels
-
-* Learning to code is much more like exercise than epiphanies - Think about MJ!
-
-> Quote from Meg Stang (BE instructor) - "I've noticed that the students that do the bare minimum on their Mod 0 Project are the ones that usually struggle for at least the first half of the mod."
-
-> Quote from Tara Westover (author of the book Educated) - "In retrospect, I see that this was my education... the hours I spent sitting at a borrowed desk, struggling to parse narrow strands of Mormon doctrine... This skill I was learning was a crucial one, the patience to read things I could not yet understand."
-
-When you're finished with your Mod 0 Project, work on the suggested exercises. Not sure what to work on at that point? Ask!
+- This is the final Mod 0 Session!
+- Remaining deliverables: Complete the HW5/Assessment and turn in your Mod 0 Project
+- Check the calendar for Mod 1 Orientation
+- Continue to use Slack channels as a place to collaborate with your cohort
 
 <br><br>
