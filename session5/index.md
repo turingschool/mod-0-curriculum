@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Session 5
-subheading: Intro to Arrays
+subheading: Arrays, Reviewing, Paired Challenge
 ---
 
 ## Learning Goals
@@ -10,6 +10,7 @@ subheading: Intro to Arrays
 - Develop and practice strategies for reviewing a lesson
 - Use syntax to declare variables that store Arrays in JavaScript (FE) or Ruby (BE)
 - Use basic Array methods to manipulate data in Arrays
+- Work collaboratively with a classmate to complete a timed challenge
 
 ## Agenda
 

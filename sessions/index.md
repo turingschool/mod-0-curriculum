@@ -9,6 +9,6 @@ While each session has a technical focus so we have content to teach, the main f
 * [Session 2]({{ site.url }}/session2) - Git
 * [Session 3]({{ site.url }}/session3) - GitHub
 * [Session 4]({{ site.url }}/session4) - Data Types, Variables
-* [Session 5]({{ site.url }}/session5) - Arrays
+* [Session 5]({{ site.url }}/session5) - Arrays, Reviewing, Paired Challenge
 
 Session recordings are posted the day after in the the Mod 0 section Slack channel.
