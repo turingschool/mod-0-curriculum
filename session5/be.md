@@ -167,6 +167,8 @@ So, time has been built **into** this session to let you explore what works for 
   <p>Be prepared to quickly share out what your strategy was for this time, and how effective it was. Also, be prepared to learn from your classmates on their strategies!</p>
 </div>
 
+<br>
+
 ## Paired Challenge
 
 Paired and Solo Challenges, Project Evaluations, and Timed Assessments are all parts of the daily life of a Turing student. Those experiences all prepare students for the job.
