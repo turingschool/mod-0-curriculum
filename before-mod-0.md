@@ -23,7 +23,7 @@ It is **essential** that you set up your computer according to the instructions 
 
 ## Slack
 
-Slack is our main communication tool at Turing. You will receive an invitation to join the Turing workspace 2-4 weeks before your Mod 0 start date. To ensure that you are prepared for your first session:
+Slack is our main communication tool at Turing. **You will receive an invitation to join the Turing Workspace 2 Fridays before your Mod 0 start date**. To ensure that you are prepared for your first session:
 - Watch the [Slack Tutorial Video](https://www.youtube.com/watch?v=tfq333EpWgM)
 - Upload a clear and appropriate headshot for your profile image
 - Set up your Slack profile to include your cohort, program, pronouns, and timezone

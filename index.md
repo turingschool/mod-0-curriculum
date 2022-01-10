@@ -25,6 +25,7 @@ title: Home
   </ul>
   <br>
   <p>It is expected that students arrive to your first Mod 0 Session prepared to engage, which includes having their computer, notebook, and workspace set up. Students can prepare by carefully following the directions on the Computer Setup page.</p>
+  <p><strong>In order to pass Mod 0 and start Mod 1 on the expected timeline, students must attend all Mod 0 Sessions and submit the Mod 0 Project on time, with high quality work.</strong></p>
   <br>
   <br>
   <a class="s-button" href="/computer-setup">Computer Setup</a>

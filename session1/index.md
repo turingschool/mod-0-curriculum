@@ -146,7 +146,7 @@ In the diagram below, we would say that there's a directory called `essays` that
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
-  <p>We commonly refer to directories with an analogy of <span class="vocab">parent</span> and <span class="vocab">child</span>. In the above example <code>to_do</code> is the <span class="vocab">parent</span> directory of the <code>home</code> and <code>work</code> directories. <code>projects_to_delegate</code> is a <span class="vocab">child</span> directory of the <code>work</code> directory.</p>
+  <p>We commonly refer to directories with an analogy of <span class="vocab">parent</span> and <span class="vocab">child</span>. In the above example <code>to_do</code> is the <span class="vocab">parent</span> directory of the <code>personal</code> and <code>work</code> directories. <code>projects_to_delegate</code> is a <span class="vocab">child</span> directory of the <code>work</code> directory.</p>
 </div>
 
 <hr>
@@ -317,10 +317,10 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
       <p>If I'm in the <code>projects_to_delegate</code> directory, what <strong>two commands</strong> do I need to type to get to <code>to_do</code>?</p>
       <p><small>(We'll learn how to combine these momentarily)</small></p>
       <textarea name="" style="width:100%;"></textarea>
-      <p>I'm in the <code>home</code> directory. What <strong>three commands</strong> do I need to type to get to <code>projects_to_delegate</code>?</p>
+      <p>I'm in the <code>personal</code> directory. What <strong>three commands</strong> do I need to type to get to <code>projects_to_delegate</code>?</p>
       <p><small>(We'll learn how to combine these momentarily)</small></p>
       <textarea rows="3" name="" style="width:100%;"></textarea>
-      <p>I'm in the <code>projects_to_delegate</code> directory. What <strong>three commands</strong> do I need to type to get to <code>home</code>?</p>
+      <p>I'm in the <code>projects_to_delegate</code> directory. What <strong>three commands</strong> do I need to type to get to <code>personal</code>?</p>
       <p><small>(We'll learn how to combine these momentarily)</small></p>
       <textarea rows="3" name="" style="width:100%;"></textarea>
     </div>
@@ -334,7 +334,7 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
     <li>For the third example in the previous <strong>Try It</strong> section, one could navigate to the <code>projects_to_delegate</code> directory as long as one knows the path:</li>
     <code>cd ../work/projects_to_delegate</code>
     <li>For the fourth and final example above:</li>
-    <code>cd ../../home</code>   
+    <code>cd ../../personal</code>   
     <li>Each level in the path is spearated by a <code>/</code></li>
   </ul>
 </div>
@@ -410,9 +410,9 @@ Now when I type `ls`, I will no longer see `books` listed.
         <strong>For this scenario, assume that each question is independent of the rest, and that the starting point is always the diagram to the left.</strong>
         <p>I'm in <code>to_do</code>. What do I type to remove <code>random.md</code>?</p>
         <textarea rows="1" name="" style="width:100%;"></textarea>
-        <p>I'm in <code>to_do</code>. What do I type to remove the <code>home</code> directory?</p>
+        <p>I'm in <code>to_do</code>. What do I type to remove the <code>personal</code> directory?</p>
         <textarea rows="1" name="" style="width:100%;"></textarea>
-        <p>I'm in the <code>work</code> directory. What <strong>two commands</strong> do I type to remove the <code>home</code> directory?</p>
+        <p>I'm in the <code>work</code> directory. What <strong>two commands</strong> do I type to remove the <code>personal</code> directory?</p>
         <textarea rows="2" name="" style="width:100%;"></textarea>
         <p>I'm in the <code>projects_to_delegate</code> directory. What <strong>two commands</strong> do I type to remove the directory I'm currently in?</p>
         <textarea rows="2" name="" style="width:100%;"></textarea>
