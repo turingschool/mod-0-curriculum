@@ -297,8 +297,8 @@ To write JavaScript in the command line and use essential "packages" while build
 **Action Items:**
 - Install `node` and verify it was installed correctly by taking the following steps:
   1. In the Terminal, run `brew update`. This may take several minutes
-  1. Run `brew install node`. This may also take several minutes
-  1. Run `node -v`. The output should be _something_ like `v17.2.0`
+  1. Run `brew install node@16`. This may also take several minutes
+  1. Run `node -v`. The output should be _something_ like `v16.13.1`
   1. Run `npm -v`. The output should be _something_ like `8.1.4`
 
 <br>
