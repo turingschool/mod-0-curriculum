@@ -78,16 +78,16 @@ You will likely spend the first class or two in Mod 1 reviewing many of the conc
 
 ### Continue to Build Coding Muscle Memory
 
-- Practice your typing skills/muscle memory using [typing.io](http://typing.io) and choosing `JavaScript/jQuery` for Frontend or `Ruby on Rails` for BE - don't get too bogged down in what the examples are DOING, it's really just meant to be a tool to practice using the common keystrokes for programming!
+- Practice your typing skills/muscle memory using [typing.io](http://typing.io) and choosing `JavaScript/jQuery` for Front End or `Ruby on Rails` for BE - don't get too bogged down in what the examples are DOING, it's really just meant to be a tool to practice using the common keystrokes for programming!
 - Continue to work on your pseudocoding skills and ability to break problems down! One useful tool is [Codewars]([https://www.codewars.com/](https://www.codewars.com/)), which has a lot of interesting problems that can solved using any coding language. A few things to note:
     - Codewars difficulty ranking system isn't super intuitive - a problem with a ranking of `8 kyu` is actually the "easiest" and `1 kyu` is the "hardest." We recommend sticking to the `8 kyu` range for now - even these problems are REALLY tricky so don't stress if they are feeling really hard right now!
     - Focus on your **process** and **approach**, specifically focusing on writing clear and concise pseudocode. Just the process of breaking a tricky problem down into smaller parts is more valuable than "solving" the problem.
     - If you want to try to convert your pseudocode into actual code, we recommend trying to implement your code using [repl.it](http://repl.it) at first - the Codewars coding environment is sort of finnicky. If you get a working solution in your repl.it, try pasting your code in Codewars to see if the tests pass!
 - Dive into some program-specific extension projects
-    - **Backend Extensions**
+    - **Back End Extensions**
         - [Ruby Exercises](https://github.com/turingschool/ruby-exercises) - start with Data Types and move to Mythical Creatures
         - [Credit Check Project](https://github.com/turingschool-examples/credit_check)
-    - **Frontend Extensions**
+    - **Front End Extensions**
         - [HTML + CSS Practice](https://github.com/turingschool-examples/fe-m1-practice)
         - [Dog Party - HTML/CSS Project](https://github.com/turingschool-examples/introductory-static-site)
 

@@ -24,8 +24,8 @@ subheading: Data Types, Variables
 ## Data Types and Variables Breakouts
 
 We are going to break out into program specific groups to start working through these concepts!
-- [Frontend: Data Types + Variable Assignment in JavaScript](./fe)
-- [Backend: Data Types + Variable Assignment in Ruby](./be)
+- [Front End: Data Types + Variable Assignment in JavaScript](./fe)
+- [Back End: Data Types + Variable Assignment in Ruby](./be)
 
 ## Closing and Announcements
 

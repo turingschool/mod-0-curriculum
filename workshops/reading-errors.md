@@ -15,8 +15,8 @@ What are some strategies that you have already been using to interpret error mes
     <ol>
       <li>Clone and cd into the repo:</li>
       <ul>
-        <li><a href="https://github.com/corneliusellen/mythical-creatures-primer-fe">Frontend version</a></li>
-        <li><a href="https://github.com/corneliusellen/mythical-creatures-primer">Backend version</a></li>
+        <li><a href="https://github.com/corneliusellen/mythical-creatures-primer-fe">Front End version</a></li>
+        <li><a href="https://github.com/corneliusellen/mythical-creatures-primer">Back End version</a></li>
       </ul>
       <li>Run the file with the command <code>ruby yeti.rb</code> for BE or <code>node yeti.rb</code> for FE.</li>
       <li>Discuss with your group what you think the error message means.</li>

@@ -7,7 +7,7 @@ Let's break it down.
 
 At Turing, we teach <span class="vocab">web development</span>. This means that we build applications that live on the internet.
 
-If you're in the **Front End Program**, you're going to be writing code that lives on the user's computer. For the sake web apps, it'll live within their web browser (ie. chrome). The Front End is user facing, and can be thought of as the presentation layer. Fun frontend things include data visualization and interesting user interactions. Often, the front end is referred to as `client side`. 
+If you're in the **Front End Program**, you're going to be writing code that lives on the user's computer. For the sake web apps, it'll live within their web browser (ie. chrome). The Front End is user facing, and can be thought of as the presentation layer. Fun Front End things include data visualization and interesting user interactions. Often, the front end is referred to as `client side`. 
 
 If you're in the **Back End Program**, you're likely writing code that lives on a server somewhere. This may not interact with the end user directly. Instead, it's often the back end's job to store and manipulate data that's sent from the front end. Or search through data and present it to the front end. Often, the Back End is referred to as `server side`. 
 
