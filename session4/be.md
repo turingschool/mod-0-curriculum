@@ -197,11 +197,13 @@ Use everything you’ve learned with Git, GitHub, Data Types and variables, comp
 1. Commit your work
 1. In your `variables.rb` file, add a few variables that are assigned to Integers
 1. Commit your work
+1. In your `variables.rb` file, add a few variables that are assigned to Floats
+1. Commit your work
 1. In your `variables.rb` file, add a few variables that are assigned to Booleans
 1. Commit your work
-1. In your `variables.rb` file, leave the original String variables as declared, but add some code to reassign them to different values
+1. In your `variables.rb` file, leave the original String variables as declared, but add some code to _reassign_ them to different values
 1. Commit your work
-1. Annotate ONE of the files
+1. Annotate at least 3 of the lines of code in `variables.rb`
 1. Commit your work
 1. Push your changes to GitHub
 
