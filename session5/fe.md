@@ -70,11 +70,11 @@ var students = ["Cindy", "Josiah", "Rigo"];
 <br>
 Notes on best practices for Arrays:
 - The name of a variable that stores an Array should usually be plural to indicate that it has the potential to hold _many_ elements of that type
-- While JavaScript technically allows an Array to hold multiple Data Types, it is not best practice and in any real-world application, will usually be unhelpful anyways
+- While JavaScript technically allows an Array to hold multiple Data Types, it is not best practice and in any real-world application, and will usually be unhelpful anyways
 
 ### Accessing Elements
 
-If we just want to access one element from an array, we can use **bracket notation** and a number that corresponds with that element. As weird as it may seem, [counting starts with 0 in most programming languages](https://skillcrush.com/blog/why-programmers-start-counting-at-zero/). That number is referred to as an **index position**.
+If we just want to access one element from an array, we can use **bracket notation** and a number that corresponds with that element. That number is referred to as an **index position**. As weird as it may seem, [counting starts with 0 in most programming languages](https://skillcrush.com/blog/why-programmers-start-counting-at-zero/). 
 
 Through reading the code snippets below, one can infer that the first element is in index position 0, and counting increments by 1.
 
