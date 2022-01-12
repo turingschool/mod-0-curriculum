@@ -93,11 +93,11 @@ students[2];
   <h3>Storing Arrays, Accessing Elements (Pairs)</h3> 
   <p>The partner with the largest number of characters in their full name is the driver; the other partner is the navigator. The driver should screenshare. Complete the following work in the browser Dev Tools Console:</p>
   <ul>
-    <li>Declare a variable named <code>friends</code> that stores an Array of 5 Strings with friends names.</li>
+    <li>Declare a variable named <code>friends</code> that stores an Array of 5 Strings with friends names</li>
     <li>Access the third element</li>
     <li>Access the last element</li>
     <li>Access the first element</li>
-    <li>If time permits: switch roles, and start over</li>
+    <li><em>If time permits: switch roles, and start over</em></li>
   </ul>
   <p>By default, we won't debrief this as a group. But, your instructor will open it up for questions. When you see the countdown for breakout rooms to end, decide if you are going to take that time to ask your instructor a question, or if you feel good to move on without doing so.</p>
 </div>
