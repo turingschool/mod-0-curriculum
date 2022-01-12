@@ -89,17 +89,6 @@ students[2];
 // --> "Rigo"
 ```
 
-```javascript
-//in Atom, when running the file with a node command
-var students = ["Cindy", "Josiah", "Rigo"];
-
-console.log(students[0]);
-// --> "Cindy"
-
-console.log(students[2]);
-// --> "Rigo"
-```
-
 <div class="try-it">
   <h3>Storing Arrays, Accessing Elements (Pairs)</h3> 
   <p>The partner with the largest number of characters in their full name is the driver; the other partner is the navigator. The driver should screenshare. Complete the following work in the browser Dev Tools Console:</p>
