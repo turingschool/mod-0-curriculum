@@ -168,4 +168,4 @@ In this order, these are the things your instructors will look for and care abou
 1. **Quality/Accuracy of Work** - Ideally, your team is able to work through most, if not all, of this challenge to demonstrate you have met the learning goals of Mod 0.
 
 Once the alotted time has ended, Instructors will end Breakout Rooms and give directions for submitting your work.
-<br><br>
+<br><br><br>
