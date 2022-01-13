@@ -121,7 +121,7 @@ An **Array method** is a piece of functionality that is built into the Ruby lang
 
 ### Array Methods Syntax
 
-To use an Array method in Ruby, we first must tell Ruby which Array we want to perform the method on. After that, a dot/period, then the name of the method followed by parentheses.
+To use an Array method in Ruby, we first must tell Ruby which Array we want to perform the method on. After that, a dot/period, then the name of the method.
 
 ```ruby
 students = ["Cindy", "Josiah", "Rigo"]
