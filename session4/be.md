@@ -4,6 +4,11 @@ title: Session 4 - BE
 subheading: Basic Data Types, Variables
 ---
 
+<div class="things-to-note">
+  <h3><code>rbenv</code> check</h3>
+  <p>Before we start the lesson, we need to make sure everyone has <code>rbenv</code> installed correctly. Please run <code>rbenv -v</code> then <code>ruby -v</code> in your Terminal, and copy and paste the output into a Slack thread.</p>
+</div>
+
 ## Learning Goals
 
 - Share and explain work in front of the whole class
