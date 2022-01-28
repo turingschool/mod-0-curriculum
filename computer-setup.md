@@ -93,6 +93,11 @@ Turing is a fully remote and highly collaborative program, which means you will 
   <p>The directions will use a phrase that may be new to you: "Run ____". When you are instructed to "run something", it means that you need to type those characters into the Terminal where you see the command prompt, then press <code>return</code>.</p>
 </div>
 
+<div class="things-to-note">
+  <h3>Command Prompt Notation</h3>
+  <p>A common convention in documentation that outlines anything regarding the Terminal is to notate a command one should run by starting the line with a <code>$</code>. As the developer, you should not type the <code>$</code>; you should only type the command that follows it. It is meant to represent your command prompt (which is usually the path to your working directory).</p>
+</div>
+
 ### Install Xcode-select
 
 [Xcode](https://developer.apple.com/xcode/) is a suite of development tools published by Apple. If we wanted to develop software for the Apple Ecosystem (iPhone apps, macOS apps, etc), we would use Xcode as our editor. Even though we're not building iPhone apps, Xcode provides some system dependencies that we need.
@@ -137,7 +142,7 @@ Homebrew is a package management system that allows us to install and run variou
   1. Open the `Terminal` app by either double clicking the icon or using a Spotlight search for `Terminal`
   1. Run the following command:
   ```
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
   1. When prompted, enter the password you use to log in to your computer. It needs this because it installs its packages in a place that all users of this computer can access. You will get a message that says, "Press RETURN to continue or any other key to abort." Press `return`
   1. When it has completed the installation, which may take some time, quit the Terminal using `command + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
@@ -190,7 +195,7 @@ Atom is where we write the code that powers our applications, but we'll also do 
   1. If it is _still_ not working, run the following command:
 
   ```
-  ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+  $ ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 
   ```
 
@@ -226,11 +231,11 @@ Note: Git is not the same thing as GitHub. You'll learn more about how they inte
   1. Open the Terminal with Spotlight search (with`command + space`)
   1. Run the following commands, one at a time, **substituting your own info** for the first two commands:
   ```
-  git config --global user.name "Eric Weissman"
-  git config --global user.email eric@example.com
-  git config --global init.defaultBranch main
-  git config --global core.editor "atom --wait"
-  git config --global pull.rebase false
+  $ git config --global user.name "Eric Weissman"
+  $ git config --global user.email eric@example.com
+  $ git config --global init.defaultBranch main
+  $ git config --global core.editor "atom --wait"
+  $ git config --global pull.rebase false
   ```
 
 <br>
