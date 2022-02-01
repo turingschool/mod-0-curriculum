@@ -183,23 +183,23 @@ Your Terminal will look something like this:
 
 #### Action Commands
 <ul>
-  <li><a href="#mkdir" title="">mkdir</a></li>
-  <li><a href="#cd" title="">cd</a></li>
-  <li><a href="#cddot" title="">cd ..</a></li>
-  <li><a href="#touch" title="">touch</a></li>
-  <li><a href="#clear" title="">clear</a></li>
+  <li>mkdir</li>
+  <li>cd</li>
+  <li>cd ..</li>
+  <li>touch</li>
+  <li>clear</li>
 </ul>
 
 #### Safe/Informative Commands
 <ul>
-  <li><a href="#pwd" title="">pwd</a></li>
-  <li><a href="#ls" title="">ls</a></li>
+  <li>pwd</li>
+  <li>ls</li>
 </ul>
 
 #### Destructive Commands
 <ul>
-  <li><a href="#rm" title="">rm</a></li>
-  <li><a href="#rmrecursive" title="">rm -rf</a></li>
+  <li>rm</li>
+  <li>rm -rf</li>
 </ul>
 
 ### 1. Where am I? (`pwd`)
