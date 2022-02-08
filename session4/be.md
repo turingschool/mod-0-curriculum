@@ -30,7 +30,7 @@ subheading: Basic Data Types, Variables
 
 ## Where To Run Code
 
-By the end of this session, you'll be able to use the your terminal, specicially a tool called `irb`, to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. `irb` will allow you to explore and learn Ruby and test out code you've written in a low stake environment. It is quick and easy to open up the terminal and run your code immediately.
+By the end of this session, you'll be able to use the your Terminal, specifially a tool called `irb`, to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. `irb` will allow you to explore and learn Ruby and test out code you've written in a low stake environment. It is quick and easy to open up the terminal and run your code immediately.
 
 ### `irb`: Tips & Tricks
 
