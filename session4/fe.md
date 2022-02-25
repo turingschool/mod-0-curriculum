@@ -192,7 +192,7 @@ Use everything you’ve learned with Git, GitHub, Data Types and variables, comp
 1. Commit your work
 1. In your `variables.js` file, add a few variables that are assigned to Booleans
 1. Commit your work
-1. Annotate ONE of the files
+1. Annotate each line of code you wrote in the `variables.js` file
 1. Commit your work
 1. Push your changes to GitHub
 
