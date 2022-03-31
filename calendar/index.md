@@ -7,29 +7,31 @@ Find individual Session days and times on the calendar:
 
 <iframe src="https://calendar.google.com/calendar/embed?src=casimircreative.com_12p4693hmer1orcepp74vg77pg%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="100%" height="500" frameborder="0" scrolling="yes"></iframe>
 
-## Session 2201-01
+## Session 2205-01
 
-Start Date: January 31
+Start Date: May 9
 
-End Date: February 13
+End Date: May 25
 
-## Session 2201-02
+## Session 2205-02
 
-Start Date: February 15
+Start Date: May 30
 
-End Date: March 6
+End Date: June 15
 
-## Session 2203-01
+## Intensive for 2207
 
-Start Date: March 21
+Full-time: June 6-10
 
-End Date: April 3
+## Session 2207-01
 
-## Session 2203-02
+Start Date: July 5
 
-Start Date: April 4
+End Date: July 17
 
-End Date:  April 24
+## Intensive for 2208
+
+Full-time: August 1-5
 
 <br>
 <br>
