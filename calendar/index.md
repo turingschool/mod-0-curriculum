@@ -9,7 +9,7 @@ Find individual Session days and times on the calendar:
 
 Both part-time and full-time options involve live sessions, recorded content, self-paced work, and peer-to-peer collaboration. During a part-time option, students can expect to work 20-25 hours/week during the course. During a full-time option, students can expect to work 9-10 hours/day.
 
-## Courses to prepare for students enrolled in 2207
+## Courses for students enrolled in 2207 Mod 1
 ### Option 1
 
 Part-time:
@@ -26,7 +26,7 @@ Part-time:
 
 Full-time: June 6-10
 
-## Courses to prepare for students enrolled in 2208
+## Courses for students enrolled in 2208 Mod 1
 ### Option 1
 
 Part-time:
