@@ -25,13 +25,13 @@ Part time
 Full-time: June 6-10
 
 ## Courses to prepare for students enrolled in 2208
-### Part-time Session Option 1
+### Option 1
 
 Part time
 - Start Date: July 5
 - End Date: July 17
 
-### Intensive for 2208
+### Option 2
 
 Full-time: August 1-5
 
