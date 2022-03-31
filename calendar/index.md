@@ -7,27 +7,29 @@ Find individual Session days and times on the calendar:
 
 <iframe src="https://calendar.google.com/calendar/embed?src=casimircreative.com_12p4693hmer1orcepp74vg77pg%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="100%" height="500" frameborder="0" scrolling="yes"></iframe>
 
-## Session 2205-01
+## Courses to prepare for students enrolled in 2207
+### Option 1
 
-Start Date: May 9
+Part time
+- Start Date: May 9
+- End Date: May 25
 
-End Date: May 25
+### Option 2
 
-## Session 2205-02
+Part time
+- Start Date: May 30
+- End Date: June 15
 
-Start Date: May 30
-
-End Date: June 15
-
-## Intensive for 2207
+### Option 3
 
 Full-time: June 6-10
 
-## Session 2207-01
+## Courses to prepare for students enrolled in 2208
+## Part-time Session Option 1
 
-Start Date: July 5
-
-End Date: July 17
+Part time
+- Start Date: July 5
+- End Date: July 17
 
 ## Intensive for 2208
 
