@@ -21,6 +21,8 @@ subheading: Data Types, Variables
 
 ## Git Workflow Review
 
+Instructors will quick lead a review as needed!
+
 ## Data Types and Variables Breakouts
 
 We are going to break out into program specific groups to start working through these concepts!
