@@ -139,6 +139,7 @@ Homebrew is a package management system that allows us to install and run variou
   1. Click into the folder called `Utilities`
   1. Right click on the `Terminal` app and choose `Get Info`
   1. Check the box that says `Open using Rosetta`
+  1. Use the keyboard shortcut `cmd + q` to close the Terminal
   1. Open the `Terminal` app by either double clicking the icon or using a Spotlight search for `Terminal`
   1. In Terminal, run `arch`; you should get an output of `i386`. 
     - If you get `arm64`, that means your Terminal has not opened using Rosetta. Completely close the Terminal with the keyboard shortcut `cmd + q`. Open Terminal, then run `arch` and it should now output `i386`
