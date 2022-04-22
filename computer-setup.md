@@ -140,6 +140,7 @@ Homebrew is a package management system that allows us to install and run variou
   1. Right click on the `Terminal` app and choose `Get Info`
   1. Check the box that says `Open using Rosetta`
   1. Open the `Terminal` app by either double clicking the icon or using a Spotlight search for `Terminal`
+    1. In Terminal, run `arch`; you should get an output of `i386`. If you get `arm64`, then your Terminal has not opened using Rosetta. Completely close the Terminal with the keyboard shortcut `cmd + q`. Then reopen Terminal, re-run `arch` and it should now output `i386`
   1. Run the following command:
   ```
   $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
