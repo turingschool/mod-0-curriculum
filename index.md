@@ -30,6 +30,7 @@ title: Home
   <br>
   <a class="s-button" href="/computer-setup">Computer Setup</a>
   <a class="s-button" href="/before-mod-0">Before Starting Mod 0</a>
+  <a class="s-button" href="/syllabus">Syllabus</a>
   <a class="s-button" href="/info">Where to Get Info</a>
 </section>
 
