@@ -10,12 +10,17 @@ permalink:  before-mod-0
 
 ## Index (time estimates)
 
+1. Read Course Syllabus, Calendar (10-30 min)
 1. Computer Setup (60-120 min)
 1. Slack (15 min)
 1. Remote Workspace (5 min)
 1. Notetaking (20 min)
 1. Thoughts on Professionalism (10 min)
 1. Setup Homework board (5 min)
+
+## Read Course Syllabus, Calendar
+
+Navigate to the main page of this site and locate the Syllabus and Calendar pages, both linked in the main navigation bar. Read them each carefully and make sure you understand the expectations for Mod 0, including the dates.
 
 ## Complete the Computer Setup
 

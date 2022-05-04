@@ -12,7 +12,7 @@ Both part-time and full-time options involve live sessions, recorded content, se
 ## Courses for students enrolled in 2207 Mod 1
 ### Option 1
 
-Part-time:
+~~Part-time:~~ CLOSED
 - Start Date: May 9
 - End Date: May 25
 
@@ -36,6 +36,17 @@ Part-time:
 ### Option 2
 
 Full-time: August 1-5
+
+## Courses for students enrolled in 2210 Mod 1
+### Option 1
+
+Part-time:
+- Start Date: August 29
+- End Date: September 11
+
+### Option 2
+
+Full-time: September 19-23
 
 <br>
 <br>
