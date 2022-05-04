@@ -33,6 +33,8 @@ Then, decide who will be the Driver and Navigator for the first challenge, then 
 
 Note: Some language in used in these prompts that you have not had direct exposure to in the Mod 0 curriculum. This is _intentional_ and designed to support you in being flexible while reading documentation and specifications (as that is an essential skill for a developer to have). Use your context clues, make educated guesses with the knowledge you have, and if you are completely unsure "does it mean X or Y?" - do the exercise both ways - x and y - just to cover yourself!
 
+### Back End
+
 <div class="s-card">
   <h3>Pairing Exercise 1: Hashes</h3>
   <ul>
@@ -61,6 +63,41 @@ Note: Some language in used in these prompts that you have not had direct exposu
     <li>Create a GitHub repository</li>
     <li>Push your work from the local repository to the remote repository</li>
     <li>Don't modify or delete any of your previous code; write another method that will check each Integer from the original Array, and print out only those under 60</li>
+    <li>Push that new work up to the remote repository</li>
+  </ul>
+</div>
+<br>
+
+### Front End 
+
+<div class="s-card">
+  <h3>Pairing Exercise 1: Object Literals (Front End)</h3>
+  <ul>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing3</code>. Inside of that directory, touch a file called <code>objectLiteralPractice</code>. Initialize a Git repository</li>
+    <li>Define a variable named <code>person</code> that stores an Object Literal. This Object should have 4 key-value pairs; you choose the key and use appropriate Data Types for the values</li>
+    <li>Write code to print the entire Object</li>
+    <li>Write code to print one of the key-value pairs</li>
+    <li>Run the file in the Terminal to verify your code is working as expected</li>
+    <li>Create a GitHub repository</li>
+    <li>Push your work from the local repository to the remote repository</li>
+    <li>Programmatically add 2 more key-value pairs to the Object</li>
+    <li>Programmatically print out all the keys</li>
+    <li>Run the file in the Terminal to verify your code is working as expected</li>
+    <li>Push that new work up to the remote repository</li>
+  </ul>
+</div>
+<br>
+
+<div class="s-card">
+  <h3>Pairing Exercise 2: Iteration</h3>
+  <ul>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing3</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository</li>
+    <li>Define a variable that stores an Array containing 8 Numbers between 1 and 100</li>
+    <li>Write a program that checks each Number, and prints out only those above 30</li>
+    <li>Run the file in the Terminal to verify your code is working as expected</li>
+    <li>Create a GitHub repository</li>
+    <li>Push your work from the local repository to the remote repository</li>
+    <li>Don't modify or delete any of your previous code; write another method that will check each Number from the original Array, and print out only those under 60</li>
     <li>Push that new work up to the remote repository</li>
   </ul>
 </div>
