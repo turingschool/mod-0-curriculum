@@ -38,8 +38,8 @@ Note: Some language in used in these prompts that you have not had direct exposu
   <ul>
     <li>In your Mod 0 directory, create a new directory called <code>pairing_3</code>. Inside of that directory, touch a file called <code>hash_practice</code>. Initialize a Git repository</li>
     <li>Define a variable named <code>person</code> that stores a Hash. This Hash should have 4 key-value pairs; you choose the key and use appropriate Data Types for the values</li>
-    <li>Write code to instruct Ruby to print the entire Hash</li>
-    <li>Write code to instruct Ruby to print one of the key-value pairs</li>
+    <li>Write code to print the entire Hash</li>
+    <li>Write code to print one of the key-value pairs</li>
     <li>Run the file in the Terminal to verify your code is working as expected</li>
     <li>Create a GitHub repository</li>
     <li>Push your work from the local repository to the remote repository</li>

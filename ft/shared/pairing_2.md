@@ -31,9 +31,9 @@ Then, decide who will be the Driver and Navigator for the first challenge, then 
   <ul>
     <li>In your Mod 0 directory, create a new directory called <code>pairing_2</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository.</li>
     <li>Define a variable named <code>arrays</code> that stores an Array of 5 Strings with friends names.</li>
-    <li>Write code to instruct Ruby to print the third element.</li>
-    <li>Write code to instruct Ruby to print the last element.</li>
-    <li>Write code to instruct Ruby to print the first element.</li>
+    <li>Write code to print the third element.</li>
+    <li>Write code to print the last element.</li>
+    <li>Write code to print the first element.</li>
     <li>Run the file in the Terminal to verify your code is working as expected.</li>
     <li>Create a GitHub repository.</li>
     <li>Push your work from the local repository to the remote repository.</li>
