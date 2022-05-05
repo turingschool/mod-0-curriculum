@@ -28,7 +28,7 @@ Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9
 * [Git]({{ site.url }}/ft/shared/git)
 * [GitHub]({{ site.url }}/ft/shared/github)
 
-## Ruby
+## JavaScript
 
 * [Data Types]({{ site.url }}/ft/fe/data_types)
 * [Arrays]({{ site.url }}/ft/fe/arrays)

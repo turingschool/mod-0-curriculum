@@ -43,7 +43,7 @@ By the end of this session, you'll be able to use the Chrome browser as a tool t
   <h3>You Do: Chrome Dev Tools</h3> 
   <ul>
     <li>Open the Dev Tools in the Chrome browser using the keyboard shortcut.</li>
-    <li>Practice adjusting the size of the Dev Tools</li>
+    <li>Practice adjusting the size of the Dev Tools.</li>
     <li>Practice changing the Dock side - leave it on a side you prefer. You can always change your mind later!</li>
     <li>If you'd like to change to Dark or Light mode, do that in the Settings</li>
     <li>Open up the Dev Tools in 5 different tabs; each tab should be on a different site. If you see any errors or warnings in the console, use <code>clear();</code></li>
