@@ -33,7 +33,7 @@ Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9
 * [Data Types]({{ site.url }}/ft/fe/data_types)
 * [Arrays]({{ site.url }}/ft/fe/arrays)
 * [Conditionals]({{ site.url }}/ft/fe/conditionals)
-* [Iteration]({{ site.url }}/ft/fe/iteration)
+* [For Loops]({{ site.url }}/ft/fe/for_loops)
 * [Object Literals]({{ site.url }}/ft/fe/objetcts)
 * [Functions]({{ site.url }}/ft/fe/functions)
 * [Object Oriented Programming]({{ site.url }}/ft/fe/oop)

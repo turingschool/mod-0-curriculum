@@ -26,7 +26,7 @@ var student1 = "Josiah";
 var student2 = "Cindy";
 var student3 = "Violet";
 var student4 = "Jhun";
-# on and on.
+// on and on.
 ```
 
 As the list of students inevitably changes and grows, this is difficult to maintain programmatically. If we wanted to send an email to every student or perform any other task for every student, we would have to write code for each, individual student, which defeats the purpose of having a computer program automate tasks.
