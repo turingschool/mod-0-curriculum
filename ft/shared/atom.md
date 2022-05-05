@@ -39,7 +39,7 @@ title: Atom & Markdown
 - at least one bullet point list
 - at least one bold word/phrase
 - at least one italic word/phrase
-- at least one Ruby code block
+- at least one Ruby or JavaScript code block (the code doesn't need to be anything fancy!)
 - at least one inline code block (greyed text)
 - at least one image
 - at least one link to a resource (technical or not) that you've used or plan to use
@@ -109,13 +109,13 @@ Complete the challenges below to continue to build fluency with using your Termi
 1. Make a file called `ruby.md`
 1. Make a file called `javascript.md`
 1. Open the project in Atom
-1. Add a list of things you already know about Ruby in the `ruby.md` file
+1. Add a list of things you already know about the language that is taught in the program you are enrolled in, in the appropriate file
 1. List the contents of your directory (you should see the files you just created)
 1. Demonstrate how to expand and collapse the file tree with a keyboard shortcut
 1. Close Atom with a keyboard shortcut
 1. Delete the `javascript.md` file
 1. Get back out of the `my_first_projects` directory
-1. List the contents of your directory (you should see `my_first_projects`)
+1. List the contents of your current directory (you should see `my_first_projects`)
 1. Remove the `my_first_projects` directory
 
 ### Challenge #2

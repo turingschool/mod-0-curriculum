@@ -42,21 +42,20 @@ Stop at the provided prompts to take notes and complete practice exercises as in
   <h3>Exercise 2</h3>
   <p>Before you run each Git command, pause and predict what the output, if any, will be.</p>
   <ol>
-    <li>Create a new directory called <code>ruby_101</code>. Inside of that directory, create a file called <code>learning_ruby.md</code>.</li>
-    <li>Initialize Git inside of the <code>ruby_101</code> directory so that we have Git available to track change.</li>
+    <li>Create a new directory called <code>code_101</code>. Inside of that directory, create a file called <code>learning_code.md</code>.</li>
+    <li>Initialize Git inside of the <code>code_101</code> directory so that we have Git available to track change.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
-    <li>Add <code>learning_ruby.md</code> to the staging area.</li>
+    <li>Add <code>learning_code.md</code> to the staging area.</li>
     <li>Commit your work.</li>
-    <li>In Atom, create a header and either a fact or question about Ruby in the  <code>ruby_101.md</code> file.</li>
+    <li>In Atom, create a header and either a fact or question about Ruby or JavaScript in the  <code>code_101.md</code> file.</li>
     <li>Add the changes to the staging area.</li>
     <li>Commit the changes using a properly formatted commit message.</li>
-    <li>Create a directory inside of <code>ruby_101</code> titled <code>practice</code>. Inside of that, create 3 files - you choose the names.</li>
+    <li>Create a directory inside of <code>code_101</code> titled <code>practice</code>. Inside of that, create 3 files - you choose the names.</li>
     <li>Add some content to each of the three files inside the <code>practice</code> directory.</li>
     <li>Add and commit your changes.</li>
     <li>Check the status to ensure you have a clean working tree.</li>
   </ol>
 </div>
-
 <br>
 
 ## Additional Resources (Optional)
