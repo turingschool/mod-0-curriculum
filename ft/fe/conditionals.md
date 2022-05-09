@@ -19,7 +19,7 @@ title: Conditionals
 
 _This will connect to Booleans, which you learned about in the Data Types lesson._
 
-Conditional statements, or <span class="vocab">conditionals</span>, are JavaScript statements that evaluate to `true` or `false`. The most common operators used for conditions are <span class="vocab">comparison operators</span>:
+Conditional statements, or <span class="vocab">conditionals</span>, are JavaScript statements that evaluate to `true` or `false`. The most common operators used for conditions are <span class="vocab">comparison operators</span>, which compare two values. The JavaScript comparison operators are:
 
 - `===` (strictly equal)
 - `!==` (not strictly equal)
@@ -27,6 +27,29 @@ Conditional statements, or <span class="vocab">conditionals</span>, are JavaScri
 - `>=` (greater than or equal to)
 - `<` (less than)
 - `<=` (less than or equal to)
+
+Comparison operators are used to compare values of the same data type. The code snippet that follows, models the syntax and the comments explain what the code does:
+
+```javascript
+// Does the Number 5 have the exact same value as the Number 5? (this evaluates to true)
+5 === 5
+// --> true
+
+// Is Number 5 less than the Number 3? (this evaluates to false)
+5 < 3
+// --> false
+
+var age = 18;
+// Is the age greater than 12? (this evaluates to true)
+age > 12
+// --> true
+
+// reassign age variable to 9
+age = 9
+// Is the age greater than 12? (this now evaluates to false)
+age > 12
+// --> false
+```
 
 <div class="s-card s-border-yellow-500">
   <h3>Equality vs. Assignment</h3>
@@ -53,6 +76,81 @@ Conditional statements, or <span class="vocab">conditionals</span>, are JavaScri
     <li>Check if the length of your name is greater than or equal to 10 (not sure how to do that programmatically? Google!)</li>
   </ul>
 </div>
+
+## If Statements
+
+>For the practice activities in this section, you can use the Dev Tools Console, create a JavaScript file in your Terminal and edit it in Atom, or use an online IDE such as repl.it - it's your preference!
+
+<span class="vocab">If statements</span> are the most common form of conditionals. The logic of an <code>if statement</code> in JavaScript follows the same logic in other programming languages.
+
+### `if`
+
+All of our conditional branches will begin with an `if`, then condition, then an opening curly bracket `{`. To communicate to the JavaScript program that the `if statement` should end, they closing curly bracket `}` must be used. Any code written in between the curly brackets will run **if** the condition evaluates to true.
+
+```javascript
+if (condition) {
+  // code to execute if condition evaluates to true
+}
+```
+
+The following example checks if a store is open, and prints out a statement to send directions if the store is indeed open:
+
+```javascript
+var isOpen = true
+
+if (isOpen === true) {
+  console.log("send directions);
+}
+```
+
+<div class="s-card">
+  <h3><code>if</code> statements</h3>
+  <p>Write code that defines an <code>age</code> variable and assign it to a Number. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older.</p>
+</div>
+<br>
+
+### `else if`
+
+Use an `else if` to create more branches.
+
+```javascript
+if (condition1) {
+  // code to execute if above condition1 evaluates to true
+} else if (condition2) {
+  // code to execute if above condition2 evaluates to true
+} else if (condition3) {
+  // code to execute if above condition3 evaluates to true
+}
+```
+
+<div class="s-card">
+  <h3><code>elsif</code> statements</h3>
+  <p>Write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?".</p>
+</div>
+<br>
+
+### `else`
+
+Code inside an `else` will run when none of the previous conditions evaluate to true.
+
+```javascript
+if (condition1) {
+  // code to execute if above condition1 evaluates to true
+} else if (condition2) {
+  // code to execute if above condition2 evaluates to true
+} else if (condition3) {
+  // code to execute if above condition3 evaluates to true
+} else {
+  // code to execute if all previous conditions evaluate to false
+}
+```
+<div class="s-card">
+  <h3><code>else</code> statements</h3>
+  <p>You will now build on the previous work you've done with the <code>age</code> variable; write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?". If the user is any other age, print out "You aren't quite old enough to visit, sorry!".</p>
+</div>
+<br>
+
+>_Optional:_ Read the <a href="https://www.javascript.com/learn/conditionals" target="_blank">Conditionals section</a> from Pluralsight for a different explanation.
 
 ## Logical Operators
 
@@ -115,82 +213,13 @@ age < 30 || time < 2.0
   </ul>
 </div>
 
-## If Statements
+<!-- TODO: write activity to practice logical operators COMBINED with IF statements -->
 
->For the practice activities in this section, you can use the Dev Tools Console, create a JavaScript file in your Terminal and edit it in Atom, or use an online IDE such as repl.it - it's your preference!
-
-<span class="vocab">If statements</span> are the most common form of conditionals. The logic of an <code>if statement</code> in JavaScript follows the same logic in other programming languages.
-
-### `if`
-
-All of our conditional branches will begin with an `if`, then condition, then an opening curly bracket `{`. To communicate to the JavaScript program that the `if statement` should end, they closing curly bracket `}` must be used. Any code written in between the curly brackets will run **if** the condition evaluates to true.
-
-```javascript
-if (condition) {
-  // code to execute if condition evaluates to true
-}
-```
-
-The following example checks if a store is open, and prints out a statment to send directions if the store is indeed open:
-
-```javascript
-var isOpen = true
-
-if (isOpen === true) {
-  console.log("send directions);
-}
-```
-
-<div class="s-card">
-  <h3><code>if</code> statements</h3>
-  <p>Write code that defines an <code>age</code> variable and assign it to a Number. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older.</p>
-</div>
-<br>
-
-### `else if`
-
-Use an `else if` to create more branches.
-
-```javascript
-if (condition1) {
-  // code to execute if above condition1 evaluates to true
-} else if (condition2) {
-  // code to execute if above condition2 evaluates to true
-} else if (condition3) {
-  // code to execute if above condition3 evaluates to true
-}
-```
-
-<div class="s-card">
-  <h3><code>elsif</code> statements</h3>
-  <p>Write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?".</p>
-</div>
-<br>
-
-### `else`
-
-Code inside an `else` will run when none of the previous conditions evaluate to true.
-
-```javascript
-if (condition1) {
-  // code to execute if above condition1 evaluates to true
-} else if (condition2) {
-  // code to execute if above condition2 evaluates to true
-} else if (condition3) {
-  // code to execute if above condition3 evaluates to true
-} else {
-  // code to execute if all previous conditions evaluate to false
-}
-```
-<div class="s-card">
-  <h3><code>else</code> statements</h3>
-  <p>You will now build on the previous work you've done with the <code>age</code> variable; write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?". If the user is any other age, print out "You aren't quite old enough to visit, sorry!".</p>
-</div>
-<br>
-
->_Optional:_ Read the <a href="https://www.javascript.com/learn/conditionals" target="_blank">Conditionals section</a> from Pluralsight for a different explanation.
 
 <br>
+
+## Check For Understanding
+
 <div class="s-card">
   <h3>More Practice</h3>
   <ul>
@@ -199,8 +228,6 @@ if (condition1) {
     <li>Challenge: Use String interpolation to interpolate any non-Oscar name in after the word "Stranger".</li>
   </ul>
 </div>
-
-## Check For Understanding
 
 <!-- TODO: update for FE -->
 

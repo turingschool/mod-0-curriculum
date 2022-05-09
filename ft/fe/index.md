@@ -34,7 +34,7 @@ Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9
 * [Arrays]({{ site.url }}/ft/fe/arrays)
 * [Conditionals]({{ site.url }}/ft/fe/conditionals)
 * [For Loops]({{ site.url }}/ft/fe/for_loops)
-* [Object Literals]({{ site.url }}/ft/fe/objetcts)
+* [Object Literals]({{ site.url }}/ft/fe/objects)
 * [Functions]({{ site.url }}/ft/fe/functions)
 * [Object Oriented Programming]({{ site.url }}/ft/fe/oop)
 
