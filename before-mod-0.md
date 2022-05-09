@@ -16,7 +16,7 @@ permalink:  before-mod-0
 1. Remote Workspace (5 min)
 1. Notetaking (20 min)
 1. Thoughts on Professionalism (10 min)
-1. Setup Homework board (5 min)
+1. _Setup Homework board_ (5 min)
 
 ## Read Course Syllabus, Calendar
 
@@ -60,9 +60,9 @@ Read [these reflections](https://drive.google.com/file/d/1LNyXge4p6OQTWbo_Y9XIJA
 1. What surprised you after reading this?
 1. How will this impact your approach to Mod 0?
 
-You will be sharing these reflections during your first session of Mod 0.
-
 ## Setup Homework Board
+
+_This is for students in the part-time option only._
 
 [Follow the instructions in the Homework section]({{ site.url }}/homework) to get your Trello board set up.
 
