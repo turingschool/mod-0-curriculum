@@ -27,6 +27,7 @@ title: Home
   <p>It is expected that students arrive to your first Mod 0 Session prepared to engage, which includes having their computer, notebook, and workspace set up. Students can prepare by carefully following the directions on the Computer Setup page.</p>
   <br>
   <br>
+  <a class="s-button" href="/dates">Mod 0 Dates</a>
   <a class="s-button" href="/pt">Part Time Option</a>
   <a class="s-button" href="/ft">Full Time Option</a>
   <a class="s-button" href="/info">Where to Get Info</a>
