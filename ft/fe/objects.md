@@ -31,18 +31,18 @@ Object Literals (Objects) allow us to structure data in a different way than Arr
 
 Some languages call their Objects _dictionaries_ for this reason – you look up a word (the label) to retrieve its definition (the data or value with which the label was associated).
 
-## Hash Syntax
+## Object Syntax
 
-- A hash is enclosed in curly braces `{ }`, <span class="vocab">key-value</span> pairs are separated by commas, and keys and values are separated by a colon.
-- Each key in a hash must be unique
+- An objetc is enclosed in curly braces `{ }`, <span class="vocab">key-value</span> pairs are separated by commas, and keys and values are separated by a colon.
+- Each key in an object must be unique
   - If you attempt to have duplicate keys when you first create an object, you won't get any sort of indicator that you've done so, but the only value that will be stored is that of the last value assigned to a duplicate key.
   - If you try to add a new key-value pair using a key that already exists, that new key-value pair will overwrite the previous one - _dangerous_.
-- Keys and values can be any type of object:
+- Keys and values can be any of any data type:
 ```javascript  
 var student1 = {
-  name: "Christie Soto",
-  grades: ["A+", "B", "in progress"],
-  activeStudent: true
+    name: "Christie Soto",
+    grades: ["A+", "B", "in progress"],
+    activeStudent: true
 }
 ```
 - Values can be accessed with dot notation:
@@ -65,7 +65,7 @@ var student1 = {
 
 <div class="s-card">
   <h3>Object Syntax Practice</h3> 
-  <p>Complete the following work in Dev Tools Console or a new Ruby file, working in Atom:</p>
+  <p>Complete the following work in a repl.it or a new JavaScript file in Atom:</p>
   <ol>
     <li>For one of the examples in the previous activity that you selected would be best suited for an Object, declare a variable that stores an Object with some (possibly fake) data.</li>
     <li>Declare a variable that stores an Object that represents <a href="https://twitter.com/MechEngSanchez/status/1485947286396014593" target="blank">this tweet</a>.</li>
@@ -73,11 +73,9 @@ var student1 = {
   <p>Take a screenshot or save in this work in a file and be ready to share it in Stand Up tomorrow!</p>
 </div>
 
-## Accessing a Hash
+## Accessing an Object
 
-We use bracket notation (`[]`) to access values stored in an Object just like Arrays, only we don’t reference the index position, we instead reference _keys_.
-
-The examples below explore the `suitcase` Hash:
+The examples below explore the `suitcase` Object:
 
 ```javascript
 var suitcase = { 
@@ -100,28 +98,22 @@ suitcase.swimsuits = true;
 
 We can remove the socks:
 ```javascript
-suitcase.socks = nil
-```
-
-or
-
-```javascript
-suitcase.delete("socks");
+delete suitcase("socks");
 ```
 
 Check on the shirts:
 ```javascript
-suitcase.shits;
+suitcase.shirts;
 // => 3
 ```
 
-Let's check what keys are in our Hash:
+Let's check what keys are in our Object:
 ```javascript
 Object.keys(suitcase);
 // => ["jeans", "shirts", "swimsuit"]
 ```
 
-Let's check what values are in our Hash:
+Let's check what values are in our Object:
 ```javascript
 Object.values(suitcase);
 // => [1, 3, true]
@@ -155,8 +147,8 @@ Note that when we use the `Object.keys` and `Object.values` methods, the return 
 <!-- TO DO: Make FE version of this!!! -->
 
 <div class="s-card">
-  <h3>Hash Syntax Refactor</h3> 
-  <p><a href="https://gist.github.com/ameseee/af01754c4c5d433657b913e44e35d9c6" target="blank">Refactor the code in this Gist</a> to improve the style and syntax (think: readability) of the Hashes.</p>
+  <h3>Object Syntax Refactor</h3> 
+  <p><a href="https://gist.github.com/ameseee/af01754c4c5d433657b913e44e35d9c6" target="blank">Refactor the code in this Gist</a> to improve the style and syntax (think: readability) of the Objects.</p>
 </div>
 <br>
 

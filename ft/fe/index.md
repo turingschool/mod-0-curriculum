@@ -36,8 +36,7 @@ Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9
 * [For Statement]({{ site.url }}/ft/fe/for)
 * [Object Literals]({{ site.url }}/ft/fe/objects)
 * [Functions]({{ site.url }}/ft/fe/functions)
-* [Object Oriented Programming]({{ site.url }}/ft/fe/oop)
-
+* [Classes]({{ site.url }}/ft/fe/classes)
 
 <br>
 <br>

@@ -8,6 +8,7 @@ title: Pairing Session 3
 - Get to know another classmate and collaborate on technical work
 - Identify strengths and opportunities in oneself as a pair programmer
 - Become comfortable screen sharing, typing in front of others, and communicating technical concepts
+- Give and recieve peer feedback
 
 ## Prepare
 
@@ -15,7 +16,7 @@ Before meeting with your partner, reflect on the following:
 - What have you enjoyed about pairing so far?
 - What has been challenging about pairing for you so far?
 - What is one thing you want feedback on from your partner at the end of this session? (It's recommend you use the "one thing" from yesterday's session, or another area you are pushing yourself to grow in!)
-- How to you prefer to give and get feedback for the previous question?
+- How do you prefer to give and get feedback for the previous question? (The how being the method of communication - in writing? Over zoom immediately, or over zoom after having time to reflect and prepare? Other?)
 
 Be ready to share your answers with your partner.
 
