@@ -27,6 +27,8 @@ Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9
 * [Atom & Markdown]({{ site.url }}/ft/shared/atom)
 * [Git]({{ site.url }}/ft/shared/git)
 * [GitHub]({{ site.url }}/ft/shared/github)
+* Chrome Dev Tools (introduced in Data Types lesson)
+* repl.it (introduced in Arrays lesson)
 
 ## JavaScript
 
