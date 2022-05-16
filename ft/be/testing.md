@@ -257,7 +257,7 @@ Each partner should complete this independently. It is ok to consult one another
 
 Create a new directory with `lib` and `test` directories inside. Use the test file that was provided in the previous activity, and write a class that satisfies those tests. Use your Git Workflow, make a GitHub repository and push your completed work up.
 
-Both partners should submit their repo to the submission form.
+Each student should submit their own repo to the submission form.
 
 ## Mod 0 Extensions
 
