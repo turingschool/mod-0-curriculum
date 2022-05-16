@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: lesson
 title: Calendaring & Time Management
 ---
 

@@ -33,6 +33,7 @@ Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9
 ## JavaScript
 
 * [Data Types]({{ site.url }}/ft/fe/data_types)
+* [Concatenation vs. Interpolation]({{ site.url }}/ft/fe/concat_interp_challenge)
 * [Arrays]({{ site.url }}/ft/fe/arrays)
 * [Conditionals]({{ site.url }}/ft/fe/conditionals)
 * [For Statement]({{ site.url }}/ft/fe/for)

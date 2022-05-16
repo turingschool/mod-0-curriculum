@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  {% include head.html %}
+</head>
+
+<body class="s-content">
+  {% include navigation.html %}
+  <div class="container">
+    <section class="content">
+      <article>
+        <header>
+          <h1>
+            {{ page.title }}
+            <small>{{ page.subheading }}</small>
+          </h1>
+          <a href="../">Back</a>
+        </header>
+        {{content}}
+      </article>
+      <br>
+      <a href="../">Back</a>
+    </section>
+    <br>
+  </div>
+</body>
+<script type="text/javascript" src="{{ site.url }}/assets/javascript/navigation.js"></script>
+
+</html>

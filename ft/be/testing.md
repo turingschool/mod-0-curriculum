@@ -1,13 +1,22 @@
 ---
-layout: page
+layout: lesson
 title: Intro to Testing
 ---
+
+<div class="s-card s-border-yellow-500">
+  <h3>Learning Collaboratively</h3> 
+  <p>This lesson is intended for 2-3 students to work through together. Learning collaboratively likely means moving through content slower, but also should result in learning more thoroughly. In addition to working together, this learning environment is new for all students - take time to learn about strategies your partner uses, tips they have, etc. as well as share your best practices!</p>
+  <p>To make sure you are set up for success, get yourself prepared for a pairing-like environment. Fill your water bottle, put your phone aside, and be ready to fully engage.</p>
+  <p>As you work through this lesson with your partner(s), focus in on your communication, exercising patience, and making sure all students complete the lesson with a similar level of understanding.</p>
+</div>
+<br>
 
 ## Learning Goals
 
 - Explain what a test is (in software development)
 - Read an `rspec` test and explain what it is asking for
 - Write simple Ruby classes that meet requirements of pre-written tests
+- Develop new learning strategies and practice communication by learning collaboratively
 
 ## Vocabulary
 
@@ -16,6 +25,12 @@ title: Intro to Testing
 - <span class="vocab">Test Driven Development</span>
 - <span class="vocab">test</span>
 - <span class="vocab">testing framework</span>
+
+<div class="s-card s-border-yellow-500">
+  <h3>Share with Partner</h3> 
+  <p>What do you do with the Vocabulary sections? How do you ensure you can fluently define and use all terms listed, by the end of the lesson?</p>
+</div>
+<br>
 
 ## Tests
 
@@ -34,6 +49,9 @@ project_name
   |-name_of_class_spec.rb
   |-name_of_class1_spec.rb
 ```
+
+(Note: The directory and file names do not start with `|-`; that is just a way to notate the structure.)
+
 ## `rspec`
 
 <span class="vocab">rspec</span> is a tool, classified as a testing framework, that allows us to write automated tests that will test our Ruby code. Just like we must write Ruby exactly as it's intended to be used, we must carefully use the syntax and methods available within `rspec`. <a target="blank" href="https://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Configuration">The official `rspec` documentation</a> may at first seem dense; it has much more than what you will even get into in Mod 1, but it's great to be aware of and start getting comfortable reading if you need a resource during or after this lesson.
@@ -61,7 +79,7 @@ rspec <name_of_class_spec>.rb
 
 <div class="s-card s-border-yellow-500">
   <h3>Documentation Reading</h3> 
-  <p>There are times when you need to follow directions exactly, and times when you might need to adjust to add in custom information. In the previous examples, we can infer that <code>name_of_class_spec</code> is not actually a file name, but the documention is intending to show the reader that the last part of the file name should be <code>name_of_class_spec</code>, preceded by the name of the class the test file will be testing.</p>
+  <p>There are times when you need to follow directions exactly, and times when you might need to adjust to add in custom information. In the previous examples, we can infer that <code>name_of_class_spec</code> is not actually a file name, but the documention is intending to show the reader that the last part of the file name should be <code>_spec</code>, preceded by the name of the class the test file will be testing.</p>
 </div>
 <br>
 
@@ -150,7 +168,7 @@ describe Student do
 end
 ```
 
-The code that follows would allow the previous tests to pass:
+The code that follows would allow the previous tests to pass (which should live in the `student.rb` file):
 
 ```ruby
 class Student
@@ -163,7 +181,8 @@ end
 ```
 
 <div class="s-card">
-  <h3>Explore <code>rspec</code></h3> 
+  <h3>Explore <code>rspec</code></h3>
+  <p>With your partner, decide on the best way to complete this activity: Driver-Navigator, both complete independently then discuss, etc. It may be helpful to skim the activity before making that decision.</p>
   <p>Follow the directions to set up a small project that uses <code>rspec</code>:</p>
   <ul>
     <li>Create a directory called <code>intro_testing</code></li>
@@ -229,13 +248,16 @@ end
 ```
 <div class="s-card">
   <h3>Practice Reading Tests</h3> 
-  <p>Read the test in <a href="https://gist.github.com/ameseee/037a9d2f9bfcd7beee85b528785c0c1c" target="blank">this file</a> and write out a list of human-readable, clear directions you could read aloud to someone you are pairing with in order to pass the tests. One of the tests does push you to apply some learning that was not explicitly covered in this less - that was intentional! The goal is not to be perfect or perfectly correct; it's to push you to apply some other knowledge and possibly start a discussion with your peers.</p>
-  <p>Share what you come up with in a thread in your small group. If a thread hasn't been started for it, please start one!</p>
+  <p>Read the test in <a href="https://gist.github.com/ameseee/037a9d2f9bfcd7beee85b528785c0c1c" target="blank">this file</a> and write out a list of human-readable, clear directions you could read aloud to someone you are pairing with in order to pass the tests. One of the tests does push you to apply some learning that was not explicitly covered in this less - that was intentional! The goal is not to be perfect or perfectly correct; it's to push you to apply some other knowledge and have a technical discussion with your partner.</p>
 </div>
 
 ## Check For Understanding
 
-There is not a formal Mod 0 Check For Understanding for Testing. Students are encourgaed to get more practice by starting the Mod 0 Extensions provided below.
+Each partner should complete this independently. It is ok to consult one another if needed!
+
+Create a new directory with `lib` and `test` directories inside. Use the test file that was provided in the previous activity, and write a class that satisfies those tests. Use your Git Workflow, make a GitHub repository and push your completed work up.
+
+Both partners should submit their repo to the submission form.
 
 ## Mod 0 Extensions
 

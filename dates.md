@@ -31,7 +31,7 @@ Full-time: June 6-10
 - August 1-5
 
 ## Courses for students enrolled in 2210 Mod 1
-
+<!-- need to keep whole group sessions on MW for Anhnhi -->
 ### Mod 0 2208 Part-time:
 - Start Date: August 29
 - End Date: September 11
