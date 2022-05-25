@@ -88,11 +88,8 @@ git push
 
 After running this command, Git will send the message up to GitHub (you must be connected to the internet), and you'll get many lines of output, finally telling you the work was successfully sent up. Refresh the browser tab that GitHub is in, and the changes will be available there.
 
-For the extent of our use of Git and GitHub workflows _during Mod 0_, you will primarily be pushing work up. If you ever need to pull work down, the following command can be used:
+>For the extent of our use of Git and GitHub workflows _during Mod 0_, you will primarily be pushing work up. If you ever need to pull work down, the command `git pull origin main` can be used.
 
-```bash
-git pull origin main
-```
 <br>
 
 ### Common Issues
@@ -143,7 +140,7 @@ Complete the following exercises to get practice and demonstrate your ability to
     <li>Push up your changes.</li>
     <li>View the commit history in the GitHub interface.</li>
   </ul>
-  <p>When this worktime is over, be prepared to screenshare to show your Terminal and/or GitHub and talk through your process, challenges, and questions you have.</p>
+  <p>When this work time is over, be prepared to screenshare to show your Terminal and/or GitHub and talk through your process, challenges, and questions you have.</p>
 </div>
 <br>
 
