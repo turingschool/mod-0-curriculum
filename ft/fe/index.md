@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Front End, Full Time Resources
+title: Front End, Full-Time Resources
 ---
 
 <p>Copy <a href="https://trello.com/b/BJlBXegK/accelerated-mod-0" target="blank">this Trello board</a> to get started.</p>
@@ -9,12 +9,12 @@ Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9
 
 ## Career Development
 
-* [Asking Technical Questions]({{ site.url }}/ft/shared/asking_qs) 
-* [Calendaring & Time Management]({{ site.url }}/ft/shared/calendaring)
+* [Asking Technical Questions]({{ site.url }}/shared/shared/asking_qs) 
+* [Calendaring & Time Management]({{ site.url }}/shared/shared/calendaring)
 * <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a>
-* [Mentorship Prep]({{ site.url }}/ft/shared/mentorship)
+* [Mentorship Prep]({{ site.url }}/shared/shared/mentorship)
 * [DTR Prep]({{ site.url}}/ft/shared/dtr)
-* [Letter to Instructors]({{ site.url }}/ft/shared/letter)
+* [Letter to Instructors]({{ site.url }}/shared/shared/letter)
 * [Pair Programming]({{ site.url }}/ft/shared/pairing)
   - [Pairing Session 1 (Tuesday)]({{ site.url }}/ft/shared/pairing_1)
   - [Pairing Session 2 (Wednesday)]({{ site.url }}/ft/shared/pairing_2)
@@ -24,22 +24,22 @@ Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9
 ## Tools
 
 * [Terminal]({{ site.url }}/ft/shared/terminal)
-* [Atom & Markdown]({{ site.url }}/ft/shared/atom)
-* [Git]({{ site.url }}/ft/shared/git)
-* [GitHub]({{ site.url }}/ft/shared/github)
+* [Atom & Markdown]({{ site.url }}/shared/shared/atom)
+* [Git]({{ site.url }}/shared/shared/git)
+* [GitHub]({{ site.url }}/shared/shared/github)
 * Chrome Dev Tools (introduced in Data Types lesson)
 * repl.it (introduced in Arrays lesson)
 
 ## JavaScript
 
-* [Data Types]({{ site.url }}/ft/fe/data_types)
+* [Data Types]({{ site.url }}/shared/fe/data_types)
 * [Concatenation vs. Interpolation]({{ site.url }}/ft/fe/concat_interp_challenge)
-* [Arrays]({{ site.url }}/ft/fe/arrays)
-* [Conditionals]({{ site.url }}/ft/fe/conditionals)
+* [Arrays]({{ site.url }}/shared/fe/arrays)
+* [Conditionals]({{ site.url }}/shared/fe/conditionals)
 * [For Statement]({{ site.url }}/ft/fe/for)
-* [Object Literals]({{ site.url }}/ft/fe/objects)
-* [Functions]({{ site.url }}/ft/fe/functions)
-* [Classes]({{ site.url }}/ft/fe/classes)
+* [Object Literals]({{ site.url }}/shared/fe/objects)
+* [Functions]({{ site.url }}/shared/fe/functions)
+* [Classes]({{ site.url }}/shared/fe/classes)
 
 <br>
 <br>
