@@ -36,8 +36,7 @@ Please submit all deliverables with <a href="" target="_blank">this submission f
 * [Data Types]({{ site.url }}/shared/fe/data_types)
 * [Arrays]({{ site.url }}/shared/fe/arrays)
 * [Conditionals]({{ site.url }}/shared/fe/conditionals)
-<!-- Update FOR url for live lesson -->
-* [For Statements!]({{ site.url }}/ft/fe/for)
+* [For Statements]({{ site.url }}/shared/fe/for)
 * [Object Literals]({{ site.url }}/shared/fe/objects)
 * [Functions]({{ site.url }}/shared/fe/functions)
 * [Classes]({{ site.url }}/shared/fe/classes)
