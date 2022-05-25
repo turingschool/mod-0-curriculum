@@ -36,7 +36,7 @@ Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9
 * [Concatenation vs. Interpolation]({{ site.url }}/ft/fe/concat_interp_challenge)
 * [Arrays]({{ site.url }}/shared/fe/arrays)
 * [Conditionals]({{ site.url }}/shared/fe/conditionals)
-* [For Statement]({{ site.url }}/ft/fe/for)
+* [For Statements]({{ site.url }}/shared/fe/for)
 * [Object Literals]({{ site.url }}/shared/fe/objects)
 * [Functions]({{ site.url }}/shared/fe/functions)
 * [Classes]({{ site.url }}/shared/fe/classes)
