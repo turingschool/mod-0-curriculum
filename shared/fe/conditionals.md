@@ -224,12 +224,10 @@ age < 30 || time < 2.0
   <h3>More Practice</h3>
   <ul>
     <li>Declare a variable that stores your name in a String.</li>
-    <li>Write an if/else statement - if your name is "Oscar", puts "Hello, Oscar!". If not, puts "Hello, Stranger!".</li>
+    <li>Write an if/else statement - if your name is "Oscar", log to the console, "Hello, Oscar!". If not, log "Hello, Stranger!".</li>
     <li>Challenge: Use String interpolation to interpolate any non-Oscar name in after the word "Stranger".</li>
   </ul>
 </div>
 
-<!-- TODO: update for FE -->
-
-<a href="https://github.com/ameseee/conditionals-cfu-am0" target="_blank">Follow the directions in the README of this GitHub repository</a>, and submit your fork in the submission form. Upload the video (requirements outlined in the GitHub repo) to your Slack small group channel.
+<a href="https://github.com/turingschool/m0_fe_conditionals" target="_blank">Follow the directions in the README of this GitHub repository</a>, and submit your fork in the submission form. Upload the video (requirements are outlined in the GitHub repo) to your Slack small group channel.
 <br><br><br>
