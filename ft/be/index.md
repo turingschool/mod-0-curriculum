@@ -35,7 +35,8 @@ Please submit all deliverables with <a href="" target="_blank">this submission f
 * [Conditionals]({{ site.url }}/shared/be/conditionals)
 * [Iteration]({{ site.url }}/ft/be/iteration)
 * [Hashes]({{ site.url }}/shared/be/hashes)
-* [Methods]({{ site.url }}/shared/be/methods)
+<!-- update methods for a live lesson -->
+* [Methods!]({{ site.url }}/ft/be/methods)
 * [Object Oriented Programming]({{ site.url }}/ft/be/oop)
 * [Intro to Testing]({{ site.url }}/ft/be/testing)
 

@@ -33,10 +33,9 @@ Please submit all deliverables with <a href="" target="_blank">this submission f
 * [Data Types]({{ site.url }}/shared/be/data_types)
 * [Arrays]({{ site.url }}/shared/be/arrays)
 * [Conditionals]({{ site.url }}/shared/be/conditionals)
-* [Iteration]({{ site.url }}/ft/be/iteration)
+* [Iteration]({{ site.url }}/pt/be/iteration)
 * [Hashes]({{ site.url }}/shared/be/hashes)
-<!-- update for live instruction -->
-* [Methods!]({{ site.url }}/shared/be/methods)
+* [Methods]({{ site.url }}/pt/be/methods)
 * [Object Oriented Programming]({{ site.url }}/pt/be/oop)
 * [Intro to Testing]({{ site.url }}/pt/be/testing)
 
