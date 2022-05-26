@@ -12,6 +12,7 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 - [Install Rectangle](#install-rectangle)
 - [Install Chrome](#install-chrome)
 - [Install Slack](#install-slack)
+- [Create replit Account](#replit)
 - [Install Zoom](#install-zoom)
 - [Enable Screen Sharing](#enable-screen-sharing)
 - [Install Xcode-select](#install-xcode-select)
@@ -60,6 +61,14 @@ Slack is our main communication tool at Turing. If you are not familiar with it,
 - [Download and install the Slack desktop application](https://slack.com/downloads/mac)
 
 <br>
+
+### Create replit Account
+
+[replit](https://replit.com/~) provides an online platform that allows us to write code and see the results almost immediately - all inside of one browser tab! There are many other similar (and awesome) tools available but repl.it is used regularly in Mods 1 and 2, so Mod 0 provides an introduction and some exposure.
+
+Follow the steps below (if they are not necessary because you have already done them or have experience with replit, you can skip this):
+- Create a free account
+- [Watch this video](https://www.youtube.com/watch?v=cnLE3bH6fHE) to learn how to navigate the interface and create new projects.
 
 ### Install Zoom
 

@@ -55,7 +55,7 @@ Then, decide who will be the Driver and Navigator for the first challenge, then 
     <li>Create a GitHub repository.</li>
     <li>Push your work from the local repository to the remote repository.</li>
     <li>Define another variable that stores a name of another very good friend.</li>
-    <li>Modify your is statement to include and elsif that prints out a different statement for that very good friend.</li>
+    <li>Modify your if statement to include and elsif that prints out a different statement for that very good friend.</li>
     <li>Run the file in the Terminal to verify your code is working as expected.</li>
     <li>Push that new work up to the remote repository.</li>
   </ul>

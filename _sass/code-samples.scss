@@ -16,6 +16,14 @@ pre {
   } 
 }
 
+.s-card {
+  pre {
+    border: 1px solid black;
+    background-color: rgb(50, 50, 50);
+    color: white;
+  }
+}
+
 .highlighter-rouge {
   max-width: 100%;
   pre {
