@@ -29,7 +29,6 @@ Please submit all deliverables with <a href="" target="_blank">this submission f
 * [Git]({{ site.url }}/shared/shared/git)
 * [GitHub]({{ site.url }}/shared/shared/github)
 * Chrome Dev Tools (introduced in Data Types lesson)
-* repl.it (introduced in Arrays lesson)
 
 ## JavaScript
 

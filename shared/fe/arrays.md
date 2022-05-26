@@ -7,7 +7,6 @@ title: Arrays
 
 - Use JavaScript syntax to declare variables that store Arrays in JavaScript
 - Use basic Array methods to manipulate data in Arrays
-- Use repl.it to write and run code
 
 ## Vocabulary
 
@@ -17,16 +16,6 @@ title: Arrays
 - <span class="vocab">index position</span>
 - <span class="vocab">method</span>
 - <span class="vocab">square brackets `[]`</span>
-
-## Repl.it
-
-[repl.it](https://replit.com/~) provides an online platform that allows us to write code and see the results almost immediately - all inside of one browser tab! There are many other similar (and awesome) tools available but repl.it is used regularly in Mods 1 and 2, so Mod 0 provides an introduction and some exposure.
-
-Follow the steps below (if they are not necessary because you have already done them or have experience with repl.it, you can skip this):
-- Create a free account
-- [Watch this video](https://www.youtube.com/watch?v=cnLE3bH6fHE) to learn how to navigate the interface and create new projects.
-
-Later in this lesson, you will see code presented in repl.its and be asked to write your code in repl.its.
 
 ## Arrays
 
