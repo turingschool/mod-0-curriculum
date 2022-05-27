@@ -199,5 +199,5 @@ Notice that each of the previous examples have **one** `end` keyword. That is pa
 
 ## Check For Understanding
 
-<a href="https://github.com/ameseee/conditionals-cfu-am0" target="_blank">Follow the directions in the README of this GitHub repository</a>, and submit your fork in the submission form. Upload the video (requirements outlined in the GitHub repo) to your Slack small group channel.
+<a href="https://github.com/ameseee/m0_be_conditionals" target="_blank">Follow the directions in the README of this GitHub repository</a>, and submit your fork in the submission form. Upload the video (requirements outlined in the GitHub repo) to your Slack small group channel.
 <br><br><br>
