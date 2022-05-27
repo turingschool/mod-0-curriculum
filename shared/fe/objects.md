@@ -144,19 +144,9 @@ Note that when we use the `Object.keys` and `Object.values` methods, the return 
 </div>
 <br>
 
-<!-- TO DO: Make FE version of this!!! -->
-
-<div class="s-card">
-  <h3>Object Syntax Refactor</h3> 
-  <p><a href="https://gist.github.com/ameseee/af01754c4c5d433657b913e44e35d9c6" target="blank">Refactor the code in this Gist</a> to improve the style and syntax (think: readability) of the Objects.</p>
-</div>
-<br>
-
 ## Check For Understanding
 
-<!-- TO DO MAKE FE Version of this!! -->
-
-Complete the work <a href="https://github.com/turingschool/hashes_cfu_am0" target="_blank">in the CFU repository</a> and submit your work using the submission form. Read the README carefully; it calls for submission of the Refactor Gist as well!
+Complete the work <a href="https://github.com/turingschool/m0_fe_objects" target="_blank">in the CFU repository</a> and submit your work using the submission form.
 
 <br>
 <br>
