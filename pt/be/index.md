@@ -9,7 +9,7 @@ Please submit all deliverables with <a href="" target="_blank">this submission f
 
 ## Career Development
 
-* [Asking Technical Questions]({{ site.url }}/shared/shared/asking_qs) 
+* [Asking Technical Questions]({{ site.url }}/pt/shared/asking_qs) 
 * [Calendaring & Time Management]({{ site.url }}/shared/shared/calendaring)
 * <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a>
 * [Mentorship Prep]({{ site.url }}/shared/shared/mentorship)

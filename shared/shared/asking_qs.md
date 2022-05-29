@@ -69,7 +69,7 @@ As you prepare to ask questions—in written form or in live communications—**
 
 ## Check For Understanding
 
-You won't submit anything in the submission form for this topic; but you will be asked to ask at least 1 question in your Slack small group daily. And, you'll be asked to reflect on questions (asked by you and peers) in some of your End of Day Synthesis prompts. So, keep this in mind - come back to this document when you go to Slack to type of a question or keep a sticky note on your desk with the 4 best practices - whatever it takes to build a strong habit for yourself!
+You won't submit anything in the submission form for this topic; but you will be asked to ask at least 1 question in your Slack small group daily (or, if not necessary, share what challenge you had and how you overcame it). And, you'll be asked to reflect on questions (asked by you and peers) in some of your reflection prompts. So, keep this in mind - come back to this document when you go to Slack to type of a question or keep a sticky note on your desk with the 4 best practices - whatever it takes to build a strong habit for yourself!
 
 <br>
 <br>

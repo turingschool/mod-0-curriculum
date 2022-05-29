@@ -5,7 +5,7 @@ title: Mod 0 Course Dates
 
 Both part-time and full-time options involve live sessions, recorded content, self-paced work, and peer-to-peer collaboration. During a part-time option, students can expect to work 20-25 hours/week during the course. During a full-time option, students can expect to work 9-10 hours/day.
 
-## Courses for students enrolled in 2207 Mod 1
+## Courses for students enrolled in ~~2207 Mod 1~~ CLOSED
 
 ### Mod 0 2205 Section 0-1
 
@@ -15,11 +15,11 @@ Both part-time and full-time options involve live sessions, recorded content, se
 
 ### Mod 0 2205 Section 0-2
 
-Part-time:
+~~Part-time:~~ CLOSED
 - Start Date: May 30
 - End Date: June 15
 
-Full-time: June 6-10
+~~Full-time: June 6-10~~ CLOSED
 
 ## Courses for students enrolled in 2208 Mod 1
 

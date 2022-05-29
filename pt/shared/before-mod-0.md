@@ -17,6 +17,7 @@ title: Before Starting Mod 0
 1. Thoughts on Professionalism (10 min)
 1. Terminal Lesson (60 min)
 1. Atom & Markdown Lesson (60-90 min)
+1. Asking Technical Questions (15 min)
 
 ## Read Course Syllabus, Calendar
 
@@ -62,6 +63,10 @@ Read [these reflections](https://drive.google.com/file/d/1LNyXge4p6OQTWbo_Y9XIJA
 
 ## Lessons
 
-Work through the <a href="./terminal">Terminal</a> and <a href="../../shared/shared/atom.md">Atom & Markdown</a> lessons and be prepared to discuss and submit your deliverables in the Kickoff session
+Work through the <a href="./terminal">Terminal</a> and <a href="../../shared/shared/atom.md">Atom & Markdown</a> lessons and be prepared to discuss and submit your deliverables in the Kickoff session.
+
+## Asking Technical Questions
+
+Read guidance on <a href="../../shared//shared/asking_qs">Asking Technical Questions</a> and take notes as you see fit as this will be a key to your success!
 
 <br>
