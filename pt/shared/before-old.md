@@ -5,7 +5,7 @@ title: Before Starting Mod 0
 
 **Before your the Mod 0 Kickoff**, we ask that you complete the following tasks to familiarize yourself with the tools we use and ensure that you are set up to be successful.
 
-**PLEASE PLAN TO SPEND ABOUT 6 HOURS ON THESE TASKS!**
+**PLEASE PLAN TO SPEND ABOUT 4 HOURS ON THESE TASKS!**
 
 ## Index (time estimates)
 
