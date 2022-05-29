@@ -15,8 +15,6 @@ title: Before Starting Mod 0
 1. Remote Workspace (5 min)
 1. Notetaking (20 min)
 1. Thoughts on Professionalism (10 min)
-1. Terminal Lesson (60 min)
-
 
 ## Read Course Syllabus, Calendar
 
