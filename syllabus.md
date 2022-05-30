@@ -14,6 +14,9 @@ title:      Syllabus
 - **For students in the 2210 cohort:**
   - _Part Time:_ August 29 - September 16
   - _Full Time:_ September 19-23
+- **For students in the 2211 cohort:**
+  - _Part Time:_ October 10-28
+  - _Full Time:_ November 7-11
 
 ## Slack
 
