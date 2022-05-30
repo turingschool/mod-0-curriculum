@@ -3,6 +3,10 @@ layout: lesson
 title: Iteration
 ---
 
+## Preview
+
+Before attending class, students should complete the <a href="./iteration-pw" target="blank">Iteration Preview</a> assignment.
+
 ## Learning Goals
 
 - Explain the concept of iterating over an Array

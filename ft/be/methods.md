@@ -3,7 +3,9 @@ layout: lesson
 title: Methods
 ---
 
-<!-- TODO: update for a live lesson -->
+## Preview
+
+Before attending class, students should complete the <a href="./methods-pw" target="blank">Methods Preview</a> assignment.
 
 ## Learning Goals
 
