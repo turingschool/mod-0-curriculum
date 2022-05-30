@@ -79,7 +79,7 @@ age > 12
 
 ## If Statements
 
->For the practice activities in this section, you can use the Dev Tools Console, create a JavaScript file in your Terminal and edit it in Atom, or use an online IDE such as repl.it - it's your preference!
+>For the practice activities in this section, you can use the Dev Tools Console, create a JavaScript file in your Terminal and edit it in Atom, or use an online IDE such as replit - it's your preference!
 
 <span class="vocab">If statements</span> are the most common form of conditionals. The logic of an <code>if statement</code> in JavaScript follows the same logic in other programming languages.
 

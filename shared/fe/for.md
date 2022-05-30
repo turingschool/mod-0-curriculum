@@ -43,8 +43,8 @@ Work through the activity that follows to practice reading unfamiliar code and w
 <div class="s-card">
   <h3>Reading a <code>for</code> loop (small groups)</h3>
   <ul>
-    <li>The person with the longest Starbucks order should screenshare (drive). Open <a href="https://replit.com/@turingschool/for-statements#index.js" target="blank">this repl.it</a> and click "fork". Make sure the font size is big enough for everyone else in the Breakout room to easily see. From here on out, the other partner can serve as a Navigator and provide directions so the Driver can keep the repl.it screen up.</li>
-    <li>Run the code in the repl.it. Give everyone in the group some time to read through the code for each <code>for</code> statement and identify the portion of the output that belongs with it. <strong>Discuss: What do you notice? Work to identify which piece of the code corresponds to a change in the output.</strong></li>
+    <li>The person with the longest Starbucks order should screenshare (drive). Open <a href="https://replit.com/@turingschool/for-statements#index.js" target="blank">this replit</a> and click "fork". Make sure the font size is big enough for everyone else in the Breakout room to easily see. From here on out, the other partner can serve as a Navigator and provide directions so the Driver can keep the replit screen up.</li>
+    <li>Run the code in the replit. Give everyone in the group some time to read through the code for each <code>for</code> statement and identify the portion of the output that belongs with it. <strong>Discuss: What do you notice? Work to identify which piece of the code corresponds to a change in the output.</strong></li>
     <li>If questions or wonderings such as "I wonder what would happen if we did X instead of Y...?" - there is nothing stopping you from trying that out, and finding the answer right now! You can edit the existing code, copy-and-paste code snippets then modify, or write something out yourself. <em>You should do those explorations as a group and have your Driver do that on their screenshare.</em></li>
   </ul>
 </div>
@@ -91,7 +91,7 @@ for ([initialization]; [condition]; [final-expression]) {
 <div class="s-card">
   <h3>Explaining Code</h3>
   <ul>
-    <li>Choose <code>one</code> of the <code>for</code> statements that was in the repl.it used for the Discovery activity.</li>
+    <li>Choose <code>one</code> of the <code>for</code> statements that was in the replit used for the Discovery activity.</li>
     <li>To review and solidify what we just talked through as a class, prepare a verbal or written explanation of what your selected <code>for</code> statement does, in as much detail as possible. Make note of things you find yourself asking yourself, wondering, or feeling confused about.</li>
     <li>Be prepared to share out your explanation <em>or</em> a specific question that you came up with during this time.</li>
   </ul>
@@ -100,8 +100,8 @@ for ([initialization]; [condition]; [final-expression]) {
 
 <div class="s-card">
  <h3>Writing Code (Pairs)</h3>
-  <p>For these tasks, utilize your notes but do not, under any circumstance, copy-and-paste code. It's recommended you write the code in a new repl.it file.</p>
-  <p>Determine a Driver and Navigator for the first challenge. The Driver should screenshare their repl.it window.</p>
+  <p>For these tasks, utilize your notes but do not, under any circumstance, copy-and-paste code. It's recommended you write the code in a new replit file.</p>
+  <p>Determine a Driver and Navigator for the first challenge. The Driver should screenshare their replit window.</p>
   <ul>
     <li><strong>Challenge #1:</strong> Write code that will print out the numbers 12-18.</li>
   </ul>
@@ -127,7 +127,7 @@ for (var i = 0; i < fruits.length; i++) {
 
 <div class="s-card">
  <h3>Investigating Code (Pairs)</h3>
-  <p>For this task, the Driver should fork <a href="https://replit.com/@turingschool/for-arrays#index.js" target="blank">this repl.it</a>, then the Navigator should guide with these directions:</p> 
+  <p>For this task, the Driver should fork <a href="https://replit.com/@turingschool/for-arrays#index.js" target="blank">this replit</a>, then the Navigator should guide with these directions:</p> 
   <ul>
     <li>Print out to the console <code>fruits.length</code> and notice the output, and try to make sense of where that came from. Keep what you learned by doing that in mind, keep or delete that code, and continue.</li>
     <li>Change <code>fruits.length</code> to <code>3</code>. Re-run the code - has the output changed?</li>

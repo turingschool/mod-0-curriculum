@@ -64,7 +64,7 @@ Slack is our main communication tool at Turing. If you are not familiar with it,
 
 ### Create replit Account
 
-[replit](https://replit.com/~) provides an online platform that allows us to write code and see the results almost immediately - all inside of one browser tab! There are many other similar (and awesome) tools available but repl.it is used regularly in Mods 1 and 2, so Mod 0 provides an introduction and some exposure.
+[replit](https://replit.com/~) provides an online platform that allows us to write code and see the results almost immediately - all inside of one browser tab! There are many other similar (and awesome) tools available but replit is used regularly in Mods 1 and 2, so Mod 0 provides an introduction and some exposure.
 
 Follow the steps below (if they are not necessary because you have already done them or have experience with replit, you can skip this):
 - Create a free account

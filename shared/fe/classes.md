@@ -69,14 +69,14 @@ That example about the car factory ties directly to concepts of OOP. We will use
 
 While this may feel uncomfortable at first, research shows that one of the most effective ways to learn is to explore. Instead of your instructor typing code and explaining every character, you are going to read some Ruby code that's already been written. You will likely have some questions about what X or Y is doing, and you'll also likely be able to make some deductions about what other pieces are doing. We will talk through it all after you've had a chance to use your brain and make some connections on your own.
 
-<a href="https://replit.com/@turingschool/oop-intro-ford-escape-js#index.js" target="_blank">Look at the code in this repl.it</a> and think through the guiding questions:
+<a href="https://replit.com/@turingschool/oop-intro-ford-escape-js#index.js" target="_blank">Look at the code in this replit</a> and think through the guiding questions:
 
 - What is the name of the class?
 - How many object instances are being made?
 - What are the properties? Which is a default property and which is dynamic?
 - How might you make another _object instance_?
 
-Answers to the questions above are available on line 50 of the repl.it, if you'd like to check yourself!
+Answers to the questions above are available on line 50 of the replit, if you'd like to check yourself!
 
 
 ## Write a New Class
@@ -87,7 +87,7 @@ In the previous section, you identified an object in your physical space and wro
   <h3>Driver-Navigator</h3> 
   <p>The person with the largest number of characters in their name is the Driver, the other is the Navigator. The Navigator should have this document opened, and the Driver should be screen sharing with their Terminal or Chrome opened. The Navigator will direct the Driver through the steps listed below.</p>
   <ul>
-    <li>Create a new project called <code>classesLesson</code>. Inside the project, create a file called <code>firstClass.js</code> OR, create a JavaScript file in repl.it - your choice.</li>
+    <li>Create a new project called <code>classesLesson</code>. Inside the project, create a file called <code>firstClass.js</code> OR, create a JavaScript file in replit - your choice.</li>
     <li>Inside that file, write a class. Navigator - the class should represent the object <em>you</em> identified in your physical space. It does not yet need properties, just the class name.</li>
     <li>Below the class declaration, create an object instance. Print it out and run the file to confirm it has been created successfully.</li>
     <li>Now, add a default property.</li>
@@ -123,7 +123,7 @@ car1.changeGear("drive");
 console.log(car1);
 ```
 
-Read the code carefully. Consider copy-and-pasting it into a repl.it and running it. Work to build an understanding of what is happening, then, read the explanations below:
+Read the code carefully. Consider copy-and-pasting it into a replit and running it. Work to build an understanding of what is happening, then, read the explanations below:
 
 - `changeGear(newGear) {`: this line of code is declaring a method on the EscapeCar class. Note that it lives inside the curly braces of the class. It has declared a parameter, `newGear`.
 - `this.gear = newGear;`: the code inside of the method will reassign the value of the `gear` property, to the value of the argument that will be passed in when this method is called

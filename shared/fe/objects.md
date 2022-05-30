@@ -65,7 +65,7 @@ var student1 = {
 
 <div class="s-card">
   <h3>Object Syntax Practice</h3> 
-  <p>Complete the following work in a repl.it or a new JavaScript file in Atom:</p>
+  <p>Complete the following work in a replit or a new JavaScript file in Atom:</p>
   <ol>
     <li>For one of the examples in the previous activity that you selected would be best suited for an Object, declare a variable that stores an Object with some (possibly fake) data.</li>
     <li>Declare a variable that stores an Object that represents <a href="https://twitter.com/MechEngSanchez/status/1485947286396014593" target="blank">this tweet</a>.</li>

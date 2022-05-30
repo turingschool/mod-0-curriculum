@@ -82,7 +82,7 @@ You will likely spend the first class or two in Mod 1 reviewing many of the conc
 - Continue to work on your pseudocoding skills and ability to break problems down! One useful tool is [Codewars]([https://www.codewars.com/](https://www.codewars.com/)), which has a lot of interesting problems that can solved using any coding language. A few things to note:
     - Codewars difficulty ranking system isn't super intuitive - a problem with a ranking of `8 kyu` is actually the "easiest" and `1 kyu` is the "hardest." We recommend sticking to the `8 kyu` range for now - even these problems are REALLY tricky so don't stress if they are feeling really hard right now!
     - Focus on your **process** and **approach**, specifically focusing on writing clear and concise pseudocode. Just the process of breaking a tricky problem down into smaller parts is more valuable than "solving" the problem.
-    - If you want to try to convert your pseudocode into actual code, we recommend trying to implement your code using [repl.it](http://repl.it) at first - the Codewars coding environment is sort of finnicky. If you get a working solution in your repl.it, try pasting your code in Codewars to see if the tests pass!
+    - If you want to try to convert your pseudocode into actual code, we recommend trying to implement your code using [replit](http://repl.it) at first - the Codewars coding environment is sort of finnicky. If you get a working solution in your replit, try pasting your code in Codewars to see if the tests pass!
 - Dive into some program-specific extension projects
     - **Back End Extensions**
         - [Ruby Exercises](https://github.com/turingschool/ruby-exercises) - start with Data Types and move to Mythical Creatures

@@ -66,7 +66,7 @@ That example about the car factory ties directly to concepts of OOP. We will use
 
 While this may feel uncomfortable at first, research shows that one of the most effective ways to learn is to explore. Instead of your instructor typing code and explaining every character, you are going to read some Ruby code that's already been written. You will likely have some questions about what X or Y is doing, and you'll also likely be able to make some deductions about what other pieces are doing. We will talk through it all after you've had a chance to use your brain and make some connections on your own.
 
-<a href="https://replit.com/@turingschool/oop-intro-ford-escape#main.rb" target="_blank">Look at the code in this repl.it</a> and think through the guiding questions:
+<a href="https://replit.com/@turingschool/oop-intro-ford-escape#main.rb" target="_blank">Look at the code in this replit</a> and think through the guiding questions:
 
 - What is the name of the class?
 - How many instances are being made?
@@ -83,7 +83,7 @@ In the previous section, you identified an object in your physical space and wro
   <h3>Driver-Navigator</h3> 
   <p>The person with the largest number of characters in their name is the Driver, the other is the Navigator. The Navigator should have this document opened, and the Driver should be screen sharing with their Terminal opened. The Navigator will direct the Driver through the steps listed below.</p>
   <ul>
-    <li>Create a new project called <code>oop_lesson</code>. Inside the project, create a file called <code>first_class.rb</code> OR, create a Ruby file in repl.it - your choice.</li>
+    <li>Create a new project called <code>oop_lesson</code>. Inside the project, create a file called <code>first_class.rb</code> OR, create a Ruby file in replit - your choice.</li>
     <li>Inside that file, write a class. Navigator - the class should represent the object your identified in your physical space. It does not yet need attributes, just the class name.</li>
     <li>Below the class declaration, create an object instance. Print it out and run the file to confirm it has been created successfully.</li>
     <li>Now, add a default attribute.</li>

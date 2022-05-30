@@ -52,6 +52,16 @@ displayFunctionSkeleton();
 ```
 
 <br>
+<div class="s-card">
+  <h3>Play Around</h3>
+  <p><a href="https://replit.com/@turingschool/m0-functions-intro#index.js" target="blank">Fork this replit</a> and run the code.</p>
+  <p>Change the String inside the <code>console.log</code> statement. Run the code.</p>
+  <p>Add two more <code>console.log</code> statements below the first one. Run the code.</p>
+  <p>The code currently calls the function one time. Call the function three times. Run the code.</p>
+  <p>Change the name of the function in the declaration <em>only</em>. Run the code. What is the problem?</p>
+  <p>Change the name of the function in the calls. Run the code.</p>
+</div>
+<br>
 
 ### Naming Conventions
 
@@ -68,8 +78,8 @@ Examples of function names that follow best practices:
 ### An Analogy
 
 One way to think about functions is as a recipe for a meal: 
-- Defining the function can be compared to writing a recipe, or taking a screenshot of a recipe on our phone. It has the ingredients and directions, but that alone won't cook the meal.
-- Calling the function can be compared to following the directions of the recipe to cook the actual meal. If you never choose to cook the recipe - no harm, but it was a waste of time to write it out. The meal could be cooked once, twice, or many times!
+- **Defining** the function can be compared to writing a recipe, or taking a screenshot of a recipe on our phone. It has the ingredients and directions, but that alone won't cook the meal.
+- **Calling** the function can be compared to following the directions of the recipe to cook the actual meal. If you never choose to cook the recipe - no harm, but it was a waste of time to write it out. The meal could be cooked once, twice, or many times!
 
 While the code snippet below illustrates a very contrived function, it is valid JavaScript:
 
@@ -84,12 +94,12 @@ function makeFreshPesto() {
 
 makeFreshPesto();
 ```
-<br>
 
+<br>
 <div class="s-card">
   <h3>Practice: Define and Call a Function</h3>
   <p><em>Referring to the lesson and your notes is encouraged, but for your learning's sake, do not copy-and-paste!</em></p>
-  <p>In a repl.it file or a file in Atom, define a function named <code>printGreeting</code>. Inside the code block, write a <code>console.log</code> statement that prints a friendly greeting. Then, call the function.</p>
+  <p>In a replit file or a file in Atom, define a function named <code>printGreeting</code>. Inside the code block, write a <code>console.log</code> statement that prints a friendly greeting. Then, call the function.</p>
   <p>Run the code. You should see the <code>console.log</code> statement in your console.</p>
 </div>
 <br>
@@ -113,7 +123,7 @@ makeDinner("Mexican");
 // --> "Tonight, we will make a delicious Mexican dinner.
 ```
 
-The following code snippet illustrates a function definition and call that involves 3 pieces of data. Notice that the order in which data is passed in as arguments, matters.
+The following code snippet illustrates a function definition and call that involves 3 pieces of data.
 
 ```javascript
 function addThreeNums(first, second, third) {
@@ -137,7 +147,7 @@ addThreeNums(1, 2, 3);
   </ol>
   <p><em>For the next activity, referring to the lesson and your notes is encouraged, but for your learning's sake, do not copy-and-paste!</em></p>
   <ol>
-    <li>In a new repl.it file or a file in Atom, define a function named <code>greetMe</code> that declares two parameters, a first and last name. Inside the code block, write a <code>console.log</code> statement that prints a sentence greeting a person using both first and last names.</li> 
+    <li>In a new replit file or a file in Atom, define a function named <code>greetMe</code> that declares two parameters, a first and last name. Inside the code block, write a <code>console.log</code> statement that prints a sentence greeting a person using both first and last names.</li> 
     <li>Then, call the function with appropriate arguments.</li>
     <li>Run the code. You should see the <code>console.log</code> statement in your console.</li>
     <li>On a new line of code, call the function <em>again</em>, using different arguments.</li>
@@ -146,11 +156,21 @@ addThreeNums(1, 2, 3);
     <li>Run the code.</li>
   </ol>
 </div>
+<br>
 
+<div class="s-card s-border-yellow-500">
+  <h3>Key Points Summary</h3>
+  <ul>
+    <li>A function is a packaged set of directions. If the function is never <em>called</em>, it will never run. It can be called many times, if needed!</li>
+    <li>The number of arguments in a function call must match the number of parameters in the function definition.</li>
+    <li>Function names should start with a verb and use <code>camelCase</code>.</li>
+  </ul>
+</div>
+<br>
 
 ## Check For Understanding
 
-Coming soon...
+Complete the work <a href="https://github.com/turingschool/m0_fe_functions" target="_blank">in the CFU repository</a> and submit your work using the submission form.
 
 <br>
 <br>
