@@ -3,6 +3,10 @@ layout: lesson
 title: GitHub
 ---
 
+## Preview
+
+Before attending class, students should complete the <a href="./github-pw" target="blank">GitHub Preview</a> assignment.
+
 ## Learning Goals
 
 - Create, fork, and clone repositories
@@ -18,18 +22,6 @@ title: GitHub
 - <span class="vocab">remote</span>
 - <span class="vocab">pull</span>
 - <span class="vocab">push</span>
-
-## Prep Work
-
-When you see any live lesson on your calendar - in Mod 0, 1 and beyond, it's a best practice to preview the content. Having a high-level understanding of what concepts will be presented, key vocabulary, and connections to prior knowledge will allow you to engage deeply, ask better questions, and get more out of the lesson. In Mod 0, we'll provide guidance and reflection opportunities to help you build this habit. When you go to Mod 1, it will be expected that you make the time on your calendar and have the discipline to follow through on doing this, but guidance will not be provided.
-
-**Preview this lesson by writing down the vocabulary terms, skimming through the headers and key points, and writing down some initial questions that come to mind.**
-
-Additionally, complete the two tasks that follow before coming to the lesson. You don't need to be an expert in these areas, but it's expected you come to the lesson having done this and ready to engage in asking questions and discussing the topics.
-- <a href="https://docs.github.com/en/get-started/quickstart/create-a-repo" target="_blank">Use GitHub's documentation to learn how to create a GitHub repository</a> - Complete Steps 1-6 then stop at "Commit your first change".
-- <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo" target="_blank">Use GitHub's documentation to learn how to fork a repository, and clone a forked repository</a>. When given the option to use HTTPS or SSH, use SSH. Do not use GitHub CLI. Stop at "Configuring Git to sync your fork with the original repository".
-<br>
-<br>
 
 ## Warm Up
 
