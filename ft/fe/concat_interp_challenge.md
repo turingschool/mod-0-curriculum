@@ -20,7 +20,7 @@ title: Concatenation vs. Interpolation
 Your challenge is to: 
 1. research and get familiar with both
 1. decide which you prefer
-1. defend your preference (including an explanation of both methods) to your small group. 
+1. defend your preference (including an explanation of both methods) to your small group
 
 Your defense can be a written document, a replit including code comments, a video, a slide deck, or anything else creative you can put together to both get your point across and demonstrate you have a solid understanding of both.
 

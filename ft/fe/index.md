@@ -3,9 +3,9 @@ layout: page
 title: Front End, Full-Time Resources
 ---
 
-<p>Copy <a href="https://trello.com/b/BJlBXegK/accelerated-mod-0" target="blank">this Trello board</a> to get started.</p>
+<p>Copy <a href="https://trello.com/b/63gwsc5k/mod-0-fe-full-time" target="blank">this Trello board</a> to get started.</p>
 
-Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9" target="_blank">this submission form</a>.
+Please submit all deliverables with the submission form you created a link for in the Kickoff on Monday morning.
 
 ## Career Development
 
@@ -39,7 +39,7 @@ Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9
 * [Object Literals]({{ site.url }}/shared/fe/objects)
 * [Functions]({{ site.url }}/shared/fe/functions)
 * [Classes]({{ site.url }}/shared/fe/classes)
-
+* [Array Prototypes!]({{ site.url }}/shared/fe/array_proto)
 <br>
 <br>
 <br>
