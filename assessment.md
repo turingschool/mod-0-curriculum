@@ -17,7 +17,7 @@ subheading: Carefully read all instructions below BEFORE starting!
 
 ### Program-Specific Exercise
 - This exercise should take you no longer than 60 minutes total to complete
-- You will be working on your local machine and pushing your changes to a GitHub repo you will create
+- You will be working on your local machine and pushing your changes to a GitHub repository you will create
 - If you make an error/typo in one of your commit messages, don't waste time trying to change it - just focus on writing a correct message in your following commits
 - Your instructors will review your work after you submit and may ask you to make revisions before you are considered `Turing Ready`
 - If your work falls far below expectations, you will likely not have an opportunity to make revisions and instead must repeat Mod 0 before considered ready for promotion to Mod 1

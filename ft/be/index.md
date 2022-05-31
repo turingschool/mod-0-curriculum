@@ -3,9 +3,9 @@ layout: page
 title: Back End, Full-Time Resources
 ---
 
-<p>Copy <a href="https://trello.com/b/BJlBXegK/accelerated-mod-0" target="blank">this Trello board</a> to get started.</p>
+<p>Copy <a href="https://trello.com/b/BJlBXegK/mod-0-be-full-time" target="blank">this Trello board</a> to get started.</p>
 
-Please submit all deliverables with <a href="" target="_blank">this submission form</a>.
+Please submit all deliverables with the submission form you created a link for in the Kickoff on Monday morning.
 
 ## Career Development
 
@@ -35,8 +35,7 @@ Please submit all deliverables with <a href="" target="_blank">this submission f
 * [Conditionals]({{ site.url }}/shared/be/conditionals)
 * [Iteration]({{ site.url }}/ft/be/iteration)
 * [Hashes]({{ site.url }}/shared/be/hashes)
-<!-- update methods for a live lesson -->
-* [Methods!]({{ site.url }}/ft/be/methods)
+* [Methods]({{ site.url }}/ft/be/methods)
 * [Object Oriented Programming]({{ site.url }}/ft/be/oop)
 * [Intro to Testing]({{ site.url }}/ft/be/testing)
 

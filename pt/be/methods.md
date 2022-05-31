@@ -75,7 +75,7 @@ irb(main):007:0> "Hello World".gsub "World", "Turing"
 <br>
 <div class="s-card">
   <h3>Practice: Define and Identify</h3> 
-  <p>In the <a href="https://github.com/turingschool/methods_cfu_am0/blob/main/self_eval.md" target="blank">Check For Understanding repo</a>, complete the <code>define_and_id.rb</code> file.</p>
+  <p>In the <a href="https://github.com/turingschool/methods_cfu_am0/blob/main/self_eval.md" target="blank">Check For Understanding repository</a>, complete the <code>define_and_id.rb</code> file.</p>
 </div>
 <br>
 
@@ -94,7 +94,7 @@ irb(main):002:0> greeting.upcase
 <br>
 <div class="s-card">
   <h3>Practice: Calling Methods on Variables</h3> 
-  <p>Complete the <code>methods_variables.rb</code> file in the Check For Understanding repo.</p>
+  <p>Complete the <code>methods_variables.rb</code> file in the Check For Understanding repository.</p>
 </div>
 <br>
 
@@ -192,7 +192,7 @@ puts sum2
 
 <div class="s-card">
   <h3>Check For Understanding</h3>
-  <p>Complete the <code>final_practice.rb</code> in the Check For Understanding repo. Submit your copy of the repo to the submission form.</p>
+  <p>Complete the <code>final_practice.rb</code> in the Check For Understanding repository. Submit your copy of the repository to the submission form.</p>
 </div>
 
 <br><br><br>

@@ -127,7 +127,7 @@ Let's take everything we've worked on with git, GitHub, data types and variable 
 1. Inside that directory, create a file called `hash-examples.rb`
 1. Initialize `git` inside of the directory
 1. Commit your work (What message should you use here?)
-1. Go to GitHub and create a repo with the same name - `hash-practice`
+1. Go to GitHub and create a repository with the same name - `hash-practice`
 1. Push your local directory to GitHub by following the instructions
 1. In your `hash-examples.rb` file, add a model for a `car` using hash syntax
 1. Commit your work

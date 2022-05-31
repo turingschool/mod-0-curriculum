@@ -21,4 +21,4 @@ Mentorship is an integral part of the Turing experience and will help jumpstart 
 
 ## Submission & Confirmation
 
-Submit the Mentorship DTR Prep Gist in the Google submission form. 
+Submit the Mentorship DTR Prep Gist in the submission form. 

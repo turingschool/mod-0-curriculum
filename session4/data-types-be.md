@@ -161,7 +161,7 @@ Let's take everything we've worked on with git, GitHub, data types and variable 
 1. Inside that directory, create a file called `model_1.rb`
 1. Initialize `git` inside of the directory
 1. Commit your work (What message should you use here?)
-1. Go to GitHub and create a repo with the same name - `variable_practice`
+1. Go to GitHub and create a repository with the same name - `variable_practice`
 1. Push your local directory to GitHub by following the instructions
 1. In your `model_1.rb` file, add a few variables that are assigned to `strings`
 1. Commit your work

@@ -53,7 +53,7 @@ One strategy we’ve seen our most successful students employ is using some type
 
 ## Mod 0
 
-Accelerated Mod 0 is short and fast! That may lead us to believe we don't have much time to manage, so shouldn't worry about it. But, every minute matters even more when it is so fast-paced.
+Mod 0 is short and fast! That may lead us to believe we don't have much time to manage, so shouldn't worry about it. But, every minute matters even more when it is so fast-paced.
 
 <div class="s-card">
   <h3>Mod 0 Calendar</h3>

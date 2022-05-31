@@ -188,7 +188,7 @@ In OOP, it is common to store instances in a list, or array, like the one above.
 
 ## Check For Understanding
 
-<a href="https://github.com/turingschool/m0_be_oop" target="_blank">Follow the directions in the README of this repo</a>, and submit your fork in the submission form! 
+<a href="https://github.com/turingschool/m0_be_oop" target="_blank">Follow the directions in the README of this repository</a>, and submit your fork in the submission form! 
 <br>
 
 <br>

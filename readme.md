@@ -8,7 +8,7 @@ This site is built with Jekyll. Find the docs [here](https://jekyllrb.com/docs/u
 
 ### Contributing
 
-* Clone the repo `git clone git@github.com:turingschool/mod-0-curriculum.git`
+* Clone the repository `git clone git@github.com:turingschool/mod-0-curriculum.git`
 * run `bundle install`
 * You can now begin to edit the website.
 * To start the server run `jekyll serve`.

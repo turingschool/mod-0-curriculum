@@ -127,7 +127,7 @@ Watch and take notes while we walk through how to add a remote to your local rep
   <p>Determine who will be the driver and who will be the navigator(s). The driver should be screen shaing.</p> 
   <ol>
     <li>Create a new repository on GitHub called <code>git_homework</code>.</li>
-    <li>In your Terminal, navigate to your <code>git_homework</code> directory from session 2's homework. <em>If for some reason you don't have this directory then use the <code>mkdir</code> command to create <code>git_homework</code>. Then use <code>touch</code> to create a file called<code>sample_file.md</code>. Then run <code>git init</code>. <b>Only do this if you don't already have a <code>git_homework</code> repo.</b></em></li>
+    <li>In your Terminal, navigate to your <code>git_homework</code> directory from session 2's homework. <em>If for some reason you don't have this directory then use the <code>mkdir</code> command to create <code>git_homework</code>. Then use <code>touch</code> to create a file called<code>sample_file.md</code>. Then run <code>git init</code>. <b>Only do this if you don't already have a <code>git_homework</code> repository.</b></em></li>
     <li>Add the remote to your local repository, then push your changes to GitHub.</li>
   </ol>
   <p>Switch roles and work through the exercise again. It is essential that all students have this activity completed in order to start the next one.</p>

@@ -173,7 +173,7 @@ Use everything you’ve learned with Atom, Git, GitHub, Data Types and variables
 1. Inside that directory, create a file called `variables.js`.
 1. Initialize `git` inside of the directory.
 1. Commit your work (Think about what message should you use here).
-1. Go to GitHub and create a repo with the same name - `variablePractice`.
+1. Go to GitHub and create a repository with the same name - `variablePractice`.
 1. Push your local directory to GitHub by following the instructions.
 1. In your `variables.js` file, add a few variables that are assigned to Strings.
 1. Commit your work.

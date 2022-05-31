@@ -163,7 +163,7 @@ Many times, you'll build a class based on specifications (commonly referred to a
 
 Each partner should complete this independently. It is ok to consult one another if needed!
 
-<a href="https://github.com/turingschool/m0_fe_classes" target="_blank">Follow the directions in the README of this repo</a>. Each student should submit their own repo to the submission form.
+<a href="https://github.com/turingschool/m0_fe_classes" target="_blank">Follow the directions in the README of this repository</a>. Each student should submit their own repository to the submission form.
 
 <br>
 <br>

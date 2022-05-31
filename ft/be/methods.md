@@ -215,7 +215,7 @@ puts sum2
 
 <div class="s-card">
   <h3>Check For Understanding</h3>
-  <p>Complete the tasks in the <a href="https://github.com/turingschool/methods_cfu_am0" target="blank">Check For Understanding repo</a>. Submit your copy of the repo to the submission form.</p>
+  <p>Complete the tasks in the <a href="https://github.com/turingschool/methods_cfu_am0" target="blank">Check For Understanding repository</a>. Submit your copy of the repository to the submission form.</p>
 </div>
 
 <br>
