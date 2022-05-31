@@ -15,6 +15,7 @@ title: Before Starting Mod 0
 1. Remote Workspace (5 min)
 1. Notetaking (20 min)
 1. Thoughts on Professionalism (10 min)
+1. Prep Sharing Your "Why"
 
 ## Read Course Syllabus, Calendar
 
@@ -57,5 +58,9 @@ Read [these reflections](https://drive.google.com/file/d/1LNyXge4p6OQTWbo_Y9XIJA
 1. What stood out to you as you read this?
 1. What surprised you after reading this?
 1. How will this impact your approach to Mod 0?
+
+## Prep Sharing Your "Why"
+
+During the first session of Mod 0, you will break out into small groups and be asked to each share your "why" for taking this step to change careers, and your life. Spend some time reflecting on what is motiavting you most to be here, and how to communicate that best to your peers so they start to understand you and what drives you. Be prepared to share that with the group in 1-2 minutes.
 
 <br>
