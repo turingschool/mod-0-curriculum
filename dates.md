@@ -33,6 +33,7 @@ Both part-time and full-time options involve live sessions, recorded content, se
 ## Courses for students enrolled in 2210 Mod 1
 
 ### Mod 0 Part-time:
+Front End and Back End run at the same time:
 - Start Date: August 29
 - End Date: September 16
 
@@ -44,6 +45,7 @@ Both part-time and full-time options involve live sessions, recorded content, se
 ## Courses for students enrolled in 2211 Mod 1
 
 ### Mod 0 Part-time:
+Front End and Back End run at the same time:
 - Start Date: October 10
 - End Date: October 28
 
