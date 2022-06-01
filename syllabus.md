@@ -3,21 +3,6 @@ layout:     page
 title:      Syllabus
 ---
 
-## Mod 0 Dates
-
-- **For students in the 2207 cohort:** 
-  - _Part Time:_ May 9 - 25, May 30 - June 15
-  - _Full Time:_ June 6-10
-- **For students in the 2208 cohort:**
-  - _Part Time:_ July 5-17
-  - _Full Time:_ August 1-5
-- **For students in the 2210 cohort:**
-  - _Part Time:_ August 29 - September 16
-  - _Full Time:_ September 19-23
-- **For students in the 2211 cohort:**
-  - _Part Time:_ October 10-28
-  - _Full Time:_ November 7-11
-
 ## Slack
 
 Staff will use the cohort Slack channel as the primary means of communication with students.
