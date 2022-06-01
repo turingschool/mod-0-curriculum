@@ -50,3 +50,7 @@ Both part-time and full-time options involve live sessions, recorded content, se
 ### Mod 0 Full-time: 
 - Back End: October 31 - November 3
 - Front End: November 7-11
+
+<br>
+<br>
+<br>
