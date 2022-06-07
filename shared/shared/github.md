@@ -47,7 +47,7 @@ There are many ways to create and connect <span class="vocab">local</span> (on y
 1. Create a GitHub repository (do NOT check the box to create a README).
 1. Follow the directions under `...or push an existing repository from the command line`, by running the following commands:
   - `git remote add origin git@github.com:USERNAME/REPO_NAME.git` This command tells the local repository to set the remote repository to this address. We refer to it as the `origin`.
-  - `git branch -M main` You may not need to do this if you have already configured Git to name the default branch `main`.
+  - _`git branch -M main` You do not need to do this if you have already configured Git to name the default branch `main`._
   - `git push -u origin main` This sends the current version of the project up to the remote repository, and sets the `main` branch as the default branch to send work up to.
 1. Refresh the browser tab GitHub is in - you should now see your repository!
 
