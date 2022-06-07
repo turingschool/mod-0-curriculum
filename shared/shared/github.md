@@ -35,7 +35,7 @@ Before attending class, students should complete the <a href="./github-pw" targe
 
 <div class="s-card">
   <h3>Waterfall</h3>
-  <p>What is a <span class="vocab">fork</span>?</p>
+  <p>In the context of GitHub, what is a <span class="vocab">fork</span>?</p>
 </div>
 <br>
 
