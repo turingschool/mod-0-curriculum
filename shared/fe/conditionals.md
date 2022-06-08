@@ -99,7 +99,7 @@ The following example checks if a store is open, and prints out a statement to s
 var isOpen = true
 
 if (isOpen === true) {
-  console.log("send directions);
+  console.log("send directions");
 }
 ```
 
