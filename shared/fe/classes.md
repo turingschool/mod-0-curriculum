@@ -23,7 +23,6 @@ title: Classes
 - <span class="vocab">class</span>
 - <span class="vocab">method</span>
 - <span class="vocab">object instance</span>
-- <span class="vocab">this</span>
 
 <div class="s-card s-border-yellow-500">
   <h3>Share with Partner</h3> 
