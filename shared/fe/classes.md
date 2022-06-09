@@ -165,5 +165,6 @@ Each partner should complete this independently. It is ok to consult one another
 
 <a href="https://github.com/turingschool/m0_fe_classes" target="_blank">Follow the directions in the README of this repository</a>. Each student should submit their own repository to the submission form.
 
+_Remember that it's ok to not know everything, or solve everything perfectly. Give it your best effort, but if you get stuck on something, it's ok to document in the file: what you tried, where you were stuck, and submit it like that._
 <br>
 <br>

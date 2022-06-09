@@ -4,14 +4,12 @@ title: Object Oriented Programming
 ---
 
 <div class="s-card s-border-yellow-500">
-  <h3>Previewing a Lesson</h3> 
-  <p>As you preview this lesson before the live session, keep a few things in mind:</p>
-  <ul>
-    <li>This document was written with the intention of being facilitated by a human - it might be the case that you feel some parts are missing or require an explanation.</li>
-    <li>You are not expected to have mastery, or even fluency with these concepts when you attend the live session. You should be familiar with the vocabulary, the realm of things surrounding the concepts.</li>
-    <li>How can previewing this help you to get the most out of the time you have in the live session? Can you set up some notes in advance? In looking through this, do you realize you have a knowledge gap with a foundational concept that you should review? Do you already have questions? (if so, write them down so you don't forget them!).</li>
-  </ul>
+  <h3>Learning Collaboratively</h3> 
+  <p>This lesson is intended for 2-3 students to work through together. Learning collaboratively likely means moving through content slower, but also should result in learning more thoroughly. In addition to working together, this learning environment is new for all students - take time to learn about strategies your partner uses, tips they have, etc. as well as share your best practices!</p>
+  <p>To make sure you are set up for success, get yourself prepared for a pairing-like environment. Fill your water bottle, put your phone aside, and be ready to fully engage.</p>
+  <p>As you work through this lesson with your partner(s), focus in on your communication, exercising patience, and making sure all students complete the lesson with a similar level of understanding.</p>
 </div>
+<br>
 
 ## Learning Goals
 
@@ -25,6 +23,12 @@ title: Object Oriented Programming
 - <span class="vocab">instance method</span>
 - <span class="vocab">object instance</span>
 - <span class="vocab">Object Oriented Programming (OOP)</span>
+
+<div class="s-card s-border-yellow-500">
+  <h3>Share with Partner</h3> 
+  <p>What do you do with the Vocabulary sections? How do you ensure you can fluently define and use all terms listed, by the end of the lesson?</p>
+</div>
+<br>
 
 ## What is OOP?
 
@@ -53,13 +57,13 @@ That example about the car factory ties directly to concepts of OOP. We will use
 
 <div class="s-card">
   <h3>Brainstorm & Share</h3> 
-  <p>Pick an object that you see in the physical space you are in. It could be a candle, water bottle, glove, anything!</p>
+  <p>Each partner should do this independently: Pick an object that you see in the physical space you are in. It could be a candle, water bottle, glove, anything!</p>
   <ul>
     <li>What <em>type</em> of object is it? What might the class name be?</li>
     <li>Are there multiple objects/instances of it in your home, or in the world? List a few.</li>
-    <li>What are some of its attributes?</li>
+    <li>What are some of its properties?</li>
   </ul>
-  <p>Draft your response to the prompts/questions in the Slack thread but don't send it until told to!</p>
+  <p>Share your ideas with your partner.</p>
 </div>
 
 ## Explore Class Syntax
@@ -73,7 +77,8 @@ While this may feel uncomfortable at first, research shows that one of the most 
 - What are the attributes? Which is a default attribute and which is dynamic?
 - How might you make another _instance_?
 
-Let’s discuss what you probably found and maybe had questions about.
+Answers to the questions above are available on line 50 of the replit, if you’d like to check yourself!
+
 
 ## Write a New Class
 
@@ -90,7 +95,7 @@ In the previous section, you identified an object in your physical space and wro
     <li>Now, add a dynamic attribute. Remember, something about the object instance will need to change now that the class expects dynamic info.</li>
     <li>Run the file again to check for errors or issues. If you don't have any, create a few more object instances. Consider adding another dynamic attribute.</li>
   </ul>
-  <p>Since the Navigator had to do all the talking, the Driver should practice articulating what this code does. 2-3 Drivers will be called on and expected to screen share and talk through the code when we come back together as a whole group.</p>
+  <p>Switch Driver-Navigator roles, and do this again. If you haven't taken a break yet, consider taking one now!</p>
 </div>
 
 ## Access Attributes
@@ -128,7 +133,11 @@ car1.change_gear("drive")
 p car1
 ```
 
-As a class, we will discuss what this code is doing, and add to it! Be ready to take clear notes as every word we discuss isn't documented here in the lesson.
+Read the code carefully. Consider copy-and-pasting it into a replit and running it. Work to build an understanding of what is happening, then, read the explanations below:
+
+- `def change_gear(new_gear)`: this line of code is declaring a method on the EscapeCar class. Note that it lives _inside_ of the class. It has declared a parameter, new_gear.
+- `@gear = new_gear`: the code inside of the method will reassign the value of the `gear` attribute, to the value of the argument that will be passed in when this method is called.
+- `car1.change_gear("drive")`: this is the method call. t must be called with dot notation, after the variable name of the variable that holds the object instance. This is demonstrated by the change in that attribuet value that prints out in the `p` statement.
 
 ## Connection to Apps we Use
 
@@ -188,9 +197,12 @@ In OOP, it is common to store instances in a list, or array, like the one above.
 
 ## Check For Understanding
 
-<a href="https://github.com/turingschool/m0_be_oop" target="_blank">Follow the directions in the README of this repository</a>, and submit your fork in the submission form! 
-<br>
+Each partner should complete this independently. It is ok to consult one another if needed!
 
+<a href="https://github.com/turingschool/m0_be_oop" target="_blank">Follow the directions in the README of this repository</a>, and submit your fork in the submission form! 
+
+_Remember that it's ok to not know everything, or solve everything perfectly. Give it your best effort, but if you get stuck on something, it's ok to document in the file: what you tried, where you were stuck, and submit it like that._
+<br>
 <br>
 
 ## _Extensions_
