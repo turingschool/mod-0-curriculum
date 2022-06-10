@@ -47,7 +47,7 @@ Stop at the provided prompts to take notes and complete practice exercises as in
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Add <code>learning_code.md</code> to the staging area.</li>
     <li>Commit your work.</li>
-    <li>In Atom, create a header and either a fact or question about Ruby or JavaScript in the  <code>code_101.md</code> file.</li>
+    <li>In Atom, create a header and either a fact or question about Ruby or JavaScript in the  <code>learning_code.md</code> file.</li>
     <li>Add the changes to the staging area.</li>
     <li>Commit the changes using a properly formatted commit message.</li>
     <li>Create a directory inside of <code>code_101</code> titled <code>practice</code>. Inside of that, create 3 files - you choose the names.</li>
