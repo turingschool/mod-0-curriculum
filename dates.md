@@ -19,8 +19,8 @@ Both part-time and full-time options involve live sessions, recorded content, se
 
 ### Mod 0 Part-time:
 Front End and Back End run at the same time:
-- Start Date: August 29
-- End Date: September 16
+- Start Date: August 22
+- End Date: September 9
 
 ### Mod 0 Full-time: 
 - Back End: September 12-16
