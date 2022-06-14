@@ -35,7 +35,7 @@ Front End and Back End run at the same time:
 - End Date: October 28
 
 ### Mod 0 Full-time: 
-- Back End: October 31 - November 3
+- Back End: October 31 - November 4
 - Front End: November 7-11
 
 
