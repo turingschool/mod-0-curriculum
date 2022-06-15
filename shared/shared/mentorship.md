@@ -14,11 +14,10 @@ title: Mentorship
 </div>
 <br>
 
-Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
+Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following:
 
-- Create a profile on <a href="https://docs.google.com/document/d/1vpyKGu92l1HGkJzULNcyyE72946f4QO1DhQgIz3v1E0/edit?usp=sharing" target="_blank">Turing Community Connect</a> by following these directions
 - Complete the <a href="https://gist.github.com/ameseee/1297595506e5b24618fa38fd2f1277ca" target="_blank">Mentorship DTR Prep</a>
 
 ## Submission & Confirmation
 
-Submit the Mentorship DTR Prep Gist in the submission form. 
+Submit the Mentorship DTR Prep Gist in your submission form. 
