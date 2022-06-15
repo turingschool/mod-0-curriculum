@@ -10,11 +10,11 @@ Please submit all deliverables with the submission form URL you customized in th
 
 ## Career Development
 
-* [Asking Technical Questions]({{ site.url }}/pt/shared/asking_qs) 
+* [Asking Technical Questions]({{ site.url }}/shared/shared/asking_qs) 
 * [Calendaring & Time Management]({{ site.url }}/shared/shared/calendaring)
 * <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a>
 * [Mentorship Prep]({{ site.url }}/shared/shared/mentorship)
-* [DTR Prep]({{ site.url}}/ft/shared/dtr)
+* [DTR Prep]({{ site.url}}/shared/shared/dtr)
 * [Pair Programming]({{ site.url }}/ft/shared/pairing)
   - [For Session 3]({{ site.url }}/pt/shared/pairing_1)
   - [For Session 5]({{ site.url }}/pt/shared/pairing_2)

@@ -13,7 +13,7 @@ Please submit all deliverables with the submission form you created a link for i
 * [Calendaring & Time Management]({{ site.url }}/shared/shared/calendaring)
 * <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a>
 * [Mentorship Prep]({{ site.url }}/shared/shared/mentorship)
-* [DTR Prep]({{ site.url}}/ft/shared/dtr)
+* [DTR Prep]({{ site.url}}/shared/shared/dtr)
 * [Letter to Instructors]({{ site.url }}/shared/shared/letter)
 * [Pair Programming]({{ site.url }}/ft/shared/pairing)
   - [Pairing Session 1 (Tuesday)]({{ site.url }}/ft/shared/pairing_1)
