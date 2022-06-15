@@ -23,8 +23,8 @@ Please submit all deliverables with <a href="" target="_blank">this submission f
 
 ## Tools
 
-* [Terminal]({{ site.url }}/shared/shared/terminal)
-* [Atom & Markdown]({{ site.url }}/shared/shared/atom)
+* [Terminal]({{ site.url }}/pt/shared/terminal)
+* [Atom & Markdown]({{ site.url }}/pt/shared/atom)
 * [Git]({{ site.url }}/shared/shared/git)
 * [GitHub]({{ site.url }}/shared/shared/github)
 
