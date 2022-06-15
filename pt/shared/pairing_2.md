@@ -30,8 +30,6 @@ Then, decide who will be the Driver and Navigator for the first challenge, then 
 
 ## Exercises
 
->**Make sure to record this pairing session as you'll be asked to submit the video as part of today's reflection.**
-
 Note: Some language in used in these prompts that you have not had direct exposure to in the Mod 0 curriculum. This is _intentional_ and designed to support you in being flexible while reading documentation and specifications (as that is an essential skill for a developer to have). Use your context clues, make educated guesses with the knowledge you have, and if you are completely unsure "does it mean X or Y?" - do the exercise both ways - x and y - just to cover yourself!
 
 ### Back End
@@ -108,6 +106,6 @@ Come back to the areas that you asked each other to provide feedback on.
 
 ## Reflection
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/13dfa032e730549547a6ca72716ac9d3) and submit your fork of it in the submission form.
+[Follow the directions in this Gist](https://gist.github.com/ameseee/7fd53fa3d108b1e34331840592a15343) and submit the URL to your fork of it in the submission form.
 
 <br><br>
