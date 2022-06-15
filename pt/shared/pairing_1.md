@@ -66,7 +66,7 @@ Below are two short exercises for you to pair on. Decide who will be the Driver 
 
 ## Reflection
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/70d0e1c5d393cd74b892784d81407c79) and submit your fork of it in the submission form. 
+[Follow the directions in this Gist](https://gist.github.com/ameseee/711f987b375dbaf5938e7536dd661caa) and submit your fork of it in the submission form. 
 
 **Note:** Each student should make an individual submission.
 

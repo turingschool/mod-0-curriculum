@@ -6,7 +6,7 @@ title: Front End, Part-Time Resources
 <!-- add URL for board once board is made -->
 <p>Copy <a href="" target="blank">this Trello board</a> to get started.</p>
 
-Please submit all deliverables with <a href="" target="_blank">this submission form</a>.
+Please submit all deliverables with the submission form URL you customized in the Kickoff Session. 
 
 ## Career Development
 

@@ -5,7 +5,7 @@ title: Back End, Part-Time Resources
 
 <p>Copy <a href="https://trello.com/b/TahIw1yf/mod-0-be-part-time" target="blank">this Trello board</a> to get started.</p>
 
-Please submit all deliverables with <a href="" target="_blank">this submission form</a>.
+Please submit all deliverables with the submission form URL you customized in the Kickoff Session. 
 
 ## Career Development
 
@@ -36,7 +36,6 @@ Please submit all deliverables with <a href="" target="_blank">this submission f
 * [Hashes]({{ site.url }}/shared/be/hashes)
 * [Methods]({{ site.url }}/pt/be/methods)
 * [Object Oriented Programming]({{ site.url }}/pt/be/oop)
-* [Intro to Testing]({{ site.url }}/pt/be/testing)
 
 <br>
 <br>
