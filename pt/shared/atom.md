@@ -137,6 +137,6 @@ Complete the challenges below to continue to build fluency with using your Termi
 
 ## Check For Understanding
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/bd94f193f828edc330c45740b7c0ad99). Keep the URL to your Gist handy (bookmark, or DM to yourself) as you may need to reference it during the Mod 0 Kickoff Session.
+[Follow the directions in this Gist](https://gist.github.com/ameseee/bd94f193f828edc330c45740b7c0ad99). Submit the URL to your Gist in the submission form you created in the Kickoff Session.
 
 <br><br>
