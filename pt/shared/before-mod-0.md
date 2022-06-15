@@ -63,7 +63,7 @@ Read [these reflections](https://drive.google.com/file/d/1LNyXge4p6OQTWbo_Y9XIJA
 
 ## Lessons
 
-Work through the <a href="./terminal">Terminal</a> and <a href="../../shared/shared/atom.md">Atom & Markdown</a> lessons and be prepared to discuss and submit your deliverables in the Kickoff session.
+Work through the <a href="./terminal">Terminal</a> and <a href="../../shared/shared/atom">Atom & Markdown</a> lessons and be prepared to discuss and submit your deliverables in the Kickoff session.
 
 ## Asking Technical Questions
 

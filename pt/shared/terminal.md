@@ -375,7 +375,7 @@ Now when I run `ls`, I will no longer see `books` listed.
 
 ## Practice
 
-In your Terminal, recreate the file structures shown in the diagrams below. Assume that the extensions for any files notated is `.md`.
+In your Terminal, recreate the file structures shown in the diagrams below. Assume that the extension for any file notated is `.md`.
 
 ### Challenge #1
 <img src="./assets/practice-1.png">
@@ -391,7 +391,6 @@ In your Terminal, recreate the file structures shown in the diagrams below. Assu
 
 ## Check For Understanding
 
-<!-- TODO: Make new gist, don't require video as this is PRE WORK-->
-<a href="" target="_blank">Follow the directions in this Gist</a> and submit your fork of it in the submission form.
+<a href="https://gist.github.com/ameseee/2283b442a1c2580d73b2290074280dd3" target="_blank">Follow the directions in this Gist</a>. Keep the URL to your Gist handy (bookmark, or DM to yourself) as you may need to reference it during the Mod 0 Kickoff Session.
 
 <br><br>
