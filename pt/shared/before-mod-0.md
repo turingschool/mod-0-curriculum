@@ -5,18 +5,18 @@ title: Before Starting Mod 0
 
 **Before your the Mod 0 Kickoff**, we ask that you complete the following tasks to familiarize yourself with the tools we use and ensure that you are set up to be successful.
 
-**PLEASE PLAN TO SPEND ABOUT 6 HOURS ON THESE TASKS!**
+**PLEASE PLAN TO SPEND 6-8 HOURS ON THESE TASKS!**
 
 ## Index (time estimates)
 
 1. Read Course Syllabus, Calendar (10-30 min)
-1. Computer Setup (60-120 min)
+1. Computer Setup (60-90 min)
 1. Slack (15 min)
 1. Remote Workspace (5 min)
 1. Notetaking (20 min)
 1. Thoughts on Professionalism (10 min)
-1. Terminal Lesson (60 min)
-1. Atom & Markdown Lesson (60-90 min)
+1. Terminal Lesson (60-120 min)
+1. Atom & Markdown Lesson (60-120 min)
 1. Asking Technical Questions (15 min)
 
 ## Read Course Syllabus, Calendar
