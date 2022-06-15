@@ -24,7 +24,7 @@ Please submit all deliverables with the submission form you created a link for i
 ## Tools
 
 * [Terminal]({{ site.url }}/ft/shared/terminal)
-* [Atom & Markdown]({{ site.url }}/shared/shared/atom)
+* [Atom & Markdown]({{ site.url }}/ft/shared/atom)
 * [Git]({{ site.url }}/shared/shared/git)
 * [GitHub]({{ site.url }}/shared/shared/github)
 
