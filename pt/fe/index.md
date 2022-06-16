@@ -30,7 +30,7 @@ Please submit all deliverables with the submission form URL you customized in th
 
 ## JavaScript
 
-* [Data Types]({{ site.url }}/shared/fe/data_types)
+* [Data Types]({{ site.url }}/pt/fe/data_types)
 * [Arrays]({{ site.url }}/shared/fe/arrays)
 * [Conditionals]({{ site.url }}/shared/fe/conditionals)
 * [For Statements]({{ site.url }}/shared/fe/for)

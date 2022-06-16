@@ -31,7 +31,7 @@ Please submit all deliverables with the submission form you created a link for i
 
 ## JavaScript
 
-* [Data Types]({{ site.url }}/shared/fe/data_types)
+* [Data Types]({{ site.url }}/ft/fe/data_types)
 * [Concatenation vs. Interpolation]({{ site.url }}/ft/fe/concat_interp_challenge)
 * [Arrays]({{ site.url }}/shared/fe/arrays)
 * [Conditionals]({{ site.url }}/shared/fe/conditionals)
