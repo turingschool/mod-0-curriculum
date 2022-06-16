@@ -3,8 +3,7 @@ layout: page
 title: Front End, Part-Time Resources
 ---
 
-<!-- add URL for board once board is made -->
-<p>Copy <a href="" target="blank">this Trello board</a> to get started.</p>
+<p>Copy <a href="https://trello.com/b/TRjtFHzx/mod-0-fe-part-time" target="blank">this Trello board</a> to get started.</p>
 
 Please submit all deliverables with the submission form URL you customized in the Kickoff Session. 
 
