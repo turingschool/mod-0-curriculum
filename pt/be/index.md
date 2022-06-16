@@ -15,8 +15,8 @@ Please submit all deliverables with the submission form URL you customized in th
 * [Mentorship Prep]({{ site.url }}/shared/shared/mentorship)
 * [DTR Prep]({{ site.url}}/shared/shared/dtr)
 * [Pair Programming]({{ site.url }}/ft/shared/pairing)
-  - [For Session 3]({{ site.url }}/pt/shared/pairing_1)
-  - [For Session 5]({{ site.url }}/pt/shared/pairing_2)
+  - [For in Class 3]({{ site.url }}/pt/shared/pairing_1)
+  - [For in Class 5]({{ site.url }}/pt/shared/pairing_2)
   - [Optional]({{ site.url }}/pt/shared/pairing_3)
 
 
