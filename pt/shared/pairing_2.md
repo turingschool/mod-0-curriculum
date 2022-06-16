@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Pairing in Session 5
+title: Pairing in Class 5
 ---
 
 ## Learning Goals
