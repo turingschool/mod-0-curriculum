@@ -13,6 +13,7 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 - [Install Chrome](#install-chrome)
 - [Install Slack](#install-slack)
 - [Create replit Account](#replit)
+- [Create Trello Account](#trello)
 - [Install Zoom](#install-zoom)
 - [Enable Screen Sharing](#enable-screen-sharing)
 - [Install Xcode-select](#install-xcode-select)
@@ -69,6 +70,12 @@ Slack is our main communication tool at Turing. If you are not familiar with it,
 Follow the steps below (if they are not necessary because you have already done them or have experience with replit, you can skip this):
 - Create a free account
 - [Watch this video](https://www.youtube.com/watch?v=cnLE3bH6fHE) to learn how to navigate the interface and create new projects.
+
+### Create Trello Account
+
+[Trello](https://trello.com/) is a Kanban-style project management tool we will use in Mod 0. It and other similar tools are used by most software developers to manage the tasks within a project.
+
+Please create a free account with Trello. Next steps will be provided in your first Mod 0 session/class.
 
 ### Install Zoom
 
