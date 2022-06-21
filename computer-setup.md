@@ -13,7 +13,7 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 - [Install Chrome](#install-chrome)
 - [Install Slack](#install-slack)
 - [Create replit Account](#replit)
-- [Create Trello Account](#trello)
+- [Create Trello Account](#create-trello-account)
 - [Install Zoom](#install-zoom)
 - [Enable Screen Sharing](#enable-screen-sharing)
 - [Install Xcode-select](#install-xcode-select)
@@ -21,8 +21,8 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 - [Install and Configure Atom](#install-and-configure-atom)
 - [Install Git](#install-git)
 - [Configure GitHub](#configure-github)
-- [Install Node](#install-node)
-- [Install rbenv (Back End students _only_)](#install-rbenv-back-end-students-only)
+- [Install Node](#install-nvm-node)
+- [Install rbenv](#install-rbenv)
 
 ### New to Mac?
 
@@ -314,23 +314,25 @@ SSH keys are a secure and convenient way to authenticate. We won't get into more
   Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
   ```
 
-### Install Node
+### Install NVM + Node
 
-To write JavaScript in the command line and use essential "packages" while building apps, `node` and `npm` must be on the machine. This applies to both Front End and Back End students. 
+To write JavaScript in the command line and use essential "packages" while building apps, `node` and `npm` must be on the machine. `nvm` allows us to easily change the version of node our machine is using. This applies to both Front End and Back End students.
 
 **Action Items:**
-- Install `node` and verify it was installed correctly by taking the following steps:
-  1. Visit [the Downloads page for Node](https://nodejs.org/en/download/)
-  1. While _LTS - Recommended For Most Users_ is selected, click the _macOS Installer_ button
-  1. Follow the prompts in the windows that appear
-  1. If your Terminal is open, `cmd + q` out of it
-  1. Open your Terminal
-  1. Run `node -v`. The output should be _something_ like `v16.13.1`
-  1. Run `npm -v`. The output should be _something_ like `8.1.4`
+- Install `nvm` and verify it was installed correctly by taking the following steps:
+  1. Run the following command in your Terminal:
+  ```bash
+  $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+  ```
+  1. Use `cmd + q` to close the Terminal. Then, re-open it
+  1. Run `command -v nvm`. You should see the output `nvm`, which confirms `nvm` has been properly installed
+- Install and change to the latest stable version
+  1. In the Terminal, run `nvm install 16.15.1`
+  1. Run `nvm use 16.15.1`. The output should say _something_ like `Now using node -v16.15.1 (npm v8.11.0)
 
 <br>
 
-### Install rbenv (Back End students _only_)
+### Install rbenv
 
 **Action Items:**
 - Install `rbenv` and verify it was installed correctly by taking the following steps:
