@@ -229,5 +229,5 @@ age < 30 || time < 2.0
   </ul>
 </div>
 
-<a href="https://github.com/turingschool/m0_fe_conditionals" target="_blank">Follow the directions in the README of this GitHub repository</a>, and submit your fork in the submission form. Upload the video (requirements are outlined in the GitHub repo) to your Slack small group channel.
+<a href="https://github.com/turingschool/m0_fe_conditionals" target="_blank">Follow the directions in the README of this GitHub repository</a>, and submit your fork in the submission form. Upload the video (requirements are outlined in the code challenges directory README) to your Slack small group channel.
 <br><br><br>
