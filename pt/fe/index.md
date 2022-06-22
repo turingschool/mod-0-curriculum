@@ -18,7 +18,7 @@ Please submit all deliverables with the submission form URL you customized in th
   - [For in Class 3]({{ site.url }}/pt/shared/pairing_1)
   - [For in Class 5]({{ site.url }}/pt/shared/pairing_2)
   - [Optional]({{ site.url }}/pt/shared/pairing_3)
-
+* [Next 3-4 Weeks Plan]({{ site.url }}/pt/shared/plan)
 
 ## Tools
 
