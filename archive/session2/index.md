@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Session 2
 subheading: Git
@@ -321,4 +321,4 @@ We do not expect you to have these steps and reasons memorized right now. You ca
 
 Find the Homework in your Mod 0 Project Board. Post in the Mod 0 Slack channel if you have questions as you work through it (and don't be afraid to help each other out).
 
-<br><br>
+<br><br> -->

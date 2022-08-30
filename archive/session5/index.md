@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Session 5
 subheading: Arrays, Reviewing, Paired Challenge
@@ -47,4 +47,4 @@ We will breakout into program specific groups to learn how to use these more adv
 - Check the calendar for Mod 1 Orientation
 - Continue to use Slack channels as a place to collaborate with your cohort
 
-<br><br>
+<br><br> -->

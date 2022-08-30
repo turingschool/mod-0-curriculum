@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Homework
 ---
@@ -28,4 +28,4 @@ For your homework and Mod 0 Project you will be receiving feedback directly in G
 
 The homework and Mod 0 Project are designed to push you out of your comfort zone. We are looking to see how you grapple with these concepts and are not as concerned about getting a correct solution. However, when you do get stuck—ask questions in your Mod 0 Slack channel! Reaching out for help leads to the fastest answers. Plus, your peers and instructors benefit from the questions you ask.
 
-<br>
+<br> -->

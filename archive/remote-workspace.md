@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:     page
 title:      Remote Workspace
 permalink:  remote-workspace
@@ -90,4 +90,4 @@ You'll be staring at your computer screens a lot over the course of your journey
 
 - Pets
 - Healthy snacks
-- Access to fresh air
+- Access to fresh air -->

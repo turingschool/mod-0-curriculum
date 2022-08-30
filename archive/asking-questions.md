@@ -1,4 +1,4 @@
-## How To Ask Questions That Lead to Answers
+<!-- ## How To Ask Questions That Lead to Answers
 As you launch into your technical career, you are going to have questions. Tons of them! The challenge for new developers is learning WHEN and HOW to ask questions around technical content!
 
 ## When You Should Ask a Question
@@ -70,4 +70,4 @@ This is a strong question because:
 - Provided relevant error message using `inline code`
 - Provided relevant code in a larger code block
 
-By providing these examples and context, it allows other developers to try to recreate this problem on their own and find solutions! As often is the case, this specific problem was due to a very minor typo in their function call - this developer didn't spell their function name correctly! Specifically, they called their function using `saySomethin(...)` when the function name is `saySomething()`
+By providing these examples and context, it allows other developers to try to recreate this problem on their own and find solutions! As often is the case, this specific problem was due to a very minor typo in their function call - this developer didn't spell their function name correctly! Specifically, they called their function using `saySomethin(...)` when the function name is `saySomething()` -->

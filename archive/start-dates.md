@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:     page
 title:      Mod 0 Start Dates
 subheading: All sessions are held remotely via Zoom
@@ -59,4 +59,4 @@ permalink:  start-dates
 - **Session 2:** 5/26 @ 6:15pm MST
 - **Session 3:** 5/31 @ 6:15pm MST
 - **Session 4:** 6/2 @ 6:15pm MST
-- **Session 5:** 6/7 @ 6:15pm MST
+- **Session 5:** 6/7 @ 6:15pm MST -->
