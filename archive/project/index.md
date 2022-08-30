@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Mod 0 Project
 ---
@@ -20,4 +20,4 @@ The project involves both technical and career development work. The expectation
 
 Have some extra time before starting Mod 1? [Jump here](./extensions) to check out our extension ideas! 
 
-<br>
+<br> -->

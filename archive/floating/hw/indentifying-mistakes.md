@@ -1,4 +1,4 @@
-### 4. Identifying Mistakes (15 min)
+<!-- ### 4. Identifying Mistakes (15 min)
 
 The following code examples each contain a mistake. Describe the problem for each.
 
@@ -61,4 +61,4 @@ end</td>
       <td>The problem is...</td>
     </tr>
   </tbody>
-</table>
+</table> -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Mod 0 Technical Assessment
 subheading: Carefully read all instructions below BEFORE starting!
@@ -33,4 +33,4 @@ As a reminder, the Technical Assessment is only ONE of the data points we use to
 **Your instructors will leave feedback directly in your GitHub repository via an `Issue`** - be sure to have notifictions set to receive emails on your GitHub so you will be notified when your feedback has come through and check your email a few days after submitting the Technical Assessment.
 
 ## Ready to Begin?
-[Click this link](https://github.com/turingschool/mod0_assessment1) when you are ready to begin your Technical Assessment! 
+[Click this link](https://github.com/turingschool/mod0_assessment1) when you are ready to begin your Technical Assessment!  -->

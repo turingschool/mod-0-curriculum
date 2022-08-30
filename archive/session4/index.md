@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Session 4
 subheading: Data Types, Variables
@@ -34,4 +34,4 @@ We are going to break out into program specific groups to start working through 
 - It is recommended you've completed _at least_ Sections 0 and 1 of the Mod 0 Project by now. If you haven't, take time to arrange your schedule for the next week to ensure the project is complete and on time.
 - Your Homework for tonight's session will not be reviewed by a TA outside of class; the expectation is that you are prepared to discuss your reflections with small groups and possibly the whole class.
 
-<br><br>
+<br><br> -->

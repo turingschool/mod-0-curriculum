@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Session 3
 subheading: GitHub
@@ -209,4 +209,4 @@ Reminders:
 - The Homework for Session 3 will follow the same patterns as established in Homeworks 1 and 2. Please post a message in the Mod 0 Slack channel if you need any support!
 - It is recommended that you complete _at least_ Sections 0 and 1 of the Mod 0 Project by the time you attend Session 4. It is your responsibility to manage your time towards this deadline.
 
-<br><br>
+<br><br> -->
