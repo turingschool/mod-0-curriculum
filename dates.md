@@ -3,52 +3,37 @@ layout: page
 title: Mod 0 Course Dates
 ---
 
-Both part-time and full-time options involve live sessions, recorded content, self-paced work, and peer-to-peer collaboration. During a part-time option, students can expect to work 20-25 hours/week during the course. During a full-time option, students can expect to work 9-10 hours/day.
-
-## Courses for students enrolled in 2208 Mod 1
-
-### ~~Mod 0 Part-time:~~ CLOSED
-- Start Date: July 5
-- End Date: July 20
-
-### Mod 0 Full-time: 
-- Front End _and_ Back End: August 1-5
-
-
-## Courses for students enrolled in 2210 Mod 1
-
-### Mod 0 Part-time:
-Front End and Back End run at the same time:
-- Start Date: August 22
-- End Date: September 9
-
-### Mod 0 Full-time: 
-- Back End: September 12-16
-- Front End: September 19-23
+There are two formats for completing Mod 0. Both the classic version and the intensive version involve live sessions, recorded content, self-paced work, and peer-to-peer collaboration. 
+- In the **classic format**, students can expect to work 18-20 hours/week during a 3-week period with live sessions in the evening. 
+- In the **intensive format**, students can expect to work 10-12 hours/day during a 1-week period with live sessions in the morning.
 
 
 ## Courses for students enrolled in 2211 Mod 1
 
-### Mod 0 Part-time:
-Front End and Back End run at the same time:
-- Start Date: October 10
-- End Date: October 28
+### Classic Mod 0
+- October 10-October 28 (Front End & Back End)
+- Live sessions in the **evening**
+- Complete all assignments during a 3-week period
 
-### Mod 0 Full-time: 
-- Back End: October 31 - November 4
-- Front End: November 7-11
-
+### Intensive Mod 0
+- October 31-November 4 (Back End)
+- November 7-November 11 (Front End)
+- Live sessions in the **morning**
+- Complete all assignments during 1 week
 
 ## Courses for students enrolled in 2301 Mod 1
 
-### Mod 0 Part-time:
-Front End and Back End run at the same time:
-- Start Date: November 28
-- End Date: December 16
+### Classic Mod 0 
+- November 28-December 16 (Front End & Back End)
+- Live sessions in the **evening**
+- Complete all assignments during a 3-week period
 
-### Mod 0 Full-time: 
-- Back End: January 2 - 6
-- Front End: January 9 - 13
+### Intensive Mod 0
+- January 2-January 6 (Back End)
+- January 9-January 13 (Front End)
+- Live sessions in the **morning**
+- Complete all assignments during 1 week
+
 
 <br>
 <br>

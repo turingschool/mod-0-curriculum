@@ -28,8 +28,8 @@ title: Home
   <br>
   <br>
   <a class="s-button" href="/dates">Mod 0 Dates</a>
-  <a class="s-button" href="/pt">Part Time Option</a>
-  <a class="s-button" href="/ft">Full Time Option</a>
+  <a class="s-button" href="/pt">Classic Format</a>
+  <a class="s-button" href="/ft">Intensive Format</a>
   <a class="s-button" href="/info">Where to Get Info</a>
 </section>
 
