@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:     page
 title:      Before Starting Mod 0 
 permalink:  before-mod-0
@@ -66,4 +66,4 @@ _This is for students in the part-time option only._
 
 [Follow the instructions in the Homework section]({{ site.url }}/homework) to get your Trello board set up.
 
-<br>
+<br> -->
