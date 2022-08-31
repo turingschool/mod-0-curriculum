@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Part-Time Resources
+title: Classic Format Resources
 ---
 
 - [Before Mod 0]({{ site.baseurl }}/pt/shared/before-mod-0)

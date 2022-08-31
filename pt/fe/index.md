@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Front End, Part-Time Resources
+title: Front End, Classic Format Resources
 ---
 
 <p>Copy <a href="https://trello.com/b/TRjtFHzx/mod-0-fe-part-time" target="blank">this Trello board</a> to get started.</p>

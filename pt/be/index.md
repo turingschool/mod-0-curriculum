@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Back End, Part-Time Resources
+title: Back End, Classic Format Resources
 ---
 
 <p>Copy <a href="https://trello.com/b/TahIw1yf/mod-0-be-part-time" target="blank">this Trello board</a> to get started.</p>

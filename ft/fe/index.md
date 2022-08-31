@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Front End, Full-Time Resources
+title: Front End, Intensive Format Resources
 ---
 
 <p>Copy <a href="https://trello.com/b/63gwsc5k/mod-0-fe-full-time" target="blank">this Trello board</a> to get started.</p>
