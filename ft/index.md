@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Full Time Resources
+title: Intensive Format Resources
 ---
 
 - [Before Mod 0]({{ site.baseurl }}/ft/shared/before-mod-0)

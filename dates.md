@@ -10,12 +10,12 @@ There are two formats for completing Mod 0. Both the classic version and the int
 
 ## Courses for students enrolled in 2211 Mod 1
 
-### Classic Mod 0
+### Mod 0 Classic 
 - October 10-October 28 (Front End & Back End)
 - Live sessions in the **evening**
 - Complete all assignments during a 3-week period
 
-### Intensive Mod 0
+### Mod 0 Intensive 
 - October 31-November 4 (Back End)
 - November 7-November 11 (Front End)
 - Live sessions in the **morning**
@@ -23,12 +23,12 @@ There are two formats for completing Mod 0. Both the classic version and the int
 
 ## Courses for students enrolled in 2301 Mod 1
 
-### Classic Mod 0 
+### Mod 0 Classic 
 - November 28-December 16 (Front End & Back End)
 - Live sessions in the **evening**
 - Complete all assignments during a 3-week period
 
-### Intensive Mod 0
+### Mod 0 Intensive 
 - January 2-January 6 (Back End)
 - January 9-January 13 (Front End)
 - Live sessions in the **morning**

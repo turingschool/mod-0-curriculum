@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Back End, Full-Time Resources
+title: Back End, Intensive Format Resources
 ---
 
 <p>Copy <a href="https://trello.com/b/BJlBXegK/mod-0-be-full-time" target="blank">this Trello board</a> to get started.</p>
