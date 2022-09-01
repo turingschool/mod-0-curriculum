@@ -17,7 +17,7 @@ title: Home
 
 <section class="main-content">
   <h2>Welcome to Mod 0</h2>
-  <p>Mod 0 is a required course designed to ensure students are ready to begin engaging with technical content on the first day of Mod 1. The course supports students in the following areas:</p>
+  <p>Mod 0 is a <strong>required course</strong> designed to ensure students are ready to begin engaging with technical content on the first day of Mod 1. The course supports students in the following areas:</p>
   <ul>
     <li>Becoming familiar with the systems and tools we use at Turing</li>
     <li>Setting expectations for what engagement, productive struggle, and feedback will be like as a Turing student</li>
