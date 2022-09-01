@@ -21,18 +21,9 @@ There are two formats for completing Mod 0. Both the classic version and the int
 - Live sessions in the **morning**
 - Complete all assignments during 1 week
 
-## Courses for students enrolled in 2301 Mod 1
+## Upcoming Mod 0 Start Dates
 
-### Mod 0 Classic 
-- November 28-December 16 (Front End & Back End)
-- Live sessions in the **evening**
-- Complete all assignments during a 3-week period
-
-### Mod 0 Intensive 
-- January 2-January 6 (Back End)
-- January 9-January 13 (Front End)
-- Live sessions in the **morning**
-- Complete all assignments during 1 week
+![Table with all upcoming Mod 0 Start Dates](assets/images/mod-0-dates.png)
 
 
 <br>
