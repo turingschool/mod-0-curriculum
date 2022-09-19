@@ -46,7 +46,7 @@ title: Atom & Markdown
 
 <div class="s-card s-border-yellow-500">
   <h3>Pro Tip</h3>
-  <p>It can sometimes be hard to tell if you are writing valid Markdown. Use a Markdown Preview Tool such as <a href="https://markdownlivepreview.com/" target="blank">Markdown Live Preview</a> to ensure your Markdown renders as expected. If you are writing Markdown in Atom, you can use the Markdown Previewer which can be opened with the shortcut <code> ctrl + shft + m</code>.</p>
+  <p>It can sometimes be hard to tell if you are writing valid Markdown. Use a Markdown Preview Tool such as <a href="https://markdownlivepreview.com/" target="blank">Markdown Live Preview</a> to ensure your Markdown renders as expected. If you are writing Markdown in Atom, you can use the Markdown Previewer which can be opened with the shortcut <code> ctrl + shift + m</code>.</p>
 </div>
 <br>
 
@@ -86,6 +86,7 @@ To maximize your time as a developer, use of <span class="vocab">keyboard shortc
 - `cmd + a` - highlights the entire file
 - `cmd + right arrow` - takes your cursor to end of the current line
 - `cmd + left arrow` - takes your cursor to start of the current line
+- `cmd + q` - quits the application
 
 <div class="s-card">
   <h3>Atom Keyboard Shortcuts</h3>
@@ -137,6 +138,6 @@ Complete the challenges below to continue to build fluency with using your Termi
 
 ## Check For Understanding
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/9dce3499a045f8bc5f00508ef1ccf0c3) and submit your fork of it in the submission Form.
+To complete this assignment, record your screen while you complete Challenge #1 or Challenge #2. Remember to talk through every step using technical vocabulary as you record. When you are finished, share both your video and your Mod 0 Game Plan gist with your small group Slack channel.
 
 <br><br>
