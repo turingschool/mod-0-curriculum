@@ -391,6 +391,6 @@ In your Terminal, recreate the file structures shown in the diagrams below. Assu
 
 ## Check For Understanding
 
-<a href="https://gist.github.com/ameseee/db5de325c40100dde3d6a5ad4888fa29" target="_blank">Follow the directions in this Gist</a> and submit your fork of it in the submission form.
+Record your screen and audio while completing Practice Challenge #1 or #2 from the lesson. If you already practiced them once without recording, you can always remove the directory you created the first time to record again. Practice articulating exactly what you are doing every step of the way with technical vocabulary, so you are prepared to "pair" program. After recording your video, share it in your small group Slack channel. [Loom](https://www.loom.com/) is an excellent web-based tool for recording videos, but you can also record on Zoom or QuickTime (free and already installed on all Macs).
 
 <br><br>
