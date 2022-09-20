@@ -32,10 +32,11 @@ By the end of this session, you'll be able to use a feature of the Chrome browse
 - The Dev Tools can be displayed with Dark Mode or Light Mode. Adjustments can be made to that in the "Settings" of the Dev Tools which can be found by clicking the small gear icon
 - When you open the Dev Tools console, depending on the site you are on, you might see warnings or errors. You can type `clear()` and hit `return` at anytime to clear those out
 
-![Screenshot of Chrome Dev Tools with 3 dot icon and gear icon circled](./assets/console.png)
+![Screenshot of Chrome Dev Tools with 3 dot icon and gear icon circled](../../assets/console.png)
+
 
 <div class="try-it">
-  <h3>You Do: Chrome Dev Tools</h3> 
+  <h3>You Do: Chrome Dev Tools</h3>
   <ul>
     <li>Open the Dev Tools in the Chrome browser using the keyboard shortcut.</li>
     <li>Practice adjusting the size of the Dev Tools.</li>
@@ -76,7 +77,7 @@ To connect to how these data types are used in an application we all have some e
 
 ## Variables
 
-Pieces of data in the various types we've discussed so far are valid JavaScript code just as they are. We can demonstrate that by typing `"helloworld@gmail.com"` or `37` or `false` into the Chrome Dev Tools Console. We know they are valid because we don't get an error. If `helloworld@gmail.com` is typed in, we _will_ get an error, and possibly a helpful suggestion! 
+Pieces of data in the various types we've discussed so far are valid JavaScript code just as they are. We can demonstrate that by typing `"helloworld@gmail.com"` or `37` or `false` into the Chrome Dev Tools Console. We know they are valid because we don't get an error. If `helloworld@gmail.com` is typed in, we _will_ get an error, and possibly a helpful suggestion!
 
 However, if we ever want to reference that email address ever again in our code, the only way would be to read that part of the screen and manually type it out again - and that's not going to make for a very efficient application.
 
@@ -96,7 +97,7 @@ var depositPaid = true
 
 If our JavaScript program has data stored in variables, we are able to reference those variables at any time to access the data. This can be demonstrated in the Chrome Dev Tools Console.
 
-![Screenshot of Chrome Dev Tools with variables declared and called](./assets/console2.png)
+![Screenshot of Chrome Dev Tools with variables declared and called](../../assets/console2.png)
 
 ### Best Practices for Naming Variables
 
