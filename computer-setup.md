@@ -18,11 +18,11 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 - [Enable Screen Sharing](#enable-screen-sharing)
 - [Install Xcode-select](#install-xcode-select)
 - [Install Homebrew](#install-homebrew)
-- [Install and Configure Atom](#install-and-configure-atom)
+- [Install and Configure Visual Studio Code](#install-and-configure-vs-code)
 - [Install Git](#install-git)
 - [Configure GitHub](#configure-github)
-- [Install Node](#install-nvm-node)
 - [Install rbenv](#install-rbenv)
+- [Install Node](#install-nvm-node)
 
 ### New to Mac?
 
@@ -193,30 +193,26 @@ Homebrew is a package management system that allows us to install and run variou
 
 <br>
 
-### Install and Configure Atom
+### Install and Configure VS Code
 
-Atom is a code editor which is a program where we write and edit code. You've probably used Word or Google Documents in the past; this is similar, but a program specifically designed for code to be written in. There are many code editors available, and once you get a foundation you may choose to use others. We ask all students in Mod 0 and Mod 1 to use Atom so that staff can best support students and so that students can easily collaborate with one another.
-
-**Action Steps:**
-- [Download and install Atom](https://atom.io/)
-- After downloading Atom, **ensure** that Atom appears in your Applications folder and is no longer in your Downloads folder!  
-
-Atom is where we write the code that powers our applications, but we'll also do important work in the Terminal. We need our Terminal to be able to "talk to" Atom.
+Visual Studio Code (VS Code) is a code editor, which is a program where we write and edit code. You've probably used Word or Google Documents in the past; this is similar, but a program specifically designed for writing code. There are many code editors available, and once you get a foundation you may choose to use others. We ask all students in Mod 0 and Mod 1 to use VS Code, so that staff can best support students and students can easily collaborate with one another.
 
 **Action Steps:**
-- Open Atom (from your Applications folder)
-- Drop down the `Atom` menu in the top left corner of your screen, and click "Install Shell Commands"
-- Confirm the Atom Shell Commands are installed properly by taking the following steps:
-  1. Open the Terminal with Spotlight search (`command + space`, start typing `Terminal` and press `return`)
-  1. Run `atom .` in the Terminal. **Be sure to include a space between `atom` and the `.`** If it is setup correctly, Atom will automatically open
-  1. If you get an error, make sure Atom is in the Applications folder, not the Downloads folder
-  1. If you _still_  get an error, make sure you've selected `Install Shell Commands` from the Atom menu
-  1. If it is _still_ not working, run the following command:
+- [Download and install Visual Studio Code](https://code.visualstudio.com/)
+- After downloading VS Code, **ensure** that VS Code appears in your Applications folder and is no longer in your Downloads folder!  
 
-  ```
-  $ ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+VS Code is where we write the code that powers our applications, but we'll also do important work in the Terminal. We need our Terminal to be able to "talk to" VS Code.
 
-  ```
+**Action Steps:**
+- Open VS Code (from your Applications folder)
+- Add VS Code to your Dock permanently by right-clicking on the icon (located in the Dock) and then select Options, followed by Keep in Dock
+- Open the Command Palette (`command + shift + p`) and type 'shell command' to find the Shell Command: **Install 'code' command in PATH command**.
+- Confirm the Shell Command is installed properly by taking the following steps:
+  1. Quit VS Code (`command + q`).
+  1. Open a new window in Terminal with the Spotlight search (`command + space`, start typing `Terminal` and press `return`).
+  1. Run `code .` in the Terminal. Be sure to include a space between `code` and the `.` If the Shell Command is installed correctly, VS Code will automatically open.
+  1. Once you have confirmed this is working, quit VS Code (`command + q`) and continue with the computer setup!
+
 
 <br>
 
@@ -253,7 +249,7 @@ Note: Git is not the same thing as GitHub. You'll learn more about how they inte
   $ git config --global user.name "Eric Weissman"
   $ git config --global user.email eric@example.com
   $ git config --global init.defaultBranch main
-  $ git config --global core.editor "atom --wait"
+  $ git config --global core.editor "code --wait"
   $ git config --global pull.rebase false
   ```
 
@@ -314,6 +310,32 @@ SSH keys are a secure and convenient way to authenticate. We won't get into more
   Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
   ```
 
+### Install rbenv
+
+**Action Items:**
+- Install `rbenv` and verify it was installed correctly by taking the following steps:
+  1. In the Terminal, run `brew update`. This may take several minutes
+  1. Run `brew install rbenv`. This may also take several minutes
+  1. Run `rbenv init`. The output should be _something_ like:
+    ```
+    # Load rbenv automatically by appending
+    # the following to ~/.zshrc
+    .
+    eval "$(rbenv init -)"
+    ```
+  1. Run `code ~/.zshrc`. VS Code should open to a blank file, the `zshrc` file. Inside this file, type or copy-and-paste in: `eval "$(rbenv init -)"`. Save the file.
+  1. Close the Terminal using `command + q` - this is absolutely neccessary! Clicking the red dot in the corner is not a substitute
+  1. Re-open the Terminal, and run `rbenv versions`. As long as you don't get an error message, `rbenv` has been installed correctly
+- Use `rbenv` to change Ruby versions by taking the following steps:
+  1. In the Terminal, run `rbenv install 2.7.2`. This may take several minutes, and will likely print a lot of output. Wait patiently until it finishes/the command prompt returns
+  1. Run `rbenv versions`. You should now see `2.7.2` listed
+  1. Run `rbenv local 2.7.2` 
+  1. Run `ruby -v`. The output should be something like `ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]`. If the output does not include `ruby 2.7.2`, `command + q` out of the Terminal and start this step over. If you still aren't seeing `ruby 2.7.2`, check that you correctly followed the step above to edit your `.zshrc` file.
+  1. Run `rbenv global 2.7.2` then `rbenv rehash`. You should not expect any output from those commands
+- If you've followed these steps and are having issues, please DM the Mod 0 Lead on Slack ASAP. It is essential `rbenv` is installed on your machine correctly.
+
+<br>
+
 ### Install NVM + Node
 
 To write JavaScript in the command line and use essential "packages" while building apps, `node` and `npm` must be on the machine. `nvm` allows us to easily change the version of node our machine is using. This applies to both Front End and Back End students.
@@ -330,30 +352,8 @@ To write JavaScript in the command line and use essential "packages" while build
   1. In the Terminal, run `nvm install 16.15.1`
   1. Run `nvm use 16.15.1`. The output should say _something_ like `Now using node -v16.15.1 (npm v8.11.0)
 
-<br>
 
-### Install rbenv
 
-**Action Items:**
-- Install `rbenv` and verify it was installed correctly by taking the following steps:
-  1. In the Terminal, run `brew update`. This may take several minutes
-  1. Run `brew install rbenv`. This may also take several minutes
-  1. Run `rbenv init`. The output should be _something_ like:
-    ```
-    # Load rbenv automatically by appending
-    # the following to ~/.zshrc
-    .
-    eval "$(rbenv init -)"
-    ```
-  1. Run `atom ~/.zshrc`. Atom should open to a blank file, the `zshrc` file. Inside this file, type or copy-and-paste in: `eval "$(rbenv init -)"`. Save the file.
-  1. Close the Terminal using `command + q` - this is absolutely neccessary! Clicking the red dot in the corner is not a substitute
-  1. Re-open the Terminal, and run `rbenv versions`. As long as you don't get an error message, `rbenv` has been installed correctly
-- Use `rbenv` to change Ruby versions by taking the following steps:
-  1. In the Terminal, run `rbenv install 2.7.2`. This may take several minutes, and will likely print a lot of output. Wait patiently until it finishes/the command prompt returns
-  1. Run `rbenv versions`. You should now see `2.7.2` listed
-  1. Run `rbenv local 2.7.2` 
-  1. Run `ruby -v`. The output should be something like `ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]`. If the output does not include `ruby 2.7.2`, `command + q` out of the Terminal and start this step over. If you still aren't seeing `ruby 2.7.2`, check that you correctly followed the step above to edit your `.zshrc` file.
-  1. Run `rbenv global 2.7.2` then `rbenv rehash`. You should not expect any output from those commands
-- If you've followed these steps and are having issues, please DM the Mod 0 Lead on Slack ASAP. It is essential `rbenv` is installed on your machine correctly.
+
 
 <br>
