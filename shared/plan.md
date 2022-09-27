@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Next 3-4 Weeks Plan
+title: Before Mod 1 Plan
 ---
 
 As you finish Mod 0 and now have about 4 weeks until Mod 1 starts, your team of Instructors want to support you in maintaining strong habits, taking care of yourself, and coming into Mod 1 in a great place. To do this well, you need to approach this precious time thoughtfully.
