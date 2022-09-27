@@ -6,9 +6,9 @@ title: Front End Resources
 <p>Copy <a href="https://trello.com/b/TRjtFHzx/mod-0-fe-part-time" target="blank">this Trello board</a> to get started.</p>
 
 ## Before Kickoff Session
-* Read the Syllabus
-* Complete all Computer Setup
-* [Asking Technical Questions]({{ site.url }}/shared/shared/asking_qs) 
+* Read the [Syllabus]({{ site.url }}/syllabus) 
+* Complete all [Computer Setup]({{ site.url }}/computer-setup) 
+* [Asking Technical Questions]({{ site.url }}/shared/asking_qs) 
 * Markdown
 
 ## Segment 1 - Completed By Session 2
