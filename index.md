@@ -6,7 +6,7 @@ title: Home
 <section class="splash">
   <div class="splash-text">
     <h1>Mod 0 Curriculum</h1>
-    <p>Prepare for Turing by understanding and practicing the tools, behaviors, and mindsets necessary for success in Turing's program.</p>
+    <p>Prepare for Turing by understanding and practicing the tools, habits, and mindsets necessary for success in Turing's program.</p>
   </div>
 </section>
 <section class="tri-color-border">
