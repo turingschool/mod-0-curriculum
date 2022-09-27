@@ -9,20 +9,20 @@ title: Back End Resources
 * Read the [Syllabus]({{ site.url }}/syllabus) 
 * Complete all [Computer Setup]({{ site.url }}/computer-setup) 
 * [Asking Technical Questions]({{ site.url }}/shared/asking_qs) 
-* Markdown
+* [Markdown]({{ site.url }}/shared/markdown) 
 
 ## Segment 1 - Completed By Session 2
 * [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
 * [Terminal]({{ site.url }}/shared/terminal)
-* [Atom & Markdown]({{ site.url }}/shared/vs-code)
+* [VS Code]({{ site.url }}/shared/vs-code)
 * [Git Workflow]({{ site.url }}/shared/git)
 * <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a>
 
 ## Segment 2 - Completed By Session 3
 * [GitHub]({{ site.url }}/shared/github)
-* [Pair Programming]({{ site.url }}/shared/pairing)
 * [Data Types]({{ site.url }}/back-end/data_types)
 * [Mentorship Prep]({{ site.url }}/shared/mentorship)
+* [Pair Programming]({{ site.url }}/shared/pairing)
 * [Pairing 1]({{ site.url }}/shared/pairing_1)
 
 ## Segment 3 - Completed By Session 4
@@ -38,8 +38,9 @@ title: Back End Resources
 * [Pairing 3]({{ site.url }}/shared/pairing_3)
 
 ## Segment 5 - Completed By Evaluations
-* Problem-Solving
-* [Next 3-4 Weeks Plan]({{ site.url }}/shared/plan)
+* [Problem-Solving]({{ site.url }}/shared/problem-solving)
+* [Pairing 4]({{ site.url }}/shared/pairing_4)
+* [Before Mod 1 Plan]({{ site.url }}/shared/plan)
 
 <br>
 <br>

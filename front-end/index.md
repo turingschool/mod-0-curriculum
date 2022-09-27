@@ -9,37 +9,38 @@ title: Front End Resources
 * Read the [Syllabus]({{ site.url }}/syllabus) 
 * Complete all [Computer Setup]({{ site.url }}/computer-setup) 
 * [Asking Technical Questions]({{ site.url }}/shared/asking_qs) 
-* Markdown
+* [Markdown]({{ site.url }}/shared/markdown) 
 
 ## Segment 1 - Completed By Session 2
-* [Calendaring & Time Management]({{ site.url }}/shared/shared/calendaring)
-* [Terminal]({{ site.url }}/pt/shared/terminal)
-* [Atom & Markdown]({{ site.url }}/pt/shared/atom)
-* [Git Workflow]({{ site.url }}/shared/shared/git)
+* [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
+* [Terminal]({{ site.url }}/shared/terminal)
+* [VS Code]({{ site.url }}/shared/vs-code)
+* [Git Workflow]({{ site.url }}/shared/git)
 * <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a>
 
 ## Segment 2 - Completed By Session 3
-* [GitHub]({{ site.url }}/shared/shared/github)
-* [Pair Programming]({{ site.url }}/ft/shared/pairing)
-* [Data Types]({{ site.url }}/pt/fe/data_types)
-* [Mentorship Prep]({{ site.url }}/shared/shared/mentorship)
-* [Pairing 1]({{ site.url }}/pt/shared/pairing_1)
+* [GitHub]({{ site.url }}/shared/github)
+* [Data Types]({{ site.url }}/front-end/data_types)
+* [Mentorship Prep]({{ site.url }}/shared/mentorship)
+* [Pair Programming]({{ site.url }}/shared/pairing)
+* [Pairing 1]({{ site.url }}/shared/pairing_1)
 
 ## Segment 3 - Completed By Session 4
-* [Conditionals]({{ site.url }}/shared/fe/conditionals)
-* [Arrays]({{ site.url }}/shared/fe/arrays)
-* [For Statements]({{ site.url }}/shared/fe/for)
-* [DTR Prep]({{ site.url}}/shared/shared/dtr)
-* [Pairing 2]({{ site.url }}/pt/shared/pairing_2)
+* [Conditionals]({{ site.url }}/front-end/conditionals)
+* [Arrays]({{ site.url }}/front-end/arrays)
+* [For Statements]({{ site.url }}/front-end/for)
+* [DTR Prep]({{ site.url}}/shared/dtr)
+* [Pairing 2]({{ site.url }}/shared/pairing_2)
 
 ## Segment 4 - Completed By Session 5
-* [Object Literals]({{ site.url }}/shared/fe/objects)
-* [Functions]({{ site.url }}/shared/fe/functions)
-* [Pairing 3]({{ site.url }}/pt/shared/pairing_3)
+* [Object Literals]({{ site.url }}/front-end/objects)
+* [Functions]({{ site.url }}/front-end/functions)
+* [Pairing 3]({{ site.url }}/shared/pairing_3)
 
 ## Segment 5 - Completed By Evaluations
-* Problem-Solving
-* [Next 3-4 Weeks Plan]({{ site.url }}/pt/shared/plan)
+* [Problem-Solving]({{ site.url }}/shared/problem-solving)
+* [Pairing 4]({{ site.url }}/shared/pairing_4)
+* [Before Mod 1 Plan]({{ site.url }}/shared/plan)
 
 <br>
 <br>
