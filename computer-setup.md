@@ -8,7 +8,6 @@ Complete the following steps before your first Mod 0 session in order to get the
 
 Here's what we'll cover in this guide. Click a link to jump to that portion of the guide:
 
-- [New to Mac?](#new-to-mac)
 - [Install Rectangle](#install-rectangle)
 - [Install Chrome](#install-chrome)
 - [Install Slack](#install-slack)
@@ -28,15 +27,6 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 
 <br>
 
-### New to Mac?
-
-If this is your first time using a Mac, it is recommended you spend some time learning about the basics of using a Mac and getting comfortable with it.
-
-**Action Steps:**
-- _(Optional) Watch [Mac Tutorial for Beginners](https://www.youtube.com/watch?v=67keaaWOKzE&t=0s)_
-
-<br>
-
 ### Install Rectangle
 
 Rectangle is a screen management application that allows you to move and resize windows to maximize your screen space as well as your time.
@@ -44,8 +34,8 @@ Rectangle is a screen management application that allows you to move and resize 
 Once you've installed Rectangle, open the application and it will run in the background. You should see a smaller version of the Rectangle icon in the top right corner of your screen.
 
 **Action Steps:**
-- [Download and install Rectangle](https://rectangleapp.com/)
-- Take some time to play around with the commands to adjust the position and size of different windows on your screen using the Rectangle keyboard shortcuts
+- [Download and install Rectangle](https://rectangleapp.com/).
+- Take some time to play around with the commands to adjust the position and size of different windows on your screen using the Rectangle keyboard shortcuts.
 
 <br>
 
@@ -54,7 +44,7 @@ Once you've installed Rectangle, open the application and it will run in the bac
 Chrome includes a set of Developer Tools that will come in handy down the road. Additionally, it is always on the cutting edge of supporting new web technologies.
 
 **Action Steps:**
-- _If you haven't already,_ [download and install Chrome](https://www.google.com/chrome/)
+- _If you haven't already,_ [download and install Chrome](https://www.google.com/chrome/).
 - Set Chrome as your default browser: 
   - In your Chrome window, select the More menu by clicking on the three dots.
   - Select `Settings` from the list.
@@ -70,9 +60,9 @@ Slack is our main communication tool at Turing. **You will receive an invitation
 - [Download and install the Slack desktop application](https://slack.com/downloads/mac)
 
 To ensure that you are prepared for your first session:
-- Watch the [Slack Tutorial Video](https://www.youtube.com/watch?v=tfq333EpWgM)
-- Upload a clear and appropriate headshot for your profile image
-- Set up your Slack profile to include your cohort, program, pronouns, and timezone
+- Watch the [Slack Tutorial Video](https://www.youtube.com/watch?v=tfq333EpWgM).
+- Upload a clear and appropriate headshot for your profile image.
+- Set up your Slack profile to include your cohort, program, pronouns, and time zone.
 - Practice the following (direct message yourself to practice!):
   - How to start a thread
   - How to reply in a thread
@@ -90,8 +80,8 @@ To ensure that you are prepared for your first session:
 [Replit](https://replit.com/~) provides an online platform that allows us to write code and see the results almost immediately - all inside of one browser tab! There are many other similar (and awesome) tools available but replit is used regularly in Mods 1 and 2, so Mod 0 provides an introduction and some exposure.
 
 Follow the steps below (if they are not necessary because you have already done them or have experience with replit, you can skip this):
-- Create a free account
-- [Bookmark this webpage on Chrome](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop), so that you can easily find it again later
+- Create a free account.
+- [Bookmark this webpage on Chrome](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop), so that you can easily find it again later.
 - [Watch this video](https://www.youtube.com/watch?v=cnLE3bH6fHE) to learn how to navigate the interface and create new projects.
 
 <br>
@@ -101,7 +91,7 @@ Follow the steps below (if they are not necessary because you have already done 
 [Trello](https://trello.com/) is a Kanban-style project management tool we will use in Mod 0. It and other similar tools are used by most software developers to manage the tasks within a project.
 
 - Please create a free account with Trello.
-- [Bookmark this webpage on Chrome](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop), so that you can easily find it again later
+- [Bookmark this webpage on Chrome](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop), so that you can easily find it again later.
 
 <br>
 
@@ -109,8 +99,8 @@ Follow the steps below (if they are not necessary because you have already done 
 
 [Loom](https://www.loom.com/) is a free online video tool that allows you to create instantly shareable videos. With Loom, you can record your camera, microphone, and desktop simultaneously. You will be required to submit videos throughout Mod 0 as part of the coursework. Although you can use other tools to accomplish the same goal, we strongly recommend using Loom as it is extremely user-friendly.
 
-Please create a free account with Loom. 
-- [Bookmark this webpage on Chrome](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop), so that you can easily find it again later
+- Please create a free account with Loom.
+- [Bookmark this webpage on Chrome](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop), so that you can easily find it again later.
 - If you've never used Loom before, [watch this video](https://youtu.be/iugmJe8uDLE) to familiarize yourself with this tool.
 
 <br>
@@ -121,10 +111,10 @@ Zoom is the primary tool for classroom time, study halls, and community building
 
 **Action Steps:**
 - [Download and install Zoom](https://zoom.us/download/) for _Macs with Apple Silicon chips_
-- If you haven't already, create an account with Zoom
-- [Update your name in your profile](https://support.zoom.us/hc/en-us/articles/201363203-My-Profile) following this pattern: First Name, Last Initial, pronouns, Program - `Kaitlyn V (she/her), FE`
-- [Learn how to raise your hand](https://support.zoom.us/hc/en-us/articles/205566129-Raise-Hand-In-Webinar)
-- Give your Zoom account screen sharing permission and microphone permission
+- If you haven't already, create an account with Zoom.
+- [Update your name in your profile](https://support.zoom.us/hc/en-us/articles/201363203-My-Profile) following this pattern: First Name, Last Initial, pronouns, Program - `Kaitlyn V (she/her), FE`.
+- [Learn how to raise your hand](https://support.zoom.us/hc/en-us/articles/205566129-Raise-Hand-In-Webinar).
+- Give your Zoom account screen sharing permission and microphone permission.
 
 <br>
 
@@ -134,10 +124,10 @@ Turing is a fully remote and highly collaborative program, which means you will 
 
 **Action Steps:**
 - Enable screen sharing permissions by taking the following steps:
-1. Open the System Preferences app by pressing the `command + space` keys at the same time, which opens Spotlight. Then, start typing "System Preferences"; it will auto-fill. Press `return` and the System Preferences application will open
-1. Click `Security and Privacy`
-1. Click the `Privacy` tab
-1. Scroll down to Screen Recording and click the small "plus sign" button. In the window that opens, navigate to the Applications, then click on "Zoom"
+1. Open the System Preferences app by pressing the `command + space` keys at the same time, which opens Spotlight. Then, start typing "System Preferences"; it will auto-fill. Press `return` and the System Preferences application will open.
+1. Click `Security and Privacy`.
+1. Click the `Privacy` tab.
+1. Scroll down to Screen Recording and click the small "plus sign" button. In the window that opens, navigate to the Applications, then click on "Zoom".
 
 <br>
 
@@ -160,9 +150,9 @@ Rather than download Xcode via the Apple Store, we can get a much smaller select
 
 **Action Steps:**
 - Install `xcode-select` to your machine by taking the following steps:
-  1. Open the Terminal by pressing the `command + space` keys at the same time, which opens Spotlight. Then start typing "Terminal"; it will auto-fill. Press `return` and the Terminal application will open
-  1. Once the Terminal is open, run `xcode-select --install`. This download _may_ take up to several hours
-  1. When prompted, enter the password you use to login to your computer
+  1. Open the Terminal by pressing the `command + space` keys at the same time, which opens Spotlight. Then start typing "Terminal"; it will auto-fill. Press `return` and the Terminal application will open.
+  1. Once the Terminal is open, run `xcode-select --install`. This download _may_ take up to several hours.
+  1. When prompted, enter the password you use to login to your computer.
   1. Run `xcode-select`. If `xcode-select` was installed properly, you should see something like this:
   ```
   $ xcode-select
@@ -187,14 +177,14 @@ Rather than download Xcode via the Apple Store, we can get a much smaller select
 Visual Studio Code (VS Code) is a code editor, which is a program where we write and edit code. You've probably used Word or Google Documents in the past; this is similar, but a program specifically designed for writing code. There are many code editors available, and once you get a foundation you may choose to use others. We ask all students in Mod 0 and Mod 1 to use VS Code, so that staff can best support students and students can easily collaborate with one another.
 
 **Action Steps:**
-- [Download and install Visual Studio Code](https://code.visualstudio.com/)
+- [Download and install Visual Studio Code](https://code.visualstudio.com/).
 - After downloading VS Code, **ensure** that VS Code appears in your Applications folder and is no longer in your Downloads folder!  
 
 VS Code is where we write the code that powers our applications, but we'll also do important work in the Terminal. We need our Terminal to be able to "talk to" VS Code.
 
 **Action Steps:**
-- Open VS Code (from your Applications folder)
-- Add VS Code to your Dock permanently by right-clicking on the icon (located in the Dock) and then select Options, followed by Keep in Dock
+- Open VS Code (from your Applications folder).
+- Add VS Code to your Dock permanently by right-clicking on the icon (located in the Dock) and then select Options, followed by Keep in Dock.
 - Open the Command Palette (`command + shift + p`) and type 'shell command' to find the Shell Command: **Install 'code' command in PATH command**.
 - Confirm the Shell Command is installed properly by taking the following steps:
   1. Quit VS Code (`command + q`).
@@ -252,7 +242,7 @@ Note: Git is not the same thing as GitHub. You'll learn more about how they inte
 
 **Action Steps:**
 - Install Git on your machine by taking the following steps:
-  1. Open the Terminal, and run `brew install git`
+  1. Open the Terminal, and run `brew install git`.
   1. Check that it was successful by running `git` in the Terminal. It should output something like what follows:
   ```
   $ git
@@ -288,18 +278,18 @@ Note: Git is not the same thing as GitHub. You'll learn more about how they inte
 GitHub is a widely used platform that hosts code projects and allows for collaborative workflows. You will spend a lot of time on this site and become fluent in using it as a tool.
 
 **Action Steps:**
-- [Create an account on GitHub](https://github.com/)
-- [Update your GitHub Profile](https://github.com/settings/profile) and be sure that you choose a username, status, profile info, and picture that are appropriate for a professional setting. GitHub is a platform where future/potential employers will be reviewing your work
+- [Create an account on GitHub](https://github.com/).
+- [Update your GitHub Profile](https://github.com/settings/profile) and be sure that you choose a username, status, profile info, and picture that are appropriate for a professional setting. GitHub is a platform where future/potential employers will be reviewing your work.
 
 SSH keys are a secure and convenient way to authenticate. We won't get into more detail right now, but setting this key up lets you skip typing in a password every time you want to interact with GitHub from the Terminal (which is going to be _often_!).
 
 **Action Steps:**
 - Set up your SSH key by taking the following steps:
-  1. Open the Terminal and run the following command - **Use the email associated with your GitHub account**
+  1. Open the Terminal and run the following command - **Use the email associated with your GitHub account**.
   ```
   $ ssh-keygen -t rsa -C "johndoe@example.com"
   ```
-  1. When you're prompted to "Enter a file in which to save the key," press `return`. This accepts the default file location, which is `~/ssh/id_rsa`
+  1. When you're prompted to "Enter a file in which to save the key," press `return`. This accepts the default file location, which is `~/ssh/id_rsa`.
   1. When asked to enter a password, press `enter`, which means "no password". You'll see a confirmation message that looks like what follows:
   ```
   Your identification has been saved in id_rsa.
@@ -319,21 +309,20 @@ SSH keys are a secure and convenient way to authenticate. We won't get into more
   |        . .+=B=o |
   +----[SHA256]-----+
   ```
-  1. In the Terminal, run `ssh-add ~/.ssh/id_rsa`
-  1. In the Terminal, run `pbcopy < ~/.ssh/id_rsa.pub`. This will add the SSH key to your clipboard
-  1.  Go to [https://github.com/settings/keys](https://github.com/settings/keys) (You must be logged into your account!)
+  1. In the Terminal, run `ssh-add ~/.ssh/id_rsa`.
+  1. In the Terminal, run `pbcopy < ~/.ssh/id_rsa.pub`. This will add the SSH key to your clipboard.
+  1.  Go to [https://github.com/settings/keys](https://github.com/settings/keys). (You must be logged into your account!)
   1.  Click the green "New SSH key" button.
-  1.  Leave the "title" section empty
-  1.  Paste the key into the "key" section with `command + v`
-  1.  Click the green "Add SSH key" button
+  1.  Leave the "title" section empty.
+  1.  Paste the key into the "key" section with `command + v`.
+  1.  Click the green "Add SSH key" button.
   1. To test that our key is configured, run `ssh -T git@github.com` in the Terminal. You should see something similar to the following.
   ```
   The authenticity of host 'github.com (192.30.252.153)'... can't be established.
   RSA key fingerprint is 00:11:22:33:44:55:66:77:88:99:aa:bb:cc:dd:ee:ff.
   Are you sure you want to continue connecting (yes/no)?
   ```
-  1. When you see the above prompt, type `yes` and hit enter:
-  1. At this point, if everything is set up correctly, you should see the the following:
+  1. When you see the above prompt, type `yes` and hit `return`. At this point, if everything is set up correctly, you should see the the following:
   ```
   Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
   ```
@@ -344,8 +333,8 @@ SSH keys are a secure and convenient way to authenticate. We won't get into more
 
 **Action Items:**
 - Install `rbenv` and verify it was installed correctly by taking the following steps:
-  1. In the Terminal, run `brew update`. This may take several minutes
-  1. Run `brew install rbenv`. This may also take several minutes
+  1. In the Terminal, run `brew update`. This may take several minutes.
+  1. Run `brew install rbenv`. This may also take several minutes.
   1. Run `rbenv init`. The output should be _something_ like:
     ```
     # Load rbenv automatically by appending
@@ -355,14 +344,14 @@ SSH keys are a secure and convenient way to authenticate. We won't get into more
     ```
   1. Run `touch ~/.zshrc` to create the `zshrc` file that was referenced in the previous line.
   1. Run `code ~/.zshrc`. VS Code should open to a blank file, the `zshrc` file. Inside this file, type or copy-and-paste in: `eval "$(rbenv init -)"`. Save the file with `command + s`.
-  1. Close the Terminal using `command + q` - this is absolutely neccessary! Clicking the red dot in the corner is not a substitute
-  1. Re-open the Terminal, and run `rbenv versions`. As long as you don't get an error message, `rbenv` has been installed correctly
+  1. Close the Terminal using `command + q` - this is absolutely neccessary! Clicking the red dot in the corner is not a substitute.
+  1. Re-open the Terminal, and run `rbenv versions`. As long as you don't get an error message, `rbenv` has been installed correctly.
 - Use `rbenv` to change Ruby versions by taking the following steps:
-  1. In the Terminal, run `rbenv install 2.7.2`. This may take several minutes, and will likely print a lot of output. Wait patiently until it finishes/the command prompt returns
-  1. Run `rbenv versions`. You should now see `2.7.2` listed
-  1. Run `rbenv local 2.7.2` 
+  1. In the Terminal, run `rbenv install 2.7.2`. This may take several minutes, and will likely print a lot of output. Wait patiently until it finishes/the command prompt returns.
+  1. Run `rbenv versions`. You should now see `2.7.2` listed.
+  1. Run `rbenv local 2.7.2` .
   1. Run `ruby -v`. The output should be something like `ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]`. If the output does not include `ruby 2.7.2`, `command + q` out of the Terminal and start this step over. If you still aren't seeing `ruby 2.7.2`, check that you correctly followed the step above to edit your `.zshrc` file.
-  1. Run `rbenv global 2.7.2` then `rbenv rehash`. You should not expect any output from those commands
+  1. Run `rbenv global 2.7.2` then `rbenv rehash`. You should not expect any output from those commands.
 - If you've followed these steps and are having issues, please DM the Mod 0 Lead on Slack ASAP. It is essential `rbenv` is installed on your machine correctly.
 
 <br>
@@ -377,11 +366,11 @@ To write JavaScript in the command line and use essential "packages" while build
   ```bash
   $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
   ```
-  1. Use `cmd + q` to close the Terminal. Then, re-open it
-  1. Run `command -v nvm`. You should see the output `nvm`, which confirms `nvm` has been properly installed
-- Install and change to the latest stable version
-  1. In the Terminal, run `nvm install 16.15.1`
-  1. Run `nvm use 16.15.1`. The output should say _something_ like `Now using node -v16.15.1 (npm v8.11.0)`
+  1. Use `cmd + q` to close the Terminal. Then, re-open it.
+  1. Run `command -v nvm`. You should see the output `nvm`, which confirms `nvm` has been properly installed.
+- Install and change to the latest stable version.
+  1. In the Terminal, run `nvm install 16.15.1`.
+  1. Run `nvm use 16.15.1`. The output should say _something_ like `Now using node -v16.15.1 (npm v8.11.0)`.
 
 <br>
 
