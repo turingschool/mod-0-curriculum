@@ -11,6 +11,7 @@ title: Data Types
 
 ## Vocabulary
 
+- <span class="vocab">JavaScript</span>
 - <span class="vocab">assignment operator</span>
 - <span class="vocab">Boolean</span>
 - <span class="vocab">Console</span>
@@ -20,9 +21,17 @@ title: Data Types
 - <span class="vocab">String</span>
 - <span class="vocab">variable</span>
 
+## What is JavaScript? 
+
+JavaScript was created to make the web more dynamic. It is a scripting language made to run inside a host environment - like a web browser! It provides programmatic control over the objects in that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript.
+
+JavaScript can be client-side and server-side, meaning that it can be used to control user-facing interfaces (e.g. browsers) as well as handle the server-side extensions that connect with a database.
+
+It’s a highly versatile and flexible language, favoring configuration over convention. This means that, when you’re working in JavaScript, there are TONS of different ways to accomplish the same task. Sometimes one is better than another, but often there’s not **ONE** right way to do something. JavaScript has become the most commonly used language of the web!
+
 ## Where To Run Code
 
-By the end of this session, you'll be able to use a feature of the Chrome browser called the <span class="vocab">Dev Tools</span>, specifically a tool within it called <span class="vocab"><code>Console</code></span>, to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. This Console will allow you to explore and learn JavaScript and test out code you've written in a low stakes environment. It is quick and easy to open up Chrome and run your code immediately.
+By the end of this session, you'll be able to use a feature of the Chrome browser called the <span class="vocab">Dev Tools</span>, specifically a tool within it called <span class="vocab"><code>the Console</code></span>, to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. This Console will allow you to explore and learn JavaScript and test out code you've written in a low stakes environment. It is quick and easy to open up Chrome and run your code immediately.
 
 ### Chrome Dev Tools Console: Tips & Tricks
 
