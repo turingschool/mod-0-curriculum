@@ -11,8 +11,8 @@ All assignments for Mod 0 related to content are outlined below and organized in
 
 
 ## Before Kickoff Session
-* Read the [Syllabus]({{ site.url }}/syllabus) 
-* Complete all [Computer Setup]({{ site.url }}/computer-setup) 
+* [Read the Syllabus]({{ site.url }}/syllabus) 
+* [Complete all Computer Setup]({{ site.url }}/computer-setup) 
 * [Asking Technical Questions]({{ site.url }}/shared/asking_qs) 
 * [Markdown]({{ site.url }}/shared/markdown) 
 

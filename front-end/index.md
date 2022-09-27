@@ -10,8 +10,8 @@ All assignments for Mod 0 related to content are outlined below and organized in
 1. Select `Copy board` and create a name for your personalized Trello board. This board will now be saved on your personal Trello account.
 
 ## Before Kickoff Session
-* Read the [Syllabus]({{ site.url }}/syllabus) 
-* Complete all [Computer Setup]({{ site.url }}/computer-setup) 
+* [Read the Syllabus]({{ site.url }}/syllabus) 
+* [Complete all Computer Setup]({{ site.url }}/computer-setup) 
 * [Asking Technical Questions]({{ site.url }}/shared/asking_qs) 
 * [Markdown]({{ site.url }}/shared/markdown) 
 
