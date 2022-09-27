@@ -92,6 +92,11 @@ Follow the steps below (if they are not necessary because you have already done 
 
 - Please create a free account with Trello.
 - [Bookmark this webpage on Chrome](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop), so that you can easily find it again later.
+- Create a copy of your program's Mod 0 Trello board by following the steps below:
+  1. Open the [Back End Mod 0 Trello Board](https://trello.com/b/2ynRge3d/back-end-mod-0) or the [Front End Mod 0 Trello Board](https://trello.com/b/WjbvqlqM/front-end-mod-0) to get started.
+  1. In the upper right corner, select the `...Show menu` button.
+  1. Select `... More` about halfway down the side menu.
+  1. Select `Copy board` and create a name for your personalized Trello board. This board will now be saved on your personal Trello account.
 
 <br>
 

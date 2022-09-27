@@ -29,8 +29,15 @@ There are a number of steps you must complete before attending your first sessio
 1. Thoroughly and carefully read through this Syllabus.
 1. Identify the specific times for your live sessions based on your selected Mod 0 Format. All times and dates for upcoming sessions can be found on the [Calendar]({{ site.baseurl }}/calendar) page. 
 1. Prep Your "Why" - During the first session of Mod 0, you will break out into small groups and be asked to each share your "why" for taking this step to change careers, and your life. Spend some time reflecting on your motivations for being here, and how to communicate that best to your peers so they start to understand you and what drives you. Be prepared to share that with the group in 1-2 minutes.
-1. Read and bring questions about the Asking Technical Questions assignment.
-1. Complete the Markdown assignment.
+1. Read and bring questions about the [Asking Technical Questions]({{ site.baseurl }}/shared/asking_qs) assignment.
+1. Complete the Markdown({{ site.baseurl }}/shared/markdown) assignment.
+1. After following the steps in the Computer Setup, use your Loom account to record a short video introducing yourself. You'll share this video in your Mod 0 small-group channel leading up to the first day of Mod 0! Here are some things to include in your video:
+- Name
+- Pronouns
+- Location
+- Your most important people/pets
+- 2-3 things that bring you joy
+- A message for your future cohort-mates and instructors
 
 ## Expectations
 
@@ -48,10 +55,12 @@ The specific schedule for your course and Mod 0 format can be found on the [Cale
 All Turing staff members will use Slack as the primary means of communication with students. As an incoming student, any information you need can usually be found in our Turing Slack workpace. As a norm, we expect members of our community to respond to Slack messages within 24 hours.
 
 ## Grading
-While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time, implement feedback on those assignments, and demonstrate your learning in a live evaluation.
+While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time, implement feedback on those assignments, and demonstrate your learning in a live evaluation. Follow the links below to find all required assignments for your specific program:
+- [Back End Mod 0 Assignments]({{ site.baseurl }}/back-end)
+- [Front End Mod 0 Assignments]({{ site.baseurl }}/front-end)
 
 ### Implementing Feedback
-Throughout the course, students will complete many assignments to demonstrate their understanding of the topics. These assignments are organized into four segments of work, with each segment due by the next live session. In the event a student gets behind and needs an extension and/or support to adjust their schedule to get back on track, it is the student's responsibility to proactively reach out and discuss what that could look like. 
+Throughout the course, students will complete many assignments to demonstrate their understanding of the topics. These assignments are organized into segments of work, with each segment due by the next live session. It is expected that students implement feedback provided by staff. Sometimes this will mean revising submissions and other times this will mean implementing that feedback in future assignments. In the event a student gets behind and needs an extension and/or support to adjust their schedule to get back on track, it is the student's responsibility to proactively reach out and discuss what that could look like. 
 
 ### Evaluations
 At Turing, you’ll have a number of Assessments and Evaluations. These not only help Turing staff determine if you are ready for the next step; they are great learning experiences for students to help them prepare for tech interviews while job hunting.
@@ -76,10 +85,10 @@ This may be your first time learning and/or working in a remote setting. There a
 - **External Keyboard:** Some folks are more picky with their keyboards and prefer a certain look, feel, touch, etc. If you are one of these people, you may benefit from using a different keyboard than the integrated one in your laptop. If you plan to use a wired keyboard, you'll likely need the USB-C hub mentioned above to connect to your keyboard in addition to your charger and monitor.
 - **Laptop Stand:** These can be useful when using a separate keyboard or for creating more real estate for your workspace.
 
-## Resources
+<!-- ## Resources
 - Turing Lingo
 - JavaScript Cheat Sheet
-- Ruby Cheat Sheet
+- Ruby Cheat Sheet -->
 
 ## Accommodations
 We do our best to work with students who need additional accommodations while attending Turing. If this applies to you, please review [this form](https://frontend.turing.edu/documents/reasonable_accommodation_request_form.pdf) prior to starting Mod 0 at Turing and communicate with the Mod 0 Lead. 

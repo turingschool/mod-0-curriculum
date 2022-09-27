@@ -3,7 +3,12 @@ layout: page
 title: Back End Resources
 ---
 
-<p>Copy <a href="https://trello.com/b/TahIw1yf/mod-0-be-part-time" target="blank">this Trello board</a> to get started.</p>
+All assignments for Mod 0 related to content are outlined below and organized into segments based on the due date. One tool for organizing all of your tasks is Trello. If you haven't already, follow the steps below to create a copy of your Back End Mod 0 Trello board to keep track of all assignments.
+1. Open the [Back End Mod 0 Trello Board](https://trello.com/b/2ynRge3d/back-end-mod-0) to get started.
+1. In the upper right corner, select the `...Show menu` button.
+1. Select `... More` about halfway down the side menu.
+1. Select `Copy board` and create a name for your personalized Trello board. This board will now be saved on your personal Trello account.
+
 
 ## Before Kickoff Session
 * Read the [Syllabus]({{ site.url }}/syllabus) 
@@ -33,8 +38,8 @@ title: Back End Resources
 * [Pairing 2]({{ site.url }}/shared/pairing_2)
 
 ## Segment 4 - Completed By Session 5
-* [Hashes]({{ site.url }}/back-end/hashes)
 * [Methods]({{ site.url }}/back-end/methods)
+* [Hashes]({{ site.url }}/back-end/hashes)
 * [Pairing 3]({{ site.url }}/shared/pairing_3)
 
 ## Segment 5 - Completed By Evaluations
