@@ -27,10 +27,10 @@ title: Home
   <p>It is expected that students arrive to their first Mod 0 Session prepared to engage, which includes having their computer, notebook, and workspace set up. Students can prepare by carefully following the directions on the Computer Setup page. Promotion to Mod 1 is contingent upon successfully completing the Mod 0 coursework. It is <strong>not</strong> recommended that students begin working on these tasks prior to receiving their laptop for the program. </p>
   <br>
   <br>
-  <a class="s-button" href="/dates">Mod 0 Dates</a>
-  <a class="s-button" href="/pt">Classic Format</a>
-  <a class="s-button" href="/ft">Intensive Format</a>
-  <a class="s-button" href="/info">Where to Get Info</a>
+  <a class="s-button" href="/calendar">Calendar</a>
+  <a class="s-button" href="/computer-setup">Computer Setup</a>
+  <a class="s-button" href="/syllabus">Syllabus</a>
+  <a class="s-button" href="/evals">Evaluations</a>
 </section>
 
 <footer class="s-footer">

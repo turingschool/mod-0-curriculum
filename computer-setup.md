@@ -12,17 +12,21 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 - [Install Rectangle](#install-rectangle)
 - [Install Chrome](#install-chrome)
 - [Install Slack](#install-slack)
-- [Create replit Account](#replit)
-- [Create Trello Account](#create-trello-account)
+- [Create a Replit Account](#replit)
+- [Create a Trello Account](#create-trello-account)
+- [Create a Loom Account](#create-loom-account)
 - [Install Zoom](#install-zoom)
 - [Enable Screen Sharing](#enable-screen-sharing)
 - [Install Xcode-select](#install-xcode-select)
+- [Install and Configure VS Code](#install-and-configure-vs-code)
 - [Install Homebrew](#install-homebrew)
-- [Install and Configure Visual Studio Code](#install-and-configure-vs-code)
 - [Install Git](#install-git)
 - [Configure GitHub](#configure-github)
 - [Install rbenv](#install-rbenv)
-- [Install Node](#install-nvm-node)
+- [Install Node](#install-node)
+
+
+<br>
 
 ### New to Mac?
 
@@ -51,35 +55,69 @@ Chrome includes a set of Developer Tools that will come in handy down the road. 
 
 **Action Steps:**
 - _If you haven't already,_ [download and install Chrome](https://www.google.com/chrome/)
+- Set Chrome as your default browser: 
+  - In your Chrome window, select the More menu by clicking on the three dots.
+  - Select `Settings` from the list.
+  - In the Default browser section on the left, click `Make default`.
 
 <br>
 
 ### Install Slack
 
-Slack is our main communication tool at Turing. If you are not familiar with it, it may seem overwhelming at first. There are a lot of tips and tricks you'll pick up along the way.
+Slack is our main communication tool at Turing. **You will receive an invitation to join the Turing Workspace 2 weeks before your Mod 0 start date**. If you are not familiar with it, it may seem overwhelming at first. There are a lot of tips and tricks you'll pick up along the way.
 
 **Action Steps:**
 - [Download and install the Slack desktop application](https://slack.com/downloads/mac)
 
+To ensure that you are prepared for your first session:
+- Watch the [Slack Tutorial Video](https://www.youtube.com/watch?v=tfq333EpWgM)
+- Upload a clear and appropriate headshot for your profile image
+- Set up your Slack profile to include your cohort, program, pronouns, and timezone
+- Practice the following (direct message yourself to practice!):
+  - How to start a thread
+  - How to reply in a thread
+  - How to format an `inline code example`
+  - How to create a larger code snippet, as such:
+    ```
+      You can create multi-line
+      code snippets in Slack
+      That make it easier to share larger blocks of code
+    ```
 <br>
 
-### Create replit Account
+### Create a Replit Account
 
-[replit](https://replit.com/~) provides an online platform that allows us to write code and see the results almost immediately - all inside of one browser tab! There are many other similar (and awesome) tools available but replit is used regularly in Mods 1 and 2, so Mod 0 provides an introduction and some exposure.
+[Replit](https://replit.com/~) provides an online platform that allows us to write code and see the results almost immediately - all inside of one browser tab! There are many other similar (and awesome) tools available but replit is used regularly in Mods 1 and 2, so Mod 0 provides an introduction and some exposure.
 
 Follow the steps below (if they are not necessary because you have already done them or have experience with replit, you can skip this):
 - Create a free account
+- [Bookmark this webpage on Chrome](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop), so that you can easily find it again later
 - [Watch this video](https://www.youtube.com/watch?v=cnLE3bH6fHE) to learn how to navigate the interface and create new projects.
 
-### Create Trello Account
+<br>
+
+### Create a Trello Account
 
 [Trello](https://trello.com/) is a Kanban-style project management tool we will use in Mod 0. It and other similar tools are used by most software developers to manage the tasks within a project.
 
-Please create a free account with Trello. Next steps will be provided in your first Mod 0 session/class.
+- Please create a free account with Trello.
+- [Bookmark this webpage on Chrome](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop), so that you can easily find it again later
+
+<br>
+
+### Create a Loom Account
+
+[Loom](https://www.loom.com/) is a free online video tool that allows you to create instantly shareable videos. With Loom, you can record your camera, microphone, and desktop simultaneously. You will be required to submit videos throughout Mod 0 as part of the coursework. Although you can use other tools to accomplish the same goal, we strongly recommend using Loom as it is extremely user-friendly.
+
+Please create a free account with Loom. 
+- [Bookmark this webpage on Chrome](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop), so that you can easily find it again later
+- If you've never used Loom before, [watch this video](https://youtu.be/iugmJe8uDLE) to familiarize yourself with this tool.
+
+<br>
 
 ### Install Zoom
 
-Zoom is the primary tool for classroom time, study halls, and community building time at Turing.
+Zoom is the primary tool for classroom time, study halls, and community building at Turing.
 
 **Action Steps:**
 - [Download and install Zoom](https://zoom.us/download/) for _Macs with Apple Silicon chips_
@@ -111,7 +149,7 @@ Turing is a fully remote and highly collaborative program, which means you will 
 
 <div class="things-to-note">
   <h3>Command Prompt Notation</h3>
-  <p>A common convention in documentation that outlines anything regarding the Terminal is to notate a command one should run by starting the line with a <code>$</code>. As the developer, you should not type the <code>$</code>; you should only type the command that follows it. It is meant to represent your command prompt (which is usually the path to your working directory).</p>
+  <p>A common convention in documentation that outlines anything regarding the Terminal is to notate a command one should run by starting the line with a <code>$</code> or <code>%</code>. As the developer, you should not type the <code>$</code> or <code>%</code>; you should only type the command that follows it. It is meant to represent your command prompt (which is usually the path to your working directory).</p>
 </div>
 
 ### Install Xcode-select
@@ -144,55 +182,6 @@ Rather than download Xcode via the Apple Store, we can get a much smaller select
 
 <br>
 
-### Install Homebrew
-
-Homebrew is a package management system that allows us to install and run various programs on our machines—programming specific programs that we can only install via the Terminal.
-
-**Action Steps:**
-- Install Homebrew by taking the following steps (some steps may take several minutes or more to finish):
-  1. Open the Finder window by typing `command + space` and start typing `Finder`
-  1. Click on the `Applications` folder on the left sidebar
-  1. Click into the folder called `Utilities`
-  1. Right click on the `Terminal` app and choose `Get Info`
-  1. Check the box that says `Open using Rosetta`
-  1. Use the keyboard shortcut `cmd + q` to close the Terminal
-  1. Open the `Terminal` app by either double clicking the icon or using a Spotlight search for `Terminal`
-  1. In Terminal, run `arch`; you should get an output of `i386`. 
-    - If you get `arm64`, that means your Terminal has not opened using Rosetta. Completely close the Terminal with the keyboard shortcut `cmd + q`. Open Terminal, then run `arch` and it should now output `i386`
-  1. Run the following command:
-  ```
-  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  ```
-  1. When prompted, enter the password you use to log in to your computer. It needs this because it installs its packages in a place that all users of this computer can access. You will get a message that says, "Press RETURN to continue or any other key to abort." Press `return`
-  1. When it has completed the installation, which may take some time, quit the Terminal using `command + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
-  ```
-  $ brew doctor
-  Your system is ready to brew.
-  ```
-  1. If you get a warning message like below, try the first solution it provides by running `softwareupdate --all --install --force`:
-  ```
-  WARNING: A newer Command Line Tools release is available.
-  Update them from Software Update in System Preferences or run:
-  .
-    softwareupdate --all --install --force
-  .
-  If that doesn't show you any updates, run:
-    sudo rm -rf /Library/Developer/CommandLineTools
-    sudo xcode-select --install
-  .
-  Alternatively, manually download them from:
-    https://developer.apple.com/download/all/.
-  .
-  You should download the Command Line Tools for Xcode 13.1.
-  ```
-  1. If you had that warning and ran that additional command, when it has completed the installation, which may take some time, quit the Terminal using `command + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
-  ```
-  $ brew doctor
-  Your system is ready to brew.
-  ```
-
-<br>
-
 ### Install and Configure VS Code
 
 Visual Studio Code (VS Code) is a code editor, which is a program where we write and edit code. You've probably used Word or Google Documents in the past; this is similar, but a program specifically designed for writing code. There are many code editors available, and once you get a foundation you may choose to use others. We ask all students in Mod 0 and Mod 1 to use VS Code, so that staff can best support students and students can easily collaborate with one another.
@@ -213,6 +202,45 @@ VS Code is where we write the code that powers our applications, but we'll also 
   1. Run `code .` in the Terminal. Be sure to include a space between `code` and the `.` If the Shell Command is installed correctly, VS Code will automatically open.
   1. Once you have confirmed this is working, quit VS Code (`command + q`) and continue with the computer setup!
 
+
+<br>
+
+### Install Homebrew
+
+Homebrew is a package management system that allows us to install and run various programs on our machines—programming specific programs that we can only install via the Terminal.
+
+**Action Steps:**
+  1. Run the following command:
+  ```
+  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+  1. When prompted, enter the password you use to log in to your computer. Homebrew needs this because it installs its packages in a place that all users of this computer can access. When you type your password, it will look like you aren't typing anything, but rest assured, the terminal is capturing what you type! You will get a message that says, "Press RETURN to continue or any other key to abort." Press `return`.
+  1. When it has completed the installation, which may take some time, you will see a message that looks something like this:
+  ```
+  ==> Installation successful
+  ==> Homebrew has enabled anonymous aggregate formulae and cask analytics. Read the analytics documentation (and how to opt-out) here: https://docs.brew.sh/Analytics
+  ==> Homebrew is run entirely by unpaid volunteers. Please consider donating: https://github.com/Homebrew/brew#donations
+  ==> Next steps:
+  - Add Homebrew to your PATH in /Users/yourusername/.zprofile:
+    echo ‘eval “$(/opt/homebrew/bin/brew shellenv)“’ >> /Users/yourusername/.zprofile
+    eval “$(/opt/homebrew/bin/brew shellenv)”
+  - Run `brew help` to get started
+  - Further documentation: https://docs.brew.sh
+  ```
+  1. First, run `touch ~/.zprofile` to create that new file.
+  1. Open the file in VS Code by running `code ~/.zprofile`. VS Code will open the file in a new window. 
+  1. On the first two lines of the `zprofile` file, add the following lines: 
+  ```
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+  ```
+  1. When you are finished with this step, save the file and quit the Terminal and VS Code using `command + q`. 
+  1. Then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
+  ```
+  $ brew doctor
+  Your system is ready to brew.
+  ```
+  1. Quit the Terminal (`command + q`) and continue with the computer setup!
 
 <br>
 
@@ -243,7 +271,7 @@ Note: Git is not the same thing as GitHub. You'll learn more about how they inte
   .
   ```
 - Configure Git by carefully taking the following steps:
-  1. Open the Terminal with Spotlight search (with`command + space`)
+  1. Open the Terminal with Spotlight search (`command + space`)
   1. Run the following commands, one at a time, **substituting your own info** for the first two commands:
   ```
   $ git config --global user.name "Eric Weissman"
@@ -310,6 +338,8 @@ SSH keys are a secure and convenient way to authenticate. We won't get into more
   Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
   ```
 
+<br>
+
 ### Install rbenv
 
 **Action Items:**
@@ -323,7 +353,8 @@ SSH keys are a secure and convenient way to authenticate. We won't get into more
     .
     eval "$(rbenv init -)"
     ```
-  1. Run `code ~/.zshrc`. VS Code should open to a blank file, the `zshrc` file. Inside this file, type or copy-and-paste in: `eval "$(rbenv init -)"`. Save the file.
+  1. Run `touch ~/.zshrc` to create the `zshrc` file that was referenced in the previous line.
+  1. Run `code ~/.zshrc`. VS Code should open to a blank file, the `zshrc` file. Inside this file, type or copy-and-paste in: `eval "$(rbenv init -)"`. Save the file with `command + s`.
   1. Close the Terminal using `command + q` - this is absolutely neccessary! Clicking the red dot in the corner is not a substitute
   1. Re-open the Terminal, and run `rbenv versions`. As long as you don't get an error message, `rbenv` has been installed correctly
 - Use `rbenv` to change Ruby versions by taking the following steps:
@@ -336,7 +367,7 @@ SSH keys are a secure and convenient way to authenticate. We won't get into more
 
 <br>
 
-### Install NVM + Node
+### Install Node
 
 To write JavaScript in the command line and use essential "packages" while building apps, `node` and `npm` must be on the machine. `nvm` allows us to easily change the version of node our machine is using. This applies to both Front End and Back End students.
 
@@ -350,10 +381,41 @@ To write JavaScript in the command line and use essential "packages" while build
   1. Run `command -v nvm`. You should see the output `nvm`, which confirms `nvm` has been properly installed
 - Install and change to the latest stable version
   1. In the Terminal, run `nvm install 16.15.1`
-  1. Run `nvm use 16.15.1`. The output should say _something_ like `Now using node -v16.15.1 (npm v8.11.0)
+  1. Run `nvm use 16.15.1`. The output should say _something_ like `Now using node -v16.15.1 (npm v8.11.0)`
+
+<br>
 
 
+## That's all folks! 
+To verify that all steps are completed and installations are working as expected, complete the steps below. If you do not get the expected output for any of the following steps, go back to that step in the computer setup and carefully follow all of the steps a second time. 
+1. Quit out of all applications and close any extra windows. You can verify that only Terminal and Chrome are running by looking at your dock at the bottom of your screen. Applications that are currently running will have a little black dot under them. Then, open only **this** webpage and a **new Terminal window**.
+1. **Rectangle:** Use `control + option + left arrow` to move this webpage to the left side of your screen and `control + option + I` to move your terminal to the upper right corner. Note: Your window cannot be in full-screen mode for rectangle to work. 
+1. **Chrome:** In your Chrome window, open a new tab. At the very top under the address bar, you should see at least three bookmarked pages, [Replit](https://replit.com/~), [Trello](https://trello.com/), and [Loom](https://www.loom.com/looms/videos). 
+1. **Slack:** Ensure that Slack is downloaded by opening up the Slack application using Spotlight. Hold down `command + space` to open up Spotlight and start typing `Slack`. Hit `return` and your Slack application should open in a new window. Quit Slack by holding down `command + q`.
+1. **Zoom:** Ensure that Zoom is downloaded by holding down `command + space` to open up Spotlight and start typing `Zoom`. Hit `return` and your Zoom application should open in a new window. Quit Zoom by holding down `command + q`.
+1. **XCode-select:** In your terminal, run `xcode-select -v`. If installed, your terminal will output the current version of xcode-select found in your system. For example, something like: `xcode-select version 2384.`.
+1. **VS Code:** In your terminal, run `code .`. If installed correctly, your VS Code will open in a new window. Quit VS Code by holding down `command + q`.
+1. **Homebrew:** In your terminal, run `brew doctor`. If installed correctly, your terminal will output `Your system is ready to brew.`.
+1. **Git:** In your terminal, run `git config --list`. If set up correctly, you will see your current git configurations: 
+```
+credential.helper=osxkeychain
+user.name "Eric Weissman"
+user.email eric@example.com
+init.defaultBranch main
+core.editor "code --wait"
+pull.rebase false
+```
+1. **GitHub:** To test that you configured your SSH key for GitHub correctly, run `ssh -T git@github.com` in your terminal. You should see something like this: 
+```
+Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
+```
+1. **Rbenv:** In your terminal, run `ruby -v`. Your terminal will output the current version of ruby. It should look something like this: `ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [arm64-darwin20]`.
+1. **Node:** In your terminal, run `node -v`. Your terminal will output the current version of node. It should look something like this: `v16.15.1`.
 
+If after re-reading and completing the setup steps a second time, you are still experiencing issues, document the problem with screenshots and reach out for support in your Mod 0 Slack channel!
 
-
+<br>
+<br>
+<br>
+<br>
 <br>
