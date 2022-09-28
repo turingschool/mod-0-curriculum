@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: lesson
 title: Pairing in Class 5
 ---
@@ -108,4 +108,4 @@ Come back to the areas that you asked each other to provide feedback on.
 
 [Follow the directions in this Gist](https://gist.github.com/ameseee/7fd53fa3d108b1e34331840592a15343) and submit the URL to your fork of it in the submission form.
 
-<br><br>
+<br><br> -->

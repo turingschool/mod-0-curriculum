@@ -5,7 +5,7 @@ title: Visual Studio Code
 
 ## Learning Goals
 
-- Open a specific project in VS Code from thse Terminal
+- Open a specific project in VS Code from the Terminal
 - Navigate the VS Code interface, using _some_ keyboard shortcuts
 - Write valid Markdown files in VS Code
 

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: lesson
 title: Iteration
 ---
@@ -114,7 +114,7 @@ end
 
 ## Practice
 
-Use the `each` method to solve each problem. You can do this work in the place that works best for you - `irb`, a Ruby file you create and open in Atom, or somewhere else.
+Use the `each` method to solve each problem. You can do this work in the place that works best for you - `irb`, a Ruby file you create and open in VS Code, or somewhere else.
 
 <div class="s-card">
   <p>Print out a greeting to each friend:</p>
@@ -152,4 +152,4 @@ Use the `each` method to solve each problem. You can do this work in the place t
 
 <br>
 <br>
-<br>
+<br> -->

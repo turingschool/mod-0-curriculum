@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: lesson
 title: Object Oriented Programming
 ---
@@ -218,4 +218,4 @@ Use these as resources for extra practice and challenge!
 
 <br>
 <br>
-<br>
+<br> -->

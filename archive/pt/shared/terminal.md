@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: lesson
 title: Terminal
 ---
@@ -393,4 +393,4 @@ In your Terminal, recreate the file structures shown in the diagrams below. Assu
 
 <a href="https://gist.github.com/ameseee/2283b442a1c2580d73b2290074280dd3" target="_blank">Follow the directions in this Gist</a>. Keep the URL to your Gist handy (bookmark, or DM to yourself) as you may need to reference it during the Mod 0 Kickoff Session.
 
-<br><br>
+<br><br> -->

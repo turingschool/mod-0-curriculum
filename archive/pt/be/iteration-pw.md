@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: lesson
 title: Iteration Preview
 ---
@@ -15,4 +15,4 @@ You are simiply being asked to explore. You do not need to be an expert in the `
 - Read code snippets and explanations from others
 - Write some code (and run it, to check output)
 - Think about potential use cases for something like this
-- Write down any questions you have about the topic
+- Write down any questions you have about the topic -->

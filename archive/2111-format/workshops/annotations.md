@@ -6,7 +6,7 @@ Part of being a strong developer is not just writing code. Most of the job is ac
 
 Annotating code is a great way to start to understand how code works and dive into code that you yourself did not write. One strategy to annotating code is to write **comments** directly in the code you are trying to deciper.
 
-Most text editors, like Atom, allow you to add comments in your code. You can highlight a selection and use `CMD + /` to turn your text into a comment. Conversely, you can start any line with `//` for JavaScript or `#` in Ruby to indicate a comment. You should see your syntax highlighting change to a different color when code has been commented out!
+Most text editors, like VS Code, allow you to add comments in your code. You can highlight a selection and use `CMD + /` to turn your text into a comment. Conversely, you can start any line with `//` for JavaScript or `#` in Ruby to indicate a comment. You should see your syntax highlighting change to a different color when code has been commented out!
 
 ### Code Annotation Tips
 - Use code comments to add your annotations to code

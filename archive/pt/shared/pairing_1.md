@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: lesson
 title: Pairing in Class 3
 ---
@@ -70,4 +70,4 @@ Below are two short exercises for you to pair on. Decide who will be the Driver 
 
 **Note:** Each student should make an individual submission.
 
-<br><br>
+<br><br> -->
