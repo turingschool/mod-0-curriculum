@@ -67,7 +67,7 @@ student1 = {
 
 <div class="s-card">
   <h3>Hash Syntax Practice</h3> 
-  <p>Complete the following work in an <code>irb</code> session or a new Ruby file, working in Atom:</p>
+  <p>Complete the following work in an <code>irb</code> session or a new Ruby file, working in VS Code:</p>
   <ol>
     <li>For one of the examples in the previous activity that you selected would be best suited for a Hash, declare a variable that stores a Hash with some (possibly fake) data.</li>
     <li>Declare a variable that stores a Hash that represents <a href="https://twitter.com/MechEngSanchez/status/1485947286396014593" target="blank">this tweet</a>.</li>

@@ -3,20 +3,26 @@ layout: lesson
 title: Asking Technical Questions
 ---
 
-<div class="s-card s-border-yellow-500">
-  <h3>Prepare to Engage</h3>
-  <p>Whether you are starting your day with this activity or wrapping up a long day of technical work with this, take a moment to ground yourself in why you became a student at Turing. This Career Development work is arguably the most valuable component of your education that will lead you into your new career.</p>
-  <p>Take a moment to reset if needed, meditate, or do some physical stretches/movement to get yourself into the space you need to be in to engage in this work. Some optional guiding questions follow.</p>
-  <ul>
-    <li>Why did you come to Turing?</li>
-    <li>What is the thing that will motivate you to keep going on the days/weeks you feel <em>most</em> challenged at Turing?</li>
-  </ul>
-</div>
-<br>
+## Learning Goals
 
-Asking technical questions may seem so easy when one is a beginner - "I know so little, how could I NOT have questions?" However, _effectively_ asking questions is a skill. It takes a lot longer than you expect to write a good question, but you’re guaranteed to get a better answer when you ask a better question. How a developer asks questions communications a lot about their overall effectiveness. This skill will be essential in your success - not just at Turing, but on the job hunt and on the job. During your time at Turing, you will continue to hone this skill.
+- Use effective key words in a Google search to find answers faster
+- Ask technical questions that are both clear and concise
 
-## Best Practices
+## Effective Googling
+
+Throughout Mod 0 (and your remaining time at Turing), you will encounter thousands of questions with unclear answers. Often, the first place we go when we have questions is Google! This is an excellent source to find answers to your questions, but it helps to follow a few guidelines when looking for answers on the internet. 
+
+1. **Take out unnecessary words.** Leave out small common words, such as "how" or "what". Google automatically ignores them anyway! You only want to include the necessary keywords in your search. Instead of <s>"How to update my Slack profile"</s>, use "Update Slack profile".
+1. **Include the programming language in your search.** When you're searching for support with a particular programming language (Markdown, Ruby, JavaScript, etc.), you definitely want to include the language in your search. The same concepts often transcend a single language, so you'll want to be specific about the language you're working with. Instead of <s>"Array methods"</s>, use "JavaScript array methods".
+1. **Use technical terms.** If you received an error message, include the exact message in your search! Instead of <s>"JavaScript change a word to upper case"</s>, use "JavaScript string method upper case".
+1. **Rephrase your search terms.** If it's not on the first page of results, it's probably not there. It's wise to try a slightly different search term before giving up altogether. For example, if you remember that you've heard both of the terms `if statements` and `conditionals` to describe a similar concept, try using the other one in your search.
+1. **Look for a reliable source.** There are websites that house the documentation for each language, also known as `the docs`. For Ruby, you'll want to bookmark and reference often [the Ruby docs](https://ruby-doc.org/). For JavaScript, [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript) is your go-to resource and [W3Schools](https://www.w3schools.com/) is usually reliable as well. If you see those sites in your search results, take a look at those first! 
+
+If you followed those guidelines and still can't find what you need on the first 1-2 pages of search results, it's probably time to use another resource... like your Turing community! In the sections that follow, we'll discuss how to ask technical questions and a few best practices to keep in mind as you develop this skill.
+
+## Best Practices for Asking Technical Questions
+
+It's easy to ask a question, but _effectively_ asking a question is a skill. It takes a lot longer than you expect to write a good question, but **you are guaranteed to get a better answer when you ask a better question**. This skill will be essential in your success - not just at Turing, but on the job hunt and on the job. During your time at Turing, you will continue to hone this skill.
 
 Information to include in every question:
 1. What were you trying to do?
@@ -31,8 +37,9 @@ longer snippets
 should be formatted 
 in code blocks.
 ```
-- Screenshots of Terminal output are usually helpful (if Terminal output is relevant).
-- A wall of text isn't something most people want to read. If you have a lot of context to provide, give a TL;DR in the main channel, then thread your details in manageable chunks. Another strategy is to use bold text and/or emojis strategically to highlight key information or questions.
+When asking your question in Slack, to write the inline code, use a single backtic (next to the 1 on your keyboard) on either side of the word or phrase. For a longer snippet of code, use three backtics on either side of the code block.
+- Screenshots are usually helpful. On your mac, the keyboard shortcut `cmd + shift + 4` will allow you to select a part of your screen to capture and save the screen shot on your desktop. You can then drag and drop this image to Slack.
+- It's also a good idea to format your question in easily digestible chunks. You can use the keyboard shortcut `shift + return` to create a new line without sending your message in Slack. If you have a lot of context to provide, give a TL;DR in the main channel, then thread your details in manageable chunks. Another strategy is to use **bold** text and/or emojis strategically to highlight key information or questions.
 
 ## Examples and Non-Examples
 
@@ -69,7 +76,7 @@ As you prepare to ask questions—in written form or in live communications—**
 
 ## Check For Understanding
 
-You won't submit anything in the submission form for this topic; but you will be asked to ask at least 1 question in your Slack small group daily (or, if not necessary, share what challenge you had and how you overcame it). And, you'll be asked to reflect on questions (asked by you and peers) in some of your reflection prompts. So, keep this in mind - come back to this document when you go to Slack to type of a question or keep a sticky note on your desk with the 4 best practices - whatever it takes to build a strong habit for yourself!
+There is nothing to submit for this assignment, but we do expect you to follow these best practices moving forward! Come back to this lesson when you need a reminder of how to ask excellent technical questions or keep a sticky note on your desk with the 4 best practices - whatever it takes to build a strong habit for yourself!
 
 <br>
 <br>

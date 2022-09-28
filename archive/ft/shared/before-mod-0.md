@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: lesson
 title: Before Starting Mod 0 
 ---
@@ -63,4 +63,4 @@ Read [these reflections](https://drive.google.com/file/d/1LNyXge4p6OQTWbo_Y9XIJA
 
 During the first session of Mod 0, you will break out into small groups and be asked to each share your "why" for taking this step to change careers, and your life. Spend some time reflecting on what is motiavting you most to be here, and how to communicate that best to your peers so they start to understand you and what drives you. Be prepared to share that with the group in 1-2 minutes.
 
-<br>
+<br> -->

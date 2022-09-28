@@ -62,7 +62,7 @@ Slack is our main communication tool at Turing. **You will receive an invitation
 To ensure that you are prepared for your first session:
 - Watch the [Slack Tutorial Video](https://www.youtube.com/watch?v=tfq333EpWgM).
 - Upload a clear and appropriate headshot for your profile image.
-- Set up your Slack profile to include your cohort, program, pronouns, and time zone.
+- [Set up your Slack profile](https://www.loom.com/share/6f10b796c90f40c09594899d71bf401a) to include your cohort, program, pronouns, and time zone.
 - Practice the following (direct message yourself to practice!):
   - How to start a thread
   - How to reply in a thread
@@ -205,37 +205,47 @@ VS Code is where we write the code that powers our applications, but we'll also 
 Homebrew is a package management system that allows us to install and run various programs on our machines—programming specific programs that we can only install via the Terminal.
 
 **Action Steps:**
+- Install Homebrew by taking the following steps (some steps may take several minutes or more to finish):
+  1. Open the Finder window by typing `command + space` and start typing `Finder`.
+  1. Click on the `Applications` folder on the left sidebar.
+  1. Click into the folder called `Utilities`.
+  1. Right click on the `Terminal` app and choose `Get Info`.
+  1. Check the box that says `Open using Rosetta`.
+  1. Use the keyboard shortcut `cmd + q` to close the Terminal.
+  1. Open the `Terminal` app by either double clicking the icon or using a Spotlight search for `Terminal`.
+  1. In Terminal, run `arch`; you should get an output of `i386`. 
+    - If you get `arm64`, that means your Terminal has not opened using Rosetta. Completely close the Terminal with the keyboard shortcut `cmd + q`. Open Terminal, then run `arch` and it should now output `i386`.
   1. Run the following command:
   ```
   $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
-  1. When prompted, enter the password you use to log in to your computer. Homebrew needs this because it installs its packages in a place that all users of this computer can access. When you type your password, it will look like you aren't typing anything, but rest assured, the terminal is capturing what you type! You will get a message that says, "Press RETURN to continue or any other key to abort." Press `return`.
-  1. When it has completed the installation, which may take some time, you will see a message that looks something like this:
-  ```
-  ==> Installation successful
-  ==> Homebrew has enabled anonymous aggregate formulae and cask analytics. Read the analytics documentation (and how to opt-out) here: https://docs.brew.sh/Analytics
-  ==> Homebrew is run entirely by unpaid volunteers. Please consider donating: https://github.com/Homebrew/brew#donations
-  ==> Next steps:
-  - Add Homebrew to your PATH in /Users/yourusername/.zprofile:
-    echo ‘eval “$(/opt/homebrew/bin/brew shellenv)“’ >> /Users/yourusername/.zprofile
-    eval “$(/opt/homebrew/bin/brew shellenv)”
-  - Run `brew help` to get started
-  - Further documentation: https://docs.brew.sh
-  ```
-  1. First, run `touch ~/.zprofile` to create that new file.
-  1. Open the file in VS Code by running `code ~/.zprofile`. VS Code will open the file in a new window. 
-  1. On the first two lines of the `zprofile` file, add the following lines: 
-  ```
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-  eval "$(/opt/homebrew/bin/brew shellenv)"
-  ```
-  1. When you are finished with this step, save the file and quit the Terminal and VS Code using `command + q`. 
-  1. Then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
+  1. When prompted, enter the password you use to log in to your computer. It needs this because it installs its packages in a place that all users of this computer can access. You will get a message that says, "Press RETURN to continue or any other key to abort." Press `return`.
+  1. When it has completed the installation, which may take some time, quit the Terminal using `command + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
   ```
   $ brew doctor
   Your system is ready to brew.
   ```
-  1. Quit the Terminal (`command + q`) and continue with the computer setup!
+  1. If you get a warning message like below, try the first solution it provides by running `softwareupdate --all --install --force`:
+  ```
+  WARNING: A newer Command Line Tools release is available.
+  Update them from Software Update in System Preferences or run:
+  .
+    softwareupdate --all --install --force
+  .
+  If that doesn't show you any updates, run:
+    sudo rm -rf /Library/Developer/CommandLineTools
+    sudo xcode-select --install
+  .
+  Alternatively, manually download them from:
+    https://developer.apple.com/download/all/.
+  .
+  You should download the Command Line Tools for Xcode 13.1.
+  ```
+  1. If you had that warning and ran that additional command, when it has completed the installation, which may take some time, quit the Terminal using `command + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
+  ```
+  $ brew doctor
+  Your system is ready to brew.
+  ```
 
 <br>
 

@@ -88,7 +88,7 @@ students[2]
 ```
 
 ```ruby
-# in Atom, when running the file in the command line
+# in VS Code, when running the file in the command line
 students = ["Cindy", "Josiah", "Rigo"]
 
 puts students[0]

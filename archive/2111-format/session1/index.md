@@ -434,7 +434,7 @@ Now when I type `ls`, I will no longer see `books` listed.
 1. Print your current directory
 1. Make a file called `favorite_foods.md`
 1. List the contents of your directory (you should see just your `favorite_foods.md` file appear)
-1. Use Atom add your #1 favorite food to the file
+1. Use VS Code add your #1 favorite food to the file
 1. Delete the `favorite_foods.md` file
 1. Get back out of the `terminal_practice` directory
 1. Remove the `terminal_practice` directory

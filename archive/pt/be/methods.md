@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: lesson
 title: Methods
 ---
@@ -195,4 +195,4 @@ puts sum2
   <p>Complete the <code>final_practice.rb</code> in the Check For Understanding repository. Submit your copy of the repository to the submission form.</p>
 </div>
 
-<br><br><br>
+<br><br><br> -->

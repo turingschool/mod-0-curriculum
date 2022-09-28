@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Before Starting Mod 0
 ---
@@ -68,4 +68,4 @@ Work through the <a href="./terminal">Terminal lesson</a> and be prepared to dis
 
 Read guidance on <a href="../../shared//shared/asking_qs">Asking Technical Questions</a> and take notes as you see fit as this will be a key to your success!
 
-<br>
+<br> -->

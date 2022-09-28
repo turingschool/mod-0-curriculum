@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Back End, Classic Format Resources
 ---
@@ -39,4 +39,4 @@ Please submit all deliverables with the submission form URL you customized in th
 
 <br>
 <br>
-<br>
+<br> -->

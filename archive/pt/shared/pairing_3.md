@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: lesson
 title: Optional Pairing Session
 ---
@@ -64,4 +64,4 @@ The two challenges below are for both Back End and Front End students!
 </div>
 <br>
 
-<br><br>
+<br><br> -->

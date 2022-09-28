@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:     page
 title:      Where to Get Info
 ---
@@ -30,4 +30,4 @@ As a Mod 0 student, you'll be attending classes, previewing and reviewing lesson
 Posting questions there increases collaboration - opportunities to get various perspectives on your question as well as benefitting others who may have the same question. For that reason, instructors will not answer technical questions via DMs.
 
 <br>
-
+ -->
