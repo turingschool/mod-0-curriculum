@@ -99,7 +99,7 @@ makeFreshPesto();
 <div class="s-card">
   <h3>Practice: Define and Call a Function</h3>
   <p><em>Referring to the lesson and your notes is encouraged, but for your learning's sake, do not copy-and-paste!</em></p>
-  <p>In a replit file or a file in Atom, define a function named <code>printGreeting</code>. Inside the code block, write a <code>console.log</code> statement that prints a friendly greeting. Then, call the function.</p>
+  <p>In a replit file or a file in VS Code, define a function named <code>printGreeting</code>. Inside the code block, write a <code>console.log</code> statement that prints a friendly greeting. Then, call the function.</p>
   <p>Run the code. You should see the <code>console.log</code> statement in your console.</p>
 </div>
 <br>
@@ -147,7 +147,7 @@ addThreeNums(1, 2, 3);
   </ol>
   <p><em>For the next activity, referring to the lesson and your notes is encouraged, but for your learning's sake, do not copy-and-paste!</em></p>
   <ol>
-    <li>In a new replit file or a file in Atom, define a function named <code>greetMe</code> that declares two parameters, a first and last name. Inside the code block, write a <code>console.log</code> statement that prints a sentence greeting a person using both first and last names.</li> 
+    <li>In a new replit file or a file in VS Code, define a function named <code>greetMe</code> that declares two parameters, a first and last name. Inside the code block, write a <code>console.log</code> statement that prints a sentence greeting a person using both first and last names.</li> 
     <li>Then, call the function with appropriate arguments.</li>
     <li>Run the code. You should see the <code>console.log</code> statement in your console.</li>
     <li>On a new line of code, call the function <em>again</em>, using different arguments.</li>

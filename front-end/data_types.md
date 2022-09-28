@@ -157,9 +157,9 @@ depositPaid # true
   </ul>
 </div>
 
-## Dev Tools Console vs. Atom
+## Dev Tools Console vs. VS Code
 
-When Atom was introduced in a previous lesson, it was shared that Atom (or the text editor of choice) is where JavaScript code should be written. That is true. So, why did this lesson ask the reader to write JavaScript code in the Chrome Dev Tools Console?
+When VS Code was introduced in a previous lesson, it was shared that VS Code (or the text editor of choice) is where JavaScript code should be written. That is true. So, why did this lesson ask the reader to write JavaScript code in the Chrome Dev Tools Console?
 
 - JavaScript can run in the browser. Sometimes developers find it easier and quicker to run small pieces of code in the Dev Tools Console, rather than create an entire file and open the text editor, etc.
 - When building actual applications, a text editor is necessary. This allows us to write large code files, save them with version control (Git), and more.
@@ -168,7 +168,7 @@ This lesson exposed the reader to the Chrome Dev Tools Console as an _option_ an
 
 **One difference to note, at this stage in knowledge and learning, and being able to see the output.**
 - In the Chrome Dev Tools Console, one can type the name of a variable to _call_ it, and after pressing the return key, the Console will display the value of that variable.
-- When writing code in Atom, simply typing the name of a variable will not result in showing the human the value of the variable. Two steps need to be taken:
+- When writing code in VS Code, simply typing the name of a variable will not result in showing the human the value of the variable. Two steps need to be taken:
 1. Instruct the program to print out the value of the variable. `console.log(depositPaid)` is an example of a `console.log` statement that will print out the value of the `depositPaid` variable.
 2. Run the code. In the Terminal, while navigated to the directory that the file containing the code you want to run, run `node filename.js`. And `console.log` statements should print out. Additionally, any errors in the code may produce an error message at this time.
 The Check For Understanding will provide a practice opportunity for this section.
@@ -177,7 +177,7 @@ The Check For Understanding will provide a practice opportunity for this section
 
 _Complete this CFU **after** you've done the live GitHub lesson._
 
-Use everything you’ve learned with Atom, Git, GitHub, Data Types and variables, complete this challenge:
+Use everything you’ve learned with VS Code, Git, GitHub, Data Types and variables, complete this challenge:
 
 1. Create a new directory called `variablePractice`.
 1. Inside that directory, create a file called `variables.js`.

@@ -158,7 +158,7 @@ for (var i = 0; i < fruits.length; i++) {
 
 ## Practice
 
-Use a `for` statement to solve each problem. You can do this work in the place that works best for you - Dev Tools Console, a file in Atom, or an online editor.
+Use a `for` statement to solve each problem. You can do this work in the place that works best for you - Dev Tools Console, a file in VS Code, or an online editor.
 
 <div class="s-card">
   <p>Utilize a <code>for</code> statement to print out the numbers 3-14.</p>
