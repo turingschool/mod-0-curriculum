@@ -22,7 +22,7 @@ While computer literacy skills have never been an entry requirement for students
     - `command + s` - save a file
     - `command + q` - quit an application
     - `command + tab` - switch applications
-- **Navigating the Mac Environment:** There are many things that are different about using the Mac environment if you're more familiar with PC. For example, did you know that using two fingers on the trackpad allows you to scroll up and down efficiently? Or that swiping up on your trackpad with three fingers allows you to see all open windows? If this is your first time using a Mac, it is highly recommended that you watch this [Mac Tutorial for Beginners](https://www.youtube.com/watch?v=67keaaWOKzE&t=0s) and spend some time getting comfortable with your new machine.
+- **Navigating the Mac Environment:** There are many things that are different about using the Mac environment if you're more familiar with PC. For example, did you know that using two fingers on the trackpad allows you to scroll up and down efficiently? Did you also know that swiping up on your trackpad with three fingers allows you to see all open windows? If this is your first time using a Mac, it is highly recommended that you watch this [Mac Tutorial for Beginners](https://www.youtube.com/watch?v=67keaaWOKzE&t=0s) and spend some time getting comfortable with your new machine.
 
 ## Before Your First Mod 0 Session
 There are a number of steps you must complete before attending your first session of Mod 0. First and foremost, it is **essential** that all students complete the [Computer Setup]({{ site.baseurl }}/computer-setup) (1-2 hours) prior to attending the first session. It is recommended that you start this computer setup at least _one week_ before attending the first session to give yourself enough time to work through any issues that arise. In addition to completing the Computer Setup, student must also complete the following steps: 
@@ -56,8 +56,11 @@ All Turing staff members will use Slack as the primary means of communication wi
 
 ## Grading
 While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time, implement feedback on those assignments, and demonstrate your learning in a live evaluation. Follow the links below to find all required assignments for your specific program:
+
 - [Back End Mod 0 Assignments]({{ site.baseurl }}/back-end)
 - [Front End Mod 0 Assignments]({{ site.baseurl }}/front-end)
+
+At the very top of each program page, you will see a link to a Trello board that also outlines each required task along with the due date.
 
 ### Implementing Feedback
 Throughout the course, students will complete many assignments to demonstrate their understanding of the topics. These assignments are organized into segments of work, with each segment due by the next live session. It is expected that students implement feedback provided by staff. Sometimes this will mean revising submissions and other times this will mean implementing that feedback in future assignments. In the event a student gets behind and needs an extension and/or support to adjust their schedule to get back on track, it is the student's responsibility to proactively reach out and discuss what that could look like. 
@@ -75,15 +78,16 @@ There will be no “gotchas”. The rubric that follows communicates what we car
 This may be your first time learning and/or working in a remote setting. There are a few key tools we recommend to set yourself up for success as a remote student. 
 
 - **External Monitor/Display:** There are plenty of great used options available on eBay, Facebook Marketplace, Craigslist, etc. All you really need is something that fits in your workspace and can connect to your MacBook! If you are unable to acquire an external monitor prior to Mod 1, please DM the Mod 0 Lead on Slack and we can discuss other options.
-- **USB-C to HDMI Cable:** This cable will allow you to connect your MacBook to your external monitor/display. If you are purchasing a new monitor, it will likely come with the cable to you, but you may need to aquire one - these are usually less than $15.
+- **USB-C to HDMI Cable:** This cable will allow you to connect your MacBook to your external monitor/display. If you are purchasing a new monitor, it will likely come with the cable to you, but you may need to aquire one.
 - **Dedicated Workspace:** It is crucial to have a workspace that has access to a reliable internet connection and is both quiet and free from distractions. Take time before Mod 0 to build your workspace and experiment with different setups until you find a configuration that works for you.
 - **Notebook + Writing Utensils:** While you will be working on your laptop while you code, work on projects, etc., we recommend using a physical notebook to take notes during class and workshops.
 
 ## Optional Supplies
-- **Headphones with Microphone:** Since you'll be on a lot of video calls and collaborating remotely, having a good set of headphones and a decent microphone can improve your experience. While your Turing issued laptop has built-in speakers and a microphone, if your workspace has a lot of ambient noise, it might be a good idea to invest in headphones + microphone. 
-- **USB-C Hub:** Your Turing issued laptop only has 2 ports. You'll need one for your charger and one for your external monitor. If you require more ports, a USB-C Hub is a great idea!
-- **External Keyboard:** Some folks are more picky with their keyboards and prefer a certain look, feel, touch, etc. If you are one of these people, you may benefit from using a different keyboard than the integrated one in your laptop. If you plan to use a wired keyboard, you'll likely need the USB-C hub mentioned above to connect to your keyboard in addition to your charger and monitor.
-- **Laptop Stand:** These can be useful when using a separate keyboard or for creating more real estate for your workspace.
+- **Headphones with Microphone:** While your Turing-issued laptop has built-in speakers and a microphone, if your workspace has a lot of ambient noise, it might be a good idea to invest in headphones + microphone. 
+- **USB-C Hub:** Your Turing-issued laptop only has 2 ports. You'll need one for your charger and one for your external monitor. If you require more ports, a USB-C Hub is a great idea!
+- **Laptop Stand:** These can be useful when using a separate keyboard and for preventing strain on your neck. This also creates more real estate for your workspace.
+- **External Keyboard:** You may benefit from using a different keyboard than the integrated one in your laptop, especially if you are using a laptop stand. If you plan to use a wired keyboard, you'll likely need the USB-C hub mentioned above to connect to your keyboard in addition to your charger and monitor.
+
 
 <!-- ## Resources
 - Turing Lingo
@@ -95,11 +99,11 @@ We do our best to work with students who need additional accommodations while at
 
 ## Enrollment Questions
 
-In order to secure a seat as a student at Turing, one must complete all the registration paperwork (including uploading HS Transcripts _and_ getting them approved) and pay their deposit. **If you have any questions regarding your status with those items or your start dates, please first check your Populi account.** If you still have questions or need to make a change to your enrollment status, please contact _Launa Gardner_ on Slack.
+In order to secure a seat as a student at Turing, one must complete all the registration paperwork (including uploading a HS Transcript) and pay their deposit. **If you have any questions regarding your status with those items or your start dates, please first check your Populi account.** If you still have questions or need to make a change to your enrollment status, please email `admissions@turing.edu`.
 
 ## Tuition Questions
 
-If you are enrolled in Mod 0, that means you've paid your deposit. The remainder of your tuition is due 30 days prior to your Mod 1 start date. Turing does provides financial counseling, however, it is _the student's_ responsibility to take advantage of that resource if needed, and that should be done well in advance of the tuition deadline as exceptions will not be made. To set up a financial counseling session or ask clarifying questions about your tuition, please email financialaid@turing.edu.
+If you are enrolled in Mod 0, that means you've paid your deposit. The remainder of your tuition is due 30 days prior to your Mod 1 start date. Turing does provides financial counseling, however, it is _the student's_ responsibility to take advantage of that resource if needed, and that should be done well in advance of the tuition deadline as exceptions will not be made. To set up a financial counseling session or ask clarifying questions about your tuition, please email `financialaid@turing.edu`.
 
 <br>
 <br>

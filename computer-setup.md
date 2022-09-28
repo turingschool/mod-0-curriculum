@@ -62,7 +62,7 @@ Slack is our main communication tool at Turing. **You will receive an invitation
 To ensure that you are prepared for your first session:
 - Watch the [Slack Tutorial Video](https://www.youtube.com/watch?v=tfq333EpWgM).
 - Upload a clear and appropriate headshot for your profile image.
-- Set up your Slack profile to include your cohort, program, pronouns, and time zone.
+- [Set up your Slack profile](https://www.loom.com/share/6f10b796c90f40c09594899d71bf401a) to include your cohort, program, pronouns, and time zone.
 - Practice the following (direct message yourself to practice!):
   - How to start a thread
   - How to reply in a thread
