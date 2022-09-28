@@ -9,12 +9,14 @@ All assignments for Mod 0 related to content are outlined below and organized in
 1. Select `... More` about halfway down the side menu.
 1. Select `Copy board` and create a name for your personalized Trello board. This board will now be saved on your personal Trello account.
 
-
 ## Before Kickoff Session
-* [Read the Syllabus]({{ site.url }}/syllabus) 
 * [Complete all Computer Setup]({{ site.url }}/computer-setup) 
+* [Read the Syllabus]({{ site.url }}/syllabus) 
+* [Review the Mod 0 Calendar]({{ site.url }}/calendar)
+* [Prep Your "Why"]({{ site.url }}/shared/why)
 * [Asking Technical Questions]({{ site.url }}/shared/asking_qs) 
-* [Markdown]({{ site.url }}/shared/markdown) 
+* [Markdown]({{ site.url }}/shared/markdown)
+* [Introduction Video]({{ site.url }}/shared/intro-video)
 
 ## Segment 1 - Completed By Session 2
 * [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
@@ -28,14 +30,14 @@ All assignments for Mod 0 related to content are outlined below and organized in
 * [Data Types]({{ site.url }}/back-end/data_types)
 * [Mentorship Prep]({{ site.url }}/shared/mentorship)
 * [Pair Programming]({{ site.url }}/shared/pairing)
-* [Pairing 1]({{ site.url }}/shared/pairing_1)
+* [Pairing Session 1]({{ site.url }}/shared/pairing_1)
 
 ## Segment 3 - Completed By Session 4
 * [Conditionals]({{ site.url }}/back-end/conditionals)
 * [Arrays]({{ site.url }}/back-end/arrays)
 * [Iteration]({{ site.url }}/back-end/iteration)
 * [DTR Prep]({{ site.url}}/shared/dtr)
-* [Pairing 2]({{ site.url }}/shared/pairing_2)
+* [Pairing Session 2]({{ site.url }}/shared/pairing_2)
 
 ## Segment 4 - Completed By Session 5
 * [Methods]({{ site.url }}/back-end/methods)
@@ -44,8 +46,9 @@ All assignments for Mod 0 related to content are outlined below and organized in
 
 ## Segment 5 - Completed By Evaluations
 * [Problem-Solving]({{ site.url }}/shared/problem-solving)
-* [Pairing 4]({{ site.url }}/shared/pairing_4)
+* [Pairing Session 4]({{ site.url }}/shared/pairing_4)
 * [Before Mod 1 Plan]({{ site.url }}/shared/plan)
+* [Final Reflection Video]({{ site.url }}/shared/final-video)
 
 <br>
 <br>
