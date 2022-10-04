@@ -63,16 +63,7 @@ To ensure that you are prepared for your first session:
 - Watch the [Slack Tutorial Video](https://www.youtube.com/watch?v=tfq333EpWgM).
 - Upload a clear and appropriate headshot for your profile image.
 - [Set up your Slack profile](https://www.loom.com/share/6f10b796c90f40c09594899d71bf401a) to include your cohort, program, pronouns, and time zone.
-- Practice the following (direct message yourself to practice!):
-  - How to start a thread
-  - How to reply in a thread
-  - How to format an `inline code example`
-  - How to create a larger code snippet, as such:
-    ```
-      You can create multi-line
-      code snippets in Slack
-      That make it easier to share larger blocks of code
-    ```
+- It's a good idea to get in the habit of checking Slack daily starting now.
 <br>
 
 ### Create a Replit Account
@@ -146,6 +137,8 @@ Turing is a fully remote and highly collaborative program, which means you will 
   <h3>Command Prompt Notation</h3>
   <p>A common convention in documentation that outlines anything regarding the Terminal is to notate a command one should run by starting the line with a <code>$</code> or <code>%</code>. As the developer, you should not type the <code>$</code> or <code>%</code>; you should only type the command that follows it. It is meant to represent your command prompt (which is usually the path to your working directory).</p>
 </div>
+
+<br>
 
 ### Install Xcode-select
 
