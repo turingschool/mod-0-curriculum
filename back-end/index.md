@@ -42,12 +42,12 @@ All assignments for Mod 0 related to content are outlined below and organized in
 ## Segment 4 - Completed By Session 5
 * [Methods]({{ site.url }}/back-end/methods)
 * [Hashes]({{ site.url }}/back-end/hashes)
-* [Pairing 3]({{ site.url }}/shared/pairing_3)
+* [Pairing Session 3]({{ site.url }}/shared/pairing_3)
 
 ## Segment 5 - Completed By Evaluations
-* [Problem-Solving]({{ site.url }}/shared/problem-solving)
+* [Problem Solving]({{ site.url }}/shared/problem-solving)
 * [Pairing Session 4]({{ site.url }}/shared/pairing_4)
-* [Before Mod 1 Plan]({{ site.url }}/shared/plan)
+* [Beyond Mod 0 Plan]({{ site.url }}/shared/plan)
 * [Final Reflection Video]({{ site.url }}/shared/final-video)
 
 <br>

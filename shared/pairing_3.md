@@ -15,24 +15,22 @@ title: Pairing Session 3
 Before meeting with your partner, reflect on the following:
 - What have you enjoyed about pairing so far?
 - What has been challenging about pairing for you so far?
-- What is one thing you want feedback on from your partner at the end of this session? (It's recommend you use the "one thing" from yesterday's session, or another area you are pushing yourself to grow in!)
+- What is one thing you want feedback on from your partner at the end of this session? (It's recommended you use the "one thing" from Pairing Session 2, or another area you are pushing yourself to grow in!)
 - How do you prefer to give and get feedback for the previous question? (The how being the method of communication - in writing? Over zoom immediately, or over zoom after having time to reflect and prepare? Other?)
 
 Be ready to share your answers with your partner.
 
 ## Set Collaboration Expectations
 
-Spend a few minutes getting to know each other and discussing the questions you were asked to prepare answers to. This will help set expectations for what you each need and can commit to doing, and is an important habit to build when you start a working relationship. You'll be asked to reflect on both preparation questions (and how the session went in regards to those) after the pairing session.
-
-Decide if you will share feedback live at the end of this call, or in writing via Slack DMs.
-
-Then, decide who will be the Driver and Navigator for the first challenge, then switch roles for the second exercise.
+Spend a few minutes getting to know each other and discussing your answers to the questions in the Prepare section above. This will help set expectations for what you each need and can commit to doing, and is an important habit to build when you start a working relationship. In addition to discussing those questions, make two important decisions before you begin: 
+- Decide if you will share feedback live at the end of this call, or in writing via Slack DMs.
+- Then, decide who will be the Driver and Navigator for the first challenge and switch roles for the second exercise.
 
 ## Exercises
 
->**Make sure to record this pairing session as you'll be asked to submit the video as part of today's reflection.**
+There are 2 sets of exercises for this pairing session. Please find the one that corresponds to your program before beginning the work.
 
-Note: Some language in used in these prompts that you have not had direct exposure to in the Mod 0 curriculum. This is _intentional_ and designed to support you in being flexible while reading documentation and specifications (as that is an essential skill for a developer to have). Use your context clues, make educated guesses with the knowledge you have, and if you are completely unsure "does it mean X or Y?" - do the exercise both ways - x and y - just to cover yourself!
+Note: Some language used in these prompts might be new to you. This is _intentional_ and designed to support you in being flexible while reading documentation and specifications (as that is an essential skill for a developer to have). Use your context clues, make educated guesses with the knowledge you have, and if you are completely unsure "does it mean X or Y?" - do the exercise both ways - x and y - just to cover yourself!
 
 ### Back End
 
@@ -71,7 +69,7 @@ Note: Some language in used in these prompts that you have not had direct exposu
 ### Front End 
 
 <div class="s-card">
-  <h3>Pairing Exercise 1: Object Literals (Front End)</h3>
+  <h3>Pairing Exercise 1: Objects (Front End)</h3>
   <p>For this exercise, use a Git workflow.</p>
   <ul>
     <li>In your Mod 0 directory, create a new directory called <code>pairing3</code>. Inside of that directory, touch a file called <code>objectLiteralPractice</code>. Initialize a Git repository</li>
@@ -88,7 +86,7 @@ Note: Some language in used in these prompts that you have not had direct exposu
 <br>
 
 <div class="s-card">
-  <h3>Pairing Exercise 2: Iteration</h3>
+  <h3>Pairing Exercise 2: For Statements</h3>
   <ul>
     <li>In your Mod 0 directory, create a new directory called <code>pairing3</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository</li>
     <li>Define a variable that stores an Array containing 8 Numbers between 1 and 100</li>
@@ -104,10 +102,15 @@ Note: Some language in used in these prompts that you have not had direct exposu
 
 ## Feedback
 
-Come back to the areas that you asked each other to provide feedback on. 
+Based on your discussion at the beginning of this pairing session, discuss feedback now or follow up in a Slack DM after the meeting.
 
 ## Reflection
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/13dfa032e730549547a6ca72716ac9d3) and submit your fork of it in the submission form.
+Take a moment to reflect independently after this exercise.
+- As you prepare for your final evaluation, take a moment to review the guidelines for the evaluation outlined in the [Course Syllabus]({{ site.url }}/syllabus). In what areas do you feel confident and in what areas might you need to improve before your last pairing session?
+- What is one step you could take to prepare for your next pairing session?
+- What progress have you made on the areas of growth you identified in your previous paired session?
 
-<br><br>
+There is nothing to submit anything after completing this exercise, but take note of your progress and any areas in which you would like to continue growing.
+
+<br><br><br><br><br>

@@ -14,9 +14,7 @@ Before meeting with your partner, identify 1-2 technical topics covered in Mod 0
 
 ## Mini-DTR
 
-Spend a few minutes getting to know each other and sharing what you selected for your pairing exercise.
-
-Then, decide who will Drive and who will Navigate first.
+Spend a few minutes getting to know each other and sharing what you selected for your pairing exercise. Then, decide who will Drive and who will Navigate first.
 
 ## Exercises
 
@@ -24,6 +22,11 @@ No exercises are provided as you each brought exercises to the pairing session!
 
 ## Reflection
 
-There isn't a reflection for this pairing session specifically, but you will be asked to reflect on your experience and learning from the 4+ pairing sessions in your Final Reflection Video.
+Take a moment to reflect independently after this exercise.
+- What are you proud of?
+- How have you seen yourself grow over the course of these 4 pairing sessions?
+- What is one thing you want to hold yourself accountable to during the final evaluation?
 
-<br><br>
+There is nothing to submit anything after completing this exercise, but let's take a moment to spread some joy! Send your partner a quick DM in Slack sharing one action they took during this paired session that helped you. Use the [evaluation rubric](https://turingschool.notion.site/turingschool/9d22c7265b4e4d75a994496605ec8e94?v=3232bf7092914bb998b63b3f12c9be62) as a guide to give them some actionable positive feedback they can take with them into their final eval. You can choose to highlight their communication, collaboration or their technical skills!
+
+<br><br><br><br><br>

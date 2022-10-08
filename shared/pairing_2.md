@@ -20,9 +20,7 @@ Be ready to share your answers with your partner.
 
 ## Set Collaboration Expectations
 
-Spend a few minutes getting to know each other and discussing the questions you were asked to prepare answers to. This will help set expectations for what you each need and can commit to doing, and is an important habit to build when you start a working relationship. You'll be asked to reflect on both preparation questions (and how the session went in regards to those) after the pairing session.
-
-Then, decide who will be the Driver and Navigator for the first challenge, then switch roles for the second exercise.
+Spend a few minutes getting to know each other and discussing your answers to the questions in the Prepare section above. This will help set expectations for what you each need and can commit to doing, and is an important habit to build when you start a working relationship. Then, decide who will be the Driver and Navigator for the first challenge and switch roles for the second exercise.
 
 ## Exercises
 
@@ -64,6 +62,11 @@ Then, decide who will be the Driver and Navigator for the first challenge, then 
 
 ## Reflection
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/efe1c490a8ee0c99c8ad2eb7ae63dcf4) and submit your fork of it in the submission form.
+Take a moment to reflect independently after this exercise.
+- What went well?
+- What could be improved?
+- What progress have you made on the areas of growth you identified in your previous paired session?
 
-<br><br>
+There is nothing to submit anything after completing this exercise, but take note of your progress and any areas in which you would like to continue growing.
+
+<br><br><br><br><br>
