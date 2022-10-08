@@ -12,13 +12,13 @@ title: Pairing Session 1
 ## Discussions
 
 As you start the Zoom call with your partner, spend a few minutes getting to know each other, learning about their experience in Mod 0 so far. Then, discuss the following questions regarding yesterday's assignment:
-- What is your understanding of Pair Programming, specifically the Driver Navigator style?
+- What is your understanding of Pair Programming, specifically the Driver-Navigator style?
 - What stuck out to you while watching the video of Kaitlyn and Amy pair?
 - As it relates to pairing, what are you nervous about? Excited about? Confused about?
 
 ## Deciding Roles
 
-Below are two short exercises for you to pair on. Decide who will be the Driver and Navigator for the first challenge, then switch roles for the second exercise.
+Below are two short exercises for you to pair on. Decide who will be the Driver and Navigator for the first challenge and switch roles for the second exercise.
 
 ## Exercises
 
@@ -65,9 +65,11 @@ Below are two short exercises for you to pair on. Decide who will be the Driver 
 </div>
 
 ## Reflection
+Take a moment to reflect independently after your first paired programming session.
+- What went well?
+- What could be improved?
+- What is one thing you learned from your partner?
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/70d0e1c5d393cd74b892784d81407c79) and submit your fork of it in the submission form. 
+Congratulations on completing your first paired programming assignment! There is no need to submit anything after completing this exercise, but take note of your progress on any areas of growth over the next few pairing sessions.
 
-**Note:** Each student should make an individual submission.
-
-<br><br>
+<br><br><br><br><br>
