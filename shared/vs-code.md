@@ -75,7 +75,7 @@ You may need to practice these shortcuts quite a few times before you start to b
 
 <div class="s-card">
   <h3>Turn on Auto Save</h3>
-  <p>To quickly save any file, you can use `cmd + s`. However, if you prefer to have your files auto-save when you switch to another application, go to `File` at the top of your VS Code window and select `Auto Save`.</p>
+  <p>To quickly save any file, you can use <code>cmd + s</code>. However, if you prefer to have your files auto-save when you switch to another application, go to `File` at the top of your VS Code window and select <code>Auto Save</code>.</p>
 </div>
 
 ## Terminal & VS Code Practice

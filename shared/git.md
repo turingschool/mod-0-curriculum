@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Git
+title: Git Workflow
 ---
 
 ## Learning Goals
@@ -60,11 +60,11 @@ Stop at the provided prompts to take notes and complete practice exercises as in
 
 ## Additional Resources (Optional)
 
-- Read this <a href="https://chris.beams.io/posts/git-commit/" target="_blank">article on Git commit messages</a> staging area
+- Read this <a href="https://chris.beams.io/posts/git-commit/" target="_blank">article on Git commit messages</a>
 - <a href="https://stackoverflow.com/questions/49228209/whats-the-use-of-the-staging-area-in-git" target="_blank">What's the use of the staging area in Git?</a> on Stack Overflow
 
 ## Check For Understanding
 
-<a href="https://gist.github.com/ameseee/e9ccdf8fae906a3bd1a3d5e81731413b" target="_blank">Follow the directions in this Gist</a> and submit your fork of it in the submission form.
+<a href="https://gist.github.com/kaitvan/2d5bfa4e5785245bcf1c67c97339a60c" target="blank">Follow the directions in this Gist</a> and submit your fork of it in the submission form.
 
 <br><br>
