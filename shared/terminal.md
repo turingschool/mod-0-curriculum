@@ -375,7 +375,7 @@ Now when I run `ls`, I will no longer see `books` listed.
 
 ## Practice
 
-In your Terminal, recreate the file structures shown in the diagrams below. Assume that the extensions for any files notated is `.md`.
+In your Terminal, recreate the file structures shown in the diagrams below. Assume that the extension for any files notated is `.md`.
 
 ### Challenge #1
 <img src="./assets/practice-1.png">
@@ -391,6 +391,14 @@ In your Terminal, recreate the file structures shown in the diagrams below. Assu
 
 ## Check For Understanding
 
-Record your screen and audio while completing Practice Challenge #1 or #2 from the lesson. If you already practiced them once without recording, you can always remove the directory you created the first time to record again. Practice articulating exactly what you are doing every step of the way with technical vocabulary, so you are prepared to "pair" program. After recording your video, share it in your small group Slack channel. [Loom](https://www.loom.com/) is an excellent web-based tool for recording videos, but you can also record on Zoom or QuickTime (free and already installed on all Macs).
+Record your screen and audio using Loom while completing Challenge #1 _or_ Challenge #2 from the lesson. If you already practiced them once without recording, you can always remove the directory you created the first time to practice again. 
 
-<br><br>
+Here are a few things to include in your video: 
+- Show how to use Rectangle to organize your screen with this lesson on one side and your terminal on the other. 
+- Demonstrate how to use informative commands like `ls` and `pwd`.
+- Practice articulating exactly what you are doing every step of the way with technical vocabulary. This might sound something like, "Next, we are going to move into that directory using the command `cd` followed by the directory name."
+- If you make a mistake, fix it live! These videos don't need to be perfectly polished.
+
+**After recording your video, submit the link to your video in the submission form.**
+
+<br><br><br><br><br>
