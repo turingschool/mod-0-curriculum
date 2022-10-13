@@ -28,7 +28,6 @@ All assignments for Mod 0 related to content are outlined below and organized in
 ## Segment 2 - Completed By Session 3
 * [GitHub]({{ site.url }}/shared/github)
 * [Data Types]({{ site.url }}/back-end/data_types)
-* [Mentorship Prep]({{ site.url }}/shared/mentorship)
 * [Pair Programming]({{ site.url }}/shared/pairing)
 * [Pairing Session 1]({{ site.url }}/shared/pairing_1)
 

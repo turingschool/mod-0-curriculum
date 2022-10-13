@@ -10,18 +10,18 @@ GitHub is a cloud-based Git repository where developers can store and manage the
 - Identify the key information on a GitHub repository
 - Create repositories in GitHub
 - Connect a local repository to a remote repository
+- Push work from a local repository to a remote repository
 - Fork and clone GitHub repositories
 - Describe the difference between forking and cloning a repository
-- Push work from a local repository to a remote repository
 
 ## Vocabulary
 
 - <span class="vocab">repository</span>
 - <span class="vocab">local</span>
 - <span class="vocab">remote</span>
+- <span class="vocab">push</span>
 - <span class="vocab">fork</span>
 - <span class="vocab">clone</span>
-- <span class="vocab">push</span>
 
 ## Warm-Up
 
@@ -62,7 +62,7 @@ What follows is a diagram that breaks down the anatomy of the `git push -u origi
 <img src="./assets/command-anatomy.png" alt="Anatomy of git push -u origin main command">
 
 <div class="s-card">
-  <h3>Breakout Practice</h3>
+  <h3>Practice</h3>
   <p>Follow the steps listed above to connect a local Git repository with a GitHub repository.</p>
 </div>
 <br>
@@ -75,7 +75,7 @@ Now that we have our local repository connected to a remote repository, we can s
 git push origin main
 ```
 
-Since we used the `-u` in our original push to connect the two repos, we can technically use the following command to get the exact same outcome:
+Since we used the `-u` in our original push to connect the two repos, we already established main as the upstream branch. This means we can use the following command to get the exact same outcome:
 
 ```bash
 git push
