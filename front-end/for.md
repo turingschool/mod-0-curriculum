@@ -3,12 +3,6 @@ layout: lesson
 title: For Statements
 ---
 
-## Preview
-
-Before attending class, students should:
-1. Brush up on Arrays, if needed
-2. Skim this lesson document and take note of new syntax and vocabulary. It is _not_ recommended that you complete the exercises.
-
 ## Learning Goals
 
 - Explain the concept of a loop

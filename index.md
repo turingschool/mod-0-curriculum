@@ -24,7 +24,7 @@ title: Home
     <li>Developing strategies to thrive in a rigorous, remote learning environment.</li>
   </ul>
   <br>
-  <p>It is expected that students arrive to their first Mod 0 Session prepared to engage, which includes having their computer and workspace set up. Students can prepare by following the directions on the Computer Setup page and carefully reading teh Syllabus. Promotion to Mod 1 is contingent upon successfully completing the Mod 0 coursework. It is <strong>not</strong> recommended that students begin working on these tasks prior to receiving their laptop for the program. </p>
+  <p>It is expected that students arrive to their first Mod 0 Session prepared to engage, which includes having their computer and workspace set up. Students can prepare by following the directions on the Computer Setup page and carefully reading the Syllabus. Promotion to Mod 1 is contingent upon successfully completing the Mod 0 coursework. It is <strong>not</strong> recommended that students begin working on these tasks prior to receiving their laptop for the program. </p>
   <br>
   <br>
   <a class="s-button" href="/calendar">Calendar</a>
