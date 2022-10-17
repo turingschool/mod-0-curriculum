@@ -31,22 +31,22 @@ Conditional statements, or <span class="vocab">conditionals</span>, are JavaScri
 Comparison operators are used to compare values of the same data type. The code snippet that follows, models the syntax and the comments explain what the code does:
 
 ```javascript
-// Does the Number 5 have the exact same value as the Number 5? (this evaluates to true)
+// Does the Number 5 have the exact same value as the Number 5? 
 5 === 5
 // --> true
 
-// Is Number 5 less than the Number 3? (this evaluates to false)
+// Is Number 5 less than the Number 3?
 5 < 3
 // --> false
 
 var age = 18;
-// Is the age greater than 12? (this evaluates to true)
+// Is the age greater than 12?
 age > 12
 // --> true
 
 // reassign age variable to 9
 age = 9
-// Is the age greater than 12? (this now evaluates to false)
+// Is the age greater than 12?
 age > 12
 // --> false
 ```
@@ -73,19 +73,20 @@ age > 12
     <li>Check if "P" is equal to " P".</li>
     <li>Check if 10 is not equal to 10.</li>
     <li>Declare a variable that store your name in a String.</li>
-    <li>Check if the length of your name is greater than or equal to 10 (not sure how to do that programmatically? Google!)</li>
+    <li>Check if the length of your name is greater than or equal to 10. Not sure how to do that programmatically? Google!</li>
   </ul>
 </div>
+<br>
+
+>For the remaining practice activities in this assignment, you can use the Dev Tools Console, create a JavaScript file in your Terminal and edit it in VS Code, or use an online IDE such as <a target="blank" href="https://replit.com/~">replit</a> - it's your preference!
 
 ## If Statements
-
->For the practice activities in this section, you can use the Dev Tools Console, create a JavaScript file in your Terminal and edit it in VS Code, or use an online IDE such as replit - it's your preference!
 
 <span class="vocab">If statements</span> are the most common form of conditionals. The logic of an <code>if statement</code> in JavaScript follows the same logic in other programming languages.
 
 ### `if`
 
-All of our conditional branches will begin with an `if`, then condition, then an opening curly bracket `{`. To communicate to the JavaScript program that the `if statement` should end, they closing curly bracket `}` must be used. Any code written in between the curly brackets will run **if** the condition evaluates to true.
+All of our conditional branches will begin with the keyword `if`, followed by a condition in parenthesis, then an opening curly bracket `{`. To communicate to the JavaScript program that the `if statement` should end, the closing curly bracket `}` must be used. Any code written in between the curly brackets will run **if** the condition evaluates to true.
 
 ```javascript
 if (condition) {
@@ -93,45 +94,45 @@ if (condition) {
 }
 ```
 
-The following example checks if a store is open, and prints out a statement to send directions if the store is indeed open:
+The following example checks if a store is open, and prints out a statement if the store is indeed open:
 
 ```javascript
-var isOpen = true
+var isOpen = true;
 
 if (isOpen === true) {
-  console.log("send directions");
+  console.log("Let's go!");
 }
 ```
 
 <div class="s-card">
-  <h3><code>if</code> statements</h3>
-  <p>Write code that defines an <code>age</code> variable and assign it to a Number. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older.</p>
-</div>
-<br>
-
-### `else if`
-
-Use an `else if` to create more branches.
-
-```javascript
-if (condition1) {
-  // code to execute if above condition1 evaluates to true
-} else if (condition2) {
-  // code to execute if above condition2 evaluates to true
-} else if (condition3) {
-  // code to execute if above condition3 evaluates to true
-}
-```
-
-<div class="s-card">
-  <h3><code>elsif</code> statements</h3>
-  <p>Write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?".</p>
+  <h3>Try It: <code>if</code> statements</h3>
+  <p>Define an <code>age</code> variable and assign it to a Number. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older.</p>
 </div>
 <br>
 
 ### `else`
 
-Code inside an `else` will run when none of the previous conditions evaluate to true.
+In the previous exercises, when the condition evaluates to false, we don't see any output. In order to have a default response that runs when the condition is false, we need an `else` statement. Here's an example with the `isOpen` variable for the store. 
+
+```javascript
+var isOpen = true;
+
+if (isOpen === true) {
+  console.log("Let's go!");
+} else {
+  console.log("Oops. Looks like that store is closed now.");
+}
+```
+
+<div class="s-card">
+  <h3>Try It: <code>else</code> statements</h3>
+  <p>Go back to your previous exercise with the <code>age</code> variable. Use an <code>else</code> statement that prints out a different message if the user is not 21 or older.</p>
+</div>
+<br>
+
+### `else if`
+
+Use the keywords `else if` to create more branches with additional conditions to check.
 
 ```javascript
 if (condition1) {
@@ -141,63 +142,76 @@ if (condition1) {
 } else if (condition3) {
   // code to execute if above condition3 evaluates to true
 } else {
-  // code to execute if all previous conditions evaluate to false
+  // default code to execute if none of the other conditions evaluate to true
 }
 ```
+
+Notice that code inside the `else` statement will only run when none of the previous conditions evaluate to true.
+
 <div class="s-card">
-  <h3><code>else</code> statements</h3>
-  <p>You will now build on the previous work you've done with the <code>age</code> variable; write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?". If the user is any other age, print out "You aren't quite old enough to visit, sorry!".</p>
+  <h3>Try It: <code>else if</code> statements</h3>
+  <p>Continue building on the previous work you've done with the <code>age</code> variable. Write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?". If the user is any other age, print out "You aren't quite old enough to visit, sorry!".</p>
 </div>
 <br>
 
 >_Optional:_ Read the <a href="https://www.javascript.com/learn/conditionals" target="_blank">Conditionals section</a> from Pluralsight for a different explanation.
 
+<br>
+<div class="s-card">
+  <h3>More Practice</h3>
+  <ul>
+    <li>Declare a variable that stores your name in a String.</li>
+    <li>Write an if/else statement - if your name is "Oscar", print "Hello, Oscar!". If not, print "Nice to meet you, Stranger!".</li>
+    <li>Challenge: Use string interpolation to interpolate any non-Oscar name instead of the word "Stranger".</li>
+  </ul>
+</div>
+
 ## Logical Operators
 
-There are three <span class="vocab">logical operators</span> in Ruby; we will learn two today:
-- `&&`
-- `||`
+There are three <span class="vocab">logical operators</span> in JavaScript; we will learn two today:
+- `&&` or `and`
+- `||` or `or`
 
-### `&&`
+### `&&` or `and`
 
 This logical operator will check two values, and both **must** be true in order for it to return `true`. Examples follow:
 
-```ruby
-age = 34
-time = 2.05
+```javascript
+var age = 34;
+var time = 2.05;
 
 age < 40 && time < 3.0
-# true (both meet requirement)
+// true (both meet requirement)
 
 age < 30 && time < 3.0
-# false (age is not less than 30)
+// false (age is not less than 30)
 
 age < 40 && time < 2.0
-# false (time is not less than 2.0)
+// false (time is not less than 2.0)
 
 age < 30 && time < 2.0
-# false (neither meet requirement)
+// false (neither meet requirement)
 ```
 
-### `||`
+### `||` or `or`
 
 This logical operator will check two values, and _one_ or _both_ must be true in order for it to return true. Examples follow:
 
-```ruby
-age = 34
-time = 2.05
+```javascript
+var age = 34;
+var time = 2.05;
 
 age < 40 || time < 3.0
-# true (both meet requirement)
+// true (both meet requirement)
 
 age < 30 || time < 3.0
-# true (time meets requirement)
+// true (time meets requirement)
 
 age < 40 || time < 2.0
-# true (age meets requirement)
+// true (age meets requirement)
 
 age < 30 || time < 2.0
-# false (neither meet requirement)
+// false (neither meet requirement)
 ```
 
 <div class="s-card">
@@ -213,21 +227,23 @@ age < 30 || time < 2.0
   </ul>
 </div>
 
-<!-- TODO: write activity to practice logical operators COMBINED with IF statements -->
+Now that you know about logical operators and `if statements`, let's combine that new knowledge to complete a final exercise.
+
+<div class="s-card">
+  <h3>More Practice: Logical Operators with Conditions</h3>
+  <ul>
+    <li>Declare a variable that stores a password.</li>
+    <li>In order for a password to be valid, it needs to have 8 characters or more and include the symbol <code>#</code>.</li>
+    <li>Use logical operators and conditions to give the user feedback based on their password.</li>
+    <li>If the user enters a password that is both 8 characters or more <em>and</em> includes the symbol <code>#</code>, print the statement, "Got it. Your password is: XXXXXXXX" using interpolation to confirm their password.</li>
+  </ul>
+</div>
 
 
 <br>
 
 ## Check For Understanding
 
-<div class="s-card">
-  <h3>More Practice</h3>
-  <ul>
-    <li>Declare a variable that stores your name in a String.</li>
-    <li>Write an if/else statement - if your name is "Oscar", log to the console, "Hello, Oscar!". If not, log "Hello, Stranger!".</li>
-    <li>Challenge: Use String interpolation to interpolate any non-Oscar name in after the word "Stranger".</li>
-  </ul>
-</div>
+<a href="https://github.com/turingschool/m0_fe_conditionals" target="_blank">Follow the directions in the README of this GitHub repository</a>, and submit your fork in the submission form. 
 
-<a href="https://github.com/turingschool/m0_fe_conditionals" target="_blank">Follow the directions in the README of this GitHub repository</a>, and submit your fork in the submission form. Upload the video (requirements are outlined in the code challenges directory README) to your Slack small group channel.
 <br><br><br>
