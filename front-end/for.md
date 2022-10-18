@@ -93,7 +93,7 @@ for ([initialization]; [condition]; [final-expression]) {
 <br>
 
 <div class="s-card">
- <h3>Writing Code (Pairs)</h3>
+ <h3>Writing Code</h3>
   <p>For these tasks, utilize your notes but do not, under any circumstance, copy-and-paste code. It's recommended you write the code in a new replit file.</p>
   <ul>
     <li><strong>Challenge #1:</strong> Write code that will print out the numbers 12-18.</li>
