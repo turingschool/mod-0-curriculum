@@ -35,7 +35,7 @@ As you work through this document, avoid the following pitfalls:
 
 You will learn a lot in between now and the first paired project you are assigned in Mod 1 - technical concepts, about yourself, and what working on technical projects collaboratively can look and feel like.
 
-Start preparing for your first DTR conversation with a future project partner by <a href="https://gist.github.com/ameseee/0385f0fabb0438fd89e122352b7b2255" target="_blank">following the directions in this Gist</a> and submit your fork of it in the submission form.
+Start preparing for your first DTR conversation with a future project partner by <a href="https://gist.github.com/ameseee/0385f0fabb0438fd89e122352b7b2255" target="_blank">following the directions in this Gist</a> and be prepared to share your reflections with your small group in your next session.
 
 <br>
 <br>
