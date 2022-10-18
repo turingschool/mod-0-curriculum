@@ -15,7 +15,7 @@ title: For Statements
 - <span class="vocab">for statement</span>
 - <span class="vocab">initialization</span>
 
-## Warm Up
+## Warm-Up
 
 Write 1-2 sentences to explain the code snippet below, using as many technical vocabulary terms as possible.
 
@@ -32,21 +32,21 @@ var emails = [
 
 ## Discovery
 
-Work through the activity that follows to practice reading unfamiliar code and working to make sense of it. After this, you will receive direct instruction and acquire some vocabulary to help you speak about these concepts - it's ok to experience some confusion and discomfort during this activity. To get the most out of this time, monitor your level of _type_ of struggle, and communicate openly with your peers to support each other in your learning.
+Work through the activity that follows to practice reading unfamiliar code and working to make sense of it. 
 
 <div class="s-card">
-  <h3>Reading a <code>for</code> loop (small groups)</h3>
+  <h3>Reading a <code>for</code> loop</h3>
   <ul>
-    <li>The person with the longest Starbucks order should screenshare (drive). Open <a href="https://replit.com/@turingschool/for-statements#index.js" target="blank">this replit</a> and click "fork". Make sure the font size is big enough for everyone else in the Breakout room to easily see. From here on out, the other partner can serve as a Navigator and provide directions so the Driver can keep the replit screen up.</li>
-    <li>Run the code in the replit. Give everyone in the group some time to read through the code for each <code>for</code> statement and identify the portion of the output that belongs with it. <strong>Discuss: What do you notice? Work to identify which piece of the code corresponds to a change in the output.</strong></li>
-    <li>If questions or wonderings such as "I wonder what would happen if we did X instead of Y...?" - there is nothing stopping you from trying that out, and finding the answer right now! You can edit the existing code, copy-and-paste code snippets then modify, or write something out yourself. <em>You should do those explorations as a group and have your Driver do that on their screenshare.</em></li>
+    <li>Open <a href="https://replit.com/@turingschool/for-statements#index.js" target="blank">this replit</a> and click "fork".</li>
+    <li>Run the code in the replit. Read through the code for each <code>for</code> statement and identify the portion of the output that belongs with it. <strong>What do you notice? Work to identify which piece of the code corresponds to a change in the output.</strong></li>
+    <li>If questions or wonderings such as "I wonder what would happen if we did X instead of Y...?" - there is nothing stopping you from trying that out, and finding the answer right now! You can edit the existing code, copy-and-paste code snippets then modify, or write something out yourself.</li>
   </ul>
 </div>
 <br>
 
-## `for statement` Explained
+## `for statement`
 
-In our live class, we will dissect the code snippet that follows:
+Watch <a target="blank" href="https://www.youtube.com/watch?v=vLu8cOE7YKc">this video</a> to see an explanation of the code snippet shown below.
 
 ```javascript
 for (var i = 0; i < 4; i++) {
@@ -86,8 +86,8 @@ for ([initialization]; [condition]; [final-expression]) {
   <h3>Explaining Code</h3>
   <ul>
     <li>Choose <code>one</code> of the <code>for</code> statements that was in the replit used for the Discovery activity.</li>
-    <li>To review and solidify what we just talked through as a class, prepare a verbal or written explanation of what your selected <code>for</code> statement does, in as much detail as possible. Make note of things you find yourself asking yourself, wondering, or feeling confused about.</li>
-    <li>Be prepared to share out your explanation <em>or</em> a specific question that you came up with during this time.</li>
+    <li>To review and solidify what you saw in the video, prepare a verbal or written explanation of what your selected <code>for</code> statement does, in as much detail as possible. Take note of things you find yourself wondering or feeling confused about.</li>
+    <li>Do some research to try and answer your own question <em>or</em> go to your Slack small group!</li>
   </ul>
 </div>
 <br>
@@ -95,15 +95,12 @@ for ([initialization]; [condition]; [final-expression]) {
 <div class="s-card">
  <h3>Writing Code (Pairs)</h3>
   <p>For these tasks, utilize your notes but do not, under any circumstance, copy-and-paste code. It's recommended you write the code in a new replit file.</p>
-  <p>Determine a Driver and Navigator for the first challenge. The Driver should screenshare their replit window.</p>
   <ul>
     <li><strong>Challenge #1:</strong> Write code that will print out the numbers 12-18.</li>
   </ul>
-    <p>Switch Driver-Navigator roles.</p>
   <ul>
     <li><strong>Challenge #2:</strong>Write code that will print out the numbers 0-5, and use String interpolation to combine the number with an emoji of your choice. <a href="https://www.google.com/search?q=pull+up+emoji+keyboard+on+mac&oq=pull+up+emoji+keyboard+on+mac&aqs=chrome..69i57j0i22i30j0i390l3.3556j0j1&sourceid=chrome&ie=UTF-8&safe=active&ssui=on" target="blank">Here is a resource if you don't know how to pull up the emoji keyboard</a></li>
   </ul>
-  <p>Be ready to screenshare and explain your code if you are called on.</p>
 </div>
 <br>
 
@@ -120,24 +117,25 @@ for (var i = 0; i < fruits.length; i++) {
 ```
 
 <div class="s-card">
- <h3>Investigating Code (Pairs)</h3>
-  <p>For this task, the Driver should fork <a href="https://replit.com/@turingschool/for-arrays#index.js" target="blank">this replit</a>, then the Navigator should guide with these directions:</p> 
+ <h3>Investigating Code</h3>
+  <p>For this task, fork <a href="https://replit.com/@turingschool/for-arrays#index.js" target="blank">this replit</a> and then work through the guided exercise below:</p> 
   <ul>
-    <li>Print out to the console <code>fruits.length</code> and notice the output, and try to make sense of where that came from. Keep what you learned by doing that in mind, keep or delete that code, and continue.</li>
+    <li>Print to the console <code>fruits.length</code> and notice the output, and try to make sense of where that came from. Keep what you learned by doing that in mind, keep or delete that code, and continue.</li>
     <li>Change <code>fruits.length</code> to <code>3</code>. Re-run the code - has the output changed?</li>
     <li>Change <code>fruits[i]</code> to <code>[i]</code>. Re-run the code - has the output changed? Revert the changes with the keyboard shortcut <code>cmd + z</code>.</li>
     <li>Change <code>fruits[i]</code> to <code>fruits</code>. Re-run the code - has the output changed? Revert the changes with the keyboard shortcut <code>cmd + z</code>.</li>
   </ul>
-  <p>If some questions arose out of doing this - you did it right! We will come back together and discuss this as a class.</p>
+  <p>If you have questions about how any of those exercises worked, use Google or your small group.</p>
 </div>
 <br>
 
-## Live Coding - Model
+## Code Challenge
 
 <div class="s-card">
   <h3>Code Challenge</h3>
-  <p>Print out only the numbers from the following Array that are greater than 10:</p>
+  <p>Print only the numbers from the following Array that are greater than 10:</p>
   <p><code>numbers = [10, 11, 7, 19, 4, 52, 89, 9, 12, 10]</code></p>
+  <p><em>Hint: You will need to combine what you learned about for statements today with your prior knowledge of conditionals to solve this challenge!</em></p>
 </div>
 <br>
 
@@ -160,14 +158,14 @@ Use a `for` statement to solve each problem. You can do this work in the place t
 <br>
 
 <div class="s-card">
-  <p>Find the square of each number:</p>
+  <p>Print the square of each number:</p>
   <p><code>numbers = [2, 4, 6, 8, 10, 12]</code></p>
 </div>
 <br>
 
 <div class="s-card">
-  <p>Print out each String, but capitalize the first character of each String:</p>
-  <p><code>words = ["sunny", "beach", "waves", "relax"]</code></p>
+  <p>Print each String, but make each String all lowercase:</p>
+  <p><code>words = ["sUnNy", "BeAcH", "wAvEs", "ReLaX"]</code></p>
 </div>
 <br>
 
