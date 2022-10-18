@@ -134,7 +134,7 @@ for (var i = 0; i < fruits.length; i++) {
 <div class="s-card">
   <h3>Code Challenge</h3>
   <p>Print only the numbers from the following Array that are greater than 10:</p>
-  <p><code>numbers = [10, 11, 7, 19, 4, 52, 89, 9, 12, 10]</code></p>
+  <p><code>var numbers = [10, 11, 7, 19, 4, 52, 89, 9, 12, 10]</code></p>
   <p><em>Hint: You will need to combine what you learned about for statements today with your prior knowledge of conditionals to solve this challenge!</em></p>
 </div>
 <br>
