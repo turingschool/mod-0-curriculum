@@ -159,19 +159,19 @@ Use a `for` statement to solve each problem. You can do this work in the place t
 
 <div class="s-card">
   <p>Print the square of each number:</p>
-  <p><code>numbers = [2, 4, 6, 8, 10, 12]</code></p>
+  <p><code>var numbers = [2, 4, 6, 8, 10, 12]</code></p>
 </div>
 <br>
 
 <div class="s-card">
   <p>Print each String, but make each String all lowercase:</p>
-  <p><code>words = ["sUnNy", "BeAcH", "wAvEs", "ReLaX"]</code></p>
+  <p><code>var words = ["sUnNy", "BeAcH", "wAvEs", "ReLaX"]</code></p>
 </div>
 <br>
 
 <div class="s-card">
   <p>Print out only names that begin with "P":</p>
-  <p><code>names = ["Pilar", "Petunia", "Pamela", "Tan", "Amanda", "Phil"]</code></p>
+  <p><code>var names = ["Pilar", "Petunia", "Pamela", "Tan", "Amanda", "Phil"]</code></p>
 </div>
 <br>
 
