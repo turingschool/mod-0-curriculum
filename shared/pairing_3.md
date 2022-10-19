@@ -38,14 +38,14 @@ Note: Some language used in these prompts might be new to you. This is _intentio
   <h3>Pairing Exercise 1: Hashes</h3>
   <p>For this exercise, use a Git workflow.</p>
   <ul>
-    <li>In your Mod 0 directory, create a new directory called <code>pairing_3</code>. Inside of that directory, touch a file called <code>hash_practice</code>. Initialize a Git repository</li>
-    <li>Define a variable named <code>person</code> that stores a Hash. This Hash should have 4 key-value pairs; you choose the key and use appropriate Data Types for the values</li>
-    <li>Write code to print the entire Hash</li>
-    <li>Write code to print one of the key-value pairs</li>
-    <li>Run the file in the Terminal to verify your code is working as expected</li>
-    <li>Programmatically add 2 more key-value pairs to the Hash</li>
-    <li>Programmatically print out all the keys</li>
-    <li>Run the file in the Terminal to verify your code is working as expected</li>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing_3</code>. Inside of that directory, touch a file called <code>hash_practice</code>. Initialize a Git repository.</li>
+    <li>Define a variable named <code>person</code> that stores a Hash. This Hash should have 4 key-value pairs; you choose the key and use appropriate Data Types for the values.</li>
+    <li>Write code to print the entire Hash.</li>
+    <li>Write code to print one of values based on the key./li>
+    <li>Run the file in the Terminal to verify your code is working as expected.</li>
+    <li>Programmatically add 2 more key-value pairs to the Hash.</li>
+    <li>Programmatically print out all the keys.</li>
+    <li>Run the file in the Terminal to verify your code is working as expected.</li>
     <li>Run <code>git log</code>. Does your commit history tell the story of your progress on this challenge?</li>
   </ul>
 </div>
@@ -54,14 +54,14 @@ Note: Some language used in these prompts might be new to you. This is _intentio
 <div class="s-card">
   <h3>Pairing Exercise 2: Iteration</h3>
   <ul>
-    <li>In your Mod 0 directory, create a new directory called <code>pairing_3</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository</li>
-    <li>Define a variable that stores an Array containing 8 Integers between 1 and 100</li>
-    <li>Write a program that checks each Integer, and prints out only those above 30</li>
-    <li>Run the file in the Terminal to verify your code is working as expected</li>
-    <li>Create a GitHub repository</li>
-    <li>Push your work from the local repository to the remote repository</li>
-    <li>Don't modify or delete any of your previous code; write another method that will check each Integer from the original Array, and print out only those under 60</li>
-    <li>Push that new work up to the remote repository</li>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing_3</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository.</li>
+    <li>Define a variable that stores an Array containing 8 Integers between 1 and 100.</li>
+    <li>Write a program that checks each Integer, and prints out only those above 30.</li>
+    <li>Run the file in the Terminal to verify your code is working as expected.</li>
+    <li>Create a GitHub repository.</li>
+    <li>Push your work from the local repository to the remote repository.</li>
+    <li>Don't modify or delete any of your previous code; write another method that will check each Integer from the original Array, and print out only those under 60.</li>
+    <li>Push that new work up to the remote repository.</li>
   </ul>
 </div>
 <br>
@@ -72,14 +72,14 @@ Note: Some language used in these prompts might be new to you. This is _intentio
   <h3>Pairing Exercise 1: Objects (Front End)</h3>
   <p>For this exercise, use a Git workflow.</p>
   <ul>
-    <li>In your Mod 0 directory, create a new directory called <code>pairing3</code>. Inside of that directory, touch a file called <code>objectLiteralPractice</code>. Initialize a Git repository</li>
-    <li>Define a variable named <code>person</code> that stores an Object Literal. This Object should have 4 key-value pairs; you choose the key and use appropriate Data Types for the values</li>
-    <li>Write code to print the entire Object</li>
-    <li>Write code to print one of the key-value pairs</li>
-    <li>Run the file in the Terminal to verify your code is working as expected</li>
-    <li>Programmatically add 2 more key-value pairs to the Object</li>
-    <li>Programmatically print out all the keys</li>
-    <li>Run the file in the Terminal to verify your code is working as expected</li>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing3</code>. Inside of that directory, touch a file called <code>objectLiteralPractice</code>. Initialize a Git repository.</li>
+    <li>Define a variable named <code>person</code> that stores an Object Literal. This Object should have 4 key-value pairs; you choose the key and use appropriate Data Types for the values.</li>
+    <li>Write code to print the entire Object.</li>
+    <li>Write code to print one of the values based on the key.</li>
+    <li>Run the file in the Terminal to verify your code is working as expected.</li>
+    <li>Programmatically add 2 more key-value pairs to the Object.</li>
+    <li>Programmatically print out all the keys.</li>
+    <li>Run the file in the Terminal to verify your code is working as expected.</li>
     <li>Run <code>git log</code>. Does your commit history tell the story of your progress on this challenge?</li>
   </ul>
 </div>
@@ -88,14 +88,14 @@ Note: Some language used in these prompts might be new to you. This is _intentio
 <div class="s-card">
   <h3>Pairing Exercise 2: For Statements</h3>
   <ul>
-    <li>In your Mod 0 directory, create a new directory called <code>pairing3</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository</li>
-    <li>Define a variable that stores an Array containing 8 Numbers between 1 and 100</li>
-    <li>Write a program that checks each Number, and prints out only those above 30</li>
-    <li>Run the file in the Terminal to verify your code is working as expected</li>
-    <li>Create a GitHub repository</li>
-    <li>Push your work from the local repository to the remote repository</li>
-    <li>Don't modify or delete any of your previous code; write another method that will check each Number from the original Array, and print out only those under 60</li>
-    <li>Push that new work up to the remote repository</li>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing3</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository.</li>
+    <li>Define a variable that stores an Array containing 8 Numbers between 1 and 100.</li>
+    <li>Write a program that checks each Number, and prints out only those above 30.</li>
+    <li>Run the file in the Terminal to verify your code is working as expected.</li>
+    <li>Create a GitHub repository.</li>
+    <li>Push your work from the local repository to the remote repository.</li>
+    <li>Don't modify or delete any of your previous code; write another method that will check each Number from the original Array, and print out only those under 60.</li>
+    <li>Push that new work up to the remote repository.</li>
   </ul>
 </div>
 <br>
@@ -111,6 +111,6 @@ Take a moment to reflect independently after this exercise.
 - What is one step you could take to prepare for your next pairing session?
 - What progress have you made on the areas of growth you identified in your previous paired session?
 
-There is nothing to submit anything after completing this exercise, but take note of your progress and any areas in which you would like to continue growing.
+There is nothing to submit after completing this exercise, but take note of your progress and any areas in which you would like to continue growing.
 
 <br><br><br><br><br>
