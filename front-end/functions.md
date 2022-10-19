@@ -6,16 +6,18 @@ title: Functions
 ## Learning Goals
 
 - Explain the purpose of a function
-- Declare and invoke a function
+- Define and invoke a function
 - Use and explain the flow of data with arguments and parameters
 
 ## Vocabulary
 
+- <span class="vocab">function</span>
+- <span class="vocab">parameter</span>
 - <span class="vocab">argument</span>
 - <span class="vocab">call, invoke</span>
 - <span class="vocab">define, declare</span>
-- <span class="vocab">function</span>
-- <span class="vocab">parameter</span>
+- <span class="vocab">return value</span>
+
 
 ## Functions
 
@@ -24,11 +26,11 @@ title: Functions
 ### Syntax for _Defining_ a Function
 
 To <span class="vocab">define</span> (or <span class="vocab">declare</span>) a function, the following syntax must be used:
-- The `function` keyword to communicate that JavaScript should expect the next pieces of information
-- The function name. This is developed by the person writing the code
-- A set of opening and closing parentheses `()`
-- A set of opening and closing curly brackets `{}`, which will create the code block
-- One or more lines of code inside the curly brackets - this is where the "instructions" live
+- The `function` keyword declares a new function.
+- The function name follows the `function` keyword and is determined by the person writing the code. It's best if the name describes what the function _does_.
+- A set of opening and closing parentheses `()`.
+- A set of opening and closing curly brackets `{}`, which will create the code block.
+- One or more lines of code inside the curly brackets - this is where the "instructions" live. These instructions describe what the function should do when it is called.
 
 ```javascript
 function displayFunctionSkeleton() {
@@ -98,7 +100,7 @@ makeFreshPesto();
 <br>
 <div class="s-card">
   <h3>Practice: Define and Call a Function</h3>
-  <p><em>Referring to the lesson and your notes is encouraged, but for your learning's sake, do not copy-and-paste!</em></p>
+  <p><em>Referring to the lesson and your notes is encouraged, but for your learning, do not copy-and-paste!</em></p>
   <p>In a replit file or a file in VS Code, define a function named <code>printGreeting</code>. Inside the code block, write a <code>console.log</code> statement that prints a friendly greeting. Then, call the function.</p>
   <p>Run the code. You should see the <code>console.log</code> statement in your console.</p>
 </div>
@@ -112,33 +114,33 @@ Functions can be more powerful and dynamic when they have additional information
 - The number of arguments passed in should match the number of parameters declared.
 
 ```javascript
-function makeDinner(genre) {
-  console.log(`Tonight, we will make a delicious ${genre} dinner.`);
+function printGreeting(name) {
+  console.log(`Howdy, ${name}!`);
 }
 
-makeDinner("Italian");
-// --> "Tonight, we will make a delicious Italian dinner.
+printGreeting("Kaitlyn");
+// --> "Howdy, Kaitlyn!"
 
-makeDinner("Mexican");
-// --> "Tonight, we will make a delicious Mexican dinner.
+printGreeting("Brian");
+// --> "Howdy, Brian!"
 ```
 
-The following code snippet illustrates a function definition and call that involves 3 pieces of data.
+The following code snippet illustrates a function definition and call that involves 2 pieces of data, both Numbers.
 
 ```javascript
-function addThreeNums(first, second, third) {
-  var sum = first + second + third;
+function add(num1, num2) {
+  var sum = num1 + num2;
   console.log(sum);
 }
 
-addThreeNums(1, 2, 3);
-//  --> 6
+add(5, 2);
+//  --> 7
 ```
 
 <div class="s-card">
   <h3>Practice: Arguments and Parameters</h3>
   <ol>
-    <li><a href="https://replit.com/@turingschool/args-params#index.js" target="blank">Fork this repl.it</a></li>
+    <li><a href="https://replit.com/@turingschool/args-params#index.js" target="blank">Fork this replit.</a></li>
     <li>Before running the code, predict what will print to the console. Then, run the code.</li>
     <li>Change the order of the arguments being passed into the function call on line 5. Re-run the code and observe the output. Then revert the changes you made.</li>
     <li>Change the order of the parameter names declared on line 1. Re-run the code and observe the output. Then revert the changes you made.</li>
@@ -157,6 +159,52 @@ addThreeNums(1, 2, 3);
   </ol>
 </div>
 <br>
+
+## Return Values
+
+Sometimes, instead of simply printing a value to the console, we want our function to return a value. Let's take another look at the `add` function we saw earlier. 
+
+```javascript
+function add(num1, num2) {
+  var sum = num1 + num2;
+  console.log(sum);
+}
+
+add(5, 2);
+//  --> 7
+```
+
+Before, our add function wasn't only adding the two Numbers together, it was also logging that sum to the console. This is cool, but what if I wanted to use that number in a different way? The example below shows how I might modify that function, so that it simply `returns` the sum. Notice, we are using the keyword `return` to specically tell JavaScript what value to return from the function. Then, I can do all kinds of different things with that function!
+
+```javascript
+function add(num1, num2) {
+  var sum = num1 + num2;
+  return sum;
+}
+
+console.log(add(5, 2));
+//  --> 7
+console.log(`The sum of 5 and 2 is ${add(5, 2)}.`)
+//  --> "The sum of 5 and 2 is 7."
+```
+
+### Storing a Return Value
+
+The examples we've looked at so far call the function and execute the code within the function, but the return values go nowhere/can never be used in the program again. Many times, we'll store the return value of a function in another variable, as modeled below:
+
+```javascript
+function add(num1, num2) {
+  var sum = num1 + num2;
+  return sum;
+}
+
+var morningCommuteMinutes = 18;
+var afternoonCommuteMinutes = 30;
+var totalCommuteMinutes = add(morningCommuteMinutes, afternoonCommuteMinutes);
+
+console.log(`I spend a total of ${totalCommuteMinutes} minutes driving to work each day.`)
+//  --> "I spend a total of 48 minutes driving to work each day."
+```
 
 <div class="s-card s-border-yellow-500">
   <h3>Key Points Summary</h3>
