@@ -17,14 +17,13 @@ title: Hashes
 - <span class="vocab">key-value pair</span>
 - <span class="vocab">value</span>
 
-## Warm Up
+## Warm-Up
 
 Look at the following array and take a moment to consider: What is problematic about it? How would you prefer to structure a list of students and such information?
 
 ```ruby
 students = ["Cristie Soto", "A+", "B", "in progress", true, "Oscar Smith", "A-", "D", "dropped", true]
 ```
-<br>
 <br>
 
 ## Hashes
@@ -35,7 +34,7 @@ Some languages call their Hashes _dictionaries_ for this reason – you look up 
 
 ## Hash Syntax
 
-- A hash is enclosed in curly braces `{ }`, <span class="vocab">key-value</span> pairs are separated by commas, and keys and values are separated by either a hash rocket (`=>`) (or a colon).
+- A hash is enclosed in curly braces `{ }`, <span class="vocab">key-value</span> pairs are separated by commas, and keys and values are separated by either a hash rocket (`=>`) (or a colon if the key is a symbol).
 - Each key in a hash must be unique
   - If you attempt to have duplicate keys when you first create a hash, you will get a warning: `key :key_name is duplicated and overwritten on line X error`
   - If you try to add a new key-value pair using a key that already exists, that new key-value pair will overwrite the previous one - _dangerous_.
@@ -49,6 +48,42 @@ student1 = {
 ```
 - Values can be accessed with bracket notation:
   - `student1["name"]` returns `"Christie Soto"`
+
+### Symbols as Keys
+
+In Ruby, symbols are basically Strings that can’t change. You can recognize a symbol because it starts with a colon `:`. All of the following are symbols:
+
+```ruby
+:name   
+:symbols_can_have_underscores
+:"symbols can be in quotes"
+```
+
+Symbols are also faster than strings because Ruby can determine if two symbols are equal by checking their object_id. Strings have to be compared character by character.
+
+So if symbols are faster and more efficient than strings, why would we use strings? A string’s value can *change*, making them useful as variables. Strings are mutable, whereas symbols are immutable.
+
+Let’s recreate our `student1` hash using symbols instead of strings.
+
+```ruby  
+student1 = {
+    :name => "Christie Soto",
+    :grades => ["A+", "B", "in progress"],
+    :active_student => true
+}
+```
+
+Since it's quite common to use symbols as keys in hashes, Ruby gives us a handy shortcut for creating a hash with symbol keys:
+
+```ruby  
+student1 = {
+    name: "Christie Soto",
+    grades: ["A+", "B", "in progress"],
+    active_student: true
+}
+```
+
+These two definitions for our `student1` hash produce the exact same hash, however the second is the *preferred* syntax. Please note: The colon must immediately follow the name of the key without any spaces in between.
 
 <div class="s-card">
   <h3>Hash or Array?</h3> 
@@ -137,9 +172,9 @@ Note that when we use the `.keys` and `.values` Hash methods, the return value o
   <p>Use the following <code>zoo</code> variable to complete each prompt:</p>
   <pre>
   zoo = {
-    "giraffes" => 3,
-    "zebras" => 12,
-    "hippos" => 2
+    giraffes: 3,
+    zebras: 12,
+    hippos: 2
   }
   </pre>
   <ol>
