@@ -49,6 +49,21 @@ student1 = {
 - Values can be accessed with bracket notation:
   - `student1["name"]` returns `"Christie Soto"`
 
+<div class="s-card">
+  <h3>Hash or Array?</h3> 
+  <p>For each example, determine if a Hash or Array would be more appropriate, and explain why. Share your responses in the Slack small group channel for feedback and discussions.</p>
+  <ul>
+    <li>A store's inventory</li>
+    <li>The contents of a dishwasher</li>
+    <li>List of all the places you've traveled to</li>
+    <li>List of birthdays of all students</li>
+    <li>Names of all dogs at doggie daycare</li>
+    <li>Virtual address book</li>
+    <li>Items of clothing in a dresser</li>
+  </ul>
+</div>
+<br>
+
 ### Symbols as Keys
 
 In Ruby, symbols are basically Strings that can’t change. You can recognize a symbol because it starts with a colon `:`. All of the following are symbols:
@@ -86,28 +101,12 @@ student1 = {
 These two definitions for our `student1` hash produce the exact same hash, however the second is the *preferred* syntax. Please note: The colon must immediately follow the name of the key without any spaces in between.
 
 <div class="s-card">
-  <h3>Hash or Array?</h3> 
-  <p>For each example, determine if a Hash or Array would be more appropriate, and explain why. Share your responses in the Slack small group channel for feedback and discussions.</p>
-  <ul>
-    <li>A store's inventory</li>
-    <li>The contents of a dishwasher</li>
-    <li>List of all the places you've traveled to</li>
-    <li>List of birthdays of all students</li>
-    <li>Names of all dogs at doggie daycare</li>
-    <li>Virtual address book</li>
-    <li>Items of clothing in a dresser</li>
-  </ul>
-</div>
-<br>
-
-<div class="s-card">
   <h3>Hash Syntax Practice</h3> 
   <p>Complete the following work in an <code>irb</code> session or a new Ruby file, working in VS Code:</p>
   <ol>
     <li>For one of the examples in the previous activity that you selected would be best suited for a Hash, declare a variable that stores a Hash with some (possibly fake) data.</li>
     <li>Declare a variable that stores a Hash that represents <a href="https://twitter.com/MechEngSanchez/status/1485947286396014593" target="blank">this tweet</a>.</li>
   </ol>
-  <p>Take a screenshot or save in this work in a file and be ready to share it in Stand Up tomorrow!</p>
 </div>
 
 ## Accessing a Hash
@@ -178,13 +177,13 @@ Note that when we use the `.keys` and `.values` Hash methods, the return value o
   }
   </pre>
   <ol>
-    <li>Print all of the keys of the zoo Hash</li>
-    <li>Print all of the values of the zoo Hash</li>
-    <li>Print the value of the first animal of the zoo</li>
-    <li>Add an animal to the zoo</li>
-    <li>Check how many monkeys are in the zoo</li>
-    <li>Add another animal to the zoo</li>
-    <li>Print all of the keys of the zoo Hash</li>
+    <li>Print all of the keys of the zoo Hash.</li>
+    <li>Print all of the values of the zoo Hash.</li>
+    <li>Print the value of the first animal of the zoo.</li>
+    <li>Add an animal to the zoo.</li>
+    <li>Check how many hippos are in the zoo.</li>
+    <li>Add another animal to the zoo.</li>
+    <li>Print all of the keys of the zoo Hash.</li>
   </ol>
 </div>
 <br>
