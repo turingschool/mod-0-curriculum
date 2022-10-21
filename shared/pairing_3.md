@@ -41,7 +41,7 @@ Note: Some language used in these prompts might be new to you. This is _intentio
     <li>In your Mod 0 directory, create a new directory called <code>pairing_3</code>. Inside of that directory, touch a file called <code>hash_practice</code>. Initialize a Git repository.</li>
     <li>Define a variable named <code>person</code> that stores a Hash. This Hash should have 4 key-value pairs; you choose the key and use appropriate Data Types for the values.</li>
     <li>Write code to print the entire Hash.</li>
-    <li>Write code to print one of values based on the key./li>
+    <li>Write code to print one of values based on the key.</li>
     <li>Run the file in the Terminal to verify your code is working as expected.</li>
     <li>Programmatically add 2 more key-value pairs to the Hash.</li>
     <li>Programmatically print out all the keys.</li>
