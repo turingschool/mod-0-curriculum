@@ -103,35 +103,9 @@ Altogether, the process of connecting a local repository to our remote repositor
 </div>
 <br>
 
-## Forking and Cloning Repositories
-
-Often, you won't be creating a project from scratch. What if you want to create a copy of an already-existing GitHub repository and work from that repository? We can <span class="vocab">fork</span> a GitHub repository to make a copy of it on our own GitHub account. Or what if the company you're working for already has an application and you need to make changes to it? We can <span class="vocab">clone</span> a GitHub repository to our local machine, so that we can continue making changes from that already existing repository.
-
-The diagram below visually shows the difference between forking and cloning a repository. In some cases, you may want to both fork and clone a repository. Forking allows you to create your own copy of a remote repository on your GitHub account and then cloning lets you edit and push changes up to your copy of the original repository.
-<br>
-<br>
-<img src="./assets/fork-and-clone.png" alt="Diagram showing the difference between forking and cloning a repository">
-
-<div class="s-card">
-  <h3>Breakout Practice</h3>
-  <p>Follow the directions below to fork and clone <a target="blank" href="https://github.com/turingschool/m0_github_practice">this pre-existing GitHub repository</a>.</p>
-  <ol>
-    <li>Fork the repository.</li>
-    <li>Navigate to where you want to clone down the repo on your local machine.</li>
-    <li>Clone your copy of the repository to your local machine using the command <code>git clone [insert SSH key here]</code>.</li>
-    <li>Open the repo in VS Code.</li>
-    <li>Answer the questions in the <code>github_notes.md</code> file.</li>
-    <li>Add and commit your changes.</li>
-    <li>Push your changes to GitHub and refresh your browser to see those changes reflected in the remote repository.</li>
-  </ol>
-</div>
-<br>
-
-Note that a few steps are a little different when you are cloning down a repository. You don't need to create an empty directory on your local machine when you clone down a repository. You also don't need to initialize git with `git init` if you cloned down the repository.
-
 ## Common Issues
 
-Occasionally, the command to push work up will not be successful. When this happens, the user will usually see a message similar to this:
+<!-- Occasionally, the command to push work up will not be successful. When this happens, the user will usually see a message similar to this:
 <img src="./assets/cannot-push.png" alt="Failed to push some refs error">
 
 Almost always, the message tells the user what the problem is and **exactly** what to do.
@@ -140,9 +114,9 @@ Almost always, the message tells the user what the problem is and **exactly** wh
   <h3>Reading Error Messages</h3>
   <p>Read the error message in the screenshot above and be ready to share what you would try if you ran into this error.</p>
 </div>
-<br>
+<br> -->
 
-You may also get other error messages when working with Git and GitHub. Take a look at this message below and make a guess about what the problem might be. 
+Occasionally, the command to push work up will not be successful. When this happens, don't panic. Carefully read the message and see if you can figure out what the problem might be. Take a look at this message below and make a guess about what the problem might be. 
 
 <img src="./assets/permission-denied.png" alt="Permission denied error message">
 
@@ -159,13 +133,21 @@ You can see an example of what that process might look like below.
 
 <img src="./assets/permission-fix.png" alt="Using git commands to remove a remote origin and add a new one">
 
+Other common issues we've seen with students include: 
+- Trying to `push` before adding and committing changes
+- Creating a git repo inside of another git repo
+- Initializing git in your home directory instead of the specific directory where you want to track changes
+- Using HTTPS instead of SSH
+
+All of these issues can be corrected. The important thing is to reach out for help sooner rather than later. 
+
 ## Practice
 
-Complete the following exercises to get practice and demonstrate your ability to use Git and GitHub.
+Complete the following exercise to get practice and demonstrate your ability to use Git and GitHub.
 
 <div class="s-card">
-  <h3>Challenge 1: Git & GitHub Workflow</h3>
-  <p>One student will Drive while other students are randomly selected to Navigate for each task.</p>
+  <h3>Git & GitHub Workflow</h3>
+  <p>Follow the steps below to practice connecting a local repository to a remote repository.</p>
   <ul>
     <li>Create a local repository.</li>
     <li>Create a GitHub repository.</li>
@@ -180,8 +162,36 @@ Complete the following exercises to get practice and demonstrate your ability to
 </div>
 <br>
 
+## Forking and Cloning Repositories
+
+Often, you won't be creating a project from scratch. What if you want to create a copy of an already-existing GitHub repository and work from that repository? We can <span class="vocab">fork</span> a GitHub repository to make a copy of it on our own GitHub account. Or what if the company you're working for already has an application and you need to make changes to it? We can <span class="vocab">clone</span> a GitHub repository to our local machine, so that we can continue making changes from that already existing repository.
+
+The diagram below visually shows the difference between forking and cloning a repository. In some cases, you may want to both fork and clone a repository. Forking allows you to create your own copy of a remote repository on your GitHub account and then cloning lets you edit and push changes up to your copy of the original repository.
+<br>
+<br>
+<img src="./assets/fork-and-clone.png" alt="Diagram showing the difference between forking and cloning a repository">
+
+Note that a few steps are a little different when you are cloning down a repository. You don't need to create an empty directory on your local machine when you clone down a repository. You also don't need to initialize git with `git init` if you cloned down the repository.
+
+## More Practice
+
 <div class="s-card">
-  <h3>Challenge 2: Git & GitHub Workflow</h3>
+  <h3>Challenge 1: Forking & Cloning</h3>
+  <p>Follow the directions below to fork and clone <a target="blank" href="https://github.com/turingschool/m0_github_practice">this pre-existing GitHub repository</a>.</p>
+  <ol>
+    <li>Fork the repository.</li>
+    <li>Navigate to where you want to clone down the repo on your local machine.</li>
+    <li>Clone your copy of the repository to your local machine using the command <code>git clone [insert SSH key here]</code>.</li>
+    <li>Open the repo in VS Code.</li>
+    <li>Answer the questions in the <code>github_notes.md</code> file.</li>
+    <li>Add and commit your changes.</li>
+    <li>Push your changes to GitHub and refresh your browser to see those changes reflected in the remote repository.</li>
+  </ol>
+</div>
+<br>
+
+<div class="s-card">
+  <h3>Challenge 2: Forking & Cloning</h3>
   <p>Work through this prompt independently.</p>
   <ul>
     <li>Fork <a target="blank" href="https://github.com/turingschool/m0_github_challenge">this repository</a>.</li>

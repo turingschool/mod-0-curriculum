@@ -12,7 +12,7 @@ title: Problem Solving
 <br>
 
 <div class="s-card">
-  <h3>Warm Up</h3>
+  <h3>Warm-Up</h3>
   <p>Imagine someone you know has never made a peanut butter and jelly sandwich before. <strong>Take 2 minutes and jot down every step of creating the perfect peanut butter and jelly sandwich.</strong></p>
   <p>After writing those steps, <a href="https://www.youtube.com/watch?v=Ct-lOOUqmyY" target="blank">watch this video</a> of a dad following the directions his kids gave him. How do your directions compare?</p>
   <p>Approaching complex tasks in code is very similar to approaching complex tasks in real life! Similar to the dad in the video, your program only does <em>exactly</em> what you tell it to do, so it's very important that we can break challenging problems down into clear and simple steps.</p>
@@ -52,7 +52,7 @@ Work with your partner to complete Challenge 2.
 
 <div class="s-card">
   <h3>Challenge 2</h3>
-  <p>Start with an array of strings. Print only the words that start with the letter <strong>t</strong>.</p>
+  <p>Start with an array of strings. Print only the words that start with the letter <strong>s</strong>.</p>
 </div>
 
 ### Reflect
