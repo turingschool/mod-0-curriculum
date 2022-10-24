@@ -105,7 +105,7 @@ Altogether, the process of connecting a local repository to our remote repositor
 
 ## Common Issues
 
-Occasionally, the command to push work up will not be successful. When this happens, the user will usually see a message similar to this:
+<!-- Occasionally, the command to push work up will not be successful. When this happens, the user will usually see a message similar to this:
 <img src="./assets/cannot-push.png" alt="Failed to push some refs error">
 
 Almost always, the message tells the user what the problem is and **exactly** what to do.
@@ -114,9 +114,9 @@ Almost always, the message tells the user what the problem is and **exactly** wh
   <h3>Reading Error Messages</h3>
   <p>Read the error message in the screenshot above and be ready to share what you would try if you ran into this error.</p>
 </div>
-<br>
+<br> -->
 
-You may also get other error messages when working with Git and GitHub. Take a look at this message below and make a guess about what the problem might be. 
+Occasionally, the command to push work up will not be successful. When this happens, don't panic. Carefully read the message and see if you can figure out what the problem might be. Take a look at this message below and make a guess about what the problem might be. 
 
 <img src="./assets/permission-denied.png" alt="Permission denied error message">
 
@@ -132,6 +132,14 @@ The error message describes the issue clearly. This user does not have access to
 You can see an example of what that process might look like below.
 
 <img src="./assets/permission-fix.png" alt="Using git commands to remove a remote origin and add a new one">
+
+Other common issues we've seen with students include: 
+- Trying to `push` before adding and committing changes
+- Creating a git repo inside of another git repo
+- Initializing git in your home directory instead of the specific directory where you want to track changes
+- Using HTTPS instead of SSH
+
+All of these issues can be corrected. The important thing is to reach out for help sooner rather than later. 
 
 ## Practice
 
