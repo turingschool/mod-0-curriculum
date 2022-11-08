@@ -111,7 +111,7 @@ If our JavaScript program has data stored in variables, we are able to reference
 ### Best Practices for Naming Variables
 
 Naming can be hard, but is important to be thoughtful about and follow conventions of the language you are working with so that your code is easily accessible and readable for those you are collaborating with. A few key points:
-- All JavaScript variables should use `camelCase` - all characters in the first word should be lower cased; in multi-word variables, the firt character of the second word should be capitalized.
+- All JavaScript variables should use `camelCase` - all characters in the first word should be lower cased; in multi-word variables, the first character of the second word should be capitalized.
 - Variable names should describe the type of data they hold without being overly verbose or specific (examples: `name`, `email`, etc. non-examples: `x`, `ftga23`, `nameOfIncomingMod1FrontEndStudent`).
 
 <div class="s-card">
@@ -136,14 +136,14 @@ We often need to write code that changes the data stored in a variable. Consider
 - When a student first creates a profile, the `depositPaid` variable is automatically assigned to `false`.
 - Once the student pays their deposit, some code is triggered to change that value to `true`.
 
-To do that, we use the exact same syntax that we used to make the original assignment. We can run the code that follows, or code like it, in `irb` to demonstrate that the value has changed.
+To do that, we use the exact same syntax that we used to make the original assignment, but without the `var` keyword. We can run the code that follows, or code like it, in `dev tools` to demonstrate that the value has changed.
 
-```ruby
+```javascript
 var depositPaid = false
-depositPaid # false
+depositPaid // => false
 
 depositPaid = true
-depositPaid # true
+depositPaid // => true
 ```
 
 <div class="s-card">
