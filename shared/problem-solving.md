@@ -58,7 +58,7 @@ Work with your partner to complete Challenge 2.
 ### Reflect
 Before continuing, take some time to reflect on the following questions. 
 - What do you like about this process?
-- What might amek this process challenging?
+- What might make this process challenging?
 - Are there any steps you would add or modify?
 
 ## Solo Practice
