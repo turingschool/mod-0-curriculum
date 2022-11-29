@@ -10,7 +10,7 @@ title: Git Workflow
 
 ## Video
 
-<a href="https://www.loom.com/share/bb896ed8eb5a44998331c581c250a12b" target="_blank">Watch this video</a>, and take notes throughout, to learn about the purpose of Git and see the workflow modeled several times. 
+<a href="https://www.loom.com/share/a91528960d4f448aa02658e1c9f98fdb" target="_blank">Watch this video</a>, and take notes throughout, to learn about the purpose of Git and see the workflow modeled several times. 
 
 Stop at the provided prompts to take notes and complete practice exercises as instructed.
 
@@ -65,6 +65,6 @@ Stop at the provided prompts to take notes and complete practice exercises as in
 
 ## Check For Understanding
 
-<a href="https://gist.github.com/kaitvan/2d5bfa4e5785245bcf1c67c97339a60c" target="blank">Follow the directions in this Gist</a> and submit your fork of it in the submission form.
+<a href="https://gist.github.com/kaitvan/a9d5005c72509ebab3cc9c040a45ad36" target="blank">Follow the directions in this Gist</a> and submit your fork of it in the submission form.
 
 <br><br>
