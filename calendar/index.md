@@ -9,19 +9,6 @@ There are two formats for completing Mod 0. Both the classic version and the int
 - **In the `intensive format`, students can expect to work 10-12 hours/day during a one-week period with live sessions during the day.** Mod 0 Intensive is recommended for students who want to experience life as a full-time Turing student. With live sessions daily, students in this format form close relationships with cohort-mates and gain a more realistic picture of their life while at Turing.
 
 
-## Courses for students enrolled in 2211 Mod 1
-
-### Mod 0 Classic 
-- October 10-October 28 (Front End & Back End)
-- Live sessions in the **evening**
-- Complete all assignments during a 3-week period
-
-### Mod 0 Intensive 
-- October 31-November 4 (Back End)
-- November 7-November 11 (Front End)
-- Live sessions **during the day**
-- Complete all assignments during 1 week
-
 ## Upcoming Mod 0 Start Dates
 
 ![Table with all upcoming Mod 0 Start Dates](../assets/images/mod-0-dates.png)

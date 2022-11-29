@@ -23,13 +23,13 @@ All assignments for Mod 0 related to content are outlined below and organized in
 * [Terminal]({{ site.url }}/shared/terminal)
 * [VS Code]({{ site.url }}/shared/vs-code)
 * [Git Workflow]({{ site.url }}/shared/git)
-* <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a>
 
 ## Segment 2 - Completed By Session 3
 * [GitHub]({{ site.url }}/shared/github)
 * [Data Types]({{ site.url }}/front-end/data_types)
 * [Pair Programming]({{ site.url }}/shared/pairing)
 * [Pairing Session 1]({{ site.url }}/shared/pairing_1)
+* <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a>
 
 ## Segment 3 - Completed By Session 4
 * [Conditionals]({{ site.url }}/front-end/conditionals)
