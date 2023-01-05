@@ -35,17 +35,16 @@ Note: Some language used in these prompts might be new to you. This is _intentio
 ### Back End
 
 <div class="s-card">
-  <h3>Pairing Exercise 1: Hashes</h3>
+  <h3>Pairing Exercise 1: Classes & Objects (Back End)</h3>
   <p>For this exercise, use a Git workflow.</p>
   <ul>
-    <li>In your Mod 0 directory, create a new directory called <code>pairing_3</code>. Inside of that directory, touch a file called <code>hash_practice</code>. Initialize a Git repository.</li>
-    <li>Define a variable named <code>person</code> that stores a Hash. This Hash should have 4 key-value pairs; you choose the key and use appropriate Data Types for the values.</li>
-    <li>Write code to print the entire Hash.</li>
-    <li>Write code to print one of values based on the key.</li>
-    <li>Run the file in the Terminal to verify your code is working as expected.</li>
-    <li>Programmatically add 2 more key-value pairs to the Hash.</li>
-    <li>Programmatically print out all the keys.</li>
-    <li>Run the file in the Terminal to verify your code is working as expected.</li>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing_3</code>. Inside of that directory, touch a file called <code>oop_practice</code>. Initialize a Git repository, add the file to the staging area and do your "Initial commit".</li>
+    <li>Write a Class called <code>Person</code> with three attributes: name, age, and language. The name and age atrributes will be dynamic and the language attribute will be "English" by default.</li>
+    <li>Create an object instance and print it using the <code>p</code> command. Run the file in the Terminal to verify your code is working as expected.</li>
+    <li>Use <code>attr_reader</code> to print only the person's name.</li>
+    <li>Define a <code>celebrate_birthday</code> instance method inside the <code>Person</code> class that adds one to the person's age when it is called.</li>
+    <li>Call the <code>celebrate_birthday</code> method on your object instance and print the age attribute (run it in the Terminal) to verify that your method works!</li>
+    <li>Create another object instance. Print the object. Call the <code>celebrate_birthday</code> method twice and print the object again to verify that it works. </li>
     <li>Run <code>git log</code>. Does your commit history tell the story of your progress on this challenge?</li>
   </ul>
 </div>
