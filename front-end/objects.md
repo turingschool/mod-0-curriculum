@@ -98,7 +98,7 @@ suitcase.swimsuits = true;
 
 We can remove the socks:
 ```javascript
-delete suitcase("socks");
+delete suitcase.socks;
 ```
 
 Check on the shirts:
