@@ -77,7 +77,6 @@ p new_string.upcase
 </div>
 <br>
 
-<br>
 <div class="s-card s-border-yellow-500">
   <h3>Key Points</h3> 
   <ul>
@@ -151,6 +150,7 @@ Let's expand this example to any kind of machine. We give the machine the raw ma
 
 Without possibly having all the information about Ruby syntax, you probably made some connection as to what might be happening with the previous code snippet. The `greet_a_texan` method was called, but this time, we were able to dynamically change the name of the person we were greeting!
 
+
 ### Arguments & Parameters
 
 <span class="vocab">Arguments</span> are the technical term for the inputs to a method such as the String that was provided in the parenthesis after the method name in the previous example. As developers, we have the control to name the <span class="vocab">parameters</span>, or placeholders, for the data that will be passed in. Those names should follow variable name conventions and be concise, yet descriptive. The number of arguments passed in should match the number of parameters declared.
@@ -182,6 +182,7 @@ puts greet_a_texan("Brian")
     <li>Write a method named <code>multiply</code>. This method should declare two parameters, both Integers, and when called, should return the product of the two Integers. Call the method several times with different arguments and run the code to ensure it's working as expected.</li>
   </ul>
 </div>
+<br>
 
 ### Return Values
 
