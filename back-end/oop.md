@@ -145,7 +145,7 @@ Now that you’ve seen how this “factory” concept can be used in code, you m
 
 We won’t get all the way there in illustrating it today, but, we can look at Instagram for a moment to talk through where we see some use of classes and instances.
 
-<img src="https://try.turing.edu/popup-oop/assets/instagram-oop.png">
+<img src="../assets/images/instagram-oop.png">
 
 ## Build A Class with Specifications
 
@@ -167,34 +167,6 @@ Many times, you'll build a class based on specifications (commonly referred to a
   </ul>
 </div>
 
-## FYI: Storing Many Objects
-
-If you’d like to print out all your sentences with one line of code, one way to do that is by storing them in an array. A couple changes were made from our original code in order to write this solution.
-
-```ruby
-class Message
-  def initialize(recipient)
-    @recipient = recipient
-  end
-
-  def create_message
-    "To #{@recipient}: Hello!"
-  end
-end
-
-mom = Message.new("Mom")
-bff = Message.new("BFF")
-
-messages = [
-  mom.create_message,
-  bff.create_message
-]
-
-puts messages
-```
-
-In OOP, it is common to store instances in a list, or array, like the one above. Consider a list of Instagram posts discussed earlier. It's likely Instagram stores all posts attached to each user profile in an Array.
-
 ## Check For Understanding
 
 Each partner should complete this independently. It is ok to consult one another if needed!
@@ -205,28 +177,6 @@ _Remember that it's ok to not know everything, or solve everything perfectly. Gi
 <br>
 <br>
 
-## _Extensions_
-
-Use these as resources for extra practice and challenge!
-
-<div class="s-card">
-  <h3>Mild 🔥</h3> 
-  <p>You will get starter code and some step-by-step directions that walk you through what to do and why you're doing it.</p>
-  <p><a href="https://replit.com/@turingschool/oop-mild-starter#main.rb" target="_blank">This is your starter kit.</a></p>
-</div>
-<br>
-
-<div class="s-card">
-  <h3>Medium 🔥🔥</h3> 
-  <p>You will get some starter code and some direction on what to add to it, but will be pushed to apply all of today's learning without explicit direction at times.</p>
-  <p><a href="https://replit.com/@turingschool/oop-medium-starter#main.rb" target="_blank">This is your starter kit.</a></p>
-</div>
-<br>
-
-<div class="s-card">
-  <h3>Spicy 🔥🔥🔥</h3> 
-  <p>You will not have any starter code for this option. Choose your own topic to make a class and instances of that class. There is no starter kit; create a new file on your own!</p>
-</div>
 
 <br>
 <br>
