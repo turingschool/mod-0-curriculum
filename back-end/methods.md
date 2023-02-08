@@ -5,20 +5,20 @@ title: Methods
 
 ## Learning Goals
 
-- Explain why we use methods
+- Explain the purpose of methods
 - Use built-in methods on appropriate objects based on data type
 - Define and call methods in Ruby
 - Use and explain the flow of data with arguments and parameters
-- Describe the purpose of a method's return value
+- Describe the purpose of a return value
 
 ## Vocabulary
 
 - <span class="vocab">method</span>
-- <span class="vocab">parameter</span>
-- <span class="vocab">argument</span>
 - <span class="vocab">define</span>
 - <span class="vocab">execute or call</span>
 - <span class="vocab">return</span>
+- <span class="vocab">parameter</span>
+- <span class="vocab">argument</span>
 
 ## Warm-Up
 
@@ -41,7 +41,7 @@ p 14.odd?
 
 >To describe the code snippet in English, one could say, "the `odd question mark` method is being called on the Integer 14." Since 14 is not odd, `false` will be the return value. The `p` command prints that return value of `false` to the console.
 
-In this particular example, the utility of the `odd?` method is to determine if an Integer is odd, or not. It answers the question with a Boolean (`true` or `false`). The benefit of having this method built into Ruby is if a developer needs to check if a number is odd or not, they only have to type `.odd?` anywhere they need to check. If they didn't have a pre-packaged method, they'd have to write several lines of code involving logic, potentially every time they want to check if an integer is odd. **Reusability is what makes methods so powerful.**
+In this particular example, the utility of the `odd?` method is to determine if an Integer is odd, or not. It answers the question with a Boolean (`true` or `false`). The benefit of having this method built into Ruby is if a developer needs to check if a number is odd or not, they only have to type `.odd?` anywhere they need to check. If they didn't have a pre-packaged method, they'd have to write several lines of code involving logic, every time they want to check if an integer is odd. **Reusability is what makes methods so powerful.**
 
 <br>
 <div class="s-card">
@@ -117,7 +117,7 @@ To instruct the interpreter to carry out the instructions in a method, the devel
 
 ```ruby
 # method call
-puts greet_a_texan
+greet_a_texan
 ```
 
 In the example above, the developer chose the method name of `greet_a_texan`. Method names should usually include verbs, since methods _do_ something. The definition just tells the program that it's a set of directions ready to be followed; the method call is what makes the code in the method <span class="vocab">execute</span>, or follow the packaged directions. You can call a method as many times as you want, once it's been defined!
@@ -137,13 +137,13 @@ If this were a cookie machine, for example, the machine would take in all of the
 
 We can imagine that our cookie machine would do all of those steps and then give us back freshly baked, warm cookies! 
 
-Let's expand this example to any kind of machine. We give the machine the raw materials, it does soemthing with those materials, and then returns the final product. This is _very_ similar to what we are doing with our own <span class="vocab">methods</span>. We give the method some piece of data or information (or even multiple pieces of information) and then the method does something with that information and spits out a return value. 
+Let's expand this example to any kind of machine. We give the machine the raw materials, it does something with those materials, and then returns the final product. This is _very_ similar to what we are doing with our own <span class="vocab">methods</span>. We give the method some piece of data or information (or even multiple pieces of information) and then the method does something with that information and spits out a return value. 
 
 <div class="s-card s-border-yellow-500">
   <h3>Waterfall</h3> 
   <p>Look at the method call below and make a guess about how this might be different from the previous method example.</p>
   <pre>
-  puts greet_a_texan("Kaitlyn")
+  greet_a_texan("Kaitlyn")
   # => "Howdy, Kaitlyn!"</pre>
   <p>Type your answers in the chat and be ready to submit when it's time!</p>
 </div>
@@ -153,7 +153,7 @@ Without possibly having all the information about Ruby syntax, you probably made
 
 ### Arguments & Parameters
 
-<span class="vocab">Arguments</span> are the technical term for the inputs to a method such as the String that was provided in the parenthesis after the method name in the previous example. As developers, we have the control to name the <span class="vocab">parameters</span>, or placeholders, for the data that will be passed in. Those names should follow variable name conventions and be concise, yet descriptive.
+<span class="vocab">Arguments</span> are the technical term for the inputs to a method such as the String that was provided in the parenthesis after the method name in the previous example. As developers, we have the control to name the <span class="vocab">parameters</span>, or placeholders, for the data that will be passed in. Those names should follow variable name conventions and be concise, yet descriptive. The number of arguments passed in should match the number of parameters declared.
 
 ```ruby
 # name is a parameter
@@ -169,6 +169,9 @@ puts greet_a_texan("Kaitlyn")
 puts greet_a_texan("Brian")
 # => "Howdy, Brian!"
 ```
+
+> **Note:** You'll notice that we are using the `puts` command in front of the method call this time. This allows us to also **see** the return value of the `greet_a_texan` method printed to the console, but it is not necessary. The code `greet_a_texan("Kaitlyn")` by itself does return the string "Howdy, Kaitlyn!", but if we want to see it printed in the console, we will need to use `puts` or `print` along with the method call.
+
 <br>
 
 <div class="s-card">
@@ -222,7 +225,7 @@ say_goodbye
 # The return value is nil because puts is on the last line of the method and the return value of the puts method is always nil
 ```
 
->**Key Point:** Up until now, we've use the `puts` and `print` commands to see values printed to the console. Be careful not to confuse what you see in the console with the return value of the method. These are two **different** things. We use `puts` and `print` to **see** data in the console, but what we see in the console is **not** the return values.
+>**Key Point:** Up until now, we've use the `puts` and `print` commands to see values printed to the console. Be careful not to confuse what you see in the console with the return value of the method -- these are two different things. We use `puts` and `print` to **see** data in the console, but what we see in the console is **not always** the return values.
 
 <br>
 
@@ -256,6 +259,17 @@ puts sum2
   </ul>
 </div>
 
+<br>
+
+<div class="s-card s-border-yellow-500">
+  <h3>Key Points Summary</h3>
+  <ul>
+    <li>A method is a packaged set of directions. If the method is never <em>called</em>, it will never run. And a method can be called many times, if needed!</li>
+    <li>The number of arguments in a method call must match the number of parameters in the method definition.</li>
+    <li>Method names should start with a verb and use <code>snake_case</code>.</li>
+    <li>The value after the <code>return</code> keyword is the data that will be returned when a method is called.</li>
+  </ul>
+</div>
 <br>
 
 ## Check For Understanding
