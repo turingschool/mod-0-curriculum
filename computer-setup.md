@@ -12,7 +12,6 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 - [Install Chrome](#install-chrome)
 - [Install Slack](#install-slack)
 - [Create a Replit Account](#replit)
-- [Create a Trello Account](#create-trello-account)
 - [Create a Loom Account](#create-loom-account)
 - [Install Zoom](#install-zoom)
 - [Enable Screen Sharing](#enable-screen-sharing)
@@ -74,20 +73,6 @@ Follow the steps below (if they are not necessary because you have already done 
 - Create a free account.
 - [Bookmark this webpage on Chrome](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop), so that you can easily find it again later.
 - [Watch this video](https://www.youtube.com/watch?v=cnLE3bH6fHE) to learn how to navigate the interface and create new projects.
-
-<br>
-
-### Create a Trello Account
-
-[Trello](https://trello.com/) is a Kanban-style project management tool we will use in Mod 0. It and other similar tools are used by most software developers to manage the tasks within a project.
-
-- Please create a free account with Trello.
-- [Bookmark this webpage on Chrome](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop), so that you can easily find it again later.
-- Create a copy of your program's Mod 0 Trello board by following the steps below:
-  1. Open the [Back End Mod 0 Trello Board](https://trello.com/b/2ynRge3d/back-end-mod-0) or the [Front End Mod 0 Trello Board](https://trello.com/b/WjbvqlqM/front-end-mod-0) to get started.
-  1. In the upper right corner, select the `...Show menu` button.
-  1. Select `... More` about halfway down the side menu.
-  1. Select `Copy board` and create a name for your personalized Trello board. This board will now be saved on your personal Trello account.
 
 <br>
 
@@ -387,7 +372,7 @@ To write JavaScript in the command line and use essential "packages" while build
 To verify that all steps are completed and installations are working as expected, complete the steps below. If you do not get the expected output for any of the following steps, go back to that step in the computer setup and carefully follow all of the steps a second time. 
 1. Quit out of all applications and close any extra windows. You can verify that only Terminal and Chrome are running by looking at your dock at the bottom of your screen. Applications that are currently running will have a little black dot under them. Then, open only **this** webpage and a **new Terminal window**.
 1. **Rectangle:** Use `control + option + left arrow` to move this webpage to the left side of your screen and `control + option + I` to move your terminal to the upper right corner. Note: Your window cannot be in full-screen mode for rectangle to work. 
-1. **Chrome:** In your Chrome window, open a new tab. At the very top under the address bar, you should see at least three bookmarked pages, [Replit](https://replit.com/~), [Trello](https://trello.com/), and [Loom](https://www.loom.com/looms/videos). 
+1. **Chrome:** In your Chrome window, open a new tab. At the very top under the address bar, you should at least one bookmarked page -- the [Mod 0 Site](https://mod0.turing.edu/).
 1. **Slack:** Ensure that Slack is downloaded by opening up the Slack application using Spotlight. Hold down `command + space` to open up Spotlight and start typing `Slack`. Hit `return` and your Slack application should open in a new window. Quit Slack by holding down `command + q`.
 1. **Zoom:** Ensure that Zoom is downloaded by holding down `command + space` to open up Spotlight and start typing `Zoom`. Hit `return` and your Zoom application should open in a new window. Quit Zoom by holding down `command + q`.
 1. **XCode-select:** In your terminal, run `xcode-select -v`. If installed, your terminal will output the current version of xcode-select found in your system. For example, something like: `xcode-select version 2384.`.
