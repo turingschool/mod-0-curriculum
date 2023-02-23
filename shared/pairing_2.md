@@ -46,14 +46,15 @@ Spend a few minutes getting to know each other and discussing your answers to th
 <div class="s-card">
   <h3>Pairing Exercise 2</h3>
   <ul>
-    <li>In your Mod 0 directory, create a new directory called <code>pairing_2</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository.</li>
-    <li>Define a variable that stores a String containing a name of a best friend.</li>
-    <li>Write an if statement that prints out a statement for your best friend, and one for any other friend.</li>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing_2</code>. Inside of that directory, touch a file called <code>plants</code> with an appropriate file extension. Initialize a Git repository.</li>
+    <li>You are writing a conditional to determine the likelihood that a plant will thrive based on some variables.</li>
+    <li>Define a variable called <code>gets_sunshine</code> that stores a Boolean value.</li>
+    <li>Define a variable called <code>ounces_of_water</code> that stores an Integer value.</li>
+    <li>When the plant has sunshine and gets at least 10 ounces of water, the plant will thrive. Otherwise, the plant will die. Use an <code>if</code> statement and change the values to print a statement for both outcomes.</li>
     <li>Run the file in the Terminal to verify your code is working as expected.</li>
     <li>Create a GitHub repository.</li>
     <li>Push your work from the local repository to the remote repository.</li>
-    <li>Define another variable that stores a name of another very good friend.</li>
-    <li>Modify your if statement to include and elsif that prints out a different statement for that very good friend.</li>
+    <li>Modify your <code>if</code> statement so that it prints out a different statement if the plants gets sunshine or gets at least 10 ounces of water.</li>
     <li>Run the file in the Terminal to verify your code is working as expected.</li>
     <li>Push that new work up to the remote repository.</li>
   </ul>
