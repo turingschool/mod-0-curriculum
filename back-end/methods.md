@@ -25,7 +25,7 @@ title: Methods
 <div class="s-card">
   <h3>Exploration: PART 1</h3> 
   <p>Fork, then run the code <a href="https://replit.com/@turingschool/m0builtinmethods#main.rb" target="blank">in this replit</a> and observe the output.</p>
-  <p><strong>Discuss:</strong> How did each line of code, produce each respective line of output? Which parts make sense, and which are confusing?</p>
+  <p><strong>Think:</strong> How did each line of code, produce each respective line of output? Which parts make sense, and which are confusing?</p>
 </div>
 <br>
 
@@ -49,7 +49,7 @@ In this particular example, the utility of the `odd?` method is to determine if 
   <p>In <a href="https://replit.com/@turingschool/m0builtinmethods#main.rb" target="blank">the same replit</a> from the first exploration, comment <em>out</em> the code from Part 1, and <em>uncomment</em> the code under Part 2.</p>
   <ul>
     <li>Run the code.</li>
-    <li>Discuss: What is different about this from the first set of method calls? How did each line of code, produce each respective line of output? Which parts make sense, and which are confusing?</li>
+    <li><strong>Think:</strong> What is different about this from the first set of method calls? How did each line of code, produce each respective line of output? Which parts make sense, and which are confusing?</li>
   </ul>
 </div>
 <br>
@@ -139,12 +139,12 @@ We can imagine that our cookie machine would do all of those steps and then give
 Let's expand this example to any kind of machine. We give the machine the raw materials, it does something with those materials, and then returns the final product. This is _very_ similar to what we are doing with our own <span class="vocab">methods</span>. We give the method some piece of data or information (or even multiple pieces of information) and then the method does something with that information and spits out a return value. 
 
 <div class="s-card s-border-yellow-500">
-  <h3>Waterfall</h3> 
+  <h3>Think About It</h3> 
   <p>Look at the method call below and make a guess about how this might be different from the previous method example.</p>
   <pre>
   greet_a_texan("Kaitlyn")
   # => "Howdy, Kaitlyn!"</pre>
-  <p>Type your answers in the chat and be ready to submit when it's time!</p>
+  <!-- <p>Type your answers in the chat and be ready to submit when it's time!</p> -->
 </div>
 <br>
 
@@ -175,8 +175,8 @@ puts greet_a_texan("Brian")
 <br>
 
 <div class="s-card">
-  <h3>Pair Practice</h3>
-  <p>In your Breakout room, the person with the longest first name will Drive. The other will Navigate. The Driver should screenshare a replit and the Navigator should keep these instructions up.</p>
+  <h3>Practice</h3>
+  <!-- <p>In your Breakout room, the person with the longest first name will Drive. The other will Navigate. The Driver should screenshare a replit and the Navigator should keep these instructions up.</p> -->
   <ul>
     <li>Write a method named <code>greet_an_animal</code>. This method should declare one parameter, a String, and when called, should return a string with a greeting for the specific animal that was passed in as an argument.</li>
     <li>Write a method named <code>multiply</code>. This method should declare two parameters, both Integers, and when called, should return the product of the two Integers. Call the method several times with different arguments and run the code to ensure it's working as expected.</li>
@@ -214,7 +214,15 @@ add(2, 3)
 # => 5 (return value is 5 since that's the sum of 2+3, and on the last line of the method)
 ```
 
-In the `say_goodbye` example below, notice we included the `puts` command in the last line of the method instead of returning a data point. The return value is `nil` because the last line of code is `puts "See you later"`, and `puts` is a built-in command with a return value of `nil`. This is generally not a best practice, because the method doesn't return any usable data.
+<div class="s-card s-border-yellow-500">
+  <h3>Best Practices</h3> 
+  <p>Typically, we do not include an explicit <code>return</code> unless it is absolutely necessary. Since ruby methods automatically <code>return</code> the  value of the last line, it's common practice to use <em>implicit</em> returns like in the example above.</p>
+</div>
+<br>
+
+### Be Careful with <code>puts</code> Inside of Your Method
+
+In the `say_goodbye` example below, notice we included the `puts` command in the last line of the method instead of returning a data point. The return value is `nil` because the last line of code is `puts "See you later"`, and `puts` is a built-in command with a return value of `nil`. <em>This is generally not a best practice, because the method doesn't return any usable data.</em>
 
 ```ruby
 def say_goodbye
@@ -249,8 +257,8 @@ puts sum2
 <br>
 
 <div class="s-card">
-  <h3>Pair Practice</h3>
-  <p>In your Breakout room, the person with the shortest first name will Drive. The other will Navigate. The Driver should screenshare a replit and the Navigator should keep these instructions up.</p>
+  <h3>Practice</h3>
+  <!-- <p>In your Breakout room, the person with the shortest first name will Drive. The other will Navigate. The Driver should screenshare a replit and the Navigator should keep these instructions up.</p> -->
   <ul>
     <li>Write a method named <code>get_age</code>. This method should declare one parameter, an Integer, representing a birth year.</li>
     <li> When called, the method should calculate the person's approximate age. Let's not worry about birth month or day. 😉 </li>
