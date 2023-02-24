@@ -108,6 +108,29 @@ With the class you wrote in the previous activity try to print out _just_ one at
   <p><a href="https://www.educative.io/edpresso/what-is-attrreader-in-ruby" target="blank">You'll need to allow read access with an <code>attr_reader</code></a> inside the class definition.</p>
 </div>
 
+## Flexible Attributes
+
+At times, we want an attribute to have a default value, but also be flexible if a different value is passed in. For example, maybe the default value for a drive attribute is "front-wheel", but we want to have the option to upgrade to "all-wheel" drive. To do this, we assign the attribute a value in the parameters for the initialize method.
+
+```ruby
+class EscapeCar
+  attr_reader :color, :drive, :wheels
+
+  def initialize(color, drive = "front-wheel")
+    @color = color
+    @drive = drive
+    @wheels = 4
+  end
+end
+
+car1 = EscapeCar.new("blue")
+p car1.drive
+car2 = EscapeCar.new("red", "all-wheel")
+p car2.drive
+```
+
+In the example above, <code>car1</code> will have "front-wheel" drive by default, but <code>car2</code> will have "all-wheel" drive, because we specified that value when we initialized the <code>car2</code> instance object. It's important to note that any <strong>flexible attributes must be last in the list of parameters</strong>.
+
 ## Instance Methods
 
 Information, even when we include dynamic information, about an object is not always enough. In software engineering, we also want the ability to change information about an object. We will use instance methods to accomplish this.
@@ -152,17 +175,14 @@ We won’t get all the way there in illustrating it today, but, we can look at I
 Many times, you'll build a class based on specifications (commonly referred to as specs). They will usually be written in the form of tests, which we will learn about later. For now, use the specifications below to write a class and object instances from it. You should struggle a bit while completing this, but do your best and try _something_!
 
 <div class="s-card">
-  <h3>Specifications</h3> 
+  <h3>Dino Class Specifications</h3> 
   <ul>
-    <li>In a new file, write a class called <code>Dino</code></li>
-    <li>It should have a dynamic name attribute</li>
-    <li>It should have a dynamic period attribute</li>
-    <li>It should have a color attribute, that is green by default</li>
-    <li>It should have a <code>roar</code> method that roars a sentence including its name, when called</li>
-  </ul>
-  <h4>Challenge Extensions</h4> 
-  <ul>
-    <li>It should have a diet attribute that defaults to "vegetarian" <em>but</em>, if data is passed in, it can be dynamic</li>
+    <li>In a new file, write a class called <code>Dino</code>.</li>
+    <li>It should have a dynamic name attribute.</li>
+    <li>It should have a dynamic period attribute.</li>
+    <li>It should have a color attribute, that is green for every instance.</li>
+    <li>It should have a <code>roar</code> method that roars a sentence including its name, when called.</li>
+    <li>It should have a diet attribute that defaults to "vegetarian" <em>but</em>, if data is passed in, it can be dynamic.</li>
     <li>It should have a <code>print_welcome</code> method that prints a sentence welcoming the Dino to the world. The welcome message should vary based on the period the Dino existed (Triassic, Jurassic, and Cretaceous are examples).</li>
   </ul>
 </div>
