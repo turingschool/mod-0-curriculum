@@ -185,14 +185,6 @@ Homebrew is a package management system that allows us to install and run variou
 **Action Steps:**
 - Install Homebrew by taking the following steps (some steps may take several minutes or more to finish):
   1. Open the Finder window by typing `command + space` and start typing `Finder`.
-  1. Click on the `Applications` folder on the left sidebar.
-  1. Click into the folder called `Utilities`.
-  1. Right click on the `Terminal` app and choose `Get Info`.
-  1. Check the box that says `Open using Rosetta`.
-  1. Use the keyboard shortcut `cmd + q` to close the Terminal.
-  1. Open the `Terminal` app by either double clicking the icon or using a Spotlight search for `Terminal`.
-  1. In Terminal, run `arch`; you should get an output of `i386`. 
-    - If you get `arm64`, that means your Terminal has not opened using Rosetta. Completely close the Terminal with the keyboard shortcut `cmd + q`. Open Terminal, then run `arch` and it should now output `i386`.
   1. Run the following command:
   ```
   $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
