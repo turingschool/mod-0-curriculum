@@ -184,8 +184,7 @@ Homebrew is a package management system that allows us to install and run variou
 
 **Action Steps:**
 - Install Homebrew by taking the following steps (some steps may take several minutes or more to finish):
-  1. Open the Finder window by typing `command + space` and start typing `Finder`.
-  1. Run the following command:
+  1. Go back to your `Terminal` window and run the following command:
   ```
   $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
