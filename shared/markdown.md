@@ -6,24 +6,13 @@ title: Markdown
 ## Learning Goals
 
 - Create new gists on GitHub to document information
+- Design a plan for success in Mod 0
 - Demonstrate understanding of Markdown syntax to create elements
 
 ## Vocabulary
 
 - <span class="vocab">Gist</span>
 - <span class="vocab">Markdown</span>
-
-<br>
-<div class="s-card s-border-yellow-500">
-  <h3>Prepare to Engage</h3>
-  <p>Whether you are starting your day with this activity or wrapping up a long day of technical work with this, take a moment to ground yourself in why you became a student at Turing. This Career Development work is arguably the most valuable component of your education that will lead you into your new career.</p>
-  <p>Take a moment to reset if needed, meditate, or do some physical stretches/movement to get yourself into the space you need to be in to engage in this work. Some optional guiding questions follow.</p>
-  <ul>
-    <li>Why did you come to Turing?</li>
-    <li>What is the thing that will motivate you to keep going on the days/weeks you feel <em>most</em> challenged at Turing?</li>
-  </ul>
-</div>
-
 
 ## Gists on GitHub
 
@@ -35,12 +24,16 @@ Gists are an easy way to share code with others and they are often used to docum
 
 ## Markdown Practice
 
-Your task is to create a "Mod 0 Plan" <strong>documenting your plan for success in Mod 0</strong>, using Markdown. Use the tips and guidance that follows to ensure your complete it successfully.
+Your task is to create a "Mod 0 Plan" <strong>documenting your plan for success in Mod 0</strong>, using Markdown. The purpose of this exercise is twofold:
+- Design a plan for success in Mod 0.
+- Practice creating different elements using Markdown. 
+
+Use the tips and guidance that follows to ensure your complete it successfully.
 
 1. Log into your GitHub account.
 1. In the upper right corner, select the `+` sign and select `New gist`.
 1. For the filename, follow this format: `firstName_lastName_mod_0_plan.md`.
-1. Notice that after you added the file extension for markdown (`.md`), you now have an `Edit new file` tab and a `Preview` tab. As you are working, you can use the `Preview` tab to see what your final product looks like! Note that a `.md` file extension is required at the end of your `Gist`'s filename. Otherwise it will not register as markdown.
+1. Notice that after you added the file extension for markdown (`.md`), you now have an `Edit new file` tab and a `Preview changes` tab. As you are working, you can use the `Preview changes` tab to see what your final product looks like! Note that a `.md` file extension is required at the end of your `Gist`'s filename. Otherwise it will not register as markdown.
 1. Include all of the elements listed in the Markdown Practice section below using [this Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/) as a guide.
 
 
@@ -49,7 +42,7 @@ Your task is to create a "Mod 0 Plan" <strong>documenting your plan for success 
   <p>In addition to documenting your plan for success in Mod 0, incorporate each of the following Markdown elements into your Gist:</p>
   <ul>
     <li>two headings of different sizes</li>
-    <li>one ordered list (numbers)</li>
+    <li>one ordered list (numbered)</li>
     <li>one unordered list (bullet points)</li>
     <li>bold text</li>
     <li>italicized text</li>
@@ -59,39 +52,49 @@ Your task is to create a "Mod 0 Plan" <strong>documenting your plan for success 
   <p>Images from your computer can be a little tricky in Gists. Check out this <a href="https://www.loom.com/share/8f7ce8e2e58f42fbbcbe215288ed1386" target="blank">drag-n-drop shortcut</a> to quickly insert an image from your computer into a Gist!</p>
 </div>
 
-You created your first gist in GitHub using Markdown! Let's build on that understanding by adding some code to our Mod 0 Plan gist. We often use gists to share snippets of code. There are two ways to do this in Markdown. If it's a short phrase or word, we use an `inline code block`, but for longer blocks of code we use a `fenced code block`. 
+You created your first gist in GitHub using Markdown! Let's build on that understanding by adding some code to your Mod 0 Plan gist. We often use gists to share snippets of code and there are two ways to do this in Markdown. If we want to highlight a short phrase or word in the context of a longer sentence in plain English, we use an `inline code block`. To create an `inline code block`, we use a single backtic (the character to the left of the 1 on your keyboard) before and after the word or phrase. 
 
-A fenced code block with JavaScript code might look something like this:
+If it's a longer block of code, we use a `fenced code block`. A fenced code block with JavaScript code might look something like this:
 ```javascript
 var name = "Kaitlyn";
-var affirmation = "You are smart and capable! You can do anything you put your mind to.";
+var affirmation = "You are smart and capable!";
 console.log(`Dear ${name} -- ${affirmation}`);
 ```
 
 A fenced code block with Ruby code might look something like this:
 ```ruby
 name = "Kaitlyn"
-affirmation = "You are smart and capable! You can do anything you put your mind to."
+affirmation = "You are smart and capable!"
 puts "Dear #{name} -- #{affirmation}"
 ```
 
-To create the `fenced code block`, we use three backtics (the character to the left of the 1 on your keyboard) on the top and bottom of our code block.
+To create the `fenced code block`, we use three backtics on a single line to open the fenced code block, followed by several lines of code, and another set of three backtics on a single line to close the code block.
 
 <div class="s-card">
   <h3>Markdown Practice - Round 2</h3>
   <p>Update your gist with both types of code blocks.</p>
   <ul>
-    <li>at least one inline code block</li>
-    <li>one fenced code block in either Ruby or JavaScript</li>
+    <li><strong>Include at least one inline code block, highlighting a word or phrase in a sentence.</strong> Normally, we use this to highlight a very short snippet of code inside a paragraph or sentence. For now, you can use it to highlight any word or phrase in your Mod 0 Plan.</li>
+    <li><strong>Include one fenced code block in either Ruby or JavaScript.</strong> If you don't know how to write any Ruby or JavaScript code, use one of the examples above and modify it to work for you!</li>
   </ul>
   <p>Note: To get the fancy colors on your fenced code block include the name of the language you're using <em>right after</em> the three opening backtics (```javascript).</p>
 </div>
 
-When you are finished editing your Mod 0 Plan, click the green `Create secret gist` button.
+When you are finished editing your Mod 0 Plan, click the green `Create secret gist` button. Check your work by ensuring that you have all 10 elements listed below and they render as expected in the final version.
+1. A header
+2. Another header of a different size
+3. A numbered list
+4. A bulleted list
+5. Bold text
+6. Italicized text
+7. An image
+8. A link
+9. An inline code block
+10. A fenced code block
 
 ## Check For Understanding
 
-We will share our Mod 0 Plan gists during the kickoff session for Mod 0. You can always find this assignment again by going to your GitHub account, clicking your profile image in the upper right corner, and selecting `Your gists`.
+Be prepared to share your Mod 0 Plan gists during the kickoff session for Mod 0! You can always find this assignment again by going to your GitHub account, clicking your profile image in the upper right corner, and selecting `Your gists`.
 
 <br>
 <br>
