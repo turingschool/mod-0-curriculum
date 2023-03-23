@@ -28,7 +28,7 @@ Most students estimate they work an **average of 65-75 hours per week** at Turin
 <div class="s-card">
   <h3>65-75 hours per week</h3>
   <p>In whatever way makes most sense to you, visualize what 65-75 hours per week would look like on a daily basis.</p>
-  <p>Think about the details of that "daily" life. If you said you'd work ~10 hours/day - what do you do with your other 14? How do you plan in time to eat? How many hours are allotted to sleep? When do you grocery shop? Spend time with family? Walk the dogs? And - whatever else is important or essential to you?</p>
+  <p>Think about the details of that "daily" life. If you said you'd work ~10 hours/day - what do you do with your other 14? How do you plan in time to eat? How many hours are allotted to sleep? When do you grocery shop? Spend time with family? Walk the dogs? And whatever else is important or essential to you?</p>
   <p>Jot down notes about this if you'd like; you don't need to submit anything for this specific prompt, but it should help you get in the right frame of mind for the rest of this activity.</p>
 </div>
 <br>
@@ -46,10 +46,9 @@ One strategy we’ve seen our most successful students employ is using some type
 - **Purposefully build in scheduled time for health, wellness and whatever else you need to be your best self.** If you don’t plan for it, chances are it won’t happen. Turing moves fast, but it is still a marathon. How can you make sure you are creating a sustainable schedule/routine?
 - **Break down time blocks as much as possible.** Anything over an hour will usually be unproductive and give too much time to procrastinate. Additionally, on each calendar event, name the specific task you expect you to complete in that time. If you don't finish or something else takes longer, you just move that block instead of losing your tasks. It’s like a task list and a calendar in one!
 - **Avoid context-shifting too frequently.** On the flip side, don’t break down your blocks too much. For example, trying to cram 4-5 different tasks into a single hour is also not productive and can be extremely exhausting.
-- **Treat your blocks of time as appointments that shouldn’t be missed.** You wouldn’t miss an appointment with a mentor; treat your other blocks the same way, even for independent work or study time.
 - **When you think of something you need to do, put it on your calendar immediately.** For example, if after a lesson, you think to yourself “I really want to go back and finish that activity we started in the lesson…” you should immediately pull up your calendar, find a 15-30 minute block of time in the next couple of days and make an event for working on that particular exercise (and add the link to the lesson and/or exercise to that event).
-- **Reflect on your time management each week.** Build in time each week to reflect on how well you stuck to your schedule. Be gracious to yourself and adjust the upcoming week.
-- **Time management becomes more important throughout the program.** As the program progresses, you will find yourself balancing more responsibilities, such as attacking the technical curriculum while simultaneously searching for your first software developer job.
+- **Reflect on your time management each week.** Build in time each week to reflect on how well you stuck to your schedule. Be gracious to yourself and make a plan for the upcoming week.
+- **Time management becomes more important throughout the program.** As the program progresses, you will find yourself balancing more responsibilities. For example, in Mod 4, you'll continue learning some technical content while simultaneously searching for your first software developer job.
 
 ## Mod 0
 
@@ -59,7 +58,9 @@ Mod 0 is short and fast! That may lead us to believe we don't have much time to 
   <h3>Mod 0 Calendar</h3>
   <ul>
     <li>Consider what you are currently using for a calendaring tool. If you don't have anything, Google Calendar is a great place to start.</li>
-    <li>Using the Trello board as a guide, create calendar events for the rest of the work left in Mod 0 to map out how your time might be used the rest of this week. We know you don't know how long something will take. Start with 1-2 hours for each assignment and you can always adjust. Remember, your calendar is a living document.</li>
+    <li>If you are in the Classic format for Mod 0, you'll need to plan out all 3 weeks of the course. If you are completing the Intensive format, you'll plan out only the single week.</li>
+    <li>Using the Mod 0 Site as a guide, create calendar events for the rest of the work left in Mod 0 to map out how your time might be used the rest of this week. We know you don't know how long something will take. Start with 1-2 hours for each assignment and you can always adjust. Remember, your calendar is a living document.</li>
+    <li>Create reminders for yourself to complete your midpoint and End-Of-Segment reflections in Slack.</li>
     <li>Add in any personal responsibilities you need to fulfill.</li>
     <li>Add in a reminder to reflect and adjust your calendar (to document what happened in the <em>past</em>) - probably at the end of each day. This will help you increase your awareness of where you spend your time. You may also use this time to look ahead to the upcoming day and make any adjustments.</li>
   </ul>
@@ -73,7 +74,7 @@ Here is an example of what your calendar might look like if you are a student in
 
 In Mod 1, you'll be expected to be available and fully engaged between the hours of 9am-12pm and 1pm-4pm MT, Monday-Friday (excluding any holidays Turing observes). During those times, you'll be in live, whole-group classes, possibly in small-group sessions led by instructors, and some of that time will be structured work time with teammates, check-ins or evaluations with instructors.
 
-In addition to those specific hours, most students spend 35-40 hours outside of formal class time to work on the project that is currently assigned, and study/practice on their own. About 70% of the projects assigned are collaborative; meaning you will not be working independently (with only your brain and your _schedule_), but will need to find times to work with your teammates. Sometimes, this will mean compromising. However, it's important to have some clear boundaries for your self-care.
+In addition to those specific hours, most students spend 35-40 hours outside of formal class time to work on the project that is currently assigned, and study/practice on their own. About half of the projects assigned are collaborative; meaning you will not be working independently (with only _your_ brain and _your_ schedule), but will need to find times to meet with your teammates. Sometimes, this will mean compromising. However, it's important to have some clear boundaries for your self-care.
 
 When it comes to the way they spend their time, there are two major pitfalls we see students fall into, that result in them burning out and usually repeating Mod 1:
 1. Not dedicating any time to their personal needs: scheduling seven 14-hour days of coding a week.
@@ -85,11 +86,11 @@ The <a href="https://frontend.turing.edu/today/" target="_blank">Front End</a> a
 
 <div class="s-card">
   <h3>Mod 1 Calendar</h3>
-  <p>Please create a calendar for your first 2 weeks of Mod 1. Consider your personal needs, relationships, hours you work best, etc. as well as the tool that works best for you to calendar this out. Your calendar should include the following:</p>
+  <p>Similar to what you did for Mod 0, create a calendar for your first 2 weeks of Mod 1. Keep in mind that these weeks won't be quite as detailed as your Mod 0 calendar, because you don't know as much about the details of each task. As you begin the program, you'll likely add in specific tasks, but for now, you want a general idea of what to expect. Consider your personal needs, relationships, and hours you work best. Your calendar should include the following:</p>
   <ul>
     <li>Live class times blocked off (9-12 and 1-4)</li>
     <li>Study/Project work time (usually about 25 hours/week outside of class time)</li>
-    <li>Intentional times to reflect on the day/week, prep for the upcoming day/week, adjust calendar, etc.</li>
+    <li>Time to reflect on the day/week, prep for the upcoming day/week, adjust calendar, etc.</li>
     <li>Personal, Health + Wellness</li>
   </ul>
 </div>
