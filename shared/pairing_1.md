@@ -54,7 +54,7 @@ Below are two short exercises for you to pair on. Decide who will be the Driver 
     <li>Check the current status.</li>
     <li>Add <code>learning_ruby.md</code> to the staging area.</li>
     <li>Commit your work.</li>
-    <li>In VS Code, create a header and either a fact or question about Ruby in the  <code>ruby_101.md</code> file.</li>
+    <li>In VS Code, create a header and either a fact or question about Ruby in the  <code>learning_ruby.md</code> file.</li>
     <li>Add the changes to the staging area.</li>
     <li>Commit the changes using a properly formatted commit message.</li>
     <li>Create a directory inside of <code>ruby_101</code> titled <code>practice</code>. Inside of that, create 3 files - you choose the names.</li>
