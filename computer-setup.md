@@ -185,17 +185,26 @@ Homebrew is a package management system that allows us to install and run variou
 
 **Action Steps:**
 - Install Homebrew by taking the following steps (some steps may take several minutes or more to finish):
-  1. Go back to your `Terminal` window and run the following command:
+  1. Go back to your `Terminal` window and run the following command (not including the `$`):
   ```
   $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
   1. When prompted, enter the password you use to log in to your computer. It needs this because it installs its packages in a place that all users of this computer can access. You will get a message that says, "Press RETURN to continue or any other key to abort." Press `return`.
-  1. When it has completed the installation, which may take some time, quit the Terminal using `command + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
+  1. When it has completed the installation, which may take some time, carefully read the output. Under the "Next steps" section, copy the two recommended commands, paste them after your Terminal prompt, and hit `return` to add Homebrew to your PATH. 
+  <img src="./assets/homebrew-next-steps.png">
+  1. To confirm these commands worked, open your `zprofile` file by running `code ~/.zprofile` in your Terminal. If the previous step was done correctly, you should see the following line in that file. 
+  ```
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+  ```
+  1. Quit VS Code and the Terminal using `command + q` then start a new Terminal session. Run `brew doctor`. The output should tell you that everything is fine:
   ```
   $ brew doctor
   Your system is ready to brew.
   ```
-  1. If you get a warning message like below, try the first solution it provides by running `softwareupdate --all --install --force`:
+
+
+
+  <!-- 1. If you get a warning message like below, try the first solution it provides by running `softwareupdate --all --install --force`:
   ```
   WARNING: A newer Command Line Tools release is available.
   Update them from Software Update in System Preferences or run:
@@ -215,7 +224,7 @@ Homebrew is a package management system that allows us to install and run variou
   ```
   $ brew doctor
   Your system is ready to brew.
-  ```
+  ``` -->
 
 <br>
 

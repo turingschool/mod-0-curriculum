@@ -74,7 +74,7 @@ for ([initialization]; [condition]; [final-expression]) {
 <div class="s-card s-border-yellow-500">
   <h3>Common Questions</h3>
   <ul>
-    <li><strong>Why is the counter variable named <code>i</code> in most examples I see?</strong> Any valid JavaScript variable name can be used, but <code>i</code> is a convention in for loops, and it stands for index.</li>
+    <li><strong>Why is the counter variable named <code>i</code> in most examples I see?</strong> Any valid JavaScript variable name can be used, but <code>i</code> is a convention in <code>for loops</code>, and it stands for index.</li>
     <li><strong>Are these semi-colons really necessary? Can I use commas instead?</strong> Use of semi-colons to separate the three expressions provided to the <code>for</code> statement is mandatory.</li>
   </ul>
 </div>
