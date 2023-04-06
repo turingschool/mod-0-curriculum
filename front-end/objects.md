@@ -33,7 +33,7 @@ Some languages call their Objects _dictionaries_ for this reason – you look up
 
 ## Object Syntax
 
-- An objetc is enclosed in curly braces `{ }`, <span class="vocab">key-value</span> pairs are separated by commas, and keys and values are separated by a colon.
+- An object is enclosed in curly braces `{ }`, <span class="vocab">key-value</span> pairs are separated by commas, and keys and values are separated by a colon.
 - Each key in an object must be unique
   - If you attempt to have duplicate keys when you first create an object, you won't get any sort of indicator that you've done so, but the only value that will be stored is that of the last value assigned to a duplicate key.
   - If you try to add a new key-value pair using a key that already exists, that new key-value pair will overwrite the previous one - _dangerous_.
@@ -87,7 +87,7 @@ var suitcase = {
 Did we put any jackets on our list? Let’s check:
 ```javascript
 suitcase.jackets;
-// => nundefined
+// => undefined
 ```
 
 We can create a new key-value pair:

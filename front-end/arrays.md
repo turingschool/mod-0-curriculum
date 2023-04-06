@@ -107,7 +107,7 @@ Through reading the code snippet in the embdedd replit that follows, one can inf
 
 ### Array Methods
 
-In most cases, a developer want to modify data in an Array at one point or another. Today, we will learn a number of ways to do that. They will probably not satisfy your every question of "How does X app do Y?" but this will lay an important foundation for the concept of Array methods, and some strategies to get that information you are craving!
+In most cases, a developer wants to modify data in an Array at one point or another. Today, we will learn a number of ways to do that. They will probably not satisfy your every question of "How does X app do Y?" but this will lay an important foundation for the concept of Array methods, and some strategies to get that information you are craving!
 
 An Array <span class="vocab">method</span> is a piece of functionality that is built into the JavaScript language, intended to be used on Arrays specifically. Each method has a specific job to perform; we can use it if we want, but we can't modify a built-in method. There are many Array methods - like anything else in programming, you will memorize a handful that you regularly use, then look to documentation for those you don't use as regularly.
 

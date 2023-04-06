@@ -283,7 +283,7 @@ console.log(`The sum of 5 and 2 is ${add(5, 2)}.`)
 //  --> "The sum of 5 and 2 is 7."
 ```
 
->**Key Point:** Up until now, we've use the `console.log()` statement to see values printed to the console. Be careful not to confuse what you see in the console with the return value of the function or method -- these are two different things. We use `console.log()` to **see** data in the console, but what we see in the console is **not always** the return value.
+>**Key Point:** Up until now, we've used the `console.log()` statement to see values printed to the console. Be careful not to confuse what you see in the console with the return value of the function or method -- these are two different things. We use `console.log()` to **see** data in the console, but what we see in the console is **not always** the return value.
 
 <br>
 
