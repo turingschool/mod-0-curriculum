@@ -71,9 +71,6 @@ For this next one, start by working through the Problem Solving steps on your ow
 
 After 5 minutes of independent work, share with your partner the steps that you completed and how you went about solving the problem. Take note of anything your partner did that could help improve your process!
 
-## Refactor Challenge
-What if we wanted to write a method or function to achieve the same goal for Challenges 1-3? This would allow us to reuse that code over and over for any array! Use your Problem Solving steps to go back and refactor your solutions.
-
 ## Continue to Strengthen This Skill
 This was only an introduction to Problem Solving and pseudocoding. It’s a skill that you will continue to develop for years, so don’t beat yourself up if it’s still confusing or hard! Below, you'll find a couple more challenges to give you an opportunity to continue developing those problem solving skills.
 
