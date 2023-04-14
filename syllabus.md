@@ -52,7 +52,7 @@ The specific schedule for your course and Mod 0 format can be found on the [Cale
 **_Intensive:_** Students are expected to join a zoom call every morning from approximately 9-10am MT. A handful of other live sessions will be placed on the calendar, schedule will vary based, but students should plan to work for about 10-12 hours/day each day of the week. Students should not have any other work commitments or responsibilities while taking this course.
 
 ### Communication 
-All Turing staff members will use Slack as the primary means of communication with students. As an incoming student, any information you need can usually be found in our Turing Slack workpace. As a norm, we expect members of our community to respond to Slack messages within 24 hours.
+All Turing staff members will use Slack as the primary means of communication with students. As an incoming student, any information you need can usually be found in our Turing Slack workspace. As a norm, we expect members of our community to respond to Slack messages within 24 hours.
 
 ## Grading
 While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time, implement feedback on those assignments, and demonstrate your learning in a live evaluation. Follow the links below to find all required assignments for your specific program:
@@ -60,7 +60,7 @@ While we don't have a traditional grading scale at Turing, your successful compl
 - [Back End Mod 0 Assignments]({{ site.baseurl }}/back-end)
 - [Front End Mod 0 Assignments]({{ site.baseurl }}/front-end)
 
-At the very top of each program page, you will see a link to a Trello board that also outlines each required task along with the due date.
+On each program page, you will see all assignments organized into 5 segments of work. Each segment is expected to be completed after a corresponding live session.
 
 ### Implementing Feedback
 Throughout the course, students will complete many assignments to demonstrate their understanding of the topics. These assignments are organized into segments of work, with each segment due by the next live session. It is expected that students implement feedback provided by staff. Sometimes this will mean revising submissions and other times this will mean implementing that feedback in future assignments. In the event a student gets behind and needs an extension and/or support to adjust their schedule to get back on track, it is the student's responsibility to proactively reach out and discuss what that could look like. 
