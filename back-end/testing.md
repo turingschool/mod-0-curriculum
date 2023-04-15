@@ -261,7 +261,7 @@ Each student should submit their own repository to the submission form.
 
 ## Mod 0 Extensions
 
-Your Mod 1 instructors have created [this repository](https://github.com/turingschool/ruby-exercises) to give you something to work on in between Mod 0 and Mod 1. Nothing is required; but students in the past have found it as helpful and aligned practice during the "down time" before Mod 1. Have fun!
+Your Mod 1 instructors have created [this repository](https://github.com/turingschool-examples/mod-1-be-exercises/tree/main/ruby_exercises) to give you something to work on in between Mod 0 and Mod 1. Nothing is required; but students in the past have found it as helpful and aligned practice during the "down time" before Mod 1. Have fun!
 
 <br>
 <br>
