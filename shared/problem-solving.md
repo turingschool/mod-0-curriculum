@@ -52,7 +52,7 @@ Work with your partner to complete Challenge 2.
 
 <div class="s-card">
   <h3>Challenge 2</h3>
-  <p>Write a method or function that accepts an array of strings. The method or function should return an array of only the words that start with the letter <strong>s</strong>.</p>
+  <p>Write a method or function that accepts an string. The method or function should return a boolean that describes whether or not the string has an even number of characters.</p>
 </div>
 
 ### Reflect
