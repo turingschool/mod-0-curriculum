@@ -7,10 +7,9 @@ It’s time to take a moment and reflect on all of your hard work and progress t
 
 **Reflection Questions:**
 - As you look back on your time in Mod 0, what are you most proud of?
-- What strengths do you bring to the classroom?
 - What did you learn about yourself, as a person or a student, during Mod 0?
-- What is the most important thing from Mod 0 that you want to hold yourself accountable to taking into Mod 1 and beyond? Consider any feedback you received throughout Mod 0 and how you might use that to help you prepare for Mod 1.
-- Finally, what is one thing you want to remember as you start this new journey to become a software developer at Turing?
+- What is one thing you want to remember as you start this new journey to become a software developer at Turing?
+- Finally, share some gratitude for the people who were most supportive to you throughout this Mod 0 experience!
 
 
 <br>
