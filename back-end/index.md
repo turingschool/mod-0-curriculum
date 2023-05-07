@@ -3,7 +3,7 @@ layout: page
 title: Back End Resources
 ---
 
-Please note that we are running an adjusted schedule for the week of February 21-24 due to the school holiday. The same assignments and topics will be covered during the week, but they are organized differently to account for the shorter timeframe. [Please click here to see the adjusted schedule]({{ site.url }}/back-end/4_day_schedule).
+Please note that we are running an adjusted schedule for the week of May 30 - June 2 due to the school holiday. The same assignments and topics will be covered during the week, but they are organized differently to account for the shorter time frame. [Please click here to see the adjusted schedule]({{ site.url }}/back-end/4_day_schedule).
 
 All assignments for Mod 0 are listed below and organized into segments based on the due date. Each segment of work is due prior to the next live session.
 
