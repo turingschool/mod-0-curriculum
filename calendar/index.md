@@ -20,7 +20,7 @@ There are two formats for completing Mod 0. Both the classic version and the int
   </tr>
   <tr>
     <td>2307</td>
-    <td>May 8-26</td>
+    <td>May 8-26<br>NEW: June 12-29</td>
     <td>May 30-June 2 (BE)<br>June 5-9 (FE)</td>
     <td>June 5-8</td>
   </tr>
