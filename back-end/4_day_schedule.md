@@ -3,7 +3,7 @@ layout: page
 title: Back End Resources: Adjusted Schedule for 4-Day Week
 ---
 
-The list below shows all assignments for Mod 0 organized into segments based on the due date. Each segment of work is due prior to the next live session. Please note that this reflects an <strong>adjusted schedule for the 4-day week of February 21-24</strong>.
+The list below shows all assignments for Mod 0 organized into segments based on the due date. Each segment of work is due prior to the next live session. Please note that this reflects an <strong>adjusted schedule for the 4-day week of May 30-June 2</strong>.
 
 ## Before Session 1
 * [Complete all Computer Setup]({{ site.url }}/computer-setup) 
