@@ -338,7 +338,7 @@ SSH keys are a secure and convenient way to authenticate. We won't get into more
     ```
   1. Run `touch ~/.zshrc` to create the `zshrc` file that was referenced in the previous line.
   1. Run `code ~/.zshrc`. VS Code should open to a blank file, the `zshrc` file. Inside this file, type or copy-and-paste in: `eval "$(rbenv init -)"`. Save the file with `command + s`.
-  1. Close the Terminal using `command + q` - this is absolutely neccessary! Clicking the red dot in the corner is not a substitute.
+  1. Close the Terminal using `command + q` - this is absolutely necessary! Clicking the red dot in the corner is not a substitute.
   1. Re-open the Terminal, and run `rbenv versions`. As long as you don't get an error message, `rbenv` has been installed correctly.
 - Use `rbenv` to change Ruby versions by taking the following steps:
   1. In the Terminal, run `rbenv install 2.7.2`. This may take several minutes, and will likely print a lot of output. Wait patiently until it finishes and the command prompt returns. You may also get a message that this version of ruby is nearing the end of its life. While this sounds scary, it's actually ok! You will still be able to use this version of ruby. It only means that this version will no longer receive further critical security updates.

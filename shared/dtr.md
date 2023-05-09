@@ -16,11 +16,11 @@ title: DTR Prep
 
 ## Purpose
 
-You will be a contributor in several paired/group project throughout your Turing career working on complex technical challenges. You may be surprised to find out that < 1% of failing projects at Turing are due solely to technical deficiencies - in fact, the majority of failing projects are due to intrapersonal/team issues. In order to set yourself (and your teammates) up for success, it is critical to clearly communicate and set expectations with your teammates. 
+You will be a contributor in several paired and group projects working on complex technical challenges throughout your Turing career. You may be surprised to find out that < 1% of failing projects at Turing are due solely to technical deficiencies - in fact, the majority of failing projects are due to teamwork issues. In order to set yourself (and your teammates) up for success, it is critical to clearly communicate and set expectations with your teammates. 
 
 Before every project kickoff, we ask students to participate in a exercise known as **Defining the Relationship (DTR)**, where you will work to set realistic expectations with your teammates around workflow, communication, etc.
 
-However, prior starting Mod 1, it is crucial for you to reflect on what works for YOU! Obviously, this will change over the course of your Turing career as your learn more about your strengths and weaknesses, which is why this will be used as a living document.
+However, prior starting Mod 1, it is crucial for you to reflect on what works for YOU! Obviously, this will change over the course of your Turing career as you learn more about your strengths and weaknesses, which is why this is helpful to think of as a living document.
 
 ### Words of Wisdom
 
@@ -28,14 +28,14 @@ As you work through this document, avoid the following pitfalls:
 
 - "I'm flexible!" or "I'm down for whatever the group wants to do!"
   - This is typically where problems start. You actually DO have preferences and opinions - it's better to communicate these from the get-go rather than have trouble come up later.
-- "I can't really answer this until I start school"
+- "I can't really answer this until I start school."
   - Deciding on how you are going to show up as a teammate after you are in a working relationship with others does not always turn out so great. Push yourself to think through these relationships, dynamics, and your needs **now**.
   
 ## Preparing to DTR
 
 You will learn a lot in between now and the first paired project you are assigned in Mod 1 - technical concepts, about yourself, and what working on technical projects collaboratively can look and feel like.
 
-Start preparing for your first DTR conversation with a future project partner by <a href="https://gist.github.com/ameseee/0385f0fabb0438fd89e122352b7b2255" target="_blank">following the directions in this Gist</a> and be prepared to share your reflections with your small group in your next session.
+Start preparing for your first DTR conversation with a future project partner by <a href="https://gist.github.com/kaitvan/9834794c2fb66bc1f405b528daa868ff" target="blank">following the directions in this Gist</a> and be prepared to share your reflections with your small group in your next session.
 
 <br>
 <br>
