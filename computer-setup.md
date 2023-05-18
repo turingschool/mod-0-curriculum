@@ -341,11 +341,11 @@ SSH keys are a secure and convenient way to authenticate. We won't get into more
   1. Close the Terminal using `command + q` - this is absolutely necessary! Clicking the red dot in the corner is not a substitute.
   1. Re-open the Terminal, and run `rbenv versions`. As long as you don't get an error message, `rbenv` has been installed correctly.
 - Use `rbenv` to change Ruby versions by taking the following steps:
-  1. In the Terminal, run `rbenv install 2.7.2`. This may take several minutes, and will likely print a lot of output. Wait patiently until it finishes and the command prompt returns. You may also get a message that this version of ruby is nearing the end of its life. While this sounds scary, it's actually ok! You will still be able to use this version of ruby. It only means that this version will no longer receive further critical security updates.
-  1. Run `rbenv versions`. You should now see `2.7.2` listed.
-  1. Run `rbenv local 2.7.2` .
-  1. Run `ruby -v`. The output should be something like `ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]`. If the output does not include `ruby 2.7.2`, `command + q` out of the Terminal and start this step over. If you still aren't seeing `ruby 2.7.2`, check that you correctly followed the step above to edit your `.zshrc` file.
-  1. Run `rbenv global 2.7.2` then `rbenv rehash`. You should not expect any output from those commands.
+  1. In the Terminal, run `rbenv install 3.1.4`. This may take several minutes, and will likely print a lot of output. Wait patiently until it finishes and the command prompt returns. You may also get a message that this version of ruby is nearing the end of its life. While this sounds scary, it's actually ok! You will still be able to use this version of ruby. It only means that this version will no longer receive further critical security updates.
+  1. Run `rbenv versions`. You should now see `3.1.4` listed.
+  1. Run `rbenv local 3.1.4` .
+  1. Run `ruby -v`. If the output does not include `ruby 3.1.4`, `command + q` out of the Terminal and start this step over. If you still aren't seeing `ruby 3.1.4`, check that you correctly followed the step above to edit your `.zshrc` file.
+  1. Run `rbenv global 3.1.4` then `rbenv rehash`. You should not expect any output from those commands.
 - If you've followed these steps and are having issues, please DM the Mod 0 Lead on Slack ASAP. It is essential `rbenv` is installed on your machine correctly.
 
 <br>
