@@ -392,7 +392,7 @@ pull.rebase false
 ```
 Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
 ```
-1. **Rbenv:** In your terminal, run `ruby -v`. Your terminal will output the current version of ruby. It should look something like this: `rruby 3.1.4p223 (2023-03-30 revision 957bb7cb81) [arm64-darwin22]`.
+1. **Rbenv:** In your terminal, run `ruby -v`. Your terminal will output the current version of ruby. It should look something like this: `ruby 3.1.4p223 (2023-03-30 revision 957bb7cb81) [arm64-darwin22]`.
 1. **Node:** In your terminal, run `node -v`. Your terminal will output the current version of node. It should look something like this: `v16.15.1`.
 
 If after re-reading and completing the setup steps a second time, you are still experiencing issues, document the problem with screenshots and reach out for support in your Mod 0 Slack channel!

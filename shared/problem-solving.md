@@ -40,7 +40,7 @@ While we've all used Google a time or two, there are ways to make your search mo
 If the result you're looking for isn't in the first two pages of results, it's probably not there. You might try reframing your search terms or use another resource, like your Turing community!
 
 ## Problem Solving in Action
-Let's work through those steps together, using Challenge 1. Open a blank replit (using your programming language) and we'll complete the challenge below.
+Let's work through those steps together, using Challenge 1. Open the starter kit for your program (<a href="https://replit.com/@turingschool/problem-solving-starter-kit-1#index.js" target="blank">FE</a> or <a href="https://replit.com/@turingschool/problem-solving-starter-kit#main.rb" target="blank">BE</a>) and make a copy (fork) to follow along in replit.
 
 <div class="s-card">
   <h3>Challenge 1</h3>
