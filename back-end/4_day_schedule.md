@@ -12,10 +12,10 @@ The list below shows all assignments for Mod 0 organized into segments based on 
 * [Prep Your "Why"]({{ site.url }}/shared/why)
 * [Asking Technical Questions]({{ site.url }}/shared/asking_qs) 
 * [Markdown]({{ site.url }}/shared/markdown)
+* [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
 * [Introduction Video]({{ site.url }}/shared/intro-video)
 
 ## Segment 1 - Completed Before Session 2
-* [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
 * [Terminal]({{ site.url }}/shared/terminal)
 * [VS Code]({{ site.url }}/shared/vs-code)
 * [Git Workflow]({{ site.url }}/shared/git)
