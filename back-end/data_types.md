@@ -126,12 +126,12 @@ To do that, we use the exact same syntax that we used to make the original assig
 ```ruby
 # the deposit_paid variable is declared and assigned to the boolean value false
 deposit_paid = false
-# if you type only the name of the variable, the value to stored to the variable (false) will be returned
+# if you call the variable, the value stored in the variable (false) will be returned
 deposit_paid 
 
 # the deposit_paid variable is reassigned to the boolean value true
 deposit_paid = true
-# if you type deposit_paid, the new value stored in that variable will be returned (true)
+# if you call deposit_paid, the new value stored in that variable will be returned (true)
 deposit_paid
 ```
 
