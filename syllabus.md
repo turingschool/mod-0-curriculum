@@ -4,7 +4,7 @@ title:      Syllabus
 ---
 
 
-## Your Instructor
+## Your Instructors
 The current Mod 0 Lead is Kaitlyn Van Gorkom, our Pre-Program Instructor at Turing. If you have any questions about the course or computer setup, Kaitlyn is the person to contact! You can find her on Slack with the handle **@kvg**. Kaitlyn and a team of Pre-Program Teaching Assistants run sessions and provide students feedback throughout Mod 0. They're an all-star team of Turing alumni and current software developers who have a passion for supporting students as they begin their journey at Turing.
 
 ## Description

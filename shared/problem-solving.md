@@ -13,9 +13,14 @@ title: Problem Solving
 
 <div class="s-card">
   <h3>Warm-Up</h3>
-  <p>Imagine someone you know has never made a peanut butter and jelly sandwich before. <strong>Take 2 minutes and jot down every step of creating the perfect peanut butter and jelly sandwich.</strong></p>
-  <p>After writing those steps, <a href="https://www.youtube.com/watch?v=Ct-lOOUqmyY" target="blank">watch this video</a> of a dad following the directions his kids gave him. How do your directions compare?</p>
-  <p>Approaching complex tasks in code is very similar to approaching complex tasks in real life! Similar to the dad in the video, your program only does <em>exactly</em> what you tell it to do, so it's very important that we can break challenging problems down into clear and simple steps.</p>
+  <p>You have learned about some of the basic tools available to you in Ruby and JavaScript. The challenge for today's lesson is to know when to use which tool and recall the basic syntax quickly. Take 2 minutes to independently reflect on the following questions. Write down some notes to reference throughout the lesson.</p>
+  <p><strong>For each tool listed below, what is the purpose and what is the basic syntax required?</strong></p>
+  <ul>
+    <li>Conditionals</li>
+    <li>For Statements or .each Method</li>
+    <li>Functions or Methods</li>
+  </ul>
+  <p>Be prepared to discuss your thoughts with the group.</p>
 </div>
 
 ## Problem Solving Process
@@ -37,7 +42,7 @@ While we've all used Google a time or two, there are ways to make your search mo
 - Use technical terms
 - Choose reliable sources (MDN or Ruby docs)
 
-If the result you're looking for isn't in the first two pages of results, it's probably not there. You might try reframing your search terms or use another resource, like your Turing community!
+If the solution you're looking for isn't in the first two pages of results, it's probably not there. You might try reframing your search terms or use another resource, like your Turing community!
 
 ## Problem Solving in Action
 Let's work through those steps together, using Challenge 1. Open the starter kit for your program (<a href="https://replit.com/@turingschool/problem-solving-starter-kit-1#index.js" target="blank">FE</a> or <a href="https://replit.com/@turingschool/problem-solving-starter-kit#main.rb" target="blank">BE</a>) and make a copy (fork) to follow along in replit.
@@ -76,7 +81,7 @@ This was only an introduction to Problem Solving and pseudocoding. It’s a skil
 
 <div class="s-card">
   <h3>Challenge 4</h3>
-  <p>Start with an array of student names. Print a numbered list of the student's names in alphabetical order. For example, if you start with <code>["Hector", "Winston", "Finley"]</code>, the final output should be <code>1. Finley 2. Hector 3. Winston</code>.</p>
+  <p>Start with an array of student names. Print a numbered list of the names in alphabetical order. For example, if you start with <code>["Hector", "Winston", "Finley"]</code>, the final output should be <code>1. Finley 2. Hector 3. Winston</code>.</p>
 </div>
 
 Here's another one - notice that we start with an array of integers, but our output will be a string.
@@ -94,6 +99,13 @@ Those two challenges are helpful, but you don't have to stop there! Here are two
 Take a moment to reflect on each of the following questions: 
 - This process is definitely slower than starting by writing code. Why might this be helpful, even though it takes more time? 
 - Some pseudocoding is more helpful when we sit down to start writing the actual code. What are some characteristics of helpful pseudocode?
+
+## Final Notes About the Eval
+Your challenges for the evaluation are designed to be solved in only 10 minutes, so they won't be very long or complex. To prepare, focus on the simplest practice challenges first and then build up to harder challenges if you have extra time. Some other things to note: 
+- Your partner won't be able to see your challenge. It's a good idea to give them a description of the challenge before starting to navigate them through it. 
+- You are not expected to complete the entire problem solving process during the eval. You'll have about 2 minutes to internalize the prompt and maybe do some preliminary research before you start navigating. With such limited time, you may not have time to pseudocode and that's ok!
+- You are allowed to use resources including notes, google, etc.
+- If your partner is navigating, let them lead, but it's ok to offer suggestions if they are really stuck. Even if they make a small mistake, it's ok to let that go to see if they correct it independently before offering a solution.
 
 <div class="s-card">
   <h3>Check For Understanding</h3>
