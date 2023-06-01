@@ -22,11 +22,11 @@ title: Data Types
 
 ## Where To Run Code
 
-By the end of this session, you'll be able to use the your Terminal, specifically a tool called <span class="vocab"><code>irb</code></span>, to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. `irb` will allow you to explore and learn Ruby and test out code you've written in a low stakes environment. It is quick and easy to open up the Terminal and run your code immediately.
+By the end of this lesson, you'll be able to use the your Terminal, specifically a tool called <span class="vocab"><code>irb</code></span>, to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. `irb` will allow you to explore and learn Ruby and test out code you've written in a low-stakes environment. It is quick and easy to open up the Terminal and run your code immediately.
 
 ### `irb`: Tips & Tricks
 
-- Open and close the Terminal quickly with keyboard shortcut `cmd + space` to open Spotlight. Then start typing "terminal" and it should auto-fill. Press `return`. _Note: there are other ways to open your Terminal but keyboard shortcuts are most efficient and the norm in the industry_.
+- Open the Terminal quickly with keyboard shortcut `cmd + space` to open Spotlight. Then start typing "terminal" and it should auto-fill. Press `return`. _Note: there are other ways to open your Terminal but keyboard shortcuts are most efficient and the norm in the industry_.
 - Regardless of your working directory, you can type `irb` then press `return` to open up an what is referred to as an "irb session". A prompt that looks something like `irb(main):001:0>` will appear; you'll eventually type code to the right of that.
 - The font size of your terminal can be increased or decreased with shortcuts `cmd + +` or `cmd + -`.
 - To exit the `irb` session, type `exit` in all lowercase, then press `return`.
@@ -72,7 +72,7 @@ To connect to how these data types are used in an application we all have some e
 
 ## Variables
 
-Pieces of data in the various types we've discussed so far are valid Ruby code just as they are. We can demonstrate that by typing `"helloworld@gmail.com"` or `37` or `false` into `irb`. We know they are valid because we don't get an error. If `helloworld@gmail.com` is typed in, we _will_ get an error, and possibly a helpful suggestion! 
+Pieces of data in the various types we've discussed so far are valid Ruby code just as they are. We can demonstrate that by typing `"helloworld@gmail.com"` or `37` or `false` into `irb`. We know they are valid because we don't get an error. If `helloworld@gmail.com` is typed in, we _will_ get an error, and possibly a helpful suggestion, because we didn't include quotations around that string data! 
 
 However, if we ever want to reference that email address ever again in our code, the only way would be to read that part of the screen and manually type it out again - and that's not going to make for a very efficient application.
 
@@ -101,7 +101,7 @@ Naming can be hard, but is important to be thoughtful about and follow conventio
 
 <div class="s-card">
   <h3>Naming Conventions</h3>
-  <p>In your notebook, write down each of the following variable names and classify it as a strong variable name that follows Ruby conventions <em>or</em> a poor variable name. Be ready to explain why you deemed any variable name a poor one.</p>
+  <p>Wherever you take notes, write down each of the following variable names and classify it as a strong variable name that follows Ruby conventions <em>or</em> a poor variable name. Explain why you deemed any variable name a poor one.</p>
   <ul>
     <li><code>isHungry</code></li>
     <li><code>z</code></li>
@@ -124,11 +124,15 @@ We often need to write code that changes the data stored in a variable. Consider
 To do that, we use the exact same syntax that we used to make the original assignment. We can run the code that follows, or code like it, in `irb` to demonstrate that the value has changed.
 
 ```ruby
+# the deposit_paid variable is declared and assigned to the boolean value false
 deposit_paid = false
-deposit_paid # false
+# if you type only the name of the variable, the value to stored to the variable (false) will be returned
+deposit_paid 
 
+# the deposit_paid variable is reassigned to the boolean value true
 deposit_paid = true
-deposit_paid # true
+# if you type deposit_paid, the new value stored in that variable will be returned (true)
+deposit_paid
 ```
 
 <div class="s-card">
@@ -141,6 +145,11 @@ deposit_paid # true
     <li>Exit the <code>irb</code> session.</li>
   </ul>
 </div>
+
+### <code>puts</code> vs <code>print</code>
+In an irb session, simply calling a variable returns the value stored in that variable and irb shows you that return value in the terminal. The value after the `=>` symbol is the return value. However, when you start working in a ruby file, the return value does not show! It's there, but it doesn't visually show on the screen.
+
+In order to visually see the return value of a variable, we can use the `puts` or `print` command before any variable or even data to see that value printed to the console. Take a look at <a href="https://replit.com/@turingschool/ruby-puts-print#main.rb" target="blank">this replit</a> to see those commands in action.
 
 ## Check For Understanding
 

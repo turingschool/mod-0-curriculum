@@ -112,7 +112,7 @@ Use the `each` method to solve each problem. You can do this work in the place t
 </div>
 <br>
 
-<!-- <div class="s-card">
+<div class="s-card">
   <p>Print out numbers that are greater than 10:</p>
   <p><code>numbers = [10, 11, 7, 19, 4, 52, 89, 9, 12, 10]</code></p>
 </div>
@@ -122,7 +122,7 @@ Use the `each` method to solve each problem. You can do this work in the place t
   <p>Challenge: Print out only names that begin with "P":</p>
   <p><code>names = ["Pilar", "Peach", "Pamela", "Tan", "Amanda", "Phil"]</code></p>
 </div>
-<br> -->
+<br>
 
 ## Check For Understanding
 
