@@ -116,7 +116,7 @@ Naming can be hard, but is important to be thoughtful about and follow conventio
 
 <div class="s-card">
   <h3>Naming Conventions</h3>
-  <p>In your notebook, write down each of the following variable names and classify it as a strong variable name that follows JavaScript conventions <em>or</em> a poor variable name. Be ready to explain why you deemed any variable name a poor one.</p>
+  <p>Wherever you take notes, write down each of the following variable names and classify it as a strong variable name that follows JavaScript conventions <em>or</em> a poor variable name. Explain why you deemed any variable name a poor one.</p>
   <ul>
     <li><code>isHungry</code></li>
     <li><code>z</code></li>
@@ -136,14 +136,18 @@ We often need to write code that changes the data stored in a variable. Consider
 - When a student first creates a profile, the `depositPaid` variable is automatically assigned to `false`.
 - Once the student pays their deposit, some code is triggered to change that value to `true`.
 
-To do that, we use the exact same syntax that we used to make the original assignment, but without the `var` keyword. We can run the code that follows, or code like it, in `dev tools` to demonstrate that the value has changed.
+To do that, we use the exact same syntax that we used to make the original assignment, but <strong>without</strong> the `var` keyword. We can run the code that follows, or code like it, in `dev tools` to demonstrate that the value has changed.
 
 ```javascript
+// the depositPaid variable is declared and assigned to the boolean value false
 var depositPaid = false
-depositPaid // => false
+// if you call the variable, the value to stored to the variable (false) will be returned
+depositPaid
 
+// the depositPaid variable is reassigned to the boolean value true -- notice the omission of the var keyword, because we are reassigning the variable and not declaring it
 depositPaid = true
-depositPaid // => true
+// if you call depositPaid, the new value stored in that variable will be returned (true)
+depositPaid
 ```
 
 <div class="s-card">
@@ -167,10 +171,10 @@ When VS Code was introduced in a previous lesson, it was shared that VS Code (or
 This lesson exposed the reader to the Chrome Dev Tools Console as an _option_ and _resource_ for a place to write and run JavaScript code.
 
 **One difference to note, at this stage in knowledge and learning, and being able to see the output.**
-- In the Chrome Dev Tools Console, one can type the name of a variable to _call_ it, and after pressing the return key, the Console will display the value of that variable.
+- In the Chrome Dev Tools Console, one can type the name of a variable to _call_ it, and after pressing the return key, the Console will display the value of that variable after the `<` symbol.
 - When writing code in VS Code, simply typing the name of a variable will not result in showing the human the value of the variable. Two steps need to be taken:
-1. Instruct the program to print out the value of the variable. `console.log(depositPaid)` is an example of a `console.log` statement that will print out the value of the `depositPaid` variable.
-2. Run the code. In the Terminal, while navigated to the directory that the file containing the code you want to run, run `node filename.js`. And `console.log` statements should print out. Additionally, any errors in the code may produce an error message at this time.
+1. Instruct the program to print out the value of the variable using the `console.log()` method. `console.log(depositPaid)` is an example of a `console.log` statement that will print out the value of the `depositPaid` variable.
+2. Run the code. In the Terminal, while navigated to the directory that the file containing the code you want to run, run `node filename.js` and the `console.log` statements should print out. Additionally, any errors in the code may produce an error message at this time.
 The Check For Understanding will provide a practice opportunity for this section.
 
 ## Check For Understanding
