@@ -58,7 +58,7 @@ Mod 0 is short and fast! That may lead us to believe we don't have much time to 
   <h3>Mod 0 Calendar</h3>
   <ul>
     <li>Consider what you are currently using for a calendaring tool. If you don't have anything, Google Calendar is a great place to start.</li>
-    <li>If you are in the Classic format for Mod 0, you'll need to plan out all 3 weeks of the course. If you are completing the Intensive format, you'll plan out only the single week.</li>
+    <li>There are two separate offerings of Mod 0 per Cohort: one starting 6 weeks before, and another starting 3 weeks before your first Mod 1 course.</li>
     <li>Using the Mod 0 Site as a guide, create calendar events for the rest of the work left in Mod 0 to map out how your time might be used the rest of this week. We know you don't know how long something will take. Start with 1-2 hours for each assignment and you can always adjust. Remember, your calendar is a living document.</li>
     <li>Create reminders for yourself to complete your midpoint and End-Of-Segment reflections in Slack.</li>
     <li>Add in any personal responsibilities you need to fulfill.</li>
@@ -66,9 +66,9 @@ Mod 0 is short and fast! That may lead us to believe we don't have much time to 
   </ul>
 </div>
 
-Here is an example of what your calendar might look like if you are a student in the Intensive format for Mod 0. Notice that there is still some empty space on the calendar. That's important too! We still need some breathing room, so that we can adjust along the way.
+Here is an example of what your calendar might look like if you are a student in Mod 0. Notice that there is still some empty space on the calendar. That's important too! We still need some breathing room, so that we can adjust along the way.
 
-![Calendar screenshot for a student in Intensive Mod 0](assets/calendar-example.png)
+![Calendar screenshot for a Mod 0 student](assets/calendar-example.png)
 
 ## Mod 1
 
