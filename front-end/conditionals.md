@@ -154,7 +154,7 @@ Notice that code inside the `else` statement will only run when none of the prev
 </div>
 <br>
 
->_Optional:_ Read the <a href="https://www.javascript.com/learn/conditionals" target="_blank">Conditionals section</a> from Pluralsight for a different explanation.
+>_Explore:_ Fork <a href="https://replit.com/@turingschool/explore-conditionals#index.js" target="_blank">this replit</a> and play around with the value stored in the weather variable to achieve each output.
 
 <br>
 <div class="s-card">
@@ -241,6 +241,8 @@ Now that you know about logical operators and `if statements`, let's combine tha
 
 
 <br>
+
+>_Optional:_ Read the <a href="https://www.javascript.com/learn/conditionals" target="_blank">Conditionals section</a> from Pluralsight for a different explanation.
 
 ## Check For Understanding
 
