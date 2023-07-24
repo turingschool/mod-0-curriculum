@@ -27,7 +27,7 @@ All assignments for Mod 0 are listed below and organized into segments based on 
 * [Data Types]({{ site.url }}/back-end/data_types)
 * [Pair Programming]({{ site.url }}/shared/pairing)
 * [Pairing Session 1]({{ site.url }}/shared/pairing_1)
-* <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a>
+<!-- * <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a> -->
 
 ## Segment 3 - Completed Before Session 4
 * [Conditionals]({{ site.url }}/back-end/conditionals)
