@@ -15,21 +15,27 @@ There are two Options for Mod 0 per Cohort: one starting 6 weeks before, and ano
     <th>Launch</th>
   </tr>
   <tr>
-    <td>2308</td>
-    <td>July 3-21</td>
-    <td>July 24-August 11<br></td>
-    <td>Not Available</td>
-  </tr>
-  <tr>
     <td>2310</td>
     <td>August 21-September 8</td>
     <td>September 11-29</td>
-    <td>September 18-21</td>
+    <td>TBD</td>
   </tr>
   <tr>
     <td>2311</td>
-    <td>October 9-27</td>
-    <td>October 30-November 17</td>
+    <td>October 23-29</td>
+    <td>November 6-12</td>
+    <td>Not Available</td>
+  </tr>
+  <tr>
+    <td>2401</td>
+    <td>December 11-17 (2023)</td>
+    <td>January 8-14 (2024)</td>
+    <td>Not Available</td>
+  </tr>
+  <tr>
+    <td>2403</td>
+    <td>February 12-18</td>
+    <td>February 26-March 3</td>
     <td>Not Available</td>
   </tr>
 </table>
