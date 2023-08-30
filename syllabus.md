@@ -31,6 +31,7 @@ There are a number of steps you must complete before attending your first sessio
 1. Prep Your "Why" - During the first session of Mod 0, you will break out into small groups and share your "why" for taking this step to change careers, and your life. Spend some time reflecting on your motivations for being here, and how to communicate that best to your peers so they start to understand you and what drives you. Be prepared to share that with the group in 1-2 minutes.
 1. Read and bring questions about the [Asking Technical Questions]({{ site.baseurl }}/shared/asking_qs) assignment.
 1. Complete the [Markdown]({{ site.baseurl }}/shared/markdown) assignment.
+1. Complete the [Slack]({{ site.baseurl }}/prework/slack101) assignment. 
 1. After following the steps in the Computer Setup, use your Loom account to record a short video introducing yourself. You'll share this video in your Mod 0 small-group channel leading up to the first day of Mod 0! Here are some things to include in your video:
 - Name
 - Pronouns
