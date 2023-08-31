@@ -24,21 +24,28 @@ While computer literacy skills have never been an entry requirement for students
     - `command + tab` - switch applications
 - **Navigating the Mac Environment:** There are many things that are different about using the Mac environment if you're more familiar with PC. For example, did you know that using two fingers on the trackpad allows you to scroll up and down efficiently? Did you also know that swiping up on your trackpad with three fingers allows you to see all open windows? If this is your first time using a Mac, it is highly recommended that you watch this [Mac Tutorial for Beginners](https://www.youtube.com/watch?v=67keaaWOKzE&t=0s) and spend some time getting comfortable with your new machine.
 
-## Before Your First Mod 0 Session
-There are a number of steps you must complete before attending your first session of Mod 0. First and foremost, it is **essential** that all students complete the [Computer Setup]({{ site.baseurl }}/computer-setup) (1-2 hours) prior to attending the first session. It is recommended that you start this computer setup at least _one week_ before attending the first session to give yourself enough time to work through any issues that arise. In addition to completing the Computer Setup, student must also complete the following steps:
+## Mod 0 Prework
+There are a number of tasks you must complete before attending your first session of Mod 0. First and foremost, it is **essential** that all students complete the [Computer Setup]({{ site.baseurl }}/computer-setup) (1-2 hours) prior to attending the first session. It is recommended that you start this computer setup at least _one week_ before attending the first session to give yourself enough time to work through any issues that arise. In addition to completing the Computer Setup, student must also complete the following steps:
 1. Thoroughly and carefully read through this Syllabus.
-1. Identify the specific times for your live sessions based on your selected Mod 0 Format. All times and dates for upcoming sessions can be found on the [Calendar]({{ site.baseurl }}/calendar) page.
-1. Prep Your "Why" - During the first session of Mod 0, you will break out into small groups and share your "why" for taking this step to change careers, and your life. Spend some time reflecting on your motivations for being here, and how to communicate that best to your peers so they start to understand you and what drives you. Be prepared to share that with the group in 1-2 minutes.
-1. Read and bring questions about the [Asking Technical Questions]({{ site.baseurl }}/shared/asking_qs) assignment.
+1. Identify the specific times for your live sessions based on your Mod 0 section. All times and dates for upcoming sessions can be found on the [Calendar]({{ site.baseurl }}/calendar) page.
+1. Prep Your "Why" - You will write this out and turn it in for part of your Mod 0 Prework Deliverables. In addition, during the first session of Mod 0, you will break out into small groups and share your "why" for taking this step to change careers, and your life. Spend some time reflecting on your motivations for being here, and how to communicate that best to your peers so they start to understand you and what drives you. Be prepared to share that with the group in 1-2 minutes.
 1. Complete the [Markdown]({{ site.baseurl }}/shared/markdown) assignment.
 1. Complete the [Slack]({{ site.baseurl }}/prework/slack101) assignment. 
-1. After following the steps in the Computer Setup, use your Loom account to record a short video introducing yourself. You'll share this video in your Mod 0 small-group channel leading up to the first day of Mod 0! Here are some things to include in your video:
+1. After following the steps in the Computer Setup, use your Loom account to record a short video introducing yourself. Once recorded, share this video in your Mod 0 small-group channel. Find the slack post that asks for video submissions and add your video link to that _thread_. Here are some things to include in your video:
 - Name
 - Pronouns
 - Location
 - Your most important people/pets
 - 2-3 things that bring you joy
 - A message for your future cohort-mates and instructors
+
+### Prework Submission
+Once you have completed all above items, please create a Github gist that includes the following:
+1. A header with your name, pronouns, and program (BE or FE).
+1. An "About Me" section with an introduction about who you are!
+1. A section containing your "Why".
+1. A link to your slack thread post of your loom Intro Video. (You can find this link by hovering over your slack thread post, clicking the three dots, then selecting _Copy Link_)
+1. Submit this gist [via this submission link](https://airtable.com/appx3ECzr5kwT3hpi/shrNo9qzMPYCVbp1h) by the deadline listed on the Mod 0 Calendar.
 
 ## Expectations
 
