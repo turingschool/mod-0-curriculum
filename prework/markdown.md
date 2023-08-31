@@ -5,14 +5,18 @@ title: Markdown
 
 ## Learning Goals
 
-- Create new gists on GitHub to document information
-- Design a plan for success in Mod 0
-- Demonstrate understanding of Markdown syntax to create elements
+- Create new gists on GitHub to document information.
+- Design a personal plan for success in Mod 0.
+- Demonstrate understanding of Markdown syntax to create elements.
 
 ## Vocabulary
 
 - <span class="vocab">Gist</span>
 - <span class="vocab">Markdown</span>
+
+## Reminder
+
+If at any time through this lesson you feel lost, are unsure of something, or have questions, please add those to your Mod 0 slack channel! We will continue to utilize slack as your main communication hub during your time at Turing so interacting with this tool early and often will help you become comfortable using it.
 
 ## Gists on GitHub
 
@@ -24,7 +28,7 @@ Gists are an easy way to share code with others and they are often used to docum
 
 ## Markdown Practice
 
-Your task is to create a "Mod 0 Plan" <strong>documenting your plan for success in Mod 0</strong>, using Markdown. The purpose of this exercise is twofold:
+Your task is to create a "Mod 0 Plan" **documenting your plan for success in Mod 0**, using Markdown. The purpose of this exercise is twofold:
 - Design a plan for success in Mod 0.
 - Practice creating different elements using Markdown. 
 
@@ -77,7 +81,7 @@ To create the `fenced code block`, we use three backtics on a single line to ope
     <li><strong>Include at least one inline code block, highlighting a word or phrase in a sentence.</strong> Normally, we use this to highlight a very short snippet of code inside a paragraph or sentence. For now, you can use it to highlight any word or phrase in your Mod 0 Plan.</li>
     <li><strong>Include one fenced code block in either Ruby or JavaScript.</strong> If you don't know how to write any Ruby or JavaScript code, use one of the examples above and modify it to work for you!</li>
   </ul>
-  <p>Note: To get the fancy colors on your fenced code block include the name of the language you're using <em>right after</em> the three opening backtics (```javascript).</p>
+  <p>Note: To get the fancy colors on your fenced code block, include the name of the language you're using <em>right after</em> the three opening backtics (```javascript).</p>
 </div>
 
 When you are finished editing your Mod 0 Plan, click the green `Create secret gist` button. Check your work by ensuring that you have all 10 elements listed below and they render as expected in the final version.
@@ -94,7 +98,12 @@ When you are finished editing your Mod 0 Plan, click the green `Create secret gi
 
 ## Check For Understanding
 
-Be prepared to share your Mod 0 Plan gists during the kickoff session for Mod 0! You can always find this assignment again by going to your GitHub account, clicking your profile image in the upper right corner, and selecting `Your gists`.
+Add these questions and your responses to your Mod 0 plan gist. Feel free to use any and all resources to answer these questions! 
 
-<br>
-<br>
+1. What is markdown? 
+1. What is your favorite markdown resource? (link or screenshot)
+1. What is the file extension for a markdown file? 
+1. What are the different header options? 
+1. How do you create a bulleted list?
+1. How do you insert a hyperlink?
+1. How do you insert code into a markdown file? 
