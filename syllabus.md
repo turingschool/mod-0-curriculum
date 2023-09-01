@@ -29,8 +29,8 @@ There are a number of tasks you must complete before attending your first sessio
 1. Thoroughly and carefully read through this Syllabus.
 1. Identify the specific times for your live sessions based on your Mod 0 section. All times and dates for upcoming sessions can be found on the [Calendar]({{ site.baseurl }}/calendar) page.
 1. Prep Your "Why" - You will write this out and turn it in for part of your Mod 0 Prework Deliverables. In addition, during the first session of Mod 0, you will break out into small groups and share your "why" for taking this step to change careers, and your life. Spend some time reflecting on your motivations for being here, and how to communicate that best to your peers so they start to understand you and what drives you. Be prepared to share that with the group in 1-2 minutes.
+1. Complete the [Markdown]({{ site.baseurl }}/prework/markdown) assignment.
 1. Complete the [Slack]({{ site.baseurl }}/prework/slack101) assignment. 
-1. Complete the [Markdown]({{ site.baseurl }}/shared/markdown) assignment.
 1. Complete the [VS Code]({{ site.baseurl }}/prework/vs-code) assignment.
 1. After following the steps in the Computer Setup, use your Loom account to record a short video introducing yourself. Once recorded, share this video in your Mod 0 small-group channel. Find the slack post that asks for video submissions and add your video link to that _thread_. Here are some things to include in your video:
 - Name
