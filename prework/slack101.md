@@ -20,7 +20,7 @@ Channels are spaces where people can share messages to a group. You can leave an
 
 You can use mentions to notify specific people by typing `@` and the person's name. If you mention someone in a channel, they will receive a notification that you have sent the message. Please use this sparingly and only when necessary to respect the time and space of others.
 
-![mention](./assets/images/slack/mention.png)
+![mention](./assets/slack/mention.png)
 
 ### Direct Messages
 
@@ -30,13 +30,13 @@ While we primarily use channels to communicate with your cohort and other studen
 
 Slack channels can get unruly very quickly! To avoid this, respond to related messages in threads. Threads will keep all related discussion together, while not clogging up the channel.
 
-![thread image](./assets/images/slack/thread.png)
+![thread image](./assets/slack/thread.png)
 
 ### Pinned Messages and Bookmarks
 
 Important messages can be pinned so that they are easy to find later. You can also bookmark specific links. At the top of the channel, you can view all pinned messages and bookmarks.
 
-![pinned and bookmarked](./assets/images/slack/pinned_bookmarked.png)
+![pinned and bookmarked](./assets/slack/pinned_bookmarked.png)
 
 ## Becoming a Slack Pro
 
@@ -46,11 +46,11 @@ Depending on your settings, Slack will mark things as read the moment you view t
   
 1 - Navigate to Slack in your menu bar, and select `Preferences` > `Sidebar` > enable `Unreads`. This collects any unread messages into one place, regardless of which channel the message is in. Conveniently, you can read these messages without them being marked as read. You can use this to collect the messages you need to deal with later, and only mark them as read when you've dealt with them.  
 
-![unread](./assets/images/slack/unread.png)
+![unread](./assets/slack/unread.png)
 
 2 - When a message comes up and you’d like to deal with it later - hover over the message, navigate to the top right menu of the message and click the three vertical dots. From here you can select remind me about this and set a time to get a reminder. 
 
-![remind](./assets/images/slack/remind.png)
+![remind](./assets/slack/remind.png)
 
 3 - If you just want to create a general reminder, navigate to any place where you’d send a message and type `/remind` into the text box. Slack will then allow you to type out a general reminder and set up a time for that notification. 
 
@@ -58,13 +58,13 @@ Depending on your settings, Slack will mark things as read the moment you view t
 
 In any channel, press the command key and “F” (`cmd + f`) to bring up the search bar. Initially, you’ll be searching just within the current channel you are viewing, but you can press delete a few times and then type a different channel. You’ll then be able to search by keyword. You can also search by sender by typing `from:@username`
 
-![search](./assets/images/slack/search.png)
+![search](./assets/slack/search.png)
 
 ### Sidebar Organization
 
 You’ll quickly acquire TOO MANY channels to keep track of. You can organize these channels or DMs by creating sidebar sections. Just right click any DM, group message, or channel and select `Move Conversation` or `Move Channel`. You’ll be given the option to create new sections here. You can organize your side bar however you'd like!
 
-![sidebar](./assets/images/slack/sidebar.png)
+![sidebar](./assets/slack/sidebar.png)
 
 ### Preventing Accidental Messages
 
@@ -93,3 +93,5 @@ You can make your own emoji! click the smiley face on the bottom right of the me
 Type `/shrug` and SEND IT. Just trust us.
 
 That's it! You're a Slack whiz now! If you ever have questions about Slack or communication at Turing, just post a question about it...**in Slack**! 😉
+
+<br/><br/><br/>
