@@ -391,14 +391,13 @@ In your Terminal, recreate the file structures shown in the diagrams below. Assu
 
 ## Check For Understanding
 
-Record your screen and audio using Loom while completing Challenge #1 _or_ Challenge #2 from the lesson. If you already practiced them once without recording, you can always remove the directory you created the first time to practice again. 
+If you haven't already, create a `terminal_lesson.md` file in your Mod 0 directory. Answer these questions in that file.
 
-Here are a few things to include in your video: 
-- Show how to use Rectangle to organize your screen with this lesson on one side and your terminal on the other. 
-- Demonstrate how to use informative commands like `ls` and `pwd`.
-- Practice articulating exactly what you are doing every step of the way with technical vocabulary. This might sound something like, "Next, we are going to move into that directory using the command `cd` followed by the directory name."
-- If you make a mistake, fix it live! These videos don't need to be perfectly polished.
+1. How do you quickly open up your Terminal on your computer? 
+1. From your home directory, you have a `Turing` directory, then a `Mod 0` directory. How would you create another directory inside the `Mod 0` directory called `Projects`? (Note: there may be multiple correct answers.)
+1. Working off the above question, how would you add a new file to the `Projects` directory called `first_project.md`?
+1. If you were in the `Projects` directory, what would you type to get back to the `Turing` directory? 
+1. From your `Turing` directory, how would you view all the directories and files within that `Turing` directoy? 
 
-**After recording your video, submit the link to your video in the submission form.**
 
 <br><br><br><br><br>
