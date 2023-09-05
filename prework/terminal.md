@@ -29,7 +29,7 @@ In the diagram below, we would say that there's a directory called `essays` that
 <h3>Example #1</h3>
 <div class="flex-container">
   <div>
-    <img src="./assets/files_directories_1.png" alt="files and directories 1">
+    <img src="./assets/images/terminal/files_directories_1.png" alt="files and directories 1">
   </div>
   <div>
     <p>A <span class="vocab">file path</span> is a way to notate where a file "lives" on your computer. This is the structure:</p>
@@ -62,7 +62,7 @@ In the diagram below, we would say that there's a directory called `essays` that
 <h3>Example #2</h3>
 <div class="flex-container">
   <div>
-    <img src="./assets/files_directories_3.png" alt="files and directories 2">
+    <img src="./assets/images/terminal/files_directories_3.png" alt="files and directories 2">
   </div>
   <div>
     <p>The path for the grading.txt file is</p>
@@ -88,7 +88,7 @@ The <span class="vocab">Terminal</span> is a program we use to give <span class=
 
 Your Terminal will look something like this:
 
-<img src="./assets/amy_terminal.png" alt="Screenshot of Terminal window">
+<img src="./assets/images/terminal/amy_terminal.png" alt="Screenshot of Terminal window">
 
 <div class="s-card">
   <h3>Independent Research</h3>
@@ -152,7 +152,7 @@ _This is classified as a "Safe" command because there is **nothing** you can mes
 
 To make a folder using the visual interface of Finder, this is what you might do:
 
-<img src="./assets/mkdir.gif" alt="making a folder using finder" style="height: 250px">
+<img src="./assets/images/terminal/mkdir.gif" alt="making a folder using finder" style="height: 250px">
 
 In the Terminal, we can make new directories with the `mkdir` command. Unlike `pwd` where we didn't need to run anything else, we'll need to add a name for the directory. Directory naming should follow a convention - we'll use all lowercase letters with no spaces; if you want to create a multi-word directory, use the underscore (\_) instead of a space.
 
@@ -176,7 +176,7 @@ To see what is inside of a directory, we use the `ls` command, which is short fo
 
 <div class="flex-container">
   <div>
-    <img src="./assets/files_directories_2.png" alt="files and directories 2">
+    <img src="./assets/images/terminal/files_directories_2.png" alt="files and directories 2">
   </div>
   <div>
     <p>If I was in the essays directory and I ran <code>ls</code>, this is what I'd see:</p>
@@ -206,7 +206,7 @@ You can move into a directory using the `cd` command, which stands for "change d
 
 <div class="flex-container">
   <div>
-    <img src="./assets/files_directories_2.png" alt="files and directories 2">
+    <img src="./assets/images/terminal/files_directories_2.png" alt="files and directories 2">
   </div>
   <div>
     <p>For example, if I was in the <code>essays</code> directory and wanted to move into the <code>book_projects</code> directory to see my documents, I would run the following:</p>
@@ -253,7 +253,7 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
   <p>Using what you've learned, type a response to each prompt in the associated input field. If you aren't sure or want to check yourself, this is a great topic to bring up in your small group Slack channel.</p>
   <div class="flex-container">
     <div>
-      <img src="./assets/files_directories_3.png" alt="files and directories 2">
+      <img src="./assets/images/terminal/files_directories_3.png" alt="files and directories 2">
     </div>
     <div>
       <p>If I'm in the <code>work</code> directory, what command do I need to run to get to <code>to_do</code>?</p>
@@ -309,7 +309,7 @@ Sometimes when you've entered a lot of Terminal commands, your Terminal can get 
 
 In the past, you've probably gotten rid of files by using the `Move to trash` button or dragging them into the trash, like this:
 
-<img src="./assets/filetotrash.gif" alt="file to trash" style="height: 250px;">
+<img src="./assets/images/terminal/filetotrash.gif" alt="file to trash" style="height: 250px;">
 
 We can remove files from the command line by running the `rm` command. Your current working directory must contain the file you want to remove.
 
@@ -353,7 +353,7 @@ Now when I run `ls`, I will no longer see `books` listed.
     <p>Using what you've learned, type a response to each prompt in the associated input field. If you aren't sure or want to check yourself, this is a great topic to bring up in your small group Slack channel.</p>
     <div class="flex-container">
       <div>
-        <img src="./assets/files_directories_3.png" alt="files and directories 2">
+        <img src="./assets/images/terminal/files_directories_3.png" alt="files and directories 2">
       </div>
       <div>
         <p><strong>For this scenario, assume that each question is independent of the rest, and that the starting point is always the diagram to the left.</strong></p>
@@ -378,13 +378,13 @@ Now when I run `ls`, I will no longer see `books` listed.
 In your Terminal, recreate the file structures shown in the diagrams below. Assume that the extension for any files notated is `.md`.
 
 ### Challenge #1
-<img src="./assets/practice-1.png">
+<img src="./assets/images/terminal/practice-1.png">
 <br>
 <br>
 <br>
 
 ### Challenge #2
-<img src="./assets/practice-2.png">
+<img src="./assets/images/terminal/practice-2.png">
 <br>
 <br>
 <br>
