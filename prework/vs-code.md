@@ -142,7 +142,7 @@ Complete the challenges below to continue building fluency with using your Termi
 <br>
 
 ## Check For Understanding
-If you haven't already, create a `markdown_lesson.md` file in your Mod 0 directory. Answer these questions in that file.
+If you haven't already, create a `vscode_lesson.md` file in your Mod 0 directory. Answer these questions in that file.
 
 1. How do you open your current directory in VS Code from the Terminal?
 1. What is your favorite keyboard shortcut for VS Code? What does it do? 
