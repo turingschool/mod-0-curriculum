@@ -46,7 +46,7 @@ Students are expected to attend all scheduled live sessions, on time. Staff will
 ### Schedule
 The specific schedule for your course and Mod 0 format can be found on the [Calendar]({{ site.baseurl }}/calendar) page. A general overview of each format is listed below.
 
-There are two separate offerings of Mod 0 per Cohort: one starting 6 weeks before, and another starting 3 weeks before your first Mod 1 course. You can choose whichever Mod 0 course works best for your schedule. You can expect to work 18-20 hours/week during the three-week period. Each Mod 0 course includes 5 total live sessions, held remotely over Zoom.
+You can expect to work 18-20 hours throughout Mod 0, including the prework. Each Mod 0 course includes 3 total live sessions, held remotely over Zoom.
 
 ### Communication
 All Turing staff members will use Slack as the primary means of communication with students. As an incoming student, any information you need can usually be found in our Turing Slack workspace. As a norm, we expect members of our community to respond to Slack messages within 24 hours.
@@ -54,10 +54,10 @@ All Turing staff members will use Slack as the primary means of communication wi
 ## Grading
 While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time, implement feedback on those assignments, and demonstrate your learning in a live evaluation. Follow the links below to find all required assignments for your specific program:
 
-- [Back End Mod 0 Assignments]({{ site.baseurl }}/back-end)
-- [Front End Mod 0 Assignments]({{ site.baseurl }}/front-end)
+- [Back End Mod 0 Assignments]({{ site.baseurl }}/fasttrack-be)
+- [Front End Mod 0 Assignments]({{ site.baseurl }}/fasttrack-fe)
 
-On each program page, you will see all assignments organized into 5 segments of work. Each segment is expected to be completed after a corresponding live session.
+On each program page, you will see all assignments organized into segments of work. Each segment is expected to be completed after a corresponding live session.
 
 ### Implementing Feedback
 Throughout the course, students will complete many assignments to demonstrate their understanding of the topics. These assignments are organized into segments of work, with each segment due by the next live session. It is expected that students implement feedback provided by staff. Sometimes this will mean revising submissions and other times this will mean implementing that feedback in future assignments. In the event a student gets behind and needs an extension and/or support to adjust their schedule to get back on track, it is the student's responsibility to proactively reach out and discuss what that could look like.
