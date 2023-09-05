@@ -25,24 +25,12 @@ While computer literacy skills have never been an entry requirement for students
 - **Navigating the Mac Environment:** There are many things that are different about using the Mac environment if you're more familiar with PC. For example, did you know that using two fingers on the trackpad allows you to scroll up and down efficiently? Did you also know that swiping up on your trackpad with three fingers allows you to see all open windows? If this is your first time using a Mac, it is highly recommended that you watch this [Mac Tutorial for Beginners](https://www.youtube.com/watch?v=67keaaWOKzE&t=0s) and spend some time getting comfortable with your new machine.
 
 ## Mod 0 Prework
-There are a number of tasks you must complete before attending your first session of Mod 0. First and foremost, it is **essential** that all students complete the [Computer Setup]({{ site.baseurl }}/computer-setup) (1-2 hours) prior to attending the first session. It is recommended that you start this computer setup at least _one week_ before attending the first session to give yourself enough time to work through any issues that arise. In addition to completing the Computer Setup, student must also complete the following steps:
-1. Thoroughly and carefully read through this Syllabus.
-1. Identify the specific times for your live sessions based on your Mod 0 section. All times and dates for upcoming sessions can be found on the [Calendar]({{ site.baseurl }}/calendar) page.
-1. Prep Your "Why" - You will write this out and turn it in for part of your Mod 0 Prework Deliverables. In addition, during the first session of Mod 0, you will break out into small groups and share your "why" for taking this step to change careers, and your life. Spend some time reflecting on your motivations for being here, and how to communicate that best to your peers so they start to understand you and what drives you. Be prepared to share that with the group in 1-2 minutes.
-1. Complete the [Markdown]({{ site.baseurl }}/prework/markdown) assignment.
-1. Complete the [Slack]({{ site.baseurl }}/prework/slack101) assignment. 
-1. Complete the [Terminal]({{ site.baseurl }}/prework/terminal) assignment. 
-1. Complete the [VS Code]({{ site.baseurl }}/prework/vs-code) assignment.
-1. After following the steps in the Computer Setup, use your Loom account to record a short video introducing yourself. Once recorded, share this video in your Mod 0 small-group channel. Find the slack post that asks for video submissions and add your video link to that _thread_. Here are some things to include in your video:
-- Name
-- Pronouns
-- Location
-- Your most important people/pets
-- 2-3 things that bring you joy
-- A message for your future cohort-mates and instructors
+There are a number of tasks you must complete before attending your first session of Mod 0. 
+- [Front End Prework]({{ site.baseurl }}/front-end/index)
+- [Back End Prework]({{ site.baseurl }}/back-end/index)
 
 ### Prework Submission
-Once you have completed all above items, please create a Github gist that includes the following:
+Once you have completed all your prework items, please create a Github gist that includes the following:
 1. A header with your name, pronouns, and program (BE or FE).
 1. An "About Me" section with an introduction about who you are!
 1. A section containing your "Why".
