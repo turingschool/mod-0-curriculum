@@ -51,7 +51,7 @@ Notice that in the previous examples, the items in a given list are all of the _
 students = ["Cindy", "Josiah", "Rigo"]
 ```
 
->To describe what the previous line of code does, one might say, "The `students` variable stores an Array of Strings. This array has 3 elements."
+>To describe what the previous line of code does, one might say, "The `students` variable stores an Array of Strings representing student names. This array has 3 elements."
 
 <br>
 <div class="s-card">
@@ -72,7 +72,7 @@ students = ["Cindy", "Josiah", "Rigo"]
 
 ### Accessing Elements
 
-To access one element from an array, bracket notation and a number that corresponds with that element should be used. As weird as it may seem, <a href="https://skillcrush.com/blog/why-programmers-start-counting-at-zero/" target="_blank">counting starts with 0 in most programming languages</a>. That number is referred to as an <span class="vocab">index position</span>.
+To access one element from an array we use bracket notation and a number that corresponds with that element. That number is referred to as an <span class="vocab">index position</span>. As weird as it may seem, <a href="https://skillcrush.com/blog/why-programmers-start-counting-at-zero/" target="_blank">counting starts with 0 in most programming languages</a>. 
 
 Through reading the code snippets below, one can infer that the first element is in index position 0, and counting increments by 1.
 
@@ -126,13 +126,13 @@ puts students[2]
 
 ### Array Methods
 
-In most cases, a developer want to modify data in an Array at one point or another. Today, we will learn a number of ways to do that. They will probably not satisfy your every question of "How does X app do Y?" but this will lay an important foundation for the concept of Array methods, and some strategies to get that information you are craving!
+At one point or another, a developer will want to modify data in an Array. Today, we will learn a number of ways to do that. They will probably not satisfy your every question of "How does X app do Y?" but this will lay an important foundation for the concept of Array methods and some strategies to get that information you are craving!
 
 An Array <span class="vocab">method</span> is a piece of functionality that is built into the Ruby language, intended to be used on Arrays specifically. Each method has a specific job to perform; we can use it if we want, but we can't modify a built-in method. There are many Array methods - like anything else in programming, you will memorize a handful that you regularly use, then look to documentation for those you don't use as regularly.
 
 ### Array Methods Syntax
 
-To use an Array method in Ruby, we first must tell Ruby which Array we want to perform the method on. After that, a dot or period, followed by the name of the method.
+To use an Array method in Ruby, we first must tell Ruby which Array we want to perform the method on. After that, a dot or period (called dot syntax), followed by the name of the method.
 
 ```ruby
 students = ["Cindy", "Josiah", "Rigo"]
@@ -142,6 +142,7 @@ p students
 ```
 
 >To describe what the previous line of code does, one might say, "This line of code calls the `pop` method on the `students` Array."
+
 
 <br>
 
@@ -153,7 +154,7 @@ Since researching and reading documentation can sometimes be time-consuming, ano
 
 <div class="s-card">
   <h3>Array Methods & Learning Strategies:</h3> 
-  <p>You've seen the syntax for the <code>pop</code> method but its utility was not explained. Before going down a potential rabbit hole in Google, open up <code>irb</code>. Declare an Array with 3 elements. Use the <code>pop</code> method with the syntax you learned earlier. Call the Array and observe the change that has been made since you initially declared it. Go through this process again, with the same Array. What can you infer the <code>pop</code> method does? Check Google (remember, ruby-docs has the most reliable documentation) to confirm your inference. Write this down!</p>
+  <p>You've seen the syntax for the <code>pop</code> method but its utility was not explained. Before going down a potential rabbit hole in Google, open up <code>irb</code>. Declare an Array with 3 elements. Use the <code>pop</code> method with the syntax you learned earlier. Call the Array and observe the change that has been made since you initially declared it. Go through this process again, with the same Array. What can you infer the <code>pop</code> method does? Check Google (remember, <code>ruby-docs</code> has the most reliable documentation) to confirm your inference. Write this down!</p>
   <p>Your next task is to learn what the <code>push</code>, <code>shift</code> and <code>unshift</code> Array methods do. Consider - how easy or hard did the work you did for <code>pop</code> feel? Do you want to follow the same steps to learn about the other methods, or go straight to ruby documentation to learn about the other 3? Act on whatever you decide, and be sure to write down your learnings about these methods.</p>
 </div>
 <br>
@@ -161,30 +162,25 @@ Since researching and reading documentation can sometimes be time-consuming, ano
 <div class="s-card">
   <h3>Talking and Writing about Code</h3> 
   <p>In your notebook, write down the code that follows, then write a sentence that describes what that line of code does:</p>
+  <p><code>ticket_prices = [87, 67, 99, 90, 87]</code></p>
   <p><code>ticket_prices.length</code></p>
 </div>
 
 ## Check For Understanding
 
-Create a new project (aka directory) and initialize a Git repository in it. Make 1 file - `arrays.rb`, and _make an initial commit_. In that file:
+Create a new project (aka directory). Make 1 file - `arrays.rb`. In that file:
 - Declare a variable that stores an Array of at least 4 Strings.
 - Declare a variable that stores an Array of at least 4 Integers.
 - Declare a variable that stores an Array of at least 4 Floats.
 - Declare a variable that stores an Array of at least 4 Booleans.
-- _Commit your work_.
 - Call 1 of each of the 4 methods you learned, on each of the 4 arrays you created above. On the line of code above that, write (<a href="https://www.thoughtco.com/commenting-ruby-code-2908193#:~:text=Single%2DLine%20Comments,line%3B%20it%20can%20occur%20anywhere" target="_blank">in a Ruby comment</a>) an explanation in plain English as to what impact calling that method will have on that specific array.
-- _Commit your work_.
 - [_Intentionally open-ended_] Demonstrate your understanding of index positions in this file. You can write an explanation, provide some examples with the Arrays you've created, or anything else.
-- _Commit your work_.
 - Use the <a href="https://ruby-doc.org/core-2.7.2/Array.html" target="_blank">Ruby Documentation</a> to learn about one additional Array method of your choice. Provide an explanation and example to demonstrate your understanding of it. (Consider bookmarking the official Array docs!)
-- _Commit your work_.
 
 Create another file in the same directory, name it `self-evaluation.md`. In Markdown, answer the following questions:
 - How confident do you feel with the content on Arrays so far?
 - Is there any additional learning you need or want to do before moving to the next lesson?
 - What questions do you have about Arrays?
-- _Commit your work_.
 
-After you've completed the tasks above, push your work up to a new GitHub repository. Provide the GitHub repository link in the submission form.
 
 <br><br><br>
