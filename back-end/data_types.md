@@ -168,5 +168,9 @@ In order to visually see the return value of a variable, we can use the `puts` o
 1. Write several `puts` statements.
 1. `NEW` Run your code by going to the Terminal and typing `ruby variables.rb` - make sure you are inside the `variable_practice` directory when doing so. You should see the output of your ruby file in the terminal. If done correctly, where ever you have a `puts` or `print` statement, what follows should print to your terminal. 
 
+Please create a section in your Mod 0 Gist for **Data Types** and record your answers to these questions. (Including the question is very helpful!)
+- How confident do you feel with the content on Data Types so far?
+- Is there any additional learning you need or want to do before moving to the next lesson?
+- What questions do you have about Data Types?
 
 <br><br>

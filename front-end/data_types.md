@@ -191,6 +191,11 @@ The Check For Understanding will provide a practice opportunity for this section
 1. Write several `console.log` statements.
 1. `NEW` Run your code by going to the Terminal and running `node variables.js` - make sure you are inside the `variablePractice` directory when doing so. You should see the output of your JavaScript file in the terminal. If done correctly, anywhere you have a `console.log` statement, it should print to your terminal. 
 
+Please create a section in your Mod 0 Gist for **Data Types** and record your answers to these questions. (Including the question is very helpful!)
+- How confident do you feel with the content on Data Types so far?
+- Is there any additional learning you need or want to do before moving to the next lesson?
+- What questions do you have about Data Types?
+
 
 
 <br><br>

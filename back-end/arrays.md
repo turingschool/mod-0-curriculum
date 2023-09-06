@@ -134,7 +134,7 @@ Create a new project (aka directory). Make 1 file - `arrays.rb`. In that file:
 - [_Intentionally open-ended_] Demonstrate your understanding of index positions in this file. You can write an explanation, provide some examples with the Arrays you've created, or anything else.
 
 
-Create another file in the same directory, name it `self-evaluation.md`. In Markdown, answer the following questions:
+Please create a section in your Mod 0 Gist for **Arrays** and record your answers to these questions. (Including the question is very helpful!)
 - How confident do you feel with the content on Arrays so far?
 - Is there any additional learning you need or want to do before moving to the next lesson?
 - What questions do you have about Arrays?
