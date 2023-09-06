@@ -19,16 +19,17 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 ## Session 1
 ### Live Sessions
 * [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
-* [Git Workflow]({{ site.url }}/shared/git)
 * [Data Types]({{ site.url }}/front-end/data_types)
+* [Arrays]({{ site.url }}/front-end/arrays)
 
 ### Assignment - Complete Before Session 2
 * [Asking Technical Questions]({{ site.url }}/shared/asking_qs) 
 
 ## Session 2
 ### Live Sessions
+* [Git Workflow]({{ site.url }}/shared/git)
 * [GitHub]({{ site.url }}/shared/github)
-* [Arrays]({{ site.url }}/front-end/arrays)
+
 
 ### Assignment - Complete Before Session 3
 * [DTR Prep]({{ site.url}}/shared/dtr)
