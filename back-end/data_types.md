@@ -122,7 +122,7 @@ We often need to write code that changes the data stored in a variable. Consider
 - When a student first creates a profile, the `deposit_paid` variable is automatically assigned to `false`.
 - Once the student pays their deposit, some code is triggered to change that value to `true`.
 
-To do that, we use the exact same syntax that we used to make the original assignment. The `=` is referred to as an assignment operator and we use it to first assign a variable or to change the value of a variable. 
+To do that, we use the exact same syntax that we used to make the original assignment. 
 
 Run the code that follows in `irb` to demonstrate that the value has changed.
 
