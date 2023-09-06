@@ -57,13 +57,14 @@ To connect to how these data types are used in an application we all have some e
 
 <div class="s-card">
   <h3>Deciding on a Data Type</h3>
-  <p>For each of the items listed below, determine which Data Type seems most appropriate to store it as. If you are unsure of any, start a discussion in your Slack small group.</p>
+  <p>For each of the items listed below, determine which Data Type seems most appropriate to store it as. If you are unsure of any, start a discussion in your Slack group.</p>
   <ul>
     <li>Username/handle</li>
     <li>Date of Birth</li>
     <li>Age</li>
     <li>Number of Likes</li>
     <li>Balance on a bank account</li>
+    <li>Zip Code</li>
     <li>Currently online</li>
     <li>Daily countdown to a big event</li>
     <li>Caption for an image</li>
@@ -121,7 +122,9 @@ We often need to write code that changes the data stored in a variable. Consider
 - When a student first creates a profile, the `deposit_paid` variable is automatically assigned to `false`.
 - Once the student pays their deposit, some code is triggered to change that value to `true`.
 
-To do that, we use the exact same syntax that we used to make the original assignment. We can run the code that follows, or code like it, in `irb` to demonstrate that the value has changed.
+To do that, we use the exact same syntax that we used to make the original assignment. The `=` is referred to as an assignment operator and we use it to first assign a variable or to change the value of a variable. 
+
+Run the code that follows in `irb` to demonstrate that the value has changed.
 
 ```ruby
 # the deposit_paid variable is declared and assigned to the boolean value false
@@ -153,30 +156,17 @@ In order to visually see the return value of a variable, we can use the `puts` o
 
 ## Check For Understanding
 
-_Complete this CFU **after** you've done the live GitHub lesson._
-
-Use everything you’ve learned with Git, GitHub, Data Types and variables, complete this challenge:
+*Note:* If at anytime during these CFUs you have questions, please ask them in your slack channel. This is the main resource we will use for asking questions at Turing.
 
 1. Create a new directory called `variable_practice`.
 1. Inside that directory, create a file called `variables.rb`.
-1. Initialize `git` inside of the directory.
-1. Commit your work (Think about what message should you use here).
-1. Go to GitHub and create a repository with the same name - `variable_practice`.
-1. Push your local directory to GitHub by following the instructions.
 1. In your `variables.rb` file, add a few variables that are assigned to Strings.
-1. Commit your work.
 1. In your `variables.rb` file, add a few variables that are assigned to Integers.
-1. Commit your work.
 1. In your `variables.rb` file, add a few variables that are assigned to Floats.
-1. Commit your work.
 1. In your `variables.rb` file, add a few variables that are assigned to Booleans.
-1. Commit your work.
 1. In your `variables.rb` file, leave the original String variables as declared, but add some code to _reassign_ them to different values.
 1. Write several `puts` statements.
-1. `NEW` Run your code by going to the Terminal and running `ruby variables.rb` - make sure you are inside the `variable_practice` directory when doing so.
-1. Commit your work.
-1. Push your changes to GitHub.
+1. `NEW` Run your code by going to the Terminal and typing `ruby variables.rb` - make sure you are inside the `variable_practice` directory when doing so. You should see the output of your ruby file in the terminal. If done correctly, where ever you have a `puts` or `print` statement, what follows should print to your terminal. 
 
-Please submit the link to your GitHub repository in the submission form.
 
 <br><br>
