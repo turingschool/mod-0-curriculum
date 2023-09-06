@@ -51,7 +51,7 @@ Notice that in the previous examples, the items in a given list are all of the _
 var students = ["Cindy", "Josiah", "Rigo"];
 ```
 
->To describe what the previous line of code does, one might say, "The `students` variable stores an Array of Strings. This array has 3 elements."
+>To describe what the previous line of code does, one might say, "The `students` variable stores an Array of Strings which represent the names of students. This array has 3 elements."
 
 <br>
 <div class="s-card">
@@ -72,7 +72,7 @@ var students = ["Cindy", "Josiah", "Rigo"];
 
 ### Accessing Elements
 
-To access one element from an array, bracket notation and a number that corresponds with that element should be used. As weird as it may seem, <a href="https://skillcrush.com/blog/why-programmers-start-counting-at-zero/" target="_blank">counting starts with 0 in most programming languages</a>. That number is referred to as an <span class="vocab">index position</span>.
+To access one element from an array, bracket notation and a number that corresponds with that element should be used. That number is referred to as an <span class="vocab">index position</span>. As weird as it may seem, <a href="https://skillcrush.com/blog/why-programmers-start-counting-at-zero/" target="_blank">counting starts with 0 in most programming languages</a>. 
 
 Through reading the code snippet in the embdedd replit that follows, one can infer that the first element is in index position 0, and counting increments by 1. (Click the green "Run" button to see the output in the Console at the bottom of the embdedded replit.)
 
@@ -105,9 +105,26 @@ Through reading the code snippet in the embdedd replit that follows, one can inf
 </div>
 <br>
 
+## Check For Understanding
+
+Create a new project (aka directory). Make 1 file - `arrays.rb`. In that file:
+- Declare a variable that stores an Array of at least 4 Strings.
+- Declare a variable that stores an Array of at least 4 Integers.
+- Declare a variable that stores an Array of at least 4 Floats.
+- Declare a variable that stores an Array of at least 4 Booleans.
+- [_Intentionally open-ended_] Demonstrate your understanding of index positions in this file. You can write an explanation, provide some examples with the Arrays you've created, or anything else.
+
+Create another file in the same directory, name it `self-evaluation.md`. In Markdown, answer the following questions:
+- How confident do you feel with the content on Arrays so far?
+- Is there any additional learning you need or want to do before moving to the next lesson?
+- What questions do you have about Arrays?
+
+## Extension
+The work below is meant as optional work to be completed and explored outside of the live Mod 0 sessions. This work is encouraged, but not required.
+
 ### Array Methods
 
-In most cases, a developer wants to modify data in an Array at one point or another. Today, we will learn a number of ways to do that. They will probably not satisfy your every question of "How does X app do Y?" but this will lay an important foundation for the concept of Array methods, and some strategies to get that information you are craving!
+ A t one point or another, a developer will need to modify data in an Array. Today, we will learn a number of ways to do that. They will probably not satisfy your every question of "How does X app do Y?" but this will lay an important foundation for the concept of Array methods, and some strategies to get that information you are craving!
 
 An Array <span class="vocab">method</span> is a piece of functionality that is built into the JavaScript language, intended to be used on Arrays specifically. Each method has a specific job to perform; we can use it if we want, but we can't modify a built-in method. There are many Array methods - like anything else in programming, you will memorize a handful that you regularly use, then look to documentation for those you don't use as regularly.
 
@@ -147,24 +164,7 @@ Since researching and reading documentation can sometimes be time-consuming, ano
   <p><em>Hint: Just by looking at this code, it's unlikely you know what it does. What can you do to explore, learn, and confirm what it does?</em></p>
 </div>
 
-## Check For Understanding
 
-Create a new project (aka directory) and initialize a Git repository in it. Make 1 file - `arrays.js`, and _make an initial commit_. In that file:
-- Declare a variable that stores an Array of at least 4 Strings.
-- Declare a variable that stores an Array of at least 4 Numbers.
-- Declare a variable that stores an Array of at least 4 Booleans.
-- _Commit your work_.
-- Call a different Array method on each of the 3 arrays you created above. On the line of code above each method call, write (<a href="https://www.bitdegree.org/learn/javascript-comment" target="_blank">in a JavaScript comment</a>) an explanation in plain English as to what impact calling that method will have on that specific array.
-- _Commit your work_.
-- [_Intentionally open-ended_] Demonstrate your understanding of index positions in this file. You can write an explanation, provide some examples with the Arrays you've created, or anything else.
-- _Commit your work_.
 
-Create another file in the same directory, name it `self-evaluation.md`. In Markdown, answer the following questions:
-- How confident do you feel with the content on Arrays so far?
-- Is there any additional learning you need or want to do before moving to the next lesson?
-- What questions do you have about Arrays?
-- _Commit your work_.
-
-After you've completed the tasks above, push your work up to a new GitHub repository. Provide the GitHub repository link in the submission form.
 
 <br><br><br>
