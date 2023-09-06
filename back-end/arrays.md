@@ -124,9 +124,27 @@ puts students[2]
 </div>
 <br>
 
+## Check For Understanding
+
+Create a new project (aka directory). Make 1 file - `arrays.rb`. In that file:
+- Declare a variable that stores an Array of at least 4 Strings.
+- Declare a variable that stores an Array of at least 4 Integers.
+- Declare a variable that stores an Array of at least 4 Floats.
+- Declare a variable that stores an Array of at least 4 Booleans.
+- [_Intentionally open-ended_] Demonstrate your understanding of index positions in this file. You can write an explanation, provide some examples with the Arrays you've created, or anything else.
+
+
+Create another file in the same directory, name it `self-evaluation.md`. In Markdown, answer the following questions:
+- How confident do you feel with the content on Arrays so far?
+- Is there any additional learning you need or want to do before moving to the next lesson?
+- What questions do you have about Arrays?
+
+## Extension
+The work below is meant as optional work to be completed and explored outside of the live Mod 0 sessions. This work is encouraged, but not required.
+
 ### Array Methods
 
-At one point or another, a developer will want to modify data in an Array. Today, we will learn a number of ways to do that. They will probably not satisfy your every question of "How does X app do Y?" but this will lay an important foundation for the concept of Array methods and some strategies to get that information you are craving!
+At one point or another, a developer will need to modify data in an Array. Today, we will learn a number of ways to do that. They will probably not satisfy your every question of "How does X app do Y?" but this will lay an important foundation for the concept of Array methods and some strategies to get that information you are craving!
 
 An Array <span class="vocab">method</span> is a piece of functionality that is built into the Ruby language, intended to be used on Arrays specifically. Each method has a specific job to perform; we can use it if we want, but we can't modify a built-in method. There are many Array methods - like anything else in programming, you will memorize a handful that you regularly use, then look to documentation for those you don't use as regularly.
 
@@ -166,21 +184,7 @@ Since researching and reading documentation can sometimes be time-consuming, ano
   <p><code>ticket_prices.length</code></p>
 </div>
 
-## Check For Understanding
 
-Create a new project (aka directory). Make 1 file - `arrays.rb`. In that file:
-- Declare a variable that stores an Array of at least 4 Strings.
-- Declare a variable that stores an Array of at least 4 Integers.
-- Declare a variable that stores an Array of at least 4 Floats.
-- Declare a variable that stores an Array of at least 4 Booleans.
-- Call 1 of each of the 4 methods you learned, on each of the 4 arrays you created above. On the line of code above that, write (<a href="https://www.thoughtco.com/commenting-ruby-code-2908193#:~:text=Single%2DLine%20Comments,line%3B%20it%20can%20occur%20anywhere" target="_blank">in a Ruby comment</a>) an explanation in plain English as to what impact calling that method will have on that specific array.
-- [_Intentionally open-ended_] Demonstrate your understanding of index positions in this file. You can write an explanation, provide some examples with the Arrays you've created, or anything else.
-- Use the <a href="https://ruby-doc.org/core-2.7.2/Array.html" target="_blank">Ruby Documentation</a> to learn about one additional Array method of your choice. Provide an explanation and example to demonstrate your understanding of it. (Consider bookmarking the official Array docs!)
-
-Create another file in the same directory, name it `self-evaluation.md`. In Markdown, answer the following questions:
-- How confident do you feel with the content on Arrays so far?
-- Is there any additional learning you need or want to do before moving to the next lesson?
-- What questions do you have about Arrays?
 
 
 <br><br><br>
