@@ -35,7 +35,7 @@ Once you have completed all your prework items, please create a Github gist that
 1. An "About Me" section with an introduction about who you are!
 1. A section containing your "Why".
 1. A link to your slack thread post of your loom Intro Video. (You can find this link by hovering over your slack thread post, clicking the three dots, then selecting _Copy Link_)
-1. Submit this gist [via this submission link](https://airtable.com/appx3ECzr5kwT3hpi/shrNo9qzMPYCVbp1h) by the deadline listed on the Mod 0 Calendar.
+1. Submit this gist [via this submission link](https://airtable.com/appx3ECzr5kwT3hpi/shrNo9qzMPYCVbp1h) by the deadline listed on the Mod 0 Calendar. (You will also submit your Mod 0 Gist via this link.)
 
 
 ## Expectations
