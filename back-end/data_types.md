@@ -154,9 +154,9 @@ In an irb session, simply calling a variable returns the value stored in that va
 
 In order to visually see the return value of a variable, we can use the `puts` or `print` command before any variable or even data to see that value printed to the console. Take a look at <a href="https://replit.com/@turingschool/ruby-puts-print#main.rb" target="blank">this replit</a> to see those commands in action.
 
-## Check For Understanding
+## Practice
 
-*Note:* If at anytime during these CFUs you have questions, please ask them in your slack channel. This is the main resource we will use for asking questions at Turing.
+*Note:* If at anytime you have questions, please ask them in your slack channel. This is the main resource we will use for asking questions at Turing.
 
 1. Create a new directory called `variable_practice`.
 1. Inside that directory, create a file called `variables.rb`.
@@ -168,5 +168,11 @@ In order to visually see the return value of a variable, we can use the `puts` o
 1. Write several `puts` statements.
 1. `NEW` Run your code by going to the Terminal and typing `ruby variables.rb` - make sure you are inside the `variable_practice` directory when doing so. You should see the output of your ruby file in the terminal. If done correctly, where ever you have a `puts` or `print` statement, what follows should print to your terminal. 
 
+## Check For Understanding
+
+Please create a section in your Mod 0 Gist for **Data Types** and record your answers to these questions. (Including the question is very helpful!)
+- How confident do you feel with the content on Data Types so far?
+- Is there any additional learning you need or want to do before moving to the next lesson?
+- What questions do you have about Data Types?
 
 <br><br>
