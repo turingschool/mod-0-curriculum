@@ -124,7 +124,7 @@ puts students[2]
 </div>
 <br>
 
-## Check For Understanding
+## Practice
 
 Create a new project (aka directory). Make 1 file - `arrays.rb`. In that file:
 - Declare a variable that stores an Array of at least 4 Strings.
@@ -133,6 +133,7 @@ Create a new project (aka directory). Make 1 file - `arrays.rb`. In that file:
 - Declare a variable that stores an Array of at least 4 Booleans.
 - [_Intentionally open-ended_] Demonstrate your understanding of index positions in this file. You can write an explanation, provide some examples with the Arrays you've created, or anything else.
 
+## Check For Understanding
 
 Please create a section in your Mod 0 Gist for **Arrays** and record your answers to these questions. (Including the question is very helpful!)
 - How confident do you feel with the content on Arrays so far?

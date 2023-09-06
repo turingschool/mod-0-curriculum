@@ -178,9 +178,9 @@ This lesson exposed the reader to the Chrome Dev Tools Console as an _option_ an
 2. Run the code. In the Terminal, navigate to the directory that the file containing the code you want to run is in, type `node filename.js` and the `console.log` statements should print out. Additionally, any errors in the code may produce an error message at this time.
 The Check For Understanding will provide a practice opportunity for this section.
 
-## Check For Understanding
+## Practice
 
-*Note:* If at anytime during these CFUs you have questions, please ask them in your slack channel. This is the main resource we will use for asking questions at Turing.
+*Note:* If at anytime you have questions, please ask them in your slack channel. This is the main resource we will use for asking questions at Turing.
 
 1. Create a new directory called `variablePractice`.
 1. Inside that directory, create a file called `variables.js`.
@@ -190,6 +190,8 @@ The Check For Understanding will provide a practice opportunity for this section
 1. In your `variables.js` file, leave the original String variables as declared, but add some code to _reassign_ them to different values.
 1. Write several `console.log` statements.
 1. `NEW` Run your code by going to the Terminal and running `node variables.js` - make sure you are inside the `variablePractice` directory when doing so. You should see the output of your JavaScript file in the terminal. If done correctly, anywhere you have a `console.log` statement, it should print to your terminal. 
+
+## Check For Understanding
 
 Please create a section in your Mod 0 Gist for **Data Types** and record your answers to these questions. (Including the question is very helpful!)
 - How confident do you feel with the content on Data Types so far?
