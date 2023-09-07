@@ -24,11 +24,11 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 
 ### Assignment - Complete Before Session 2
 * [Asking Technical Questions]({{ site.url }}/shared/asking_qs) 
+* [Git Workflow]({{ site.url }}/shared/git)
 
 ## Session 2
 ### Live Sessions
 * [GitHub]({{ site.url }}/shared/github)
-* [Git Workflow]({{ site.url }}/shared/git)
 
 
 ### Assignment - Complete Before Session 3

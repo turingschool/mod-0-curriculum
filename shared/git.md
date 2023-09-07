@@ -58,13 +58,19 @@ Stop at the provided prompts to take notes and complete practice exercises as in
 </div>
 <br>
 
+
+## Check For Understanding
+
+Please respond to the following questions by adding them to your Mod 0 Gist in a section entitled **Git Workflow**
+
+1. How confident do you feel in your understanding and fluency with the Git workflow?
+1. What do you still need to practice or learn? How will you do that?
+1. What part of the Git Workflow is still confusing for you?
+
 ## Additional Resources (Optional)
 
 - Read this <a href="https://chris.beams.io/posts/git-commit/" target="_blank">article on Git commit messages</a>
 - <a href="https://stackoverflow.com/questions/49228209/whats-the-use-of-the-staging-area-in-git" target="_blank">What's the use of the staging area in Git?</a> on Stack Overflow
 
-## Check For Understanding
-
-<a href="https://gist.github.com/kaitvan/a9d5005c72509ebab3cc9c040a45ad36" target="blank">Follow the directions in this Gist</a> and submit your fork of it in the submission form.
 
 <br><br>
