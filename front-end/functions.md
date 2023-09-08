@@ -330,7 +330,8 @@ console.log(sum2);
 
 ## Check For Understanding
 
-Complete the work <a href="https://github.com/turingschool/m0_fe_functions" target="_blank">in the CFU repository</a> and submit your work using the submission form.
+- Complete the work <a href="https://github.com/turingschool/m0_fe_functions" target="_blank">in the CFU repository</a>.
+- Add a link to your respository under a new section of your Mod 0 Gist called `Functions`.
 
 <br>
 <br>
