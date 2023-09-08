@@ -31,7 +31,7 @@ title: Methods
 
 ## Methods
 
-A <span class="vocab">Method</span> is a package of instructions. Once a method is defined, it can be used as many times as needed. Ruby provides many methods that developers can use. 
+A <span class="vocab">Method</span> is a package of instructions. Once a method is defined, it can be used as many times as needed. Ruby provides many built-in methods that developers can use. 
 
 The code snippet that follows was part of the previous Exploration activity:
 
@@ -89,7 +89,7 @@ p new_string.upcase
 
 ## Defining Our Own Methods
 
-The methods we've used up until now were built into the Ruby language. Those are great and you will use them heavily and regularly as a developer. And, there will also be times when you need to write your own method to solve a unique problem in the application you are building or maintaining. 
+The methods we've used up until now were built into the Ruby language. Those are great and you will use them regularly as a developer. There will also be times when you need to write your own method to solve a unique problem in the application you are building or maintaining. 
 
 ### Syntax for Defining a Method
 
@@ -203,7 +203,7 @@ subtract(10, 7)
 #  => 3 (return value is 3 since it is stored in the difference variable, and the last line of the method uses the return keyword)
 ```
 
-In the `add` example below, the return value is an Integer or Float, based on what values were passed in as arguments. If 2 and 3 are passed in, the return value is 5. This is called an <span class="vocab">implicit return</span>. <strong>Ruby automatically returns the value of the last expression in a method if no `return` is present.</strong> For this reason, if we want to return the value of the last expression in a method, we usually do not use the `return` keyword, as it is considered redundant and unnecessary.
+In the `add` example below, the return value is an Integer or Float, based on what values were passed in as arguments. If 2 and 3 are passed in, the return value is 5. This is called an <span class="vocab">implicit return</span>. <strong>Ruby automatically returns the value of the last expression in a method if no `return` is present.</strong> For this reason, if we want to return the value of the last expression in a method, we usually do not use the `return` keyword, as it is considered redundant and unnecessary. 
 
 ```ruby
 def add(num1, num2)
@@ -283,7 +283,8 @@ puts sum2
 
 ## Check For Understanding
 
-Complete the tasks in <a href="https://github.com/turingschool/methods_cfu_am0" target="blank">this repository</a>. Submit your copy of the repository to the submission form.
+- Complete the tasks in <a href="https://github.com/turingschool/methods_cfu_am0" target="blank">this repository</a>. 
+- Add a link to your respository under a new section of your Mod 0 Gist called `Methods`.
 
 
 <br>
