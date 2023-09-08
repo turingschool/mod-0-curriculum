@@ -33,6 +33,7 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 
 ### Assignment - Complete Before Session 3
 * [DTR Prep]({{ site.url}}/shared/dtr)
+* [Pairing Prep]({{ site.url}}/shared/pairing)
 
 ## Session 3
 ### Live Sessions
