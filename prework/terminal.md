@@ -90,6 +90,8 @@ Your Terminal will look something like this:
 
 <img src="./assets/terminal/amy_terminal.png" alt="Screenshot of Terminal window">
 
+To open your terminal, we will use a Mac built-in keyboard shortcut. Press `cmd` + `spacebar` and a bar in the middle of your screen should open. This is your Spotlight and it can help you quickly find applications on your laptop. In the spotlight, start typing `Term` for terminal. It should automatically find the Terminal application. Hit `enter` and it should open!
+
 <div class="s-card">
   <h3>Independent Research</h3>
   <p><em>Be prepared: You are about to be asked to go reseach a technical topic you have received no instruction on. This might feel scary! You might be wondering if it's a mistake! It's not - this is a big part of Turing's teaching and learning, and something we are sending you all the way into on your very first day. It might feel challenging or uncomfortable - sit with that feeling, embrace it, and push yourself to engage!</em></p>
