@@ -119,7 +119,17 @@ To instruct the interpreter to carry out the instructions in a method, the devel
 greet_a_texan
 ```
 
-In the example above, the developer chose the method name of `greet_a_texan`. Method names should usually include verbs, since methods _do_ something. The definition just tells the program that it's a set of directions ready to be followed; the method call is what makes the code in the method <span class="vocab">execute</span>, or follow the packaged directions. You can call a method as many times as you want, once it's been defined!
+### Naming Conventions
+
+Since methods provide action to a program, they should be named accordingly; it's best practice to start them with a verb. Like variables, Ruby methods should use `snake_case` when they involve more than one word and should be written carefully to describe their role specifically without being overly verbose.
+
+Examples of function names that follow best practices:
+- `get_user_input`
+- `display_followers`
+- `add_two_numbers`
+- `find_longest_name`
+
+In the example above, the developer chose the method name of `greet_a_texan`. Method names should usually include verbs, since methods _do_ something. The definition just tells the program that it's a set of directions ready to be followed; the _method call_ is what makes the code in the method <span class="vocab">execute</span>, or follow the packaged directions. You can call a method as many times as you want, once it's been defined!
 
 ### A Method Metaphor
 
