@@ -31,7 +31,7 @@ title: Methods
 
 ## Methods
 
-A <span class="vocab">Method</span> is a package of instructions. Once a method is defined, it can be used as many times as needed. Ruby provides many methods that developers can use. 
+A <span class="vocab">Method</span> is a package of instructions. Once a method is defined, it can be used as many times as needed. Ruby provides many built-in methods that developers can use. 
 
 The code snippet that follows was part of the previous Exploration activity:
 
@@ -89,7 +89,7 @@ p new_string.upcase
 
 ## Defining Our Own Methods
 
-The methods we've used up until now were built into the Ruby language. Those are great and you will use them heavily and regularly as a developer. And, there will also be times when you need to write your own method to solve a unique problem in the application you are building or maintaining. 
+The methods we've used up until now were built into the Ruby language. Those are great and you will use them regularly as a developer. There will also be times when you need to write your own method to solve a unique problem in the application you are building or maintaining. 
 
 ### Syntax for Defining a Method
 
@@ -119,7 +119,17 @@ To instruct the interpreter to carry out the instructions in a method, the devel
 greet_a_texan
 ```
 
-In the example above, the developer chose the method name of `greet_a_texan`. Method names should usually include verbs, since methods _do_ something. The definition just tells the program that it's a set of directions ready to be followed; the method call is what makes the code in the method <span class="vocab">execute</span>, or follow the packaged directions. You can call a method as many times as you want, once it's been defined!
+### Naming Conventions
+
+Since methods provide action to a program, they should be named accordingly; it's best practice to start them with a verb. Like variables, Ruby methods should use `snake_case` when they involve more than one word and should be written carefully to describe their role specifically without being overly verbose.
+
+Examples of function names that follow best practices:
+- `get_user_input`
+- `display_followers`
+- `add_two_numbers`
+- `find_longest_name`
+
+In the example above, the developer chose the method name of `greet_a_texan`. Method names should usually include verbs, since methods _do_ something. The definition just tells the program that it's a set of directions ready to be followed; the _method call_ is what makes the code in the method <span class="vocab">execute</span>, or follow the packaged directions. You can call a method as many times as you want, once it's been defined!
 
 ### A Method Metaphor
 
@@ -203,7 +213,7 @@ subtract(10, 7)
 #  => 3 (return value is 3 since it is stored in the difference variable, and the last line of the method uses the return keyword)
 ```
 
-In the `add` example below, the return value is an Integer or Float, based on what values were passed in as arguments. If 2 and 3 are passed in, the return value is 5. This is called an <span class="vocab">implicit return</span>. <strong>Ruby automatically returns the value of the last expression in a method if no `return` is present.</strong> For this reason, if we want to return the value of the last expression in a method, we usually do not use the `return` keyword, as it is considered redundant and unnecessary.
+In the `add` example below, the return value is an Integer or Float, based on what values were passed in as arguments. If 2 and 3 are passed in, the return value is 5. This is called an <span class="vocab">implicit return</span>. <strong>Ruby automatically returns the value of the last expression in a method if no `return` is present.</strong> For this reason, if we want to return the value of the last expression in a method, we usually do not use the `return` keyword, as it is considered redundant and unnecessary. 
 
 ```ruby
 def add(num1, num2)
@@ -283,7 +293,8 @@ puts sum2
 
 ## Check For Understanding
 
-Complete the tasks in <a href="https://github.com/turingschool/methods_cfu_am0" target="blank">this repository</a>. Submit your copy of the repository to the submission form.
+- Complete the tasks in <a href="https://github.com/turingschool/methods_cfu_am0" target="blank">this repository</a>. 
+- Add a link to your respository under a new section of your Mod 0 Gist called `Methods`.
 
 
 <br>
