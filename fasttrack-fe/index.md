@@ -39,9 +39,12 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 * [Conditionals]({{ site.url }}/front-end/conditionals)
 * [Functions]({{ site.url }}/front-end/functions)
 
+### Assignment - Complete before Session 4
+* Review all notes and past lessons
+* Preview next session's lesson
+
 ## Session 4
 ### Live Sessions
-* [Object Literals]({{ site.url }}/front-end/objects)
 * [For Statements]({{ site.url }}/front-end/for)
 
 ### Assignment - Complete by Sunday Evening
@@ -49,7 +52,9 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 * [Beyond Mod 0 Plan]({{ site.url }}/shared/plan)
 * [Final Reflection Video]({{ site.url }}/shared/final-video)
 
-
+## Pre-Teach Before Mod 1
+Note: You are not expected to be experts on these topics, but you should come to Mod 1 ready to ask questions about the topics covered in these lessons.
+* [Object Literals]({{ site.url }}/front-end/objects)
 
 <br>
 <br>
