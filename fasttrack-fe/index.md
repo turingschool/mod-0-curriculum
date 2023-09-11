@@ -15,11 +15,11 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 * [VS Code]({{ site.url }}/prework/vs-code)
 * [Prep Your "Why"]({{ site.url }}/prework/why)
 * [Introduction Video]({{ site.url }}/prework/intro-video)
+* [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
 * [Mod 0 Gist]({{ site.url }}/prework/mod-0-gist)
 
 ## Session 1
 ### Live Sessions
-* [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
 * [Git Workflow]({{ site.url }}/shared/git)
 * [Data Types]({{ site.url }}/front-end/data_types)
 
