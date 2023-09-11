@@ -113,7 +113,7 @@ Use the `each` method to solve each problem. You can do this work in the place t
 <br>
 
 <div class="s-card">
-  <p>Print out numbers that are greater than 10:</p>
+  <p>Challenge: Print out numbers that are greater than 10:</p>
   <p><code>numbers = [10, 11, 7, 19, 4, 52, 89, 9, 12, 10]</code></p>
 </div>
 <br>
@@ -124,7 +124,8 @@ Use the `each` method to solve each problem. You can do this work in the place t
 </div>
 <br>
 
-## Check For Understanding
+## Addtional Practice
+This practice work is encouraged, but not required.
 
 [Follow the directions in the README of this GitHub repository](https://github.com/turingschool/m0_be_iteration/), and submit your fork in the submission form.
 

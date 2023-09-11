@@ -39,9 +39,12 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 * [Conditionals]({{ site.url }}/back-end/conditionals)
 * [Methods]({{ site.url }}/back-end/methods)
 
+### Assignment - Complete before Session 4
+* Review all notes and past lessons
+* Preview next session's lesson
+
 ## Session 4
 ### Live Sessions
-* [Hashes]({{ site.url }}/back-end/hashes)
 * [Iteration]({{ site.url }}/back-end/iteration)
 
 ### Assignment - Complete by Sunday Evening
@@ -51,6 +54,7 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 
 ## Pre-Teach Before Mod 1
 Note: You are not expected to be experts on these topics, but you should come to Mod 1 ready to ask questions about the topics covered in these lessons.
+* [Hashes]({{ site.url }}/back-end/hashes)
 * [Testing]({{ site.url }}/back-end/testing)
 
 <br>
