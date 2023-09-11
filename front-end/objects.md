@@ -70,7 +70,6 @@ var student1 = {
     <li>For one of the examples in the previous activity that you selected would be best suited for an Object, declare a variable that stores an Object with some (possibly fake) data.</li>
     <li>Declare a variable that stores an Object that represents <a href="https://twitter.com/MechEngSanchez/status/1485947286396014593" target="blank">this tweet</a>.</li>
   </ol>
-  <p>Take a screenshot or save in this work in a file and be ready to share it in Stand Up tomorrow!</p>
 </div>
 
 ## Accessing an Object
@@ -135,16 +134,15 @@ Note that when we use the `Object.keys` and `Object.values` methods, the return 
   <ol>
     <li>Print all of the keys of the zoo Object</li>
     <li>Print all of the values of the zoo Object</li>
-    <li>Print the value of the first animal of the zoo</li>
     <li>Add an animal to the zoo</li>
     <li>Check how many monkeys are in the zoo</li>
     <li>Add another animal to the zoo</li>
-    <li>Print all of the keys of the zoo Object</li>
   </ol>
 </div>
 <br>
 
-## Check For Understanding
+## Additional Practice
+This practice work is option, though encouraged.
 
 Complete the work <a href="https://github.com/turingschool/m0_fe_objects" target="_blank">in the CFU repository</a> and submit your work using the submission form.
 

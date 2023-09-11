@@ -28,7 +28,7 @@ students = ["Cristie Soto", "A+", "B", "in progress", true, "Oscar Smith", "A-",
 
 ## Hashes
 
-Hashes allow us to structure data in a different way than Arrays. It's not better; it's just different. Like an Array, a Hash is a data structure used for representing a collection of things. But whereas an Array generally represents a list of ordered, indexed values, **a <span class="vocab">Hash</span> represents a collection of _named_ values**. These names are called <span class="vocab">keys</span>, and each key has a corresponding <span class="vocab">value</span>. In a Hash, we can insert data by assigning it to a name and later retrieving it using the same name.
+Hashes allow us to structure data in a different way than Arrays. It's not better; it's just different. Like an Array, a Hash is a data structure used for representing a collection of things. But where an Array generally represents a list of ordered, indexed values, **a <span class="vocab">Hash</span> represents a collection of _named_ values**. These names are called <span class="vocab">keys</span>, and each key has a corresponding <span class="vocab">value</span>. In a Hash, we can insert data by assigning it to a name and later retrieving it using the same name.
 
 Some languages call their Hashes _dictionaries_ for this reason – you look up a word (the label) to retrieve its definition (the data or value with which the label was associated).
 
@@ -38,7 +38,7 @@ Some languages call their Hashes _dictionaries_ for this reason – you look up 
 - Each key in a hash must be unique
   - If you attempt to have duplicate keys when you first create a hash, you will get a warning: `key :key_name is duplicated and overwritten on line X error`
   - If you try to add a new key-value pair using a key that already exists, that new key-value pair will overwrite the previous one - _dangerous_.
-- Keys and values can be any type of object:
+- Keys and values can be any datatype:
 ```ruby  
 student1 = {
     "name" => "Christie Soto",
@@ -46,12 +46,12 @@ student1 = {
     "active_student" => true
 }
 ```
-- Values can be accessed with bracket notation:
+- Values can be accessed with bracket notation where we call the variable holding the hash and then bracket the key that corresponds to the data we're wanting.
   - `student1["name"]` returns `"Christie Soto"`
 
 <div class="s-card">
   <h3>Hash or Array?</h3> 
-  <p>For each example, determine if a Hash or Array would be more appropriate, and explain why. Share your responses in the Slack small group channel for feedback and discussions.</p>
+  <p>For each example, determine if a Hash or Array would be more appropriate, and explain why.</p>
   <ul>
     <li>A store's inventory</li>
     <li>The contents of a dishwasher</li>
@@ -74,11 +74,7 @@ In Ruby, symbols are basically Strings that can’t change. You can recognize a 
 :"symbols can be in quotes"
 ```
 
-Symbols are also faster than strings because Ruby can determine if two symbols are equal by checking their object_id. Strings have to be compared character by character.
-
-So if symbols are faster and more efficient than strings, why would we use strings? A string’s value can *change*, making them useful as variables. Strings are mutable, whereas symbols are immutable.
-
-Let’s recreate our `student1` hash using symbols instead of strings.
+You'll learn more about Symbols in Mod 1, but for now, let's see how a hash would look using Symbols as the keys instead of Strings.
 
 ```ruby  
 student1 = {
@@ -113,7 +109,7 @@ These two definitions for our `student1` hash produce the exact same hash, howev
 
 We use bracket notation (`[]`) to access values stored in a Hash just like Arrays, only we don’t reference the index position, we instead reference _keys_.
 
-The examples below explore the `suitcase` Hash:
+The examples below explore the `suitcase` Hash. You can follow along by entering the following code into `irb`.
 
 ```ruby
 suitcase = { 
@@ -179,40 +175,16 @@ Note that when we use the `.keys` and `.values` Hash methods, the return value o
   <ol>
     <li>Print all of the keys of the zoo Hash.</li>
     <li>Print all of the values of the zoo Hash.</li>
-    <li>Print the value of the first animal of the zoo.</li>
     <li>Add an animal to the zoo.</li>
     <li>Check how many hippos are in the zoo.</li>
     <li>Add another animal to the zoo.</li>
-    <li>Print all of the keys of the zoo Hash.</li>
   </ol>
 </div>
 <br>
 
-## Iterating over Hashes
 
-Oftentimes,  we will want to iterate over a Hash to do something with each key-value pair. This works a lot like iterating over an Array, with one small exception. Take a look at the code snippet below and see if you can identify the difference between iterating over a Hash vs over an Array:
-
-```ruby
-suitcase = { 
-  "socks" => 4, 
-  "shirts" => 2
-}
-
-#=> {"socks" => 4, "shirts" => 2}
-
-suitcase.each do |clothing_item, quantity|
-	p "I need #{quantity} #{clothing_item}"
-end
-
-#=> "I need 4 socks"
-#=> "I need 2 shirts"
-```
-
-Now, instead of having _one_ block variable to work with, we have two. The first represents the key, and the second represents the value.
-<br>
-<br>
-
-## Check For Understanding
+## Additional Practice
+This practice work is option, though encouraged.
 
 Complete the work <a href="https://github.com/turingschool/hashes_cfu_am0" target="_blank">in the CFU repository</a> and submit your work using the submission form.
 
