@@ -49,7 +49,7 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 
 ### Assignment - Complete by Sunday Evening
 * [Problem Solving]({{ site.url }}/shared/problem-solving-fasttrack)
-* [Beyond Mod 0 Plan]({{ site.url }}/shared/plan)
+* [Beyond Mod 0 Plan]({{ site.url }}/shared/plan-fasttrack)
 * [Final Reflection Video]({{ site.url }}/shared/final-video)
 
 ## Pre-Teach Before Mod 1
