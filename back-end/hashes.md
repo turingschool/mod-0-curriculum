@@ -184,6 +184,7 @@ Note that when we use the `.keys` and `.values` Hash methods, the return value o
 
 
 ## Additional Practice
+This practice work is option, though encouraged.
 
 Complete the work <a href="https://github.com/turingschool/hashes_cfu_am0" target="_blank">in the CFU repository</a> and submit your work using the submission form.
 
