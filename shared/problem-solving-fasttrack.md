@@ -44,10 +44,10 @@ Google is a very helpful tool for software development, but it can take some pra
 If the solution you're looking for isn't in the first two pages of results, it's probably not there. You might try reframing your search terms or use another resource, like your Turing community!
 
 ## Problem Solving Practice
-Open the starter kit for your program (<a href="https://replit.com/@turingschool/problem-solving-starter-kit-1#index.js" target="blank">FE</a> or <a href="https://replit.com/@turingschool/problem-solving-starter-kit#main.rb" target="blank">BE</a>) and make a copy (fork).
+Open the starter kit for your program (<a href="https://replit.com/@turingschool/problem-solving-starter-kit-js#index.js" target="blank">FE</a> or <a href="https://replit.com/@turingschool/problem-solving-starter-kit-rb#main.rb" target="blank">BE</a>) and make a copy (fork).
 
 
-There are 4 challenges available to you on this replit. The expectation is that you are able to successfully complete at least _one_ of these challenges, using the 8 steps of the Problem Solving Process. Remember that you _can_ use the resources and tools available to you: notes, Google, etc. If you are able to get through at least one of these challenges then you are on the right track! 
+There are 5 challenges available to you on this replit. The expectation is that you are able to successfully complete at least _one_ of these challenges, using the 8 steps of the Problem Solving Process. Remember that you _can_ use the resources and tools available to you: notes, Google, etc. If you are able to get through at least one of these challenges then you are on the right track! 
 
 **Note:** You will be asked to include your pseudocode and final solution to one challenge in your Mod 0 Gist. Instructions are in the [CFU Section.](#check-for-understanding)
 
@@ -58,18 +58,23 @@ There are 4 challenges available to you on this replit. The expectation is that 
 
 <div class="s-card">
   <h3>Challenge 2</h3>
-  <p>Write a method or function that takes an array of numbers as an argument.  The method or function should return the average of all the numbers, rounded to two decimal places.</p>
+  <p> Start with an array of strings. Then, print only the words with more than 3 characters.</p>
 </div>
 
 <div class="s-card">
   <h3>Challenge 3</h3>
-  <p>Start with an array of strings. Print all of the words in the array, that include the letter <strong>t</strong> or <strong>T</strong>.</p>
+  <p>Write a method or function that takes an array of numbers as an argument.  The method or function should return the average of all the numbers, rounded to two decimal places.</p>
 </div>
-
-For Challenge 4, notice that we start with an array of integers, but our final output will be a string.
 
 <div class="s-card">
   <h3>Challenge 4</h3>
+  <p>Start with an array of strings. Print all of the words in the array, that include the letter <strong>t</strong> or <strong>T</strong>.</p>
+</div>
+
+For Challenge 5, notice that we start with an array of integers, but our final output will be a string.
+
+<div class="s-card">
+  <h3>Challenge 5</h3>
   <p>Write a method or function that accepts an array of 10 integers (between 0 and 9) and returns a string of those numbers in the form of a phone number. For example, if you were given <code>[5, 5, 5, 1, 2, 3, 4, 5, 6, 7]</code>, the method or function will return <code>555-123-4567</code>.</p>
 </div>
 
