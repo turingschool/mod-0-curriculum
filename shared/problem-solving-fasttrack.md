@@ -13,14 +13,13 @@ title: Problem Solving
 
 <div class="s-card">
   <h3>Warm-Up</h3>
-  <p>You have learned about some of the basic tools available to you in Ruby and JavaScript. The challenge for today's lesson is to know when to use which tool and recall the basic syntax quickly. Take 2 minutes to independently reflect on the following questions. Write down some notes to reference throughout the lesson.</p>
-  <p><strong>For each tool listed below, what is the purpose and what is the basic syntax required?</strong></p>
+  <p>You have learned about some of the basic tools available to you in Ruby and JavaScript. The challenge for this lesson is to know when to use which tool and recalling basic syntax. Take 2 minutes to independently reflect on the following questions. Write down some notes to reference throughout the lesson.</p>
+  <p><strong>For each tool listed below, what is the purpose and what is the basic syntax required?</strong> (If you don't have this memorized yet, that's okay! Using notes and resources is encouraged.)</p>
   <ul>
     <li>Conditionals</li>
-    <li>For Statements or .each Method</li>
+    <li>For Statements (JavaScript) or .each Method (Ruby)</li>
     <li>Functions or Methods</li>
   </ul>
-  <p>Be prepared to discuss your thoughts with the group.</p>
 </div>
 
 ## Problem Solving Process
@@ -36,7 +35,7 @@ With practice, you'll get faster at problem solving, but in the beginning it can
 
 
 ## A Note About Research
-While we've all used Google a time or two, there are ways to make your search more effective. Follow the guidelines below to ensure you get the best possible results.
+Google is a very helpful tool for software development, but it can take some practice to learn how to do effective searches. Follow the guidelines below to ensure you get the best possible search results.
 - Include the programming language
 - Include the data type (if applicable)
 - Use technical terms
@@ -44,72 +43,59 @@ While we've all used Google a time or two, there are ways to make your search mo
 
 If the solution you're looking for isn't in the first two pages of results, it's probably not there. You might try reframing your search terms or use another resource, like your Turing community!
 
-## Problem Solving in Action
-Let's work through those steps together, using Challenge 1. Open the starter kit for your program (<a href="https://replit.com/@turingschool/problem-solving-starter-kit-1#index.js" target="blank">FE</a> or <a href="https://replit.com/@turingschool/problem-solving-starter-kit#main.rb" target="blank">BE</a>) and make a copy (fork) to follow along in replit.
+## Problem Solving Practice
+Open the starter kit for your program (<a href="https://replit.com/@turingschool/problem-solving-starter-kit-js#index.js" target="blank">FE</a> or <a href="https://replit.com/@turingschool/problem-solving-starter-kit-rb#main.rb" target="blank">BE</a>) and make a copy (fork).
+
+
+There are 5 challenges available to you on this replit. The expectation is that you are able to successfully complete at least _one_ of these challenges, using the 8 steps of the Problem Solving Process. Remember that you _can_ use the resources and tools available to you: notes, Google, etc. If you are able to get through at least one of these challenges then you are on the right track! 
+
+**Note:** You will be asked to include your pseudocode and final solution to one challenge in your Mod 0 Gist. Instructions are in the [CFU Section.](#check-for-understanding)
 
 <div class="s-card">
   <h3>Challenge 1</h3>
-  <p>Start with an array of strings. Then, print only the words with more than 3 characters.</p>
-</div>
-
-## Partner Practice
-Work with your partner to complete Challenge 2. 
-
-<div class="s-card">
-  <h3>Challenge 2</h3>
   <p>Write a method or function that accepts a string. The method or function should return a boolean that describes whether or not the string has an even number of characters.</p>
 </div>
 
-### Reflect
-Before continuing, take some time to reflect on the following questions. 
-- What do you like about this process?
-- What might make this process challenging?
-- Are there any steps you would add or modify?
-
-## Solo Practice
-For this next one, start by working through the Problem Solving steps on your own.
+<div class="s-card">
+  <h3>Challenge 2</h3>
+  <p> Start with an array of strings. Then, print only the words with more than 3 characters.</p>
+</div>
 
 <div class="s-card">
   <h3>Challenge 3</h3>
-  <p>Start with an array of strings. Print all of the words in the array, but change every <strong>t</strong> to an uppercase <strong>T</strong>.</p>
+  <p>Write a method or function that takes an array of numbers as an argument.  The method or function should return the average of all the numbers, rounded to two decimal places.</p>
 </div>
-
-After 5 minutes of independent work, share with your partner the steps that you completed and how you went about solving the problem. Take note of anything your partner did that could help improve your process!
-
-## Continue to Strengthen This Skill
-This was only an introduction to Problem Solving and pseudocoding. It’s a skill that you will continue to develop for years, so don’t beat yourself up if it’s still confusing or hard! Below, you'll find a couple more challenges to give you an opportunity to continue developing those problem solving skills.
 
 <div class="s-card">
   <h3>Challenge 4</h3>
-  <p>Start with an array of student names. Print a numbered list of the names in alphabetical order. For example, if you start with <code>["Hector", "Winston", "Finley"]</code>, the final output should be <code>1. Finley 2. Hector 3. Winston</code>.</p>
+  <p>Start with an array of strings. Print all of the words in the array, that include the letter <strong>t</strong> or <strong>T</strong>.</p>
 </div>
 
-Here's another one - notice that we start with an array of integers, but our output will be a string.
+For Challenge 5, notice that we start with an array of integers, but our final output will be a string.
 
 <div class="s-card">
   <h3>Challenge 5</h3>
   <p>Write a method or function that accepts an array of 10 integers (between 0 and 9) and returns a string of those numbers in the form of a phone number. For example, if you were given <code>[5, 5, 5, 1, 2, 3, 4, 5, 6, 7]</code>, the method or function will return <code>555-123-4567</code>.</p>
 </div>
 
-Those two challenges are helpful, but you don't have to stop there! Here are two more resources outside of Turing that also provide opportunities to strengthen this skill: 
+## Continue to Strengthen This Skill
+This was only an introduction to Problem Solving and pseudocoding. It’s a skill that you will continue to develop for years, so don’t beat yourself up if it’s still confusing or hard! 
+
+Here are two more resources outside of Turing that also provide opportunities to strengthen this skill: 
 - [CodeWars](https://www.codewars.com/dashboard) - Create a free account, choose your language, and start solving challenges right away! They get increasingly more challenging, so don't get discouaged if they are difficult.
 - [The Odin Project](https://www.theodinproject.com/lessons/foundations-problem-solving) - A free open source curriculum with a course on problem solving.
 
-## Reflections
-Take a moment to reflect on each of the following questions: 
-- This process is definitely slower than starting by writing code. Why might this be helpful, even though it takes more time? 
-- Some pseudocoding is more helpful when we sit down to start writing the actual code. What are some characteristics of helpful pseudocode?
+## Check For Understanding
+Add a section to your Mod 0 Gist entitled `Problem Solving` and add your responses to these questions: 
 
-## Final Notes About the Eval
-Your challenges for the evaluation are designed to be solved in only 10 minutes, so they won't be very long or complex. To prepare, focus on the simplest practice challenges first and then build up to harder challenges if you have extra time. Some other things to note: 
-- Your partner won't be able to see your challenge. It's a good idea to give them a description of the challenge before starting to navigate them through it. 
-- You are not expected to complete the entire problem solving process during the eval. You'll have about 2 minutes to internalize the prompt and maybe do some preliminary research before you start navigating. With such limited time, you may not have time to pseudocode and that's ok!
-- You are allowed to use resources including notes, google, etc.
-- If your partner is navigating, let them lead, but it's ok to offer suggestions if they are really stuck. Even if they make a small mistake, it's ok to let that go to see if they correct it independently before offering a solution.
+1. Were you able to complete at least one of the challenges? 
+1. Please include your pseudocode and final solution to _one_ challenge.
+1. What resources and tools did you use to research your solution?
+1. This 8-step process is definitely slower than starting by writing code. Why might this be helpful, even though it takes more time? 
+1. What do you like about this process?
+1. What might make this process challenging?
+1. Are there any steps you would add or modify?
 
-<div class="s-card">
-  <h3>Check For Understanding</h3>
-  <p>Complete at <strong>least 3 challenges</strong> in the <a href="https://github.com/turingschool/mod-0-problem-solving" target="blank">Check For Understanding</a> repository. Submit your copy of the repository in the submission form.</p>
-</div>
+
 
 <br><br><br><br><br>
