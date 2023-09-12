@@ -3,7 +3,8 @@ layout: lesson
 title: Introduction Video
 ---
 
-After following the steps in the Computer Setup, use your Loom account to record a short video introducing yourself to your Turing instructors and fellow cohort-mates. You'll share this video in your Mod 0 small-group channel leading up to the first day of Mod 0!
+Use your Loom account to record a short video introducing yourself to your Turing instructors and fellow cohort-mates. (You set up Loom in the Computer Setup step.)
+After creating your video, please find the slack post for Intro Videos and include your video link in that thread.
 
 **Here are some things to include in your video:**
 - Name
