@@ -9,16 +9,17 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 * [Complete all Computer Setup]({{ site.url }}/computer-setup) 
 * [Read the Syllabus]({{ site.url }}/syllabus-fasttrack) 
 * [Review the Mod 0 Calendar]({{ site.url }}/calendar)
-<!-- * [Slack 101]({{ site.url }}/prework/slack101) -->
-* [Markdown]({{ site.url }}/shared/markdown)
-* [Terminal]({{ site.url }}/shared/terminal)
-* [VS Code]({{ site.url }}/shared/vs-code)
-* [Prep Your "Why"]({{ site.url }}/shared/why)
-* [Introduction Video]({{ site.url }}/shared/intro-video)
+* [Slack 101]({{ site.url }}/prework/slack101)
+* [Markdown]({{ site.url }}/prework/markdown)
+* [Terminal]({{ site.url }}/prework/terminal)
+* [VS Code]({{ site.url }}/prework/vs-code)
+* [Prep Your "Why"]({{ site.url }}/prework/why)
+* [Introduction Video]({{ site.url }}/prework/intro-video)
+* [Calendaring & Time Management]({{ site.url }}/prework/calendaring)
+* [Mod 0 Gist]({{ site.url }}/prework/mod-0-gist)
 
 ## Session 1
 ### Live Sessions
-* [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
 * [Data Types]({{ site.url }}/front-end/data_types)
 * [Arrays]({{ site.url }}/front-end/arrays)
 
@@ -50,7 +51,7 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 ### Assignment - Complete by Sunday Evening
 * [Problem Solving]({{ site.url }}/shared/problem-solving-fasttrack)
 * [Beyond Mod 0 Plan]({{ site.url }}/shared/plan-fasttrack)
-* [Final Reflection Video]({{ site.url }}/shared/final-video)
+* [Final Reflections]({{ site.url }}/shared/final-reflections)
 
 ## Pre-Teach Before Mod 1
 Note: You are not expected to be experts on these topics, but you should come to Mod 1 ready to ask questions about the topics covered in these lessons.

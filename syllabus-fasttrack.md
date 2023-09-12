@@ -25,19 +25,18 @@ While computer literacy skills have never been an entry requirement for students
 - **Navigating the Mac Environment:** There are many things that are different about using the Mac environment if you're more familiar with PC. For example, did you know that using two fingers on the trackpad allows you to scroll up and down efficiently? Did you also know that swiping up on your trackpad with three fingers allows you to see all open windows? If this is your first time using a Mac, it is highly recommended that you watch this [Mac Tutorial for Beginners](https://www.youtube.com/watch?v=67keaaWOKzE&t=0s) and spend some time getting comfortable with your new machine.
 
 ## Before Your First Mod 0 Session
-There are a number of steps you must complete before attending your first session of Mod 0. First and foremost, it is **essential** that all students complete the [Computer Setup]({{ site.baseurl }}/computer-setup) (1-2 hours) prior to attending the first session. It is recommended that you start this computer setup at least _one week_ before attending the first session to give yourself enough time to work through any issues that arise. In addition to completing the Computer Setup, student must also complete the following steps:
-1. Thoroughly and carefully read through this Syllabus.
-1. Identify the specific times for your live sessions based on your selected Mod 0 Format. All times and dates for upcoming sessions can be found on the [Calendar]({{ site.baseurl }}/calendar) page.
-1. Prep Your "Why" - During the first session of Mod 0, you will break out into small groups and share your "why" for taking this step to change careers, and your life. Spend some time reflecting on your motivations for being here, and how to communicate that best to your peers so they start to understand you and what drives you. Be prepared to share that with the group in 1-2 minutes.
-1. Read and bring questions about the [Asking Technical Questions]({{ site.baseurl }}/shared/asking_qs) assignment.
-1. Complete the [Markdown]({{ site.baseurl }}/shared/markdown) assignment.
-1. After following the steps in the Computer Setup, use your Loom account to record a short video introducing yourself. You'll share this video in your Mod 0 small-group channel leading up to the first day of Mod 0! Here are some things to include in your video:
-- Name
-- Pronouns
-- Location
-- Your most important people/pets
-- 2-3 things that bring you joy
-- A message for your future cohort-mates and instructors
+There are a number of steps you must complete before attending your first session of Mod 0. 
+- [Front End Prework]( {{ site.baseurl }}/fasttrack-fe)
+- [Back End Prework]( {{ site.baseurl }}/fasttrack-be)
+
+## Prework Submission
+Once you have completed all your prework items, please create a Github gist that includes the following:
+1. A header with your name, pronouns, and program (BE or FE).
+1. An "About Me" section with an introduction about who you are!
+1. A section containing your "Why".
+1. A link to your slack thread post of your loom Intro Video. (You can find this link by hovering over your slack thread post, clicking the three dots, then selecting _Copy Link_)
+1. Submit this gist [via this submission link](https://airtable.com/appx3ECzr5kwT3hpi/shrNo9qzMPYCVbp1h) by the deadline listed on the Mod 0 Calendar. (You will also submit your Mod 0 Gist via this link.)
+
 
 ## Expectations
 
@@ -47,30 +46,22 @@ Students are expected to attend all scheduled live sessions, on time. Staff will
 ### Schedule
 The specific schedule for your course and Mod 0 format can be found on the [Calendar]({{ site.baseurl }}/calendar) page. A general overview of each format is listed below.
 
-There are two separate offerings of Mod 0 per Cohort: one starting 6 weeks before, and another starting 3 weeks before your first Mod 1 course. You can choose whichever Mod 0 course works best for your schedule. You can expect to work 18-20 hours/week during the three-week period. Each Mod 0 course includes 5 total live sessions, held remotely over Zoom.
+You can expect to work 18-20 hours throughout Mod 0, including the prework. Each Mod 0 course includes 3 total live sessions, held remotely over Zoom.
 
 ### Communication
 All Turing staff members will use Slack as the primary means of communication with students. As an incoming student, any information you need can usually be found in our Turing Slack workspace. As a norm, we expect members of our community to respond to Slack messages within 24 hours.
 
 ## Grading
-While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time, implement feedback on those assignments, and demonstrate your learning in a live evaluation. Follow the links below to find all required assignments for your specific program:
+While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time and implement feedback on those assignments (when applicable). Follow the links below to find all required assignments for your specific program:
 
-- [Back End Mod 0 Assignments]({{ site.baseurl }}/back-end)
-- [Front End Mod 0 Assignments]({{ site.baseurl }}/front-end)
+- [Back End Mod 0 Assignments]({{ site.baseurl }}/fasttrack-be)
+- [Front End Mod 0 Assignments]({{ site.baseurl }}/fasttrack-fe)
 
-On each program page, you will see all assignments organized into 5 segments of work. Each segment is expected to be completed after a corresponding live session.
+On each program page, you will see all assignments organized into segments of work. Each segment is expected to be completed after a corresponding live session.
 
-### Implementing Feedback
-Throughout the course, students will complete many assignments to demonstrate their understanding of the topics. These assignments are organized into segments of work, with each segment due by the next live session. It is expected that students implement feedback provided by staff. Sometimes this will mean revising submissions and other times this will mean implementing that feedback in future assignments. In the event a student gets behind and needs an extension and/or support to adjust their schedule to get back on track, it is the student's responsibility to proactively reach out and discuss what that could look like.
+## Final Deliverables
+All of your deliverables throughout the course of Mod 0 will go into your Mod 0 Gist that you create in your prework. Final deliverables include your Beyond Mod 0 Plan and your Final Reflection Video. Mod 0 instructors will review all your deliverables and evaluate your successful completion of Mod 0 based on your work submitted in your Mod 0 Gist.
 
-### Evaluations
-At Turing, you’ll have a number of Assessments and Evaluations. These not only help Turing staff determine if you are ready for the next step; they are great learning experiences for students to help them prepare for tech interviews while job hunting.
-
-> The Mod 0 Live Paired Eval gives students the opportunity to demonstrate their Communication, Collaboration, and Technical skills - to show they are ready to start full-time in Mod 1.
-
-Your Mod 0 Instructor will pair you with another student and inform you both of the 30-minute time slot that you will meet for the Evaluation. You and your partner can both expect to Drive and Navigate at some point during the Evaluation. If you are stuck at any point, you are allowed to reference your notes or use a Google search, or even ask for feedback from the staff member!
-
-There will be no “gotchas”. The rubric that follows communicates what we care most about and how you will be evaluated. We are **not** looking for “coding perfection” or any sort of perfection; we are looking to see that you are ready to be an effective learner and collaborator as a full-time Turing student. You will receive scores for each of the three categories in the rubric. [The Mod 0 Live Paired Eval Rubric is available here.](https://turingschool.notion.site/9d22c7265b4e4d75a994496605ec8e94?v=3232bf7092914bb998b63b3f12c9be62) Feedback after the evaluation will be provided via DM in Slack.
 
 ## Required Supplies
 This may be your first time learning and/or working in a remote setting. There are a few key tools we recommend to set yourself up for success as a remote student.

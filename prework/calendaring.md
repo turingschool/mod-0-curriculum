@@ -95,7 +95,7 @@ The <a href="https://frontend.turing.edu/today/" target="_blank">Front End</a> a
 
 ## Check For Understanding
 
-Please create a section in your Mod 0 Gist for **Calendaring** and record your answers to these questions. (Including the question is very helpful!)
+Please create a section in your notes for **Calendaring** and record your answers to these questions. 
 
 The following questions apply to your time as a Turing student once you start Mod 1.
 
@@ -104,6 +104,5 @@ The following questions apply to your time as a Turing student once you start Mo
 1. What time will you dedicate to project work time? (Sometimes you will have time during class hours to work on projects.)
 1. What time are you carving out for your own mental and emotional health needs? 
 1. How will you spend your weekends?
-1. Bonus - include a screenshot of your Mod 0 and/or Mod 1 calendar!
 
 <br><br><br><br><br>
