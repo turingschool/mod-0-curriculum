@@ -30,6 +30,7 @@ title: Home
   <a class="s-button" href="/calendar">Calendar</a>
   <a class="s-button" href="/computer-setup">Computer Setup</a>
   <a class="s-button" href="/syllabus">Syllabus</a>
+  <a class="s-button" href="/syllabus-fasttrack">Fast Track Syllabus</a>
 </section>
 
 <footer class="s-footer">

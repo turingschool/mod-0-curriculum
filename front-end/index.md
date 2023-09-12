@@ -9,15 +9,15 @@ All assignments for Mod 0 are listed below and organized into segments based on 
 * [Complete all Computer Setup]({{ site.url }}/computer-setup) 
 * [Read the Syllabus]({{ site.url }}/syllabus) 
 * [Review the Mod 0 Calendar]({{ site.url }}/calendar)
-* [Prep Your "Why"]({{ site.url }}/shared/why)
+* [Prep Your "Why"]({{ site.url }}/prework/why)
 * [Asking Technical Questions]({{ site.url }}/shared/asking_qs) 
-* [Markdown]({{ site.url }}/shared/markdown)
-* [Introduction Video]({{ site.url }}/shared/intro-video)
+* [Markdown]({{ site.url }}/prework/markdown)
+* [Introduction Video]({{ site.url }}/prework/intro-video)
 
 ## Segment 1 - Completed Before Session 2
 * [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
-* [Terminal]({{ site.url }}/shared/terminal)
-* [VS Code]({{ site.url }}/shared/vs-code)
+* [Terminal]({{ site.url }}/prework/terminal)
+* [VS Code]({{ site.url }}/prework/vs-code)
 * [Git Workflow]({{ site.url }}/shared/git)
 
 ## Segment 2 - Completed Before Session 3
