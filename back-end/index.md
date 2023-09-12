@@ -17,7 +17,7 @@ All assignments for Mod 0 are listed below and organized into segments based on 
 * [Introduction Video]({{ site.url }}/prework/intro-video)
 
 ## Segment 1 - Completed Before Session 2
-* [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
+* [Calendaring & Time Management]({{ site.url }}/prework/calendaring)
 * [Terminal]({{ site.url }}/prework/terminal)
 * [VS Code]({{ site.url }}/prework/vs-code)
 * [Git Workflow]({{ site.url }}/shared/git)
