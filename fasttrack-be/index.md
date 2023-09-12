@@ -9,26 +9,27 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 * [Complete all Computer Setup]({{ site.url }}/computer-setup) 
 * [Read the Syllabus]({{ site.url }}/syllabus-fasttrack) 
 * [Review the Mod 0 Calendar]({{ site.url }}/calendar)
-<!-- * [Slack 101]({{ site.url }}/prework/slack101) -->
-* [Markdown]({{ site.url }}/shared/markdown)
-* [Terminal]({{ site.url }}/shared/terminal)
-* [VS Code]({{ site.url }}/shared/vs-code)
-* [Prep Your "Why"]({{ site.url }}/shared/why)
-* [Introduction Video]({{ site.url }}/shared/intro-video)
+* [Slack 101]({{ site.url }}/prework/slack101)
+* [Markdown]({{ site.url }}/prework/markdown)
+* [Terminal]({{ site.url }}/prework/terminal)
+* [VS Code]({{ site.url }}/prework/vs-code)
+* [Prep Your "Why"]({{ site.url }}/prework/why)
+* [Introduction Video]({{ site.url }}/prework/intro-video)
+* [Calendaring & Time Management]({{ site.url }}/prework/calendaring)
+* [Mod 0 Gist]({{ site.url }}/prework/mod-0-gist)
 
 ## Session 1
 ### Live Sessions
-* [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
 * [Data Types]({{ site.url }}/back-end/data_types)
 * [Arrays]({{ site.url }}/back-end/arrays)
 
 ### Assignment - Complete Before Session 2
 * [Asking Technical Questions]({{ site.url }}/shared/asking_qs) 
+* [Git Workflow]({{ site.url }}/shared/git)
 
 ## Session 2
 ### Live Sessions
 * [GitHub]({{ site.url }}/shared/github)
-* [Git Workflow]({{ site.url }}/shared/git)
 
 ### Assignment - Complete Before Session 3
 * [DTR Prep]({{ site.url}}/shared/dtr)

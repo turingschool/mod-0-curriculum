@@ -58,9 +58,7 @@ Mod 0 is short and fast! That may lead us to believe we don't have much time to 
   <h3>Mod 0 Calendar</h3>
   <ul>
     <li>Consider what you are currently using for a calendaring tool. If you don't have anything, Google Calendar is a great place to start.</li>
-    <li>There are two separate offerings of Mod 0 per Cohort: one starting 6 weeks before, and another starting 3 weeks before your first Mod 1 course.</li>
-    <li>Using the Mod 0 Site as a guide, create calendar events for the rest of the work left in Mod 0 to map out how your time might be used the rest of this week. We know you don't know how long something will take. Start with 1-2 hours for each assignment and you can always adjust. Remember, your calendar is a living document.</li>
-    <li>Create reminders for yourself to complete your midpoint and End-Of-Segment reflections in Slack.</li>
+    <li>Using the Mod 0 Site as a guide, create calendar events for the rest of the work left in Mod 0 to map out how your time might be used the rest of this week. We know you don't know how long something will take so just start with 1-2 hours for each assignment and you can always adjust. Remember, your calendar is a living document.</li>
     <li>Add in any personal responsibilities you need to fulfill.</li>
     <li>Add in a reminder to reflect and adjust your calendar (to document what happened in the <em>past</em>) - probably at the end of each day. This will help you increase your awareness of where you spend your time. You may also use this time to look ahead to the upcoming day and make any adjustments.</li>
   </ul>
@@ -78,7 +76,7 @@ In addition to those specific hours, most students spend 35-40 hours outside of 
 
 When it comes to the way they spend their time, there are two major pitfalls we see students fall into, that result in them burning out and usually repeating Mod 1:
 1. Not dedicating any time to their personal needs: scheduling seven 14-hour days of coding a week.
-1. Underestimating the commitment and then being very disappointed when they don't have time to do things they enjoy (play guitar for 3 hours a day, work a part-time job, go to Happy Hour several evenings a week, or go skiing every weekend).
+1. Underestimating the Turing commitment and then being disappointed when they don't have time to do things they enjoy (play guitar for 3 hours a day, work a part-time job, go to Happy Hour several evenings a week, or go skiing every weekend).
 
 Since each Mod is only 6 weeks long, if you fall behind by one week, it can be really hard to catch up. Having a proactive and realistic plan is the best way to set yourself up for success.
 
@@ -97,6 +95,15 @@ The <a href="https://frontend.turing.edu/today/" target="_blank">Front End</a> a
 
 ## Check For Understanding
 
-<a href="https://gist.github.com/kaitvan/cf3a388b71a05300db9029678a0d6335" target="blank">Follow the directions in this Gist</a> and submit your copy of it in the submission form.
+Please create a section in your Mod 0 Gist for **Calendaring** and record your answers to these questions. (Including the question is very helpful!)
+
+The following questions apply to your time as a Turing student once you start Mod 1.
+
+1. What times will you dedicate to pre-teaching the upcoming lesson?
+1. What times will you dedicate to reviewing lessons?
+1. What time will you dedicate to project work time? (Sometimes you will have time during class hours to work on projects.)
+1. What time are you carving out for your own mental and emotional health needs? 
+1. How will you spend your weekends?
+1. Bonus - include a screenshot of your Mod 0 and/or Mod 1 calendar!
 
 <br><br><br><br><br>

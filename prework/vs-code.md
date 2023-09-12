@@ -5,9 +5,12 @@ title: Visual Studio Code
 
 ## Learning Goals
 
-- Open a specific project in VS Code from the Terminal
-- Navigate the VS Code interface, using _some_ keyboard shortcuts
-- Write valid Markdown files in VS Code
+- Open a specific project in VS Code from the Terminal.
+- Navigate the VS Code interface, using _some_ keyboard shortcuts.
+- Write valid Markdown files in VS Code.
+
+## Reminder
+If at anytime throughout this lesson you get stuck or have questions, please head on over to your Mod 0 slack channel and ask your questions there.
 
 ## Vocabulary
 
@@ -17,7 +20,7 @@ title: Visual Studio Code
 
 ## VS Code
 
-<span class="vocab">Visual Studio Code</span> or VS Code is a <span class="vocab">code editor</span>. It is a desktop application where we write the code that powers our applications. It offers features like syntax highlighting and line numbers (and many more!) that make it easier for developers to write code efficiently. There are many other code editors - some similar to VS Code and some with even more built-in tools. We ask all incoming students to start with VS Code, so the whole class is using the same set of tools while we focus on learning foundational coding tools and concepts. After Mod 1, students can choose to learn and use other editors.
+<span class="vocab">Visual Studio Code</span> or VS Code is a <span class="vocab">code editor</span>. It is a desktop application where we write the code that powers our applications. It offers features like syntax highlighting and line numbers (and many more!) that make it easier for developers to write code efficiently. There are many other code editors - some similar to VS Code and some with even more built-in tools. We ask all incoming students to start with VS Code, so the whole class is using the same set of tools while we focus on learning foundational coding tools and concepts. After Mod 1, students can choose to use other editors.
 
 >VS Code is the application we will use to write code in programming languages, such as Ruby and JavaScript. In the Terminal, we run commands to communicate with various programs on the computer.
 
@@ -38,13 +41,16 @@ touch index.md
 code .
 ```
 
+***Note:*** If you receive an error in your terminal saying the `code` command isn't found or is invalid, please return to the [Computer Setup]({{ site.baseurl }}/computer-setup) lesson and follow the instructions under the **VS Code** section to `Install ‘code’ command in PATH command.`
+
+
 From now on, any code you write in a file will almost always be written in VS Code. So when you get to a challenge and it says something like, "Add a few lines of markdown to that file" - (you guessed it!) - that means open that project in VS Code and write your code there.
 
-Inside the `index.md` file you just made, type some text using markdown into VS Code using what you learned in the Markdown lesson. Include at least 3 headings (all the same size), with text after each heading. Include at least one set of bullet points. This markdown file can be about any topic you like - choose something that makes you smile!
+Inside the `index.md` file you just made, type some text using markdown into VS Code using what you learned in the Markdown lesson. Include at least 3 headings (all the same size), with text after each heading. Include at least one set of bullet points. This markdown file can be about any topic you like - choose something that makes you smile! You've now written markdown in your VS Code text editor!
 
 ## VS Code Keyboard Shortcuts
 
-To maximize your time as a developer, the use of <span class="vocab">keyboard shortcuts</span> will be essential. If you are new to a Mac and/or a development environment, it can feel overwhelming at first. 
+To maximize your time as a developer, the use of <span class="vocab">keyboard shortcuts</span> will be essential. If you are new to a Mac and/or a development environment, it can feel overwhelming at first. Below is a list of common shortcuts. You are not expected to memorize these all right away, it will come over time.
 
 <div class="s-card">
   <h3>VS Code Keyboard Shortcuts</h3>
@@ -73,9 +79,14 @@ You may need to practice these shortcuts quite a few times before you start to b
 - `cmd + s` - save a file
 - `cmd + q` - quits the application
 
+## Tips
+
+- Learning keyboard shortcuts is a process of consistency and time. The best way to learn these is to pick *one* shortcut to implement into your routine each day. Just one. Write it down in a notebook and make sure you intentionally and consciously use that new keyboard shortcut the entire day. Over time, you will build up muscle memory for utilizing these shortcuts.
+- You can find more commands, cheatsheets, and resources by googling `VS Code keyboard shortcuts`!
+
 <div class="s-card">
   <h3>Turn on Auto Save</h3>
-  <p>To quickly save any file, you can use <code>cmd + s</code>. However, if you prefer to have your files auto-save when you switch to another application, go to `File` at the top of your VS Code window and select <code>Auto Save</code>.</p>
+  <p>To quickly save any file, you can use <code>cmd + s</code>. However, if you prefer to have your files auto-save when you switch to another application, go to `File` at the top of your VS Code window and select <code>Auto Save</code>. We highly recommend turning on auto-save to start with.</p>
 </div>
 
 ## Terminal & VS Code Practice
@@ -85,6 +96,7 @@ Complete the challenges below to continue building fluency with using your Termi
 ### Challenge #1
 
 1. Run `cd` to get to your root directory (you’ll probably already be here, but do it just to be sure).
+1. `cd` into your Mod 0 directory.
 1. Make a new directory in your Mod 0 directory called `my_first_projects`.
 1. Make another new directory called `my_other_projects`.
 1. List the contents of your directory (you should see these two directories you just made in the list).
@@ -93,15 +105,15 @@ Complete the challenges below to continue building fluency with using your Termi
 1. Make a file called `ruby.md`.
 1. Make a file called `javascript.md`.
 1. Open the project in VS Code.
-1. Show how to organize your screen using Rectangle shortcuts. Both the Terminal and VS Code windows should be visible at the same time.
-1. Add a list of things you already know about the language that is taught in your program (in the appropriate file). You can use Google here - we know you don't know much yet!
+1. Organize your screen using Rectangle shortcuts. Both the Terminal and VS Code windows should be visible at the same time.
+1. Add a list of things you already know about the language that is taught in your program in the appropriate file. You can use Google here - we know you don't know much yet!
 1. Print the path to your current directory.
 1. List the contents of your directory (you should see the files you created).
-1. Demonstrate how to expand and collapse the sidebar with a keyboard shortcut.
-1. Save the file with a keyboard shortcut.
+1. Expand and collapse the sidebar with a keyboard shortcut.
+1. Save the file with a keyboard shortcut (if you don't have auto-save on).
 1. Quit VS Code with a keyboard shortcut.
 1. Delete the file for the opposite program (the one you didn't write code in).
-1. Get back out of the `my_first_projects` directory.
+1. Back out of the `my_first_projects` directory.
 1. List the contents of your current directory (you should see `my_first_projects`).
 1. Remove the `my_first_projects` directory.
 
@@ -113,27 +125,30 @@ Complete the challenges below to continue building fluency with using your Termi
 1. Print the path to your current directory.
 1. Make a file called `terminal.md`.
 1. Open the project in VS Code.
-1. Show how to organize your screen using Rectangle shortcuts. Both the Terminal and VS Code windows should be visible at the same time.
+1. Organize your screen using Rectangle shortcuts. Both the Terminal and VS Code windows should be visible at the same time.
 1. List the contents of your directory (you should see the `terminal.md` file you just created).
-1. In the `terminal.md` file, write 1-3 sentences explaining what the Terminal is and does, in your own words. Again, it's ok to use Google for this!
-1. Show how to copy a line using a keyboard shortcut.
-1. Demonstrate how to comment out that extra line of code using a keyboard shortcut.
+1. In the `terminal.md` file, write 1-3 sentences explaining what the Terminal is and does, in your own words, in markdown. Again, it's ok to use Google for this!
+1. Copy a line using a keyboard shortcut in VS Code.
+1. Comment out that extra line of code using a keyboard shortcut.
 1. Add an appropriate heading.
 1. Demonstrate how to select every instance of the word `Terminal` in your file using a keyboard shortcut.
-1. Show how to move your cursor to the end or beginning of a line of code using keyboard shortcuts. 
-1. Demonstrate how to highlight the entire file with a keyboard shortcut.
-1. Show how to open the markdown preview with a keyboard shortcut.
-1. Close VS Code with a keyboard shortcut. (Don't forget to save your file first if you're not using Auto Save!)
+1. Move your cursor to the end or beginning of a line of code using keyboard shortcuts. 
+1. Open the markdown preview with a keyboard shortcut.
+1. Close VS Code with a keyboard shortcut. (Don't forget to save your file first if you're not using auto-save!)
 1. List the contents of your directory (you should see the `terminal.md` file you created).
-1. Get back out of the `practice` directory.
+1. Back out of the `practice` directory.
 1. Remove the `practice` directory.
 <br>
 <br>
 
 ## Check For Understanding
+If you haven't already, create a `vscode_lesson.md` file in your Mod 0 directory. Answer these questions in that file.
 
-To complete this assignment, record your screen using Loom while you complete Challenge #1 _or_ Challenge #2, but not both. Remember to talk through every step using technical vocabulary as you record. Aim for your video to be under 5 minutes in length. When you are finished: 
-1. Share your video with your small group Slack channel. 
-1. Submit the Loom URL using your submission link.
+1. How do you open your current directory in VS Code from the Terminal?
+1. What is your favorite keyboard shortcut for VS Code? What does it do? 
+1. What resource will you use to continue learning VS Code shortcuts? 
+1. Which keyboard shortcut will you practice tomorrow? 
+1. Do you have auto-save turned on in VS Code? If no, why not?
+
 
 <br><br>
