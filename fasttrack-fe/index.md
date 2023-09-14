@@ -41,8 +41,7 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 * [Functions]({{ site.url }}/front-end/functions)
 
 ### Assignment - Complete before Session 4
-* Review all notes and past lessons
-* Preview next session's lesson
+* Complete the Self-Teach sections from the Conditionals and Functions lessons.
 
 ## Session 4
 ### Live Sessions

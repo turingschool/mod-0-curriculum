@@ -41,8 +41,7 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 * [Methods]({{ site.url }}/back-end/methods)
 
 ### Assignment - Complete before Session 4
-* Review all notes and past lessons
-* Preview next session's lesson
+* Complete the Self-Teach sections from the Conditionals and Methods lessons.
 
 ## Session 4
 ### Live Sessions
