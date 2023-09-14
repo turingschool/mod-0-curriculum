@@ -166,6 +166,11 @@ Notice that each of the previous examples have **one** `end` keyword. That is pa
   </ul>
 </div>
 
+## Self-Teach
+Part of what you'll experience at Turing is learning a technical topic on your own. Practicing this skill at Turing will get you prepared for the job where you will do this often.
+
+Take time between now and your next session to self-teach the following section.
+
 ## Logical Operators
 
 There are three <span class="vocab">logical operators</span> in Ruby; we will learn two today:
