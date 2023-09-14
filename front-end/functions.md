@@ -240,6 +240,10 @@ console.log(subtract(10, 3));
 </div>
 <br>
 
+## Self-Teach
+Part of what you'll experience at Turing is learning a technical topic on your own. Practicing this skill at Turing will get you prepared for the job where you will do this often.
+
+Take time between now and your next session to self-teach the following section.
 
 ### Return Values
 
