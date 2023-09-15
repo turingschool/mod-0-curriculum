@@ -8,7 +8,9 @@ title:      Syllabus - Fast Track Mod 0
 The current Mod 0 Lead is Eric Weissman, our Pre-Program Instructor at Turing. If you have any questions about the course or computer setup, Eric is the person to contact! You can find him on Slack. Eric and a team of Pre-Program Teaching Assistants run sessions and provide students feedback throughout Mod 0. They're an all-star team of Turing alumni and current software developers who have a passion for supporting students as they begin their journey at Turing.
 
 ## Description
-Mod 0 is a prerequisite course for attending Turing. The primary focus of the course is setting students up with the necessary tools and programming foundations to be successful in the full-time course. Students will be evaluated throughout the course on their communication, collaboration, and technical skills.
+Mod 0 is a prerequisite course for attending Turing. The primary focus of the course is setting students up with the necessary tools and programming foundations to be successful in the full-time course. Students will be evaluated throughout the course on their communication, collaboration, and technical skills.  
+
+During the one week of Mod 0, we will cover **a lot*** of content - but don't worry! We don't expect mastery over the technical content in Mod 0. We want to expose you to technical concepts so that when you **revisit** those concepts in Mod 1, you're ready to dig in and ask great questions. Give yourself lots of kindness and patience - you belong here!  
 
 ## Computer Literacy Skill Requirements
 While computer literacy skills have never been an entry requirement for students at Turing, we recognize that some students may need to spend more time developing these skills to feel comfortable in this remote learning environment. Read through the following skills to identify where you might need to spend more time practicing before starting your Turing journey.
