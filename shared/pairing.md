@@ -60,12 +60,7 @@ While there is no "right" or "perfect" way to pair, there are some best practice
 
 Optional: [Read the "Remote Pairing" section of this blog post from Martin Fowler](https://martinfowler.com/articles/on-pair-programming.html#RemotePairing) for more learning!
 
-## Check For Understanding
 
-In your Mod 0 Gist, create a section called `Pairing` and answer the following questions.
-
-1. In a Driver-Navigator pairing, what are the roles of the Driver and the Navigator? 
-1. How are you feeling about pairing with a cohortmate? 
 
 
 <br>
