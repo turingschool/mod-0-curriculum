@@ -3,20 +3,12 @@ layout: lesson
 title: Intro to Testing
 ---
 
-<div class="s-card s-border-yellow-500">
-  <h3>Learning Collaboratively</h3> 
-  <p>This lesson is intended for 2-3 students to work through together. Learning collaboratively likely means moving through content slower, but also should result in learning more thoroughly. In addition to working together, this learning environment is new for all students - take time to learn about strategies your partner uses, tips they have, etc. as well as share your best practices!</p>
-  <p>To make sure you are set up for success, get yourself prepared for a pairing-like environment. Fill your water bottle, put your phone aside, and be ready to fully engage.</p>
-  <p>As you work through this lesson with your partner(s), focus in on your communication, exercising patience, and making sure all students complete the lesson with a similar level of understanding.</p>
-</div>
-<br>
-
 ## Learning Goals
 
 - Explain what a test is (in software development)
 - Read an `rspec` test and explain what it is asking for
 - Write simple Ruby classes that meet requirements of pre-written tests
-- Develop new learning strategies and practice communication by learning collaboratively
+
 
 ## Vocabulary
 
@@ -26,15 +18,10 @@ title: Intro to Testing
 - <span class="vocab">test</span>
 - <span class="vocab">testing framework</span>
 
-<div class="s-card s-border-yellow-500">
-  <h3>Share with Partner</h3> 
-  <p>What do you do with the Vocabulary sections? How do you ensure you can fluently define and use all terms listed, by the end of the lesson?</p>
-</div>
-<br>
 
 ## Tests
 
-In software, it is common to write automated <span class="vocab">tests</span> to verify that our code behaves the way we want it to and doesn't have any negative or unexpected side affects on any other part of a project. These tests are usually written in the same language the code itself is, with the help of a tool that is usually categorized as a <span class="vocab">testing framework</span>.
+In software, it is common to write automated <span class="vocab">tests</span> to verify that our code behaves the way we want it to and doesn't have any negative or unexpected side affects (bugs) on any other part of a project. These tests are usually written in the same language the code itself is in, with the help of a tool that is usually categorized as a <span class="vocab">testing framework</span>.
 
 ### File Structure
 
@@ -182,8 +169,7 @@ end
 
 <div class="s-card">
   <h3>Explore <code>rspec</code></h3>
-  <p>With your partner, decide on the best way to complete this activity: Driver-Navigator, both complete independently then discuss, etc. It may be helpful to skim the activity before making that decision.</p>
-  <p>Follow the directions to set up a small project that uses <code>rspec</code>:</p>
+    <p>Follow the directions to set up a small project that uses <code>rspec</code>:</p>
   <ul>
     <li>Create a directory called <code>intro_testing</code></li>
     <li>Install the <code>rspec</code> gem using the command noted earlier in the lesson</li>
@@ -248,16 +234,13 @@ end
 ```
 <div class="s-card">
   <h3>Practice Reading Tests</h3> 
-  <p>Read the test in <a href="https://gist.github.com/ameseee/037a9d2f9bfcd7beee85b528785c0c1c" target="blank">this file</a> and write out a list of human-readable, clear directions you could read aloud to someone you are pairing with in order to pass the tests. One of the tests does push you to apply some learning that was not explicitly covered in this less - that was intentional! The goal is not to be perfect or perfectly correct; it's to push you to apply some other knowledge and have a technical discussion with your partner.</p>
+  <p>Read the test in <a href="https://gist.github.com/ameseee/037a9d2f9bfcd7beee85b528785c0c1c" target="blank">this file</a> and write out a list of human-readable, clear directions you could read aloud to someone you are pairing with in order to pass the tests. One of the tests does push you to apply some learning that was not explicitly covered in this less - that was intentional! The goal is not to be perfect or perfectly correct; it's to push you to apply some other knowledge and start getting comfortable with unknown code.</p>
 </div>
 
 ## Check For Understanding
 
-Each partner should complete this independently. It is ok to consult one another if needed!
-
 Create a new directory with `lib` and `test` directories inside. Use the test file that was provided in the previous activity, and write a class that satisfies those tests. Use your Git Workflow, make a GitHub repository and push your completed work up.
 
-Each student should submit their own repository to the submission form.
 
 ## Mod 0 Extensions
 
