@@ -54,7 +54,7 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 
 ## Pre-Teach Before Mod 1
 Note: You are not expected to be experts on these topics, but you should come to Mod 1 ready to ask questions about the topics covered in these lessons.
-* [Object Literals]({{ site.url }}/front-end/objects)
+* [Object Literals]({{ site.url }}/front-end/objects-fasttrack)
 
 <br>
 <br>
