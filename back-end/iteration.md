@@ -127,7 +127,7 @@ Use the `each` method to solve each problem. You can do this work in the place t
 ## Addtional Practice
 This practice work is encouraged, but not required.
 
-[Follow the directions in the README of this GitHub repository](https://github.com/turingschool/m0_be_iteration/), and submit your fork in the submission form.
+[Follow the directions in the README of this GitHub repository](https://github.com/turingschool/m0_be_iteration/).
 
 <br>
 <br>
