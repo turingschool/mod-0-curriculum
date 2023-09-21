@@ -20,76 +20,13 @@ title: Methods
 - <span class="vocab">parameter</span>
 - <span class="vocab">argument</span>
 
-## Warm-Up
-
-<div class="s-card">
-  <h3>Exploration: PART 1</h3> 
-  <p>Fork, then run the code <a href="https://replit.com/@turingschool/m0builtinmethods#main.rb" target="blank">in this replit</a> and observe the output.</p>
-  <p><strong>Think:</strong> How did each line of code, produce each respective line of output? Which parts make sense, and which are confusing?</p>
-</div>
-<br>
-
 ## Methods
 
-A <span class="vocab">Method</span> is a package of instructions. Once a method is defined, it can be used as many times as needed. Ruby provides many methods that developers can use. 
-
-The code snippet that follows was part of the previous Exploration activity:
-
-```ruby
-p 14.odd? 
-```
-
->To describe the code snippet in English, one could say, "the `odd question mark` method is being called on the Integer 14." Since 14 is not odd, `false` will be the return value. The `p` command prints that return value of `false` to the console.
-
-In this particular example, the utility of the `odd?` method is to determine if an Integer is odd, or not. It answers the question with a Boolean (`true` or `false`). The benefit of having this method built into Ruby is if a developer needs to check if a number is odd or not, they only have to type `.odd?` anywhere they need to check. If they didn't have a pre-packaged method, they'd have to write several lines of code involving logic, every time they want to check if an integer is odd. **Reusability is what makes methods so powerful.**
-
-<br>
-<div class="s-card">
-  <h3>Exploration: PART 2</h3> 
-  <p>In <a href="https://replit.com/@turingschool/m0builtinmethods#main.rb" target="blank">the same replit</a> from the first exploration, comment <em>out</em> the code from Part 1, and <em>uncomment</em> the code under Part 2.</p>
-  <ul>
-    <li>Run the code.</li>
-    <li><strong>Think:</strong> What is different about this from the first set of method calls? How did each line of code, produce each respective line of output? Which parts make sense, and which are confusing?</li>
-  </ul>
-</div>
-<br>
-
-The following code snippet demonstrates that a method can be called on a variable assigned to data:
-
-```ruby
-new_string = "Hello World"
-p new_string.upcase
-```
-
->To describe the code snippet in English, one could say, "the first line declares a variable called `new_string` and the second line calls the `upcase` method on the `new_string` variable." As a result, the method will return a String object where any letter character in the original String stored in `new_string` will now be capitalized. The `p` command prints that return value of `"HELLO WORLD"` to the console. However, it's important to note that the original data stored in `new_string` is not modified permanently. 
-
-<br>
-<div class="s-card">
-  <h3>Exploration: PART 3</h3> 
-  <p>In <a href="https://replit.com/@turingschool/m0builtinmethods#main.rb" target="blank">the same replit</a>, comment <em>out</em> the code from Part 2, and <em>uncomment</em> the variable declarations and first method call under Part 3.</p>
-  <ul>
-    <li>Run the code and read the error message carefully. Work to make sense of what the problem is.</li>
-    <li>Comment out that method call, and uncomment the next one. Run the code and read the error message carefully. Work to make sense of what the problem is.</li>
-    <li>Repeat the previous step until you've run the code for each method call.</li>
-    <li>Modify the existing code so that it runs without errors.</li>
-    <li><strong>Write down</strong> a 1-3 sentence explanation of your main takeaway from this exploration.</li>
-  </ul>
-</div>
-<br>
-
-<div class="s-card s-border-yellow-500">
-  <h3>Key Points</h3> 
-  <ul>
-    <li>A method is a package of instructions that once defined, can be reused as many times as needed.</li>
-    <li>A method can be called on a variable that holds data.</li>
-    <li>Ruby provides built-in methods for each data type. Not every method will work on every type of data.</li>
-  </ul>
-</div>
-<br>
+A <span class="vocab">Method</span> is a package of instructions. Once a method is defined, it can be used as many times as needed. Ruby provides many built-in methods that developers can use. 
 
 ## Defining Our Own Methods
 
-The methods we've used up until now were built into the Ruby language. Those are great and you will use them heavily and regularly as a developer. And, there will also be times when you need to write your own method to solve a unique problem in the application you are building or maintaining. 
+There are many methods that are built into the Ruby language. Those are great and you will use them regularly as a developer (and you'll explore them later today!). There will also be times when you need to write your own method to solve a unique problem in the application you are building or maintaining. 
 
 ### Syntax for Defining a Method
 
@@ -119,7 +56,17 @@ To instruct the interpreter to carry out the instructions in a method, the devel
 greet_a_texan
 ```
 
-In the example above, the developer chose the method name of `greet_a_texan`. Method names should usually include verbs, since methods _do_ something. The definition just tells the program that it's a set of directions ready to be followed; the method call is what makes the code in the method <span class="vocab">execute</span>, or follow the packaged directions. You can call a method as many times as you want, once it's been defined!
+### Naming Conventions
+
+Since methods provide action to a program, they should be named accordingly; it's best practice to start them with a verb. Like variables, Ruby methods should use `snake_case` when they involve more than one word and should be written carefully to describe their role specifically without being overly verbose.
+
+Examples of function names that follow best practices:
+- `get_user_input`
+- `display_followers`
+- `add_two_numbers`
+- `find_longest_name`
+
+In the example above, the developer chose the method name of `greet_a_texan`. Method names should usually include verbs, since methods _do_ something. The definition just tells the program that it's a set of directions ready to be followed; the _method call_ is what makes the code in the method <span class="vocab">execute</span>, or follow the packaged directions. You can call a method as many times as you want, once it's been defined!
 
 ### A Method Metaphor
 
@@ -203,7 +150,7 @@ subtract(10, 7)
 #  => 3 (return value is 3 since it is stored in the difference variable, and the last line of the method uses the return keyword)
 ```
 
-In the `add` example below, the return value is an Integer or Float, based on what values were passed in as arguments. If 2 and 3 are passed in, the return value is 5. This is called an <span class="vocab">implicit return</span>. <strong>Ruby automatically returns the value of the last expression in a method if no `return` is present.</strong> For this reason, if we want to return the value of the last expression in a method, we usually do not use the `return` keyword, as it is considered redundant and unnecessary.
+In the `add` example below, the return value is an Integer or Float, based on what values were passed in as arguments. If 2 and 3 are passed in, the return value is 5. This is called an <span class="vocab">implicit return</span>. <strong>Ruby automatically returns the value of the last expression in a method if no `return` is present.</strong> For this reason, if we want to return the value of the last expression in a method, we usually do not use the `return` keyword, as it is considered redundant and unnecessary. 
 
 ```ruby
 def add(num1, num2)
@@ -281,9 +228,82 @@ puts sum2
 </div>
 <br>
 
+## Self-Teach
+Part of what you'll experience at Turing is learning a technical topic on your own. Practicing this skill at Turing will get you prepared for the job where you will do this often.
+
+Take time between now and your next session to self-teach the following section.
+
+## Warm-Up for Built-In Methods
+
+<div class="s-card">
+  <h3>Exploration: PART 1</h3> 
+  <p>Fork, then run the code <a href="https://replit.com/@turingschool/m0builtinmethods#main.rb" target="blank">in this replit</a> and observe the output.</p>
+  <p><strong>Think:</strong> How did each line of code, produce each respective line of output? Which parts make sense, and which are confusing?</p>
+</div>
+<br>
+
+## Methods
+
+A <span class="vocab">Method</span> is a package of instructions. Once a method is defined, it can be used as many times as needed. Ruby provides many built-in methods that developers can use. 
+
+The code snippet that follows was part of the previous Exploration activity:
+
+```ruby
+p 14.odd? 
+```
+
+>To describe the code snippet in English, one could say, "the `odd question mark` method is being called on the Integer 14." Since 14 is not odd, `false` will be the return value. The `p` command prints that return value of `false` to the console.
+
+In this particular example, the utility of the `odd?` method is to determine if an Integer is odd, or not. It answers the question with a Boolean (`true` or `false`). The benefit of having this method built into Ruby is if a developer needs to check if a number is odd or not, they only have to type `.odd?` anywhere they need to check. If they didn't have a pre-packaged method, they'd have to write several lines of code involving logic, every time they want to check if an integer is odd. **Reusability is what makes methods so powerful.**
+
+<br>
+<div class="s-card">
+  <h3>Exploration: PART 2</h3> 
+  <p>In <a href="https://replit.com/@turingschool/m0builtinmethods#main.rb" target="blank">the same replit</a> from the first exploration, comment <em>out</em> the code from Part 1, and <em>uncomment</em> the code under Part 2.</p>
+  <ul>
+    <li>Run the code.</li>
+    <li><strong>Think:</strong> What is different about this from the first set of method calls? How did each line of code, produce each respective line of output? Which parts make sense, and which are confusing?</li>
+  </ul>
+</div>
+<br>
+
+The following code snippet demonstrates that a method can be called on a variable assigned to data:
+
+```ruby
+new_string = "Hello World"
+p new_string.upcase
+```
+
+>To describe the code snippet in English, one could say, "the first line declares a variable called `new_string` and the second line calls the `upcase` method on the `new_string` variable." As a result, the method will return a String object where any letter character in the original String stored in `new_string` will now be capitalized. The `p` command prints that return value of `"HELLO WORLD"` to the console. However, it's important to note that the original data stored in `new_string` is not modified permanently. 
+
+<br>
+<div class="s-card">
+  <h3>Exploration: PART 3</h3> 
+  <p>In <a href="https://replit.com/@turingschool/m0builtinmethods#main.rb" target="blank">the same replit</a>, comment <em>out</em> the code from Part 2, and <em>uncomment</em> the variable declarations and first method call under Part 3.</p>
+  <ul>
+    <li>Run the code and read the error message carefully. Work to make sense of what the problem is.</li>
+    <li>Comment out that method call, and uncomment the next one. Run the code and read the error message carefully. Work to make sense of what the problem is.</li>
+    <li>Repeat the previous step until you've run the code for each method call.</li>
+    <li>Modify the existing code so that it runs without errors.</li>
+    <li><strong>Write down</strong> a 1-3 sentence explanation of your main takeaway from this exploration.</li>
+  </ul>
+</div>
+<br>
+
+<div class="s-card s-border-yellow-500">
+  <h3>Key Points</h3> 
+  <ul>
+    <li>A method is a package of instructions that once defined, can be reused as many times as needed.</li>
+    <li>A method can be called on a variable that holds data.</li>
+    <li>Ruby provides built-in methods for each data type. Not every method will work on every type of data.</li>
+  </ul>
+</div>
+<br>
+
 ## Check For Understanding
 
-Complete the tasks in <a href="https://github.com/turingschool/methods_cfu_am0" target="blank">this repository</a>. Submit your copy of the repository to the submission form.
+- Complete the tasks in <a href="https://github.com/turingschool/methods_cfu_am0" target="blank">this repository</a>. 
+- Add a link to your respository under a new section of your Mod 0 Gist called `Methods`.
 
 
 <br>
