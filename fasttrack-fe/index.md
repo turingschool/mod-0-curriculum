@@ -38,7 +38,7 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 ## Session 3
 ### Live Sessions
 * [Conditionals]({{ site.url }}/front-end/conditionals)
-* [Functions]({{ site.url }}/front-end/functions)
+* [Functions]({{ site.url }}/front-end/functions-fasttrack)
 
 ### Assignment - Complete before Session 4
 * Complete the Self-Teach sections from the Conditionals and Functions lessons.
