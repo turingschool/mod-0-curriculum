@@ -21,11 +21,76 @@ title: Functions
 - <span class="vocab">parameter</span>
 - <span class="vocab">argument</span>
 
+## Warm-Up
 
+<div class="s-card">
+  <h3>Exploration: PART 1</h3> 
+  <p>Fork, then run the code <a href="https://replit.com/@turingschool/m0-built-in-methods#index.js" target="blank">in this replit</a> and observe the output.</p>
+  <p><strong>Discuss:</strong> How did each line of code, produce each respective line of output? Which parts make sense, and which are confusing?</p>
+</div>
+<br>
+
+## Built-In Methods
+
+Both `methods` and `functions` are sets of instructions that perform a specific task. The only difference is that a method is associated with an object, while a function is not. For now, we'll  use the term `method` to describe the pre-packaged functions that are built into the language and are called on a specific data type. The term `function` is used to describe a block of code that a developer designs to perform a particular task. We will come back to writing our own functions in a moment, but for now, let's keep exploring some of those built-in `methods` available to us in JavaScript. 
+
+The code snippet below is an example from the previous Exploration activity: 
+
+```javascript
+console.log("Hello World".startsWith("H"));
+```
+
+>To describe the code snippet in English, one could say, "the `startsWith()` method is being called on the string 'Hello World'." Since "Hello World" does start with "H", `true` will be the return value. The `console.log()` command prints that return value of `true` to the console.
+
+In this particular example, the utility of the `startsWith()` method is to determine if a String starts with a specified character, or not. It answers the question with a Boolean (`true` or `false`). The benefit of having this method built into JavaScript is if a developer needs to check if a String starts with a specific character, they can use the `startsWith()` method anywhere they need to check. If they didn't have a pre-packaged method, they'd have to write several lines of code involving logic, every time they want to check if an integer is odd. **Reusability is what makes methods and functions so powerful.**
+
+<br>
+<div class="s-card">
+  <h3>Exploration: PART 2</h3> 
+  <p>In <a href="https://replit.com/@turingschool/m0-built-in-methods#index.js" target="blank">the same replit</a> from the first exploration, comment <em>out</em> the code from Part 1, and <em>uncomment</em> the code under Part 2.</p>
+  <ul>
+    <li>Run the code.</li>
+    <li>Discuss: What is different about this from the first set of method calls? How did each line of code, produce each respective line of output? Which parts make sense, and which are confusing?</li>
+  </ul>
+</div>
+<br>
+
+The following code snippet demonstrates that a method can be called on a variable assigned to data:
+
+```javascript
+var newString = "Hello World";
+console.log(newString.toUpperCase());
+```
+
+>To describe the code snippet in English, one could say, "the first line declares a variable called `newString` and the second line calls the `toUpperCase()` method on the `newString` variable." As a result, the method will return a String object where any letter character in the original String stored in `newString` will now be uppercase. The `console.log()` command prints that return value of `"HELLO WORLD"` to the console. However, it's important to note that the original data stored in `newString` is not modified permanently. 
+
+<br>
+<div class="s-card">
+  <h3>Exploration: PART 3</h3> 
+  <p>In <a href="https://replit.com/@turingschool/m0-built-in-methods#index.js" target="blank">the same replit</a>, comment <em>out</em> the code from Part 2, and <em>uncomment</em> the variable declarations and first method call under Part 3.</p>
+  <ul>
+    <li>Run the code and read the error message carefully. Work to make sense of what the problem is.</li>
+    <li>Comment out that method call, and uncomment the next one. Run the code and read the error message carefully. Work to make sense of what the problem is.</li>
+    <li>Repeat the previous step until you've run the code for each method call.</li>
+    <li>Modify the existing code so that it runs without errors.</li>
+    <li><strong>Write down</strong> a 1-3 sentence explanation of your main takeaway from this exploration.</li>
+  </ul>
+</div>
+<br>
+
+<div class="s-card s-border-yellow-500">
+  <h3>Key Points</h3> 
+  <ul>
+    <li>A method is a package of instructions that once defined, can be reused as many times as needed.</li>
+    <li>A method can be called on a variable that holds data.</li>
+    <li>JavaScript provides built-in methods for each data type, but not every method will work on every type of data.</li>
+  </ul>
+</div>
+<br>
 
 ## Defining Our Own Functions
 
-<span class="vocab">Functions</span> are structures in JavaScript that are fundamental to writing a program. A function is essentially a package of instructions for a program to follow. The JavaScript language has many methods built-in that you'll explore later in this lesson. Built-in methods are great and you will use them regularly as a developer. There will also be times when you need to write your own method to solve a unique problem in the application you are building or maintaining. 
+<span class="vocab">Functions</span> are structures in JavaScript that are fundamental to writing a program. A function is essentially a package of instructions for a program to follow. The methods we've used up until now were built into the JavaScript language. Those are great and you will use them heavily and regularly as a developer. And, there will also be times when you need to write your own method to solve a unique problem in the application you are building or maintaining. 
 
 ### Syntax for _Defining_ a Function
 
@@ -263,83 +328,9 @@ console.log(sum2);
 </div>
 <br>
 
-## Self-Teach
-Part of what you'll experience at Turing is learning a technical topic on your own. Practicing this skill at Turing will get you prepared for the job where you will do this often.
-
-Take time between now and your next session to self-teach the following section.
-
-
-## Warm-Up for Built-In Methods
-
-<div class="s-card">
-  <h3>Exploration: PART 1</h3> 
-  <p>Fork, then run the code <a href="https://replit.com/@turingschool/m0-built-in-methods#index.js" target="blank">in this replit</a> and observe the output.</p>
-  <p><strong>Discuss:</strong> How did each line of code, produce each respective line of output? Which parts make sense, and which are confusing?</p>
-</div>
-<br>
-
-## Built-In Methods
-
-Both `methods` and `functions` are sets of instructions that perform a specific task. The only difference is that a method is associated with an object, while a function is not. For now, we'll  use the term `method` to describe the pre-packaged functions that are built into the language and are called on a specific data type. The term `function` is used to describe a block of code that a developer designs to perform a particular task. Let's explore some of those built-in `methods` available to us in JavaScript. 
-
-The code snippet below is an example from the previous Exploration activity: 
-
-```javascript
-console.log("Hello World".startsWith("H"));
-```
-
->To describe the code snippet in English, one could say, "the `startsWith()` method is being called on the string 'Hello World'." Since "Hello World" does start with "H", `true` will be the return value. The `console.log()` command prints that return value of `true` to the console.
-
-In this particular example, the utility of the `startsWith()` method is to determine if a String starts with a specified character, or not. It answers the question with a Boolean (`true` or `false`). The benefit of having this method built into JavaScript is if a developer needs to check if a String starts with a specific character, they can use the `startsWith()` method anywhere they need to check. If they didn't have a pre-packaged method, they'd have to write several lines of code involving logic, every time they want to check if an integer is odd. **Reusability is what makes methods and functions so powerful.**
-
-<br>
-<div class="s-card">
-  <h3>Exploration: PART 2</h3> 
-  <p>In <a href="https://replit.com/@turingschool/m0-built-in-methods#index.js" target="blank">the same replit</a> from the first exploration, comment <em>out</em> the code from Part 1, and <em>uncomment</em> the code under Part 2.</p>
-  <ul>
-    <li>Run the code.</li>
-    <li>Discuss: What is different about this from the first set of method calls? How did each line of code, produce each respective line of output? Which parts make sense, and which are confusing?</li>
-  </ul>
-</div>
-<br>
-
-The following code snippet demonstrates that a method can be called on a variable assigned to data:
-
-```javascript
-var newString = "Hello World";
-console.log(newString.toUpperCase());
-```
-
->To describe the code snippet in English, one could say, "the first line declares a variable called `newString` and the second line calls the `toUpperCase()` method on the `newString` variable." As a result, the method will return a String object where any letter character in the original String stored in `newString` will now be uppercase. The `console.log()` command prints that return value of `"HELLO WORLD"` to the console. However, it's important to note that the original data stored in `newString` is not modified permanently. 
-
-<br>
-<div class="s-card">
-  <h3>Exploration: PART 3</h3> 
-  <p>In <a href="https://replit.com/@turingschool/m0-built-in-methods#index.js" target="blank">the same replit</a>, comment <em>out</em> the code from Part 2, and <em>uncomment</em> the variable declarations and first method call under Part 3.</p>
-  <ul>
-    <li>Run the code and read the error message carefully. Work to make sense of what the problem is.</li>
-    <li>Comment out that method call, and uncomment the next one. Run the code and read the error message carefully. Work to make sense of what the problem is.</li>
-    <li>Repeat the previous step until you've run the code for each method call.</li>
-    <li>Modify the existing code so that it runs without errors.</li>
-    <li><strong>Write down</strong> a 1-3 sentence explanation of your main takeaway from this exploration.</li>
-  </ul>
-</div>
-<br>
-
-<div class="s-card s-border-yellow-500">
-  <h3>Key Points</h3> 
-  <ul>
-    <li>A method is a package of instructions that once defined, can be reused as many times as needed.</li>
-    <li>A method can be called on a variable that holds data.</li>
-    <li>JavaScript provides built-in methods for each data type, but not every method will work on every type of data.</li>
-  </ul>
-</div>
-<br>
-
 ## Check For Understanding
 
-- Complete the work <a href="https://github.com/turingschool/m0_fe_functions" target="_blank">in the CFU repository</a>.
-- Add a link to your respository under a new section of your Mod 0 Gist called `Functions`.
+Complete the work <a href="https://github.com/turingschool/m0_fe_functions" target="_blank">in the CFU repository</a> and submit your work using the submission form.
 
 <br>
 <br>
