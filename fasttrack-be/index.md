@@ -33,15 +33,15 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 
 ### Assignment - Complete Before Session 3
 * [DTR Prep]({{ site.url}}/shared/dtr)
+* [Pairing Prep]({{ site.url}}/shared/pairing)
 
 ## Session 3
 ### Live Sessions
 * [Conditionals]({{ site.url }}/back-end/conditionals)
-* [Methods]({{ site.url }}/back-end/methods)
+* [Methods]({{ site.url }}/back-end/methods-fasttrack)
 
 ### Assignment - Complete before Session 4
-* Review all notes and past lessons
-* Preview next session's lesson
+* Complete the Self-Teach sections from the Conditionals and Methods lessons.
 
 ## Session 4
 ### Live Sessions
@@ -49,13 +49,13 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 
 ### Assignment - Complete by Sunday Evening
 * [Problem Solving]({{ site.url }}/shared/problem-solving-fasttrack)
-* [Beyond Mod 0 Plan]({{ site.url }}/shared/plan)
-* [Final Reflection Video]({{ site.url }}/shared/final-video)
+* [Beyond Mod 0 Plan]({{ site.url }}/shared/plan-fasttrack)
+* [Final Reflections]({{ site.url }}/shared/final-reflections)
 
 ## Pre-Teach Before Mod 1
 Note: You are not expected to be experts on these topics, but you should come to Mod 1 ready to ask questions about the topics covered in these lessons.
-* [Hashes]({{ site.url }}/back-end/hashes)
-* [Testing]({{ site.url }}/back-end/testing)
+* [Hashes]({{ site.url }}/back-end/hashes-fasttrack)
+* [Testing]({{ site.url }}/back-end/testing-fasttrack)
 
 <br>
 <br>

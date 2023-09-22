@@ -8,7 +8,9 @@ title:      Syllabus - Fast Track Mod 0
 The current Mod 0 Lead is Eric Weissman, our Pre-Program Instructor at Turing. If you have any questions about the course or computer setup, Eric is the person to contact! You can find him on Slack. Eric and a team of Pre-Program Teaching Assistants run sessions and provide students feedback throughout Mod 0. They're an all-star team of Turing alumni and current software developers who have a passion for supporting students as they begin their journey at Turing.
 
 ## Description
-Mod 0 is a prerequisite course for attending Turing. The primary focus of the course is setting students up with the necessary tools and programming foundations to be successful in the full-time course. Students will be evaluated throughout the course on their communication, collaboration, and technical skills.
+Mod 0 is a prerequisite course for attending Turing. The primary focus of the course is setting students up with the necessary tools and programming foundations to be successful in the full-time course. Students will be evaluated throughout the course on their communication, collaboration, and technical skills.  
+
+During the one week of Mod 0, we will cover **a lot*** of content - but don't worry! We don't expect mastery over the technical content in Mod 0. We want to expose you to technical concepts so that when you **revisit** those concepts in Mod 1, you're ready to dig in and ask great questions. Give yourself lots of kindness and patience - you belong here!  
 
 ## Computer Literacy Skill Requirements
 While computer literacy skills have never been an entry requirement for students at Turing, we recognize that some students may need to spend more time developing these skills to feel comfortable in this remote learning environment. Read through the following skills to identify where you might need to spend more time practicing before starting your Turing journey.
@@ -52,24 +54,16 @@ You can expect to work 18-20 hours throughout Mod 0, including the prework. Each
 All Turing staff members will use Slack as the primary means of communication with students. As an incoming student, any information you need can usually be found in our Turing Slack workspace. As a norm, we expect members of our community to respond to Slack messages within 24 hours.
 
 ## Grading
-While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time, implement feedback on those assignments, and demonstrate your learning in a live evaluation. Follow the links below to find all required assignments for your specific program:
+While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time and implement feedback on those assignments (when applicable). Follow the links below to find all required assignments for your specific program:
 
 - [Back End Mod 0 Assignments]({{ site.baseurl }}/fasttrack-be)
 - [Front End Mod 0 Assignments]({{ site.baseurl }}/fasttrack-fe)
 
 On each program page, you will see all assignments organized into segments of work. Each segment is expected to be completed after a corresponding live session.
 
-### Implementing Feedback
-Throughout the course, students will complete many assignments to demonstrate their understanding of the topics. These assignments are organized into segments of work, with each segment due by the next live session. It is expected that students implement feedback provided by staff. Sometimes this will mean revising submissions and other times this will mean implementing that feedback in future assignments. In the event a student gets behind and needs an extension and/or support to adjust their schedule to get back on track, it is the student's responsibility to proactively reach out and discuss what that could look like.
+## Final Deliverables
+All of your deliverables throughout the course of Mod 0 will go into your Mod 0 Gist that you create in your prework. Final deliverables include your Beyond Mod 0 Plan and your Final Reflection Video. Mod 0 instructors will review all your deliverables and evaluate your successful completion of Mod 0 based on your work submitted in your Mod 0 Gist.
 
-### Evaluations
-At Turing, you’ll have a number of Assessments and Evaluations. These not only help Turing staff determine if you are ready for the next step; they are great learning experiences for students to help them prepare for tech interviews while job hunting.
-
-> The Mod 0 Live Paired Eval gives students the opportunity to demonstrate their Communication, Collaboration, and Technical skills - to show they are ready to start full-time in Mod 1.
-
-Your Mod 0 Instructor will pair you with another student and inform you both of the 30-minute time slot that you will meet for the Evaluation. You and your partner can both expect to Drive and Navigate at some point during the Evaluation. If you are stuck at any point, you are allowed to reference your notes or use a Google search, or even ask for feedback from the staff member!
-
-There will be no “gotchas”. The rubric that follows communicates what we care most about and how you will be evaluated. We are **not** looking for “coding perfection” or any sort of perfection; we are looking to see that you are ready to be an effective learner and collaborator as a full-time Turing student. You will receive scores for each of the three categories in the rubric. [The Mod 0 Live Paired Eval Rubric is available here.](https://turingschool.notion.site/9d22c7265b4e4d75a994496605ec8e94?v=3232bf7092914bb998b63b3f12c9be62) Feedback after the evaluation will be provided via DM in Slack.
 
 ## Required Supplies
 This may be your first time learning and/or working in a remote setting. There are a few key tools we recommend to set yourself up for success as a remote student.

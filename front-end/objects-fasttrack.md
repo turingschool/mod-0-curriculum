@@ -142,8 +142,9 @@ Note that when we use the `Object.keys` and `Object.values` methods, the return 
 <br>
 
 ## Additional Practice
+This additional practice is encouraged, but not required.
 
-Complete the work <a href="https://github.com/turingschool/m0_fe_objects" target="_blank">in the CFU repository</a> and submit your work using the submission form.
+Complete the work <a href="https://github.com/turingschool/m0_fe_objects" target="_blank">in this repository</a>.
 
 <br>
 <br>

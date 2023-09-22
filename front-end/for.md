@@ -15,35 +15,6 @@ title: For Statements
 - <span class="vocab">for statement</span>
 - <span class="vocab">initialization</span>
 
-## Warm-Up
-
-Write 1-2 sentences to explain the code snippet below, using as many technical vocabulary terms as possible.
-
-```javascript
-var emails = [
-  "kaitlyn@turing.edu",
-  "justina@turing.edu",
-  "amy@turing.edu",
-  "launa@turing.edu",
-  "nikki@turing.edu",
-  "naomi@turing.edu"
-];
-```
-
-## Discovery
-
-Work through the activity that follows to practice reading unfamiliar code and working to make sense of it. 
-
-<div class="s-card">
-  <h3>Reading a <code>for</code> loop</h3>
-  <ul>
-    <li>Open <a href="https://replit.com/@turingschool/for-statements#index.js" target="blank">this replit</a> and click "fork".</li>
-    <li>Run the code in the replit. Read through the code for each <code>for</code> statement and identify the portion of the output that belongs with it. <strong>What do you notice? Work to identify which piece of the code corresponds to a change in the output.</strong></li>
-    <li>If questions or wonderings such as "I wonder what would happen if we did X instead of Y...?" - there is nothing stopping you from trying that out, and finding the answer right now! You can edit the existing code, copy-and-paste code snippets then modify, or write something out yourself.</li>
-  </ul>
-</div>
-<br>
-
 ## `for statement`
 
 Watch <a target="blank" href="https://www.youtube.com/watch?v=vLu8cOE7YKc">this video</a> to see an explanation of the code snippet shown below.
@@ -59,6 +30,7 @@ for (var i = 0; i < 4; i++) {
 // --> 3
 ```
 
+Refer to this outline while reading the explanation below.
 ```
 for ([initialization]; [condition]; [final-expression]) {
   [statement]
@@ -81,16 +53,6 @@ for ([initialization]; [condition]; [final-expression]) {
 <br>
 
 ## Practice
-
-<div class="s-card">
-  <h3>Explaining Code</h3>
-  <ul>
-    <li>Choose <code>one</code> of the <code>for</code> statements that was in the replit used for the Discovery activity.</li>
-    <li>To review and solidify what you saw in the video, prepare a verbal or written explanation of what your selected <code>for</code> statement does, in as much detail as possible. Take note of things you find yourself wondering or feeling confused about.</li>
-    <li>Do some research to try and answer your own question <em>or</em> go to your Slack small group!</li>
-  </ul>
-</div>
-<br>
 
 <div class="s-card">
  <h3>Writing Code</h3>
@@ -125,7 +87,7 @@ for (var i = 0; i < fruits.length; i++) {
     <li>Change <code>fruits[i]</code> to <code>[i]</code>. Re-run the code - has the output changed? Revert the changes with the keyboard shortcut <code>cmd + z</code>.</li>
     <li>Change <code>fruits[i]</code> to <code>fruits</code>. Re-run the code - has the output changed? Revert the changes with the keyboard shortcut <code>cmd + z</code>.</li>
   </ul>
-  <p>If you have questions about how any of those exercises worked, use Google or your small group.</p>
+  <p>If you have questions about how any of those exercises worked, use Google.</p>
 </div>
 <br>
 
@@ -180,9 +142,10 @@ Use a `for` statement to solve each problem. You can do this work in the place t
 </div>
 <br>
 
-## Check For Understanding
+## Additional Practice
+This practice work is encouraged, but not required.
 
-[Follow the directions in the README of this GitHub repository](https://github.com/turingschool/m0_fe_for), and submit your fork in the submission form.
+[Follow the directions in the README of this GitHub repository](https://github.com/turingschool/m0_fe_for).
 
 <br>
 <br>
