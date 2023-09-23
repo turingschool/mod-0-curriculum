@@ -12,7 +12,7 @@ All assignments for Mod 0 are listed below and organized into segments based on 
 * [Read the Syllabus]({{ site.url }}/syllabus) 
 * [Review the Mod 0 Calendar]({{ site.url }}/calendar)
 * [Prep Your "Why"]({{ site.url }}/prework/why)
-* [Asking Technical Questions]({{ site.url }}/prework/asking_qs) 
+* [Asking Technical Questions]({{ site.url }}/shared/asking_qs) 
 * [Markdown]({{ site.url }}/prework/markdown)
 * [Introduction Video]({{ site.url }}/prework/intro-video)
 
