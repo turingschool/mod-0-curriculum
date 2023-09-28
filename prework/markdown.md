@@ -34,12 +34,27 @@ Your task is to create a "Mod 0 Plan" **documenting your plan for success in Mod
 
 Use the tips and guidance that follows to ensure you complete it successfully.
 
-1. Log into your GitHub account.
-1. In the upper right corner, select the `+` sign and select `New gist`.
-1. For the filename, follow this format: `firstName_lastName_mod_0_plan.md`.
-1. Notice that after you added the file extension for markdown (`.md`), you now have an `Edit new file` tab and a `Preview changes` tab. As you are working, you can use the `Preview changes` tab to see what your final product looks like! Note that a `.md` file extension is required at the end of your `Gist`'s filename. Otherwise it will not register as markdown.
-1. Include all of the elements listed in the Markdown Practice section below using [this Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/) as a guide.
+- Log into your GitHub account.
+- In the upper right corner, select the `+` sign and select `New gist`. 
 
+![Creating a New Gist](assets/markdown/new-gist.png)
+<br/>
+<br/>
+
+- For the filename, follow this format: `firstName_lastName_mod_0_plan.md`. **Note:** It's important that you add the correct file extension `.md`.
+<br/>
+<br/>
+
+![Add filename with correct format](assets/markdown/Filename.png)
+
+<br/>
+<br/>
+
+- Notice that after you added the file extension for markdown (`.md`), you now have an `Edit new file` tab and a `Preview changes` tab. As you are working, you can use the `Preview changes` tab to see what your final product looks like! Note that a `.md` file extension is required at the end of your `Gist`'s filename. Otherwise it will not register as markdown.
+- Include all of the elements listed in the Markdown Practice section below using [this Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/) as a guide.
+
+<br/>
+<br/>
 
 <div class="s-card">
   <h3>Markdown Practice - Mod 0 Plan</h3>
