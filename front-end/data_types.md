@@ -27,11 +27,11 @@ JavaScript was created to make the web more dynamic. It is a scripting language 
 
 JavaScript can be client-side and server-side, meaning that it can be used to control user-facing interfaces (e.g. browsers) as well as handle the server-side extensions that connect with a database.
 
-It’s a highly versatile and flexible language, favoring configuration over convention. This means that, when you’re working in JavaScript, there are TONS of different ways to accomplish the same task. Sometimes one is better than another, but often there’s not **ONE** right way to do something. JavaScript has become the most commonly used language of the web!
+It’s a highly versatile and flexible language, favoring configuration over convention. This means that when you’re working in JavaScript, there are TONS of different ways to accomplish the same task. Sometimes one is better than another, but often there’s not **ONE** right way to do something. JavaScript has become the most commonly used language of the web.
 
 ## Where To Run Code
 
-By the end of this session, you'll be able to use a feature of the Chrome browser called the <span class="vocab">Dev Tools</span>, specifically a tool within it called <span class="vocab"><code>the Console</code></span>, to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. This Console will allow you to explore and learn JavaScript and test out code you've written in a low stakes environment. It is quick and easy to open up Chrome and run your code immediately.
+By the end of this session, you'll be able to use a feature of the Chrome browser called the <span class="vocab">Dev Tools</span>, specifically a tool within it called <span class="vocab"><code>the Console</code></span>, to run and check your code. This is a great tool for beginners and is used regularly by all software developers. This Console will allow you to explore and learn JavaScript and test out code you've written in a low stakes environment. It is quick and easy to open up Chrome and run your code immediately.
 
 ### Chrome Dev Tools Console: Tips & Tricks
 
@@ -78,6 +78,7 @@ To connect to how these data types are used in an application we all have some e
     <li>Age</li>
     <li>Number of Likes</li>
     <li>Balance on a bank account</li>
+    <li>Zip Code</li>
     <li>Currently online</li>
     <li>Daily countdown to a big event</li>
     <li>Caption for an image</li>
@@ -86,7 +87,7 @@ To connect to how these data types are used in an application we all have some e
 
 ## Variables
 
-Pieces of data in the various types we've discussed so far are valid JavaScript code just as they are. We can demonstrate that by typing `"helloworld@gmail.com"` or `37` or `false` into the Chrome Dev Tools Console. We know they are valid because we don't get an error. If `helloworld@gmail.com` is typed in, we _will_ get an error, and possibly a helpful suggestion!
+Pieces of data in the various types we've discussed so far are valid JavaScript code just as they are. We can demonstrate that by typing `"helloworld@gmail.com"` or `37` or `false` into the Chrome Dev Tools Console. We know they are valid because we don't get an error. If `helloworld@gmail.com` is typed in, we _will_ get an error, and possibly a helpful suggestion, because we didn't include quotations around that string data! 
 
 However, if we ever want to reference that email address ever again in our code, the only way would be to read that part of the screen and manually type it out again - and that's not going to make for a very efficient application.
 
@@ -173,34 +174,30 @@ This lesson exposed the reader to the Chrome Dev Tools Console as an _option_ an
 **One difference to note, at this stage in knowledge and learning, and being able to see the output.**
 - In the Chrome Dev Tools Console, one can type the name of a variable to _call_ it, and after pressing the return key, the Console will display the value of that variable after the `<` symbol.
 - When writing code in VS Code, simply typing the name of a variable will not result in showing the human the value of the variable. Two steps need to be taken:
-1. Instruct the program to print out the value of the variable using the `console.log()` method. `console.log(depositPaid)` is an example of a `console.log` statement that will print out the value of the `depositPaid` variable.
-2. Run the code. In the Terminal, while navigated to the directory that the file containing the code you want to run, run `node filename.js` and the `console.log` statements should print out. Additionally, any errors in the code may produce an error message at this time.
+1. Instruct the program to print out the value of the variable using the `console.log()` function. `console.log(depositPaid)` is an example of a `console.log` statement that will print out the value of the `depositPaid` variable.
+2. Run the code. In the Terminal, navigate to the directory that the file containing the code you want to run is in, type `node filename.js` and the `console.log` statements should print out. Additionally, any errors in the code may produce an error message at this time.
 The Check For Understanding will provide a practice opportunity for this section.
 
-## Check For Understanding
+## Practice
 
-_Complete this CFU **after** you've done the live GitHub lesson._
-
-Use everything you’ve learned with VS Code, Git, GitHub, Data Types and variables, complete this challenge:
+*Note:* If at anytime you have questions, please ask them in your slack channel. This is the main resource we will use for asking questions at Turing.
 
 1. Create a new directory called `variablePractice`.
 1. Inside that directory, create a file called `variables.js`.
-1. Initialize `git` inside of the directory.
-1. Commit your work (Think about what message should you use here).
-1. Go to GitHub and create a repository with the same name - `variablePractice`.
-1. Push your local directory to GitHub by following the instructions.
 1. In your `variables.js` file, add a few variables that are assigned to Strings.
-1. Commit your work.
 1. In your `variables.js` file, add a few variables that are assigned to Numbers.
-1. Commit your work.
 1. In your `variables.js` file, add a few variables that are assigned to Booleans.
-1. Commit your work.
 1. In your `variables.js` file, leave the original String variables as declared, but add some code to _reassign_ them to different values.
 1. Write several `console.log` statements.
-1. `NEW` Run your code by going to the Terminal and running `node variables.js` - make sure you are inside the `variablePractice` directory when doing so.
-1. Commit your work.
-1. Push your changes to GitHub.
+1. `NEW` Run your code by going to the Terminal and running `node variables.js` - make sure you are inside the `variablePractice` directory when doing so. You should see the output of your JavaScript file in the terminal. If done correctly, anywhere you have a `console.log` statement, it should print to your terminal. 
 
-Please submit the link to your GitHub repository in the submission form.
+## Check For Understanding
+
+Please create a section in your Mod 0 Gist for **Data Types** and record your answers to these questions. (Including the question is very helpful!)
+- How confident do you feel with the content on Data Types so far?
+- Is there any additional learning you need or want to do before moving to the next lesson?
+- What questions do you have about Data Types?
+
+
 
 <br><br>

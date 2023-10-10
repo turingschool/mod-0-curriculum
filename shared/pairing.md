@@ -38,8 +38,8 @@ There are many styles of pairing. In Mod 0, we will introduce and focus on the D
 
 <div class="s-card">
   <h3>Watch an Example</h3>
-  <p><a href="https://turingschool.zoom.us/rec/share/EC89i-P37Wnke3mSf0_Jk4nCTkP4CUgm97IXmSJAYYog1FdBYkDdzlGdsHMXG2Oq.ksixjk2usE-Cvhz0?startTime=1646316847000" target="blank">This video shows two developers pairing on a simple task you probably did earlier today</a></p>
-  <p>Watch it, and reflect on how they interacted, and what they each did in the Driver and Navigator role.</p>
+  <p><a href="https://turingschool.zoom.us/rec/share/EC89i-P37Wnke3mSf0_Jk4nCTkP4CUgm97IXmSJAYYog1FdBYkDdzlGdsHMXG2Oq.ksixjk2usE-Cvhz0?startTime=1646316847000" target="blank">This video shows two developers pairing on a simple task.</a></p>
+  <p>Watch it and reflect on how they interacted. Observe what they each did in the Driver and Navigator role.</p>
 </div>
 <br>
 
@@ -60,11 +60,8 @@ While there is no "right" or "perfect" way to pair, there are some best practice
 
 Optional: [Read the "Remote Pairing" section of this blog post from Martin Fowler](https://martinfowler.com/articles/on-pair-programming.html#RemotePairing) for more learning!
 
-## Pairing Activities
 
-To help you become comfortable with pairing in what may be a very new environment for you, you will have 4 pairing sessions this week, each with a different classmate. Before and after each session, you'll be asked to prepare and reflect which will support your growth and awareness of your growth.
 
-You can absolutely choose to schedule additional pairing sessions!
 
 <br>
 <br>

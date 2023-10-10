@@ -37,8 +37,6 @@ Before we dive into creating GitHub repositories, let's take a moment to get com
     <li>Who is the user that created and owns this repository?</li>
     <li>How many commits are on this repo?</li>
     <li>When was the last commit made?</li>
-    <li>Find 2 commit messages that do not follow conventions - write them down, and write down a better commit message to replace each.</li>
-    <li>How many times has this repository been forked?</li>
   </ul>
 </div>
 <br>
@@ -54,7 +52,7 @@ There are many ways to create and connect <span class="vocab">local</span> (on y
 1. **Before completing the next steps, make sure that you have the `SSH` button selected at the top.** Then, follow the directions under `...or push an existing repository from the command line`, by running the following commands:
   - `git remote add origin git@github.com:USERNAME/REPO_NAME.git` This command tells the local repository to set the remote repository to this address. We refer to it as the `origin`.
   - _`git branch -M main` You do not need to do this if you have already configured Git to name the default branch `main`._
-  - `git push -u origin main` This sends the current version of the project up to the remote repository, and sets the `main` branch as the default branch to send work up to.
+  - `git push -u origin main` This sends the current version of the project up to the remote repository, and sets the `main` branch as the default branch to send work up to. Side note, the `-u` is optional.
 1. Refresh your GitHub browser tab. You should now see your repository!
 
 <br>
@@ -75,7 +73,7 @@ Now that we have our local repository connected to a remote repository, we can s
 git push
 ```
 
-Since we used the `-u origin main` in our original push to connect the two repos, we already established main as the upstream branch. For subsequent pushes, we can take out that part of the command and simply use <code>git push</code>.
+Since we used the `-u origin main` in our original push to connect the two repos, we already established main as the upstream branch. For subsequent pushes, we can take out that part of the command and simply use <code>git push</code>. _Note:_ If you did not use `-u` to set the upstream, you'll simply type `git push origin main` every time.
 
 After running this command, Git will send your work up to GitHub (you must be connected to the internet), and you'll get many lines of output, finally telling you the work was successfully sent up. Refresh your GitHub browser tab, and the changes will be available there. <span class="vocab">Pushing</span> work up to a repository is the act of using Git commands to send the most recent commits on a local repository up to the remote repository.
 
@@ -152,7 +150,7 @@ To fork and clone a pre-existing GitHub repository, follow the steps below.
   <p>Work through this prompt independently.</p>
   <ul>
     <li>Fork <a target="blank" href="https://github.com/turingschool/m0_github_challenge">this repository</a>.</li>
-    <li>Navigate to where you want to clone down the repo.</li>
+    <li>In Terminal, navigate to where you want to clone down the repo.</li>
     <li>Clone your copy to your local machine.</li>
     <li>Make a few changes and commits.</li>
     <li>Push up your changes.</li>
@@ -187,9 +185,9 @@ All of these issues can be corrected. The important thing is to reach out for he
   <p>To see if you initialized git in a repository, use <code>ls -a</code> to show hidden files. If you see a hidden <code>.git</code> directory, that means that you have initialized git in that directory. If you don't want to have git tracking in that repository, you can remove it with <code>rm -rf .git</code>.</p>
 </div>
 
-## Check For Understanding
+## More Practice
 
-Follow the steps below to demonstrate your understanding of the Git & GitHub workflow. Record your screen and talk through the steps as you go. Submit your video using your submission form.
+Follow the steps below to demonstrate your understanding of the Git & GitHub workflow. 
 
 1. Use keyboard shortcuts to move this browser window to the left side of your screen and your terminal in the top right corner. 
 1. Fork this [repository](https://github.com/turingschool/m0_github_cfu).
@@ -201,5 +199,13 @@ Follow the steps below to demonstrate your understanding of the Git & GitHub wor
 1. Create a new remote repository in GitHub and connect your existing local repository to that one. Hint: All of this can be done in GitHub and the terminal. You do not need to create a new local repository.
 
 If you have any questions about GitHub as you're working through this challenge, drop them in Slack along with any relevant screenshots!
+
+## Check For Understanding
+
+In your Mod 0 Gist, create a section called `Github` and answer the following questions:
+
+1. How confident do you feel in your understanding and fluency with Github?
+1. What do you still need to practice or learn? How will you do that?
+1. What part of Github is still confusing for you?
 
 <br><br><br><br><br>

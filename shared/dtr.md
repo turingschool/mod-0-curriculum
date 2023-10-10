@@ -20,7 +20,7 @@ You will be a contributor in several paired and group projects working on comple
 
 Before every project kickoff, we ask students to participate in a exercise known as **Defining the Relationship (DTR)**, where you will work to set realistic expectations with your teammates around workflow, communication, etc.
 
-However, prior starting Mod 1, it is crucial for you to reflect on what works for YOU! Obviously, this will change over the course of your Turing career as you learn more about your strengths and weaknesses, which is why this is helpful to think of as a living document.
+Prior to starting Mod 1, it is crucial for you to reflect on what works for YOU! Obviously, this will change over the course of your Turing career as you learn more about your strengths and working styles, which is why this is helpful to think of as a living document.
 
 ### Words of Wisdom
 
@@ -33,9 +33,18 @@ As you work through this document, avoid the following pitfalls:
   
 ## Preparing to DTR
 
-You will learn a lot in between now and the first paired project you are assigned in Mod 1 - technical concepts, about yourself, and what working on technical projects collaboratively can look and feel like.
+Create a section in your Mod 0 Gist entitled `DTR` and add these questions as well as your responses.
 
-Start preparing for your first DTR conversation with a future project partner by <a href="https://gist.github.com/kaitvan/9834794c2fb66bc1f405b528daa868ff" target="blank">following the directions in this Gist</a> and be prepared to share your reflections with your small group in your next session.
+Guiding Questions
+For this initial exploration into what you bring to a team, try to avoid thinking about your technical skills. Your answers to these questions should apply to any project/team that you work on:
+
+1. How would you describe your preferred working style? (Alone,in groups, etc.)
+1. What strengths do you bring to a team?
+1. What’s gone well or poorly in your previous group project settings? What can you do to either ensure those best practices carry over into projects here or to avoid common pitfalls that might come up?
+1. How do you prefer to handle disagreements that come up? (Yes, they will come up!)
+1. How do you communicate best? What tools do you need to communicate well with your teammates?
+1. How do you prefer to receive feedback? How do you prefer to give feedback?
+1. What scheduling constraints do you have? What are your preferred work times outside of normal school hours?
 
 <br>
 <br>

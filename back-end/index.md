@@ -8,7 +8,6 @@ title: Mod 0 - Back End
 
 * [Mod 0 Prework]( {{ site.baseurl }}/prework)
 
-
 ## Session 1
 ### Live Sessions
 * [Data Types]({{ site.url }}/back-end/data_types)

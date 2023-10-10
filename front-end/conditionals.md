@@ -166,13 +166,18 @@ Notice that code inside the `else` statement will only run when none of the prev
   </ul>
 </div>
 
+## Self-Teach
+Part of what you'll experience at Turing is learning a technical topic on your own. Practicing this skill at Turing will get you prepared for the job where you will do this often.
+
+Take time between now and your next session to self-teach the following section.
+
 ## Logical Operators
 
 There are three <span class="vocab">logical operators</span> in JavaScript; we will learn two today:
-- `&&` or `and`
-- `||` or `or`
+- `&&` (Logical And Operator)
+- `||` (Logical Or Operator)
 
-### `&&` or `and`
+### `&&` 
 
 This logical operator will check two values, and both **must** be true in order for it to return `true`. Examples follow:
 
@@ -193,7 +198,7 @@ age < 30 && time < 2.0
 // false (neither meet requirement)
 ```
 
-### `||` or `or`
+### `||`
 
 This logical operator will check two values, and _one_ or _both_ must be true in order for it to return true. Examples follow:
 
@@ -246,6 +251,7 @@ Now that you know about logical operators and `if statements`, let's combine tha
 
 ## Check For Understanding
 
-<a href="https://github.com/turingschool/m0_fe_conditionals" target="_blank">Follow the directions in the README of this GitHub repository</a>, and submit your fork in the submission form. 
+- <a href="https://github.com/turingschool/m0_fe_conditionals" target="_blank">Follow the directions in the README of this GitHub repository</a>.
+- Add the link to your repository to your Mod 0 Gist in a section called `Conditionals`.
 
 <br><br><br>
