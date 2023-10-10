@@ -40,7 +40,7 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 * [Methods]({{ site.url }}/back-end/methods)
 
 ### Assignment - Complete by Sunday Evening
-* [Problem Solving]({{ site.url }}/shared/problem-solving-fasttrack)
+* [Problem Solving]({{ site.url }}/shared/problem-solving)
 * [Beyond Mod 0 Plan]({{ site.url }}/shared/plan)
 * [Final Reflection Video]({{ site.url }}/shared/final-video)
 
