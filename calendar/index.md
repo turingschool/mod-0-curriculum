@@ -12,7 +12,6 @@ There are two Options for Mod 0 per Cohort: one starting 6 weeks before, and ano
     <th>Mod 1 Cohort</th>
     <th>Mod 0 - Option 1</th>
     <th>Mod 0 - Option 2</th>
-    <th>Mod 0 - Fast Track</th>
     <th>Launch</th>
   </tr>
   <tr>
@@ -20,20 +19,17 @@ There are two Options for Mod 0 per Cohort: one starting 6 weeks before, and ano
     <td>October 23-29</td>
     <td>November 6-12</td>
     <td>Not Available</td>
-    <td>Not Available</td>
   </tr>
   <tr>
     <td>2401</td>
     <td>December 11-17 (2023)</td>
     <td>January 8-14 (2024)</td>
-    <td>Not Available</td>
     <td>January 8-9</td>
   </tr>
   <tr>
     <td>2403</td>
     <td>February 12-18</td>
     <td>February 26-March 3</td>
-    <td>Not Available</td>
     <td>Not Available</td>
   </tr>
 </table>
