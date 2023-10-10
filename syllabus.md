@@ -24,18 +24,9 @@ While computer literacy skills have never been an entry requirement for students
     - `command + tab` - switch applications
 - **Navigating the Mac Environment:** There are many things that are different about using the Mac environment if you're more familiar with PC. For example, did you know that using two fingers on the trackpad allows you to scroll up and down efficiently? Did you also know that swiping up on your trackpad with three fingers allows you to see all open windows? If this is your first time using a Mac, it is highly recommended that you watch this [Mac Tutorial for Beginners](https://www.youtube.com/watch?v=67keaaWOKzE&t=0s) and spend some time getting comfortable with your new machine.
 
-## Before Your First Mod 0 Session
-There are a number of steps you must complete before attending your first session of Mod 0. 
-- [Front End Prework]( {{ site.baseurl }}/front-end)
-- [Back End Prework]( {{ site.baseurl }}/back-end)
-
-## Prework Submission
-Once you have completed all your prework items, please create a Github gist that includes the following:
-1. A header with your name, pronouns, and program (BE or FE).
-1. An "About Me" section with an introduction about who you are!
-1. A section containing your "Why".
-1. A link to your slack thread post of your loom Intro Video. (You can find this link by hovering over your slack thread post, clicking the three dots, then selecting _Copy Link_)
-1. Submit this gist [via this submission link](https://airtable.com/appx3ECzr5kwT3hpi/shrNo9qzMPYCVbp1h) by the deadline listed on the Mod 0 Calendar. (You will also submit your Mod 0 Gist via this link.)
+## Prework Submission - Before Your First Mod 0 Session
+**The prework linked below must be completed BEFORE your first session!** Reach out via Slack if you have any questions.
+* [Mod 0 Prework]( {{ site.baseurl }}/prework)
 
 ## Expectations
 

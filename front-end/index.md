@@ -1,22 +1,12 @@
 ---
 layout: page
-title: Front End - Mod 0
+title: Mod 0 - Front End
 ---
 
-All lessons and assignments for Mod 0 are listed below and organized into sessions. Reach out if you have any questions! 
+## Prework
+**The prework linked below must be completed BEFORE your first session!** Reach out via Slack if you have any questions.
 
-## Pre-Work - Complete Before Session 1
-* [Complete all Computer Setup]({{ site.url }}/computer-setup) 
-* [Read the Syllabus]({{ site.url }}/syllabus-fasttrack) 
-* [Review the Mod 0 Calendar]({{ site.url }}/calendar)
-* [Slack 101]({{ site.url }}/prework/slack101)
-* [Markdown]({{ site.url }}/prework/markdown)
-* [Terminal]({{ site.url }}/prework/terminal)
-* [VS Code]({{ site.url }}/prework/vs-code)
-* [Prep Your "Why"]({{ site.url }}/prework/why)
-* [Introduction Video]({{ site.url }}/prework/intro-video)
-* [Calendaring & Time Management]({{ site.url }}/prework/calendaring)
-* [Mod 0 Gist]({{ site.url }}/prework/mod-0-gist)
+* [Mod 0 Prework]( {{ site.baseurl }}/prework)
 
 ## Session 1
 ### Live Sessions
@@ -33,6 +23,7 @@ All lessons and assignments for Mod 0 are listed below and organized into sessio
 
 ### Assignment - Complete Before Session 3
 * [DTR Prep]({{ site.url}}/shared/dtr)
+* [Calendaring & Time Management]({{ site.url }}/prework/calendaring)
 
 ## Session 3
 ### Live Sessions
