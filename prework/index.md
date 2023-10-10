@@ -24,7 +24,7 @@ Once you have completed all your prework items, please create a new Github Gist 
 1. Be sure to save the file as a markdown file by using a `.md` file type. For example, you might name the file `kaylagordon_mod0gist.md`.
 1. Check that the Gist is public, not private.
 1. Bookmark this Gist - you will be adding to it in the future (read the Notes below)!
-1. Submit this Gist [via this submission link](https://airtable.com/appx3ECzr5kwT3hpi/shrNo9qzMPYCVbp1h) by the deadline listed on the Mod 0 Calendar.
+1. Submit this Gist [via this submission link](https://airtable.com/appx3ECzr5kwT3hpi/shrNo9qzMPYCVbp1h) no later than the Sunday before your first Mod 0 session.
 
 ## Important Notes
 Throughout Mod 0 you will have many opportunities to practice the information you learn. One of the ways we have you reflect on your learnings is by answering CFU (Check For Understanding) questions. At the end of each live lesson and homework lesson, there will be a set of CFUs for you to respond to. To track these responses, we will have you use the same Mod 0 Gist you submit as your prework. You will be able to add to this gist throughout Mod 0 and instructors will be able to see those updates and provide feedback. 
