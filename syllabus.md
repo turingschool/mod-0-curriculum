@@ -1,6 +1,6 @@
 ---
 layout:     page
-title:      Syllabus - Backend & Frontend Mod 0
+title:      Syllabus - Back End & Front End Mod 0
 ---
 
 
@@ -26,8 +26,8 @@ While computer literacy skills have never been an entry requirement for students
 
 ## Before Your First Mod 0 Session
 There are a number of steps you must complete before attending your first session of Mod 0. 
-- [Front End Prework]( {{ site.baseurl }}/fasttrack-fe)
-- [Back End Prework]( {{ site.baseurl }}/fasttrack-be)
+- [Front End Prework]( {{ site.baseurl }}/front-end)
+- [Back End Prework]( {{ site.baseurl }}/back-end)
 
 ## Prework Submission
 Once you have completed all your prework items, please create a Github gist that includes the following:
@@ -53,8 +53,8 @@ All Turing staff members will use Slack as the primary means of communication wi
 ## Grading
 While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time, implement feedback on those assignments, and demonstrate your learning in a live evaluation. Follow the links below to find all required assignments for your specific program:
 
-- [Back End Mod 0 Assignments]({{ site.baseurl }}/fasttrack-be)
-- [Front End Mod 0 Assignments]({{ site.baseurl }}/fasttrack-fe)
+- [Front End Mod 0 Assignments]({{ site.baseurl }}/front-end)
+- [Back End Mod 0 Assignments]({{ site.baseurl }}/back-end)
 
 On each program page, you will see all assignments organized into segments of work. Each segment is expected to be completed after a corresponding live session.
 
