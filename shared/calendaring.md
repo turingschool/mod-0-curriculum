@@ -95,7 +95,7 @@ The <a href="https://frontend.turing.edu/today/" target="_blank">Front End</a> a
 
 ## Check For Understanding
 
-Please create a section in your notes for **Calendaring** and record your answers to these questions. 
+Please create a section in your Mod 0 Gist for **Calendaring** and record your answers to these questions. 
 
 The following questions apply to your time as a Turing student once you start Mod 1.
 

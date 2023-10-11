@@ -23,7 +23,7 @@ title: Mod 0 - Back End
 
 ### Assignment - Complete Before Session 3
 * [DTR Prep]({{ site.url}}/shared/dtr)
-* [Calendaring & Time Management]({{ site.url }}/prework/calendaring)
+* [Calendaring & Time Management]({{ site.url }}/shared/calendaring)
 
 ## Session 3
 ### Live Sessions
