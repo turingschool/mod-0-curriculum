@@ -20,6 +20,7 @@ Some things to consider based on your needs:
 - Really thinking through your grocery, meal planning, and eating plan
 - Keeping in touch with classmates; maybe setting up some zoom calls to code together or just get to know each other
 
-Please submit your presentation in the submission form (this might be a URL to a Gist, repo, Google Doc - whatever works for you).
+
+Create a new section in your Mod 0 Gist entitled `Beyond Mod 0 Plan` and include your presention (this might be a URL to a Gist, repo, Google Doc, video - whatever works for you).
 
 <br><br><br><br><br>

@@ -33,7 +33,7 @@ title: Mod 0 - Front End
 ### Assignment - Complete by Sunday Evening
 * [Problem Solving]({{ site.url }}/shared/problem-solving)
 * [Beyond Mod 0 Plan]({{ site.url }}/shared/plan)
-* [Final Reflection Video]({{ site.url }}/shared/final-video)
+* [Final Reflections]({{ site.url }}/shared/final-reflections)
 
 ## Pre-Teach Before Mod 1
 Note: You are not expected to be experts on these topics, but you should come to Mod 1 ready to ask questions about the topics covered in these lessons.
