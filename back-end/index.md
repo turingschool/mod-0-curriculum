@@ -37,9 +37,8 @@ title: Mod 0 - Back End
 
 ## Pre-Teach Before Mod 1
 Note: You are not expected to be experts on these topics, but you should come to Mod 1 ready to ask questions about the topics covered in these lessons.
-* [Hashes]({{ site.url }}/back-end/hashes)
-* [Iteration]({{ site.url }}/back-end/iteration)
-* [Testing]({{ site.url }}/back-end/testing)
+* Pre-teach this [Testing]({{ site.url }}/back-end/testing) lesson.
+* Complete some [Ruby Exercises](https://github.com/turingschool-examples/mod-1-be-exercises/blob/main/ruby_exercises/problem-solving/spec/character_count_spec.rb). We'd like you to focus on the `data-types`, `ints-and-floats`, and `strings` folders.
 
 <br>
 <br>
