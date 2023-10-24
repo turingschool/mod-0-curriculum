@@ -113,6 +113,18 @@ Create a new project (aka directory). Make 1 file - `arrays.js`. In that file:
 - Declare a variable that stores an Array of at least 4 Booleans.
 - [_Intentionally open-ended_] Demonstrate your understanding of index positions in this file. You can write an explanation, provide some examples with the Arrays you've created, or anything else.
 
+<div class="s-card">
+  <h3>Running A File in the Terminal</h3> 
+  <p>In order to run a file in the terminal, follow these steps:</p>
+  <ul>
+    <li>Open the terminal using your shortcut command.</li>
+    <li>Make sure you are in the directory where you made your file, or <code>cd</code> into it.</li>
+    <li>Run the command <code>node fileName.js</code>.</li>
+    <li>For example, to run the code in our <code>arrays.js</code> file, we would run <code>node arrays.js</code> in the terminal.</li>
+  </ul>
+</div>
+<br>
+
 ## Check For Understanding
 
 Please create a section in your Mod 0 Gist for **Arrays** and record your answers to these questions. (Including the question is very helpful!)
