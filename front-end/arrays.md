@@ -107,10 +107,9 @@ Through reading the code snippet in the embdedd replit that follows, one can inf
 
 ## Practice
 
-Create a new project (aka directory). Make 1 file - `arrays.rb`. In that file:
+Create a new project (aka directory). Make 1 file - `arrays.js`. In that file:
 - Declare a variable that stores an Array of at least 4 Strings.
-- Declare a variable that stores an Array of at least 4 Integers.
-- Declare a variable that stores an Array of at least 4 Floats.
+- Declare a variable that stores an Array of at least 4 Numbers.
 - Declare a variable that stores an Array of at least 4 Booleans.
 - [_Intentionally open-ended_] Demonstrate your understanding of index positions in this file. You can write an explanation, provide some examples with the Arrays you've created, or anything else.
 
