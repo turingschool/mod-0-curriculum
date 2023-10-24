@@ -57,7 +57,7 @@ var students = ["Cindy", "Josiah", "Rigo"];
 <div class="s-card">
   <h3>Talking and Writing about Code</h3>
   <p>In your notebook, write down the code that follows, then write a sentence that describes what that line of code does:</p>
-  <p><code>var ticket_prices = [87, 67, 99, 90, 87];</code></p>
+  <p><code>var ticketPrices = [87, 67, 99, 90, 87];</code></p>
 </div>
 
 <br>
