@@ -41,9 +41,6 @@ I am a former educator who loves my dog. I'm excited to join Turing because...
 
 ## Intro Video Link
 [Link](URL to slack thread here...)
-
-## Mod 0 CFUs
-(Leave blank for now, but add to it after each Mod 0 session)
 ```
 
 You cannot begin Mod 0 until this prework is submitted. Reach out via Slack early if you have any questions or concerns!
