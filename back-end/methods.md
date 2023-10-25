@@ -60,7 +60,7 @@ greet_a_texan
 
 Since methods provide action to a program, they should be named accordingly; it's best practice to start them with a verb. Like variables, Ruby methods should use `snake_case` when they involve more than one word and should be written carefully to describe their role specifically without being overly verbose.
 
-Examples of function names that follow best practices:
+Examples of method names that follow best practices:
 - `get_user_input`
 - `display_followers`
 - `add_two_numbers`
