@@ -57,7 +57,7 @@ var students = ["Cindy", "Josiah", "Rigo"];
 <div class="s-card">
   <h3>Talking and Writing about Code</h3>
   <p>In your notebook, write down the code that follows, then write a sentence that describes what that line of code does:</p>
-  <p><code>var ticket_prices = [87, 67, 99, 90, 87];</code></p>
+  <p><code>var ticketPrices = [87, 67, 99, 90, 87];</code></p>
 </div>
 
 <br>
@@ -107,12 +107,23 @@ Through reading the code snippet in the embdedd replit that follows, one can inf
 
 ## Practice
 
-Create a new project (aka directory). Make 1 file - `arrays.rb`. In that file:
+Create a new project (aka directory). Make 1 file - `arrays.js`. In that file:
 - Declare a variable that stores an Array of at least 4 Strings.
-- Declare a variable that stores an Array of at least 4 Integers.
-- Declare a variable that stores an Array of at least 4 Floats.
+- Declare a variable that stores an Array of at least 4 Numbers.
 - Declare a variable that stores an Array of at least 4 Booleans.
 - [_Intentionally open-ended_] Demonstrate your understanding of index positions in this file. You can write an explanation, provide some examples with the Arrays you've created, or anything else.
+
+<div class="s-card">
+  <h3>Running A File in the Terminal</h3> 
+  <p>In order to run a file in the terminal, follow these steps:</p>
+  <ul>
+    <li>Open the terminal using your shortcut command.</li>
+    <li>Make sure you are in the directory where you made your file, or <code>cd</code> into it.</li>
+    <li>Run the command <code>node fileName.js</code>.</li>
+    <li>For example, to run the code in our <code>arrays.js</code> file, we would run <code>node arrays.js</code> in the terminal.</li>
+  </ul>
+</div>
+<br>
 
 ## Check For Understanding
 
