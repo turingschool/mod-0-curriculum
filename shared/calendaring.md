@@ -66,7 +66,7 @@ Mod 0 is short and fast! That may lead us to believe we don't have much time to 
 
 Here is an example of what your calendar might look like if you are a student in Mod 0. Notice that there is still some empty space on the calendar. That's important too! We still need some breathing room, so that we can adjust along the way.
 
-![Calendar screenshot for a Mod 0 student](assets/calendar-example.png)
+![Calendar screenshot for a Mod 0 student](../prework/assets/calendar-example.png)
 
 ## Mod 1
 
