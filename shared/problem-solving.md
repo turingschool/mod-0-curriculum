@@ -20,47 +20,6 @@ With practice, you'll get faster at problem solving, but in the beginning it can
 1. **Stuck?** Go back to your pseudocode and rethink what you might be missing. You may need to reorder your steps to continue.
 1. **Refactor.** After we've found one solution, it's always a good idea to go back and see if there's another simpler way to achieve the same result. Sometimes after solving a problem once, we are able to see it from a new perspective.
 
-<br>
-
-<div class="s-card">
-  <h3>Problem Solving Example</h3>
-  <p>Pretend your assignment is to write a function or method that accepts an array as an argument and returns a number representing the number of elements in the array. Below is one way you might use the 8 steps to Problem Solving:</p>
-  <ol>
-    <li><b>Restate the goal.</b> 
-      <br>
-        <i>"Write a function/method that counts how many elements are in an array."</i>
-    </li>
-    <li><b>Consider the data.</b> 
-      <br>
-        <i>"The parameter is an array and the return value is a number."</i>
-    </li>
-    <li><b>Ask clarifying questions.</b> 
-      <br>
-        <i>"Are there any existing methods that can count the length of an array?"</i>
-    </li>
-    <li><b>Break it down.</b> 
-      <br>
-        <i>"Write a function/method. The parameter is an array. Call a method on the array to find its length. Return the length of the array. Call the function with a couple of test arrays to check the result."</i>
-    </li>
-    <li><b>Research.</b> 
-      <br>
-        You might Google something like <i>"JavaScript/Ruby method array length"</i>
-    </li>
-    <li><b>Start coding.</b> 
-      <br>
-      Remember to call your function/method using a couple of different values to confirm your solution is behaving as expected.
-    </li>
-    <li><b>Stuck?</b>
-      <br>
-        This is a great opportunity to use what you learned about Asking Technical Questions!
-    </li>
-    <li><b>Refactor.</b>
-      <br>
-      To guide your refactoring, you might ask yourself, <i>"Can I solve this in a simpler way?"</i> or <i>"Is there a different method I can use to get the same result?"</i>
-    </li>  
-  </ol>
-</div>
-
 ## A Note About Research
 While we've all used Google a time or two, there are ways to make your search more effective. Follow the guidelines below to ensure you get the best possible results.
 - Include the programming language
