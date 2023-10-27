@@ -135,8 +135,10 @@ puts greet_a_texan("Brian")
 
 A <span class="vocab">return value</span> is either:
 
-- the last line of code run, if no `return` keyword was used OR
-- defined _explicitly_ using the `return` keyword
+- **Defined _implicity_**: By default, the last line of code automatically becomes the return value of the method. 
+<br>
+OR
+- **Defined _explicitly_**: By using the `return` keyword, we can also specify the return value of the method. 
 
 In the `add` example below, the return value is an Integer or Float, based on what values were passed in as arguments. If 2 and 3 are passed in, the return value is 5. This is called an <span class="vocab">implicit return</span>. <strong>Ruby automatically returns the value of the last expression in a method if no `return` is present.</strong> For this reason, if we want to return the value of the last expression in a method, we usually do not use the `return` keyword, as it is considered redundant and unnecessary. 
 
