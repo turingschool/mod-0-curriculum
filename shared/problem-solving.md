@@ -56,7 +56,7 @@ With practice, you'll get faster at problem solving, but in the beginning it can
     </li>
     <li><b>Refactor.</b>
       <br>
-      To guide your refactoring, you might ask yourself, <i>"Can I solve this in a simpler way?"</i> or <i>"Is there a different method I can use to get the same result?"</i>
+      Try asking yourself, <i>"Can I solve this in a simpler way?"</i> or <i>"Is there a different method I can use to get the same result?"</i>
     </li>  
   </ol>
 </div>
