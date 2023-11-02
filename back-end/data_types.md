@@ -152,7 +152,9 @@ deposit_paid
 ### <code>puts</code> vs <code>print</code>
 In an irb session, simply calling a variable returns the value stored in that variable and irb shows you that return value in the terminal. The value after the `=>` symbol is the return value. However, when you start working in a ruby file, the return value does not show! It's there, but it doesn't visually show on the screen.
 
-In order to visually see the return value of a variable, we can use the `puts` or `print` command before any variable or even data to see that value printed to the console. Take a look at <a href="https://replit.com/@turingschool/ruby-puts-print#main.rb" target="blank">this replit</a> to see those commands in action.
+In order to visually see the return value of a variable, we can use the `puts` or `print` command before any variable or even data to see that value printed to the console. 
+
+The difference between the two is that <code>puts</code> will log each statment to the console on a new line, while <code>print</code> will log statements side by side, without any spacing in between. Take a look at <a href="https://replit.com/@turingschool/ruby-puts-print#main.rb" target="blank">this replit</a> to see those commands in action.
 
 ## Practice
 

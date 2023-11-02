@@ -34,14 +34,14 @@ To define our own method, we'll use the following guidelines:
 - The `def` and `end` keywords act like bookends for the code block. 
 - Following the keyword `def`, we assign our method a name. It's best if the name describes what the method _does_.
 - The code block is indented and contains all of the "instructions" for what the method should do when it is called.
-- The value that follows the `return` keyword is the data that the method will return when it is called.
+- The value on the last line of the code block is the data that the method will return when it is called.
 
 In the method below, the code block has only one line, but it's important to note that there could be many lines of code within the code block, describing the steps that a method should follow. You can even include other things we've learned like conditionals and built-in methods within your code block.
 
 ```ruby
 # method definition
 def greet_a_texan
-  return "Howdy, partner!"
+  "Howdy, partner!"
 end
 ```
 
@@ -60,7 +60,7 @@ greet_a_texan
 
 Since methods provide action to a program, they should be named accordingly; it's best practice to start them with a verb. Like variables, Ruby methods should use `snake_case` when they involve more than one word and should be written carefully to describe their role specifically without being overly verbose.
 
-Examples of function names that follow best practices:
+Examples of method names that follow best practices:
 - `get_user_input`
 - `display_followers`
 - `add_two_numbers`
@@ -105,7 +105,7 @@ Without possibly having all the information about Ruby syntax, you probably made
 ```ruby
 # name is a parameter
 def greet_a_texan(name)
-  return "Howdy, #{name}!"
+  "Howdy, #{name}!"
 end
 
 # "Kaitlyn" is the argument for this method call
@@ -135,8 +135,21 @@ puts greet_a_texan("Brian")
 
 A <span class="vocab">return value</span> is either:
 
-- defined _explicitly_ using the `return` keyword OR
-- is the last line of code run, if no `return` keyword was used
+- **Defined _implicity_**: By default, the last line of code automatically becomes the return value of the method. 
+<br>
+OR
+- **Defined _explicitly_**: By using the `return` keyword, we can also specify the return value of the method. 
+
+In the `add` example below, the return value is an Integer or Float, based on what values were passed in as arguments. If 2 and 3 are passed in, the return value is 5. This is called an <span class="vocab">implicit return</span>. <strong>Ruby automatically returns the value of the last expression in a method if no `return` is present.</strong> For this reason, if we want to return the value of the last expression in a method, we usually do not use the `return` keyword, as it is considered redundant and unnecessary. 
+
+```ruby
+def add(num1, num2)
+  num1 + num2
+end
+
+add(2, 3)
+# => 5 (return value is 5 since that's the sum of 2+3, and on the last line of the method)
+```
 
 In the `subtract` example below, the return value will be whatever is stored in the `difference` variable. If 10 and 7 are passed in as arguments, the return value is 3 because the last line of the method uses the `return` keyword to return the `difference` variable. This is called an <span class="vocab">explicit return</span>.
 
@@ -150,20 +163,9 @@ subtract(10, 7)
 #  => 3 (return value is 3 since it is stored in the difference variable, and the last line of the method uses the return keyword)
 ```
 
-In the `add` example below, the return value is an Integer or Float, based on what values were passed in as arguments. If 2 and 3 are passed in, the return value is 5. This is called an <span class="vocab">implicit return</span>. <strong>Ruby automatically returns the value of the last expression in a method if no `return` is present.</strong> For this reason, if we want to return the value of the last expression in a method, we usually do not use the `return` keyword, as it is considered redundant and unnecessary. 
-
-```ruby
-def add(num1, num2)
-  num1 + num2
-end
-
-add(2, 3)
-# => 5 (return value is 5 since that's the sum of 2+3, and on the last line of the method)
-```
-
 <div class="s-card s-border-yellow-500">
   <h3>Best Practices</h3> 
-  <p>Typically, we do not include an explicit <code>return</code> unless it is absolutely necessary. Since ruby methods automatically <code>return</code> the  value of the last line, it's common practice to use <em>implicit</em> returns like in the example above.</p>
+  <p>Typically, we do not include an explicit <code>return</code> unless it is absolutely necessary. Since ruby methods automatically <code>return</code> the  value of the last line, it's common practice to use <em>implicit</em> returns like in the first example above.</p>
 </div>
 <br>
 
@@ -223,7 +225,8 @@ puts sum2
     <li>A method is a packaged set of directions. If the method is never <em>called</em>, it will never run. And a method can be called many times, if needed!</li>
     <li>The number of arguments in a method call must match the number of parameters in the method definition.</li>
     <li>Method names should start with a verb and use <code>snake_case</code>.</li>
-    <li>The value after the <code>return</code> keyword is the data that will be returned when a method is called.</li>
+    <li>With an <em>implicit return</em>, the value on the last line of the code block is the data that will be returned when a method is called.</li>
+    <li>With an <em>explicit return</em>, the value after the <code>return</code> keyword is the data that will be returned when a method is called.</li>
   </ul>
 </div>
 <br>
