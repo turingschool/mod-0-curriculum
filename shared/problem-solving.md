@@ -93,7 +93,7 @@ Before continuing, take some time to reflect on the following questions.
 
 <div class="s-card">
   <h3>Challenge 3</h3>
-  <p>Write a method or function that takes in an argument of a number that represents the current time to the closest hour in 24-hour military time. (i.e. 11 = 11:00 AM, 16 = 4:00 PM). The function should return a different greeting based on the time of day.</p>
+  <p>Write a method or function that accepts a number from 1-24 that represents the current time rounted to the closest hour in 24-hour military time. (i.e. 11 = 11:00 AM, 16 = 4:00 PM). The function should return a different greeting based on the time of day.</p>
   <ul>
     <li>4 AM - 11 AM: Good morning!</li>
     <li>12 PM - 4 PM: Good afternoon!</li>
