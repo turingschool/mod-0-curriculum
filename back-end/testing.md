@@ -21,7 +21,7 @@ title: Intro to Testing
 
 ## Tests
 
-In software, it is common to write automated <span class="vocab">tests</span> to verify that our code behaves the way we want it to and doesn't have any negative or unexpected side affects (bugs) on any other part of a project. These tests are usually written in the same language the code itself is in, with the help of a tool that is usually categorized as a <span class="vocab">testing framework</span>.
+In software, it is common to write automated <span class="vocab">tests</span> to verify that our code behaves the way we want it to and doesn't have any negative or unexpected side effects (bugs) on any other part of a project. These tests are usually written in the same language the code itself is in, with the help of a tool that is usually categorized as a <span class="vocab">testing framework</span>.
 
 ### File Structure
 
