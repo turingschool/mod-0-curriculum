@@ -105,7 +105,7 @@ Before continuing, take some time to reflect on the following questions.
 <br>
 
 <div class="s-card">
-  <h3>Challenge 4</h3>
+  <h3>Challenge 4 - OPTIONAL! Spicy!</h3>
   <p>Write a method or function that accepts an array of 10 integers (between 0 and 9) and returns a string of those numbers in the form of a phone number. For example, if you were given <code>[5, 5, 5, 1, 2, 3, 4, 5, 6, 7]</code>, the method or function will return <code>555-123-4567</code>.</p>
 </div>
 
