@@ -3,7 +3,7 @@ layout: page
 title: Mod 0 Calendar
 ---
 
-There are two Options for Mod 0 per Cohort: one starting 6 weeks before, and another starting 3 weeks before your first Mod 1 course. You can choose whichever Mod 0 course works best for your schedule. You can expect to work 18-20 hours/week during the three-week period. Each Mod 0 course includes 5 total live sessions, held remotely over Zoom.
+There are two Options for Mod 0 per Cohort: one starting 5 weeks before, and another starting 3 weeks before your first Mod 1 course. You can choose whichever Mod 0 course works best for your schedule. You can expect to work 18-20 hours/week during the three-week period. Each Mod 0 course includes 3 total live sessions, held remotely over Zoom.
 
 ## Upcoming Mod 0 Start Dates
 
