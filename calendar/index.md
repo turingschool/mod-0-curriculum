@@ -16,8 +16,8 @@ There are two Options for Mod 0 per Cohort: one starting 5 weeks before, and ano
   </tr>
   <tr>
     <td>2401</td>
-    <td>Not Available</td>
-    <td>January 8-14 (2024)</td>
+    <td>January 8-14</td>
+    <td>January 15-21</td>
     <td>Not Available</td>
   </tr>
   <tr>
