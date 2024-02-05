@@ -9,19 +9,22 @@ There are two Options for Mod 0 per Cohort: one starting 5 weeks before, and ano
 
 <table>
   <tr>
-    <th>Mod 1 Cohort</th>
+    <th>Mod 1 Cohort (Start Date)</th>
     <th>Mod 0 - Option 1</th>
     <th>Mod 0 - Option 2</th>
   </tr>
   <tr>
-    <td>2401</td>
-    <td>January 8-14</td>
-    <td>January 15-21</td>
+    <td>2403 (March 18)</td>
+    <td>February 12 - 18</td>
+    <td>February 26 - March 3</td>
   </tr>
-  <tr>
-    <td>2403</td>
-    <td>February 12-18</td>
-    <td>February 26-March 3</td>
+    <tr>
+    <td>2405 (May 6)</td>
+    <td>April 22 - 28</td>
+  </tr>
+    <tr>
+    <td>2407 (July 1)</td>
+    <td>June 10 - 16</td>
   </tr>
 </table>
 
