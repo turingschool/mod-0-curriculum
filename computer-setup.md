@@ -363,8 +363,8 @@ To write JavaScript in the command line and use essential "packages" while build
   1. Use `cmd + q` to close the Terminal. Then, re-open it.
   1. Run `command -v nvm`. You should see the output `nvm`, which confirms `nvm` has been properly installed.
 - Install and change to the latest stable version.
-  1. In the Terminal, run `nvm install 16.15.1`.
-  1. Run `nvm use 16.15.1`. The output should say _something_ like `Now using node -v16.15.1 (npm v8.11.0)`.
+  1. In the Terminal, run `nvm install --lts`.
+  1. Run `nvm use --lts`. The output should say _something_ like `Now using node v18.18.2 (npm v9.8.1)`. It's okay if those numbers differ - It'll show whatever the latest version is. 
 
 <br>
 
