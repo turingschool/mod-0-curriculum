@@ -42,6 +42,7 @@ Use the tips and guidance that follows to ensure you complete it successfully.
 <br/>
 
 - For the filename, follow this format: `firstName_lastName_mod_0_plan.md`. **Note:** It's important that you add the correct file extension `.md`.
+- Make sure you save this as a 'secret gist' - this just means that only people with the link can see it!
 <br/>
 <br/>
 

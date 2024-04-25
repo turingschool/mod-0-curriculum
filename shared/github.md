@@ -27,7 +27,7 @@ GitHub is a cloud-based Git repository where developers can store and manage the
 
 Before we dive into creating GitHub repositories, let's take a moment to get comfortable looking at the key information provided to us on a GitHub repository. Open up <a href="https://github.com/letakeane/emotican-app" target="_blank">this GitHub repository</a> to identify some key pieces of information.
 
-<img src="./assets/leta-gh-repo.png" alt="Screen shot of Leta's GitHub repo">
+<img src="./assets/curriculum-repo-page.png" alt="Screen shot of a GitHub repo">
 
 <div class="s-card s-border-yellow-500">
   <h3>Key Information on a GitHub Repository</h3>
