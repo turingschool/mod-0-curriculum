@@ -5,7 +5,7 @@ title:      Syllabus - Back End & Front End Mod 0
 
 
 ## Your Instructors
-The current Mod 0 Lead is Eric Weissman, our Pre-Program Instructor at Turing. If you have any questions about the course or computer setup, Eric is the person to contact! You can find him on Slack. Eric and a team of Pre-Program Teaching Assistants run sessions and provide students feedback throughout Mod 0. They're an all-star team of Turing alumni and current software developers who have a passion for supporting students as they begin their journey at Turing.
+The current Mod 0 Lead is Megan McMahon. If you have any questions about the course or computer setup, Megan is the person to contact! You can find her on Slack. Megan and a team of Pre-Program Teaching Assistants run sessions and provide students feedback throughout Mod 0. They're an all-star team of Turing alumni and current software developers who have a passion for supporting students as they begin their journey at Turing.
 
 ## Description
 Mod 0 is a prerequisite course for attending Turing. The primary focus of the course is setting students up with the necessary tools and programming foundations to be successful in the full-time course. Students will be evaluated throughout the course on their communication, collaboration, and technical skills.
