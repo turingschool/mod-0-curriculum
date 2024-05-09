@@ -56,5 +56,7 @@ Use *relative* links instead of *absolute* links.
 - Replace any `|` with `\|` unless you're really trying to do a table
 
 
-## Important Note
+## Important Note About Mod 0 Versions
+In August 2023, we trimmed Mod 0 from 3 weeks to 1 week. The [`snapshot-3weeks`](https://github.com/turingschool/mod-0-curriculum/tree/snapshot-3weeks) branch contains the 3 week Mod 0 version, should we ever want to return to that model.
+
 In May 2024, we consolidated the curriculum to one program. The [`snapshot-two-programs`](https://github.com/turingschool/mod-0-curriculum/tree/snapshot-two-programs) branch contains the Mod 0 for the frontend and backend programs, should we ever want to return to that model.
