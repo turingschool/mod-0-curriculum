@@ -1,11 +1,7 @@
 ---
 layout:     page
-title:      Syllabus - Back End & Front End Mod 0
+title:      Syllabus - Mod 0
 ---
-
-
-## Your Instructors
-The current Mod 0 Lead is Megan McMahon. If you have any questions about the course or computer setup, Megan is the person to contact! You can find her on Slack. Megan and a team of Pre-Program Teaching Assistants run sessions and provide students feedback throughout Mod 0. They're an all-star team of Turing alumni and current software developers who have a passion for supporting students as they begin their journey at Turing.
 
 ## Description
 Mod 0 is a prerequisite course for attending Turing. The primary focus of the course is setting students up with the necessary tools and programming foundations to be successful in the full-time course. Students will be evaluated throughout the course on their communication, collaboration, and technical skills.
@@ -42,12 +38,9 @@ You can expect to work 18-20 hours throughout Mod 0, including the prework. Each
 All Turing staff members will use Slack as the primary means of communication with students. As an incoming student, any information you need can usually be found in our Turing Slack workspace. As a norm, we expect members of our community to respond to Slack messages within 24 hours.
 
 ## Grading
-While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time, implement feedback on those assignments, and demonstrate your learning in a live evaluation. Follow the links below to find all required assignments for your specific program:
+While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time, implement feedback on those assignments, and demonstrate your learning in a live evaluation. 
 
-- [Front End Mod 0 Assignments]({{ site.baseurl }}/front-end)
-- [Back End Mod 0 Assignments]({{ site.baseurl }}/back-end)
-
-On each program page, you will see all assignments organized into segments of work. Each segment is expected to be completed after a corresponding live session.
+On [this page](/lessons/index.md), you will see all assignments organized into segments of work. Each segment is expected to be completed after a corresponding live session.
 
 ## Required Supplies
 This may be your first time learning and/or working in a remote setting. There are a few key tools we recommend to set yourself up for success as a remote student.
