@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mod 0 - Back End & Front End Prework
+title: Mod 0 - Prework
 ---
 
 **The prework linked below must be completed BEFORE your first session!** Reach out via Slack if you have any questions.

@@ -80,7 +80,7 @@ When it comes to the way they spend their time, there are two major pitfalls we 
 
 Since each Mod is only 6 weeks long, if you fall behind by one week, it can be really hard to catch up. Having a proactive and realistic plan is the best way to set yourself up for success.
 
-The <a href="https://frontend.turing.edu/today/" target="_blank">Front End</a> and <a href="https://backend.turing.edu/additional_resources/calendars" target="_blank">Back End</a> calendars are available for you to add to your calendar or bookmarks. These calendars won't _yet_ have detailed agendas for your first few weeks, but you can revisit the first few weeks of the previous inning (either 7 or 8 weeks before your start date) to understand what your first few weeks will look like. The calendar is subject to change slightly, but this will give you an idea of what the day-to-day experience will be like.
+The <a href="https://backend.turing.edu/additional_resources/calendars" target="_blank">module calendars</a> are available for you to add to your calendar or bookmarks. These calendars won't _yet_ have detailed agendas for your first few weeks, but you can revisit the first few weeks of the previous inning (either 7 or 8 weeks before your start date) to understand what your first few weeks will look like. The calendar is subject to change slightly, but this will give you an idea of what the day-to-day experience will be like.
 
 <div class="s-card">
   <h3>Mod 1 Calendar</h3>

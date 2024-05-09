@@ -352,7 +352,7 @@ SSH keys are a secure and convenient way to authenticate. We won't get into more
 
 ### Install Node
 
-To write JavaScript in the command line and use essential "packages" while building apps, `node` and `npm` must be on the machine. `nvm` allows us to easily change the version of node our machine is using. This applies to both Front End and Back End students.
+To write JavaScript in the command line and use essential "packages" while building apps, `node` and `npm` must be on the machine. `nvm` allows us to easily change the version of node our machine is using. 
 
 **Action Items:**
 - Install `nvm` and verify it was installed correctly by taking the following steps:
