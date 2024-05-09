@@ -54,3 +54,7 @@ Use *relative* links instead of *absolute* links.
 - Put a space after your `#`'s in headers
 - Put a blank line between your headers and any content below
 - Replace any `|` with `\|` unless you're really trying to do a table
+
+
+## Important Note
+In May 2024, we consolidated the curriculum to one program. The [`snapshot-two-programs`](https://github.com/turingschool/mod-0-curriculum/tree/snapshot-two-programs) branch contains the Mod 0 for the frontend and backend programs, should we ever want to return to that model.
