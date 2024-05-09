@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mod 0 
+title: Mod 0 - Lessons
 ---
 
 ## Prework

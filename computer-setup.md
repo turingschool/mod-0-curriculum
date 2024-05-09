@@ -1,6 +1,6 @@
 ---
 layout:     page
-title:      Computer Setup
+title:      Mod 0 - Computer Setup
 permalink:  computer-setup
 ---
 

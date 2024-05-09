@@ -1,6 +1,6 @@
 ---
 layout:     page
-title:      Syllabus - Mod 0
+title:      Mod 0 - Syllabus
 ---
 
 ## Description
