@@ -40,7 +40,7 @@ All Turing staff members will use Slack as the primary means of communication wi
 ## Grading
 While we don't have a traditional grading scale at Turing, your successful completion of this course depends on your ability to complete assignments on time, implement feedback on those assignments, and demonstrate your learning in a live evaluation. 
 
-On [this page](/lessons/index.md), you will see all assignments organized into segments of work. Each segment is expected to be completed after a corresponding live session.
+On [this page](/lessons), you will see all assignments organized into segments of work. Each segment is expected to be completed after a corresponding live session.
 
 ## Required Supplies
 This may be your first time learning and/or working in a remote setting. There are a few key tools we recommend to set yourself up for success as a remote student.
