@@ -99,8 +99,8 @@ Please create a section in your Mod 0 Gist for **Calendaring** and record your a
 
 The following questions apply to your time as a Turing student once you start Mod 1.
 
-1. What times will you dedicate to pre-teaching the upcoming lesson?
-1. What times will you dedicate to reviewing lessons?
+1. What time will you dedicate to pre-teaching upcoming lessons?
+1. What time will you dedicate to reviewing lessons?
 1. What time will you dedicate to project work time? (Sometimes you will have time during class hours to work on projects.)
 1. What time are you carving out for your own mental and emotional health needs? 
 1. How will you spend your weekends?

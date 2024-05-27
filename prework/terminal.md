@@ -50,7 +50,7 @@ In the diagram below, we would say that there's a directory called `essays` that
     <li>A file cannot be inside of another file. This means that every part of the path <strong>before</strong> the actual file is a directory. </li>
     <li>For now, we will follow two naming conventions: </li>
     <ul>
-      <li>Use lower case letters when naming directories and files.</li>
+      <li>Use lowercase letters when naming directories and files.</li>
       <li>Use underscores (_) or hyphens (-) instead of spaces when naming directories and files. However, keep in mind that different languages and frameworks have different conventions. Rather than arguing over which approach is "correct" (you'll find a lot of this on the internet), it is more important to pick an approach and be consistent. For today's lesson, we'll use the underscore (_) convention.</li>
     </ul>
     <li>Folders do not have extensions (like <strong>.docx</strong> or <strong>.md</strong> or <strong>.csv</strong>, etc.). File names do have extensions.</li>

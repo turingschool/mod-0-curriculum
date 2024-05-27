@@ -22,7 +22,7 @@ Once you have completed all your prework items, please create a new Github Gist 
 1. An "About Me" section with an introduction about who you are and why you decided to come to Turing.
 1. A link to your slack thread post of your loom Intro Video. (You can find this link by hovering over your slack thread post, clicking the three dots, then selecting _Copy Link_)
 1. Be sure to save the file as a markdown file by using a `.md` file type. For example, you might name the file `kaylagordon_mod0gist.md`.
-1. Check that the Gist is public, not private.
+1. Check that you save this as a secret gist, not a public one.
 1. Bookmark this Gist - you will be adding to it in the future (read the Notes below)!
 1. Submit this Gist [via this submission link](https://airtable.com/appx3ECzr5kwT3hpi/shrNo9qzMPYCVbp1h) no later than the Sunday before your first Mod 0 session.
 
