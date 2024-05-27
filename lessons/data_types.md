@@ -22,12 +22,12 @@ title: Data Types
 
 ## Where To Run Code
 
-By the end of this lesson, you'll be able to use the your Terminal, specifically a tool called <span class="vocab"><code>irb</code></span>, to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. `irb` will allow you to explore and learn Ruby and test out code you've written in a low-stakes environment. It is quick and easy to open up the Terminal and run your code immediately.
+By the end of this lesson, you'll be able to use the Terminal, specifically a tool called <span class="vocab"><code>irb</code></span>, to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. `irb` will allow you to explore and learn Ruby and test out code you've written in a low-stakes environment. It is quick and easy to open up the Terminal and run your code immediately.
 
 ### `irb`: Tips & Tricks
 
 - Open the Terminal quickly with keyboard shortcut `cmd + space` to open Spotlight. Then start typing "terminal" and it should auto-fill. Press `return`. _Note: there are other ways to open your Terminal but keyboard shortcuts are most efficient and the norm in the industry_.
-- Regardless of your working directory, you can type `irb` then press `return` to open up an what is referred to as an "irb session". A prompt that looks something like `irb(main):001:0>` will appear; you'll eventually type code to the right of that.
+- Regardless of your working directory, you can type `irb` then press `return` to open up what is referred to as an "irb session". A prompt that looks something like `irb(main):001:0>` will appear; you'll eventually type code to the right of that.
 - The font size of your terminal can be increased or decreased with shortcuts `cmd + +` or `cmd + -`.
 - To exit the `irb` session, type `exit` in all lowercase, then press `return`.
 
@@ -97,7 +97,7 @@ If our Ruby program has data stored in variables, we are able to reference those
 ### Best Practices for Naming Variables
 
 Naming can be hard, but is important to be thoughtful about and follow conventions of the language you are working with so that your code is easily accessible and readable for those you are collaborating with. A few key points:
-- All Ruby variables should use `snake_case` - all characters should be lower cased; in multi-word variables, words should be separated with an underscore.
+- All Ruby variables should use `snake_case` - all characters should be lowercase; in multi-word variables, words should be separated with an underscore.
 - Variable names should describe the type of data they hold without being overly verbose or specific (examples: `name`, `email`, etc. non-examples: `x`, `ftga23`, `name_of_incoming_mod_1_back_end_student`).
 
 <div class="s-card">
@@ -154,13 +154,13 @@ In an irb session, simply calling a variable returns the value stored in that va
 
 In order to visually see the return value of a variable, we can use the `puts` or `print` command before any variable or even data to see that value printed to the console. 
 
-The difference between the two is that <code>puts</code> will log each statment to the console on a new line, while <code>print</code> will log statements side by side, without any spacing in between. Take a look at <a href="https://replit.com/@turingschool/ruby-puts-print#main.rb" target="blank">this replit</a> to see those commands in action.
+The difference between the two is that <code>puts</code> will log each statement to the console on a new line, while <code>print</code> will log statements side by side, without any spacing in between. Take a look at <a href="https://replit.com/@turingschool/ruby-puts-print#main.rb" target="blank">this replit</a> to see those commands in action.
 
 ## Practice
 
-*Note:* If at anytime you have questions, please ask them in your slack channel. This is the main resource we will use for asking questions at Turing.
+*Note:* If at anytime you have questions, please ask them in your Slack channel. This is the main resource we will use for asking questions at Turing.
 
-1. Create a new directory called `variable_practice`.
+1. Create a new directory called `variable_practice` and `cd` into it.
 1. Inside that directory, create a file called `variables.rb`.
 1. In your `variables.rb` file, add a few variables that are assigned to Strings.
 1. In your `variables.rb` file, add a few variables that are assigned to Integers.
