@@ -42,7 +42,7 @@ title: Mod 0 - Lessons
 ## Complete Before Mod 1
 Note: You are not expected to be experts on these topics, but you should come to Mod 1 ready to ask questions about the topics covered in these lessons.
 * Pre-teach this [Testing]({{ site.url }}/lessons/testing) lesson.
-* Complete some [Ruby Exercises](https://github.com/turingschool-examples/mod-1-be-exercises). We'd like you to focus on the `data-types`, `ints-and-floats`, and `strings` folders.
+* Complete some [Ruby Exercises](https://github.com/turingschool-examples/se-mod1-exercises). We'd like you to focus on the `data-types`, `ints-and-floats`, and `strings` folders.
 
 <br>
 <br>
