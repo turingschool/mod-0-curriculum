@@ -62,7 +62,7 @@ To ensure that you are prepared for your first session:
 - Watch the [Slack Tutorial Video](https://www.youtube.com/watch?v=tfq333EpWgM).
 - Read [Slack 101](https://frontend.turing.edu/lessons/module-1/slack101.html) to understand how to take advantage of the most useful features in Slack.
 - Upload a clear and appropriate headshot for your profile image.
-- [Set up your Slack profile](https://www.loom.com/share/6f10b796c90f40c09594899d71bf401a) to include your cohort, program, pronouns, and time zone.
+- [Set up your Slack profile](https://www.loom.com/share/6f10b796c90f40c09594899d71bf401a) to include your cohort and program (ex: 2407SE), pronouns, and time zone.
 - It's a good idea to get in the habit of checking Slack daily starting now.
 <br>
 
@@ -94,7 +94,7 @@ Zoom is the primary tool for classroom time, study halls, and community building
 **Action Steps:**
 - [Download and install Zoom](https://zoom.us/download/) for _Macs with Apple Silicon chips_
 - If you haven't already, create an account with Zoom.
-- [Update your name in your profile](https://support.zoom.us/hc/en-us/articles/201363203-My-Profile) following this pattern: First Name, Last Initial, pronouns, Program - `Kaitlyn V (she/her), FE`.
+- [Update your name in your profile](https://support.zoom.us/hc/en-us/articles/201363203-My-Profile) following this pattern: First Name, Last Initial, pronouns, Program - `Kaitlyn V (she/her), SE`.
 - [Learn how to raise your hand](https://support.zoom.us/hc/en-us/articles/205566129-Raise-Hand-In-Webinar).
 - Give your Zoom account screen sharing permission and microphone permission.
 

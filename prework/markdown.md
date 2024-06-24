@@ -16,7 +16,7 @@ title: Markdown
 
 ## Reminder
 
-If at any time throughout this lesson you feel lost, are unsure of something, or have questions, please add those to your Mod 0 slack channel! We will continue to utilize slack as your main communication hub during your time at Turing so interacting with this tool early and often will help you become comfortable using it.
+If at any time throughout this lesson you feel lost, are unsure of something, or have questions, please add those to your Mod 0 Slack channel! We will continue to utilize Slack as your main communication hub during your time at Turing so interacting with this tool early and often will help you become comfortable using it.
 
 ## Gists on GitHub
 
