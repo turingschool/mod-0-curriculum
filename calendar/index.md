@@ -3,7 +3,7 @@ layout: page
 title: Mod 0 - Calendar
 ---
 
-Mod 0 is schedule for 1-2 weeks before your cohort start date. You can expect to work 18-20 hours/week during the Mod 0 period. Each Mod 0 course includes 3 total live sessions, held remotely over Zoom.
+Mod 0 is scheduled for 1-2 weeks before your cohort start date. You can expect to work 18-20 hours/week during the Mod 0 period. Each Mod 0 course includes 3 total live sessions, held remotely over Zoom.
 
 ## Upcoming Mod 0 Start Dates
 
@@ -23,7 +23,7 @@ Mod 0 is schedule for 1-2 weeks before your cohort start date. You can expect to
 </table>
 
 
-## Mod 0 BE & FE Google Calendar
+## Mod 0 Google Calendar
 
 You can find individual session days and times on the Google calendar linked below. Use the small `+` sign in the bottom right corner to add this calendar to your Google calendar.
 
