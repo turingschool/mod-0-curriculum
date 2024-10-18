@@ -18,7 +18,7 @@ Mod 0 is scheduled for 1-2 weeks before your cohort start date. You can expect t
   </tr>
   <tr>
     <td>2412 (Dec 2)</td>
-    <td>November 4 - November 10</td>
+    <td>November 11 - November 15</td>
   </tr>
 </table>
 
