@@ -1,6 +1,8 @@
 ---
 layout: main
 title: Home
+redirect: https://curriculum.turing.edu/module0/
+layout: redirect
 ---
 
 <section class="splash">
